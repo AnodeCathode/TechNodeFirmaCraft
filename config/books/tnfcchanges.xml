@@ -1,0 +1,42 @@
+<book title="TechnodeFirmaCraft"> 
+  <chapter>
+    <section>
+      <p color="#606060" space="8">This book is a work in progress.</p>
+    </section>
+    <section>
+      <page_title>
+        <title>TechnodeFirmaCraft Changelog</title>
+      </page_title>
+          <p>Welcome to the first beta release of TechnodeFirmaCraft for MC 1.12.2</p>
+          
+          <p>A lot of work has got us to this point, but there is a lot of work left to go. At this point we need your assistance to get us the polish and shine that TNFC was known for.</p>
+          <p>TFC-NG or TNG has brought the vast majority of the TFC systems to 1.12.2. Some got left behind but overall the mod is very slick and well put together.</p>  
+          <p>We've added some new mods, some familiar mods from 1.7.10 and hope to get them all working together to provide a long and interesting experience from Stone Age to the beyond.</p>
+          
+          <p>As it stands now:</p>
+          
+          <p>The basic set of mods are in place. The core oregen should be in place. This means that worlds should be stable as we update the other bits.</p> 
+          <p>The other bits will be scripty stuff to integrate mods in, change recipes, change machine mechanics and config changes to balance things out.</p>
+          <p>We can't promise a no-restart-ever future for TNFC but I believe it's pretty stable and you should be able to continue with a world along many TNFC updates.</p>
+          
+          <p>The progression path is similar to 1.7.10 TNFC.</p>
+          <p>The core initial gameplay is very much the TFC experience. You will need to progress with TFC to at least the Iron Age before the features and benefits (and jetpacks) in TNFC start to become feasible.</p>
+          <p>The BetterWithMods, Astikorcarts and HorsePower mods allow some early automation and are worth exploring. Once solidly into Iron, Immersive Engineering will open up. Most of it will be gated by steel, so it's wise to continue along the TFC progression (ideally all the way to coloured steels). Immersive Engineering and Petroleum will open up a lot of options.</p>
+          <p>As soon as we get explody bits in TFC, you will then be able to open up PneumaticCraft. </p>
+          
+          <p>The work thus far has focused on the early-ish game. We think we like the various settings and recipes.</p>
+          <p>But this is where you come in. We need you to let us know about all the issues. Something exploitable, or impossible, or just excessively expensive?</p>
+          <p>Need to know where we need to continue to polish things.</p>
+          <p>At the same time, the Rockhound Chemistry mod still needs a lot of machine integrations. The early pieces are there, but a lot of machine scripts need to be written. So I recommend saving those 'Uninspected Minerals' that you may find while mining the best ores.</p>
+          <p>Also, the IE hemp seeds no longer come from zombies. Instead, if you want Hemp you gotta get high. If that's not enough of a clue, come and talk to me on the TFC or TNFC Discord and I'll help out.</p>
+          
+          <p>The Issues link on the Main Page will take you to the Github repo for TNFC_Mod. Where we're going to corral and work the issues.</p>
+          <p>Get your issues in. Suggestions, ideas, and requests are all good too.</p>
+          
+          
+          <p><link href="http://github.com/anodecathode/tnfc_mod">TNFC Github</link></p>
+          
+          <p>Good luck.</p>
+    </section>
+  </chapter>
+</book>
