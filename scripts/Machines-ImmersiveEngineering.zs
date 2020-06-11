@@ -10,7 +10,7 @@ import crafttweaker.item.IItemStack;
 	
 	mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <tfc:ore/bituminous_coal>, 900);
   mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <tfc:ore/lignite>, 900);
-
+  mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 100, <ore:logWoodTannin>, 1200);
 // BlastFurnace
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
     

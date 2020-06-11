@@ -1,6 +1,6 @@
 #priority 2
 
-
+<minecraft:iron_ingot>.displayName = "Improved Iron Ingot";
 <betterwithmods:wool_helmet>.displayName = "Cloth Cap";
 <betterwithmods:wool_chest>.displayName = "Cloth Tunic";
 <betterwithmods:wool_pants>.displayName = "Cloth Pants";
