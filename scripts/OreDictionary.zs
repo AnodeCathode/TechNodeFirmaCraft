@@ -20,7 +20,10 @@ val oreDictEnt = <ore:fabricHemp>;
 	<tfc:crop/product/burlap_cloth>
 	]);
   
-  	
+var compoundGraphite = <ore:compoundGraphite>;
+    compoundGraphite.addItems([
+        <tfc:ore/graphite>
+	]);
 
 var chestWood = <ore:chestWood>;
     chestWood.addItems([

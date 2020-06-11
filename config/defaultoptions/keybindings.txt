@@ -21,7 +21,7 @@ key_key.spectatorOutlines:0:NONE
 key_key.swapHands:33:NONE
 key_key.saveToolbarActivator:71:NONE
 key_key.loadToolbarActivator:71:NONE
-key_key.advancements:71:NONE
+key_key.advancements:38:NONE
 key_key.hotbar.1:2:NONE
 key_key.hotbar.2:3:NONE
 key_key.hotbar.3:4:NONE
@@ -36,30 +36,29 @@ key_Scene2 start/pause:71:NONE
 key_Scene3 start/pause:71:NONE
 key_Scene reset:71:NONE
 key_Quest Log:71:NONE
-key_key.ftbutilities.nbt:49:ALT
-key_key.ftbutilities.trash:211:NONE
-key_openblocks.keybind.vario_switch:47:NONE
+key_key.ftbutilities.nbt:71:NONE
+key_key.ftbutilities.trash:71:NONE
+key_openblocks.keybind.vario_switch:71:NONE
 key_openblocks.keybind.vario_vol_up:0:NONE
 key_openblocks.keybind.vario_vol_down:0:NONE
-key_pneumaticcraft.armor.options:22:NONE
-key_pneumaticcraft.helmet.hack:35:NONE
-key_pneumaticcraft.helmet.debugging.drone:21:NONE
-key_pneumaticcraft.boots.kick:45:CONTROL
-key_pneumaticcraft.chestplate.launcher:46:CONTROL
-key_simplyjetpacks.keybind.engine:34:NONE
-key_simplyjetpacks.keybind.hover:38:NONE
-key_simplyjetpacks.keybind.charger:25:NONE
-key_simplyjetpacks.keybind.emergencyhover:19:NONE
-key_key.toastcontrol.clear:36:NONE
-key_key.wearablebackpacks.open:48:NONE
-key_dshuds.keybind.SelectionBox:48:NONE
+key_pneumaticcraft.armor.options:71:NONE
+key_pneumaticcraft.helmet.hack:71:NONE
+key_pneumaticcraft.helmet.debugging.drone:71:NONE
+key_pneumaticcraft.boots.kick:71:NONE
+key_pneumaticcraft.chestplate.launcher:71:NONE
+key_simplyjetpacks.keybind.engine:71:NONE
+key_simplyjetpacks.keybind.hover:71:NONE
+key_simplyjetpacks.keybind.charger:71:NONE
+key_simplyjetpacks.keybind.emergencyhover:71:NONE
+key_key.wearablebackpacks.open:71:NONE
+key_dshuds.keybind.SelectionBox:71:NONE
 key_dshuds.keybind.LightLevel:65:NONE
 key_dshuds.keybind.ChunkBorders:67:NONE
-key_key.unhook:45:NONE
-key_key.astikorcarts.desc:19:NONE
+key_key.unhook:71:NONE
+key_key.astikorcarts.desc:71:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
-key_key.jei.toggleCheatMode:0:NONE
+key_key.jei.toggleCheatMode:53:NONE
 key_key.jei.toggleEditMode:0:NONE
 key_key.jei.showRecipe:19:NONE
 key_key.jei.showUses:22:NONE
@@ -68,8 +67,8 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_key.immersiveengineering.magnetEquip:31:NONE
-key_key.immersiveengineering.chemthrowerSwitch:0:NONE
+key_key.immersiveengineering.magnetEquip:71:NONE
+key_key.immersiveengineering.chemthrowerSwitch:71:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
 key_mod.chiselsandbits.chiselmode.snap4:0:NONE
@@ -98,19 +97,19 @@ key_mod.chiselsandbits.other.offgrid:0:NONE
 key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
-key_Options Gui:23:NONE
-key_Dynamic Lights toggle:38:NONE
+key_Options Gui:71:NONE
+key_Dynamic Lights toggle:71:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:79:NONE
 key_waila.keybind.liquid:80:NONE
 key_waila.keybind.recipe:81:NONE
 key_waila.keybind.usage:75:NONE
-key_invtweaks.key.sort:19:NONE
+key_invtweaks.key.sort:21:NONE
 key_tfc.key.craft:46:NONE
 key_tfc.key.placeblock:47:NONE
 key_tfc.key.itemmode:50:NONE
 key_tfc.key.stack:45:NONE
-key_WorldEdit Reference:38:NONE
+key_WorldEdit Reference:71:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:26:NONE
