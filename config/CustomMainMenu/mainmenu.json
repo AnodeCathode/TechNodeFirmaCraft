@@ -107,21 +107,7 @@
 				"type": "openLink",
 				"link": "https://github.com/Bunsan/TechNodeFirmaCraft/issues"
 			}
-		},
-		"Changelogs": {
-			"text": "",
-			"texture": "tnfcmod:textures/mainmenu/atlauncher.png",
-			"alignment": "top_center",
-			"hoverText": "Change Log",
-			"posX": -26,
-			"posY": 2,
-			"width": 45,
-			"height": 45,
-			"action": {
-				"type": "openLink",
-				"link": "http://www.atlauncher.com/pack/Technodefirmacraft"
-			}
-		},
+   },
 		"Subreddit": {
 			"text": "",
 			"texture": "tnfcmod:textures/mainmenu/reddit2.png",
@@ -146,7 +132,7 @@
 			"alignment": "bottom_left"
 		},
 		"modpack": {
-			"text": "TechNodefirmacraft 12.2.5Beta",
+			"text": "TechNodefirmacraft 12.2.6Beta",
 			"posX": 2,
 			"posY": -30,
 			"color": -1,
