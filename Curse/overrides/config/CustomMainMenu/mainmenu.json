@@ -1,0 +1,153 @@
+{
+	"images": {
+		"title": {
+			"image": "tnfcmod:textures/mainmenu/technodefirmacraft.png",
+			"posX": -250,
+			"posY": 50,
+			"width": 500,
+			"height": 50,
+			"alignment": "top_center"
+		},
+    "poweredby": {
+			"image": "tnfcmod:textures/mainmenu/tfcpower.png",
+			"posX": -150,
+			"posY": -60,
+			"width": 150,
+			"height": 37,
+			"alignment": "bottom_right"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": -100,
+			"posY": 48,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -100,
+			"posY": 72,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "Mods",
+			"posX": -100,
+			"posY": 96,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"posX": -100,
+			"posY": 132,
+			"width": 98,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": 2,
+			"posY": 132,
+			"width": 98,
+			"height": 20,
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -124,
+			"posY": 132,
+			"width": 20,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"refresh": {
+			"text": "",
+			"posX": -154,
+			"posY": 132,
+			"width": 20,
+			"height": 20,
+			"texture": "custommainmenu:textures/gui/buttons.png",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"Github": {
+			"text": "",
+			"texture": "tnfcmod:textures/mainmenu/github.png",
+			"hoverText": "Issue Track",
+			"alignment": "top_right",
+			"posX": -55,
+			"posY": 2,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/Bunsan/TechNodeFirmaCraft/issues"
+			}
+   },
+		"Subreddit": {
+			"text": "",
+			"texture": "tnfcmod:textures/mainmenu/reddit2.png",
+			"hoverText": "Discussion",
+			"alignment": "top_left",
+			"posX": 12,
+			"posY": 1,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "http://www.reddit.com/r/Technode"
+			}
+		}
+	},
+	"labels": {
+		"mojang": {
+			"text": "Forge #forgeversion# for MC #mcversion#",
+			"posX": 2,
+			"posY": -20,
+			"color": -1,
+			"alignment": "bottom_left"
+		},
+		"modpack": {
+			"text": "TechNodefirmacraft 12.2.6Beta",
+			"posX": 2,
+			"posY": -30,
+			"color": -1,
+			"alignment": "bottom_left"
+		}
+	},
+	"other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": ["tnfcmod:textures/mainmenu/background.png"],
+				"displayDuration": 150,
+				"fadeDuration": 40,
+				"shuffle": false
+			}
+		}
+	}
+}
