@@ -49,7 +49,8 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
   recipes.remove(<immersiveengineering:metal:38>);
   recipes.remove(<immersiveengineering:metal:40>);
   
-  
+  //garden cloche
+  recipes.remove(<immersiveengineering:metal_device1:13>);
 
 
 //Recipe adds

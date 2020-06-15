@@ -19,7 +19,7 @@
       recipes.addShaped("jaff_iron_fishing_rod", <jaff:iron_fishing_rod>, [[null, null, <tfc:metal/ingot/wrought_iron>], [null, <tfc:metal/ingot/wrought_iron>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
       recipes.addShaped("jaff_iron_hook", <jaff:iron_hook>, [[<ore:nuggetIron>, null, null], [<ore:nuggetIron>, null, <ore:nuggetIron>], [null, <ore:nuggetIron>, null]]);
       recipes.addShaped("jaff_tank", <jaff:tank> * 16, [[<minecraft:glass_pane>, null, <minecraft:glass_pane>], [<minecraft:glass_pane>, <minecraft:water_bucket>, <minecraft:glass_pane>], [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]]);
-      recipes.addShaped("jaff_wooden_fishing_rod", <jaff:wooden_fishing_rod>, [[null, null, <ore:plankWood>], [null, <ore:plankWood>, <ore:string>], [<ore:stickWood>, null, <jaff:iron_hook>]]);
+      recipes.addShaped("jaff_wooden_fishing_rod", <jaff:wooden_fishing_rod>, [[null, null, <ore:plankWood>], [null, <ore:plankWood>, <ore:string>], [<ore:stickWood>, null, <tnfcmod:copper_fishhook>]]);
 
 // ================================================================================
 //#ADD SHAPELESS

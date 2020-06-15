@@ -3,6 +3,7 @@
 
 
 val lubeBucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
+val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", Amount: 100}}).transformReplace(<tfc:ceramics/fired/jug>);
 
 //#REMOVE Recipes
   mods.jei.JEI.removeAndHide(<pneumaticcraft:crop_support>);
@@ -34,7 +35,7 @@ val lubeBucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "lubricant", Am
       recipes.addShaped("pneumaticcraft_pressure_chamber_glass", <pneumaticcraft:pressure_chamber_glass> * 16, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:blockGlass>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_pressure_chamber_wall", <pneumaticcraft:pressure_chamber_wall> * 16, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_pressure_gauge", <pneumaticcraft:pressure_gauge>, [[null, <tfc:metal/ingot/gold>, null], [<tfc:metal/ingot/gold>, <ore:ingotIronCompressed>, <tfc:metal/ingot/gold>], [null, <tfc:metal/ingot/gold>, null]]);
-      recipes.addShaped("pneumaticcraft_speed_upgrade", <pneumaticcraft:speed_upgrade>, [[<ore:gemLapis>, <tfc:debug>, <ore:gemLapis>], [<tfc:debug>, lubeBucket, <tfc:debug>], [<ore:gemLapis>, <tfc:debug>, <ore:gemLapis>]]);
+      recipes.addShaped("pneumaticcraft_speed_upgrade", <pneumaticcraft:speed_upgrade>, [[<ore:gemLapis>, vodkaBottle, <ore:gemLapis>], [vodkaBottle, lubeBucket, vodkaBottle], [<ore:gemLapis>, vodkaBottle, <ore:gemLapis>]]);
       recipes.addShaped("pneumaticcraft_uv_light_box", <pneumaticcraft:uv_light_box>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_vortex_tube", <pneumaticcraft:vortex_tube>, [[<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>], [<tfc:metal/ingot/gold>, <pneumaticcraft:pressure_tube>, <tfc:metal/ingot/gold>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 

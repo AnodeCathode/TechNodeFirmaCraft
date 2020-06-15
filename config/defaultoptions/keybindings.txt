@@ -98,6 +98,7 @@ key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
 key_Options Gui:71:NONE
+key_key.cofh.multimode:71:NONE
 key_Dynamic Lights toggle:71:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:79:NONE

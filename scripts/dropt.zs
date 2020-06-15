@@ -9,10 +9,10 @@ Dropt.list("ImmersiveSeeds")
       .matchVerticalRange(170, 254)
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(99)) // drop nothing 99% of the time
+          .selector(Dropt.weight(95)) // drop nothing 99% of the time
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1))
+          .selector(Dropt.weight(5))
           .items([<immersiveengineering:seed> * 1])
 
       )
