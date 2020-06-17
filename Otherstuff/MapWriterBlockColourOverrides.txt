@@ -1,0 +1,84 @@
+version: 2.8.2
+block minecraft:yellow_flower * 60ffff00	# make dandelions more yellow
+block minecraft:red_flower 0 60ff0000		# make poppy more red
+block minecraft:red_flower 1 601c92d6		# make Blue Orchid more red
+block minecraft:red_flower 2 60b865fb		# make Allium more red
+block minecraft:red_flower 3 60e4eaf2		# make Azure Bluet more red
+block minecraft:red_flower 4 60d33a17		# make Red Tulip more red
+block minecraft:red_flower 5 60e17124		# make Orange Tulip more red
+block minecraft:red_flower 6 60ffffff		# make White Tulip more red
+block minecraft:red_flower 7 60eabeea		# make Pink Tulip more red
+block minecraft:red_flower 8 60eae6ad		# make Oxeye Daisy more red
+block minecraft:double_plant 0 60ffff00		# make Sunflower more Yellow-orrange
+block minecraft:double_plant 1 d09f78a4		# make Lilac more pink
+block minecraft:double_plant 4 60ff0000		# make Rose Bush more red
+block minecraft:double_plant 5 d0e3b8f7		# make Peony more red
+blocktype minecraft:grass * grass			# grass block
+blocktype minecraft:flowing_water * water	# flowing water block
+blocktype minecraft:water * water			# still water block
+blocktype minecraft:leaves * leaves    		# leaves block
+blocktype minecraft:leaves2 * leaves    		# leaves block
+blocktype minecraft:leaves 1 opaque    		# pine leaves (not biome colorized)
+blocktype minecraft:leaves 2 opaque    		# birch leaves (not biome colorized)
+blocktype minecraft:tallgrass * grass     	# tall grass block
+blocktype minecraft:vine * foliage  			# vines block
+blocktype biomesoplenty:grass * grass		# BOP grass block
+blocktype biomesoplenty:plant_0 * grass		# BOP plant block
+blocktype biomesoplenty:plant_1 * grass		# BOP plant block
+blocktype biomesoplenty:leaves_0 * leaves	# BOP Leave block
+blocktype biomesoplenty:leaves_1 * leaves	# BOP Leave block
+blocktype biomesoplenty:leaves_2 * leaves	# BOP Leave block
+blocktype biomesoplenty:leaves_3 * leaves	# BOP Leave block
+blocktype biomesoplenty:leaves_4 * leaves	# BOP Leave block
+blocktype biomesoplenty:leaves_5 * leaves	# BOP Leave block
+blocktype biomesoplenty:tree_moss * foliage	# biomes o plenty tree moss
+block tfc:grass/granite * ff339333
+block tfc:grass/diorite * ff339333
+block tfc:grass/gabbro * ff339313
+block tfc:grass/shale * ff337333
+block tfc:grass/claystone * ff539333
+block tfc:grass/rocksalt * ff43a343
+block tfc:grass/limestone * ff53b353
+block tfc:grass/conglomerate * ff348333
+block tfc:grass/dolomite * ff439343
+block tfc:grass/chert * ff539333
+block tfc:grass/chalk * ff53a353
+block tfc:grass/rhyolite * ff339333
+block tfc:grass/basalt * ff237323
+block tfc:grass/andesite * ff339333
+block tfc:grass/dacite * ff339333
+block tfc:grass/quartzite * ff439343
+block tfc:grass/slate * ff238323
+block tfc:grass/phyllite * ff339333
+block tfc:grass/schist * ff339333
+block tfc:grass/gneiss * ff339333
+block tfc:grass/marble * ff53c343
+block tfc:dry_grass/granite * ff639300
+block tfc:dry_grass/diorite * ff639300
+block tfc:dry_grass/gabbro * ff539300
+block tfc:dry_grass/shale * ff638300
+block tfc:dry_grass/claystone * ff739300
+block tfc:dry_grass/rocksalt * ff53a300
+block tfc:dry_grass/limestone * ff73b330
+block tfc:dry_grass/conglomerate * ff739300
+block tfc:dry_grass/dolomite * ff73a330
+block tfc:dry_grass/chert * ff83a300
+block tfc:dry_grass/chalk * ff83c340
+block tfc:dry_grass/rhyolite * ff639300
+block tfc:dry_grass/basalt * ff537300
+block tfc:dry_grass/andesite * ff639300
+block tfc:dry_grass/dacite * ff639300
+block tfc:dry_grass/quartzite * ff73a300
+block tfc:dry_grass/slate * ff538300
+block tfc:dry_grass/phyllite * ff639300
+block tfc:dry_grass/schist * ff639300
+block tfc:dry_grass/gneiss * ff639300
+block tfc:dry_grass/marble * ff83b320 
+block tfc:fluid/hot_water * b3e0eaff
+block tfc:fluid/fresh_water * b3a0c0f0
+block tfc:fluid/salt_water * b32090a5
+block dynamictreestfc:leaves0 * 8f679767
+block dynamictreestfc:leaves1 * 936a9a45
+block dynamictreestfc:leaves2 * 9a699969
+block dynamictreestfc:leaves3 * a5205020
+block dynamictreestfc:leaves4 * 9c849841
