@@ -1,0 +1,115 @@
+// Import Alloy methods into your script
+import mods.terrafirmacraft.Alloy;
+import mods.terrafirmacraft.AlloyRecipeBuilder;
+
+//Gets the recipe builder for the specified metal
+AlloyRecipeBuilder builder = Alloy.addAlloy(String metal);
+//Removes the alloy recipe from registry
+Alloy.removeAlloy(String metal);
+
+//Adds metal content to this alloying recipe
+builder.addMetal(String input, double min, double max);
+//Finish the recipe, build and register it.
+builder.build();
+
+// Import anvil methods into your script
+import mods.terrafirmacraft.Anvil;
+// Adds a recipe with the given parameters
+Anvil.addRecipe(String registryName, IIngredient input, IItemStack output, int minTier, String skillType, String... forgeRules);
+// Removes all recipes that have a given output
+Anvil.removeRecipe(IItemStack output);
+// Removes a single recipe by registry name
+Anvil.removeRecipe(String registryName);
+
+// Import welding methods into your script
+import mods.terrafirmacraft.Welding;
+// Adds a recipe with the given parameters
+Welding.addRecipe(String registryName, IIngredient input1, IIngredient input2, IItemStack output, int minTier);
+// Removes all recipes that produce a given output
+Welding.removeRecipe(IItemStack output);
+// Removes a single recipe by registry name
+Welding.removeRecipe(String registryName);
+
+// Import barrel methods into your script
+import mods.terrafirmacraft.Barrel;
+// Adds a recipe with the given parameters
+Barrel.addRecipe(String registryName, @Optional IIngredient itemInput, ILiquidStack fluidInput, @Optional IItemStack itemOutput, @Optional ILiquidStack fluidOutput, int hours)
+// Removes all recipes that have a given output
+Barrel.removeRecipe(@Optional IItemStack outputItem, @Optional ILiquidStack outputLiquid)
+// Removes a single recipe by registry name
+Barrel.removeRecipe(String registryName)
+// Import the chisel methods into your script
+import mods.terrafirmacraft.Chisel;
+// Adds a recipe with the given parameters
+Chisel.addRecipe(String registryName, IItemStack input, IItemStack output);
+// Removes all recipes that have a given output
+Chisel.removeRecipe(IItemStack output);
+// Removes a single recipe by registry name
+Chisel.removeRecipe(String registryName);
+
+
+// Import the [Knapping] methods into your script
+import mods.terrafirmacraft.[Knapping];
+// Adds a recipe with the given parameters
+[Knapping].addRecipe(String registryName, IItemStack output, String... pattern)
+// Removes all recipes that have a given output
+[Knapping].removeRecipe(IItemStack output)
+// Removes a single recipe by registry name
+[Knapping].removeRecipe(String registryName)
+
+Where [Knapping] = ClayKnapping, FireClayKnapping or LeatherKnapping
+
+Small Ceramic Vessel:
+" XXX ",
+"XXXXX",
+"XXXXX",
+"XXXXX",
+" XXX "
+
+// Imports Heating methods into your script
+import mods.terrafirmacraft.Heating;
+// Adds a recipe with the given parameters
+Heating.addRecipe(String registryName, IItemStack input, IItemStack output, float transformTemp, float maxTemp)
+// Removes all recipes that have a given output
+Heating.removeRecipe(IItemStack output)
+// Removes a single recipe by registry name
+Heating.removeRecipe(String registryName)
+
+// Import Loom methods into your script
+import mods.terrafirmacraft.Loom;
+// Adds a recipe with the given parameters
+Loom.addRecipe(String registryName, IIngredient input, IItemStack output, int steps, String loomTexture)
+// Removes all recipes that have a given output
+Loom.removeRecipe(IItemStack output)
+// Removes all recipes that have a given output
+Loom.removeRecipe(String registryName)
+// Imports Quern methods into your script
+import mods.terrafirmacraft.Quern;
+// Adds a recipe with the given parameters
+Quern.addRecipe(String registryName, IIngredient input, IItemStack output)
+// Removes all recipes that have a given output
+Quern.removeRecipe(IItemStack output)
+// Removes a single recipe by registry name
+Quern.removeRecipe(String registryName)
+
+/ Imports ItemRegistry methods into your script
+import mods.terrafirmacraft.ItemRegistry;
+// Register item size and weight. This changes how much a stack can hold.
+ItemRegistry.registerItemSize(IIngredient input, String size, String weight);
+// Register item heat capability and if this item is forgeable (eg: can be used in anvil).
+ItemRegistry.registerItemHeat(IIngredient input, float heatCapacity, float meltTemp, bool forgeable);
+// Register item as a metal item. Note that this automatically adds heating and forging capability. 
+// If canMelt is false this item won't bear the output directly (like iron ore needs bloomery/blast furnace)
+ItemRegistry.registerItemMetal(IIngredient input, String metal, int units, bool canMelt);
+// Register item food stats (Does not work on TFC Foods), This takes priority over existing values. Setting Decay to 0 stops decay from happening.
+ItemRegistry.registerFood(IIngredient input, int hunger, float water, float saturation, float decay, float grain, float veg, float fruit, float meat, float dairy);
+// Register armor stats
+ItemRegistry.registerArmor(IIngredient input, float crushingModifier, float piercingModifier, float slashingModifier);
+// Register item as a fuel for fire pit or forge
+ItemRegistry.registerFuel(IItemStack itemStack, int burnTicks, float temperature, bool forgeFuel, bool bloomeryFuel)
+
+
+
+
+
+

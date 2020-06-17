@@ -1,0 +1,20 @@
+events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
+    if (event.block.definition.id == "biomesoplenty:plant_0:1") { 
+        event.drops = [<primal:plant_fiber>];
+
+        if (event.player.currentItem.matches(<primal:sword_crude_flint:2>)) {
+            event.dropChance = 1.0;
+        } else {
+            event.dropChance = 0.50;
+        }
+    }
+    if (event.block.definition.id == "biomesoplenty:plant_0") { 
+    event.drops = [<primal:plant_fiber>];
+
+        if (event.player.currentItem.matches(<primal:sword_crude_flint:2>)) {
+            event.dropChance = 1.0;
+        } else {
+            event.dropChance = 0.50;
+        }
+    }
+});

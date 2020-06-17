@@ -1,0 +1,80 @@
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/willow/willow_button](Willow Button) <tfc:wood/button/willow:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/white_cedar/white_cedar_button](White Cedar Button) <tfc:wood/button/white_cedar:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/sycamore/sycamore_button](Sycamore Button) <tfc:wood/button/sycamore:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/spruce/spruce_button](Spruce Button) <tfc:wood/button/spruce:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/sequoia/sequoia_button](Sequoia Button) <tfc:wood/button/sequoia:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/rosewood/rosewood_button](Rosewood Button) <tfc:wood/button/rosewood:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/pine/pine_button](Pine Button) <tfc:wood/button/pine:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/palm/palm_button](Palm Button) <tfc:wood/button/palm:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/oak/oak_button](Oak Button) <tfc:wood/button/oak:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/maple/maple_button](Maple Button) <tfc:wood/button/maple:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/kapok/kapok_button](Kapok Button) <tfc:wood/button/kapok:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/hickory/hickory_button](Hickory Button) <tfc:wood/button/hickory:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/douglas_fir/douglas_fir_button](Douglas Fir Button) <tfc:wood/button/douglas_fir:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/chestnut/chestnut_button](Chestnut Button) <tfc:wood/button/chestnut:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/blackwood/blackwood_button](Blackwood Button) <tfc:wood/button/blackwood:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/birch/birch_button](Birch Button) <tfc:wood/button/birch:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/aspen/aspen_button](Aspen Button) <tfc:wood/button/aspen:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/ash/ash_button](Ash Button) <tfc:wood/button/ash:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfc:wood/acacia/acacia_button](Acacia Button) <tfc:wood/button/acacia:0> * 1
+[Shapeless] [betterwithmods:items/stick](Stick) <minecraft:stick:0> * 2 conflicts with [Shapeless] [tfctech:hevea/hevea_button](Hevea Button) <tfc:wood/button/hevea:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/willow/willow_workbench](Willow Workbench) <tfc:wood/workbench/willow:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/white_cedar/white_cedar_workbench](White Cedar Workbench) <tfc:wood/workbench/white_cedar:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/sycamore/sycamore_workbench](Sycamore Workbench) <tfc:wood/workbench/sycamore:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/spruce/spruce_workbench](Spruce Workbench) <tfc:wood/workbench/spruce:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/sequoia/sequoia_workbench](Sequoia Workbench) <tfc:wood/workbench/sequoia:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/rosewood/rosewood_workbench](Rosewood Workbench) <tfc:wood/workbench/rosewood:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/pine/pine_workbench](Pine Workbench) <tfc:wood/workbench/pine:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/palm/palm_workbench](Palm Workbench) <tfc:wood/workbench/palm:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/oak/oak_workbench](Oak Workbench) <tfc:wood/workbench/oak:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/maple/maple_workbench](Maple Workbench) <tfc:wood/workbench/maple:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/kapok/kapok_workbench](Kapok Workbench) <tfc:wood/workbench/kapok:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/hickory/hickory_workbench](Hickory Workbench) <tfc:wood/workbench/hickory:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/douglas_fir/douglas_fir_workbench](Douglas Fir Workbench) <tfc:wood/workbench/douglas_fir:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/chestnut/chestnut_workbench](Chestnut Workbench) <tfc:wood/workbench/chestnut:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/blackwood/blackwood_workbench](Blackwood Workbench) <tfc:wood/workbench/blackwood:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/birch/birch_workbench](Birch Workbench) <tfc:wood/workbench/birch:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/aspen/aspen_workbench](Aspen Workbench) <tfc:wood/workbench/aspen:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/ash/ash_workbench](Ash Workbench) <tfc:wood/workbench/ash:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfc:wood/acacia/acacia_workbench](Acacia Workbench) <tfc:wood/workbench/acacia:0> * 1
+[Shaped] [minecraft:crafting_table](Crafting Table) <minecraft:crafting_table:0> * 1 conflicts with [Shaped] [tfctech:hevea/hevea_workbench](Hevea Workbench) <tfc:wood/workbench/hevea:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/willow/willow_chest](Willow Chest) <tfc:wood/chest/willow:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/white_cedar/white_cedar_chest](White Cedar Chest) <tfc:wood/chest/white_cedar:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/sycamore/sycamore_chest](Sycamore Chest) <tfc:wood/chest/sycamore:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/spruce/spruce_chest](Spruce Chest) <tfc:wood/chest/spruce:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/sequoia/sequoia_chest](Sequoia Chest) <tfc:wood/chest/sequoia:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/rosewood/rosewood_chest](Rosewood Chest) <tfc:wood/chest/rosewood:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/pine/pine_chest](Pine Chest) <tfc:wood/chest/pine:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/palm/palm_chest](Palm Chest) <tfc:wood/chest/palm:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/oak/oak_chest](Oak Chest) <tfc:wood/chest/oak:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/maple/maple_chest](Maple Chest) <tfc:wood/chest/maple:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/kapok/kapok_chest](Kapok Chest) <tfc:wood/chest/kapok:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/hickory/hickory_chest](Hickory Chest) <tfc:wood/chest/hickory:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/douglas_fir/douglas_fir_chest](Douglas Fir Chest) <tfc:wood/chest/douglas_fir:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/chestnut/chestnut_chest](Chestnut Chest) <tfc:wood/chest/chestnut:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/blackwood/blackwood_chest](Blackwood Chest) <tfc:wood/chest/blackwood:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/birch/birch_chest](Birch Chest) <tfc:wood/chest/birch:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/aspen/aspen_chest](Aspen Chest) <tfc:wood/chest/aspen:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/ash/ash_chest](Ash Chest) <tfc:wood/chest/ash:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfc:wood/acacia/acacia_chest](Acacia Chest) <tfc:wood/chest/acacia:0> * 1
+[Shaped] [minecraft:chest](Chest) <minecraft:chest:0> * 1 conflicts with [Shaped] [tfctech:hevea/hevea_chest](Hevea Chest) <tfc:wood/chest/hevea:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/willow/willow_bookshelf](Willow Bookshelf) <tfc:wood/bookshelf/willow:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/white_cedar/white_cedar_bookshelf](White Cedar Bookshelf) <tfc:wood/bookshelf/white_cedar:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/sycamore/sycamore_bookshelf](Sycamore Bookshelf) <tfc:wood/bookshelf/sycamore:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/spruce/spruce_bookshelf](Spruce Bookshelf) <tfc:wood/bookshelf/spruce:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/sequoia/sequoia_bookshelf](Sequoia Bookshelf) <tfc:wood/bookshelf/sequoia:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/rosewood/rosewood_bookshelf](Rosewood Bookshelf) <tfc:wood/bookshelf/rosewood:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/pine/pine_bookshelf](Pine Bookshelf) <tfc:wood/bookshelf/pine:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/palm/palm_bookshelf](Palm Bookshelf) <tfc:wood/bookshelf/palm:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/oak/oak_bookshelf](Oak Bookshelf) <tfc:wood/bookshelf/oak:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/maple/maple_bookshelf](Maple Bookshelf) <tfc:wood/bookshelf/maple:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/kapok/kapok_bookshelf](Kapok Bookshelf) <tfc:wood/bookshelf/kapok:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/hickory/hickory_bookshelf](Hickory Bookshelf) <tfc:wood/bookshelf/hickory:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/douglas_fir/douglas_fir_bookshelf](Douglas Fir Bookshelf) <tfc:wood/bookshelf/douglas_fir:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/chestnut/chestnut_bookshelf](Chestnut Bookshelf) <tfc:wood/bookshelf/chestnut:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/blackwood/blackwood_bookshelf](Blackwood Bookshelf) <tfc:wood/bookshelf/blackwood:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/birch/birch_bookshelf](Birch Bookshelf) <tfc:wood/bookshelf/birch:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/aspen/aspen_bookshelf](Aspen Bookshelf) <tfc:wood/bookshelf/aspen:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/ash/ash_bookshelf](Ash Bookshelf) <tfc:wood/bookshelf/ash:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfc:wood/acacia/acacia_bookshelf](Acacia Bookshelf) <tfc:wood/bookshelf/acacia:0> * 1
+[Shaped] [minecraft:bookshelf](Bookshelf) <minecraft:bookshelf:0> * 1 conflicts with [Shaped] [tfctech:hevea/hevea_bookshelf](Hevea Bookshelf) <tfc:wood/bookshelf/hevea:0> * 1
