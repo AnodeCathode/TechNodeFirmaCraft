@@ -1,5 +1,9 @@
 Notes:
 
+- Updated the TNFC Book with the changelog and stuff.
+
+- Add a link to the TNFC Discord to the main menu.
+
 - Add all items with weight and stuff
 
 - Start with Vanilla TFC + QoL mods + fishing. Early entry into BtM, Horsepower and carts (bronze?) then into Immersive (coke) with iron. Then branch out the rest with steel +, rest of immersive, pneumaticcraft. Onto in TechReborn (not included atm)
