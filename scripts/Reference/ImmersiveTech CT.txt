@@ -1,0 +1,68 @@
+// Example: Add Boiler Recipe to get 100 Water from 100 Lava.
+// mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);
+mods.immersivetechnology.Boiler.addRecipe(<liquid:water> * 100, <liquid:lava> * 100, 1);
+
+// Example: Add Boiler Fuel.
+// mods.immersivetechnology.Boiler.addFuel(ILiquidStack input, int time, double heat);
+mods.immersivetechnology.Boiler.addFuel(<liquid:lava> * 5, 1, 10);
+
+// Example: Remove Boiler Recipe for Water.
+//mods.immersivetechnology.Boiler.removeRecipe(ILiquidStack input);
+mods.immersivetechnology.Boiler.removeRecipe(<liquid:water>);
+
+// Example: Remove Boiler Fuel.
+//mods.immersivetechnology.Boiler.removeFuel(ILiquidStack input);
+mods.immersivetechnology.Boiler.removeFuel(<liquid:biodiesel>);
+
+ 
+
+// Example: Add Distiller Recipe Lava to Water with a chance of Gold (2 methods available).
+//mods.immersivetechnology.Distiller.addRecipe(ILiquidStack outputFluid, ILiquidStack inputFluid, IItemStack outputItem, Integer energy, Integer time, Float chance);
+//mods.immersivetechnology.Distiller.addRecipe(ILiquidStack outputFluid, ILiquidStack inputFluid, IItemStack outputItem);
+mods.immersivetechnology.Distiller.addRecipe(<liquid:water> * 100, <liquid:lava> * 100, <minecraft:gold_ingot>, 8000, 20, 1);
+mods.immersivetechnology.Distiller.addRecipe(<liquid:water> * 100, <liquid:lava> * 100, <minecraft:gold_ingot>);
+
+// Example: Remove Distiller Recipe (2 methods available).
+//mods.immersivetechnology.Distiller.removeRecipe(ILiquidStack inputFluid);
+//mods.immersivetechnology.Distiller.removeRecipe(ILiquidStack inputFluid, IItemStack outputItem);
+mods.immersivetechnology.Distiller.removeRecipe(<liquid:water>);
+mods.immersivetechnology.Distiller.removeRecipe(<liquid:water>, <immersivetech:material>); 
+
+ 
+
+// Example : Remove Solar Tower Recipe for Water.
+//mods.immersivetechnology.SolarTower.removeRecipe(ILiquidStack inputFluid);
+mods.immersivetechnology.SolarTower.removeRecipe(<liquid:water>);
+
+// Example: Add Solar Tower Recipe to get 100 Water from 100 Lava.
+// mods.immersivetechnology.SolarTower.addRecipe(ILiquidStack outputFluid, ILiquidStack inputFluid, int time);
+mods.immersivetechnology.SolarTower.addRecipe(<liquid:water> * 100, <liquid:lava> * 100, 1);
+
+ 
+
+// Example : Add Steam Turbine Fuel for 100 Lava and get nothing in return.
+// mods.immersivetechnology.SteamTurbine.addFuel(ILiquidStack output, ILiquidStack input, int time);
+mods.immersivetechnology.SteamTurbine.addFuel(null, <liquid:lava> * 100, 1);
+
+// Example : Remove Steam Turbine Fuel Steam
+//mods.immersivetechnology.SteamTurbine.removeFuel(ILiquidStack input);
+mods.immersivetechnology.SteamTurbine.removeFuel(<liquid:steam>);
+
+ 
+
+// Example: Prevent Multiblock Creation on IT Multiblocks on a hammer tagged "Tier 1 Hammer"
+val hammer = <immersiveengineering:tool>;
+val tier1hammer = hammer.withTag({multiblockInterdiction: ["IT:CokeOvenAdvanced", "IT:Alternator", "IT:Boiler", "IT:Distiller", "IT:SolarReflector", "IT:SolarTower", "IT:SteamTurbine, "IT:SteelSheetmetalTank""], display: {Name: "Tier 1 Hammer"}});
+
+// Example: Add the "Tier 1 Hammer to JEI"
+mods.jei.JEI.addItem(tier1hammer);
+
+// Example: Add a shaped recipe for the "Tier 1 Hammer"
+recipes.addShaped(tier1hammer, [[null, <minecraft:stone:1>, <minecraft:string>], [null, <ore:stickWood>, <minecraft:stone:1>], [<ore:stickWood>, null, null]]);
+
+
+// Example: Add/Remove Pressurized fluid to Pipes (Only works if "replace_IE_pipes" is True! Steam is enabled by Default)
+//mods.immersivetechnology.PressurizedFluid.add(ILiquidStack fluid);
+//mods.immersivetechnology.PressurizedFluid.remove(ILiquidStack fluid);
+mods.immersivetechnology.PressurizedFluid.add(<fluid:water>);
+mods.immersivetechnology.PressurizedFluid.remove(<fluid:steam>);

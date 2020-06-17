@@ -1,0 +1,44 @@
+Notes:
+
+- Probably need some way to obtain vanilla sugarcane?
+- Horsepower needs all the mill and chopping recipes
+
+- Install IDEA and github desktop on laptop. Get all applicable repos
+
+
+- Add all items with weight and stuff
+
+- Start with Vanilla TFC + QoL mods + fishing. Early entry into BtM, Horsepower and carts (bronze?) then into Immersive (coke) with iron. Then branch out the rest with steel +, rest of immersive, pneumaticcraft. Onto in TechReborn (not included atm)
+
+- Lots to config in BwM
+
+- nametag needs recipes
+- Enderpearl to liquid ender and back?
+- Vanilla reed/sugarcane?
+
+- weak steel dust(s)
+- Coal blocks / Coke blocks? Need to sort out all the metal blocks
+
+
+- Do we want to keep TFC sheets separate from plates or combine? Bit of A and bit of B atm
+
+- Armour on the Metal Press?
+- Update TNFC on ATLauncher soonish
+
+- Do we need craftingFlawlessPlus in oredic?
+
+- Metal block crafting solution
+- Remove Hopper crafting recipe
+- Add Hopper Anvil and Metal Press recipe
+- New Blueprints for components. Vacuum tube recipe to be more expensive than god
+- Griding ore should return different amounts for quality of ore. 1, 2, 3
+- Add all the 
+- remove all the nugget recipes and convert to metal press? anvil method?
+
+- game stages?
+- need tin/brass/steel sleeve anvil recipe for TFCTech gears before metal press
+
+- bring a fishing rod recipe down to copper
+
+-BlockHeatProperties for Pneumaticcraft
+
