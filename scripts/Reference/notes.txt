@@ -1,5 +1,9 @@
 Notes:
 
+- Secondary outputs for horsepower grinding and BwM. IE Grinder too?
+
+- Checkout horsepower dynamic chopping block and possible uses
+
 - Updated the TNFC Book with the changelog and stuff.
 
 - Add a link to the TNFC Discord to the main menu.
