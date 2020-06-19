@@ -4,10 +4,10 @@
 //#REMOVE Recipes
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
+  mods.jei.JEI.removeAndHide(<horsepower:hand_grindstone>);
+  mods.jei.JEI.removeAndHide(<horsepower:chopping_block>);
   recipes.remove(<horsepower:chopper>);
-  recipes.remove(<horsepower:chopping_block>);
   recipes.remove(<horsepower:grindstone>);
-  recipes.remove(<horsepower:hand_grindstone>);
   recipes.remove(<horsepower:press>);
 
 // ================================================================================

@@ -1,0 +1,48 @@
+HorsePower natively supports CraftTweaker. Click to expand the documentation for each device.
+
+Grindstone
+
+Note:
+
+For the separate recipes to work you still need to change the config B:"Separate Grinding Recipes"=true
+
+mods.horsepower.Grindstone.add(<input>, <output>, <time>, <hand>, <secondary>, <chance>);
+mods.horsepower.Grindstone.remove(<output>);
+Chopping Block
+input (ItemStack) – Item used in the recipe, accepts ore items
+output (ItemStack) – Item returned, doesn’t accepts ore items
+time (Integer) – The time for the grinding
+hand (Boolean) – (Optional) If the recipe is for the hand grindstone or not, if false and separate recipes isn’t used they are for both
+secondary (ItemStack) – (Optional) The secondary output, doesn’t accepts ore items
+chance(Integer) – (Optional) The chance of the secondary output
+
+Note:
+
+For the separate recipes to work you still need to change the config B:"Separate Chopping Recipes"=true
+You also need to remember that when not separated the manual chopping block uses I:"Chopping Multiplier"=4 and when separated they use the provided value
+When adding for the horse powered one, you need to consider the I:"Windup time for chop"=8 config option, the provided “time” is the amount of chops, the config say how many locations around the chopping block the horse needs to go for one chop
+input (ItemStack) – Item used in the recipe, accepts ore items
+output (ItemStack) – Item returned, doesn’t accepts ore items
+time (Integer) – The amount of “points” needed to chop
+manual (Boolean) – (Optional) If the recipe is for the manual chopping block or not, if false and separate recipes isn’t used they are for both
+mods.horsepower.ChoppingBlock.add(<input>, <output>, <time>, <manual>);
+mods.horsepower.ChoppingBlock.remove(<output>);
+Press
+
+mods.horsepower.Press.add(<input>, <output>);
+mods.horsepower.Press.add(<input>, <fluidOutput>);
+mods.horsepower.Press.remove(<output>);
+
+Dynamic chopping block recipes
+
+One of the items in the ingredients must be the type item.
+
+mods.horsepower.Recipes.addShaped(<type>, <output>, [<ingredients>]);
+mods.horsepower.Recipes.addShaped("name", <type>, <output>, [<ingredients>]);
+mods.horsepower.Recipes.addShapeless(<type>, <output>, [<ingredients>]);
+mods.horsepower.Recipes.addShapeless("name", <type>, <output>, [<ingredients>]);
+
+name (String) – The name of the recipe
+type (Ingredient) – The Ingredient to use as the type for the block and in the recipe, either item or ore dict
+output (ItemStack) – Item returned, must be either the horse chopping block or the manual chopping block
+ingredients (ItemStack) – Items used in the recipe, works as the vanilla recipes

@@ -1,0 +1,37 @@
+Most machine recipes, save the saw and kiln, inherit the same crafting structure.
+@param output - itemstack
+@param secondary_ouput - itemstack, can be null
+@param input[] - list of itemstacks required
+
+mods.betterwithmods.Cauldron.add(output, secondary_output, input[])
+
+mods.betterwithmods.Cauldron.remove(output)
+
+mods.betterwithmods.StokedCauldron.add(output, secondary_output, input[])
+
+mods.betterwithmods.StokedCauldron.remove(output)
+
+mods.betterwithmods.Crucible.add(output, secondary_output, input[])
+
+mods.betterwithmods.Crucible.remove(output)
+
+mods.betterwithmods.StokedCrucible.add(output, secondary_output, input[])
+
+mods.betterwithmods.StokedCrucible.remove(output)
+
+mods.betterwithmods.Mill.add(output, secondary_output, input[])
+
+mods.betterwithmods.Mill.remove(output)
+
+mods.betterwithmods.Saw(input, output[])
+
+mods.betterwithmods.Saw.remove(output)
+
+mods.betterwithmods.Kiln(input, output[])
+
+mods.betterwithmods.Kiln.remove(output)
+
+@param itemstack - Itemstack that will receive this buoyancy value
+@param bouyancy - float value between -1 and 1; -1 sinks directly to the bottom, 0 equilibriums, 1 floats on top
+
+mods.betterwithmods.Bouyancy.set(itemstack, bouyancy_value)
