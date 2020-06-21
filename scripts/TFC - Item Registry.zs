@@ -16,8 +16,12 @@
 // Register item as a fuel for fire pit or forge
 //ItemRegistry.registerFuel(IItemStack itemStack, int burnTicks, float temperature, bool forgeFuel, bool bloomeryFuel)
 
-
-
+// Fuel
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(crafttweaker.api.item.IIngredient itemInput, int burnTicks, float temperature, boolean forgeFuel, boolean bloomeryFuel)
+    // Coke coal
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<immersiveengineering:material:6>, 2600, 2400, true, false);
+    
+    
   //IE Ingots
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:1>, 0.35, 660, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:5>, 0.35, 1100, true);
