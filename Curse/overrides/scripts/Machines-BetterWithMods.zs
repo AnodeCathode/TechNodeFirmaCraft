@@ -28,13 +28,6 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye_grain>],[<tfc:food/rye_flour> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat_grain>],[<tfc:food/wheat_flour> * 2]);
 
-	//Sugar
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/sugarcane> * 4],[<minecraft:sugar>]);
-	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/sugar_cane> * 4],[<minecraft:sugar>]);
-
-	//Jute
-	mods.betterwithmods.Mill.addRecipe([<tfc:crop/product/jute>],[<tfc:crop/product/jute_fiber>]);
-
 	//Flux
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 10]);
 	mods.betterwithmods.Mill.addRecipe([<ore:rockFlux>],[<tfc:powder/flux> * 4]);
