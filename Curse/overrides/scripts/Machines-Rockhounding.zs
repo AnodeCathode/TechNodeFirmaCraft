@@ -7,6 +7,10 @@ mods.rockhounding_chemistry.MineralSizer.removeByInput(<minecraft:stone:1>);
 mods.rockhounding_chemistry.MineralSizer.add(<tfc:raw/granite>, [<rockhounding_chemistry:chemical_items:4>], [4]);
 
 //PROFILING BENCH
+
+// Remove all the ingotIron and replace with? ingotSteel? ingotWroughtIron?
+//mods.rockhounding_chemistry.ProfilingBench.removeByInput(<ore:ingotIron>);
+//mods.rockhounding_chemistry.ProfilingBench.add("blockGlass", <minecraft:empty_bottle>*4, 0);
 //mods.rockhounding_chemistry.ProfilingBench.add("blockGlass", <minecraft:empty_bottle>*4, 0);
 
 

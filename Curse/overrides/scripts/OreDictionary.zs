@@ -9,11 +9,7 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<betterwithmods:material:4>);
 
   
-  var gemCoal = <ore:gemCoal>;
-    gemCoal.remove(<minecraft:coal_ore>);
-    gemCoal.addItems([
-      <tfc:ore/lignite>
-    ]);
+
  
   var fabricHemp = <ore:fabricHemp>;
     fabricHemp.addItems([
