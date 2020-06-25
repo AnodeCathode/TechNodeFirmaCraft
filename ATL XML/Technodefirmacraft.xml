@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.10</version>
+        <version>12.2.11</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -37,7 +37,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.10.jar" file="Technodefirmacraft-MC1.12.2-12.2.10.jar" md5="f0323859c81568f8aaef7600ad46dbba" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.11" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.11.jar" file="Technodefirmacraft-MC1.12.2-12.2.11.jar" md5="528133ad29cdfebee342ee969b39ed5f" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -133,6 +133,9 @@
         <mod name="AstikorCarts" version="0.1.2.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/astikorcarts-1.12.2-0.1.2.7.jar" file="astikorcarts-1.12.2-0.1.2.7.jar" md5="af7be118e58fb1e205c33a7587a77eef" download="server" type="mods" website="https://github.com/AnodeCathode/astikor-carts" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
         <mod name="YABBA" version="1.1.2.54" url="packs/TechNodefirmacraft/files/1.12.2Mods/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"  />
+        
+        <mod name="First Aid" version="1.6.14" url="packs/TechNodefirmacraft/files/1.12.2Mods/firstaid-1.6.14.jar" file="firstaid-1.6.14.jar" md5="66dc8e9c75b63c86f18d248bf101178b" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"   />
+        
 
 <!-- Utilities and QoL Mods -->  
 
@@ -218,7 +221,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.10" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.10.zip" file="scripts.12.2.10.zip" md5="cdd244b2a217592c7cd7318180657c33" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.11" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.11.zip" file="scripts.12.2.11.zip" md5="897868876659f6a17a7e1bfc8549949d" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 

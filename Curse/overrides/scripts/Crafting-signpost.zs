@@ -32,7 +32,7 @@
   recipes.addShaped("signpost_blockbigpostrecipeiron", <signpost:blockbigpostiron> * 4, [[<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [null, <minecraft:iron_ingot>, null]]);
   recipes.addShaped("signpost_blockbigpostrecipebirch", <signpost:blockbigpostbirch> * 4, [[<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [null, <tfc:wood/log/birch>, null]]); 
   recipes.addShaped("signpost_blockbigpostrecipeacacia", <signpost:blockbigpostacacia> * 4, [[<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [<minecraft:sign:*>, <minecraft:sign:*>, <minecraft:sign:*>], [null, <tfc:wood/log/kapok>, null]]);
-  recipes.addShaped("signpost_blockbaserecipe", <signpost:blockbase>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:cobblestone>, <minecraft:ender_eye>, <ore:cobblestone>], [<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>]]);
+  recipes.addShaped("signpost_blockbaserecipe", <signpost:blockbase>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:cobblestone>, <tnfcmod:redstone_gemmed_latch>, <ore:cobblestone>], [<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>]]);
 
 // ================================================================================
 //#ADD SHAPELESS
