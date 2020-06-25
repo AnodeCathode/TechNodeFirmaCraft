@@ -2,8 +2,8 @@
 #modloaded pneumaticcraft
 
 
-val lubeBucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
-val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", Amount: 100}}).transformReplace(<tfc:ceramics/fired/jug>);
+val lubeBucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}}).giveBack(<tfc:wooden_bucket>);
+val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", Amount: 100}}).giveBack(<tfc:ceramics/fired/jug>);
 
 //#REMOVE Recipes
   mods.jei.JEI.removeAndHide(<pneumaticcraft:crop_support>);
