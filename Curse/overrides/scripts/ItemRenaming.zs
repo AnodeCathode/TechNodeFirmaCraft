@@ -13,3 +13,5 @@
 <simplyjetpacks:metaitemmods:1>.displayName = "Red Steel Thruster";
 <simplyjetpacks:metaitemmods:2>.displayName = "Tungsten Steel Thruster";
 
+game.setLocalization("tile.water.name","Rainwater");
+game.setLocalization("item.bucketWater.name","Rainwater Bucket");

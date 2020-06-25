@@ -8,10 +8,13 @@ mods.rockhounding_chemistry.MineralSizer.add(<tfc:raw/granite>, [<rockhounding_c
 
 //PROFILING BENCH
 
-// Remove all the ingotIron and replace with? ingotSteel? ingotWroughtIron?
 //mods.rockhounding_chemistry.ProfilingBench.removeByInput(<ore:ingotIron>);
 //mods.rockhounding_chemistry.ProfilingBench.add("blockGlass", <minecraft:empty_bottle>*4, 0);
 //mods.rockhounding_chemistry.ProfilingBench.add("blockGlass", <minecraft:empty_bottle>*4, 0);
+
+// SEASONING RACK
+mods.rockhounding_chemistry.SeasoningRack.removeByOutput(<rockhounding_chemistry:chemical_items:3>);
+mods.rockhounding_chemistry.SeasoningRack.add(<rockhounding_chemistry:misc_blocks_a:2>, <tfc:powder/salt>*9);
 
 
 // METAL ALLOYER
@@ -39,12 +42,39 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustSilver"], [80, 
 
 
 // SLURRY POND
- mods.rockhounding_chemistry.SlurryPond.add(<rockhounding_chemistry:chemical_items:0>, <liquid:fresh_water>*1000, <liquid:coal_slurry>*1000);
-
+  mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:coal_slurry>*1000);
+  mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:organic_slurry>*200);
+  mods.rockhounding_chemistry.SlurryPond.add(<rockhounding_chemistry:chemical_items:0>, <liquid:fresh_water>*1000, <liquid:coal_slurry>*1000);
+  mods.rockhounding_chemistry.SlurryPond.add(<minecraft:rotten_flesh>, <liquid:fresh_water>*200, <liquid:organic_slurry>*200);
 
 // LAB OVEN
-mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:2>, null , <liquid:fresh_water>*1000, null, <liquid:sulfuric_acid>*400, null);
-mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:2>, <rockhounding_chemistry:va_catalyst> , <liquid:fresh_water>*1000, null, <liquid:sulfuric_acid>*400, null);
+// add(String recipename, IItemStack input, IItemStack catalyst, ILiquidStack solvent, ILiquidStack reagent, ILiquidStack solution, ILiquidStack byproduct) 
+
+  //Sulfuric Acid
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sulfuric_acid>*400);
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sulfuric_acid>*800);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:2>, null , <liquid:fresh_water>*1000, null, <liquid:sulfuric_acid>*400, null);
+  mods.rockhounding_chemistry.LabOven.add("Sulfuric Acid Plus", <rockhounding_chemistry:chemical_items:2>, <rockhounding_chemistry:va_catalyst> , <liquid:fresh_water>*1000, null, <liquid:sulfuric_acid>*800, null);
+  //Hydrochloric Acid
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:hydrochloric_acid>*300);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:6>, null , <liquid:sulfuric_acid>*400, <liquid:fresh_water>*1000, <liquid:hydrochloric_acid>*300, <liquid:toxic_waste>*50);
+  //Sodium Cyanide
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sodium_cyanide>*300);
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sodium_cyanide>*800);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:6>, null , <liquid:liquid_ammonia>*400, <liquid:fresh_water>*1000, <liquid:sodium_cyanide>*300, <liquid:toxic_waste>*50);
+  mods.rockhounding_chemistry.LabOven.add("Sodium Cyanide Plus", <rockhounding_chemistry:chemical_items:6>, <rockhounding_chemistry:gr_catalyst> , <liquid:liquid_ammonia>*400, <liquid:fresh_water>*1000, <liquid:sodium_cyanide>*800, <liquid:toxic_waste>*50);
+  //Liquid Ammonia
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:liquid_ammonia>*300);
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:liquid_ammonia>*50);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:20>, null , <liquid:coal_tar>*200, <liquid:fresh_water>*1000, <liquid:liquid_ammonia>*300, <liquid:coal_slurry>*50);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:21>, null , <liquid:fresh_water>*1000, null , <liquid:liquid_ammonia>*50, <liquid:hydrochloric_acid>*50);
+  //Silicone
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:silicone>*500);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:11>, null , <liquid:chloromethane>*500, <liquid:fresh_water>*1000, <liquid:silicone>*500, <liquid:toxic_waste>*100);
+  //IE Creosote
+  mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:creosote>*50);
+  mods.rockhounding_chemistry.LabOven.add(null, <rockhounding_chemistry:chemical_items:7>, null , <liquid:fresh_water>*1000, null , <liquid:creosote>*50, <liquid:coal_slurry>*50);
+
 
 //LAB BLENDER
 
@@ -55,16 +85,22 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 
 // GASIFICATION PLANT
 //mods.rockhounding_chemistry.GasifierPlant.removeByInput(<liquid:water>);
-mods.rockhounding_chemistry.GasifierPlant.removeByInput(<liquid:water>);
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:fresh_water>*100, <liquid:fresh_water>*200, <liquid:water_vapour>*200, null, null, 400);
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:organic_slurry>*140, <liquid:fresh_water>*400, <liquid:raw_syngas>*100, null, null, 600);
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:toxic_waste>*130, <liquid:fresh_water>*500, <liquid:raw_flue_gas>*150, <rockhounding_chemistry:chemical_items:2>, null, 1000);
-
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:coal_slurry>*120, <liquid:fresh_water>*300, <liquid:raw_syngas>*100, <rockhounding_chemistry:chemical_items:2>, <rockhounding_chemistry:chemical_items:7>, 800);
+  mods.rockhounding_chemistry.GasifierPlant.removeByInput(<liquid:water>*300);
+  mods.rockhounding_chemistry.GasifierPlant.removeByInput(<liquid:water>*400);
+  mods.rockhounding_chemistry.GasifierPlant.removeByInput(<liquid:water>*500);
+  mods.rockhounding_chemistry.GasifierPlant.add(<liquid:fresh_water>*100, <liquid:fresh_water>*200, <liquid:water_vapour>*200, null, null, 400);
+  mods.rockhounding_chemistry.GasifierPlant.add(<liquid:organic_slurry>*140, <liquid:fresh_water>*400, <liquid:raw_syngas>*100, null, null, 600);
+  mods.rockhounding_chemistry.GasifierPlant.add(<liquid:toxic_waste>*130, <liquid:fresh_water>*500, <liquid:raw_flue_gas>*150, <rockhounding_chemistry:chemical_items:2>, null, 1000);
+  mods.rockhounding_chemistry.GasifierPlant.add(<liquid:coal_slurry>*120, <liquid:fresh_water>*300, <liquid:raw_syngas>*100, <rockhounding_chemistry:chemical_items:2>, <rockhounding_chemistry:chemical_items:7>, 800);
 
 // PRECIPITATION CHAMBER
-mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:fresh_water>*100, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
+  mods.rockhounding_chemistry.Precipitator.removeByOutput(<liquid:toxic_waste>*700);
+  mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:fresh_water>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
 
 
 // LEACHING VAT
 // mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:0>, [<liquid:water_vapour>, <minecraft:dye:14>, <minecraft:dye:13>, <minecraft:dye:12>, <minecraft:dye:11>], [3.18F, 4.88F, 7.51F, 3.30F, 12.05F], <liquid:leachate>*1000);
+
+
+// ELECTROCHEMICAL CSTR
+  mods.rockhounding_chemistry.StirredTank.add(<liquid:salt_brine>*80, <liquid:fresh_water>*100, <liquid:sodium_hydroxide>*200, null, 4);

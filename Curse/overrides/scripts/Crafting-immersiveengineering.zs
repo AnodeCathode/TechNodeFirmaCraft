@@ -2,8 +2,8 @@
 #modloaded immersiveengineering
 
 
-val creosotebucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
-val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
+val creosotebucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).giveBack(<tfc:wooden_bucket>);
+val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).giveBack(<tfc:wooden_bucket>);
 //#REMOVE Recipes
   mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:shovel_steel>);
