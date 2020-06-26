@@ -475,6 +475,19 @@
         "tfc:shale",
         "tfc:limestone"
     ]
+  },
+  "sulfur": {
+    "ore": "tfc:sulfur",
+    "width": 22,
+    "height": 42,
+    "shape": "cluster",
+    "rarity": 140,
+    "minimum_height": 5,
+    "maximum_height": 144,
+    "density": 70,
+    "base_rocks": [
+      "tfc:igneous_extrusive"
+    ]
   }
   
 }
