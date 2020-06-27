@@ -44,6 +44,7 @@
 <betterwithmods:arcane_scroll>.withTag({enchant: 12})
 <betterwithmods:arcane_scroll>.withTag({enchant: 13})
 <betterwithmods:arcane_scroll>.withTag({enchant: 14})
+<betterwithmods:arcane_scroll>.withTag({enchant: 15})
 <betterwithmods:arcane_scroll>.withTag({enchant: 16})
 <betterwithmods:arcane_scroll>.withTag({enchant: 17})
 <betterwithmods:arcane_scroll>.withTag({enchant: 18})
@@ -51,6 +52,13 @@
 <betterwithmods:arcane_scroll>.withTag({enchant: 20})
 <betterwithmods:arcane_scroll>.withTag({enchant: 21})
 <betterwithmods:arcane_scroll>.withTag({enchant: 22})
+<betterwithmods:arcane_scroll>.withTag({enchant: 23})
+<betterwithmods:arcane_scroll>.withTag({enchant: 24})
+<betterwithmods:arcane_scroll>.withTag({enchant: 25})
+<betterwithmods:arcane_scroll>.withTag({enchant: 26})
+<betterwithmods:arcane_scroll>.withTag({enchant: 27})
+<betterwithmods:arcane_scroll>.withTag({enchant: 28})
+<betterwithmods:arcane_scroll>.withTag({enchant: 29})
 <betterwithmods:arcane_scroll>.withTag({enchant: 32})
 <betterwithmods:arcane_scroll>.withTag({enchant: 33})
 <betterwithmods:arcane_scroll>.withTag({enchant: 34})
@@ -138,6 +146,7 @@
 <betterwithmods:dirt_slab:2>
 <betterwithmods:donut>
 <betterwithmods:dynamite>
+<betterwithmods:dynamite_bundle>
 <betterwithmods:ender_spectacles>
 <betterwithmods:fertile_farmland>
 <betterwithmods:fertilizer>
@@ -607,14 +616,14 @@
 <chiselsandbits:block_bit>.withTag({id: 20775})
 <chiselsandbits:block_bit>.withTag({id: 24871})
 <chiselsandbits:block_bit>.withTag({id: 28967})
-<chiselsandbits:block_bit>.withTag({id: 307})
-<chiselsandbits:block_bit>.withTag({id: 4403})
-<chiselsandbits:block_bit>.withTag({id: 8499})
-<chiselsandbits:block_bit>.withTag({id: 12595})
-<chiselsandbits:block_bit>.withTag({id: 16691})
-<chiselsandbits:block_bit>.withTag({id: 4404})
-<chiselsandbits:block_bit>.withTag({id: 8500})
-<chiselsandbits:block_bit>.withTag({id: 12596})
+<chiselsandbits:block_bit>.withTag({id: 314})
+<chiselsandbits:block_bit>.withTag({id: 4410})
+<chiselsandbits:block_bit>.withTag({id: 8506})
+<chiselsandbits:block_bit>.withTag({id: 12602})
+<chiselsandbits:block_bit>.withTag({id: 16698})
+<chiselsandbits:block_bit>.withTag({id: 4411})
+<chiselsandbits:block_bit>.withTag({id: 8507})
+<chiselsandbits:block_bit>.withTag({id: 12603})
 <chiselsandbits:block_bit>.withTag({id: 323})
 <chiselsandbits:block_bit>.withTag({id: 324})
 <chiselsandbits:block_bit>.withTag({id: 342})
@@ -643,39 +652,89 @@
 <chiselsandbits:block_bit>.withTag({id: 8590})
 <chiselsandbits:block_bit>.withTag({id: 12686})
 <chiselsandbits:block_bit>.withTag({id: 406})
-<chiselsandbits:block_bit>.withTag({id: 412})
 <chiselsandbits:block_bit>.withTag({id: 415})
-<chiselsandbits:block_bit>.withTag({id: 416})
-<chiselsandbits:block_bit>.withTag({id: 417})
-<chiselsandbits:block_bit>.withTag({id: 418})
 <chiselsandbits:block_bit>.withTag({id: 419})
 <chiselsandbits:block_bit>.withTag({id: 420})
-<chiselsandbits:block_bit>.withTag({id: 471})
-<chiselsandbits:block_bit>.withTag({id: 472})
-<chiselsandbits:block_bit>.withTag({id: 475})
-<chiselsandbits:block_bit>.withTag({id: 476})
-<chiselsandbits:block_bit>.withTag({id: 477})
-<chiselsandbits:block_bit>.withTag({id: 480})
+<chiselsandbits:block_bit>.withTag({id: 421})
+<chiselsandbits:block_bit>.withTag({id: 422})
+<chiselsandbits:block_bit>.withTag({id: 423})
+<chiselsandbits:block_bit>.withTag({id: 473})
 <chiselsandbits:block_bit>.withTag({id: 482})
+<chiselsandbits:block_bit>.withTag({id: 4578})
+<chiselsandbits:block_bit>.withTag({id: 8674})
+<chiselsandbits:block_bit>.withTag({id: 12770})
+<chiselsandbits:block_bit>.withTag({id: 16866})
+<chiselsandbits:block_bit>.withTag({id: 20962})
+<chiselsandbits:block_bit>.withTag({id: 25058})
+<chiselsandbits:block_bit>.withTag({id: 29154})
+<chiselsandbits:block_bit>.withTag({id: 33250})
+<chiselsandbits:block_bit>.withTag({id: 37346})
+<chiselsandbits:block_bit>.withTag({id: 41442})
+<chiselsandbits:block_bit>.withTag({id: 45538})
+<chiselsandbits:block_bit>.withTag({id: 49634})
+<chiselsandbits:block_bit>.withTag({id: 53730})
+<chiselsandbits:block_bit>.withTag({id: 57826})
+<chiselsandbits:block_bit>.withTag({id: 61922})
+<chiselsandbits:block_bit>.withTag({id: 483})
+<chiselsandbits:block_bit>.withTag({id: 4579})
+<chiselsandbits:block_bit>.withTag({id: 8675})
+<chiselsandbits:block_bit>.withTag({id: 12771})
+<chiselsandbits:block_bit>.withTag({id: 16867})
+<chiselsandbits:block_bit>.withTag({id: 20963})
+<chiselsandbits:block_bit>.withTag({id: 25059})
+<chiselsandbits:block_bit>.withTag({id: 29155})
+<chiselsandbits:block_bit>.withTag({id: 33251})
+<chiselsandbits:block_bit>.withTag({id: 37347})
+<chiselsandbits:block_bit>.withTag({id: 41443})
+<chiselsandbits:block_bit>.withTag({id: 45539})
+<chiselsandbits:block_bit>.withTag({id: 49635})
+<chiselsandbits:block_bit>.withTag({id: 53731})
+<chiselsandbits:block_bit>.withTag({id: 57827})
+<chiselsandbits:block_bit>.withTag({id: 61923})
 <chiselsandbits:block_bit>.withTag({id: 484})
+<chiselsandbits:block_bit>.withTag({id: 4580})
+<chiselsandbits:block_bit>.withTag({id: 8676})
+<chiselsandbits:block_bit>.withTag({id: 12772})
+<chiselsandbits:block_bit>.withTag({id: 16868})
+<chiselsandbits:block_bit>.withTag({id: 20964})
+<chiselsandbits:block_bit>.withTag({id: 25060})
+<chiselsandbits:block_bit>.withTag({id: 29156})
+<chiselsandbits:block_bit>.withTag({id: 33252})
+<chiselsandbits:block_bit>.withTag({id: 37348})
+<chiselsandbits:block_bit>.withTag({id: 41444})
+<chiselsandbits:block_bit>.withTag({id: 45540})
 <chiselsandbits:block_bit>.withTag({id: 485})
-<chiselsandbits:block_bit>.withTag({id: 486})
-<chiselsandbits:block_bit>.withTag({id: 487})
+<chiselsandbits:block_bit>.withTag({id: 4581})
+<chiselsandbits:block_bit>.withTag({id: 8677})
+<chiselsandbits:block_bit>.withTag({id: 12773})
+<chiselsandbits:block_bit>.withTag({id: 16869})
+<chiselsandbits:block_bit>.withTag({id: 20965})
+<chiselsandbits:block_bit>.withTag({id: 25061})
+<chiselsandbits:block_bit>.withTag({id: 29157})
+<chiselsandbits:block_bit>.withTag({id: 33253})
+<chiselsandbits:block_bit>.withTag({id: 37349})
+<chiselsandbits:block_bit>.withTag({id: 41445})
+<chiselsandbits:block_bit>.withTag({id: 45541})
 <chiselsandbits:block_bit>.withTag({id: 488})
-<chiselsandbits:block_bit>.withTag({id: 493})
-<chiselsandbits:block_bit>.withTag({id: 494})
-<chiselsandbits:block_bit>.withTag({id: 495})
-<chiselsandbits:block_bit>.withTag({id: 496})
+<chiselsandbits:block_bit>.withTag({id: 4584})
+<chiselsandbits:block_bit>.withTag({id: 8680})
+<chiselsandbits:block_bit>.withTag({id: 489})
+<chiselsandbits:block_bit>.withTag({id: 4585})
+<chiselsandbits:block_bit>.withTag({id: 8681})
 <chiselsandbits:block_bit>.withTag({id: 497})
-<chiselsandbits:block_bit>.withTag({id: 499})
+<chiselsandbits:block_bit>.withTag({id: 4593})
+<chiselsandbits:block_bit>.withTag({id: 8689})
+<chiselsandbits:block_bit>.withTag({id: 498})
+<chiselsandbits:block_bit>.withTag({id: 4594})
 <chiselsandbits:block_bit>.withTag({id: 500})
-<chiselsandbits:block_bit>.withTag({id: 501})
 <chiselsandbits:block_bit>.withTag({id: 502})
 <chiselsandbits:block_bit>.withTag({id: 503})
 <chiselsandbits:block_bit>.withTag({id: 504})
 <chiselsandbits:block_bit>.withTag({id: 505})
-<chiselsandbits:block_bit>.withTag({id: 508})
+<chiselsandbits:block_bit>.withTag({id: 507})
 <chiselsandbits:block_bit>.withTag({id: 509})
+<chiselsandbits:block_bit>.withTag({id: 510})
+<chiselsandbits:block_bit>.withTag({id: 511})
 <chiselsandbits:block_bit>.withTag({id: 512})
 <chiselsandbits:block_bit>.withTag({id: 513})
 <chiselsandbits:block_bit>.withTag({id: 514})
@@ -683,7 +742,7 @@
 <chiselsandbits:block_bit>.withTag({id: 516})
 <chiselsandbits:block_bit>.withTag({id: 517})
 <chiselsandbits:block_bit>.withTag({id: 518})
-<chiselsandbits:block_bit>.withTag({id: 519})
+<chiselsandbits:block_bit>.withTag({id: 520})
 <chiselsandbits:block_bit>.withTag({id: 521})
 <chiselsandbits:block_bit>.withTag({id: 522})
 <chiselsandbits:block_bit>.withTag({id: 523})
@@ -693,85 +752,27 @@
 <chiselsandbits:block_bit>.withTag({id: 528})
 <chiselsandbits:block_bit>.withTag({id: 529})
 <chiselsandbits:block_bit>.withTag({id: 530})
+<chiselsandbits:block_bit>.withTag({id: 532})
+<chiselsandbits:block_bit>.withTag({id: 534})
+<chiselsandbits:block_bit>.withTag({id: 535})
+<chiselsandbits:block_bit>.withTag({id: 536})
 <chiselsandbits:block_bit>.withTag({id: 538})
-<chiselsandbits:block_bit>.withTag({id: 4634})
-<chiselsandbits:block_bit>.withTag({id: 8730})
-<chiselsandbits:block_bit>.withTag({id: 12826})
-<chiselsandbits:block_bit>.withTag({id: 16922})
-<chiselsandbits:block_bit>.withTag({id: 21018})
-<chiselsandbits:block_bit>.withTag({id: 25114})
-<chiselsandbits:block_bit>.withTag({id: 29210})
-<chiselsandbits:block_bit>.withTag({id: 33306})
-<chiselsandbits:block_bit>.withTag({id: 37402})
-<chiselsandbits:block_bit>.withTag({id: 41498})
-<chiselsandbits:block_bit>.withTag({id: 45594})
-<chiselsandbits:block_bit>.withTag({id: 49690})
-<chiselsandbits:block_bit>.withTag({id: 53786})
-<chiselsandbits:block_bit>.withTag({id: 57882})
-<chiselsandbits:block_bit>.withTag({id: 61978})
 <chiselsandbits:block_bit>.withTag({id: 539})
-<chiselsandbits:block_bit>.withTag({id: 4635})
-<chiselsandbits:block_bit>.withTag({id: 8731})
-<chiselsandbits:block_bit>.withTag({id: 12827})
-<chiselsandbits:block_bit>.withTag({id: 16923})
-<chiselsandbits:block_bit>.withTag({id: 21019})
-<chiselsandbits:block_bit>.withTag({id: 25115})
-<chiselsandbits:block_bit>.withTag({id: 29211})
-<chiselsandbits:block_bit>.withTag({id: 33307})
-<chiselsandbits:block_bit>.withTag({id: 37403})
-<chiselsandbits:block_bit>.withTag({id: 41499})
-<chiselsandbits:block_bit>.withTag({id: 45595})
-<chiselsandbits:block_bit>.withTag({id: 49691})
-<chiselsandbits:block_bit>.withTag({id: 53787})
-<chiselsandbits:block_bit>.withTag({id: 57883})
-<chiselsandbits:block_bit>.withTag({id: 61979})
-<chiselsandbits:block_bit>.withTag({id: 540})
-<chiselsandbits:block_bit>.withTag({id: 4636})
-<chiselsandbits:block_bit>.withTag({id: 8732})
-<chiselsandbits:block_bit>.withTag({id: 12828})
-<chiselsandbits:block_bit>.withTag({id: 16924})
-<chiselsandbits:block_bit>.withTag({id: 21020})
-<chiselsandbits:block_bit>.withTag({id: 25116})
-<chiselsandbits:block_bit>.withTag({id: 29212})
-<chiselsandbits:block_bit>.withTag({id: 33308})
-<chiselsandbits:block_bit>.withTag({id: 37404})
-<chiselsandbits:block_bit>.withTag({id: 41500})
-<chiselsandbits:block_bit>.withTag({id: 45596})
-<chiselsandbits:block_bit>.withTag({id: 541})
-<chiselsandbits:block_bit>.withTag({id: 4637})
-<chiselsandbits:block_bit>.withTag({id: 8733})
-<chiselsandbits:block_bit>.withTag({id: 12829})
-<chiselsandbits:block_bit>.withTag({id: 16925})
-<chiselsandbits:block_bit>.withTag({id: 21021})
-<chiselsandbits:block_bit>.withTag({id: 25117})
-<chiselsandbits:block_bit>.withTag({id: 29213})
-<chiselsandbits:block_bit>.withTag({id: 33309})
-<chiselsandbits:block_bit>.withTag({id: 37405})
-<chiselsandbits:block_bit>.withTag({id: 41501})
-<chiselsandbits:block_bit>.withTag({id: 45597})
-<chiselsandbits:block_bit>.withTag({id: 544})
-<chiselsandbits:block_bit>.withTag({id: 4640})
-<chiselsandbits:block_bit>.withTag({id: 8736})
+<chiselsandbits:block_bit>.withTag({id: 543})
 <chiselsandbits:block_bit>.withTag({id: 545})
-<chiselsandbits:block_bit>.withTag({id: 4641})
-<chiselsandbits:block_bit>.withTag({id: 8737})
-<chiselsandbits:block_bit>.withTag({id: 553})
-<chiselsandbits:block_bit>.withTag({id: 4649})
-<chiselsandbits:block_bit>.withTag({id: 8745})
+<chiselsandbits:block_bit>.withTag({id: 547})
+<chiselsandbits:block_bit>.withTag({id: 549})
+<chiselsandbits:block_bit>.withTag({id: 550})
+<chiselsandbits:block_bit>.withTag({id: 551})
 <chiselsandbits:block_bit>.withTag({id: 554})
-<chiselsandbits:block_bit>.withTag({id: 4650})
-<chiselsandbits:block_bit>.withTag({id: 563})
-<chiselsandbits:block_bit>.withTag({id: 564})
-<chiselsandbits:block_bit>.withTag({id: 565})
-<chiselsandbits:block_bit>.withTag({id: 566})
+<chiselsandbits:block_bit>.withTag({id: 556})
+<chiselsandbits:block_bit>.withTag({id: 557})
+<chiselsandbits:block_bit>.withTag({id: 558})
 <chiselsandbits:block_bit>.withTag({id: 569})
-<chiselsandbits:block_bit>.withTag({id: 579})
-<chiselsandbits:block_bit>.withTag({id: 580})
-<chiselsandbits:block_bit>.withTag({id: 581})
-<chiselsandbits:block_bit>.withTag({id: 582})
-<chiselsandbits:block_bit>.withTag({id: 583})
-<chiselsandbits:block_bit>.withTag({id: 584})
-<chiselsandbits:block_bit>.withTag({id: 585})
+<chiselsandbits:block_bit>.withTag({id: 570})
+<chiselsandbits:block_bit>.withTag({id: 571})
+<chiselsandbits:block_bit>.withTag({id: 572})
+<chiselsandbits:block_bit>.withTag({id: 575})
 <chiselsandbits:block_bit>.withTag({id: 586})
 <chiselsandbits:block_bit>.withTag({id: 587})
 <chiselsandbits:block_bit>.withTag({id: 588})
@@ -816,12 +817,13 @@
 <chiselsandbits:block_bit>.withTag({id: 627})
 <chiselsandbits:block_bit>.withTag({id: 628})
 <chiselsandbits:block_bit>.withTag({id: 629})
-<chiselsandbits:block_bit>.withTag({id: 711})
-<chiselsandbits:block_bit>.withTag({id: 712})
-<chiselsandbits:block_bit>.withTag({id: 713})
-<chiselsandbits:block_bit>.withTag({id: 714})
-<chiselsandbits:block_bit>.withTag({id: 715})
-<chiselsandbits:block_bit>.withTag({id: 716})
+<chiselsandbits:block_bit>.withTag({id: 630})
+<chiselsandbits:block_bit>.withTag({id: 631})
+<chiselsandbits:block_bit>.withTag({id: 632})
+<chiselsandbits:block_bit>.withTag({id: 633})
+<chiselsandbits:block_bit>.withTag({id: 634})
+<chiselsandbits:block_bit>.withTag({id: 635})
+<chiselsandbits:block_bit>.withTag({id: 636})
 <chiselsandbits:block_bit>.withTag({id: 717})
 <chiselsandbits:block_bit>.withTag({id: 718})
 <chiselsandbits:block_bit>.withTag({id: 719})
@@ -837,19 +839,12 @@
 <chiselsandbits:block_bit>.withTag({id: 729})
 <chiselsandbits:block_bit>.withTag({id: 730})
 <chiselsandbits:block_bit>.withTag({id: 731})
-<chiselsandbits:block_bit>.withTag({id: 753})
-<chiselsandbits:block_bit>.withTag({id: 754})
-<chiselsandbits:block_bit>.withTag({id: 755})
-<chiselsandbits:block_bit>.withTag({id: 756})
-<chiselsandbits:block_bit>.withTag({id: 757})
-<chiselsandbits:block_bit>.withTag({id: 758})
-<chiselsandbits:block_bit>.withTag({id: 759})
-<chiselsandbits:block_bit>.withTag({id: 760})
-<chiselsandbits:block_bit>.withTag({id: 761})
-<chiselsandbits:block_bit>.withTag({id: 762})
-<chiselsandbits:block_bit>.withTag({id: 763})
-<chiselsandbits:block_bit>.withTag({id: 764})
-<chiselsandbits:block_bit>.withTag({id: 765})
+<chiselsandbits:block_bit>.withTag({id: 732})
+<chiselsandbits:block_bit>.withTag({id: 733})
+<chiselsandbits:block_bit>.withTag({id: 734})
+<chiselsandbits:block_bit>.withTag({id: 735})
+<chiselsandbits:block_bit>.withTag({id: 736})
+<chiselsandbits:block_bit>.withTag({id: 737})
 <chiselsandbits:block_bit>.withTag({id: 766})
 <chiselsandbits:block_bit>.withTag({id: 767})
 <chiselsandbits:block_bit>.withTag({id: 768})
@@ -963,19 +958,19 @@
 <chiselsandbits:block_bit>.withTag({id: 876})
 <chiselsandbits:block_bit>.withTag({id: 877})
 <chiselsandbits:block_bit>.withTag({id: 878})
-<chiselsandbits:block_bit>.withTag({id: 921})
-<chiselsandbits:block_bit>.withTag({id: 922})
-<chiselsandbits:block_bit>.withTag({id: 923})
-<chiselsandbits:block_bit>.withTag({id: 924})
-<chiselsandbits:block_bit>.withTag({id: 925})
-<chiselsandbits:block_bit>.withTag({id: 926})
-<chiselsandbits:block_bit>.withTag({id: 927})
-<chiselsandbits:block_bit>.withTag({id: 928})
-<chiselsandbits:block_bit>.withTag({id: 929})
-<chiselsandbits:block_bit>.withTag({id: 930})
-<chiselsandbits:block_bit>.withTag({id: 931})
-<chiselsandbits:block_bit>.withTag({id: 932})
-<chiselsandbits:block_bit>.withTag({id: 933})
+<chiselsandbits:block_bit>.withTag({id: 879})
+<chiselsandbits:block_bit>.withTag({id: 880})
+<chiselsandbits:block_bit>.withTag({id: 881})
+<chiselsandbits:block_bit>.withTag({id: 882})
+<chiselsandbits:block_bit>.withTag({id: 883})
+<chiselsandbits:block_bit>.withTag({id: 884})
+<chiselsandbits:block_bit>.withTag({id: 885})
+<chiselsandbits:block_bit>.withTag({id: 886})
+<chiselsandbits:block_bit>.withTag({id: 887})
+<chiselsandbits:block_bit>.withTag({id: 888})
+<chiselsandbits:block_bit>.withTag({id: 889})
+<chiselsandbits:block_bit>.withTag({id: 890})
+<chiselsandbits:block_bit>.withTag({id: 891})
 <chiselsandbits:block_bit>.withTag({id: 934})
 <chiselsandbits:block_bit>.withTag({id: 935})
 <chiselsandbits:block_bit>.withTag({id: 936})
@@ -984,19 +979,19 @@
 <chiselsandbits:block_bit>.withTag({id: 939})
 <chiselsandbits:block_bit>.withTag({id: 940})
 <chiselsandbits:block_bit>.withTag({id: 941})
-<chiselsandbits:block_bit>.withTag({id: 1005})
-<chiselsandbits:block_bit>.withTag({id: 1006})
-<chiselsandbits:block_bit>.withTag({id: 1007})
-<chiselsandbits:block_bit>.withTag({id: 1008})
-<chiselsandbits:block_bit>.withTag({id: 1009})
-<chiselsandbits:block_bit>.withTag({id: 1010})
-<chiselsandbits:block_bit>.withTag({id: 1011})
-<chiselsandbits:block_bit>.withTag({id: 1012})
-<chiselsandbits:block_bit>.withTag({id: 1013})
-<chiselsandbits:block_bit>.withTag({id: 1014})
-<chiselsandbits:block_bit>.withTag({id: 1015})
-<chiselsandbits:block_bit>.withTag({id: 1016})
-<chiselsandbits:block_bit>.withTag({id: 1017})
+<chiselsandbits:block_bit>.withTag({id: 942})
+<chiselsandbits:block_bit>.withTag({id: 943})
+<chiselsandbits:block_bit>.withTag({id: 944})
+<chiselsandbits:block_bit>.withTag({id: 945})
+<chiselsandbits:block_bit>.withTag({id: 946})
+<chiselsandbits:block_bit>.withTag({id: 947})
+<chiselsandbits:block_bit>.withTag({id: 948})
+<chiselsandbits:block_bit>.withTag({id: 949})
+<chiselsandbits:block_bit>.withTag({id: 950})
+<chiselsandbits:block_bit>.withTag({id: 951})
+<chiselsandbits:block_bit>.withTag({id: 952})
+<chiselsandbits:block_bit>.withTag({id: 953})
+<chiselsandbits:block_bit>.withTag({id: 954})
 <chiselsandbits:block_bit>.withTag({id: 1018})
 <chiselsandbits:block_bit>.withTag({id: 1019})
 <chiselsandbits:block_bit>.withTag({id: 1020})
@@ -2032,7 +2027,19 @@
 <chiselsandbits:block_bit>.withTag({id: 2050})
 <chiselsandbits:block_bit>.withTag({id: 2051})
 <chiselsandbits:block_bit>.withTag({id: 2052})
-<chiselsandbits:block_bit>.withTag({id: 2093})
+<chiselsandbits:block_bit>.withTag({id: 2053})
+<chiselsandbits:block_bit>.withTag({id: 2054})
+<chiselsandbits:block_bit>.withTag({id: 2055})
+<chiselsandbits:block_bit>.withTag({id: 2056})
+<chiselsandbits:block_bit>.withTag({id: 2057})
+<chiselsandbits:block_bit>.withTag({id: 2058})
+<chiselsandbits:block_bit>.withTag({id: 2059})
+<chiselsandbits:block_bit>.withTag({id: 2060})
+<chiselsandbits:block_bit>.withTag({id: 2061})
+<chiselsandbits:block_bit>.withTag({id: 2062})
+<chiselsandbits:block_bit>.withTag({id: 2063})
+<chiselsandbits:block_bit>.withTag({id: 2064})
+<chiselsandbits:block_bit>.withTag({id: 2065})
 <chiselsandbits:block_bit>.withTag({id: 2106})
 <chiselsandbits:block_bit>.withTag({id: 2119})
 <chiselsandbits:block_bit>.withTag({id: 2132})
@@ -2052,49 +2059,70 @@
 <chiselsandbits:block_bit>.withTag({id: 2314})
 <chiselsandbits:block_bit>.withTag({id: 2327})
 <chiselsandbits:block_bit>.withTag({id: 2340})
-<chiselsandbits:block_bit>.withTag({id: 2982})
-<chiselsandbits:block_bit>.withTag({id: 2983})
+<chiselsandbits:block_bit>.withTag({id: 2353})
+<chiselsandbits:block_bit>.withTag({id: 2985})
+<chiselsandbits:block_bit>.withTag({id: 2986})
+<chiselsandbits:block_bit>.withTag({id: 3060})
+<chiselsandbits:block_bit>.withTag({id: 3051})
+<chiselsandbits:block_bit>.withTag({id: 7147})
+<chiselsandbits:block_bit>.withTag({id: 11243})
+<chiselsandbits:block_bit>.withTag({id: 15339})
+<chiselsandbits:block_bit>.withTag({id: 3062})
+<chiselsandbits:block_bit>.withTag({id: 3068})
+<chiselsandbits:block_bit>.withTag({id: 3059})
+<chiselsandbits:block_bit>.withTag({id: 3055})
+<chiselsandbits:block_bit>.withTag({id: 3058})
+<chiselsandbits:block_bit>.withTag({id: 3067})
+<chiselsandbits:block_bit>.withTag({id: 3053})
+<chiselsandbits:block_bit>.withTag({id: 3065})
+<chiselsandbits:block_bit>.withTag({id: 3064})
+<chiselsandbits:block_bit>.withTag({id: 3071})
+<chiselsandbits:block_bit>.withTag({id: 3063})
+<chiselsandbits:block_bit>.withTag({id: 3069})
+<chiselsandbits:block_bit>.withTag({id: 3054})
+<chiselsandbits:block_bit>.withTag({id: 3056})
+<chiselsandbits:block_bit>.withTag({id: 3066})
+<chiselsandbits:block_bit>.withTag({id: 3057})
+<chiselsandbits:block_bit>.withTag({id: 3061})
+<chiselsandbits:block_bit>.withTag({id: 3052})
+<chiselsandbits:block_bit>.withTag({id: 7148})
+<chiselsandbits:block_bit>.withTag({id: 3070})
 <chiselsandbits:block_bit>.withTag({id: 9})
 <chiselsandbits:block_bit>.withTag({id: 11})
+<chiselsandbits:block_bit>.withTag({id: 309})
+<chiselsandbits:block_bit>.withTag({id: 310})
 <chiselsandbits:block_bit>.withTag({id: 311})
 <chiselsandbits:block_bit>.withTag({id: 312})
 <chiselsandbits:block_bit>.withTag({id: 313})
-<chiselsandbits:block_bit>.withTag({id: 314})
-<chiselsandbits:block_bit>.withTag({id: 315})
 <chiselsandbits:block_bit>.withTag({id: 399})
 <chiselsandbits:block_bit>.withTag({id: 400})
 <chiselsandbits:block_bit>.withTag({id: 401})
 <chiselsandbits:block_bit>.withTag({id: 402})
 <chiselsandbits:block_bit>.withTag({id: 403})
-<chiselsandbits:block_bit>.withTag({id: 413})
-<chiselsandbits:block_bit>.withTag({id: 414})
-<chiselsandbits:block_bit>.withTag({id: 511})
-<chiselsandbits:block_bit>.withTag({id: 520})
-<chiselsandbits:block_bit>.withTag({id: 490})
-<chiselsandbits:block_bit>.withTag({id: 491})
-<chiselsandbits:block_bit>.withTag({id: 473})
-<chiselsandbits:block_bit>.withTag({id: 492})
-<chiselsandbits:block_bit>.withTag({id: 510})
+<chiselsandbits:block_bit>.withTag({id: 417})
+<chiselsandbits:block_bit>.withTag({id: 418})
+<chiselsandbits:block_bit>.withTag({id: 508})
+<chiselsandbits:block_bit>.withTag({id: 553})
+<chiselsandbits:block_bit>.withTag({id: 559})
+<chiselsandbits:block_bit>.withTag({id: 560})
+<chiselsandbits:block_bit>.withTag({id: 561})
+<chiselsandbits:block_bit>.withTag({id: 533})
+<chiselsandbits:block_bit>.withTag({id: 548})
+<chiselsandbits:block_bit>.withTag({id: 541})
+<chiselsandbits:block_bit>.withTag({id: 519})
+<chiselsandbits:block_bit>.withTag({id: 555})
+<chiselsandbits:block_bit>.withTag({id: 546})
+<chiselsandbits:block_bit>.withTag({id: 540})
+<chiselsandbits:block_bit>.withTag({id: 537})
+<chiselsandbits:block_bit>.withTag({id: 501})
+<chiselsandbits:block_bit>.withTag({id: 552})
 <chiselsandbits:block_bit>.withTag({id: 506})
-<chiselsandbits:block_bit>.withTag({id: 507})
+<chiselsandbits:block_bit>.withTag({id: 544})
 <chiselsandbits:block_bit>.withTag({id: 524})
-<chiselsandbits:block_bit>.withTag({id: 470})
-<chiselsandbits:block_bit>.withTag({id: 474})
-<chiselsandbits:block_bit>.withTag({id: 489})
-<chiselsandbits:block_bit>.withTag({id: 478})
-<chiselsandbits:block_bit>.withTag({id: 483})
-<chiselsandbits:block_bit>.withTag({id: 481})
-<chiselsandbits:block_bit>.withTag({id: 479})
-<chiselsandbits:block_bit>.withTag({id: 498})
-<chiselsandbits:block_bit>.withTag({id: 631})
-<chiselsandbits:block_bit>.withTag({id: 630})
-<chiselsandbits:block_bit>.withTag({id: 632})
-<chiselsandbits:block_bit>.withTag({id: 633})
-<chiselsandbits:block_bit>.withTag({id: 634})
-<chiselsandbits:block_bit>.withTag({id: 635})
-<chiselsandbits:block_bit>.withTag({id: 636})
-<chiselsandbits:block_bit>.withTag({id: 637})
+<chiselsandbits:block_bit>.withTag({id: 542})
+<chiselsandbits:block_bit>.withTag({id: 531})
 <chiselsandbits:block_bit>.withTag({id: 638})
+<chiselsandbits:block_bit>.withTag({id: 637})
 <chiselsandbits:block_bit>.withTag({id: 639})
 <chiselsandbits:block_bit>.withTag({id: 640})
 <chiselsandbits:block_bit>.withTag({id: 641})
@@ -2106,57 +2134,57 @@
 <chiselsandbits:block_bit>.withTag({id: 647})
 <chiselsandbits:block_bit>.withTag({id: 648})
 <chiselsandbits:block_bit>.withTag({id: 649})
-<chiselsandbits:block_bit>.withTag({id: 680})
-<chiselsandbits:block_bit>.withTag({id: 689})
-<chiselsandbits:block_bit>.withTag({id: 687})
-<chiselsandbits:block_bit>.withTag({id: 671})
-<chiselsandbits:block_bit>.withTag({id: 683})
-<chiselsandbits:block_bit>.withTag({id: 673})
-<chiselsandbits:block_bit>.withTag({id: 653})
-<chiselsandbits:block_bit>.withTag({id: 675})
-<chiselsandbits:block_bit>.withTag({id: 678})
-<chiselsandbits:block_bit>.withTag({id: 665})
-<chiselsandbits:block_bit>.withTag({id: 690})
-<chiselsandbits:block_bit>.withTag({id: 694})
-<chiselsandbits:block_bit>.withTag({id: 679})
-<chiselsandbits:block_bit>.withTag({id: 652})
-<chiselsandbits:block_bit>.withTag({id: 662})
-<chiselsandbits:block_bit>.withTag({id: 691})
-<chiselsandbits:block_bit>.withTag({id: 676})
-<chiselsandbits:block_bit>.withTag({id: 692})
-<chiselsandbits:block_bit>.withTag({id: 684})
-<chiselsandbits:block_bit>.withTag({id: 659})
-<chiselsandbits:block_bit>.withTag({id: 686})
-<chiselsandbits:block_bit>.withTag({id: 668})
-<chiselsandbits:block_bit>.withTag({id: 656})
-<chiselsandbits:block_bit>.withTag({id: 688})
-<chiselsandbits:block_bit>.withTag({id: 663})
-<chiselsandbits:block_bit>.withTag({id: 670})
-<chiselsandbits:block_bit>.withTag({id: 669})
-<chiselsandbits:block_bit>.withTag({id: 685})
-<chiselsandbits:block_bit>.withTag({id: 655})
-<chiselsandbits:block_bit>.withTag({id: 654})
-<chiselsandbits:block_bit>.withTag({id: 651})
-<chiselsandbits:block_bit>.withTag({id: 664})
-<chiselsandbits:block_bit>.withTag({id: 666})
-<chiselsandbits:block_bit>.withTag({id: 661})
-<chiselsandbits:block_bit>.withTag({id: 667})
-<chiselsandbits:block_bit>.withTag({id: 658})
-<chiselsandbits:block_bit>.withTag({id: 677})
-<chiselsandbits:block_bit>.withTag({id: 672})
-<chiselsandbits:block_bit>.withTag({id: 660})
-<chiselsandbits:block_bit>.withTag({id: 674})
-<chiselsandbits:block_bit>.withTag({id: 657})
 <chiselsandbits:block_bit>.withTag({id: 650})
-<chiselsandbits:block_bit>.withTag({id: 681})
+<chiselsandbits:block_bit>.withTag({id: 651})
+<chiselsandbits:block_bit>.withTag({id: 652})
+<chiselsandbits:block_bit>.withTag({id: 653})
+<chiselsandbits:block_bit>.withTag({id: 654})
+<chiselsandbits:block_bit>.withTag({id: 655})
+<chiselsandbits:block_bit>.withTag({id: 656})
+<chiselsandbits:block_bit>.withTag({id: 683})
 <chiselsandbits:block_bit>.withTag({id: 682})
+<chiselsandbits:block_bit>.withTag({id: 689})
+<chiselsandbits:block_bit>.withTag({id: 685})
+<chiselsandbits:block_bit>.withTag({id: 668})
+<chiselsandbits:block_bit>.withTag({id: 667})
+<chiselsandbits:block_bit>.withTag({id: 680})
+<chiselsandbits:block_bit>.withTag({id: 688})
+<chiselsandbits:block_bit>.withTag({id: 681})
+<chiselsandbits:block_bit>.withTag({id: 694})
+<chiselsandbits:block_bit>.withTag({id: 673})
+<chiselsandbits:block_bit>.withTag({id: 676})
+<chiselsandbits:block_bit>.withTag({id: 666})
+<chiselsandbits:block_bit>.withTag({id: 658})
 <chiselsandbits:block_bit>.withTag({id: 693})
+<chiselsandbits:block_bit>.withTag({id: 677})
+<chiselsandbits:block_bit>.withTag({id: 690})
 <chiselsandbits:block_bit>.withTag({id: 695})
+<chiselsandbits:block_bit>.withTag({id: 684})
+<chiselsandbits:block_bit>.withTag({id: 671})
+<chiselsandbits:block_bit>.withTag({id: 691})
 <chiselsandbits:block_bit>.withTag({id: 696})
-<chiselsandbits:block_bit>.withTag({id: 697})
-<chiselsandbits:block_bit>.withTag({id: 698})
-<chiselsandbits:block_bit>.withTag({id: 699})
+<chiselsandbits:block_bit>.withTag({id: 692})
 <chiselsandbits:block_bit>.withTag({id: 700})
+<chiselsandbits:block_bit>.withTag({id: 659})
+<chiselsandbits:block_bit>.withTag({id: 687})
+<chiselsandbits:block_bit>.withTag({id: 660})
+<chiselsandbits:block_bit>.withTag({id: 686})
+<chiselsandbits:block_bit>.withTag({id: 663})
+<chiselsandbits:block_bit>.withTag({id: 674})
+<chiselsandbits:block_bit>.withTag({id: 697})
+<chiselsandbits:block_bit>.withTag({id: 675})
+<chiselsandbits:block_bit>.withTag({id: 679})
+<chiselsandbits:block_bit>.withTag({id: 670})
+<chiselsandbits:block_bit>.withTag({id: 672})
+<chiselsandbits:block_bit>.withTag({id: 669})
+<chiselsandbits:block_bit>.withTag({id: 698})
+<chiselsandbits:block_bit>.withTag({id: 665})
+<chiselsandbits:block_bit>.withTag({id: 699})
+<chiselsandbits:block_bit>.withTag({id: 662})
+<chiselsandbits:block_bit>.withTag({id: 678})
+<chiselsandbits:block_bit>.withTag({id: 664})
+<chiselsandbits:block_bit>.withTag({id: 657})
+<chiselsandbits:block_bit>.withTag({id: 661})
 <chiselsandbits:block_bit>.withTag({id: 701})
 <chiselsandbits:block_bit>.withTag({id: 702})
 <chiselsandbits:block_bit>.withTag({id: 703})
@@ -2167,7 +2195,13 @@
 <chiselsandbits:block_bit>.withTag({id: 708})
 <chiselsandbits:block_bit>.withTag({id: 709})
 <chiselsandbits:block_bit>.withTag({id: 710})
-<chiselsandbits:block_bit>.withTag({id: 2973})
+<chiselsandbits:block_bit>.withTag({id: 711})
+<chiselsandbits:block_bit>.withTag({id: 712})
+<chiselsandbits:block_bit>.withTag({id: 713})
+<chiselsandbits:block_bit>.withTag({id: 714})
+<chiselsandbits:block_bit>.withTag({id: 715})
+<chiselsandbits:block_bit>.withTag({id: 716})
+<chiselsandbits:block_bit>.withTag({id: 2976})
 <chiselsandbits:chisel_diamond>.withTag({})
 <chiselsandbits:chisel_gold>.withTag({})
 <chiselsandbits:chisel_iron>.withTag({})
@@ -2213,6 +2247,34 @@
 <customnpcs:npcwand>
 <customnpcs:npcwaypoint>
 <customnpcs:scripted_item>
+<debark:debarked_log_minecraft_log>
+<debark:debarked_log_minecraft_log:1>
+<debark:debarked_log_minecraft_log:2>
+<debark:debarked_log_minecraft_log:3>
+<debark:debarked_log_minecraft_log2>
+<debark:debarked_log_minecraft_log2:1>
+<debark:debarked_log_tfc_wood_log_acacia>
+<debark:debarked_log_tfc_wood_log_ash>
+<debark:debarked_log_tfc_wood_log_aspen>
+<debark:debarked_log_tfc_wood_log_birch>
+<debark:debarked_log_tfc_wood_log_blackwood>
+<debark:debarked_log_tfc_wood_log_chestnut>
+<debark:debarked_log_tfc_wood_log_douglas_fir>
+<debark:debarked_log_tfc_wood_log_hickory>
+<debark:debarked_log_tfc_wood_log_kapok>
+<debark:debarked_log_tfc_wood_log_maple>
+<debark:debarked_log_tfc_wood_log_oak>
+<debark:debarked_log_tfc_wood_log_palm>
+<debark:debarked_log_tfc_wood_log_pine>
+<debark:debarked_log_tfc_wood_log_rosewood>
+<debark:debarked_log_tfc_wood_log_sequoia>
+<debark:debarked_log_tfc_wood_log_spruce>
+<debark:debarked_log_tfc_wood_log_sycamore>
+<debark:debarked_log_tfc_wood_log_white_cedar>
+<debark:debarked_log_tfc_wood_log_willow>
+<firstaid:bandage>
+<firstaid:morphine>
+<firstaid:plaster>
 <forge:bucketfilled>.withTag({FluidName: creosote, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: plantoil, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: ethanol, Amount: 1000})
@@ -2224,8 +2286,8 @@
 <forge:bucketfilled>.withTag({FluidName: lubricant, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: gasoline, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: napalm, Amount: 1000})
-<forge:bucketfilled>.withTag({FluidName: dist_water, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: steam, Amount: 1000})
+<forge:bucketfilled>.withTag({FluidName: distwater, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: xpjuice, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: etchacid, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: plastic, Amount: 1000})
@@ -2255,6 +2317,7 @@
 <forge:bucketfilled>.withTag({FluidName: silicone, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: toxic_waste, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: toxic_sludge, Amount: 1000})
+<forge:bucketfilled>.withTag({FluidName: thin_air, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: nitrogen, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: oxygen, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: raw_syngas, Amount: 1000})
@@ -2273,6 +2336,7 @@
 <forge:bucketfilled>.withTag({FluidName: hydrogen, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: raw_flue_gas, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: flue_gas, Amount: 1000})
+<forge:bucketfilled>.withTag({FluidName: propylene, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: molten_vanadium, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: molten_titanium, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: molten_cube, Amount: 1000})
@@ -2345,7 +2409,6 @@
 <forge:bucketfilled>.withTag({FluidName: electrum, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: nickel_silver, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: red_alloy, Amount: 1000})
-<forge:bucketfilled>.withTag({FluidName: mithril, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: invar, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: aluminum, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: aluminum_brass, Amount: 1000})
@@ -2374,12 +2437,15 @@
 <forge:bucketfilled>.withTag({FluidName: black_dye, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: latex, Amount: 1000})
 <forge:bucketfilled>.withTag({FluidName: glass, Amount: 1000})
+<gbook:guidebook>.withTag({Book: tnfcmod:xml/tnfcchanges.xml})
 <gbook:guidebook>.withTag({Book: gbook:books/demobook.xml})
 <gbook:guidebook>.withTag({Book: gbook:xml/guidebook.xml})
 <gbook:guidebook>.withTag({Book: rockhounding_chemistry:xml/chemquest.xml})
 <gbook:guidebook>.withTag({Book: rockhounding_chemistry:xml/chembook.xml})
 <horsepower:chopper>
 <horsepower:chopping_block>
+<horsepower:dough>
+<horsepower:flour>
 <horsepower:grindstone>
 <horsepower:hand_grindstone>
 <horsepower:press>
@@ -2456,6 +2522,7 @@
 <immersiveengineering:fluorescent_tube>
 <immersiveengineering:graphite_electrode>
 <immersiveengineering:hemp>
+<immersiveengineering:hoe_steel>
 <immersiveengineering:jerrycan>
 <immersiveengineering:maintenance_kit>
 <immersiveengineering:material>
@@ -2581,6 +2648,8 @@
 <immersiveengineering:metal_ladder:1>
 <immersiveengineering:metal_ladder:2>
 <immersiveengineering:metal_multiblock>
+<immersiveengineering:metaldevice0dummy>
+<immersiveengineering:metaldevice1dummy>
 <immersiveengineering:mold>
 <immersiveengineering:mold:1>
 <immersiveengineering:mold:2>
@@ -2808,13 +2877,14 @@
 <immersivepetroleum:schematic>.withTag({multiblock: IE:Feedthrough})
 <immersivepetroleum:schematic>.withTag({multiblock: IP:DistillationTower})
 <immersivepetroleum:schematic>.withTag({multiblock: IP:Pumpjack})
+<immersivepetroleum:schematic>.withTag({multiblock: IT:CokeOvenAdvanced})
+<immersivepetroleum:schematic>.withTag({multiblock: IT:Boiler})
 <immersivepetroleum:schematic>.withTag({multiblock: IT:Distiller})
 <immersivepetroleum:schematic>.withTag({multiblock: IT:SolarTower})
 <immersivepetroleum:schematic>.withTag({multiblock: IT:SolarReflector})
-<immersivepetroleum:schematic>.withTag({multiblock: IT:SteamTurbine})
-<immersivepetroleum:schematic>.withTag({multiblock: IT:Boiler})
 <immersivepetroleum:schematic>.withTag({multiblock: IT:Alternator})
-<immersivepetroleum:schematic>.withTag({multiblock: IT:CokeOvenAdvanced})
+<immersivepetroleum:schematic>.withTag({multiblock: IT:SteamTurbine})
+<immersivepetroleum:schematic>.withTag({multiblock: IT:SteelSheetmetalTank})
 <immersivepetroleum:schematic>.withTag({multiblock: IE:ExcavatorDemo, flip: 1 as byte})
 <immersivepetroleum:speedboat>
 <immersivepetroleum:stone_decoration>
@@ -2825,10 +2895,20 @@
 <immersivepetroleum:upgrades:4>
 <immersivetech:connectors>
 <immersivetech:material>
+<immersivetech:metal_barrel>
+<immersivetech:metal_barrel:1>
+<immersivetech:metal_barrel:2>
 <immersivetech:metal_device>
 <immersivetech:metal_multiblock>
+<immersivetech:metal_trash>
+<immersivetech:metal_trash:1>
+<immersivetech:metal_trash:2>
 <immersivetech:stone_decoration>
 <immersivetech:stone_multiblock>
+<immersivetech:valve>
+<immersivetech:valve:1>
+<immersivetech:valve:2>
+<immersivetech:wooden_crate>
 <jaff:diamond_fishing_rod>
 <jaff:fish_bones>
 <jaff:fish_bucket_clownfish>
@@ -2840,8 +2920,6 @@
 <jaff:iron_hook>
 <jaff:tank>
 <jaff:wooden_fishing_rod>
-<landmanager:admin>
-<landmanager:home>
 <mcjtylib_ng:multipart>
 <minecraft:acacia_boat>
 <minecraft:acacia_door>
@@ -3112,6 +3190,10 @@
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 14 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 14 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 14 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 15 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 15 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 15 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 15 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 16 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 16 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 16 as short}]})
@@ -3137,6 +3219,25 @@
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 22 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 22 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 22 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 23 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 23 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 23 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 24 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 24 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 24 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 24 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 25 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 25 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 25 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 25 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 26 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 27 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 28 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 28 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 28 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 29 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 29 as short}]})
+<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 29 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]})
 <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]})
@@ -3835,8 +3936,8 @@
 <openblocks:tank>.withTag({tank: {FluidName: lubricant, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: gasoline, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: napalm, Amount: 16000}})
-<openblocks:tank>.withTag({tank: {FluidName: dist_water, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: steam, Amount: 16000}})
+<openblocks:tank>.withTag({tank: {FluidName: distwater, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: xpjuice, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: etchacid, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: plastic, Amount: 16000}})
@@ -3866,6 +3967,7 @@
 <openblocks:tank>.withTag({tank: {FluidName: silicone, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: toxic_waste, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: toxic_sludge, Amount: 16000}})
+<openblocks:tank>.withTag({tank: {FluidName: thin_air, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: nitrogen, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: oxygen, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: raw_syngas, Amount: 16000}})
@@ -3884,6 +3986,7 @@
 <openblocks:tank>.withTag({tank: {FluidName: hydrogen, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: raw_flue_gas, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: flue_gas, Amount: 16000}})
+<openblocks:tank>.withTag({tank: {FluidName: propylene, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: molten_vanadium, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: molten_titanium, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: molten_cube, Amount: 16000}})
@@ -3957,7 +4060,6 @@
 <openblocks:tank>.withTag({tank: {FluidName: electrum, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: nickel_silver, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: red_alloy, Amount: 16000}})
-<openblocks:tank>.withTag({tank: {FluidName: mithril, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: invar, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: aluminum, Amount: 16000}})
 <openblocks:tank>.withTag({tank: {FluidName: aluminum_brass, Amount: 16000}})
@@ -4679,6 +4781,7 @@
 <rockhounding_chemistry:fluid.nitrogen>
 <rockhounding_chemistry:fluid.organic_slurry>
 <rockhounding_chemistry:fluid.oxygen>
+<rockhounding_chemistry:fluid.propylene>
 <rockhounding_chemistry:fluid.raw_flue_gas>
 <rockhounding_chemistry:fluid.raw_syngas>
 <rockhounding_chemistry:fluid.refined_air>
@@ -4688,6 +4791,7 @@
 <rockhounding_chemistry:fluid.sodium_hydroxide>
 <rockhounding_chemistry:fluid.sulfuric_acid>
 <rockhounding_chemistry:fluid.syngas>
+<rockhounding_chemistry:fluid.thin_air>
 <rockhounding_chemistry:fluid.toxic_sludge>
 <rockhounding_chemistry:fluid.toxic_waste>
 <rockhounding_chemistry:fluid.virgin_water>
@@ -4732,24 +4836,26 @@
 <rockhounding_chemistry:machines_b:11>
 <rockhounding_chemistry:machines_b:13>
 <rockhounding_chemistry:machines_b:15>
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: ammonia, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: syngas, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: refined_air, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: xenon, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: carbon_dioxide, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: neon, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: nitrogen, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: water_vapour, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: hydrogen, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: helium, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: compressed_air, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: argon, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: raw_syngas, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: cooled_air, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: krypton, Amount: 1000}})
-<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: raw_flue_gas, Amount: 1000}})
 <rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: oxygen, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: xenon, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: water_vapour, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: propylene, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: refined_air, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: cooled_air, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: carbon_dioxide, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: helium, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: raw_syngas, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: ammonia, Amount: 1000}})
 <rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: flue_gas, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: argon, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: krypton, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: thin_air, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: neon, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: hydrogen, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: raw_flue_gas, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: syngas, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: nitrogen, Amount: 1000}})
+<rockhounding_chemistry:machines_b:9>.withTag({Gas: {FluidName: compressed_air, Amount: 1000}})
 <rockhounding_chemistry:machines_c>
 <rockhounding_chemistry:machines_c:1>
 <rockhounding_chemistry:machines_c:2>
@@ -4775,24 +4881,26 @@
 <rockhounding_chemistry:machines_d:13>
 <rockhounding_chemistry:machines_d:14>
 <rockhounding_chemistry:machines_d:15>
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: ammonia, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: syngas, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: refined_air, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: xenon, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: carbon_dioxide, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: neon, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: nitrogen, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: water_vapour, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: hydrogen, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: helium, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: compressed_air, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: argon, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: raw_syngas, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: cooled_air, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: krypton, Amount: 1000000}})
-<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: raw_flue_gas, Amount: 1000000}})
 <rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: oxygen, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: xenon, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: water_vapour, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: propylene, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: refined_air, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: cooled_air, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: carbon_dioxide, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: helium, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: raw_syngas, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: ammonia, Amount: 1000000}})
 <rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: flue_gas, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: argon, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: krypton, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: thin_air, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: neon, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: hydrogen, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: raw_flue_gas, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: syngas, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: nitrogen, Amount: 1000000}})
+<rockhounding_chemistry:machines_d:6>.withTag({Gas: {FluidName: compressed_air, Amount: 1000000}})
 <rockhounding_chemistry:machines_e>
 <rockhounding_chemistry:machines_e:1>
 <rockhounding_chemistry:machines_e:2>
@@ -4804,6 +4912,9 @@
 <rockhounding_chemistry:machines_e:9>
 <rockhounding_chemistry:machines_e:11>
 <rockhounding_chemistry:machines_e:12>
+<rockhounding_chemistry:machines_f>
+<rockhounding_chemistry:machines_f:2>
+<rockhounding_chemistry:machines_f:4>
 <rockhounding_chemistry:metal_items>
 <rockhounding_chemistry:metal_items:1>
 <rockhounding_chemistry:metal_items:2>
@@ -4844,6 +4955,7 @@
 <rockhounding_chemistry:misc_blocks_a:11>
 <rockhounding_chemistry:misc_blocks_a:12>
 <rockhounding_chemistry:misc_blocks_a:13>
+<rockhounding_chemistry:misc_blocks_a:14>
 <rockhounding_chemistry:misc_items>
 <rockhounding_chemistry:misc_items:1>
 <rockhounding_chemistry:misc_items:2>
@@ -5052,6 +5164,9 @@
 <signpost:blockbasemodel2>
 <signpost:blockbasemodel3>
 <signpost:blockbasemodel4>
+<signpost:blockbasemodel5>
+<signpost:blockbasemodel6>
+<signpost:blockbasemodel7>
 <signpost:blockbigpostacacia>
 <signpost:blockbigpostbigoak>
 <signpost:blockbigpostbirch>
@@ -5228,6 +5343,7 @@
 <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: sake, Amount: 100}})
 <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: vodka, Amount: 100}})
 <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: cider, Amount: 100}})
+<tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: milk, Amount: 100}})
 <tfc:ceramics/fired/large_vessel>
 <tfc:ceramics/fired/mold/axe_head>
 <tfc:ceramics/fired/mold/chisel_head>
@@ -5714,6 +5830,7 @@
 <tfc:gravel/schist>
 <tfc:gravel/shale>
 <tfc:gravel/slate>
+<tfc:halter>
 <tfc:handstone>
 <tfc:hide/prepared/large>
 <tfc:hide/prepared/medium>
@@ -5740,7 +5857,6 @@
 <tfc:metal/anvil/copper>
 <tfc:metal/anvil/invar>
 <tfc:metal/anvil/manyullyn>
-<tfc:metal/anvil/mithril>
 <tfc:metal/anvil/nickel_silver>
 <tfc:metal/anvil/osmium>
 <tfc:metal/anvil/red_steel>
@@ -5759,7 +5875,6 @@
 <tfc:metal/axe/copper>
 <tfc:metal/axe/invar>
 <tfc:metal/axe/manyullyn>
-<tfc:metal/axe/mithril>
 <tfc:metal/axe/nickel_silver>
 <tfc:metal/axe/osmium>
 <tfc:metal/axe/red_steel>
@@ -5778,7 +5893,6 @@
 <tfc:metal/axe_head/copper>
 <tfc:metal/axe_head/invar>
 <tfc:metal/axe_head/manyullyn>
-<tfc:metal/axe_head/mithril>
 <tfc:metal/axe_head/nickel_silver>
 <tfc:metal/axe_head/osmium>
 <tfc:metal/axe_head/red_steel>
@@ -5797,7 +5911,6 @@
 <tfc:metal/boots/copper>
 <tfc:metal/boots/invar>
 <tfc:metal/boots/manyullyn>
-<tfc:metal/boots/mithril>
 <tfc:metal/boots/nickel_silver>
 <tfc:metal/boots/osmium>
 <tfc:metal/boots/red_steel>
@@ -5809,12 +5922,10 @@
 <tfc:metal/bucket/blue_steel>
 <tfc:metal/bucket/blue_steel>.withTag({Fluid: {FluidName: lava, Amount: 1000}})
 <tfc:metal/bucket/red_steel>
-<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: salt_water, Amount: 1000}})
-<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: virgin_water, Amount: 1000}})
-<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: dist_water, Amount: 1000}})
-<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: hot_water, Amount: 1000}})
 <tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: fresh_water, Amount: 1000}})
+<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: salt_water, Amount: 1000}})
 <tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: water, Amount: 1000}})
+<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: hot_water, Amount: 1000}})
 <tfc:metal/chestplate/aluminum>
 <tfc:metal/chestplate/bismuth_bronze>
 <tfc:metal/chestplate/black_bronze>
@@ -5825,7 +5936,6 @@
 <tfc:metal/chestplate/copper>
 <tfc:metal/chestplate/invar>
 <tfc:metal/chestplate/manyullyn>
-<tfc:metal/chestplate/mithril>
 <tfc:metal/chestplate/nickel_silver>
 <tfc:metal/chestplate/osmium>
 <tfc:metal/chestplate/red_steel>
@@ -5844,7 +5954,6 @@
 <tfc:metal/chisel/copper>
 <tfc:metal/chisel/invar>
 <tfc:metal/chisel/manyullyn>
-<tfc:metal/chisel/mithril>
 <tfc:metal/chisel/nickel_silver>
 <tfc:metal/chisel/osmium>
 <tfc:metal/chisel/red_steel>
@@ -5863,7 +5972,6 @@
 <tfc:metal/chisel_head/copper>
 <tfc:metal/chisel_head/invar>
 <tfc:metal/chisel_head/manyullyn>
-<tfc:metal/chisel_head/mithril>
 <tfc:metal/chisel_head/nickel_silver>
 <tfc:metal/chisel_head/osmium>
 <tfc:metal/chisel_head/red_steel>
@@ -5891,7 +5999,6 @@
 <tfc:metal/double_ingot/invar>
 <tfc:metal/double_ingot/lead>
 <tfc:metal/double_ingot/manyullyn>
-<tfc:metal/double_ingot/mithril>
 <tfc:metal/double_ingot/nickel>
 <tfc:metal/double_ingot/nickel_silver>
 <tfc:metal/double_ingot/osmium>
@@ -5928,7 +6035,6 @@
 <tfc:metal/double_sheet/invar>
 <tfc:metal/double_sheet/lead>
 <tfc:metal/double_sheet/manyullyn>
-<tfc:metal/double_sheet/mithril>
 <tfc:metal/double_sheet/nickel>
 <tfc:metal/double_sheet/nickel_silver>
 <tfc:metal/double_sheet/osmium>
@@ -5965,7 +6071,6 @@
 <tfc:metal/dust/invar>
 <tfc:metal/dust/lead>
 <tfc:metal/dust/manyullyn>
-<tfc:metal/dust/mithril>
 <tfc:metal/dust/nickel>
 <tfc:metal/dust/nickel_silver>
 <tfc:metal/dust/osmium>
@@ -5993,7 +6098,6 @@
 <tfc:metal/greaves/copper>
 <tfc:metal/greaves/invar>
 <tfc:metal/greaves/manyullyn>
-<tfc:metal/greaves/mithril>
 <tfc:metal/greaves/nickel_silver>
 <tfc:metal/greaves/osmium>
 <tfc:metal/greaves/red_steel>
@@ -6012,7 +6116,6 @@
 <tfc:metal/hammer/copper>
 <tfc:metal/hammer/invar>
 <tfc:metal/hammer/manyullyn>
-<tfc:metal/hammer/mithril>
 <tfc:metal/hammer/nickel_silver>
 <tfc:metal/hammer/osmium>
 <tfc:metal/hammer/red_steel>
@@ -6031,7 +6134,6 @@
 <tfc:metal/hammer_head/copper>
 <tfc:metal/hammer_head/invar>
 <tfc:metal/hammer_head/manyullyn>
-<tfc:metal/hammer_head/mithril>
 <tfc:metal/hammer_head/nickel_silver>
 <tfc:metal/hammer_head/osmium>
 <tfc:metal/hammer_head/red_steel>
@@ -6050,7 +6152,6 @@
 <tfc:metal/helmet/copper>
 <tfc:metal/helmet/invar>
 <tfc:metal/helmet/manyullyn>
-<tfc:metal/helmet/mithril>
 <tfc:metal/helmet/nickel_silver>
 <tfc:metal/helmet/osmium>
 <tfc:metal/helmet/red_steel>
@@ -6069,7 +6170,6 @@
 <tfc:metal/hoe/copper>
 <tfc:metal/hoe/invar>
 <tfc:metal/hoe/manyullyn>
-<tfc:metal/hoe/mithril>
 <tfc:metal/hoe/nickel_silver>
 <tfc:metal/hoe/osmium>
 <tfc:metal/hoe/red_steel>
@@ -6088,7 +6188,6 @@
 <tfc:metal/hoe_head/copper>
 <tfc:metal/hoe_head/invar>
 <tfc:metal/hoe_head/manyullyn>
-<tfc:metal/hoe_head/mithril>
 <tfc:metal/hoe_head/nickel_silver>
 <tfc:metal/hoe_head/osmium>
 <tfc:metal/hoe_head/red_steel>
@@ -6120,7 +6219,6 @@
 <tfc:metal/ingot/invar>
 <tfc:metal/ingot/lead>
 <tfc:metal/ingot/manyullyn>
-<tfc:metal/ingot/mithril>
 <tfc:metal/ingot/nickel>
 <tfc:metal/ingot/nickel_silver>
 <tfc:metal/ingot/osmium>
@@ -6152,7 +6250,6 @@
 <tfc:metal/javelin/copper>
 <tfc:metal/javelin/invar>
 <tfc:metal/javelin/manyullyn>
-<tfc:metal/javelin/mithril>
 <tfc:metal/javelin/nickel_silver>
 <tfc:metal/javelin/osmium>
 <tfc:metal/javelin/red_steel>
@@ -6171,7 +6268,6 @@
 <tfc:metal/javelin_head/copper>
 <tfc:metal/javelin_head/invar>
 <tfc:metal/javelin_head/manyullyn>
-<tfc:metal/javelin_head/mithril>
 <tfc:metal/javelin_head/nickel_silver>
 <tfc:metal/javelin_head/osmium>
 <tfc:metal/javelin_head/red_steel>
@@ -6190,7 +6286,6 @@
 <tfc:metal/knife/copper>
 <tfc:metal/knife/invar>
 <tfc:metal/knife/manyullyn>
-<tfc:metal/knife/mithril>
 <tfc:metal/knife/nickel_silver>
 <tfc:metal/knife/osmium>
 <tfc:metal/knife/red_steel>
@@ -6209,7 +6304,6 @@
 <tfc:metal/knife_blade/copper>
 <tfc:metal/knife_blade/invar>
 <tfc:metal/knife_blade/manyullyn>
-<tfc:metal/knife_blade/mithril>
 <tfc:metal/knife_blade/nickel_silver>
 <tfc:metal/knife_blade/osmium>
 <tfc:metal/knife_blade/red_steel>
@@ -6256,8 +6350,6 @@
 <tfc:metal/lamp/lead>.withTag({Fluid: {FluidName: olive_oil, Amount: 250}})
 <tfc:metal/lamp/manyullyn>
 <tfc:metal/lamp/manyullyn>.withTag({Fluid: {FluidName: olive_oil, Amount: 250}})
-<tfc:metal/lamp/mithril>
-<tfc:metal/lamp/mithril>.withTag({Fluid: {FluidName: olive_oil, Amount: 250}})
 <tfc:metal/lamp/nickel>
 <tfc:metal/lamp/nickel>.withTag({Fluid: {FluidName: olive_oil, Amount: 250}})
 <tfc:metal/lamp/nickel_silver>
@@ -6302,7 +6394,6 @@
 <tfc:metal/mace/copper>
 <tfc:metal/mace/invar>
 <tfc:metal/mace/manyullyn>
-<tfc:metal/mace/mithril>
 <tfc:metal/mace/nickel_silver>
 <tfc:metal/mace/osmium>
 <tfc:metal/mace/red_steel>
@@ -6321,7 +6412,6 @@
 <tfc:metal/mace_head/copper>
 <tfc:metal/mace_head/invar>
 <tfc:metal/mace_head/manyullyn>
-<tfc:metal/mace_head/mithril>
 <tfc:metal/mace_head/nickel_silver>
 <tfc:metal/mace_head/osmium>
 <tfc:metal/mace_head/red_steel>
@@ -6349,7 +6439,6 @@
 <tfc:metal/nugget/invar>
 <tfc:metal/nugget/lead>
 <tfc:metal/nugget/manyullyn>
-<tfc:metal/nugget/mithril>
 <tfc:metal/nugget/nickel>
 <tfc:metal/nugget/nickel_silver>
 <tfc:metal/nugget/osmium>
@@ -6377,7 +6466,6 @@
 <tfc:metal/pick/copper>
 <tfc:metal/pick/invar>
 <tfc:metal/pick/manyullyn>
-<tfc:metal/pick/mithril>
 <tfc:metal/pick/nickel_silver>
 <tfc:metal/pick/osmium>
 <tfc:metal/pick/red_steel>
@@ -6396,7 +6484,6 @@
 <tfc:metal/pick_head/copper>
 <tfc:metal/pick_head/invar>
 <tfc:metal/pick_head/manyullyn>
-<tfc:metal/pick_head/mithril>
 <tfc:metal/pick_head/nickel_silver>
 <tfc:metal/pick_head/osmium>
 <tfc:metal/pick_head/red_steel>
@@ -6415,7 +6502,6 @@
 <tfc:metal/propick/copper>
 <tfc:metal/propick/invar>
 <tfc:metal/propick/manyullyn>
-<tfc:metal/propick/mithril>
 <tfc:metal/propick/nickel_silver>
 <tfc:metal/propick/osmium>
 <tfc:metal/propick/red_steel>
@@ -6434,7 +6520,6 @@
 <tfc:metal/propick_head/copper>
 <tfc:metal/propick_head/invar>
 <tfc:metal/propick_head/manyullyn>
-<tfc:metal/propick_head/mithril>
 <tfc:metal/propick_head/nickel_silver>
 <tfc:metal/propick_head/osmium>
 <tfc:metal/propick_head/red_steel>
@@ -6456,7 +6541,6 @@
 <tfc:metal/saw/copper>
 <tfc:metal/saw/invar>
 <tfc:metal/saw/manyullyn>
-<tfc:metal/saw/mithril>
 <tfc:metal/saw/nickel_silver>
 <tfc:metal/saw/osmium>
 <tfc:metal/saw/red_steel>
@@ -6475,7 +6559,6 @@
 <tfc:metal/saw_blade/copper>
 <tfc:metal/saw_blade/invar>
 <tfc:metal/saw_blade/manyullyn>
-<tfc:metal/saw_blade/mithril>
 <tfc:metal/saw_blade/nickel_silver>
 <tfc:metal/saw_blade/osmium>
 <tfc:metal/saw_blade/red_steel>
@@ -6503,7 +6586,6 @@
 <tfc:metal/scrap/invar>
 <tfc:metal/scrap/lead>
 <tfc:metal/scrap/manyullyn>
-<tfc:metal/scrap/mithril>
 <tfc:metal/scrap/nickel>
 <tfc:metal/scrap/nickel_silver>
 <tfc:metal/scrap/osmium>
@@ -6531,7 +6613,6 @@
 <tfc:metal/scythe/copper>
 <tfc:metal/scythe/invar>
 <tfc:metal/scythe/manyullyn>
-<tfc:metal/scythe/mithril>
 <tfc:metal/scythe/nickel_silver>
 <tfc:metal/scythe/osmium>
 <tfc:metal/scythe/red_steel>
@@ -6550,7 +6631,6 @@
 <tfc:metal/scythe_blade/copper>
 <tfc:metal/scythe_blade/invar>
 <tfc:metal/scythe_blade/manyullyn>
-<tfc:metal/scythe_blade/mithril>
 <tfc:metal/scythe_blade/nickel_silver>
 <tfc:metal/scythe_blade/osmium>
 <tfc:metal/scythe_blade/red_steel>
@@ -6569,7 +6649,6 @@
 <tfc:metal/shears/copper>
 <tfc:metal/shears/invar>
 <tfc:metal/shears/manyullyn>
-<tfc:metal/shears/mithril>
 <tfc:metal/shears/nickel_silver>
 <tfc:metal/shears/osmium>
 <tfc:metal/shears/red_steel>
@@ -6597,7 +6676,6 @@
 <tfc:metal/sheet/invar>
 <tfc:metal/sheet/lead>
 <tfc:metal/sheet/manyullyn>
-<tfc:metal/sheet/mithril>
 <tfc:metal/sheet/nickel>
 <tfc:metal/sheet/nickel_silver>
 <tfc:metal/sheet/osmium>
@@ -6625,7 +6703,6 @@
 <tfc:metal/shield/copper>
 <tfc:metal/shield/invar>
 <tfc:metal/shield/manyullyn>
-<tfc:metal/shield/mithril>
 <tfc:metal/shield/nickel_silver>
 <tfc:metal/shield/osmium>
 <tfc:metal/shield/red_steel>
@@ -6644,7 +6721,6 @@
 <tfc:metal/shovel/copper>
 <tfc:metal/shovel/invar>
 <tfc:metal/shovel/manyullyn>
-<tfc:metal/shovel/mithril>
 <tfc:metal/shovel/nickel_silver>
 <tfc:metal/shovel/osmium>
 <tfc:metal/shovel/red_steel>
@@ -6663,7 +6739,6 @@
 <tfc:metal/shovel_head/copper>
 <tfc:metal/shovel_head/invar>
 <tfc:metal/shovel_head/manyullyn>
-<tfc:metal/shovel_head/mithril>
 <tfc:metal/shovel_head/nickel_silver>
 <tfc:metal/shovel_head/osmium>
 <tfc:metal/shovel_head/red_steel>
@@ -6682,7 +6757,6 @@
 <tfc:metal/sword/copper>
 <tfc:metal/sword/invar>
 <tfc:metal/sword/manyullyn>
-<tfc:metal/sword/mithril>
 <tfc:metal/sword/nickel_silver>
 <tfc:metal/sword/osmium>
 <tfc:metal/sword/red_steel>
@@ -6701,7 +6775,6 @@
 <tfc:metal/sword_blade/copper>
 <tfc:metal/sword_blade/invar>
 <tfc:metal/sword_blade/manyullyn>
-<tfc:metal/sword_blade/mithril>
 <tfc:metal/sword_blade/nickel_silver>
 <tfc:metal/sword_blade/osmium>
 <tfc:metal/sword_blade/red_steel>
@@ -6720,7 +6793,6 @@
 <tfc:metal/tuyere/copper>
 <tfc:metal/tuyere/invar>
 <tfc:metal/tuyere/manyullyn>
-<tfc:metal/tuyere/mithril>
 <tfc:metal/tuyere/nickel_silver>
 <tfc:metal/tuyere/osmium>
 <tfc:metal/tuyere/red_steel>
@@ -6739,7 +6811,6 @@
 <tfc:metal/unfinished_boots/copper>
 <tfc:metal/unfinished_boots/invar>
 <tfc:metal/unfinished_boots/manyullyn>
-<tfc:metal/unfinished_boots/mithril>
 <tfc:metal/unfinished_boots/nickel_silver>
 <tfc:metal/unfinished_boots/osmium>
 <tfc:metal/unfinished_boots/red_steel>
@@ -6758,7 +6829,6 @@
 <tfc:metal/unfinished_chestplate/copper>
 <tfc:metal/unfinished_chestplate/invar>
 <tfc:metal/unfinished_chestplate/manyullyn>
-<tfc:metal/unfinished_chestplate/mithril>
 <tfc:metal/unfinished_chestplate/nickel_silver>
 <tfc:metal/unfinished_chestplate/osmium>
 <tfc:metal/unfinished_chestplate/red_steel>
@@ -6777,7 +6847,6 @@
 <tfc:metal/unfinished_greaves/copper>
 <tfc:metal/unfinished_greaves/invar>
 <tfc:metal/unfinished_greaves/manyullyn>
-<tfc:metal/unfinished_greaves/mithril>
 <tfc:metal/unfinished_greaves/nickel_silver>
 <tfc:metal/unfinished_greaves/osmium>
 <tfc:metal/unfinished_greaves/red_steel>
@@ -6796,7 +6865,6 @@
 <tfc:metal/unfinished_helmet/copper>
 <tfc:metal/unfinished_helmet/invar>
 <tfc:metal/unfinished_helmet/manyullyn>
-<tfc:metal/unfinished_helmet/mithril>
 <tfc:metal/unfinished_helmet/nickel_silver>
 <tfc:metal/unfinished_helmet/osmium>
 <tfc:metal/unfinished_helmet/red_steel>
@@ -8018,6 +8086,7 @@
 <tfc:plants/water_canna>
 <tfc:plants/water_lily>
 <tfc:plants/yucca>
+<tfc:powder/charcoal>
 <tfc:powder/coke>
 <tfc:powder/fertilizer>
 <tfc:powder/flux>
@@ -8030,6 +8099,7 @@
 <tfc:powder/salt>
 <tfc:powder/saltpeter>
 <tfc:powder/sulfur>
+<tfc:powderkeg>
 <tfc:quern>
 <tfc:quiver>
 <tfc:raw/andesite>
@@ -8285,6 +8355,7 @@
 <tfc:stairs/wood/sycamore>
 <tfc:stairs/wood/white_cedar>
 <tfc:stairs/wood/willow>
+<tfc:stick_bunch>
 <tfc:stone/axe/igneous_extrusive>
 <tfc:stone/axe/igneous_intrusive>
 <tfc:stone/axe/metamorphic>
@@ -8829,6 +8900,7 @@
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: limewater, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: tannin, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: olive_oil, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: olive_oil_water, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: vinegar, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: rum, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: beer, Amount: 1000}})
@@ -8860,36 +8932,28 @@
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: black_dye, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: creosote, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: lubricant, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: diesel, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: gasoline, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: dense_brine, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: dist_water, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: etchacid, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: ethanol, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: fuel, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: gasoline, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: kerosene, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: latex, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: leachate, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: liquid_ammonia, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: methanol, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: mother_liquor, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: napalm, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: oil, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: organic_slurry, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: plantoil, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: salt_brine, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: toxic_sludge, Amount: 1000}})
-<tfc:wooden_bucket>.withTag({Fluid: {FluidName: toxic_waste, Amount: 1000}})
 <tfc:wooden_bucket>.withTag({Fluid: {FluidName: virgin_water, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: dense_brine, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: ammonia, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: biodiesel, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: coal_slurry, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: coal_tar, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: diesel, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: distwater, Amount: 1000}})
+<tfc:wooden_bucket>.withTag({Fluid: {FluidName: ethanol, Amount: 1000}})
 <tfc:wrought_iron_grill>
 <tfctech:ceramics/fluid_bowl>
 <tfctech:ceramics/mold/glass_block>
 <tfctech:ceramics/mold/glass_pane>
 <tfctech:ceramics/mold/rackwheel_piece>
+<tfctech:ceramics/mold/sleeve>
 <tfctech:ceramics/unfired/glass_block>
 <tfctech:ceramics/unfired/glass_pane>
 <tfctech:ceramics/unfired/rackwheel_piece>
+<tfctech:ceramics/unfired/sleeve>
 <tfctech:electric_forge>
 <tfctech:fridge>
 <tfctech:induction_crucible>
@@ -9099,16 +9163,6 @@
 <tfctech:metal/manyullyn_strip>
 <tfctech:metal/manyullyn_wire>
 <tfctech:metal/manyullyn_wire:4>
-<tfctech:metal/mithril_bolt>
-<tfctech:metal/mithril_gear>
-<tfctech:metal/mithril_long_rod>
-<tfctech:metal/mithril_rackwheel>
-<tfctech:metal/mithril_rackwheel_piece>
-<tfctech:metal/mithril_rod>
-<tfctech:metal/mithril_screw>
-<tfctech:metal/mithril_strip>
-<tfctech:metal/mithril_wire>
-<tfctech:metal/mithril_wire:4>
 <tfctech:metal/nickel_bolt>
 <tfctech:metal/nickel_gear>
 <tfctech:metal/nickel_long_rod>
@@ -9116,6 +9170,7 @@
 <tfctech:metal/nickel_rackwheel_piece>
 <tfctech:metal/nickel_rod>
 <tfctech:metal/nickel_screw>
+<tfctech:metal/nickel_silver_blowpipe>
 <tfctech:metal/nickel_silver_bolt>
 <tfctech:metal/nickel_silver_gear>
 <tfctech:metal/nickel_silver_long_rod>
@@ -9302,14 +9357,21 @@
 <tfctech:wiredraw/winch>
 <tnfcmod:backpackframe>
 <tnfcmod:backpackpiece>
+<tnfcmod:copper_fishhook>
+<tnfcmod:hc_black_steel_amalgam>
+<tnfcmod:hc_black_steel_dust>
+<tnfcmod:hc_blue_steel_amalgam>
+<tnfcmod:hc_blue_steel_dust>
+<tnfcmod:hc_red_steel_amalgam>
+<tnfcmod:hc_red_steel_dust>
 <tnfcmod:mold_axe>
 <tnfcmod:mold_blank>
 <tnfcmod:mold_block>
 <tnfcmod:mold_bucket>
 <tnfcmod:mold_chisel>
 <tnfcmod:mold_doubleingot>
-<tnfcmod:mold_grill>
 <tnfcmod:mold_hammer>
+<tnfcmod:mold_hoe>
 <tnfcmod:mold_hopper>
 <tnfcmod:mold_javelin>
 <tnfcmod:mold_knife>
@@ -9320,9 +9382,15 @@
 <tnfcmod:mold_saw>
 <tnfcmod:mold_scythe>
 <tnfcmod:mold_shears>
+<tnfcmod:mold_sheet>
 <tnfcmod:mold_shovel>
 <tnfcmod:mold_sword>
 <tnfcmod:mold_tuyere>
+<tnfcmod:plowcarttfc>
+<tnfcmod:redstone_gemmed_latch>
+<tnfcmod:weak_blue_steel_dust>
+<tnfcmod:weak_red_steel_dust>
+<tnfcmod:weak_steel_dust>
 <waterflasks:bladder>
 <waterflasks:broken_iron_flask>
 <waterflasks:broken_leather_flask>
@@ -9337,6 +9405,7 @@
 <waterflasks:iron_flask>.withTag({Fluid: {FluidName: sake, Amount: 2000}})
 <waterflasks:iron_flask>.withTag({Fluid: {FluidName: vodka, Amount: 2000}})
 <waterflasks:iron_flask>.withTag({Fluid: {FluidName: cider, Amount: 2000}})
+<waterflasks:iron_flask>.withTag({Fluid: {FluidName: milk, Amount: 2000}})
 <waterflasks:leather_flask>
 <waterflasks:leather_flask>.withTag({Fluid: {FluidName: fresh_water, Amount: 500}})
 <waterflasks:leather_flask>.withTag({Fluid: {FluidName: salt_water, Amount: 500}})
@@ -9348,6 +9417,7 @@
 <waterflasks:leather_flask>.withTag({Fluid: {FluidName: sake, Amount: 500}})
 <waterflasks:leather_flask>.withTag({Fluid: {FluidName: vodka, Amount: 500}})
 <waterflasks:leather_flask>.withTag({Fluid: {FluidName: cider, Amount: 500}})
+<waterflasks:leather_flask>.withTag({Fluid: {FluidName: milk, Amount: 500}})
 <waterflasks:leather_side>
 <waterflasks:unfinished_iron_flask>
 <wearablebackpacks:backpack>
@@ -9376,3 +9446,22 @@
 <xnet:router>
 <xnet:wireless_router>
 <xnet:xnet_manual>
+<yabba:antibarrel>
+<yabba:decorative_block>.withTag({BlockEntityTag: {Model: crate, id: yabba:decorative_block}, display: {Lore: [(+NBT)]}})
+<yabba:hammer>
+<yabba:item_barrel>
+<yabba:item_barrel_connector>
+<yabba:painter>
+<yabba:upgrade_blank>
+<yabba:upgrade_creative>
+<yabba:upgrade_diamond_tier>
+<yabba:upgrade_gold_tier>
+<yabba:upgrade_hopper>
+<yabba:upgrade_iron_tier>
+<yabba:upgrade_obsidian_shell>
+<yabba:upgrade_pickup>
+<yabba:upgrade_redstone_out>
+<yabba:upgrade_smelting>
+<yabba:upgrade_star_tier>
+<yabba:upgrade_void>
+<yabba:wrench>
