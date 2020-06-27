@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.12</version>
+        <version>12.2.12.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -37,7 +37,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.12" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.12.jar" file="Technodefirmacraft-MC1.12.2-12.2.12.jar" md5="d45a65631816c65e77cb06586ddc7baa" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.12.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.12.1.jar" file="Technodefirmacraft-MC1.12.2-12.2.12.1.jar" md5="3b4c16fcc11c9d92c4d21144e4fb7132" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
