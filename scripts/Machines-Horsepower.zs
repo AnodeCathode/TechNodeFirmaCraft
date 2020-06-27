@@ -7,11 +7,12 @@
 
  //mods.horsepower.Grindstone.add(<input>, <output>, <time>, opt <hand> , opt <secondary>, opt <chance>);
   //Grain
-  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain>, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain>, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain>, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain>, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain>, 8);
+  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8, false, <tfc:straw>, 50);
+
 
 	//Flour
 	mods.horsepower.Grindstone.add(<tfc:food/barley_grain:*>, <tfc:food/barley_flour> * 2, 8);
@@ -21,14 +22,19 @@
 	mods.horsepower.Grindstone.add(<tfc:food/rye_grain:*>, <tfc:food/rye_flour> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:food/wheat_grain:*>, <tfc:food/wheat_flour> * 2, 8);
 
-	//Sugar
-	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4,<minecraft:sugar>, 8);
+  //Olive
+  mods.horsepower.Grindstone.add(<tfc:food/olive>, <tfc:food/olive_paste> * 2, 8);
+  
+  //Sugar
+	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4, <minecraft:sugar>, 8);
 
 	//Flux
 	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 10, 8);
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
 	
-
+  //Charcoal Powder
+  mods.horsepower.Grindstone.add(<minecraft:coal:1>, <tfc:powder/charcoal> * 8, 8);
+  
 	//Bone Meal
 	mods.horsepower.Grindstone.add(<minecraft:bone>, <minecraft:dye:15> * 5, 8);
 
@@ -154,4 +160,6 @@
 	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/white_cedar:0>, <tfc:wood/lumber/white_cedar> * 16, 8);
 	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/willow:0>, <tfc:wood/lumber/willow> * 16, 8);
 	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/kapok:0>, <tfc:wood/lumber/kapok> * 16, 8);
-  
+ 
+//Try this on the right version  
+  mods.horsepower.Press.add(<tfc:food/olive>, <liquid:olive_oil_water> * 125);

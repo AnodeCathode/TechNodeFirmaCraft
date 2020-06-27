@@ -7,6 +7,9 @@ Notes:
 - Furnace - remove all dust>ingot. Add pottery firing
 - Secondary outputs for horsepower grinding and BwM. IE Grinder too?
 
+
+- Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
+
 - Checkout horsepower dynamic chopping block and possible uses
 
 - Updated the TNFC Book with the changelog and stuff.

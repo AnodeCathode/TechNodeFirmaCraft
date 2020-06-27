@@ -10,24 +10,46 @@
 //	mods.betterwithmods.Kiln.removeAll();
 	mods.betterwithmods.Mill.removeAll();
 	mods.betterwithmods.Saw.removeAll();
+
+  //Might fix the CnB movement speed. Need to know their blocks first.  
+  mods.betterwithmods.Movement.set(<chiselsandbits:block_bit>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_clay>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_cloth>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_fluid>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_glass>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_grass>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_ground>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_ice>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_iron>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_leaves>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_packedice>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_rock>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_sand>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_snow>, 1);
+  mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_wood>, 1);
+  
   
  //Mill
-
+  //mods.betterwithmods.Mill.add(output, secondary_output, input[])
   //Grain
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/barley>],[<tfc:food/barley_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/oat>],[<tfc:food/oat_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rice>],[<tfc:food/rice_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye>],[<tfc:food/rye_grain>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat>],[<tfc:food/wheat_grain>]);
+  mods.betterwithmods.Mill.add(<tfc:food/barley_grain>,<tfc:straw>,[<tfc:food/barley>]);
+	mods.betterwithmods.Mill.add(<tfc:food/oat_grain>,<tfc:straw>,[<tfc:food/oat>]);
+	mods.betterwithmods.Mill.add(<tfc:food/rice_grain>,<tfc:straw>,[<tfc:food/rice>]);
+	mods.betterwithmods.Mill.add(<tfc:food/rye_grain>,<tfc:straw>,[<tfc:food/rye>]);
+	mods.betterwithmods.Mill.add(<tfc:food/wheat_grain>,<tfc:straw>,[<tfc:food/wheat>]);
+  mods.betterwithmods.Mill.add(<tfc:food/maize_grain>,<tfc:straw>,[<tfc:food/maize>]);
 
 	//Flour
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/barley_grain>],[<tfc:food/barley_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/maize>],[<tfc:food/cornmeal_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/oat_grain>],[<tfc:food/oat_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rice_grain>],[<tfc:food/rice_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye_grain>],[<tfc:food/rye_flour> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat_grain>],[<tfc:food/wheat_flour> * 2]);
-
+	mods.betterwithmods.Mill.add(<tfc:food/barley_flour> * 2, [<tfc:food/barley_grain>]);
+  mods.betterwithmods.Mill.add(<tfc:food/oat_flour> * 2, [<tfc:food/oat_grain>]);
+	mods.betterwithmods.Mill.add(<tfc:food/rice_flour> * 2,[<tfc:food/rice_grain>]);
+	mods.betterwithmods.Mill.add(<tfc:food/rye_flour> * 2,[<tfc:food/rye_grain>]);
+	mods.betterwithmods.Mill.add(<tfc:food/wheat_flour> * 2,[<tfc:food/wheat_grain>]);
+	mods.betterwithmods.Mill.add(<tfc:food/cornmeal_flour> * 2, [<tfc:food/maize_grain>]);
+  
+  //Olive
+  mods.betterwithmods.Mill.add(<tfc:food/olive_paste> * 2, [<tfc:food/olive>]);
+    
 	//Flux
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 10]);
 	mods.betterwithmods.Mill.addRecipe([<ore:rockFlux>],[<tfc:powder/flux> * 4]);
@@ -42,6 +64,10 @@
 	//Redstone
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cinnabar>],[<minecraft:redstone> * 10]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cryolite>],[<minecraft:redstone> * 10]);
+  
+  //Charcoal Powder
+  mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>], [<tfc:powder/charcoal> * 8]);
+
 
 	//Glowstone
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/selenite>],[<minecraft:glowstone_dust> * 10]);
@@ -169,25 +195,25 @@
 
 //Saw Recipes
 
-	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:0>,[<tfc:wood/lumber/acacia> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:0>,[<tfc:wood/lumber/ash> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/aspen:0>,[<tfc:wood/lumber/aspen> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/birch:0>,[<tfc:wood/lumber/birch> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/blackwood:0>,[<tfc:wood/lumber/blackwood> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/chestnut:0>,[<tfc:wood/lumber/chestnut> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/douglas_fir:0>,[<tfc:wood/lumber/douglas_fir> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/hickory:0>,[<tfc:wood/lumber/hickory> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/maple:0>,[<tfc:wood/lumber/maple> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/oak:0>,[<tfc:wood/lumber/oak> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/palm:0>,[<tfc:wood/lumber/palm> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/pine:0>,[<tfc:wood/lumber/pine> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/rosewood:0>,[<tfc:wood/lumber/rosewood> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/sequoia:0>,[<tfc:wood/lumber/sequoia> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/spruce:0>,[<tfc:wood/lumber/spruce> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/sycamore:0>,[<tfc:wood/lumber/sycamore> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/white_cedar:0>,[<tfc:wood/lumber/white_cedar> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/willow:0>,[<tfc:wood/lumber/willow> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:0>,[<tfc:wood/lumber/kapok> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:*>,[<tfc:wood/lumber/acacia> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:*>,[<tfc:wood/lumber/ash> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/aspen:*>,[<tfc:wood/lumber/aspen> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/birch:*>,[<tfc:wood/lumber/birch> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/blackwood:*>,[<tfc:wood/lumber/blackwood> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/chestnut:*>,[<tfc:wood/lumber/chestnut> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/douglas_fir:*>,[<tfc:wood/lumber/douglas_fir> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/hickory:*>,[<tfc:wood/lumber/hickory> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/maple:*>,[<tfc:wood/lumber/maple> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/oak:*>,[<tfc:wood/lumber/oak> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/palm:*>,[<tfc:wood/lumber/palm> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/pine:*>,[<tfc:wood/lumber/pine> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/rosewood:*>,[<tfc:wood/lumber/rosewood> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/sequoia:*>,[<tfc:wood/lumber/sequoia> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/spruce:*>,[<tfc:wood/lumber/spruce> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/sycamore:*>,[<tfc:wood/lumber/sycamore> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/white_cedar:*>,[<tfc:wood/lumber/white_cedar> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/willow:*>,[<tfc:wood/lumber/willow> * 16]);
+	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:*>,[<tfc:wood/lumber/kapok> * 16]);
   
 //Kiln Recipes
 
@@ -197,3 +223,6 @@
   // mods.betterwithmods.Kiln.add(<betterwithmods:unfired_pottery:2>, <betterwithmods:urn>);
   // mods.betterwithmods.Kiln.add(<betterwithmods:unfired_pottery:3>, <betterwithmods:vase>);
   // mods.betterwithmods.Kiln.add(<betterwithmods:unfired_pottery:4>, <betterwithmods:brick>);
+  
+
+
