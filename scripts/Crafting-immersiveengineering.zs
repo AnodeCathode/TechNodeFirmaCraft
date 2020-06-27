@@ -99,7 +99,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
   recipes.addShaped("tnfc_immersive_metal_storage/steel_block", <immersiveengineering:storage:8>, [[<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>]]);
 
 
-  recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4>, [[null, <ore:sheetWroughtIron>, null], [<ore:paneGlass>, <ore:glowstone>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
+  recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4>, [[null, <ore:sheetWroughtIron>, null], [<ore:paneGlass>, <ore:glowstone_dust>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
   recipes.addShaped("tnfc_immersive_aluminum_post",<immersiveengineering:metal_decoration2:2>, [[<ore:fenceAluminum>], [<ore:fenceAluminum>], [<ore:stoneBrick>]]);
   recipes.addShaped("tnfc_immersive_steel_post",<immersiveengineering:metal_decoration2>, [[<ore:fenceSteel>], [<ore:fenceSteel>], [<ore:stoneBrick>]]);
   recipes.addShaped("tnfc_immersive_wooden_post",<immersiveengineering:wooden_device1:3>, [[<ore:fenceTreatedWood>], [<ore:fenceTreatedWood>], [<ore:stoneBrick>]]);
