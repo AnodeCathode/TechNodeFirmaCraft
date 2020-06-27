@@ -80,6 +80,7 @@ import crafttweaker.item.IItemStack;
     //Remove Crusher Recipes
 
       mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
+      mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_items:8>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/sulfur>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:diamond_ore>);
 

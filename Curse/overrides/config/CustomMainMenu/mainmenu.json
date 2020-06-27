@@ -105,7 +105,7 @@
 			"height": 45,
 			"action": {
 				"type": "openLink",
-				"link": "https://github.com/Bunsan/TechNodeFirmaCraft/issues"
+				"link": "https://github.com/AnodeCathode/TechNodeFirmaCraft/issues"
 			}
    },
 		"Subreddit": {
@@ -132,7 +132,7 @@
 			"alignment": "bottom_left"
 		},
 		"modpack": {
-			"text": "TechNodefirmacraft 12.2.11Beta",
+			"text": "TechNodefirmacraft 12.2.12Beta",
 			"posX": 2,
 			"posY": -30,
 			"color": -1,

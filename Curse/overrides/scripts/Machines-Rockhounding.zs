@@ -6,6 +6,10 @@
 mods.rockhounding_chemistry.MineralSizer.removeByInput(<minecraft:stone:1>);
 mods.rockhounding_chemistry.MineralSizer.add(<tfc:raw/granite>, [<rockhounding_chemistry:chemical_items:4>], [4]);
 
+// Quartz
+mods.rockhounding_chemistry.MineralSizer.add(<tfc:raw/quartzite>, [<minecraft:quartz> * 9], [4]);
+mods.rockhounding_chemistry.MineralSizer.add(<tfc:cobble/quartzite>, [<minecraft:quartz> * 4], [4]);
+mods.rockhounding_chemistry.MineralSizer.add(<tfc:rock/quartzite>, [<minecraft:quartz> * 1], [4]);
 //PROFILING BENCH
 
 //mods.rockhounding_chemistry.ProfilingBench.removeByInput(<ore:ingotIron>);
