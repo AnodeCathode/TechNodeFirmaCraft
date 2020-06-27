@@ -1,5 +1,9 @@
 Notes:
 
+
+- Quartz from crushing?/smelting?/querning? quartzite stone
+- quartz to quartz blocks
+
 - Furnace - remove all dust>ingot. Add pottery firing
 - Secondary outputs for horsepower grinding and BwM. IE Grinder too?
 
