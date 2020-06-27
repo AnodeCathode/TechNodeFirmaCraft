@@ -1,5 +1,6 @@
 Notes:
 
+- Furnace - remove all dust>ingot. Add pottery firing
 - Secondary outputs for horsepower grinding and BwM. IE Grinder too?
 
 - Checkout horsepower dynamic chopping block and possible uses
