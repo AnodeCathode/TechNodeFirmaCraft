@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.11</version>
+        <version>12.2.12</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -37,11 +37,11 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.11" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.11.jar" file="Technodefirmacraft-MC1.12.2-12.2.11.jar" md5="528133ad29cdfebee342ee969b39ed5f" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.12" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.12.jar" file="Technodefirmacraft-MC1.12.2-12.2.12.jar" md5="d45a65631816c65e77cb06586ddc7baa" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
-        <mod name="OversizedItemInStorageArea" version="2.1.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.1.1.jar"  colour="green"  file="OversizedItemInStorageArea-2.1.1.jar" md5="0aa64222c06260cefa7279bd30216577" download="server" type="mods" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+        <mod name="OversizedItemInStorageArea" version="2.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.1.2.jar" file="OversizedItemInStorageArea-2.1.2.jar" md5="5b3f9f2885dde804e6ba6dc21cb67d07" download="server" type="mods" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
         <mod name="Debark" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Debark-0.1.2.jar" file="Debark-0.1.2.jar" md5="3ae43134317b3f1d71f3def390489f90" download="server" type="mods" colour="green"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
@@ -63,7 +63,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.7.62" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.62.jar" file="MCTImmersiveTechnology-1.12.2-1.7.62.jar" md5="89684efc912f3f4a0de19ec02b72c57c" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.7.63" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.63.jar" file="MCTImmersiveTechnology-1.12.2-1.7.63.jar" md5="7d212a5a49b7e370bd7bf411aef9179d"  download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" library="yes" selected="yes" />
         
 
@@ -89,7 +89,7 @@
         
         <mod name="Redstone Flux" version="2.1.1.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/RedstoneFlux-1.12-2.1.1.1-universal.jar" file="RedstoneFlux-1.12-2.1.1.1-universal.jar" md5="93b1715f05be1878da93fca36dd37f2a" download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Guidebook" version="2.9.4" url="packs/TechNodefirmacraft/files/1.12.2Mods/Guidebook-1.12.2-2.9.4.jar" file="Guidebook-1.12.2-2.9.4.jar" md5="0f2a23ca13e55ba8f4a59abcff9b77d7" download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+        <mod name="Guidebook" version="2.9.5" url="packs/TechNodefirmacraft/files/1.12.2Mods/Guidebook-1.12.2-2.9.5.jar" file="Guidebook-1.12.2-2.9.5.jar" md5="537c508308bf28a4479252b8031d4353"  download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
         <mod name="Bookshelf" version="2.3.590" url="packs/TechNodefirmacraft/files/1.12.2Mods/Bookshelf-1.12.2-2.3.590.jar" file="Bookshelf-1.12.2-2.3.590.jar" md5="85a44d3299449545e435f5ec55fc914b" download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
@@ -141,7 +141,7 @@
 
         <mod name="FTB Library" version="5.4.7.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBLib-5.4.7.2.jar" file="FTBLib-5.4.7.2.jar" md5="ea749a3a3391d490ffcdf025e5de48d9"  download="server" type="mods" colour="purple" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
-        <mod name="FTB Utilities" version="5.4.1.128" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBUtilities-5.4.1.128.jar" file="FTBUtilities-5.4.1.128.jar" md5="2147c36f605fb91543ade275c3b12140" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" depends="FTB Library"/>
+        <mod name="FTB Utilities" version="5.4.1.129" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBUtilities-5.4.1.129.jar" file="FTBUtilities-5.4.1.129.jar" md5="42248cd2e9ee11c3ba1a5abad30acfcb"  download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" depends="FTB Library"/>
         
         <mod name="FTB Backups" version="1.1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBBackups-1.1.0.1.jar" file="FTBBackups-1.1.0.1.jar" md5="932a6981ff08c35bbdf83bb9f7af8d17" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" depends="FTB Library"/>
         
@@ -155,7 +155,7 @@
         
         <mod name="Chunk-Pregenerator" version="1.12-2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Chunk Pregenerator V1.12-2.3.jar" file="Chunk Pregenerator V1.12-2.3.jar" md5="332a3193bf13188394308ef511e15e07" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Just Enough Items" version="4.15.0.295" url="packs/TechNodefirmacraft/files/1.12.2Mods/jei_1.12.2-4.15.0.295.jar" file="jei_1.12.2-4.15.0.295.jar" md5="282f0d015782f702c57f4ff954871edf"  download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+        <mod name="Just Enough Items" version="4.15.0.296" url="packs/TechNodefirmacraft/files/1.12.2Mods/jei_1.12.2-4.15.0.296.jar" file="jei_1.12.2-4.15.0.296.jar" md5="07fd20e0d7197fa48202d2d5b8d34e34"  download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
 
         <mod name="Custom Starter Gear" version="1.2.0.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomStartingGear-1.12-1.2.0.9-universal.jar" file="CustomStartingGear-1.12-1.2.0.9-universal.jar" md5="780bf4e47f61f4388cc60b0e24bc4044" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
@@ -221,7 +221,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.11" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.11.zip" file="scripts.12.2.11.zip" md5="897868876659f6a17a7e1bfc8549949d" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.12" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.12.zip" file="scripts.12.2.12.zip" md5="1276f6130e44c4bd50778a8881a3e4bc"  download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
