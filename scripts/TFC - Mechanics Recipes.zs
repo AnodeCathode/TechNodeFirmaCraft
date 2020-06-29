@@ -15,4 +15,11 @@
          
 // Misc Heating Recipes
 
+//Barrel Recipe
+// removeRecipe(ILiquidStack outputLiquid)
+// addRecipe(String registryName, crafttweaker.api.item.IIngredient itemInput, ILiquidStack fluidInput, IItemStack itemOutput, ILiquidStack fluidOutput, int hours)
+// Don't like recipes that are impossible with a full barrel of fluid. That's silly. This processes with 40 jute nets on a full barrel
+//mods.terrafirmacraft.Barrel.removeRecipe(<tfc:crop/product/dirty_jute_net>, <liquid:olive_oil>);
+mods.terrafirmacraft.Barrel.removeRecipe("tfc:olive_oil");
 
+mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jute_net>, <liquid:olive_oil_water> * 250, <tfc:crop/product/dirty_jute_net>, <liquid:olive_oil> * 50, 0);

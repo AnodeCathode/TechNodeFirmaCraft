@@ -1,18 +1,17 @@
 Notes:
 
+ - Remove TNFC_Mod from the TNFC Pack repo. Pointless and always out of date
+ 
+- Add sandwich/soup recipes with fish! Change disgusting sandwich to Delightful
 
-- Quartz from crushing?/smelting?/querning? quartzite stone
-- quartz to quartz blocks
-
-- Furnace - remove all dust>ingot. Add pottery firing
-- Secondary outputs for horsepower grinding and BwM. IE Grinder too?
-
+- Do we add the ReAuth mod? If so, add to main menu?
+- Do we need ContentTweaker? We don't use it
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 
 - Checkout horsepower dynamic chopping block and possible uses
 
-- Updated the TNFC Book with the changelog and stuff.
+- Update the TNFC Book with the changelog and stuff.
 
 - Add a link to the TNFC Discord to the main menu.
 
@@ -23,21 +22,15 @@ Notes:
 - Lots to config in BwM
 
 - nametag needs recipes
-- Enderpearl to liquid ender and back?
-
-
-- Coal blocks / Coke blocks? Need to sort out all the metal blocks
-
-
-- Do we want to keep TFC sheets separate from plates or combine? Bit of A and bit of B atm
+- Enderpearl to liquid ender and back? Some Rockhound process to create liquid ender?
 
 
 - Do we need craftingFlawlessPlus in oredic?
 
 - Metal block crafting solution
-- Remove Hopper crafting recipe
+- Remove Hopper crafting recipe?
 - Add Hopper Anvil and Metal Press recipe
 - New Blueprints for components. Vacuum tube recipe to be more expensive than god
 
--BlockHeatProperties for Pneumaticcraft. Also should we configure the Amadon tablet and use it properly?
+-BlockHeatProperties for Pneumaticcraft. 
 
