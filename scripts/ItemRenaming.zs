@@ -12,6 +12,6 @@
 <simplyjetpacks:metaitemmods>.displayName = "Steel Thruster";
 <simplyjetpacks:metaitemmods:1>.displayName = "Red Steel Thruster";
 <simplyjetpacks:metaitemmods:2>.displayName = "Tungsten Steel Thruster";
-
+<tfc:food/salad_dairy>.displayName = "Delightful Salad";
 game.setLocalization("tile.water.name","Rainwater");
 game.setLocalization("item.bucketWater.name","Rainwater Bucket");

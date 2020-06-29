@@ -49,7 +49,7 @@
   mods.jei.JEI.addItem(<horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/sequoia"}));
   recipes.addShaped("horsepower_chopper_spruce", <horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/spruce"}), [[<minecraft:lead>, <betterwithmods:wooden_axle>, <minecraft:lead>], [<tfc:wood/log/spruce>, <ore:craftingToolSaw>.noReturn(), <tfc:wood/log/spruce>], [<ore:stickWood>, <tfc:wood/log/spruce>, <ore:stickWood>]]);
   mods.jei.JEI.addItem(<horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/spruce"}));
-  recipes.addShaped("horsepower_chopper_ash", <horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/sycamore"}), [[<minecraft:lead>, <betterwithmods:wooden_axle>, <minecraft:lead>], [<tfc:wood/log/sycamore>, <ore:craftingToolSaw>.noReturn(), <tfc:wood/log/sycamore>], [<ore:stickWood>, <tfc:wood/log/sycamore>, <ore:stickWood>]]);
+  recipes.addShaped("horsepower_chopper_sycamore", <horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/sycamore"}), [[<minecraft:lead>, <betterwithmods:wooden_axle>, <minecraft:lead>], [<tfc:wood/log/sycamore>, <ore:craftingToolSaw>.noReturn(), <tfc:wood/log/sycamore>], [<ore:stickWood>, <tfc:wood/log/sycamore>, <ore:stickWood>]]);
   mods.jei.JEI.addItem(<horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/sycamore"}));
   recipes.addShaped("horsepower_chopper_white_cedar", <horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/white_cedar"}), [[<minecraft:lead>, <betterwithmods:wooden_axle>, <minecraft:lead>], [<tfc:wood/log/white_cedar>, <ore:craftingToolSaw>.noReturn(), <tfc:wood/log/white_cedar>], [<ore:stickWood>, <tfc:wood/log/white_cedar>, <ore:stickWood>]]);
   mods.jei.JEI.addItem(<horsepower:chopper>.withTag({textureBlock: "tfc:wood/log/white_cedar"}));
