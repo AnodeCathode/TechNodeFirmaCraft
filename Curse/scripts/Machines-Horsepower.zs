@@ -7,16 +7,16 @@
 
  //mods.horsepower.Grindstone.add(<input>, <output>, <time>, opt <hand> , opt <secondary>, opt <chance>);
   //Grain
-  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8, false, <tfc:straw>, 50);
-
+  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8);
+  mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/maize_grain> * 2, 8);
 
 	//Flour
 	mods.horsepower.Grindstone.add(<tfc:food/barley_grain:*>, <tfc:food/barley_flour> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/cornmeal_flour> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/maize_grain:*>, <tfc:food/cornmeal_flour> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:food/oat_grain:*>, <tfc:food/oat_flour> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:food/rice_grain:*>, <tfc:food/rice_flour> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:food/rye_grain:*>, <tfc:food/rye_flour> * 2, 8);
@@ -29,7 +29,7 @@
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4, <minecraft:sugar>, 8);
 
 	//Flux
-	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 8, 8);
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
 	
   //Charcoal Powder
@@ -39,11 +39,11 @@
 	mods.horsepower.Grindstone.add(<minecraft:bone>, <minecraft:dye:15> * 5, 8);
 
 	//Redstone
-	mods.horsepower.Grindstone.add(<tfc:ore/cinnabar>, <minecraft:redstone> * 10, 8);
-	mods.horsepower.Grindstone.add(<tfc:ore/cryolite>, <minecraft:redstone> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/cinnabar>, <minecraft:redstone> * 8, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/cryolite>, <minecraft:redstone> * 8, 8);
 
 	//Glowstone
-	mods.horsepower.Grindstone.add(<tfc:ore/selenite>, <minecraft:glowstone_dust> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/selenite>, <minecraft:glowstone_dust> * 8, 8);
 
 	//Coke
 	mods.horsepower.Grindstone.add(<immersiveengineering:material:6>, <immersiveengineering:material:17>, 8);
@@ -141,25 +141,26 @@
 //mods.horsepower.ChoppingBlock.add(<input>, <output>, <time>, <manual>);
 //ChoppingBlock Recipes
 
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/acacia:0>, <tfc:wood/lumber/acacia> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/ash:0>, <tfc:wood/lumber/ash> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/aspen:0>, <tfc:wood/lumber/aspen> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/birch:0>, <tfc:wood/lumber/birch> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/blackwood:0>, <tfc:wood/lumber/blackwood> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/chestnut:0>, <tfc:wood/lumber/chestnut> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/douglas_fir:0>, <tfc:wood/lumber/douglas_fir> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/hickory:0>, <tfc:wood/lumber/hickory> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/maple:0>, <tfc:wood/lumber/maple> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/oak:0>, <tfc:wood/lumber/oak> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/palm:0>, <tfc:wood/lumber/palm> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/pine:0>, <tfc:wood/lumber/pine> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/rosewood:0>, <tfc:wood/lumber/rosewood> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/sequoia:0>, <tfc:wood/lumber/sequoia> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/spruce:0>, <tfc:wood/lumber/spruce> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/sycamore:0>, <tfc:wood/lumber/sycamore> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/white_cedar:0>, <tfc:wood/lumber/white_cedar> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/willow:0>, <tfc:wood/lumber/willow> * 16, 8);
-	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/kapok:0>, <tfc:wood/lumber/kapok> * 16, 8);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/acacia:0>, <tfc:wood/lumber/acacia> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/ash:0>, <tfc:wood/lumber/ash> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/aspen:0>, <tfc:wood/lumber/aspen> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/birch:0>, <tfc:wood/lumber/birch> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/blackwood:0>, <tfc:wood/lumber/blackwood> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/chestnut:0>, <tfc:wood/lumber/chestnut> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/douglas_fir:0>, <tfc:wood/lumber/douglas_fir> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/hickory:0>, <tfc:wood/lumber/hickory> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/maple:0>, <tfc:wood/lumber/maple> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/oak:0>, <tfc:wood/lumber/oak> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/palm:0>, <tfc:wood/lumber/palm> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/pine:0>, <tfc:wood/lumber/pine> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/rosewood:0>, <tfc:wood/lumber/rosewood> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/sequoia:0>, <tfc:wood/lumber/sequoia> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/spruce:0>, <tfc:wood/lumber/spruce> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/sycamore:0>, <tfc:wood/lumber/sycamore> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/white_cedar:0>, <tfc:wood/lumber/white_cedar> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/willow:0>, <tfc:wood/lumber/willow> * 16, 4, false);
+	mods.horsepower.ChoppingBlock.add(<tfc:wood/log/kapok:0>, <tfc:wood/lumber/kapok> * 16, 4, false);
  
-//Try this on the right version  
-  mods.horsepower.Press.add(<tfc:food/olive>, <liquid:olive_oil_water> * 125);
+// Press
+  mods.horsepower.Press.add(<tfc:food/olive:*>, <liquid:olive_oil_water> * 250);
+  mods.horsepower.Press.add(<ore:logWoodTannin>, <liquid:creosote> * 125);

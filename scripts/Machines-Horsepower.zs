@@ -7,12 +7,12 @@
 
  //mods.horsepower.Grindstone.add(<input>, <output>, <time>, opt <hand> , opt <secondary>, opt <chance>);
   //Grain
-  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8, false, <tfc:straw>, 50);
-	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8, false, <tfc:straw>, 50);
-  mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/maize_grain> * 2, 8, false, <tfc:straw>, 50);
+  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8);
+  mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/maize_grain> * 2, 8);
 
 	//Flour
 	mods.horsepower.Grindstone.add(<tfc:food/barley_grain:*>, <tfc:food/barley_flour> * 2, 8);
@@ -29,7 +29,7 @@
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4, <minecraft:sugar>, 8);
 
 	//Flux
-	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 8, 8);
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
 	
   //Charcoal Powder
@@ -39,11 +39,11 @@
 	mods.horsepower.Grindstone.add(<minecraft:bone>, <minecraft:dye:15> * 5, 8);
 
 	//Redstone
-	mods.horsepower.Grindstone.add(<tfc:ore/cinnabar>, <minecraft:redstone> * 10, 8);
-	mods.horsepower.Grindstone.add(<tfc:ore/cryolite>, <minecraft:redstone> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/cinnabar>, <minecraft:redstone> * 8, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/cryolite>, <minecraft:redstone> * 8, 8);
 
 	//Glowstone
-	mods.horsepower.Grindstone.add(<tfc:ore/selenite>, <minecraft:glowstone_dust> * 10, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/selenite>, <minecraft:glowstone_dust> * 8, 8);
 
 	//Coke
 	mods.horsepower.Grindstone.add(<immersiveengineering:material:6>, <immersiveengineering:material:17>, 8);
