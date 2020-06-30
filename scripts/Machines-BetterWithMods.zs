@@ -51,7 +51,7 @@
   mods.betterwithmods.Mill.add(<tfc:food/olive_paste> * 2, [<tfc:food/olive>]);
     
 	//Flux
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 10]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 8]);
 	mods.betterwithmods.Mill.addRecipe([<ore:rockFlux>],[<tfc:powder/flux> * 4]);
 	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/chalk>],[<tfc:powder/flux> * 4]);
 	//mods.betterwithmods.Mill.addRecipe([<tfc:rock/dolomite>],[<tfc:powder/flux> * 4]);
@@ -62,15 +62,15 @@
 	mods.betterwithmods.Mill.addRecipe([<minecraft:bone>],[<minecraft:dye:15> * 5]);
 
 	//Redstone
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cinnabar>],[<minecraft:redstone> * 10]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cryolite>],[<minecraft:redstone> * 10]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cinnabar>],[<minecraft:redstone> * 8]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/cryolite>],[<minecraft:redstone> * 8]);
   
   //Charcoal Powder
   mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>], [<tfc:powder/charcoal> * 8]);
 
 
 	//Glowstone
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/selenite>],[<minecraft:glowstone_dust> * 10]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/selenite>],[<minecraft:glowstone_dust> * 8]);
 
 	//Coke
 	mods.betterwithmods.Mill.addRecipe([<immersiveengineering:material:6>],[<immersiveengineering:material:17>]);
