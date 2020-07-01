@@ -49,10 +49,10 @@
 	mods.horsepower.Grindstone.add(<immersiveengineering:material:6>, <immersiveengineering:material:17>, 8);
 
 	//Kaolinite
-	mods.horsepower.Grindstone.add(<tfc:ore/kaolinite>, <tfc:powder/kaolinite> * 8, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/kaolinite>, <tfc:powder/kaolinite> * 6, 8);
 
 	//Graphite
-	mods.horsepower.Grindstone.add(<tfc:ore/graphite>, <tfc:powder/graphite> * 8, 8);
+	mods.horsepower.Grindstone.add(<tfc:ore/graphite>, <tfc:powder/graphite> * 6, 8);
 
 	//Sulfur
 	mods.horsepower.Grindstone.add(<tfc:ore/sulfur>, <tfc:powder/sulfur> * 8, 8);
