@@ -34,3 +34,6 @@ Notes:
 
 -BlockHeatProperties for Pneumaticcraft. 
 
+- Winch recipe
+- Ladders from sticks
+- IE Assembler
