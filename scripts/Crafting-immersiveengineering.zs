@@ -1,9 +1,15 @@
 #priority 3
 #modloaded immersiveengineering
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
+val creosotebucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
+val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).transformReplace(<tfc:wooden_bucket>);
+val waterbucketsteel = <tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).transformReplace(<tfc:metal/bucket/red_steel>);
+val waterbucketvanilla = <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}).transformReplace(<minecraft:bucket>);
 
-val creosotebucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).giveBack(<tfc:wooden_bucket>);
-val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}).giveBack(<tfc:wooden_bucket>);
+val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngredient[];
+
 //#REMOVE Recipes
   mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:shovel_steel>);
@@ -85,10 +91,11 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
   recipes.addShaped("tnfc_immersive_heavy_engineering_block",<immersiveengineering:metal_decoration0:5>, [[<ore:ingotSteel>, <tfc:metal/hammer/black_steel>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
   recipes.addShaped("tnfc_immersive_radiatorblock", <immersiveengineering:metal_decoration0:7> * 2, [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, waterbucket, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
   recipes.addShaped("tnfc_immersive_garden_cloche",<immersiveengineering:metal_device1:13>, [[<rockhounding_chemistry:misc_blocks_a:13>, <ore:electronTube>, <rockhounding_chemistry:misc_blocks_a:13>], [<rockhounding_chemistry:misc_blocks_a:13>, <ore:craftingToolHardHammer>.transformDamage(), <rockhounding_chemistry:misc_blocks_a:13>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
-  
-  recipes.addShaped("tnfc_immersive_concrete_sand", <immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, waterbucket, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
-  recipes.addShaped("tnfc_immersive_concrete_slag", <immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, waterbucket, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
 
+for i, item in IBucketArray {  
+  recipes.addShaped("tnfc_immersive_concrete_sand", <immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, item, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
+  recipes.addShaped("tnfc_immersive_concrete_slag", <immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
+}
   recipes.addShaped("tnfc_immersive_metal_storage/copper_block", <immersiveengineering:storage:0>, [[<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>]]);
   recipes.addShaped("tnfc_immersive_metal_storage/aluminum_block", <immersiveengineering:storage:1>, [[<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>]]);
   recipes.addShaped("tnfc_immersive_metal_storage/lead_block", <immersiveengineering:storage:2>, [[<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>], [<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>], [<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>]]);

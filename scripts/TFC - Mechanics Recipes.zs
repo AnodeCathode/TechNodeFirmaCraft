@@ -23,8 +23,3 @@
 mods.terrafirmacraft.Barrel.removeRecipe("tfc:olive_oil");
 
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jute_net>, <liquid:olive_oil_water> * 250, <tfc:crop/product/dirty_jute_net>, <liquid:olive_oil> * 50, 0);
-
-//PR'd the same change. 
-mods.terrafirmacraft.Barrel.removeRecipe("tfc:clean_net");
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:clean_net", <tfc:crop/product/dirty_jute_net>, <liquid:fresh_water> * 125, <tfc:crop/product/jute_net>, null, 1);
-

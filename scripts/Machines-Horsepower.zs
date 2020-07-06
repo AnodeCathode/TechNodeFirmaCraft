@@ -7,12 +7,12 @@
 
  //mods.horsepower.Grindstone.add(<input>, <output>, <time>, opt <hand> , opt <secondary>, opt <chance>);
   //Grain
-  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8);
-  mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/maize_grain> * 2, 8);
+  mods.horsepower.Grindstone.add(<tfc:food/barley:*>, <tfc:food/barley_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/oat:*>, <tfc:food/oat_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/rice:*>, <tfc:food/rice_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/rye:*>, <tfc:food/rye_grain> * 2, 8, false, <tfc:straw>, 50);
+	mods.horsepower.Grindstone.add(<tfc:food/wheat:*>, <tfc:food/wheat_grain> * 2, 8, false, <tfc:straw>, 50);
+  mods.horsepower.Grindstone.add(<tfc:food/maize:*>, <tfc:food/maize_grain> * 2, 8, false, <tfc:straw>, 50);
 
 	//Flour
 	mods.horsepower.Grindstone.add(<tfc:food/barley_grain:*>, <tfc:food/barley_flour> * 2, 8);
