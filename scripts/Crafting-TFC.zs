@@ -1,6 +1,11 @@
 #priority 8
 
 
+// Fixes
+
+  recipes.remove(<minecraft:bucket>);
+  recipes.addShaped("tnfc_vanilla_bucket_fix",<minecraft:bucket>, [[<ore:ingotWroughtIron>, <tfc:metal/bucket/red_steel>.noReturn(), <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <tfc:metal/bucket/blue_steel>.noReturn(), <ore:ingotWroughtIron>], [null, <ore:ingotWroughtIron>, null]]);
+
   // TFCTech Sleeves for Gear making before the metal press recipe
   recipes.addShapeless("tnfc_tfctech_tinsleeve", <tfctech:metal/tin_sleeve>, [<ore:sheetTin>, <ore:craftingToolChisel>.transformDamage(), <ore:craftingToolHammer>.transformDamage()]);
   recipes.addShapeless("tnfc_tfctech_steelsleeve", <tfctech:metal/steel_sleeve>, [<ore:plateSteel>, <ore:craftingToolChisel>.transformDamage(), <ore:craftingToolHammer>.transformDamage()]);
