@@ -1,10 +1,11 @@
 Notes:
 
- - Remove TNFC_Mod from the TNFC Pack repo. Pointless and always out of date
+
+- Fix the loot tables for fishing and add useful stuff!
  
 - Add sandwich/soup recipes with fish! Change disgusting sandwich to Delightful
 
-- Do we add the ReAuth mod? If so, add to main menu?
+
 - Do we need ContentTweaker? We don't use it
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
