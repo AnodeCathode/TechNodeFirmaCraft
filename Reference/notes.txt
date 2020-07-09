@@ -1,39 +1,31 @@
 Notes:
+- Anvil or name tag fixes
+- Fix the loot tables for fishing and add useful stuff!
+- Loom automation
+- Power for RH machines? Too expensive recipe?
+- Add sandwich/soup recipes with fish! Other foods?
+- Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
+- Checkout horsepower dynamic chopping block and possible uses
+- Update the TNFC Book with the changelog and stuff.
+- Add a link to the TNFC Discord to the main menu.
+
+
+
 
 - Cloche power usage increase - Done
-
-- Anvil or name tag fixes
-
-- Fix the loot tables for fishing and add useful stuff!
-
 - Hop ingots - How you make? In the Blast Furnace - Done
-
-
-- Loom automation
-
 - IE Fluid pump replaces blocks with vanilla cobble - Fixed. But will cause lag.
-
-- Recipes with vanilla coal
-
-- Power for RH machines? Too expensive recipe?
-
-- BwM chopping is broken
-
+- Recipes with vanilla coal - Done
+- BwM chopping is broken - Done
 - Death penalty too light. Done - May be too severe.
 
  
-- Add sandwich/soup recipes with fish! Other foods?
 
 
 - Do we need ContentTweaker? We don't use it
 
-- Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 
-- Checkout horsepower dynamic chopping block and possible uses
 
-- Update the TNFC Book with the changelog and stuff.
-
-- Add a link to the TNFC Discord to the main menu.
 
 - Add all items with weight and stuff
 
