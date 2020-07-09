@@ -1,9 +1,28 @@
 Notes:
 
+- Cloche power usage increase - Done
+
+- Anvil or name tag fixes
 
 - Fix the loot tables for fishing and add useful stuff!
+
+- Hop ingots - How you make? In the Blast Furnace - Done
+
+
+- Loom automation
+
+- IE Fluid pump replaces blocks with vanilla cobble - Fixed. But will cause lag.
+
+- Recipes with vanilla coal
+
+- Power for RH machines? Too expensive recipe?
+
+- BwM chopping is broken
+
+- Death penalty too light. Done - May be too severe.
+
  
-- Add sandwich/soup recipes with fish! Change disgusting sandwich to Delightful
+- Add sandwich/soup recipes with fish! Other foods?
 
 
 - Do we need ContentTweaker? We don't use it
@@ -18,23 +37,18 @@ Notes:
 
 - Add all items with weight and stuff
 
-- Start with Vanilla TFC + QoL mods + fishing. Early entry into BtM, Horsepower and carts (bronze?) then into Immersive (coke) with iron. Then branch out the rest with steel +, rest of immersive, pneumaticcraft. Onto in TechReborn (not included atm)
-
-- Lots to config in BwM
 
 - nametag needs recipes
+
 - Enderpearl to liquid ender and back? Some Rockhound process to create liquid ender?
 
 
 - Do we need craftingFlawlessPlus in oredic?
 
 - Metal block crafting solution
-- Remove Hopper crafting recipe?
-- Add Hopper Anvil and Metal Press recipe
+
 - New Blueprints for components. Vacuum tube recipe to be more expensive than god
 
 -BlockHeatProperties for Pneumaticcraft. 
 
-- Winch recipe
-- Ladders from sticks
 - IE Assembler
