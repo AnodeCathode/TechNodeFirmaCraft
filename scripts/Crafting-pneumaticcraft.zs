@@ -23,7 +23,8 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
   recipes.remove(<pneumaticcraft:stone_base>);
   recipes.remove(<pneumaticcraft:uv_light_box>);
   recipes.remove(<pneumaticcraft:vortex_tube>);
-
+  recipes.remove(<pneumaticcraft:seismic_sensor>);
+  
   // ================================================================================
 //#ADD SHAPED
       recipes.addShaped("pneumaticcraft_compressed_iron_gear", <pneumaticcraft:compressed_iron_gear>, [[null, <ore:ingotIronCompressed>, null], [<ore:ingotIronCompressed>, <tfc:metal/ingot/steel>, <ore:ingotIronCompressed>], [null, <ore:ingotIronCompressed>, null]]);
@@ -38,7 +39,7 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
       recipes.addShaped("pneumaticcraft_speed_upgrade", <pneumaticcraft:speed_upgrade>, [[<ore:gemLapis>, vodkaBottle, <ore:gemLapis>], [vodkaBottle, lubeBucket, vodkaBottle], [<ore:gemLapis>, vodkaBottle, <ore:gemLapis>]]);
       recipes.addShaped("pneumaticcraft_uv_light_box", <pneumaticcraft:uv_light_box>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_vortex_tube", <pneumaticcraft:vortex_tube>, [[<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>], [<tfc:metal/ingot/gold>, <pneumaticcraft:pressure_tube>, <tfc:metal/ingot/gold>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
-
+      recipes.addShaped("pneumaticcraft_seismic_sensor", <pneumaticcraft:seismic_sensor>, [[null, <minecraft:redstone_torch>, null], [<ore:blockGlass>, <minecraft:repeater>, <ore:blockGlass>], [<ore:blockGlass>, <ore:gemCoal>, <ore:blockGlass>]]);
 // ================================================================================
 //#ADD SHAPELESS
       recipes.addShapeless("pneumaticcraft_gun_ammo", <pneumaticcraft:gun_ammo>, [<minecraft:gunpowder>, <ore:ingotIronCompressed>, <tfc:metal/ingot/gold>]);
