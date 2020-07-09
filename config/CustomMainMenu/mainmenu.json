@@ -108,6 +108,20 @@
 				"link": "https://github.com/AnodeCathode/TechNodeFirmaCraft/issues"
 			}
    },
+		"Discord": {
+			"text": "",
+			"texture": "tnfcmod:textures/mainmenu/discord.png",
+			"alignment": "top_center",
+			"hoverText": "TNFC Discord",
+			"posX": -26,
+			"posY": 2,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.com/invite/xWH4tcY"
+			}
+		},
 		"Subreddit": {
 			"text": "",
 			"texture": "tnfcmod:textures/mainmenu/reddit2.png",
@@ -132,7 +146,7 @@
 			"alignment": "bottom_left"
 		},
 		"modpack": {
-			"text": "TechNodefirmacraft 12.2.15 Beta",
+			"text": "TechNodefirmacraft 12.2.16 Beta",
 			"posX": 2,
 			"posY": -30,
 			"color": -1,
