@@ -14,6 +14,8 @@ import crafttweaker.item.IItemStack;
 // BlastFurnace
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
     
+    //Make HOP Ingots from HOP Dust
+    mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:material:19>, <immersiveengineering:material:18>, 598);
 
     mods.immersiveengineering.BlastFurnace.addFuel(<tfc:ore/bituminous_coal>, 600);
     mods.immersiveengineering.BlastFurnace.addFuel(<tfc:ore/lignite>, 500);
