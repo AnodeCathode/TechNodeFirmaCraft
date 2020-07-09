@@ -93,8 +93,8 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.addShaped("tnfc_immersive_garden_cloche",<immersiveengineering:metal_device1:13>, [[<rockhounding_chemistry:misc_blocks_a:13>, <ore:electronTube>, <rockhounding_chemistry:misc_blocks_a:13>], [<rockhounding_chemistry:misc_blocks_a:13>, <ore:craftingToolHardHammer>.transformDamage(), <rockhounding_chemistry:misc_blocks_a:13>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
 
 for i, item in IBucketArray {  
-  recipes.addShaped("tnfc_immersive_concrete_sand", <immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, item, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
-  recipes.addShaped("tnfc_immersive_concrete_slag", <immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
+  recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, item, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
+  recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
 }
   recipes.addShaped("tnfc_immersive_metal_storage/copper_block", <immersiveengineering:storage:0>, [[<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>]]);
   recipes.addShaped("tnfc_immersive_metal_storage/aluminum_block", <immersiveengineering:storage:1>, [[<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>]]);
@@ -105,6 +105,7 @@ for i, item in IBucketArray {
   recipes.addShaped("tnfc_immersive_metal_storage/electrum_block", <immersiveengineering:storage:7>, [[<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>], [<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>], [<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>]]);
   recipes.addShaped("tnfc_immersive_metal_storage/steel_block", <immersiveengineering:storage:8>, [[<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>]]);
 
+  recipes.addShaped("tnfc_immersive_blueprint_electrode", <immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
   recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4>, [[null, <ore:sheetWroughtIron>, null], [<ore:paneGlass>, <ore:glowstone_dust>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
   recipes.addShaped("tnfc_immersive_aluminum_post",<immersiveengineering:metal_decoration2:2>, [[<ore:fenceAluminum>], [<ore:fenceAluminum>], [<ore:stoneBrick>]]);
