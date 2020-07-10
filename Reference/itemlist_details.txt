@@ -9,7 +9,6 @@
 "<astikorcarts:mobcart>","Transportation Cart"
 "<astikorcarts:plowcart>","Plow"
 "<astikorcarts:wheel>","Wheel"
-"<base:wrench>","Wrench"
 "<betterwithengineering:ie_corner>","Horizontal Treated Wood Corner"
 "<betterwithengineering:ie_moulding>","Horizontal Treated Wood Moulding"
 "<betterwithengineering:ie_siding>","Horizontal Treated Wood Siding"
