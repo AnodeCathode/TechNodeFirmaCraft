@@ -1,14 +1,19 @@
 Notes:
 - Anvil or name tag fixes
 - Fix the loot tables for fishing and add useful stuff!
-- Loom automation
+- Loom automation - Partially done. Added press recipes for now.
 - Power for RH machines? Too expensive recipe?
 - Add sandwich/soup recipes with fish! Other foods?
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
-- Checkout horsepower dynamic chopping block and possible uses
 - Update the TNFC Book with the changelog and stuff.
-- Add a link to the TNFC Discord to the main menu.
+- Add a link to the TNFC Discord to the main menu.  - Need new icon. It's so ugly
+- Old crops need to eventually die no matter what. The tropical enterna farm is terrible
+- Resurrect the advanced PnC gas lift? Otherwise can't generally drill deep enough
+- Immersive Petroleum and PnC petroleum deposits are not compatible. 
+    The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
+  
 
+  -Fix IE Lantern recipe. Done
 
 
 
@@ -18,11 +23,12 @@ Notes:
 - Recipes with vanilla coal - Done
 - BwM chopping is broken - Done
 - Death penalty too light. Done - May be too severe.
+- Do we need ContentTweaker? We don't use it -DONE
 
  
 
 
-- Do we need ContentTweaker? We don't use it
+
 
 
 
