@@ -8,8 +8,30 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+var toolsMisc = <ore:tool>;
+    toolsMisc.addItems([
+    <immersiveengineering:tool>,
+    <immersiveengineering:tool:1>,
+    <rockhounding_chemistry:misc_items:7>,
+    <yabba:wrench>,
+    <signpost:itemwrench>,
+    <rockhounding_chemistry:sampling_ampoule>,
+    <pneumaticcraft:pneumatic_wrench>,
+    <pneumaticcraft:logistics_configurator>,
+    <pneumaticcraft:gps_tool>,
+    <jaff:wooden_fishing_rod>,
+    <jaff:iron_fishing_rod>,
+    <jaff:golden_fishing_rod>,
+    <jaff:diamond_fishing_rod>,
+    <immersiveengineering:railgun>,
+    <immersiveengineering:skyhook>,
+    <immersiveengineering:revolver>,
+    <immersiveengineering:drill>
+    ]);
   
 
+var gemLapis = <ore:gemLapis>;
+    gemLapis.remove(<minecraft:dye:4>);
  
   var fabricHemp = <ore:fabricHemp>;
     fabricHemp.addItems([
