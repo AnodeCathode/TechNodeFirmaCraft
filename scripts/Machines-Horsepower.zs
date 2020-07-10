@@ -164,3 +164,8 @@
 // Press
   mods.horsepower.Press.add(<tfc:food/olive:*>, <liquid:olive_oil_water> * 250);
   mods.horsepower.Press.add(<ore:logWoodTannin>, <liquid:creosote> * 125);
+  
+  mods.horsepower.Press.add(<tfc:animal/product/wool_yarn> * 12, <tfc:animal/product/wool_cloth>);
+  mods.horsepower.Press.add(<immersiveengineering:material:4> * 6, <tfc:crop/product/burlap_cloth>);
+  mods.horsepower.Press.add(<tfc:crop/product/jute_fiber> * 9, <tfc:crop/product/burlap_cloth>);
+  mods.horsepower.Press.add(<minecraft:string> * 18, <tfc:animal/product/silk_cloth>);
