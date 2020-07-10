@@ -9,7 +9,7 @@
 
 // Adds a recipe with the given parameters
   //mods.terrafirmacraft.Loom.addRecipe(String registryName, IIngredient input, IItemStack output, int steps, String loomTexture)
-  mods.terrafirmacraft.Loom.addRecipe("tnfc_burlap_from_hemp", <immersiveengineering:material:4> * 9, <tfc:crop/product/burlap_cloth>, 27, "tfc:textures/blocks/devices/loom/product/burlap.png");
+  mods.terrafirmacraft.Loom.addRecipe("tnfc_burlap_from_hemp", <immersiveengineering:material:4> * 16, <tfc:crop/product/burlap_cloth>, 27, "tfc:textures/blocks/devices/loom/product/burlap.png");
 
          
          

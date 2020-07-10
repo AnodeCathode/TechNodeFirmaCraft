@@ -35,6 +35,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal:4>);
   recipes.remove(<immersiveengineering:metal_decoration0:3>);
   recipes.remove(<immersiveengineering:metal_decoration0:7>);
+  recipes.remove(<immersiveengineering:metal_decoration2:4>);
   recipes.remove(<immersiveengineering:storage:0>);
   recipes.remove(<immersiveengineering:storage:1>);
   recipes.remove(<immersiveengineering:storage:2>);
@@ -44,7 +45,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:storage:7>);
   recipes.remove(<immersiveengineering:storage:8>);
   
-  
+
   recipes.remove(<immersiveengineering:metal:30>);
   recipes.remove(<immersiveengineering:metal:31>);
   recipes.remove(<immersiveengineering:metal:32>);
@@ -54,6 +55,10 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal:37>);
   recipes.remove(<immersiveengineering:metal:38>);
   recipes.remove(<immersiveengineering:metal:40>);
+  recipes.remove(<immersiveengineering:wooden_device0:2>);
+  
+  //blueprint
+  recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
   
   //garden cloche
   recipes.remove(<immersiveengineering:metal_device1:13>);
@@ -63,6 +68,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
 
 // ================================================================================
 //#ADD SHAPED
+  recipes.addShaped("tnfc_immersive_workbench", <immersiveengineering:wooden_device0:2>, [[null, null, null],[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:workbench>, null, <ore:fenceTreatedWood>]]);
 	recipes.addShaped("tnfc_immersive_conveyor", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [[null,<ore:craftingToolMediumHammer>.transformDamage(),null], [<ore:rubber>, <ore:rubber>, <ore:rubber>], [<tfc:metal/ingot/wrought_iron>, <ore:dustRedstone>, <tfc:metal/ingot/wrought_iron>]]);
   recipes.addShaped("tnfc_immersive_conveyor_covered", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}), [[<ore:scaffoldingSteel>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})]]);
   recipes.addShaped("tnfc_immersive_conveyor_covered_dropping", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}), [[<ore:scaffoldingSteel>], [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"})]]);
@@ -107,7 +113,7 @@ for i, item in IBucketArray {
 
   recipes.addShaped("tnfc_immersive_blueprint_electrode", <immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
-  recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4>, [[null, <ore:sheetWroughtIron>, null], [<ore:paneGlass>, <ore:glowstone_dust>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
+  recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4> * 3, [[<ore:craftingToolChisel>.transformDamage(), <ore:sheetWroughtIron>, <ore:craftingToolHammer>.transformDamage()], [<ore:paneGlass>, <ore:dustGlowstone>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
   recipes.addShaped("tnfc_immersive_aluminum_post",<immersiveengineering:metal_decoration2:2>, [[<ore:fenceAluminum>], [<ore:fenceAluminum>], [<ore:stoneBrick>]]);
   recipes.addShaped("tnfc_immersive_steel_post",<immersiveengineering:metal_decoration2>, [[<ore:fenceSteel>], [<ore:fenceSteel>], [<ore:stoneBrick>]]);
   recipes.addShaped("tnfc_immersive_wooden_post",<immersiveengineering:wooden_device1:3>, [[<ore:fenceTreatedWood>], [<ore:fenceTreatedWood>], [<ore:stoneBrick>]]);
@@ -154,6 +160,6 @@ for i, item in IBucketArray {
     
     //Core Sample Drill
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_device1:7>, "LARGE", "VERY_HEAVY");
-
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:2>, "VERY_LARGE", "HEAVY");
 
   

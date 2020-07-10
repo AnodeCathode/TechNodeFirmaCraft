@@ -79,12 +79,16 @@ import crafttweaker.item.IItemStack;
 // Kiln
 
 // Crusher  
+// mods.immersiveengineering.Crusher.addRecipe(IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance);
+
     //Remove Crusher Recipes
 
       mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
       mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_items:8>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/sulfur>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:diamond_ore>);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);
+      
 
 
 

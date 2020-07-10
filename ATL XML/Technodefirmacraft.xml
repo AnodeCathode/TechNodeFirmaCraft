@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.16</version>
+        <version>12.2.17</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -37,7 +37,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.16" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.16.jar" file="Technodefirmacraft-MC1.12.2-12.2.16.jar" md5="4efed2acd8971fe1446e77d391084fbb" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.17" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.17.jar" file="Technodefirmacraft-MC1.12.2-12.2.17.jar" md5="9a5d367bd3fedb433c22b7a4afd36440" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -134,6 +134,8 @@
         
         <mod name="First Aid" version="1.6.14" url="packs/TechNodefirmacraft/files/1.12.2Mods/firstaid-1.6.14.jar" file="firstaid-1.6.14.jar" md5="66dc8e9c75b63c86f18d248bf101178b" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"   />
         
+        <mod name="Animal Net" version="v1.12.2 b3" url="packs/TechNodefirmacraft/files/1.12.2Mods/animalnet-v1.12.2b3.jar" file="animalnet-v1.12.2b3.jar" md5="cde78d44b320048dbbf2ce4a94545a3a"  download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+        
 
 <!-- Utilities and QoL Mods -->  
 
@@ -154,6 +156,8 @@
         <mod name="Chunk-Pregenerator" version="1.12-2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Chunk Pregenerator V1.12-2.3.jar" file="Chunk Pregenerator V1.12-2.3.jar" md5="332a3193bf13188394308ef511e15e07" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
         <mod name="Just Enough Items" version="4.15.0.297" url="packs/TechNodefirmacraft/files/1.12.2Mods/jei_1.12.2-4.15.0.297.jar" file="jei_1.12.2-4.15.0.297.jar" md5="a278ec508d11c2eda27370e8c2343c0f"  download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+        
+        <mod name="Controlling" version="3.0.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/Controlling-3.0.9.jar" file="Controlling-3.0.9.jar" md5="1ad468d60a3e7501e25ca7cb666c62bc" download="server" type="mods" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
         
 
         <mod name="Custom Starter Gear" version="1.2.0.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomStartingGear-1.12-1.2.0.9-universal.jar" file="CustomStartingGear-1.12-1.2.0.9-universal.jar" md5="780bf4e47f61f4388cc60b0e24bc4044" download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
@@ -189,6 +193,8 @@
 
 <!-- Pack Customization Mods -->
 
+    <mod name="LootTweaker" version="0.2.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/LootTweaker-0.2.0MC1.12.2.jar" file="LootTweaker-0.2.0MC1.12.2.jar" md5="2a36fa1ff15af2dff9962e30c09cb0ae"  download="server" type="mods" />
+
     <mod name="Resource Loader" version="1.5.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/ResourceLoader-MC1.12.1-1.5.3.jar" file="ResourceLoader-MC1.12.1-1.5.3.jar" md5="51141e882f96ce756b9b3d25f2acdf57" download="server" type="mods"/>
         
     <mod name="Custom Main Menu" version="2.0.9.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar" file="CustomMainMenu-MC1.12.2-2.0.9.1.jar" md5="c12200ad89f9399d5bdcbe9da7900bb9" download="server" type="mods"/>
@@ -216,7 +222,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.16" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.16.zip" file="scripts.12.2.16.zip" md5="19ecea579b2f5b1e6f801b79e2ce0320"  download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.17"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.17.zip" file="scripts.12.2.17.zip" md5="a83980ce6b402f7051346dd3ce84fce0"  download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
