@@ -1,4 +1,6 @@
 Notes:
+- Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more
+
 - Anvil or name tag fixes
 - Fix the loot tables for fishing and add useful stuff!
 - Loom automation - Partially done. Added press recipes for now.
@@ -12,11 +14,13 @@ Notes:
 - Immersive Petroleum and PnC petroleum deposits are not compatible. 
     The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
   
-
-  -Fix IE Lantern recipe. Done
-
-
-
+- Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
+ -Rope back to fibre yields BwM hemp
+ - Random diamond drops from crushing kimberlite ffs
+ 
+  
+  
+- Fix IE Lantern recipe. Done
 - Cloche power usage increase - Done
 - Hop ingots - How you make? In the Blast Furnace - Done
 - IE Fluid pump replaces blocks with vanilla cobble - Fixed. But will cause lag.
@@ -30,7 +34,15 @@ Notes:
 
 
 
-
+- Advanced Rocketry
+  - Would need iridium as ore? Replace with Tungsten Steel?
+  
+  - Titanium Aluminide?
+  - Titanium Iridium
+  - Ore Dilithium
+  
+  
+  
 
 
 - Add all items with weight and stuff
