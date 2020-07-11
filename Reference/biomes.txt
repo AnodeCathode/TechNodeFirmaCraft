@@ -1,0 +1,66 @@
+-minecraft:ocean	Ocean
+-minecraft:plains	Plains
+-minecraft:desert	Desert
+-minecraft:extreme_hills	Extreme Hills
+-minecraft:forest	Forest
+-minecraft:taiga	Taiga
+-minecraft:swampland	Swampland
+-minecraft:river	River
+-minecraft:hell	Hell
+-minecraft:sky	The End
+-minecraft:frozen_ocean	FrozenOcean
+-minecraft:frozen_river	FrozenRiver
+-minecraft:ice_flats	Ice Plains
+-minecraft:ice_mountains	Ice Mountains
+-minecraft:mushroom_island	MushroomIsland
+-minecraft:mushroom_island_shore	MushroomIslandShore
+-minecraft:beaches	Beach
+-minecraft:desert_hills	DesertHills
+-minecraft:forest_hills	ForestHills
+-minecraft:taiga_hills	TaigaHills
+-minecraft:smaller_extreme_hills	Extreme Hills Edge
+-minecraft:jungle	Jungle
+-minecraft:jungle_hills	JungleHills
+-minecraft:jungle_edge	JungleEdge
+-minecraft:deep_ocean	Deep Ocean
+-minecraft:stone_beach	Stone Beach
+-minecraft:cold_beach	Cold Beach
+-minecraft:birch_forest	Birch Forest
+-minecraft:birch_forest_hills	Birch Forest Hills
+-minecraft:roofed_forest	Roofed Forest
+-minecraft:taiga_cold	Cold Taiga
+-minecraft:taiga_cold_hills	Cold Taiga Hills
+-minecraft:redwood_taiga	Mega Taiga
+-minecraft:redwood_taiga_hills	Mega Taiga Hills
+-minecraft:extreme_hills_with_trees	Extreme Hills+
+-minecraft:savanna	Savanna
+-minecraft:savanna_rock	Savanna Plateau
+-minecraft:mesa	Mesa
+-minecraft:mesa_rock	Mesa Plateau F
+-minecraft:mesa_clear_rock	Mesa Plateau
+-tfc:ocean	TerraFirmaCraft Ocean
+-tfc:river	TerraFirmaCraft River
+-tfc:beach	TerraFirmaCraft Beach
+-tfc:gravel_beach	TerraFirmaCraft Gravel Beach
+-tfc:high_hills	TerraFirmaCraft High Hills
+-tfc:plains	TerraFirmaCraft Plains
+-tfc:swampland	TerraFirmaCraft Swampland
+-tfc:high_hills_edge	TerraFirmaCraft High Hills Edge
+-tfc:rolling_hills	TerraFirmaCraft Rolling Hills
+-tfc:mountains	TerraFirmaCraft Mountains
+-tfc:mountains_edge	TerraFirmaCraft Mountains Edge
+-tfc:high_plains	TerraFirmaCraft High Plains
+-tfc:deep_ocean	TerraFirmaCraft Deep Ocean
+-tfc:lake	TerraFirmaCraft Lake
+-advancedrocketry:moon	Moon
+-advancedrocketry:alien forest	Alien Forest
+-advancedrocketry:hotdryrock	HotDryRock
+-advancedrocketry:space	Space
+-advancedrocketry:stormland	Stormland
+-advancedrocketry:crystalchasms	CrystalChasms
+-advancedrocketry:deepswamp	DeepSwamp
+-advancedrocketry:marsh	Marsh
+-advancedrocketry:oceanspires	OceanSpires
+-advancedrocketry:moondark	MoonDark
+-advancedrocketry:volcanic	Volcanic
+-advancedrocketry:volcanicbarren	VolcanicBarren
