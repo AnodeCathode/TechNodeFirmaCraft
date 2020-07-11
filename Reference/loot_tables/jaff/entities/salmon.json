@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

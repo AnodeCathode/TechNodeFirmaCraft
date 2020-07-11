@@ -1,0 +1,148 @@
+{
+  "pools": [
+    {
+      "name": "wood",
+      "entries": [
+        {
+          "entryName": "minecraft:planks",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:planks"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "sawdust",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 22.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "gear",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "nugget",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 9.0,
+                "max": 27.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_nugget"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "strap",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "iron",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

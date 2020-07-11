@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "immersiveengineering:shaders",
+      "entries": [
+        {
+          "entryName": "shader_bag",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{rarity:\"IE:MASTERWORK\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "immersiveengineering:shader_bag"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

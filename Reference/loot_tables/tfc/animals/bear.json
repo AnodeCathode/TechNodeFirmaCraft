@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "name": "roll1",
+      "entries": [
+        {
+          "entryName": "tfc:food/bear",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "skill": "butchering",
+              "add": 0.08,
+              "count": {
+                "min": 12.0,
+                "max": 20.0
+              },
+              "function": "tfc:apply_skill"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "tfc:food/bear"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "roll2",
+      "entries": [
+        {
+          "entryName": "tfc:hide/raw/large",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "tfc:hide/raw/large"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "roll3",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "waterflasks_bladder_pool",
+      "entries": [
+        {
+          "entryName": "waterflasks_bladder_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "waterflasks:animals/bear"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

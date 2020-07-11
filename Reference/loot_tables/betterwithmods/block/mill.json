@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "mill",
+      "entries": [
+        {
+          "entryName": "minecraft:cobblestone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

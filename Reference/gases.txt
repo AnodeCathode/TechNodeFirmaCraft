@@ -1,0 +1,12 @@
+liquid:ammonia
+liquid:argon
+liquid:carbon_dioxide
+liquid:helium
+liquid:hydrogen
+liquid:krypton
+liquid:neon
+liquid:nitrogen
+liquid:oxygen
+liquid:xenon
+liquid:ammonia
+liquid:argon
