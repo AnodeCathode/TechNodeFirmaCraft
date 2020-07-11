@@ -1,0 +1,17 @@
+        oreIronRich
+        oreGoldRich
+        oreCopperNormal
+        oreTinNormal
+        oreRedstone
+
+        oreLeadNormal
+        oreZincNormal
+        oreOsmiumNormal
+        oreCobaltPoor
+        oreSilverPoor
+        oreBismuthRich
+        orePlatinumRich
+        oreNickelNormal
+        oreTitaniumNormal
+        oreAluminumNormal
+        oreTungstenRich

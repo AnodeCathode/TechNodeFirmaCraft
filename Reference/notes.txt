@@ -37,9 +37,9 @@ Notes:
 - Advanced Rocketry
   - Would need iridium as ore? Replace with Tungsten Steel?
   
-  - Titanium Aluminide?
-  - Titanium Iridium
-  - Ore Dilithium
+  - Titanium Aluminide? Dust/Alloy recipe
+  - Iridium - May be present on other bodies
+  - Ore Dilithium - May be present on other bodies
   
   
   

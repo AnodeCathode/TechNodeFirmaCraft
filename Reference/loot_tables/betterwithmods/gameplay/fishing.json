@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "betterwithmods:gameplay/fishing",
+      "entries": [
+        {
+          "entryName": "betterwithmods:gameplay/fishing/junk",
+          "weight": 15,
+          "quality": -2,
+          "type": "loot_table",
+          "name": "betterwithmods:gameplay/fishing/junk"
+        },
+        {
+          "entryName": "betterwithmods:gameplay/fishing/fish",
+          "weight": 85,
+          "quality": -1,
+          "type": "loot_table",
+          "name": "betterwithmods:gameplay/fishing/fish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

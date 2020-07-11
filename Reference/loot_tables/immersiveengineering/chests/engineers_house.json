@@ -1,0 +1,444 @@
+{
+  "pools": [
+    {
+      "name": "immersiveengineering:engineers_village_house_0",
+      "entries": [
+        {
+          "entryName": "treated_stick",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "iron_rod",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "steel_rod",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "aluminium_rod",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "hemp_fabric",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "coal_coke",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "iron_component",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "steel_component",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "copper_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "aluminium_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "lead_nugget",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 22.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "silver_nugget",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 23.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        },
+        {
+          "entryName": "nugget_nickel",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 24.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "immersiveengineering:metal"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "immersiveengineering:engineers_village_house_1",
+      "entries": [
+        {
+          "entryName": "blueprint_bullets",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"bullet\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "blueprint_specialBullets",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"specialBullet\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "blueprint_electrode",
+          "weight": 1,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"electrode\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "immersiveengineering:secret_bluprintz",
+              "conditions": [
+                {
+                  "chance": 0.125,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        },
+        {
+          "entryName": "revolver_barrel",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "revolver_drum",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "revolver_hammer",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "immersiveengineering:revolver_perks"
+            }
+          ],
+          "name": "immersiveengineering:material"
+        },
+        {
+          "entryName": "empty",
+          "weight": 5,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "immersiveengineering:engineers_village_house_2",
+      "entries": [
+        {
+          "entryName": "immersiveengineering:pickaxe_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:pickaxe_steel"
+        },
+        {
+          "entryName": "immersiveengineering:shovel_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:shovel_steel"
+        },
+        {
+          "entryName": "immersiveengineering:axe_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:axe_steel"
+        },
+        {
+          "entryName": "immersiveengineering:sword_steel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "immersiveengineering:sword_steel"
+        },
+        {
+          "entryName": "empty",
+          "weight": 4,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

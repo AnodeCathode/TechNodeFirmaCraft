@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "name": "cobblestone",
+      "entries": [
+        {
+          "entryName": "minecraft:cobblestone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobblestone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "slab",
+      "entries": [
+        {
+          "entryName": "minecraft:wooden_slab",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:wooden_slab"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "redstone",
+      "entries": [
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

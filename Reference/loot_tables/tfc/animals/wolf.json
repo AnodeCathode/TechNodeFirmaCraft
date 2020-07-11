@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "name": "roll1",
+      "entries": [
+        {
+          "entryName": "tfc:food/wolf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "skill": "butchering",
+              "add": 0.12,
+              "count": {
+                "min": 6.0,
+                "max": 14.0
+              },
+              "function": "tfc:apply_skill"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "tfc:food/wolf"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "roll2",
+      "entries": [
+        {
+          "entryName": "tfc:hide/raw/medium",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "tfc:hide/raw/medium"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "roll3",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

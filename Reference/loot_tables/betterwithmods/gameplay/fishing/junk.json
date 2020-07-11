@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "name": "betterwithmods:gameplay/fishing/junk",
+      "entries": [
+        {
+          "entryName": "minecraft:leather_boots",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.1
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{Name:\"Bootsies\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "entryName": "minecraft:leather",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

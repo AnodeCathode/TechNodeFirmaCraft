@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "toxic_slime_loots",
+      "entries": [
+        {
+          "entryName": "rockhounding_chemistry:mob_items",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rockhounding_chemistry:mob_items"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

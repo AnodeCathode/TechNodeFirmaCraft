@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft:stop_worm",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "pneumaticcraft:stop_worm"
+        },
+        {
+          "entryName": "pneumaticcraft:nuke_virus",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "pneumaticcraft:nuke_virus"
+        },
+        {
+          "entryName": "pneumaticcraft:spawner_agitator",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "pneumaticcraft:spawner_agitator"
+        },
+        {
+          "entryName": "empty",
+          "weight": 67,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

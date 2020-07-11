@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "wood",
+      "entries": [
+        {
+          "entryName": "minecraft:planks",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:planks"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "sawdust",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 22.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "gear",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "nugget",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
