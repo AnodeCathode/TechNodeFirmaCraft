@@ -8,6 +8,51 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+    
+var poorTetra = <ore:oreTetrahedritePoor>;
+      poorTetra.addItems([
+      <tfc:ore/tetrahedrite:1>
+      ]);
+      
+var normalTetra = <ore:oreTetrahedriteNormal>;
+    normalTetra.addItems([
+      <tfc:ore/tetrahedrite:0>
+]);
+var richTetra = <ore:oreTetrahedriteRich>;
+    richTetra.addItems([
+      <tfc:ore/tetrahedrite:2>
+]);
+
+var poorMalachite = <ore:oreMalachitePoor>;
+      poorMalachite.addItems([
+      <tfc:ore/malachite:1>
+      ]);
+      
+var normalMalachite = <ore:oreMalachiteNormal>;
+      normalMalachite.addItems([
+      <tfc:ore/malachite:0>
+      ]);
+      
+var richMalachite = <ore:oreMalachiteRich>;
+      richMalachite.addItems([
+      <tfc:ore/malachite:2>
+      ]);
+ 
+var poorNativeCopper = <ore:oreNativeCopperPoor>;
+      poorNativeCopper.addItems([
+      <tfc:ore/native_copper:1>
+      ]);
+      
+var normalNativeCopper = <ore:oreNativeCopperNormal>;
+      normalNativeCopper.addItems([
+      <tfc:ore/native_copper:0>
+      ]);
+      
+var richNativeCopper = <ore:oreNativeCopperRich>;
+      richNativeCopper.addItems([
+      <tfc:ore/native_copper:2>
+      ]);
+       
 var toolsMisc = <ore:tool>;
     toolsMisc.addItems([
     <immersiveengineering:tool>,

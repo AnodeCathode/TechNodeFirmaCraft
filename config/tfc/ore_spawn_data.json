@@ -488,6 +488,19 @@
     "base_rocks": [
       "tfc:igneous_extrusive"
     ]
+  },
+  "selenite": {
+    "ore": "tfc:selenite",
+    "width": 22,
+    "height": 42,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 70,
+    "base_rocks": [
+      "tfc:igneous_extrusive"
+    ]
   }
   
 }
