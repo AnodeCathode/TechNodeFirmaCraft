@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.17.1</version>
+        <version>12.2.18</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -37,7 +37,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.17.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.17.2.jar" file="Technodefirmacraft-MC1.12.2-12.2.17.2.jar" md5="f60520fa125617e959e66114088216f7"  download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.18" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.18.jar" file="Technodefirmacraft-MC1.12.2-12.2.18.jar" md5="8454e198120f2ba4fdff681f165fd391" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -74,9 +74,9 @@
         <mod name="PneumaticCraft: Repressurized" version="1.12.2-0.11.15-398" url="packs/TechNodefirmacraft/files/1.12.2Mods/pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar" file="pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar" md5="5f4d912fddd62248a347b85fbcead602"  download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
          <!-- Advanced Hook Launchers -->
-        <mod name="Advanced Hook Launchers" version="1.12.2-3.2.3.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdHooks-1.12.2-3.2.3.0-build.0435.jar" file="AdHooks-1.12.2-3.2.3.0-build.0435.jar" md5="d9f98a622327d4a3b4569c22da7cd9a9" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" depends="Forge Endertech"/>
+        <mod name="Advanced Hook Launchers" version="1.12.2-3.3.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdHooks-1.12.2-3.3.0.0-build.0528.jar" file="AdHooks-1.12.2-3.3.0.0-build.0528.jar" md5="8f7ce159db8baa84f7430c0f061113d6" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" depends="Forge Endertech"/>
         
-        <mod name="Forge Endertech" version="1.12.2-4.5.2.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/ForgeEndertech-1.12.2-4.5.2.0-build.0459.jar" file="ForgeEndertech-1.12.2-4.5.2.0-build.0459.jar" md5="8ceecd32ea33ef6bf370057c123e797e" download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+        <mod name="Forge Endertech" version="1.12.2-4.5.3.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/ForgeEndertech-1.12.2-4.5.3.0-build.0528.jar" file="ForgeEndertech-1.12.2-4.5.3.0-build.0528.jar" md5="7899c931789734df0f4d3a8d748efb84" download="server" type="mods" library="yes" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
         <!--XNet - Conduits -->
 
@@ -205,7 +205,7 @@
     <mod name="MTLib" version="3.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods"/>
         
     <mod name="Dropt" version="1.12.2-1.18.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/dropt-1.12.2-1.18.0.jar" file="dropt-1.12.2-1.18.0.jar" md5="a8c9290de5639ef38ccd06e5b68fd97b" download="server" type="mods" client="yes" optional="no" server="yes" serveroptional="no" recommended="yes" selected="yes"/>
-    <mod name="Athenaeum" version="1.12.2-1.19.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/athenaeum-1.12.2-1.19.0.jar" file="athenaeum-1.12.2-1.19.0.jar" md5="98e6508679456c03032ac43db4d96c95"  download="server" type="mods"/>
+    <mod name="Athenaeum" version="1.12.2-1.19.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/athenaeum-1.12.2-1.19.1.jar" file="athenaeum-1.12.2-1.19.1.jar" md5="b54ed9c4bff78ec015d03133756fa9ac"   download="server" type="mods"/>
        
    <mod name="Triumph" version="3.19.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Triumph-1.12.2-3.19.2.jar" file="Triumph-1.12.2-3.19.2.jar" md5="4e2b5b0fb385fb691ec6be3ba067ab58" download="server" type="mods" client="yes" optional="no" server="yes" serveroptional="no" recommended="yes" selected="yes"/> 
    <mod name="BnBGamingCore" version="BNBGamingCore-1.12.2-0.12.0.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/BNBGamingCore-1.12.2-0.12.0.jar" file="BNBGamingCore-1.12.2-0.12.0.jar" md5="9aca4426881b77e95c1206c81b3dc356"  download="server" type="mods"/>
@@ -222,7 +222,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.17.1"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.17.1.zip" file="scripts.12.2.17.1.zip" md5="83b8704a7202c4adcd66d2a99df17320" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.18"   url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.18.zip" file="scripts.12.2.18.zip" md5="ad55a949dcd3a2a6016260c1a2176fe8" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
