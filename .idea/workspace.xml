@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c37967-8c95-407b-83b4-dcae8e6c0f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reference/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reference/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/animalnet.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/animalnet.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dsurround/dsurround.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dsurround/dsurround.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jei/worldSettings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/jei/worldSettings.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pregenerator/ClientConfig.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/pregenerator/ClientConfig.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/worldedit/worldedit.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/worldedit/worldedit.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Machines-ImmersiveEngineering.zs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Machines-ImmersiveEngineering.zs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/OreDictionary.zs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/OreDictionary.zs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildConfig/generateOreVeins.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildConfig/generateOreVeins.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,37 +16,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buildConfig/generateOreVeins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+            <state relative-caret-position="49">
+              <caret line="223" column="25" selection-start-line="223" selection-start-column="25" selection-end-line="223" selection-end-column="25" />
               <folding>
                 <element signature="e#110#121#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Python/Lib/os.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Python/Lib/ntpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buildConfig/ore_spawn_data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714" />
           </provider>
         </entry>
       </file>
@@ -107,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2867" />
     <option name="y" value="160" />
     <option name="width" value="1388" />
@@ -158,6 +123,28 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="codecs.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="TechNodeFirmaCraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="codecs.py" type="8704e2dd:PyFileNode" />
+              <item name="BufferedIncrementalDecoder" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="TechNodeFirmaCraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="genericpath.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="TechNodeFirmaCraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
               <item name="ntpath.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
@@ -174,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594660343507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594663081349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -255,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2806" y="128" width="1110" height="840" extended-state="0" />
+    <frame x="2618" y="-7" width="1486" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -263,14 +250,14 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34745762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,22 +274,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/buildConfig/generateOreVeins.py</url>
-          <line>194</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/buildConfig/generateOreVeins.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -321,11 +292,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Python/Lib/os.py">
+    <entry file="file://$PROJECT_DIR$/buildConfig/ore_spawn_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
+        <state relative-caret-position="-714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Python/Lib/ntpath.py">
@@ -335,15 +304,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildConfig/ore_spawn_data.json">
+    <entry file="file://$PROJECT_DIR$/../../Python/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
+        <state relative-caret-position="132">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buildConfig/generateOreVeins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+        <state relative-caret-position="49">
+          <caret line="223" column="25" selection-start-line="223" selection-start-column="25" selection-end-line="223" selection-end-column="25" />
           <folding>
             <element signature="e#110#121#0" expanded="true" />
           </folding>
