@@ -61,3 +61,4 @@ config/InvTweaks/InvTweaks.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
 config/worldedit/worldedit.properties
+buildConfig/oregen/
