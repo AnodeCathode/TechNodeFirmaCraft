@@ -1,0 +1,18 @@
+{
+  "orename": {
+    "type": "cluster",
+    "ore": "tfc:ore/orename/stonename",
+    "stone": [
+    "tfc:raw/stonename"
+    ],
+    "rarity": 120,
+    "count": 3,
+    "min_y": 5,
+    "max_y": 55,
+    "density": 70,
+    "vertical_size": 32,
+    "horizontal_size": 40,
+    "dimensions": [0, 1, -1],
+    "dimensions_is_whitelist": false
+  }
+}
