@@ -5,7 +5,10 @@ Notes:
 - Fix the loot tables for fishing and add useful stuff!
 - Loom automation - Partially done. Added press recipes for now.
 - Power for RH machines? Too expensive recipe?
-- Add sandwich/soup recipes with fish! Other foods?
+- Add sandwich/soup recipes with fish! Other foods? Salting fish
+
+- Zombie pigman drops fix
+
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 - Update the TNFC Book with the changelog and stuff.
 - Add a link to the TNFC Discord to the main menu.  - Need new icon. It's so ugly
@@ -14,34 +17,30 @@ Notes:
 - Immersive Petroleum and PnC petroleum deposits are not compatible. 
     The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
   
+- unarmed dmg is way too high. Need to fix. Probably fix in TFC. Fix and PR
+  
+- We added Alloy recipes to the IE Arc furnace from ingots. Should have the same recipes with dusts and scrap. Probably in the TNFC_Mod
+
 - Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
 - Rope back to fibre yields BwM hemp
 - Random diamond drops from crushing kimberlite ffs
 
 - Flint from gravel in grindstone/crusher/millstone/quern?
-  
-  
-- Fix IE Lantern recipe. Done
-- Cloche power usage increase - Done
-- Hop ingots - How you make? In the Blast Furnace - Done
-- IE Fluid pump replaces blocks with vanilla cobble - Fixed. But will cause lag.
-- Recipes with vanilla coal - Done
-- BwM chopping is broken - Done
-- Death penalty too light. Done - May be too severe.
-- Do we need ContentTweaker? We don't use it -DONE
-
  
+- IE Core Samples - where do they get their images from for the colour on the sample?
+
+- IE excavator in claimed chunk crashes on fake player. Need fix.
 
 
 
 
 - Advanced Rocketry
-  - Would need iridium as ore? Replace with Tungsten Steel?
+  
   
   - Titanium Aluminide? Dust/Alloy recipe
   - Iridium - May be present on other bodies
   - Ore Dilithium - May be present on other bodies
-  
+  - Have to unregister some of the recipes as the CT Script removal doesn't work
   
   
 
