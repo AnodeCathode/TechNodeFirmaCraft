@@ -8,6 +8,9 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+   
+var oreSand = <ore:sand>;
+    oreSand.remove(<minecraft:sand:*>);
     
 var poorTetra = <ore:oreTetrahedritePoor>;
       poorTetra.addItems([
