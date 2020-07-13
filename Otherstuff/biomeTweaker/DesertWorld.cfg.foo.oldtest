@@ -1,0 +1,232 @@
+# VALID setStage: PRE_INIT, BIOME_REGISTRY, INIT, POST_INIT, FINISHED_LOAD, SERVER_STARTING, SERVER_STARTED
+# Biome setPlacementStage: ***BIOME_BLOCKS -> PRE_POPULATE -> PRE_DECORATE -> PRE_ORES -> POST_ORES -> POST_DECORATE -> POST_POPULATE
+
+# Decorations:"BIG_SHROOM", "CACTUS", "CLAY", "DEAD_BUSH", "DESERT_WELL", "LILYPAD", "FLOWERS", "FOSSIL", "GRASS", "ICE", "LAKE_WATER", "LAKE_LAVA", "PUMPKIN", "REED", "ROCK", "SAND", "SAND_PASS2", "SHROOM", "TREE", "CUSTOM"
+# Features: "DUNGEON", "FIRE", "GLOWSTONE", "ICE", "LAKE", "LAVA", "NETHER_LAVA", "NETHER_LAVA2", "NETHER_MAGMA", "ANIMALS", and "CUSTOM".
+
+#Specify ids
+ocean = forBiomes(0)
+beach = forBiomes(16)
+desert = forBiomes(2, 130)
+hills = forBiomes(17)
+river = forBiomes(7)
+
+blockRepS = newBlockReplacement()
+chalk = forBlock("tfc:raw/chalk")
+blockRepS.set("block", chalk)
+blockRepS.set("minY", 25)
+blockRepS.set("maxY", 254)
+desert.registerGenBlockRep("minecraft:stone", blockRepS)
+hills.registerGenBlockRep("minecraft:stone", blockRepS)
+river.registerGenBlockRep("minecraft:stone", blockRepS)
+
+blockRep = newBlockReplacement()
+basalt = forBlock("tfc:raw/basalt")
+blockRep.set("block", basalt)
+blockRep.set("minY", 0)
+blockRep.set("maxY", 24)
+desert.registerGenBlockRep("minecraft:stone", blockRep)
+hills.registerGenBlockRep("minecraft:stone", blockRep)
+river.registerGenBlockRep("minecraft:stone", blockRep)
+
+desert.set("enableRain", false)
+hills.set("enableRain", false)
+river.set("enableRain", false)
+beach.set("enableRain", true)
+ocean.set("enableRain", true)
+
+desert.addActualFillerBlock(chalk)
+hills.addActualFillerBlock(chalk)
+river.addActualFillerBlock(chalk)
+beach.addActualFillerBlock(chalk)
+ocean.addActualFillerBlock(basalt)
+
+beach.set("fillerBlock", "tfc:gravel/chalk")
+beach.set("topBlock", "tfc:sand/chalk")
+beach.set("oceanTopBlock", "tfc:sand/basalt")
+beach.set("oceanFillerBlock", "tfc:gravel/basalt")
+
+ocean.set("fillerBlock", "tfc:gravel/chalk")
+ocean.set("topBlock", "tfc:sand/chalk")
+ocean.set("oceanTopBlock", "tfc:sand/basalt")
+ocean.set("oceanFillerBlock", "tfc:gravel/basalt")
+
+desert.set("fillerBlock", "tfc:gravel/chalk")
+desert.set("oceanTopBlock", "tfc:sand/basalt")
+desert.set("topBlock", "tfc:sand/chalk")
+desert.set("oceanFillerBlock", "tfc:gravel/basalt")
+
+hills.set("fillerBlock", "tfc:gravel/chalk")
+hills.set("topBlock", "tfc:sand/chalk")
+hills.set("oceanTopBlock", "tfc:sand/basalt")
+hills.set("oceanFillerBlock", "tfc:gravel/basalt")
+
+river.set("topBlock", "tfc:sand/chalk")
+river.set("oceanTopBlock", "tfc:sand/basalt")
+river.set("fillerBlock", "tfc:gravel/chalk")
+river.set("oceanFillerBlock", "tfc:gravel/basalt")
+
+
+#Add desert to all types so other stuff doesn't appear as often
+desert.addToGeneration("WARM", 2000)
+desert.addToGeneration("COOL", 2000)
+desert.addToGeneration("DESERT", 2000)
+desert.addToGeneration("ICY", 2000)
+ 
+#control spawns
+desert.removeAllSpawns("CREATURE")
+desert.addSpawn("net.dries007.tfc.objects.entity.animal.EntityCamelTFC", "CREATURE", 60, 1, 3)
+
+desert.removeAllSpawns("MONSTER")
+desert.addSpawn("net.dries007.tfc.objects.entity.animal.EntityLionTFC", "MONSTER", 100, 2, 2)
+desert.removeAllSpawns("AMBIENT")
+desert.removeAllSpawns("WATER_CREATURE")
+
+ 
+#repeat for desertHills, not as often tho
+hills.addToGeneration("WARM", 200)
+hills.addToGeneration("COOL", 200)
+hills.addToGeneration("DESERT", 200)
+hills.addToGeneration("ICY", 200)
+ 
+hills.removeAllSpawns("CREATURE")
+hills.removeAllSpawns("MONSTER")
+hills.removeAllSpawns("AMBIENT")
+hills.addSpawn("net.dries007.tfc.objects.entity.animal.EntityLionTFC", "AMBIENT", 100, 2, 3)
+hills.removeAllSpawns("WATER_CREATURE")
+ 
+#river spawns
+river.removeAllSpawns("CREATURE")
+river.addSpawn("net.dries007.tfc.objects.entity.animal.EntityCamelTFC", "CREATURE", 60, 1, 3)
+river.removeAllSpawns("MONSTER")
+river.removeAllSpawns("AMBIENT")
+river.addSpawn("net.dries007.tfc.objects.entity.animal.EntityLionTFC", "AMBIENT", 100, 2, 3)
+river.removeAllSpawns("WATER_CREATURE")
+
+
+
+
+desert.removeDecoration("CACTUS")
+desert.removeDecoration("DESERT_WELL")
+desert.removeDecoration("FLOWERS")
+desert.removeDecoration("GRASS")
+desert.removeDecoration("LAKE_WATER")
+desert.removeDecoration("TREE")
+desert.removeFeature("LAKE")
+
+
+hills.removeDecoration("CACTUS")
+hills.removeDecoration("DEAD_BUSH")
+hills.removeDecoration("DESERT_WELL")
+hills.removeDecoration("FLOWERS")
+hills.removeDecoration("FOSSIL")
+hills.removeDecoration("GRASS")
+hills.removeDecoration("LAKE_WATER")
+hills.removeDecoration("TREE")
+hills.removeFeature("LAKE")
+hills.removeFeature("LAVA")
+
+river.removeDecoration("CACTUS")
+river.removeDecoration("DEAD_BUSH")
+river.removeDecoration("DESERT_WELL")
+river.removeDecoration("FLOWERS")
+river.removeDecoration("FOSSIL")
+river.removeDecoration("GRASS")
+
+river.removeDecoration("LAKE_WATER")
+river.removeDecoration("TREE")
+river.removeFeature("LAKE")
+river.removeFeature("LAVA")
+
+ 
+Tweaker.setStage("PRE_INIT")
+desert.set("reedsPerChunk", 0)
+desert.set("clayPerChunk", 0)
+hills.set("clayPerChunk", 0)
+Tweaker.setStage("FINISHED_LOAD")
+ 
+#Remove other biomes
+all = forAllBiomes()
+all.set("genWeight", 1)
+ 
+#remove all water (keeps lakes tho)
+all.registerGenBlockRep("minecraft:water", "minecraft:lava")
+ 
+#final weighting - hills about 1/10 the time
+desert.set("genWeight", 50000)
+hills.set("genWeight", 5000)
+river.set("genWeight", 1000)
+ocean.set("genWeight", 50)
+
+Tweaker.setPlacementStage("POST_ORES")
+#Ore script here
+
+UninspectedOreDec = newOreDecoration()
+UninspectedOreDec.set("mainBlock", "rockhounding_chemistry:uninspected_mineral")
+UninspectedOreDec.set("size", 8)
+UninspectedOreDec.addBlockToReplace("tfc:raw/basalt")
+desert.addDecoration(UninspectedOreDec)
+hills.addDecoration(UninspectedOreDec)
+river.addDecoration(UninspectedOreDec)
+
+IridiumDec = newOreDecoration()
+IridiumDec.set("mainBlock", "libvulpes:ore0:10")
+IridiumDec.set("size", 4)
+IridiumDec.set("count", 3)
+IridiumDec.addBlockToReplace("tfc:raw/basalt")
+hills.addDecoration(IridiumDec)
+river.addDecoration(IridiumDec)
+
+DilithiumDec = newOreDecoration()
+DilithiumDec.set("mainBlock", "libvulpes:ore0")
+DilithiumDec.set("size", 3)
+DilithiumDec.set("count", 2)
+DilithiumDec.addBlockToReplace("tfc:raw/basalt")
+hills.addDecoration(DilithiumDec)
+river.addDecoration(DilithiumDec)
+
+KimberliteDec = newOreDecoration()
+KimberliteDec.set("mainBlock", "tfc:ore/kimberlite/basalt")
+KimberliteDec.set("size", 1)
+KimberliteDec.set("count", 1)
+KimberliteDec.addBlockToReplace("tfc:raw/basalt")
+desert.addDecoration(KimberliteDec)
+hills.addDecoration(KimberliteDec)
+river.addDecoration(KimberliteDec)
+
+SeleniteDec = newOreDecoration()
+SeleniteDec.set("mainBlock", "tfc:ore/selenite/basalt")
+SeleniteDec.set("size", 3)
+SeleniteDec.set("count", 2)
+SeleniteDec.addBlockToReplace("tfc:raw/basalt")
+desert.addDecoration(SeleniteDec)
+hills.addDecoration(SeleniteDec)
+river.addDecoration(SeleniteDec)
+
+
+CryoliteDec = newOreDecoration()
+CryoliteDec.set("mainBlock", "tfc:ore/cryolite/basalt")
+CryoliteDec.set("size", 3)
+CryoliteDec.set("count", 2)
+CryoliteDec.addBlockToReplace("tfc:raw/basalt")
+desert.addDecoration(CryoliteDec)
+hills.addDecoration(CryoliteDec)
+river.addDecoration(CryoliteDec)
+
+LimoniteDec = newOreDecoration()
+LimoniteDec.set("mainBlock", "tfc:ore/limonite/chalk")
+LimoniteDec.set("size", 9)
+LimoniteDec.set("count", 3)
+LimoniteDec.addBlockToReplace("tfc:raw/chalk")
+desert.addDecoration(LimoniteDec)
+hills.addDecoration(LimoniteDec)
+river.addDecoration(LimoniteDec)
+
+MalachiteDec = newOreDecoration()
+MalachiteDec.set("mainBlock", "tfc:ore/malachite/chalk")
+MalachiteDec.set("size", 9)
+MalachiteDec.set("count", 3)
+MalachiteDec.addBlockToReplace("tfc:raw/chalk")
+desert.addDecoration(MalachiteDec)
+hills.addDecoration(MalachiteDec)
+river.addDecoration(MalachiteDec)
