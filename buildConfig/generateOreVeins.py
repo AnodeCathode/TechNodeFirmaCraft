@@ -191,26 +191,27 @@ FLUIDS = {
 def writeorevein(rock, ore, density, rarity):
     p = os.path.join("oregen", rock, ore) + '.json'
     os.makedirs(os.path.dirname(p), exist_ok=True)
+    struct = {
+        (ore)+ "_" + (rock): {
+            "type": "cluster",
+            "ore": "tfc:ore/" + (ore) + "/" + (rock),
+            "stone": [
+                "tfc:raw/" + (rock)
+            ],
+            "rarity": (rarity),
+            "count": 1,
+            "min_y": 5,
+            "max_y": 55,
+            "density": (density),
+            "vertical_size": 23,
+            "horizontal_size": 27,
+            "dimensions": [0, 1, -1],
+            "dimensions_is_whitelist": "false"
+        }
+    }
 
     with open(p, 'w') as outfile:
-        json.dump({
-            (ore)+ "_" + (rock): {
-                "type": "cluster",
-                "ore": "tfc:ore/" + (ore) + "/" + (rock),
-                "stone": [
-                    "tfc:raw/" + (rock)
-                ],
-                "rarity": (rarity),
-                "count": 3,
-                "min_y": 5,
-                "max_y": 55,
-                "density": (density),
-                "vertical_size": 32,
-                "horizontal_size": 40,
-                "dimensions": [0, 1, -1],
-                "dimensions_is_whitelist": "false"
-            }
-        }, outfile, indent=2)
+        json.dump(struct, outfile, indent=2)
 
 
 """
@@ -221,7 +222,7 @@ Write in the parameters for that rock type and ore type
  
 
 """
-with open('ore_spawn_data.json') as json_file:
+with open('tnfc_metallum_ores.json') as json_file:
     data = json.load(json_file)
     for key in data:
         ore = data[key]
