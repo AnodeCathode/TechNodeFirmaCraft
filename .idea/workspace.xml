@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5c37967-8c95-407b-83b4-dcae8e6c0f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/buildConfig/biomelistraw.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildConfig/generateBiomes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Otherstuff/biomelistraw.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dynamiclights_entityclasses.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dynamiclights_entityclasses.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dynamiclights_onfire.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dynamiclights_onfire.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jei/worldSettings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/jei/worldSettings.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/worldedit/worldedit.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/worldedit/worldedit.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Crafting-OpenBlocks.zs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Crafting-OpenBlocks.zs" afterDir="false" />
-    </list>
+    <list default="true" id="a5c37967-8c95-407b-83b4-dcae8e6c0f72" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buildConfig/generateBiomes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="881">
               <caret line="267" selection-start-line="267" selection-end-line="267" />
             </state>
           </provider>
@@ -101,10 +89,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="573" />
-    <option name="y" value="253" />
-    <option name="width" value="1388" />
-    <option name="height" value="1050" />
+    <option name="x" value="85" />
+    <option name="y" value="-10" />
+    <option name="width" value="2485" />
+    <option name="height" value="1459" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,7 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594691494410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594691835976" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -304,7 +292,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23791103" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39941972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,7 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildConfig/generateBiomes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="881">
           <caret line="267" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
