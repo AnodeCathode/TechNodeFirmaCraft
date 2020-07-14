@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5c37967-8c95-407b-83b4-dcae8e6c0f72" name="Default Changelist" comment="" />
+    <list default="true" id="a5c37967-8c95-407b-83b4-dcae8e6c0f72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/buildConfig/generateBiomes.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildConfig/generateBiomes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/InvTweaks/InvTweaks.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dynamiclights_entityclasses.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dynamiclights_entityclasses.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/worldedit/worldedit.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/worldedit/worldedit.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildConfig/generateOreVeins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="224" column="22" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="275" selection-start-line="275" selection-end-line="275" />
               <folding>
                 <element signature="e#110#121#0" expanded="true" />
               </folding>
@@ -22,20 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buildConfig/generateBiomes.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildConfig/ore_spawn_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="267" selection-start-line="267" selection-end-line="267" />
+            <state relative-caret-position="238">
+              <caret line="176" column="10" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Python/Lib/ntpath.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildConfig/generateBiomes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="357">
+              <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+              <folding>
+                <element signature="e#116#125#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,21 +97,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="85" />
     <option name="y" value="-10" />
     <option name="width" value="2485" />
-    <option name="height" value="1459" />
+    <option name="height" value="1460" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -159,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,33 +287,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="-7" width="1987" height="1166" extended-state="6" />
+    <frame x="68" y="-8" width="1988" height="1168" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526207" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18931535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23791103" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23745173" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -353,7 +364,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildConfig/ore_spawn_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
+        <state relative-caret-position="238">
+          <caret line="176" column="10" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Python/Lib/codecs.py">
@@ -365,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildConfig/generateOreVeins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="224" column="22" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
           <folding>
             <element signature="e#110#121#0" expanded="true" />
           </folding>
@@ -385,8 +398,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildConfig/generateBiomes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        <state relative-caret-position="357">
+          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+          <folding>
+            <element signature="e#116#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
