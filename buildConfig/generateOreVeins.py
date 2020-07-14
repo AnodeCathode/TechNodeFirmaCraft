@@ -201,7 +201,7 @@ def writeorevein(rock, ore, density, rarity, width, height):
             "rarity": (rarity),
             "count": 1,
             "min_y": 5,
-            "max_y": 55,
+            "max_y": 58,
             "density": (density),
             "vertical_size": (height),
             "horizontal_size": (width),
