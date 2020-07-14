@@ -7,6 +7,8 @@ Notes:
 - Power for RH machines? Too expensive recipe?
 - Add sandwich/soup recipes with fish! Other foods? Salting fish
 
+- ArcFurnace Iron Dust + Coke Dust == Steel Ingot is broken. Check the auto furnace dust add thingy. Remove iron from the auto add. Or set it to add coke dust. Or something
+
 - Zombie pigman drops fix
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
