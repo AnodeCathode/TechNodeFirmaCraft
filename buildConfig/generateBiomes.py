@@ -159,9 +159,8 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome = forBiomes("{BIOMENAME}") 
         biome.set("contiguousReplacement", true)
  
-        #replace all water (keeps lakes tho)
-        biome.registerGenBlockRep("minecraft:water", "liquid:fresh_water")
-                
+ 
+        Tweaker.setPlacementStage("PRE_DECORATE")              
         blockF = forBlock("{BLOCKFILL}")
         blockWT = forBlock("{BLOCKWORLDTOP}")
         blockOF = forBlock("tfc:gravel/basalt")
