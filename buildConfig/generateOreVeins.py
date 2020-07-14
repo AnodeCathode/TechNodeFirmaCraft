@@ -188,7 +188,7 @@ FLUIDS = {
 
 
 
-def writeorevein(rock, ore, density, rarity):
+def writeorevein(rock, ore, density, rarity, width, height):
     p = os.path.join("oregen", rock, ore) + '.json'
     os.makedirs(os.path.dirname(p), exist_ok=True)
     struct = {
@@ -203,10 +203,10 @@ def writeorevein(rock, ore, density, rarity):
             "min_y": 5,
             "max_y": 55,
             "density": (density),
-            "vertical_size": 23,
-            "horizontal_size": 27,
+            "vertical_size": (height),
+            "horizontal_size": (width),
             "dimensions": [0, 1, -1],
-            "dimensions_is_whitelist": "false"
+            "dimensions_is_whitelist": False
         }
     }
 
@@ -222,6 +222,44 @@ Write in the parameters for that rock type and ore type
  
 
 """
+
+with open('ore_spawn_data.json') as json_file:
+    data = json.load(json_file)
+    for key in data:
+        ore = data[key]
+        subs = key[0:8]
+        if subs != "surface_":
+            print("This better be a fucking orename ({}) ({})".format(key,ore))
+            baserocks = ore["base_rocks"]
+            orename = ore["ore"][4:]
+            density = ore["density"]
+            rarity = ore["rarity"]
+            width = ore["width"]
+            height = ore["height"]
+
+            for rock in baserocks:
+                rockdata = rock[4:].upper()
+                if rockdata == "SEDIMENTARY":
+                    for rocktype in SEDIMENTARY:
+                        print(rocktype)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
+                if rockdata == "METAMORPHIC":
+                    for rocktype in METAMORPHIC:
+                        print(rocktype)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
+                if rockdata == "IGNEOUS_EXTRUSIVE":
+                    for rocktype in IGNEOUS_EXTRUSIVE:
+                        print(rocktype)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
+                if rockdata == "IGNEOUS_INTRUSIVE":
+                    for rocktype in IGNEOUS_INTRUSIVE:
+                        print(rocktype)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
+                #if we're still going, then it's just a rock.
+                if rock[4:] in ROCK_TYPES:
+                    print(rockdata)
+                    writeorevein(rock[4:], orename, density, rarity, width, height)
+
 with open('tnfc_metallum_ores.json') as json_file:
     data = json.load(json_file)
     for key in data:
@@ -233,25 +271,28 @@ with open('tnfc_metallum_ores.json') as json_file:
             orename = ore["ore"][4:]
             density = ore["density"]
             rarity = ore["rarity"]
+            width = ore["width"]
+            height = ore["height"]
+
             for rock in baserocks:
                 rockdata = rock[4:].upper()
                 if rockdata == "SEDIMENTARY":
                     for rocktype in SEDIMENTARY:
                         print(rocktype)
-                        writeorevein(rocktype, orename, density, rarity)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
                 if rockdata == "METAMORPHIC":
                     for rocktype in METAMORPHIC:
                         print(rocktype)
-                        writeorevein(rocktype, orename, density, rarity)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
                 if rockdata == "IGNEOUS_EXTRUSIVE":
                     for rocktype in IGNEOUS_EXTRUSIVE:
                         print(rocktype)
-                        writeorevein(rocktype, orename, density, rarity)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
                 if rockdata == "IGNEOUS_INTRUSIVE":
                     for rocktype in IGNEOUS_INTRUSIVE:
                         print(rocktype)
-                        writeorevein(rocktype, orename, density, rarity)
+                        writeorevein(rocktype, orename, density, rarity, width, height)
                 #if we're still going, then it's just a rock.
-                if rockdata in ROCK_TYPES:
+                if rock[4:] in ROCK_TYPES:
                     print(rockdata)
-                    writeorevein(rockdata, orename, density, rarity)
+                    writeorevein(rock[4:], orename, density, rarity, width, height)
