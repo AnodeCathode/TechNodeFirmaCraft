@@ -145,7 +145,9 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
     biomefile = biome.replace(":", "_")
     p = os.path.join("biome", biomefile) + '.cfg'
     os.makedirs(os.path.dirname(p), exist_ok=True)
-
+    stage = "PRE_INIT"
+    if biome[:3] == "adv":
+        stage = "POST_INIT"
     struct = """
         # VALID setStage: PRE_INIT, BIOME_REGISTRY, INIT, POST_INIT, FINISHED_LOAD, SERVER_STARTING, SERVER_STARTED
         # Biome setPlacementStage: ***BIOME_BLOCKS -> PRE_POPULATE -> PRE_DECORATE -> PRE_ORES -> POST_ORES -> POST_DECORATE -> POST_POPULATE
@@ -156,7 +158,10 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         #Specify ids
         biome = forBiomes("{BIOMENAME}") 
         biome.set("contiguousReplacement", true)
-        
+ 
+        #replace all water (keeps lakes tho)
+        biome.registerGenBlockRep("minecraft:water", "liquid:fresh_water")
+                
         blockF = forBlock("{BLOCKFILL}")
         blockWT = forBlock("{BLOCKWORLDTOP}")
         blockOF = forBlock("tfc:gravel/basalt")
@@ -171,7 +176,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         
         
         blockRepM = newBlockReplacement()
-        blockM = forBlock({BLOCKMIDDLE})
+        blockM = forBlock("{BLOCKMIDDLE}")
         blockRepM.set("block", blockM)
         blockRepM.set("minY", 13)
         blockRepM.set("maxY", 34)
@@ -194,12 +199,6 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.set("topBlock", blockWT)
         biome.set("oceanTopBlock", blockOF)
         biome.set("oceanFillerBlock", blockOT)
-        
-        #generation weight
-        biome.addToGeneration("WARM", 20000)
-        biome.addToGeneration("COOL", 20000)
-        biome.addToGeneration("DESERT", 20000)
-        biome.addToGeneration("ICY", 20000)
          
         #control spawns
         biome.removeAllSpawns("CREATURE")
@@ -217,24 +216,25 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.removeDecoration("GRASS")
         biome.removeDecoration("LAKE_WATER")
         biome.removeDecoration("TREE")
+        biome.removeDecoration("REED")
+        biome.removeDecoration("ROCK")
+        biome.removeDecoration("SAND")
+        biome.removeDecoration("LILYPAD")
         
         #Features
         biome.removeFeature("LAKE")
         
          
         
-        Tweaker.setStage("PRE_INIT")
+        Tweaker.setStage("{STAGES}")
         biome.set("reedsPerChunk", 0)
         biome.set("clayPerChunk", 0)
         Tweaker.setStage("FINISHED_LOAD")
          
-        #replace all water (keeps lakes tho)
-        biome.registerGenBlockRep("minecraft:water", "liquid:fresh_water")
-         
-         
-        #final weighting 
-        biome.set("genWeight", 10)
-    """.format(BIOMENAME=(biome), BLOCKFILL=blockF, BLOCKWORLDTOP=blockWT, BLOCKTOP=blockT, BLOCKMIDDLE=blockM, BLOCKBOTTOM=blockB )
+       
+        #final weighting. We'll leave it to the default and see how that goes 
+
+    """.format(BIOMENAME=(biome), BLOCKFILL=blockF, BLOCKWORLDTOP=blockWT, BLOCKTOP=blockT, BLOCKMIDDLE=blockM, BLOCKBOTTOM=blockB, STAGES=stage)
     f = open(p, "w")
     f.write(struct)
     f.close()
