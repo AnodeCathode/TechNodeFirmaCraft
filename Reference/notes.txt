@@ -3,9 +3,11 @@ Notes:
 
 - Anvil or name tag fixes
 - Fix the loot tables for fishing and add useful stuff!
-- Loom automation - Partially done. Added press recipes for now.
+
 - Power for RH machines? Too expensive recipe?
-- Add sandwich/soup recipes with fish! Other foods? Salting fish
+
+- Wire drawing automation
+- Entity spawn rules in TFC should only apply to Dim0
 
 - ArcFurnace Iron Dust + Coke Dust == Steel Ingot is broken. Check the auto furnace dust add thingy. Remove iron from the auto add. Or set it to add coke dust. Or something
 
@@ -42,7 +44,7 @@ Notes:
   - Titanium Aluminide? Dust/Alloy recipe
   - Iridium - May be present on other bodies
   - Ore Dilithium - May be present on other bodies
-  - Have to unregister some of the recipes as the CT Script removal doesn't work
+ 
   
   
 
