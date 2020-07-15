@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "TNFC_Update",
-  "version": "12.2.18",
+  "name": "TechnodeFirmaCraft",
+  "version": "12.2.19",
   "author": "AnodeCathode",
   "projectID": 387655,
   "files": [
@@ -88,11 +88,6 @@
     {
       "projectID": 228815,
       "fileID": 2699055,
-      "required": true
-    },
-    {
-      "projectID": 255257,
-      "fileID": 2988990,
       "required": true
     },
     {
@@ -177,7 +172,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 2989919,
+      "fileID": 3004431,
       "required": true
     },
     {
@@ -231,13 +226,13 @@
       "required": true
     },
     {
-      "projectID": 340660,
-      "fileID": 2977224,
+      "projectID": 314904,
+      "fileID": 2819669,
       "required": true
     },
     {
-      "projectID": 314904,
-      "fileID": 2819669,
+      "projectID": 340660,
+      "fileID": 2977224,
       "required": true
     },
     {
@@ -301,13 +296,13 @@
       "required": true
     },
     {
-      "projectID": 309318,
-      "fileID": 2820653,
+      "projectID": 341787,
+      "fileID": 2957183,
       "required": true
     },
     {
-      "projectID": 341787,
-      "fileID": 2957183,
+      "projectID": 309318,
+      "fileID": 2820653,
       "required": true
     },
     {
@@ -337,17 +332,17 @@
     },
     {
       "projectID": 388927,
-      "fileID": 3002544,
-      "required": true
-    },
-    {
-      "projectID": 251792,
-      "fileID": 2789696,
+      "fileID": 3005816,
       "required": true
     },
     {
       "projectID": 226447,
       "fileID": 2477566,
+      "required": true
+    },
+    {
+      "projectID": 251792,
+      "fileID": 2789696,
       "required": true
     },
     {

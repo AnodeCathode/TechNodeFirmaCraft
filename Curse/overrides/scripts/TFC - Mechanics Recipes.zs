@@ -23,3 +23,5 @@
 mods.terrafirmacraft.Barrel.removeRecipe("tfc:olive_oil");
 
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jute_net>, <liquid:olive_oil_water> * 250, <tfc:crop/product/dirty_jute_net>, <liquid:olive_oil> * 50, 0);
+
+mods.terrafirmacraft.Barrel.addRecipe("immersiveengineering:treated_wood", <ore:plankWood> * 8, <liquid:creosote> * 1000, <immersiveengineering:treated_wood> * 8, null, 1);
