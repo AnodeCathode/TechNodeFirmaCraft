@@ -1,13 +1,14 @@
 Notes:
-- Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more
+- Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more - May be fixed now
 
-- Copper inductor recipe should use oreDict for wireCopper
+- Remove LootTweaker. Did it in TNFCMod instead - - Fix the loot tables for fishing and add useful stuff! Think this is done.
+
+- REDO Loot Tables once AR is added.
 
 - Anvil or name tag fixes
-- Fix the loot tables for fishing and add useful stuff!
-- Wire drawing automation
-- Zombie pigman drops fix
+
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
+
 - Update the TNFC Book with the changelog and stuff.
 - Old crops need to eventually die no matter what. The tropical enterna farm is terrible
 - Power for RH machines? Too expensive recipe?
@@ -19,17 +20,19 @@ Notes:
 - ArcFurnace Iron Dust + Coke Dust == Steel Ingot is broken. Check the auto furnace dust add thingy. Remove iron from the auto add. Or set it to add coke dust. Or something
 - unarmed dmg is way too high. Need to fix. Probably fix in TFC. Fix and PR
 - Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
-- Rope back to fibre yields BwM hemp
-- Random diamond drops from crushing kimberlite ffs
-- Rope block back to ropes
 
-- IE Mixer potions? what to do?
-- Magma creams? Do we use/want/need them?
+- Random diamond drops from crushing kimberlite ffs
+- Rope block back to ropes - Done
+
+- If I leave the vanilla top blocks in ocean spawning biomes, will we get the underwater crap?
+
+- IE Mixer potions? what to do? Leave them for now
+- Magma creams? Do we use/want/need them? Leave them for now
 - Immersive Petroleum and PnC petroleum deposits are not compatible. 
-    The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
+    The resulting fluid is, but the IP reservoirs are virtual (not sure this is true.) and the pump jack won't access the actual PnC reservoirs
   
   
-- IE excavator in claimed chunk crashes on fake player. Need fix.
+- IE excavator crashes on fake player on chunk load?. Need fix.
 
 
 
@@ -41,7 +44,7 @@ Notes:
     - Basic Circuit Plate
     
 
- 
+- Rope back to fibre yields BwM hemp - Done 
   
   
 
