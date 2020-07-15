@@ -336,5 +336,5 @@ with open('tnfc_metallum_ores.json') as json_file:
 
 
 for rock in ROCK_TYPES:
-    writeraworevein(rock, "libvulpes:ore0", 0, 20, 200, 8, 8)
-    writeraworevein(rock, "libvulpes:ore0", 10, 20, 200, 8, 8)
+    writeraworevein(rock, "libvulpes:ore0", 0, 20, 120, 14, 14)
+    writeraworevein(rock, "libvulpes:ore0", 10, 20, 100, 14, 14)
