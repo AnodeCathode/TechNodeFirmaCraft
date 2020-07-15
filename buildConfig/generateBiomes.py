@@ -153,7 +153,8 @@ def makeallbiomes():
             # Features: "DUNGEON", "FIRE", "GLOWSTONE", "ICE", "LAKE", "LAVA", "NETHER_LAVA", "NETHER_LAVA2", "NETHER_MAGMA", "ANIMALS", and "CUSTOM".
             
             #Specify ids
-            
+            allBiomes = forAllBiomes()
+            allBiomes.set("genWeight", 10)
             #Die Mutated Biomes
             biomeMutated=forBiomes(129, 130, 131, 132, 133, 134, 140, 149, 151, 155, 156, 157, 158, 160, 161, 162, 163, 164, 165, 166, 167)
             biomeMutated.registerGenBiomeRep(1)
@@ -268,7 +269,8 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
          
        
         #final weighting. We'll leave it to the default and see how that goes 
-
+        biome.set("genWeight",10)
+        
     """.format(BIOMENAME=(biome), BLOCKFILL=blockF, BLOCKWORLDTOP=blockWT, BLOCKTOP=blockT, BLOCKMIDDLE=blockM, BLOCKBOTTOM=blockB, STAGES=stage, WATER=water)
     f = open(p, "w")
     f.write(struct)
