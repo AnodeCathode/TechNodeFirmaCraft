@@ -13,7 +13,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     recipes.remove(<betterwithmods:single_machine:0>);
     recipes.remove(<betterwithmods:rope>);
     recipes.remove(<betterwithmods:material:34>); //crafted via Anvil recipe
-    
+    recipes.remove(<betterwithmods:material:3>);
     
     mods.jei.JEI.removeAndHide(<betterwithmods:material:4>); //replaced by burlap cloth
     
@@ -33,7 +33,9 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
 // ================================================================================
 //#ADD SHAPELESS
     recipes.addShapeless("tnfc_bwm_hemp_rope",<betterwithmods:rope>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);
-
+    recipes.addShapeless("tnfc_hemp_from_rope",<immersiveengineering:material:4> * 6 ,[<betterwithmods:rope>]);
+    recipes.addShapeless("tnfc_ropes_from_block", <betterwithmods:rope> * 9, [<betterwithmods:aesthetic:4>]);
+    
 
 //#REGISTER TFC Size/Heat/Other
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:material:0>, "VERY_SMALL", "VERY_LIGHT");
