@@ -169,8 +169,10 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
     p = os.path.join("biome", biomefile) + '.cfg'
     os.makedirs(os.path.dirname(p), exist_ok=True)
     stage = "PRE_INIT"
-    if biome[:3] == "adv":
-        stage = "POST_INIT"
+    if "ocean" in biome:
+        water="tfc:fluid/salt_water"
+    else:
+        water="tfc:fluid/fresh_water"
     struct = """
         # VALID setStage: PRE_INIT, BIOME_REGISTRY, INIT, POST_INIT, FINISHED_LOAD, SERVER_STARTING, SERVER_STARTED
         # Biome setPlacementStage: ***BIOME_BLOCKS -> PRE_POPULATE -> PRE_DECORATE -> PRE_ORES -> POST_ORES -> POST_DECORATE -> POST_POPULATE
@@ -213,8 +215,8 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         
         
         biome.addActualFillerBlock(blockT)
-        biome.set("enableRain", true)
-        biome.set("enableSnow", true)
+        biome.set("enableRain", false)
+        biome.set("enableSnow", false)
         
         biome.set("fillerBlock", blockF)
         biome.set("topBlock", blockWT)
@@ -226,7 +228,7 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
 
         Tweaker.setPlacementStage("PRE_DECORATE")              
         replacement = newBlockReplacement()
-        replacement.set("block", "tfc:fluid/fresh_water")
+        replacement.set("block", "{WATER}")
         replacement.set("maxY", 64)
         replacement.set("minY", 32)
         biome.registerGenBlockRep("minecraft:water", replacement)
@@ -234,9 +236,10 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         #control spawns
         biome.removeAllSpawns("CREATURE")
         biome.removeAllSpawns("MONSTER")
-        biome.addSpawn("net.minecraft.entity.monster.EntityCreeper", "MONSTER", 10, 1, 1)
-        biome.addSpawn("net.minecraft.entity.monster.EntityWitherSkeleton", "MONSTER", 10, 1, 1)
-        biome.addSpawn("net.minecraft.entity.monster.EntitySkeleton", "MONSTER", 10, 2, 3)
+        biome.addSpawn("net.minecraft.entity.monster.EntityCreeper", "MONSTER", 5, 1, 1)
+        biome.addSpawn("net.minecraft.entity.monster.EntityWitherSkeleton", "MONSTER", 1, 1, 1)
+        biome.addSpawn("net.minecraft.entity.monster.EntitySkeleton", "MONSTER", 1, 2, 3)
+        biome.addSpawn("net.minecraft.entity.monster.EntityEnderman", "MONSTER", 1, 1, 1)
         biome.removeAllSpawns("AMBIENT")
         biome.removeAllSpawns("WATER_CREATURE")
         
@@ -244,6 +247,7 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.removeDecoration("CACTUS")
         biome.removeDecoration("DESERT_WELL")
         biome.removeDecoration("FLOWERS")
+        biome.removeDecoration("DEAD_BUSH")
         biome.removeDecoration("GRASS")
         biome.removeDecoration("LAKE_WATER")
         biome.removeDecoration("TREE")
@@ -265,7 +269,7 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
        
         #final weighting. We'll leave it to the default and see how that goes 
 
-    """.format(BIOMENAME=(biome), BLOCKFILL=blockF, BLOCKWORLDTOP=blockWT, BLOCKTOP=blockT, BLOCKMIDDLE=blockM, BLOCKBOTTOM=blockB, STAGES=stage)
+    """.format(BIOMENAME=(biome), BLOCKFILL=blockF, BLOCKWORLDTOP=blockWT, BLOCKTOP=blockT, BLOCKMIDDLE=blockM, BLOCKBOTTOM=blockB, STAGES=stage, WATER=water)
     f = open(p, "w")
     f.write(struct)
     f.close()
@@ -316,12 +320,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.addActualFillerBlock(blockT)
         biome.set("enableRain", true)
         biome.set("enableSnow", true)
-        
-        biome.set("fillerBlock", blockF)
-        biome.set("topBlock", blockWT)
-        biome.set("oceanTopBlock", blockOF)
-        biome.set("oceanFillerBlock", blockOT)
-        
+                
         Tweaker.setPlacementStage("PRE_DECORATE")              
         replacement = newBlockReplacement()
         replacement.set("block", "rockhounding_chemistry:fluid.liquid_ammonia")
@@ -333,9 +332,10 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         #control spawns
         biome.removeAllSpawns("CREATURE")
         biome.removeAllSpawns("MONSTER")
-        biome.addSpawn("net.minecraft.entity.monster.EntityCreeper", "MONSTER", 10, 1, 1)
-        biome.addSpawn("net.minecraft.entity.monster.EntityWitherSkeleton", "MONSTER", 10, 1, 1)
-        biome.addSpawn("net.minecraft.entity.monster.EntitySkeleton", "MONSTER", 10, 2, 3)
+        biome.addSpawn("net.minecraft.entity.monster.EntityCreeper", "MONSTER", 5, 1, 1)
+        biome.addSpawn("net.minecraft.entity.monster.EntityWitherSkeleton", "MONSTER", 1, 1, 1)
+        biome.addSpawn("net.minecraft.entity.monster.EntitySkeleton", "MONSTER", 1, 2, 3)
+        biome.addSpawn("net.minecraft.entity.monster.EntityEnderman", "MONSTER", 1, 1, 1)
         biome.removeAllSpawns("AMBIENT")
         biome.removeAllSpawns("WATER_CREATURE")
         
@@ -343,6 +343,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.removeDecoration("CACTUS")
         biome.removeDecoration("DESERT_WELL")
         biome.removeDecoration("FLOWERS")
+        biome.removeDecoration("DEAD_BUSH")
         biome.removeDecoration("GRASS")
         biome.removeDecoration("LAKE_WATER")
         biome.removeDecoration("TREE")
