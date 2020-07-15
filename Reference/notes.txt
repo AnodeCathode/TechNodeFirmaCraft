@@ -1,6 +1,8 @@
 Notes:
 - Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more
 
+- Copper inductor recipe should use oreDict for wireCopper
+
 - Anvil or name tag fixes
 - Fix the loot tables for fishing and add useful stuff!
 - Wire drawing automation
@@ -20,7 +22,6 @@ Notes:
 - Rope back to fibre yields BwM hemp
 - Random diamond drops from crushing kimberlite ffs
 - Rope block back to ropes
-- Add a link to the TNFC Discord to the main menu.  - Need new icon. It's so ugly
 
 - IE Mixer potions? what to do?
 - Magma creams? Do we use/want/need them?
@@ -35,10 +36,11 @@ Notes:
 
 - Advanced Rocketry
   
-  
-  - Titanium Aluminide? Dust/Alloy recipe
-  - Iridium - May be present on other bodies
-  - Ore Dilithium - May be present on other bodies
+  Precision assembler recipes:
+    - Tracking circuit
+    - Basic Circuit Plate
+    
+
  
   
   
