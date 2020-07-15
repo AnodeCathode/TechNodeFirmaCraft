@@ -22,6 +22,8 @@ Notes:
 - Rope block back to ropes
 - Add a link to the TNFC Discord to the main menu.  - Need new icon. It's so ugly
 
+- IE Mixer potions? what to do?
+- Magma creams? Do we use/want/need them?
 - Immersive Petroleum and PnC petroleum deposits are not compatible. 
     The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
   
