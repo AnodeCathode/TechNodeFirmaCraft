@@ -1,10 +1,10 @@
 Notes:
-- Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more - May be fixed now
+UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
 - Remove LootTweaker. Did it in TNFCMod instead - - Fix the loot tables for fishing and add useful stuff! Think this is done.
 
 - REDO Loot Tables once AR is added.
-
+- Why does bonemeal work in the Cloche?
 - Anvil or name tag fixes
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
@@ -35,13 +35,27 @@ Notes:
 - IE excavator crashes on fake player on chunk load?. Need fix.
 
 
+- Gold block disassembly? other blocks? melt them instead? arc furnace?
+- Remove steel block to IE ingots
+- Go through all ore blocks and rationalize the setup
 
 
 - Advanced Rocketry
-  
+
+    
   Precision assembler recipes:
-    - Tracking circuit
-    - Basic Circuit Plate
+  
+    - Liquid IO Circuit
+    - Padded Landing Boots
+    Flight Speed Control Upgrade
+    Data Storage Unit
+    Advanced Circuit Plate
+    
+    Chemical Reactor
+    
+    - Coal output. Actually it's charcoal
+    
+    
     
 
 - Rope back to fibre yields BwM hemp - Done 
