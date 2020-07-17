@@ -1,11 +1,24 @@
 Notes:
 UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
-- Remove LootTweaker. Did it in TNFCMod instead - - Fix the loot tables for fishing and add useful stuff! Think this is done.
+- Crushing recipe for raw ores (AR mining) give rich ores?
+
+- Register coke blocks as TFC fuel. Coal block. Charcoal block
+
+
+- BwM breakage - Wind chimnes. Sawdust
+
+
+
+
+
+- Can you work the high end metals? Barely
 
 - REDO Loot Tables once AR is added.
+- AMADRON trades for AR stuff??
+
 - Why does bonemeal work in the Cloche?
-- Anvil or name tag fixes
+- Anvil or name tag fixes. Vanilla Anvil recipe is quick fix
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 
@@ -36,31 +49,20 @@ UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
 
 - Gold block disassembly? other blocks? melt them instead? arc furnace?
+
 - Remove steel block to IE ingots
 - Go through all ore blocks and rationalize the setup
 
 
 - Advanced Rocketry
 
-    
-  Precision assembler recipes:
-  
-    - Liquid IO Circuit
-    - Padded Landing Boots
-    Flight Speed Control Upgrade
-    Data Storage Unit
-    Advanced Circuit Plate
-    
-    Chemical Reactor
-    
-    - Coal output. Actually it's charcoal
+  Heat fuel properties for thermite
+- AR Jetpack recipe diff increase. Other recipe diff increase
+
     
     
     
 
-- Rope back to fibre yields BwM hemp - Done 
-  
-  
 
 
 - Add all items with weight and stuff
