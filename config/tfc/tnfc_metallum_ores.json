@@ -87,5 +87,21 @@
       "tfc:igneous_intrusive",
       "tfc:igneous_extrusive"
     ]
+  },
+  "rutile": {
+    "ore": "tfc:rutile",
+    "width": 5,
+    "height": 10,
+    "shape": "cluster",
+    "rarity": 120,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 80,
+    "base_rocks": [
+      "tfc:sedimentary"
+      "tfc:metamorphic",
+      "tfc:igneous_intrusive",
+      "tfc:igneous_extrusive"
+    ]
   }
 }
