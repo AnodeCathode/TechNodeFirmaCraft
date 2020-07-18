@@ -1,0 +1,22 @@
+{
+  "limonite_claystone": {
+    "type": "cluster",
+    "ore": "tfc:ore/limonite/claystone",
+    "stone": [
+      "tfc:raw/claystone"
+    ],
+    "rarity": 150,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 70,
+    "vertical_size": 36,
+    "horizontal_size": 28,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

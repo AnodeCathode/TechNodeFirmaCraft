@@ -1,0 +1,6 @@
+
+{
+  "Name": "cowtfc",
+  "Registry ID": "tfc:cowtfc",
+  "Class": "net.dries007.tfc.objects.entity.animal.EntityCowTFC"
+}

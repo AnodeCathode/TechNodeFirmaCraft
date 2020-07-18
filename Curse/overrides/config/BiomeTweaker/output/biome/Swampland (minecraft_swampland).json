@@ -1,0 +1,65 @@
+
+{
+  "ID": 6,
+  "Name": "Swampland",
+  "Resource Location": "minecraft:swampland",
+  "Class": "net.minecraft.world.biome.BiomeSwamp",
+  "Root Height": -0.2,
+  "Height Variation": 0.1,
+  "Top Block": "tfc:sand/phyllite",
+  "Filler Block": "tfc:gravel/phyllite",
+  "Ocean Top Block": "tfc:gravel/basalt",
+  "Ocean Filler Block": "tfc:sand/basalt",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "tfc:raw/phyllite[can_fall\u003dtrue]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "14745518",
+  "Temperature": 0.8,
+  "Humidity": 0.9,
+  "Water Tint": 14745518,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SWAMP",
+    "WET"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

@@ -102,15 +102,7 @@ for i, item in IBucketArray {
   recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, item, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
   recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
 }
-  recipes.addShaped("tnfc_immersive_metal_storage/copper_block", <immersiveengineering:storage:0>, [[<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>], [<tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/copper>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/aluminum_block", <immersiveengineering:storage:1>, [[<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>], [<tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>, <tfc:metal/ingot/aluminum>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/lead_block", <immersiveengineering:storage:2>, [[<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>], [<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>], [<tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>, <tfc:metal/ingot/lead>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/silver_block", <immersiveengineering:storage:3>, [[<tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>], [<tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>], [<tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>, <tfc:metal/ingot/silver>]]);  
-  recipes.addShaped("tnfc_immersive_metal_storage/nickel_block", <immersiveengineering:storage:4>, [[<tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>], [<tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>], [<tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>, <tfc:metal/ingot/nickel>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/constantan_block", <immersiveengineering:storage:6>, [[<tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>], [<tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>], [<tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>, <tfc:metal/ingot/constantan>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/electrum_block", <immersiveengineering:storage:7>, [[<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>], [<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>], [<tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>, <tfc:metal/ingot/electrum>]]);
-  recipes.addShaped("tnfc_immersive_metal_storage/steel_block", <immersiveengineering:storage:8>, [[<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>], [<tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>, <tfc:metal/ingot/steel>]]);
-
+  
   recipes.addShaped("tnfc_immersive_blueprint_electrode", <immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
   recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4> * 3, [[<ore:craftingToolChisel>.transformDamage(), <ore:sheetWroughtIron>, <ore:craftingToolHammer>.transformDamage()], [<ore:paneGlass>, <ore:dustGlowstone>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
@@ -128,14 +120,6 @@ for i, item in IBucketArray {
   recipes.addShapeless("tnfc_immersive_conveyor_uncontrolled", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), [<ore:craftingToolMediumHammer>.transformDamage(), <ore:dustRedstone>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})]);
 
   recipes.addShapeless("tnfc_immersive_reinforced_upgrade", <immersiveengineering:stone_decoration:2>, [<immersiveengineering:stone_decoration:1>,<tfc:metal/double_sheet/steel>,<ore:craftingToolMediumHammer>.transformDamage()]);
-  recipes.addShapeless("immersive_storage_undo_copper", <tfc:metal/ingot/copper> * 9, [<immersiveengineering:storage:0>]);
-  recipes.addShapeless("immersive_storage_undo_aluminum", <tfc:metal/ingot/aluminum> * 9, [<immersiveengineering:storage:1>]);
-  recipes.addShapeless("immersive_storage_undo_lead", <tfc:metal/ingot/lead> * 9, [<immersiveengineering:storage:2>]);
-  recipes.addShapeless("immersive_storage_undo_silver", <tfc:metal/ingot/silver> * 9, [<immersiveengineering:storage:3>]);
-  recipes.addShapeless("immersive_storage_undo_nickel", <tfc:metal/ingot/nickel> * 9, [<immersiveengineering:storage:4>]);
-  recipes.addShapeless("immersive_storage_undo_constantan", <tfc:metal/ingot/constantan> * 9, [<immersiveengineering:storage:6>]);
-  recipes.addShapeless("immersive_storage_undo_electrum", <tfc:metal/ingot/electrum> * 9, [<immersiveengineering:storage:7>]);
-  recipes.addShapeless("immersive_storage_undo_steel", <tfc:metal/ingot/steel> * 9, [<immersiveengineering:storage:8>]); 
   
   
 //#REGISTER TFC Size/Heat/Other
@@ -158,7 +142,8 @@ for i, item in IBucketArray {
     // VERY_HEAVY("very_heavy", 1); // Store only in chests stacksize = 1
     
     //Core Sample Drill
-    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_device1:7>, "LARGE", "VERY_HEAVY");
+    //Had to adjust this because it interferes with Pipe stacking (same block, different meta ffs)
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_device1:7>, "NORMAL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:2>, "VERY_LARGE", "HEAVY");
-
-  
+   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_device1:6>, "NORMAL", "LIGHT");
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_decoration0>, "NORMAL", "MEDIUM");

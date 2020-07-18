@@ -1,0 +1,6 @@
+
+{
+  "Name": "NpcSlime",
+  "Registry ID": "customnpcs:npcslime",
+  "Class": "noppes.npcs.entity.EntityNpcSlime"
+}
