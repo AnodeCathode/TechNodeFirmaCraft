@@ -1,18 +1,8 @@
 Notes:
 UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
-- Crushing recipe for raw ores (AR mining) give rich ores?
-
-- Register coke blocks as TFC fuel. Coal block. Charcoal block
-
-
 - BwM breakage - Wind chimnes. Sawdust
 
-
-
-
-
-- Can you work the high end metals? Barely
 
 - REDO Loot Tables once AR is added.
 - AMADRON trades for AR stuff??
