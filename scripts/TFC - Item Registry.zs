@@ -19,31 +19,28 @@
 // Fuel
     //mods.terrafirmacraft.ItemRegistry.registerFuel(crafttweaker.api.item.IIngredient itemInput, int burnTicks, float temperature, boolean forgeFuel, boolean bloomeryFuel)
     // Coke coal
-    mods.terrafirmacraft.ItemRegistry.registerFuel(<immersiveengineering:material:6>, 2600, 2400, true, false);
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<immersiveengineering:material:6>, 2600, 2700, true, false);
+    // Coke coal block - burns even hotter because reasons
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<immersiveengineering:stone_decoration:3>, 20000, 2800, true, false);
+    //Thermite - Super hot / Super fast. Beware.
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<advancedrocketry:thermite>,  1200, 3300, true, false);
+    
+    //Coal block
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<minecraft:coal_block>,  19800, 1415, true, false);
+    
+    //Charcoal block
+    mods.terrafirmacraft.ItemRegistry.registerFuel(<rockhounding_chemistry:misc_blocks_a:11>, 16200, 1350, true, false);
     
     
   //IE Ingots
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:1>, 0.35, 660, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:5>, 0.35, 1100, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:6>, 0.35, 1453, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:metal:7>, 0.35, 1000, true);
 
-	//IE Rods
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:material:1>, 0.35, 1535, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:material:2>, 0.35, 1540, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<immersiveengineering:material:3>, 0.35, 1535, true);
   
   //Weak Steel Dusts
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tnfcmod:weak_steel_dust>, 0.35, 1540, false);
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tnfcmod:weak_red_steel_dust>, 0.35, 1540, false);
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tnfcmod:weak_red_steel_dust>, 0.35, 1540, false);
-  
-  
-  //Rods
-	mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:material:2>, "STEEL", 100, true);
-
-
-  
 
 	mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:metal:1>, "ALUMINUM", 100, true);  
 	mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:metal:6>, "CONSTANTAN", 100, true);
