@@ -1,0 +1,6 @@
+
+{
+  "Name": "npcpony",
+  "Registry ID": "customnpcs:npcpony",
+  "Class": "noppes.npcs.entity.EntityNpcPony"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "npcelfmale",
+  "Registry ID": "customnpcs:npcelfmale",
+  "Class": "noppes.npcs.entity.old.EntityNPCElfMale"
+}

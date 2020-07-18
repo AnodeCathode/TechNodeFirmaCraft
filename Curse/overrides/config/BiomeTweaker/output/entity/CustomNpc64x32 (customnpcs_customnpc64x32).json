@@ -1,0 +1,6 @@
+
+{
+  "Name": "CustomNpc64x32",
+  "Registry ID": "customnpcs:customnpc64x32",
+  "Class": "noppes.npcs.entity.EntityNPC64x32"
+}
