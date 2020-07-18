@@ -143,7 +143,20 @@
     "maximum_height": 124,
     "density": 80,
     "base_rocks": [
-      "tfc:sedimentary",
+      "tfc:igneous_intrusive"
+    ]
+  },
+  "thorianite": {
+    "ore": "tfc:thorianite",
+    "loose": "tfc:thorianite",
+    "width": 12,
+    "height": 12,
+    "shape": "cluster",
+    "rarity": 65,
+    "minimum_height": 5,
+    "maximum_height": 128,
+    "density": 85,
+    "base_rocks": [
       "tfc:igneous_extrusive"
     ]
   }
