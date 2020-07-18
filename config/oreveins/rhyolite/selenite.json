@@ -1,0 +1,22 @@
+{
+  "selenite_rhyolite": {
+    "type": "cluster",
+    "ore": "tfc:ore/selenite/rhyolite",
+    "stone": [
+      "tfc:raw/rhyolite"
+    ],
+    "rarity": 150,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 70,
+    "vertical_size": 42,
+    "horizontal_size": 22,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

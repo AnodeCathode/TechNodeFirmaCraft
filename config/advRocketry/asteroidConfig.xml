@@ -1,0 +1,53 @@
+<Asteroids>
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="1.0" richnessVariability="0.5">
+    <ore itemStack="tfc:cobble/basalt" chance="25" />
+    <ore itemStack="tfc:raw/basalt" chance="5" />
+    <ore itemStack="tfc:ore/hematite/basalt" chance="15" />
+		<ore itemStack="tfc:ore/native_gold/basalt" chance="10" />
+		<ore itemStack="tfc:ore/cinnabar/basalt" chance="10" />
+    <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="5" />
+	</asteroid>
+  <asteroid name="Crunchy Asteroid" distance="45" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="1.0" richnessVariability="0.5">
+    <ore itemStack="tfc:cobble/slate" chance="25" />
+    <ore itemStack="tfc:raw/slate" chance="5" />
+		<ore itemStack="tfc:ore/bismuthinite/slate" chance="15" />
+    <ore itemStack="tfc:ore/bauxite/slate" chance="15" />
+    <ore itemStack="tfc:ore/cassiterite/slate" chance="15" />
+    <ore itemStack="tfc:ore/pitchblende/slate" chance="15" />
+    <ore itemStack="tfc:ore/galena/slate" chance="15" />
+    <ore itemStack="tfc:ore/rutile/slate" chance="15" />
+    <ore itemStack="tfc:ore/graphite/slate" chance="15" />
+    <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="5" />
+	</asteroid>
+  <asteroid name="Chunky Asteroid" distance="45" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="1.0" richnessVariability="0.5">
+    <ore itemStack="tfc:cobble/diorite" chance="25" />
+    <ore itemStack="tfc:raw/diorite" chance="5" />
+    <ore itemStack="tfc:ore/hematite/diorite" chance="15" />
+    <ore itemStack="tfc:ore/native_silver/diorite" chance="15" />
+    <ore itemStack="tfc:ore/cassiterite/diorite" chance="15" />
+    <ore itemStack="tfc:ore/cinnabar/diorite" chance="15" />
+    <ore itemStack="tfc:ore/kaolinite/diorite" chance="15" />
+    <ore itemStack="tfc:ore/garnierite/diorite" chance="15" />
+    <ore itemStack="tfc:ore/kimberlite/diorite" chance="15" />
+    <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="15" />
+	</asteroid>
+  <asteroid name="Bulky Asteroid" distance="45" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="1.0" richnessVariability="0.5">
+    <ore itemStack="tfc:cobble/dacite" chance="25" />
+    <ore itemStack="tfc:raw/dacite" chance="5" />
+    <ore itemStack="tfc:ore/saltpeter/dacite" chance="15" />
+    <ore itemStack="tfc:ore/bauxite/dacite" chance="15" />
+    <ore itemStack="tfc:ore/native_platinum/dacite" chance="15" />
+    <ore itemStack="tfc:ore/selenite/dacite" chance="15" />
+    <ore itemStack="tfc:ore/malachite/dacite" chance="15" />
+    <ore itemStack="tfc:ore/lapis_lazuli/dacite" chance="15" />
+    <ore itemStack="tfc:ore/native_gold/dacite" chance="15" />
+    <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="15" />
+	</asteroid>
+  <asteroid name="Enriched Asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="5" richness="1.0" richnessVariability="0.3">
+    <ore itemStack="tfc:cobble/basalt" chance="25" />
+    <ore itemStack="tfc:raw/basalt" chance="5" />
+    <ore itemStack="tfc:ore/magnetite/basalt" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="10" />
+    <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="15" />
+	</asteroid>
+</Asteroids>
