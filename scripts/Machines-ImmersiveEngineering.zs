@@ -248,6 +248,8 @@ import crafttweaker.item.IItemStack;
     //Wolframite
     mods.immersiveengineering.Excavator.addMineral("Tungsten", 1, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
 
+    //Rutile - Titanium
+    mods.immersiveengineering.Excavator.addMineral("Rutile", 1, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
    
     //Chromite
     mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite"], [0.1]);
