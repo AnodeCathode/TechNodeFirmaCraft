@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.19</version>
+        <version>12.2.20</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -12,7 +12,7 @@
 
     </delete>
     <messages>
-        <update><![CDATA[ATTENTION: This version is NOT compatible with old 1.7.10 worlds. This is a major MC/TFC/Everything version update which makes major changes to the entire modpack. You've been warned.]]></update>
+        <update><![CDATA[ATTENTION: This version adds AdvancedRocketry and BiomeTweakerCore. You will recieve warnings when loading saves. Does not appear to affect saves but have a save backup.  This version is NOT compatible with old 1.7.10 worlds. This is a major MC/TFC/Everything version update which makes major changes to the entire modpack. You've been warned.]]></update>
     </messages>
     
 
@@ -29,7 +29,7 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.5.3.153" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.5.3.153.jar" file="TerraFirmaCraft-MC1.12.2-1.5.3.153.jar" md5="666b2d92e70bbb8cd32a70afe7fd4c72"  download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.5.5.155" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.5.5.155.jar" file="TerraFirmaCraft-MC1.12.2-1.5.5.155.jar" md5="e0e45934a4acc49f2c87ca58d879f0b7"  download="server" type="mods" colour="green"/>
 
         
         <!--TFC Addons Mods -->
@@ -37,9 +37,9 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.19" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.19.jar" file="Technodefirmacraft-MC1.12.2-12.2.19.jar" md5="f53f5e4a82d4304185c76b91336771c2" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.20" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.20.jar" file="Technodefirmacraft-MC1.12.2-12.2.20.jar" md5="45110b80da1576393fc810fa6fdcfb24"  download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
-        <mod name="Time4TFC" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.2.jar" file="Time4TFC-MC1.12.2-1.0.2.jar" md5="7e26f5fc39da263e0662905fec663479" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
+        <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
         <mod name="OversizedItemInStorageArea" version="2.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.1.2.jar" file="OversizedItemInStorageArea-2.1.2.jar" md5="5b3f9f2885dde804e6ba6dc21cb67d07" download="server" type="mods" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
@@ -63,7 +63,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.7.66" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.66.jar" file="MCTImmersiveTechnology-1.12.2-1.7.66.jar" md5="da40f5b1887c7f14b60f989b2a169d31"  download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.7.68" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.68.jar" file="MCTImmersiveTechnology-1.12.2-1.7.68.jar" md5="9dae0596bed03b6e2ba0c23afe5fb932"  download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" library="yes" selected="yes" />
         
 
@@ -106,7 +106,19 @@
         
         <mod name="OpenModsLib" version="0.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
    
-   
+        <!-- AdvancedRocketry -->
+        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-229" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-229-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-229-universal.jar" md5="b44d328daaee1df463d6b46e2dd00a36" download="server" type="mods" />
+        
+        <mod name="Advanced Rocketry Tweaker (AR Tweaker)" version="ARTweaker-1.12.2-1.0.0.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/ARTweaker-1.12.2-1.0.0.jar" file="ARTweaker-1.12.2-1.0.0.jar" md5="56e2383a0014d39dccac6fd93b7d05c4" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />   
+
+        <mod name="BiomeTweakerCore" version="BiomeTweakerCore-1.12.2-1.0.39.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweakerCore-1.12.2-1.0.39.jar" file="BiomeTweakerCore-1.12.2-1.0.39.jar" md5="b79eb875292bb76eec12b19fd2a692b1" download="server" type="mods" />
+
+        <mod name="BiomeTweaker" version="3.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweaker-1.12.2-3.2.363.jar" file="BiomeTweaker-1.12.2-3.2.363.jar" md5="1b5119dee72555ca5462b0b5707e10cb" download="server" type="mods" />
+        
+        <mod name="libVulpes" version="1.12.2-0.4.2-75" url="packs/TechNodefirmacraft/files/1.12.2Mods/LibVulpes-1.12.2-0.4.2-75-universal.jar" file="LibVulpes-1.12.2-0.4.2-75-universal.jar" md5="d0bc44a9f1401a6da2419e48f287da55" download="server" type="mods" />
+        
+        <mod name="Ore Veins" version="2.0.15" url="packs/TechNodefirmacraft/files/1.12.2Mods/oreveins-2.0.15.jar" file="oreveins-2.0.15.jar" md5="7e3da67b1deb2bc5e321337e73d3ece5" download="server" type="mods" />
+        
         
         <!-- Railstuff -->
         
@@ -214,13 +226,13 @@
 
 <!-- Resource Packs -->
 
-<mod name="TNFC ResourcePacks" version="1.0" type="extract" extractto="root" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.v2.zip" file="resourcepacks.v2.zip" md5="cea88313593b93e5a58dc7e72df517d8" download="server" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/Bunsan/TechNodeFirmaCraft" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes"/>
+<mod name="TNFC ResourcePacks" version="12.2.20" type="extract" extractto="root" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.12.2.20.zip" file="resourcepacks.12.2.20.zip" md5="ddb8e1f2e9d333898506315fc0b01858" download="server" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/Bunsan/TechNodeFirmaCraft" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes"/>
           
 <!-- Pack Extraction -->
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.19" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.19.zip" file="scripts.12.2.19.zip" md5="56521ed2359edc3322a27377dee4bfbf" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.20" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.20.zip" file="scripts.12.2.20.zip" md5="aa458fbeb81521183c66a3eb4253f820"  download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
