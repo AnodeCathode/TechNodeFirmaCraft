@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.20.1</version>
+        <version>12.2.20.2</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -63,7 +63,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.7.68" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.68.jar" file="MCTImmersiveTechnology-1.12.2-1.7.68.jar" md5="9dae0596bed03b6e2ba0c23afe5fb932"  download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.7.69" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.69.jar" file="MCTImmersiveTechnology-1.12.2-1.7.69.jar" md5="42092a3cb50d5668a16e2e8dcc74a1c3" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" library="yes" selected="yes" />
         
 
