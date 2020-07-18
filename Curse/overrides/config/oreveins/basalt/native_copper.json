@@ -1,0 +1,22 @@
+{
+  "native_copper_basalt": {
+    "type": "cluster",
+    "ore": "tfc:ore/native_copper/basalt",
+    "stone": [
+      "tfc:raw/basalt"
+    ],
+    "rarity": 120,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 70,
+    "vertical_size": 40,
+    "horizontal_size": 32,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

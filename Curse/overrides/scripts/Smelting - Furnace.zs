@@ -169,6 +169,9 @@
 
   
 //#Fuel Values
-  furnace.setFuel(<tfc:ore/bituminous_coal>, 3200);
-  furnace.setFuel(<tfc:ore/lignite>, 3000);
+  
+  furnace.setFuel(<tfc:ore/bituminous_coal>, 1600);
+  furnace.setFuel(<tfc:ore/lignite>, 1400);
+  furnace.setFuel(<advancedrocketry:thermite>, 3200);
+
     

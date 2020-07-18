@@ -61,6 +61,8 @@ config/InvTweaks/InvTweaks.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
 config/worldedit/worldedit.properties
+config/BiomeTweaker/output/
 buildConfig/oregen/
 buildConfig/biome/
 .idea/
+Reference/MC_Assets

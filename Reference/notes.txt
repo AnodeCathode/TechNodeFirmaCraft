@@ -1,50 +1,62 @@
 Notes:
-- Fix Death Penalty. Nutrition should carry over ONLY if it's less than default. Not more
+UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
-- Anvil or name tag fixes
-- Fix the loot tables for fishing and add useful stuff!
-- Loom automation - Partially done. Added press recipes for now.
-- Power for RH machines? Too expensive recipe?
-- Add sandwich/soup recipes with fish! Other foods? Salting fish
 
-- ArcFurnace Iron Dust + Coke Dust == Steel Ingot is broken. Check the auto furnace dust add thingy. Remove iron from the auto add. Or set it to add coke dust. Or something
 
-- Zombie pigman drops fix
+- End Loot needs fixing!
+
+- BwM breakage - Wind chimnes. Sawdust
+
+
+- REDO Loot Tables once AR is added.
+- AMADRON trades for AR stuff??
+
+- Why does bonemeal work in the Cloche?
+- Anvil or name tag fixes. Vanilla Anvil recipe is quick fix
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
+
 - Update the TNFC Book with the changelog and stuff.
-- Add a link to the TNFC Discord to the main menu.  - Need new icon. It's so ugly
 - Old crops need to eventually die no matter what. The tropical enterna farm is terrible
+- Power for RH machines? Too expensive recipe?
 - Resurrect the advanced PnC gas lift? Otherwise can't generally drill deep enough
-- Immersive Petroleum and PnC petroleum deposits are not compatible. 
-    The resulting fluid is, but the IP reservoirs are virtual and the pump jack won't access the actual PnC reservoirs
-  
-- unarmed dmg is way too high. Need to fix. Probably fix in TFC. Fix and PR
-  
-- We added Alloy recipes to the IE Arc furnace from ingots. Should have the same recipes with dusts and scrap. Probably in the TNFC_Mod
-
-- Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
-- Rope back to fibre yields BwM hemp
-- Random diamond drops from crushing kimberlite ffs
-
 - Flint from gravel in grindstone/crusher/millstone/quern?
- 
-- IE Core Samples - where do they get their images from for the colour on the sample?
+- Entity spawn rules in TFC should only apply to Dim0
+- IE Core Samples - where do they get their images from for the colour on the sample? Fix for TFC non block ores
+- We added Alloy recipes to the IE Arc furnace from ingots. Should have the same recipes with dusts and scrap. Probably in the TNFC_Mod
+- ArcFurnace Iron Dust + Coke Dust == Steel Ingot is broken. Check the auto furnace dust add thingy. Remove iron from the auto add. Or set it to add coke dust. Or something
+- unarmed dmg is way too high. Need to fix. Probably fix in TFC. Fix and PR
+- Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
 
-- IE excavator in claimed chunk crashes on fake player. Need fix.
+- Random diamond drops from crushing kimberlite ffs
+- Rope block back to ropes - Done
+
+- If I leave the vanilla top blocks in ocean spawning biomes, will we get the underwater crap?
+
+- IE Mixer potions? what to do? Leave them for now
+- Magma creams? Do we use/want/need them? Leave them for now
+- Immersive Petroleum and PnC petroleum deposits are not compatible. 
+    The resulting fluid is, but the IP reservoirs are virtual (not sure this is true.) and the pump jack won't access the actual PnC reservoirs
+  
+  
+- IE excavator crashes on fake player on chunk load?. Need fix.
 
 
+- Gold block disassembly? other blocks? melt them instead? arc furnace?
+
+- Remove steel block to IE ingots
+- Go through all ore blocks and rationalize the setup
 
 
 - Advanced Rocketry
-  
-  
-  - Titanium Aluminide? Dust/Alloy recipe
-  - Iridium - May be present on other bodies
-  - Ore Dilithium - May be present on other bodies
-  - Have to unregister some of the recipes as the CT Script removal doesn't work
-  
-  
+
+  Heat fuel properties for thermite
+- AR Jetpack recipe diff increase. Other recipe diff increase
+
+    
+    
+    
+
 
 
 - Add all items with weight and stuff

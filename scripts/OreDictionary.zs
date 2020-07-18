@@ -8,6 +8,11 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+var titaniumStick = <ore:stickTitanium>;
+    titaniumStick.remove(<tfctech:metal/titanium_rod>);
+    
+var oregemCoal = <ore:gemCoal>;
+    oregemCoal.remove(<minecraft:coal>);
     
 var oreCookedMeat = <ore:categoryCookedMeat>;
     oreCookedMeat.addItems([

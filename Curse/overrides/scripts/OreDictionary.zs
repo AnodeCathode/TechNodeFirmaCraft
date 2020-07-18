@@ -8,6 +8,36 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+var titaniumStick = <ore:stickTitanium>;
+    titaniumStick.remove(<tfctech:metal/titanium_rod>);
+    
+var oregemCoal = <ore:gemCoal>;
+    oregemCoal.remove(<minecraft:coal>);
+    
+var oreCookedMeat = <ore:categoryCookedMeat>;
+    oreCookedMeat.addItems([
+    <betterwithmods:cooked_mystery_meat>,
+    <betterwithmods:cooked_bat_wing>,
+    <betterwithmods:cooked_egg>,
+    <betterwithmods:cooked_scrambled_egg>,
+    <betterwithmods:cooked_omelet>,
+    <minecraft:cooked_fish>,
+    <minecraft:cooked_fish:1>,
+    <betterwithmods:cooked_wolf_chop>
+    ]);
+   
+var oreRawMeat = <ore:categoryMeat>;
+    oreRawMeat.addItems([
+    <betterwithmods:bat_wing>,
+    <betterwithmods:wolf_chop>,
+    <minecraft:fish>,
+    <minecraft:fish:1>,
+    <minecraft:fish:2>,
+    <minecraft:fish:3>
+    ]);
+
+var oreSand = <ore:sand>;
+    oreSand.remove(<minecraft:sand:*>);
     
 var poorTetra = <ore:oreTetrahedritePoor>;
       poorTetra.addItems([

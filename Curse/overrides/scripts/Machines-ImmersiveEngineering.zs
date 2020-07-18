@@ -5,6 +5,15 @@ import crafttweaker.item.IItemStack;
 
 // Machine Additions
 
+// Metal Press - most in TNFCMod
+//mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
+    //Need to find/make an ingot mold for the press and then convert these. Likely to the TNFC_Mod
+    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:item.Pig Iron Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
 	
@@ -76,6 +85,17 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/blue_steel>,<tnfcmod:hc_blue_steel_amalgam>, null, 200, 512);
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/red_steel>,<tnfcmod:hc_red_steel_amalgam>, null, 200, 512);
 
+     
+   // Alloys
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 9, <tfc:metal/ingot/bismuth>, null, 200, 512, [<tfc:metal/ingot/copper> * 6, <tfc:metal/ingot/zinc> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze> * 9, <tfc:metal/ingot/copper> * 5, null, 200, 512, [<tfc:metal/ingot/silver> * 2, <tfc:metal/ingot/gold> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/brass> * 9, <tfc:metal/ingot/zinc>, null, 200, 512, [<tfc:metal/ingot/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 9, <tfc:metal/ingot/tin>, null, 200, 512, [<tfc:metal/ingot/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 9, <tfc:metal/ingot/gold> * 7, null, 200, 512, [<tfc:metal/ingot/copper> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 9, <tfc:metal/ingot/silver> * 6, null, 200, 512, [<tfc:metal/ingot/copper> * 3], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:ingotGold>, null, 200, 512, [<ore:ingotSilver>], "Alloying");   
+    
+   
 // Kiln
 
 // Crusher  
@@ -84,12 +104,18 @@ import crafttweaker.item.IItemStack;
     //Remove Crusher Recipes
 
       mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
+      mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
+      mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
+      mods.immersiveengineering.Crusher.removeRecipe(<minecraft:glowstone_dust>);
       mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_items:8>);
-      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/sulfur>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:diamond_ore>);
-      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);
-      
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:gold_ingot>);
 
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:material:7>);
+      
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 1, <tfc:ore/selenite>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <minecraft:glowstone>, 512);
 
 
   
@@ -222,6 +248,8 @@ import crafttweaker.item.IItemStack;
     //Wolframite
     mods.immersiveengineering.Excavator.addMineral("Tungsten", 1, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
 
+    //Rutile - Titanium
+    mods.immersiveengineering.Excavator.addMineral("Rutile", 1, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
    
     //Chromite
     mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite"], [0.1]);

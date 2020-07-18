@@ -1,0 +1,67 @@
+
+{
+  "ID": 4,
+  "Name": "Forest",
+  "Resource Location": "minecraft:forest",
+  "Class": "net.minecraft.world.biome.BiomeForest",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "tfc:sand/conglomerate",
+  "Filler Block": "tfc:gravel/conglomerate",
+  "Ocean Top Block": "tfc:gravel/basalt",
+  "Ocean Filler Block": "tfc:sand/basalt",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "tfc:raw/conglomerate[can_fall\u003dtrue]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.7,
+  "Humidity": 0.8,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "FOREST"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      10
+    ],
+    "COOL Weights": [
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": true,
+  "Tweaked": true
+}

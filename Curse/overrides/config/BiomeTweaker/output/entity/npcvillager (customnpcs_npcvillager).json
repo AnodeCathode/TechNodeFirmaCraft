@@ -1,0 +1,6 @@
+
+{
+  "Name": "npcvillager",
+  "Registry ID": "customnpcs:npcvillager",
+  "Class": "noppes.npcs.entity.old.EntityNPCVillager"
+}

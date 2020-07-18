@@ -1,0 +1,22 @@
+{
+  "kaolinite_chalk": {
+    "type": "cluster",
+    "ore": "tfc:ore/kaolinite/chalk",
+    "stone": [
+      "tfc:raw/chalk"
+    ],
+    "rarity": 110,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 70,
+    "vertical_size": 32,
+    "horizontal_size": 24,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

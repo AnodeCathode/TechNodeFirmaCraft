@@ -186,10 +186,47 @@ FLUIDS = {
     'hot_water': 'hot_water',
 }
 
+def writeraworevein(rock, ore, meta, density, rarity, width, height):
+    orefile=ore.replace(":", "_")
+
+    p = os.path.join("oregen", rock, orefile + "_" + str(meta)) + '.json'
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    struct = {
+        (ore)+ "_" + (rock) + str(meta): {
+            "type": "cluster",
+            "ore": [
+                {
+                    "block": (ore),
+                    "meta": (meta)
+                }
+            ],
+            "stone": [
+                "tfc:raw/" + (rock)
+            ],
+            "rarity": (rarity),
+            "count": 1,
+            "min_y": 5,
+            "max_y": 38,
+            "density": (density),
+            "vertical_size": (height),
+            "horizontal_size": (width),
+            "dimensions": [0, 1, -1],
+            "dimensions_is_whitelist": False,
+            "indicator": {
+                "blocks": "minecraft:deadbush",
+                "max_depth": 30
+            }
+        }
+    }
+
+    with open(p, 'w') as outfile:
+        json.dump(struct, outfile, indent=2)
+
 
 
 def writeorevein(rock, ore, density, rarity, width, height):
-    p = os.path.join("oregen", rock, ore) + '.json'
+    orefile=ore.replace(":", "_")
+    p = os.path.join("oregen", rock, orefile) + '.json'
     os.makedirs(os.path.dirname(p), exist_ok=True)
     struct = {
         (ore)+ "_" + (rock): {
@@ -201,7 +238,7 @@ def writeorevein(rock, ore, density, rarity, width, height):
             "rarity": (rarity),
             "count": 1,
             "min_y": 5,
-            "max_y": 55,
+            "max_y": 58,
             "density": (density),
             "vertical_size": (height),
             "horizontal_size": (width),
@@ -295,4 +332,9 @@ with open('tnfc_metallum_ores.json') as json_file:
                 #if we're still going, then it's just a rock.
                 if rock[4:] in ROCK_TYPES:
                     print(rockdata)
-                    writeorevein(rock[4:], orename, density, rarity, width, height)
+                    writeorevein(rock, orename, density, rarity, width, height)
+
+
+for rock in ROCK_TYPES:
+    writeraworevein(rock, "libvulpes:ore0", 0, 20, 120, 14, 14)
+    writeraworevein(rock, "libvulpes:ore0", 10, 20, 100, 14, 14)

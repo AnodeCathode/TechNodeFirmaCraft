@@ -36,6 +36,7 @@ key_Scene2 start/pause:71:NONE
 key_Scene3 start/pause:71:NONE
 key_Scene reset:71:NONE
 key_Quest Log:71:NONE
+key_keybinds.show_wounds:35:NONE
 key_key.ftbutilities.nbt:71:NONE
 key_key.ftbutilities.trash:71:NONE
 key_openblocks.keybind.vario_switch:71:NONE
@@ -46,8 +47,8 @@ key_pneumaticcraft.helmet.hack:71:NONE
 key_pneumaticcraft.helmet.debugging.drone:71:NONE
 key_pneumaticcraft.boots.kick:71:NONE
 key_pneumaticcraft.chestplate.launcher:71:NONE
-key_simplyjetpacks.keybind.engine:71:NONE
-key_simplyjetpacks.keybind.hover:71:NONE
+key_simplyjetpacks.keybind.engine:48:NONE
+key_simplyjetpacks.keybind.hover:49:NONE
 key_simplyjetpacks.keybind.charger:71:NONE
 key_simplyjetpacks.keybind.emergencyhover:71:NONE
 key_key.wearablebackpacks.open:71:NONE
@@ -55,7 +56,7 @@ key_dshuds.keybind.SelectionBox:71:NONE
 key_dshuds.keybind.LightLevel:65:NONE
 key_dshuds.keybind.ChunkBorders:67:NONE
 key_key.unhook:71:NONE
-key_key.astikorcarts.desc:71:NONE
+key_key.cofh.multimode:71:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:53:NONE
@@ -67,6 +68,7 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
+key_key.astikorcarts.desc:37:NONE
 key_key.immersiveengineering.magnetEquip:71:NONE
 key_key.immersiveengineering.chemthrowerSwitch:71:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
@@ -98,7 +100,6 @@ key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
 key_Options Gui:71:NONE
-key_key.cofh.multimode:71:NONE
 key_Dynamic Lights toggle:71:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:79:NONE
@@ -111,16 +112,23 @@ key_tfc.key.placeblock:47:NONE
 key_tfc.key.itemmode:50:NONE
 key_tfc.key.stack:45:NONE
 key_WorldEdit Reference:71:NONE
+key_Toggle Jetpack:45:NONE
+key_Open Rocket GUI:23:NONE
+key_Toggle RCS:19:NONE
+key_Rotate Vehicle Right:32:NONE
+key_Rotate Vehicle Left:30:NONE
+key_Move Vehicle Up:44:NONE
+key_Move Vehicle Down:45:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:26:NONE
 key_key.journeymap.minimap_preset:43:NONE
-key_key.journeymap.create_waypoint:48:NONE
-key_key.journeymap.toggle_waypoints:44:NONE
-key_key.journeymap.fullscreen_create_waypoint:48:NONE
+key_key.journeymap.create_waypoint:210:NONE
+key_key.journeymap.toggle_waypoints:71:NONE
+key_key.journeymap.fullscreen_create_waypoint:210:NONE
 key_key.journeymap.fullscreen_chat_position:46:NONE
 key_key.journeymap.map_toggle_alt:36:NONE
-key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.fullscreen_waypoints:210:CONTROL
 key_key.journeymap.minimap_toggle_alt:36:CONTROL
 key_key.journeymap.fullscreen_options:24:NONE
 key_key.journeymap.fullscreen.north:200:NONE

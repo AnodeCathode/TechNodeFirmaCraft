@@ -1,0 +1,22 @@
+{
+  "petrified_wood_shale": {
+    "type": "cluster",
+    "ore": "tfc:ore/petrified_wood/shale",
+    "stone": [
+      "tfc:raw/shale"
+    ],
+    "rarity": 115,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 40,
+    "vertical_size": 28,
+    "horizontal_size": 16,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}
