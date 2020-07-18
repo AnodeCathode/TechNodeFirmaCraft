@@ -87,5 +87,78 @@
       "tfc:igneous_intrusive",
       "tfc:igneous_extrusive"
     ]
+  },
+  "rutile": {
+    "ore": "tfc:rutile",
+    "width": 14,
+    "height": 20,
+    "shape": "cluster",
+    "rarity": 120,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 80,
+    "base_rocks": [
+      "tfc:sedimentary",
+      "tfc:metamorphic",
+      "tfc:igneous_intrusive",
+      "tfc:igneous_extrusive"
+    ]
+  },
+  "pyrolusite": {
+    "ore": "tfc:pyrolusite",
+    "width": 5,
+    "height": 10,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 80,
+    "base_rocks": [
+      "tfc:sedimentary",
+      "tfc:igneous_intrusive",
+      "tfc:igneous_extrusive"
+    ]
+  },
+  "boron": {
+    "ore": "tfc:boron",
+    "width": 5,
+    "height": 10,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 80,
+    "base_rocks": [
+      "tfc:igneous_intrusive",
+      "tfc:igneous_extrusive"
+    ]
+  },
+  "chromite": {
+    "ore": "tfc:chromite",
+    "width": 5,
+    "height": 10,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 80,
+    "base_rocks": [
+      "tfc:igneous_intrusive"
+    ]
+  },
+  "thorianite": {
+    "ore": "tfc:thorianite",
+    "loose": "tfc:thorianite",
+    "width": 12,
+    "height": 12,
+    "shape": "cluster",
+    "rarity": 65,
+    "minimum_height": 5,
+    "maximum_height": 128,
+    "density": 85,
+    "base_rocks": [
+      "tfc:igneous_extrusive"
+    ]
   }
+  
 }
