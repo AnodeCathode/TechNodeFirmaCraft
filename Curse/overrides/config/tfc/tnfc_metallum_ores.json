@@ -148,7 +148,6 @@
   },
   "thorianite": {
     "ore": "tfc:thorianite",
-    "loose": "tfc:thorianite",
     "width": 12,
     "height": 12,
     "shape": "cluster",
