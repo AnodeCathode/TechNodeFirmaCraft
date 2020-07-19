@@ -1,0 +1,22 @@
+{
+  "rutile_gabbro": {
+    "type": "cluster",
+    "ore": "tfc:ore/rutile/gabbro",
+    "stone": [
+      "tfc:raw/gabbro"
+    ],
+    "rarity": 120,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 80,
+    "vertical_size": 20,
+    "horizontal_size": 14,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}
