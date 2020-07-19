@@ -1,0 +1,22 @@
+{
+  "pyrolusite_rocksalt": {
+    "type": "cluster",
+    "ore": "tfc:ore/pyrolusite/rocksalt",
+    "stone": [
+      "tfc:raw/rocksalt"
+    ],
+    "rarity": 150,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 80,
+    "vertical_size": 10,
+    "horizontal_size": 5,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

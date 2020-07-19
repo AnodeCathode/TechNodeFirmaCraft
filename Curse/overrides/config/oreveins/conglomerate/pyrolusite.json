@@ -1,0 +1,22 @@
+{
+  "pyrolusite_conglomerate": {
+    "type": "cluster",
+    "ore": "tfc:ore/pyrolusite/conglomerate",
+    "stone": [
+      "tfc:raw/conglomerate"
+    ],
+    "rarity": 150,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 80,
+    "vertical_size": 10,
+    "horizontal_size": 5,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}
