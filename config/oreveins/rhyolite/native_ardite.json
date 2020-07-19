@@ -1,17 +1,17 @@
 {
-  "rutile_gneiss": {
+  "native_ardite_rhyolite": {
     "type": "cluster",
-    "ore": "tfc:ore/rutile/gneiss",
+    "ore": "tfc:ore/native_ardite/rhyolite",
     "stone": [
-      "tfc:raw/gneiss"
+      "tfc:raw/rhyolite"
     ],
     "rarity": 120,
     "count": 1,
     "min_y": 5,
     "max_y": 58,
-    "density": 80,
-    "vertical_size": 30,
-    "horizontal_size": 18,
+    "density": 70,
+    "vertical_size": 10,
+    "horizontal_size": 5,
     "dimensions": [
       0,
       1,

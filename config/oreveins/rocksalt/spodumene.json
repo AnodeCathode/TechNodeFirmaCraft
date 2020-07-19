@@ -1,17 +1,17 @@
 {
-  "rutile_gneiss": {
+  "spodumene_rocksalt": {
     "type": "cluster",
-    "ore": "tfc:ore/rutile/gneiss",
+    "ore": "tfc:ore/spodumene/rocksalt",
     "stone": [
-      "tfc:raw/gneiss"
+      "tfc:raw/rocksalt"
     ],
-    "rarity": 120,
+    "rarity": 70,
     "count": 1,
     "min_y": 5,
     "max_y": 58,
-    "density": 80,
-    "vertical_size": 30,
-    "horizontal_size": 18,
+    "density": 75,
+    "vertical_size": 25,
+    "horizontal_size": 10,
     "dimensions": [
       0,
       1,
