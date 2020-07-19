@@ -1,0 +1,22 @@
+{
+  "rutile_conglomerate": {
+    "type": "cluster",
+    "ore": "tfc:ore/rutile/conglomerate",
+    "stone": [
+      "tfc:raw/conglomerate"
+    ],
+    "rarity": 120,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 80,
+    "vertical_size": 30,
+    "horizontal_size": 18,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}
