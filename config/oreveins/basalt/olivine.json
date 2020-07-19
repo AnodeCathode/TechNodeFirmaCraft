@@ -1,17 +1,17 @@
 {
-  "rutile_gneiss": {
+  "olivine_basalt": {
     "type": "cluster",
-    "ore": "tfc:ore/rutile/gneiss",
+    "ore": "tfc:ore/olivine/basalt",
     "stone": [
-      "tfc:raw/gneiss"
+      "tfc:raw/basalt"
     ],
-    "rarity": 120,
+    "rarity": 150,
     "count": 1,
     "min_y": 5,
     "max_y": 58,
-    "density": 80,
-    "vertical_size": 30,
-    "horizontal_size": 18,
+    "density": 70,
+    "vertical_size": 24,
+    "horizontal_size": 12,
     "dimensions": [
       0,
       1,

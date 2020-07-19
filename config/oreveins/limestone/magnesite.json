@@ -1,17 +1,17 @@
 {
-  "rutile_gneiss": {
+  "magnesite_limestone": {
     "type": "cluster",
-    "ore": "tfc:ore/rutile/gneiss",
+    "ore": "tfc:ore/magnesite/limestone",
     "stone": [
-      "tfc:raw/gneiss"
+      "tfc:raw/limestone"
     ],
-    "rarity": 120,
+    "rarity": 75,
     "count": 1,
     "min_y": 5,
     "max_y": 58,
-    "density": 80,
-    "vertical_size": 30,
-    "horizontal_size": 18,
+    "density": 75,
+    "vertical_size": 15,
+    "horizontal_size": 15,
     "dimensions": [
       0,
       1,
