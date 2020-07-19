@@ -244,20 +244,20 @@ import mods.immersiveengineering.MineralMix;
 
 
     //Wolframite - Tungsten
-    mods.immersiveengineering.Excavator.addMineral("Tungsten", 5, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.05, 0.00001, 0.005, 0.0002]);
+    mods.immersiveengineering.Excavator.addMineral("Tungsten", 5, 0.005, ["oreTungstenNormal", "oreTungstenPoor", "oreWroughtIronPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.10, 0.05, 0.00001, 0.005, 0.0002]);
 
     //Rutile - Titanium
-    mods.immersiveengineering.Excavator.addMineral("Rutile", 5, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.05, 0.00001, 0.005, 0.0002]);
+    mods.immersiveengineering.Excavator.addMineral("Rutile", 5, 0.005, ["oreTitaniumRich", "oreTitaniumNormal", "oreTitaniumPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.1, 0.45, 0.15, 0.00001, 0.005, 0.0002]);
    
     //Chromite
-    mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite"], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite", "gemChipped", "gemNormal", "gemFlawless"], [0.3, 0.00001, 0.00005, 0.0002]);
 
    
     //Magnesite
-    mods.immersiveengineering.Excavator.addMineral("Magnesite", 5, 0.005, ["gemMagnesite" ], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Magnesite", 5, 0.005, ["gemMagnesite" , "gemChipped", "gemNormal", "gemFlawless"], [0.2, 0.00001, 0.00005, 0.0002]);
 
     //Boron
-    mods.immersiveengineering.Excavator.addMineral("Boron", 5, 0.005, ["gemBoron"], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Boron", 5, 0.005, ["gemBoron", "gemChipped", "gemNormal", "gemFlawless"], [0.2, 0.00001, 0.00005, 0.0002]);
 
     
   // FERMENTER
