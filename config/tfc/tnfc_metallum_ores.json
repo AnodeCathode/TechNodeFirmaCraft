@@ -90,6 +90,7 @@
   },
   "rutile": {
     "ore": "tfc:rutile",
+    "loose": "tfc:rutile",
     "width": 18,
     "height": 30,
     "shape": "cluster",
@@ -106,6 +107,7 @@
   },
   "pyrolusite": {
     "ore": "tfc:pyrolusite",
+    "loose": "tfc:rock/marble",
     "width": 5,
     "height": 10,
     "shape": "cluster",
@@ -121,6 +123,7 @@
   },
   "boron": {
     "ore": "tfc:boron",
+    "loose": "tfc:rock/limestone",
     "width": 5,
     "height": 10,
     "shape": "cluster",
@@ -135,6 +138,7 @@
   },
   "chromite": {
     "ore": "tfc:chromite",
+    "loose": "tfc:rock/schist",
     "width": 5,
     "height": 10,
     "shape": "cluster",
@@ -148,6 +152,7 @@
   },
   "thorianite": {
     "ore": "tfc:thorianite",
+    "loose": "tfc:rock/claystone",
     "width": 12,
     "height": 12,
     "shape": "cluster",
