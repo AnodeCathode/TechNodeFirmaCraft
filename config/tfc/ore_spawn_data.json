@@ -519,6 +519,21 @@
     "base_rocks": [
       "tfc:igneous_extrusive"
     ]
+  },
+  "olivine": {
+    "ore": "tfc:olivine",
+    "loose": "tfc:rock/claystone",
+    "width": 12,
+    "height": 24,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 70,
+    "base_rocks": [
+      "tfc:basalt",
+      "tfc:gabbro"
+    ]
   }
   
 }
