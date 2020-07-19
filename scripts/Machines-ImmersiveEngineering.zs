@@ -2,7 +2,8 @@
 #modloaded immersiveengineering
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
+import mods.immersiveengineering.Excavator;
+import mods.immersiveengineering.MineralMix;
 // Machine Additions
 
 // Metal Press - most in TNFCMod
@@ -121,7 +122,7 @@ import crafttweaker.item.IItemStack;
   
 // Excavator
   //mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);
-    
+  //var Iron = Excavator.getMineral("Iron_Ore");  
     mods.immersiveengineering.Excavator.removeMineral("Pyrite");
     
     //Quartz
@@ -219,10 +220,7 @@ import crafttweaker.item.IItemStack;
 
     //Silt
     mods.immersiveengineering.Excavator.removeMineral("Silt");
-    mods.immersiveengineering.Excavator.addMineral("Silt Igneous Extrusive", 40, 0.005, ["clay", "sandIgneousExtrusive", "gravelIgneousExtrusive","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Igneous Intrusive", 40, 0.005, ["clay", "sandIgneousIntrusive", "gravelIgneousIntrusive","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Sedimentary", 40, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Metamorphic", 40, 0.005, ["clay", "sandMetamorphic", "gravelMetamorphic","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
+    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
 
     //Microcline
     mods.immersiveengineering.Excavator.addMineral("Microcline", 5, 0.005, ["gemMicrocline", "gemNormal"], [0.9, 0.001]);
@@ -242,14 +240,14 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.Excavator.addMineral("Ardite", 2, 0.005, ["oreArditeNormal", "oreBismuthPoor", "oreLeadPoor"], [0.5, 0.02, 0.01]);
 
     //Native Osmium
-    mods.immersiveengineering.Excavator.addMineral("Native Osmium", 1, 0.005, ["oreOsmiumNormal", "gemChipped", "gemNormal"], [0.9, 0.001, 0.00001]);
+    mods.immersiveengineering.Excavator.addMineral("Native Osmium", 5, 0.005, ["oreOsmiumNormal", "gemChipped", "gemNormal"], [0.9, 0.001, 0.00001]);
 
 
-    //Wolframite
-    mods.immersiveengineering.Excavator.addMineral("Tungsten", 1, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
+    //Wolframite - Tungsten
+    mods.immersiveengineering.Excavator.addMineral("Tungsten", 5, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.05, 0.00001, 0.005, 0.0002]);
 
     //Rutile - Titanium
-    mods.immersiveengineering.Excavator.addMineral("Rutile", 1, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
+    mods.immersiveengineering.Excavator.addMineral("Rutile", 5, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.05, 0.00001, 0.005, 0.0002]);
    
     //Chromite
     mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite"], [0.1]);
