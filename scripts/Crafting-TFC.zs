@@ -2,6 +2,27 @@
 
 
 // Fixes
+  recipes.remove(<tfc:wood/acacia/acacia_lumber_log>)
+  recipes.remove(<tfc:wood/ash/ash_lumber_log>)
+  recipes.remove(<tfc:wood/aspen/aspen_lumber_log>)
+  recipes.remove(<tfc:wood/birch/birch_lumber_log>)
+  recipes.remove(<tfc:wood/blackwood/blackwood_lumber_log>)
+  recipes.remove(<tfc:wood/chestnut/chestnut_lumber_log>)
+  recipes.remove(<tfc:wood/douglas_fir/douglas_fir_lumber_log>)
+  recipes.remove(<tfc:wood/hickory/hickory_lumber_log>)
+  recipes.remove(<tfc:wood/kapok/kapok_lumber_log>)
+  recipes.remove(<tfc:wood/maple/maple_lumber_log>)
+  recipes.remove(<tfc:wood/oak/oak_lumber_log>)
+  recipes.remove(<tfc:wood/palm/palm_lumber_log>)
+  recipes.remove(<tfc:wood/pine/pine_lumber_log>)
+  recipes.remove(<tfc:wood/rosewood/rosewood_lumber_log>)
+  recipes.remove(<tfc:wood/sequoia/sequoia_lumber_log>)
+  recipes.remove(<tfc:wood/spruce/spruce_lumber_log>)
+  recipes.remove(<tfc:wood/sycamore/sycamore_lumber_log>)
+  recipes.remove(<tfc:wood/white_cedar/white_cedar_lumber_log>)
+  recipes.remove(<tfc:wood/willow/willow_lumber_log>)
+  recipes.remove(<tfc:wood/hevea/hevea_lumber_log>)
+
 
   recipes.remove(<minecraft:bucket>);
   recipes.addShaped("tnfc_vanilla_bucket_fix",<minecraft:bucket>, [[<ore:ingotWroughtIron>, <tfc:metal/bucket/red_steel>.noReturn(), <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <tfc:metal/bucket/blue_steel>.noReturn(), <ore:ingotWroughtIron>], [null, <ore:ingotWroughtIron>, null]]);
