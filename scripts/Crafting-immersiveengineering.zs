@@ -54,6 +54,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal:36>);
   recipes.remove(<immersiveengineering:metal:37>);
   recipes.remove(<immersiveengineering:metal:38>);
+  recipes.remove(<immersiveengineering:metal:39>);
   recipes.remove(<immersiveengineering:metal:40>);
   recipes.remove(<immersiveengineering:wooden_device0:2>);
   
