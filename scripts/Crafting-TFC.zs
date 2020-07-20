@@ -2,27 +2,47 @@
 
 
 // Fixes
-  recipes.remove(<tfc:wood/acacia/acacia_lumber_log>)
-  recipes.remove(<tfc:wood/ash/ash_lumber_log>)
-  recipes.remove(<tfc:wood/aspen/aspen_lumber_log>)
-  recipes.remove(<tfc:wood/birch/birch_lumber_log>)
-  recipes.remove(<tfc:wood/blackwood/blackwood_lumber_log>)
-  recipes.remove(<tfc:wood/chestnut/chestnut_lumber_log>)
-  recipes.remove(<tfc:wood/douglas_fir/douglas_fir_lumber_log>)
-  recipes.remove(<tfc:wood/hickory/hickory_lumber_log>)
-  recipes.remove(<tfc:wood/kapok/kapok_lumber_log>)
-  recipes.remove(<tfc:wood/maple/maple_lumber_log>)
-  recipes.remove(<tfc:wood/oak/oak_lumber_log>)
-  recipes.remove(<tfc:wood/palm/palm_lumber_log>)
-  recipes.remove(<tfc:wood/pine/pine_lumber_log>)
-  recipes.remove(<tfc:wood/rosewood/rosewood_lumber_log>)
-  recipes.remove(<tfc:wood/sequoia/sequoia_lumber_log>)
-  recipes.remove(<tfc:wood/spruce/spruce_lumber_log>)
-  recipes.remove(<tfc:wood/sycamore/sycamore_lumber_log>)
-  recipes.remove(<tfc:wood/white_cedar/white_cedar_lumber_log>)
-  recipes.remove(<tfc:wood/willow/willow_lumber_log>)
-  recipes.remove(<tfc:wood/hevea/hevea_lumber_log>)
-
+  recipes.removeShapeless(<tfc:wood/lumber/acacia>, [<tfc:wood/log/acacia>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/ash>, [<tfc:wood/log/ash>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/aspen>, [<tfc:wood/log/aspen>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/birch>, [<tfc:wood/log/birch>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/blackwood>, [<tfc:wood/log/blackwood>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/chestnut>, [<tfc:wood/log/chestnut>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/douglas_fir>, [<tfc:wood/log/douglas_fir>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/hickory>, [<tfc:wood/log/hickory>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/kapok>, [<tfc:wood/log/kapok>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/maple>, [<tfc:wood/log/maple>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/oak>, [<tfc:wood/log/oak>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/palm>, [<tfc:wood/log/palm>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/pine>, [<tfc:wood/log/pine>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/rosewood>, [<tfc:wood/log/rosewood>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/sequoia>, [<tfc:wood/log/sequoia>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/spruce>, [<tfc:wood/log/spruce>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/sycamore>, [<tfc:wood/log/sycamore>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/white_cedar>, [<tfc:wood/log/white_cedar>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/willow>, [<tfc:wood/log/willow>, <ore:saw>]);
+  recipes.removeShapeless(<tfc:wood/lumber/hevea>, [<tfc:wood/log/hevea>, <ore:saw>]);
+  
+  recipes.addShapeless("tnfc_tfc_lumber_fix_acacia", <tfc:wood/lumber/acacia> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/acacia>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_ash", <tfc:wood/lumber/ash> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/ash>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_aspen", <tfc:wood/lumber/aspen> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/aspen>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_birch", <tfc:wood/lumber/birch> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/birch>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_blackwood", <tfc:wood/lumber/blackwood> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/blackwood>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_chestnut", <tfc:wood/lumber/chestnut> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/chestnut>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_douglas_fir", <tfc:wood/lumber/douglas_fir> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/douglas_fir>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_hickory", <tfc:wood/lumber/hickory> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/hickory>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_kapok", <tfc:wood/lumber/kapok> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/kapok>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_maple", <tfc:wood/lumber/maple> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/maple>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_oak", <tfc:wood/lumber/oak> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/oak>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_palm", <tfc:wood/lumber/palm> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/palm>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_pine", <tfc:wood/lumber/pine> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/pine>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_rosewood", <tfc:wood/lumber/rosewood> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/rosewood>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_sequoia", <tfc:wood/lumber/sequoia> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/sequoia>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_spruce", <tfc:wood/lumber/spruce> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/spruce>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_sycamore", <tfc:wood/lumber/sycamore> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/sycamore>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_white_cedar", <tfc:wood/lumber/white_cedar> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/white_cedar>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_willow", <tfc:wood/lumber/willow> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/willow>.giveBack(<betterwithmods:material:22> * 3)]);
+  recipes.addShapeless("tnfc_tfc_lumber_fix_hevea", <tfc:wood/lumber/hevea> * 8, [<ore:saw>.transformDamage(), <tfc:wood/log/hevea>.giveBack(<betterwithmods:material:22> * 3)]);
 
   recipes.remove(<minecraft:bucket>);
   recipes.addShaped("tnfc_vanilla_bucket_fix",<minecraft:bucket>, [[<ore:ingotWroughtIron>, <tfc:metal/bucket/red_steel>.noReturn(), <ore:ingotWroughtIron>], [<ore:ingotWroughtIron>, <tfc:metal/bucket/blue_steel>.noReturn(), <ore:ingotWroughtIron>], [null, <ore:ingotWroughtIron>, null]]);
