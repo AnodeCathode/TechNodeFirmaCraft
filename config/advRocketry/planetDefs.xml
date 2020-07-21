@@ -425,7 +425,7 @@
 				<orbitalPhi>0</orbitalPhi>
 				<atmosphereDensity>37</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-				<biomeIds>minecraft:savanna,nuclearcraft:nuclear_wasteland,minecraft:forest,advancedrocketry:deepswamp,minecraft:birch_forest</biomeIds>
+				<biomeIds>minecraft:savanna,minecraft:forest,advancedrocketry:deepswamp,minecraft:birch_forest</biomeIds>
 			</planet>
 			<planet name="Sol-134: 1" DIMID="136">
 				<isKnown>false</isKnown>
