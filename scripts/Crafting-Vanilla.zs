@@ -13,16 +13,41 @@ val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_
   recipes.addShaped("tnfc_vanillalead_hemp", <minecraft:lead>, [[<betterwithmods:rope>, <betterwithmods:rope>, null], [<betterwithmods:rope>, <betterwithmods:rope>, null], [<betterwithmods:rope>]]);
 
   //Shulker box recipe? Now we have the end, why not
-  recipes.addShaped("tnfc_shulkerbox", <minecraft:purple_shulker_box>, [[null, <minecraft:shulker_shell>, null], [null, <ore:chest>, null], [null, <minecraft:shulker_shell>, null]]);
+  recipes.addShaped("tnfc_shulkerbox", <minecraft:purple_shulker_box>, [[<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <ore:chest>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>]]);
     //probably need all the dying recipes. Bleh.
   
   for i, item in IShulkerBoxArray {
-    recipes.addShapeless("tnfc_shulker_dye", <minecraft:white_shulker_box>, [<ore:dyeWhite>,item]);
+    recipes.addShapeless(<minecraft:white_shulker_box>, [<ore:dyeWhite>,item]);
+    recipes.addShapeless(<minecraft:orange_shulker_box>, [<ore:dyeOrange>,item]);
+    
   }
   
 // This is the final prize:
-  recipes.addShaped("tnfc_youwinthegame_omg", <immersiveengineering:metaldevice0:3>, [[<minecraft:end_rod>,<minecraft:end_rod>,<minecraft:end_rod>],[<minecraft:end_rod>,<minecraft:dragon_egg>.noReturn(),<minecraft:end_rod>],[<minecraft:end_rod>,<minecraft:end_rod>,<minecraft:end_rod>]]);
-
+  recipes.addShaped("tnfc_youwinthegame_omg", <immersiveengineering:metal_device0:3>, [[<minecraft:end_rod>,<minecraft:skull:5>,<minecraft:end_rod>],[<minecraft:ender_chest>,<minecraft:dragon_egg>.noReturn(),<minecraft:ender_chest>],[<minecraft:end_rod>,<minecraft:skull:5>,<minecraft:end_rod>]]);
+ 
+//#REGISTER TFC Size/Heat/Other
+// mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
+    
+    //#SIZE
+    // TINY("tiny"), // Fits in anything
+    // VERY_SMALL("very_small"), // Fits in anything
+    // SMALL("small"), // Fits in small vessels
+    // NORMAL("normal"), // Fits in large vessels
+    // LARGE("large"), // Fits in chests, Pit kilns can hold four
+    // VERY_LARGE("very_large"), // Pit kilns can only hold one
+    // HUGE("huge"); // Counts towards overburdened, fits in nothing
+    
+    //#WEIGHT
+    // VERY_LIGHT("very_light", 64), // Store anywhere stacksize = 64
+    // LIGHT("light", 32),// Store only in chests stacksize = 32
+    // MEDIUM("medium", 16),
+    // HEAVY("heavy", 4),// Store only in chests stacksize = 4
+    // VERY_HEAVY("very_heavy", 1); // Store only in chests stacksize = 1
   //#REGISTER TFC Size/Heat/Other
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:furnace>, "NORMAL", "HEAVY");
+  mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:skull:5>, "HUGE", "VERY_HEAVY");
+  mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:purple_shulker_box>, "HUGE", "VERY_HEAVY");
+  mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:white_shulker_box>, "HUGE", "VERY_HEAVY");
+  mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:orange_shulker_box>, "HUGE", "VERY_HEAVY");
+   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:dragon_egg>, "HUGE", "VERY_HEAVY");
  
