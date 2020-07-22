@@ -1,9 +1,20 @@
 Notes:
-UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
 
 
+- Process world.log and throw into MySQL instance
 
-- End Loot needs fixing!
+- Fly ash brick smelting
+
+butchering increase the chance of drops from hostile mobs
+
+
+- Mob drops?
+
+
+- Chorus Fruit setup and cooking :)
+
+
+powerpack_whitelist
 
 - BwM breakage - Wind chimnes. Sawdust
 
