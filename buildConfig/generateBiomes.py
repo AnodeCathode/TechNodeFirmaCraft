@@ -9,7 +9,6 @@ import os
 import random
 
 BIOMES = [
-    'advancedrocketry:alien',
     'advancedrocketry:crystalchasms',
     'advancedrocketry:deepswamp',
     'advancedrocketry:hotdryrock',
@@ -298,7 +297,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockRepT = newBlockReplacement()
         blockT = forBlock("{BLOCKTOP}")
         blockRepT.set("block", blockT)
-        blockRepT.set("minY", 35)
+        blockRepT.set("minY", 34)
         blockRepT.set("maxY", 254)
         biome.registerGenBlockRep("minecraft:stone", blockRepT)
         
@@ -306,8 +305,8 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockRepM = newBlockReplacement()
         blockM = forBlock("{BLOCKMIDDLE}")
         blockRepM.set("block", blockM)
-        blockRepM.set("minY", 13)
-        blockRepM.set("maxY", 34)
+        blockRepM.set("minY", 12)
+        blockRepM.set("maxY", 36)
         biome.registerGenBlockRep("minecraft:stone", blockRepM)
         
         
@@ -315,7 +314,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockB = forBlock("{BLOCKBOTTOM}")
         blockRepB.set("block", blockB)
         blockRepB.set("minY", 0)
-        blockRepB.set("maxY", 12)
+        blockRepB.set("maxY", 14)
         biome.registerGenBlockRep("minecraft:stone", blockRepB)
         
         
