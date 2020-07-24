@@ -320,6 +320,7 @@ import mods.immersiveengineering.MineralMix;
 	//OutputStack
     //mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:19>);
 	//OutputFluid
+    //mods.immersiveengineering.Squeezer.addRecipe(IItemStack output, ILiquidStack fluid, IIngredient input, int energy);
     mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);  
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <immersiveengineering:seed>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/barley>, 80);
@@ -342,7 +343,8 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/tomato>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/wheat>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/yellow_bell_pepper>, 80);
-    
+    //Make some leather straps
+    mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
 
    
