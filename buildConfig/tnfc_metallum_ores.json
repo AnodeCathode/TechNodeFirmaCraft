@@ -182,7 +182,7 @@
   },
   "magnesite": {
     "ore": "tfc:magnesite",
-    "loose": "tfc:magnesite",
+    "loose": "tfc:rock/phyllite",
     "width": 15,
     "height": 15,
     "shape": "cluster",
@@ -196,7 +196,7 @@
   },
   "spodumene": {
     "ore": "tfc:spodumene",
-    "loose": "tfc:spodumene",
+    "loose": "tfc:rock/andesite",
     "width": 10,
     "height": 25,
     "shape": "cluster",
