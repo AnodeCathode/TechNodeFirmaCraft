@@ -3,18 +3,20 @@ Notes:
 
 - Process world.log and throw into MySQL instance
 
-- Fly ash brick smelting
-
 butchering increase the chance of drops from hostile mobs
 
+- Hunger/thirst from sleeping?
 
 - Mob drops?
 
+- New paper process -  sawdust, bark, glue
+
+- Vanilla Concrete recipe
+
+- add Dilithium and Iridium to propick
 
 - Chorus Fruit setup and cooking :)
-
-
-powerpack_whitelist
+- Check all the vanilla furnace recipes and remove where needed
 
 - BwM breakage - Wind chimnes. Sawdust
 
