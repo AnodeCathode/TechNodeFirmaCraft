@@ -12,7 +12,7 @@
                 <orbitalTheta>45</orbitalTheta>
                 <atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
               </planet>
         </planet>
       <planet name="Planet ZeroZero" DIMID="5" customIcon="earthlike">
@@ -85,7 +85,7 @@
 				<orbitalPhi>0</orbitalPhi>
 				<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
 			</planet>
 			<planet name="Europa" DIMID="106" customIcon="waterworld">
 				<isKnown>false</isKnown>
@@ -122,7 +122,7 @@
 				<orbitalPhi>120</orbitalPhi>
 				<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
 			</planet>
 		</planet>
 		<planet name="Uranus" DIMID="109" customIcon="iceworld">
@@ -134,7 +134,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
 		</planet>
 		<planet name="Neptune" DIMID="110" customIcon="iceworld">
 			<isKnown>false</isKnown>
@@ -219,7 +219,7 @@
 			<biomeIds>advancedrocketry:crystalchasms</biomeIds>
 		</planet>
 	</star>
-  <star name="HD 42176" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+  <star name="HD 42176" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
 		<planet name="KELT-1b" DIMID="117" customIcon="gasgiantblue">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
@@ -258,7 +258,7 @@
 			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
 	</star>
-	<star name="HD 63776" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+	<star name="HD 63776" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
 		<planet name="KELT-4ab" DIMID="120" customIcon="iceworld">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
@@ -308,7 +308,7 @@
 			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
 	</star>
-	<star name="Rigil Kentaurus" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+	<star name="Rigil Kentaurus" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
 		<planet name="Sol-132" DIMID="132">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
@@ -402,7 +402,7 @@
 			</planet>
 		</planet>
 	</star>
-	<star name="Alpha Centauri B" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+	<star name="Alpha Centauri B" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
 		<planet name="Sol-134" DIMID="134">
 			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
