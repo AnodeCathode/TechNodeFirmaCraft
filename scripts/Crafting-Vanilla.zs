@@ -12,10 +12,14 @@ val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_
   
   recipes.addShaped("tnfc_vanillalead_hemp", <minecraft:lead>, [[<betterwithmods:rope>, <betterwithmods:rope>, null], [<betterwithmods:rope>, <betterwithmods:rope>, null], [<betterwithmods:rope>]]);
 
+  //Alternate frame recipe with BwM leather strips made in Squeezer
+  recipes.addShaped("tfc_vanilla_altitem_frame", <minecraft:item_frame>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <betterwithmods:material:8>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
+
   //Shulker box recipe? Now we have the end, why not
   recipes.addShaped("tnfc_shulkerbox", <minecraft:purple_shulker_box>, [[<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <ore:chest>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>]]);
     //probably need all the dying recipes. Bleh.
   
+
   for i, item in IShulkerBoxArray {
     recipes.addShapeless(<minecraft:white_shulker_box>, [<ore:dyeWhite>,item]);
     recipes.addShapeless(<minecraft:orange_shulker_box>, [<ore:dyeOrange>,item]);
