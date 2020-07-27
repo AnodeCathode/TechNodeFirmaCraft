@@ -1,5 +1,9 @@
 Notes:
 
+- Gasoline in wooden buckets
+
+- Electrum grit arc furnace
+
 
 - Process world.log and throw into MySQL instance
 
@@ -11,17 +15,15 @@ butchering increase the chance of drops from hostile mobs
 
 - New paper process -  sawdust, bark, glue
 
-- Vanilla Concrete recipe
 
-- add Dilithium and Iridium to propick
 
-- Chorus Fruit setup and cooking :)
+
+
 - Check all the vanilla furnace recipes and remove where needed
 
 - BwM breakage - Wind chimnes. Sawdust
 
 
-- REDO Loot Tables once AR is added.
 - AMADRON trades for AR stuff??
 
 - Why does bonemeal work in the Cloche?
