@@ -12,7 +12,7 @@
   "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]",
-    "tfc:raw/basalt[can_fall\u003dtrue]"
+    "tfc:raw/phyllite[can_fall\u003dtrue]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
@@ -23,9 +23,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HOT",
+    "WET",
     "WASTELAND",
-    "WET"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

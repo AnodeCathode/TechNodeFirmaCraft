@@ -534,6 +534,46 @@
       "tfc:basalt",
       "tfc:gabbro"
     ]
+  },
+  "dilithium": {
+    "ore": "libvulpes:ore0",
+    "meta": 0,
+    "width": 1,
+    "height": 1,
+    "shape": "cluster",
+    "rarity": 970,
+    "minimum_height": 1,
+    "maximum_height": 10,
+    "density": 75,
+    "base_rocks": [
+      "tfc:shale"
+    ]
+  },
+  "iridium": {
+    "ore": "libvulpes:ore0",
+    "meta": 10,
+    "width": 2,
+    "height": 2,
+    "shape": "cluster",
+    "rarity": 970,
+    "minimum_height": 1,
+    "maximum_height": 10,
+    "density": 75,
+    "base_rocks": [
+      "tfc:shale"
+    ]
+  },
+  "uninspected": {
+    "ore": "rockhounding_chemistry:uninspected_mineral",
+    "width": 2,
+    "height": 2,
+    "shape": "cluster",
+    "rarity": 970,
+    "minimum_height": 1,
+    "maximum_height": 10,
+    "density": 75,
+    "base_rocks": [
+      "tfc:shale"
+    ]
   }
-  
 }

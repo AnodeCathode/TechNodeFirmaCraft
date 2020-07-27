@@ -15,12 +15,13 @@
   recipes.remove(<immersivepetroleum:upgrades:4>);
   recipes.remove(<immersivepetroleum:upgrades>);
 
+
 // ================================================================================
 //#ADD SHAPED
   recipes.addShaped("immersivepetroleum_tool/projector", <immersivepetroleum:schematic>, [[<ore:blockGlassColorless>, null, null], [<tfc:metal/ingot/wrought_iron>, <immersiveengineering:metal_decoration2:4>, null], [null, <tfc:metal/ingot/wrought_iron>, <ore:plankTreatedWood>]]);
   recipes.addShaped("immersivepetroleum_tool/oil_can", <immersivepetroleum:oil_can>, [[null, <ore:dyeRed>, null], [<ore:sheetIron>, <minecraft:bucket>, <ore:sheetIron>]]);
-  recipes.addShaped("immersivepetroleum_stone_decoration/asphalt2", <immersivepetroleum:stone_decoration> * 12, [[<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag>], [<minecraft:gravel>, null, <minecraft:gravel>], [<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag>]]);
-  recipes.addShaped("immersivepetroleum_stone_decoration/asphalt", <immersivepetroleum:stone_decoration> * 8, [[<ore:sand>, <immersivepetroleum:material>, <ore:sand>], [<minecraft:gravel>, null, <minecraft:gravel>], [<ore:sand>, <immersivepetroleum:material>, <ore:sand>]]);
+  recipes.addShaped("immersivepetroleum_stone_decoration/asphalt2", <immersivepetroleum:stone_decoration> * 12, [[<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag>], [<ore:gravel>, null, <ore:gravel>], [<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag>]]);
+  recipes.addShaped("immersivepetroleum_stone_decoration/asphalt", <immersivepetroleum:stone_decoration> * 8, [[<ore:sand>, <immersivepetroleum:material>, <ore:sand>], [<ore:gravel>, null, <ore:gravel>], [<ore:sand>, <immersivepetroleum:material>, <ore:sand>]]);
   recipes.addShaped("immersivepetroleum_speedboat/speedboat", <immersivepetroleum:speedboat>, [[<ore:plankTreatedWood>, <immersiveengineering:material:8>, <immersiveengineering:metal_decoration0:4>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
   recipes.addShaped("immersivepetroleum_speedboat/rudders", <immersivepetroleum:upgrades:3>, [[null, <ore:rodWroughtIron>, <ore:rodWroughtIron>], [<ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>], [<ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>]]);
   recipes.addShaped("immersivepetroleum_speedboat/reinforced_hull", <immersivepetroleum:upgrades>, [[<ore:sheetSteel>, null, <ore:sheetSteel>], [<ore:sheetSteel>, <ore:blockSteel>, <ore:sheetSteel>]]);

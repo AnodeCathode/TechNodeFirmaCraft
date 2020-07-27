@@ -1,0 +1,6 @@
+
+{
+  "Name": "toxic_slime",
+  "Registry ID": "rockhounding_chemistry:toxic_slime",
+  "Class": "com.globbypotato.rockhounding_chemistry.entities.EntityToxicSlime"
+}
