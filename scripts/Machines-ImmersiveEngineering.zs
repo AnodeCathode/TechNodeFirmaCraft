@@ -60,7 +60,26 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/dust/blue_steel>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/titanium>, <tfc:metal/dust/titanium>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/tungsten>, <tfc:metal/dust/tungsten>, 1198, <immersiveengineering:material:7>);
-    //Iron Block to Steel
+<
+    //vanilla concrete powder to concrete recipes
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:0>, <minecraft:concrete_powder:0>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:1>, <minecraft:concrete_powder:1>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:2>, <minecraft:concrete_powder:2>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:3>, <minecraft:concrete_powder:3>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:4>, <minecraft:concrete_powder:4>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:5>, <minecraft:concrete_powder:5>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:6>, <minecraft:concrete_powder:6>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:7>, <minecraft:concrete_powder:7>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:8>, <minecraft:concrete_powder:8>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:9>, <minecraft:concrete_powder:9>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:10>, <minecraft:concrete_powder:10>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:11>, <minecraft:concrete_powder:11>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:12>, <minecraft:concrete_powder:12>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:13>, <minecraft:concrete_powder:13>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, 598);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, 598);
+ 
+ //Iron Block to Steel
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <minecraft:iron_block>, 4186, <immersiveengineering:material:7>);
 // ArcFurnace
@@ -101,7 +120,25 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 9, <tfc:metal/ingot/tin>, null, 200, 512, [<tfc:metal/ingot/copper> * 8], "Alloying");
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 9, <tfc:metal/ingot/gold> * 7, null, 200, 512, [<tfc:metal/ingot/copper> * 2], "Alloying");
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 9, <tfc:metal/ingot/silver> * 6, null, 200, 512, [<tfc:metal/ingot/copper> * 3], "Alloying");
-    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:ingotGold>, null, 200, 512, [<ore:ingotSilver>], "Alloying");   
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:ingotGold>, null, 200, 512, [<ore:ingotSilver>], "Alloying");  
+    
+    //vanilla concrete powder to concrete recipes
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:0>, <minecraft:concrete_powder:0>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:1>, <minecraft:concrete_powder:1>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:2>, <minecraft:concrete_powder:2>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:3>, <minecraft:concrete_powder:3>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:4>, <minecraft:concrete_powder:4>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:5>, <minecraft:concrete_powder:5>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:6>, <minecraft:concrete_powder:6>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:7>, <minecraft:concrete_powder:7>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:8>, <minecraft:concrete_powder:8>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:9>, <minecraft:concrete_powder:9>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:10>, <minecraft:concrete_powder:10>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:11>, <minecraft:concrete_powder:11>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:12>, <minecraft:concrete_powder:12>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:13>, <minecraft:concrete_powder:13>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, null, 200, 512);
     
     // Alloys from Dust
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 9, <tfc:metal/dust/bismuth>, null, 200, 512, [<tfc:metal/dust/copper> * 6, <tfc:metal/dust/zinc> * 2], "Alloying");
