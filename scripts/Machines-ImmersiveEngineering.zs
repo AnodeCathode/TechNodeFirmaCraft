@@ -113,8 +113,11 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:dustGold>, null, 200, 512, [<ore:dustSilver>], "Alloying");   
    
    // Specials
-   mods.immersiveengineering.ArcFurnace.addRecipe(<rockhounding_chemistry:misc_items:37>,<rockhounding_chemistry:misc_items:36>, null, 200, 512);
    
+   //RH Fly Ash Ball to Fly Ash Brick
+   mods.immersiveengineering.ArcFurnace.addRecipe(<rockhounding_chemistry:misc_items:37>, <rockhounding_chemistry:misc_items:36>, null, 200, 512);
+   //IE Electrum Grit to Ingot
+   mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum>, <immersiveengineering:metal:16>, null, 200, 512);
 // Kiln
 
 // Crusher  
