@@ -1,3 +1,94 @@
+<block:advancedrocketry:advrocketmotor>, Advanced Rocket Engine
+<block:advancedrocketry:airlock_door>, item.smallAirlockDoor.name
+<block:advancedrocketry:alienleaves>, Lightwood Leaves
+<block:advancedrocketry:aliensapling>, Lightwood Sapling
+<block:advancedrocketry:alienwood>, Wood
+<block:advancedrocketry:altitudecontroller>, Altitude Controller
+<block:advancedrocketry:arcfurnace>, Electric Arc Furnace
+<block:advancedrocketry:astrobed>, tile.astroBed.name
+<block:advancedrocketry:basalt>, Basalt
+<block:advancedrocketry:beacon>, Beacon
+<block:advancedrocketry:biomescanner>, Biome Scanner
+<block:advancedrocketry:blackholegenerator>, Black Hole Generator
+<block:advancedrocketry:blastbrick>, HeatProof Brick
+<block:advancedrocketry:blocklens>, Lens
+<block:advancedrocketry:blockpump>, Fluid Pump
+<block:advancedrocketry:centrifuge>, Centrifuge
+<block:advancedrocketry:charcoallog>, Charcoal Log
+<block:advancedrocketry:chemicalreactor>, Chemical Reactor
+<block:advancedrocketry:circlelight>, Station Light
+<block:advancedrocketry:concrete>, Concrete
+<block:advancedrocketry:crystal>, tile.crystal.name
+<block:advancedrocketry:crystallizer>, Crystallizer
+<block:advancedrocketry:cuttingmachine>, Cutting Machine
+<block:advancedrocketry:deployablerocketbuilder>, Unmanned Vehicle Assembler
+<block:advancedrocketry:drill>, Drill
+<block:advancedrocketry:electricmushroom>, Electric Mushroom
+<block:advancedrocketry:electrolyser>, Electrolyser
+<block:advancedrocketry:enrichedlavafluid>, Enriched Lava Block
+<block:advancedrocketry:forcefield>, Force Field
+<block:advancedrocketry:forcefieldprojector>, Force Field Projector
+<block:advancedrocketry:fuelingstation>, Fueling station
+<block:advancedrocketry:fueltank>, Liquid Fuel Tank
+<block:advancedrocketry:geode>, Geode Block
+<block:advancedrocketry:gravitycontroller>, Station Gravity Controller
+<block:advancedrocketry:gravitymachine>, Area Gravity Controller
+<block:advancedrocketry:guidancecomputer>, Guidance Computer
+<block:advancedrocketry:hotturf>, Oxidized Ferric Sand
+<block:advancedrocketry:hydrogenfluid>, Hydrogen
+<block:advancedrocketry:intake>, Gas Intake
+<block:advancedrocketry:landingfloat>, Landing Float
+<block:advancedrocketry:landingpad>, Docking Pad
+<block:advancedrocketry:lathe>, Lathe
+<block:advancedrocketry:launchpad>, Launch Pad
+<block:advancedrocketry:lightsource>, tile.lightSource.name
+<block:advancedrocketry:liquidtank>, Pressurized Tank
+<block:advancedrocketry:loader>, tile.loader.name
+<block:advancedrocketry:metal0>, tile.metal.name
+<block:advancedrocketry:microwavereciever>, Microwave Receiver
+<block:advancedrocketry:monitoringstation>, Rocket Monitoring Station
+<block:advancedrocketry:moonturf>, Moon Turf
+<block:advancedrocketry:moonturf_dark>, Dark Moon Turf
+<block:advancedrocketry:nitrogenfluid>, Nitrogen
+<block:advancedrocketry:observatory>, Observatory
+<block:advancedrocketry:orientationcontroller>, Orientation Controller
+<block:advancedrocketry:oxygencharger>, Gas Charge Pad
+<block:advancedrocketry:oxygendetection>, Atmosphere Detector
+<block:advancedrocketry:oxygenfluid>, Oxygen
+<block:advancedrocketry:oxygenscrubber>, CO2 Scrubber
+<block:advancedrocketry:oxygenvent>, Oxygen Vent
+<block:advancedrocketry:pipesealer>, Pipe Seal
+<block:advancedrocketry:planetanalyser>, Astrobody Data Processor
+<block:advancedrocketry:planetholoselector>, Holographic Planet Selector
+<block:advancedrocketry:planetselector>, Planet Selector
+<block:advancedrocketry:planks>, Lightwood planks
+<block:advancedrocketry:platepress>, Small Plate Presser
+<block:advancedrocketry:precisionassemblingmachine>, Precision Assembler
+<block:advancedrocketry:quartzcrucible>, Quartz Crucible
+<block:advancedrocketry:railgun>, Railgun
+<block:advancedrocketry:rocketbuilder>, Rocket Assembling Machine
+<block:advancedrocketry:rocketfuel>, Rocket Fuel
+<block:advancedrocketry:rocketmotor>, Liquid Fueled Engine
+<block:advancedrocketry:rollingmachine>, Rolling Machine
+<block:advancedrocketry:satellitebuilder>, Satellite Builder
+<block:advancedrocketry:satellitecontrolcenter>, Satellite Terminal
+<block:advancedrocketry:sawblade>, Saw Blade Assembly
+<block:advancedrocketry:seat>, Seat
+<block:advancedrocketry:solargenerator>, Solar Generator
+<block:advancedrocketry:solarpanel>, Solar Panel
+<block:advancedrocketry:spaceelevatorcontroller>, Space Elevator
+<block:advancedrocketry:spacelaser>, Orbital Laser Drill
+<block:advancedrocketry:stationbuilder>, Space Station Assembler
+<block:advancedrocketry:stationmarker>, Station Docking Port
+<block:advancedrocketry:structuretower>, Structure Tower
+<block:advancedrocketry:suitworkstation>, Suit Workstation
+<block:advancedrocketry:terraformer>, Atmosphere Terraformer
+<block:advancedrocketry:thermitetorch>, Thermite Torch
+<block:advancedrocketry:unlittorch>, Extinguished Torch
+<block:advancedrocketry:vitrifiedsand>, Vitrified Sand
+<block:advancedrocketry:warpcore>, Warp Core
+<block:advancedrocketry:warpmonitor>, Warp Controller
+<block:advancedrocketry:wirelesstransciever>, Wireless Transceiver
 <block:betterwithengineering:ie_corner>, tile.bwmneering:ie_corner.name
 <block:betterwithengineering:ie_moulding>, tile.bwmneering:ie_moulding.name
 <block:betterwithengineering:ie_siding>, tile.bwmneering:ie_siding.name
@@ -17,13 +108,8 @@
 <block:betterwithmods:cobblestone>, tile.bwm:cobble.name
 <block:betterwithmods:companion_cube>, Companion Cube
 <block:betterwithmods:cooking_pot>, tile.bwm:cooking_pot.name
-<block:betterwithmods:corner_iron>, %s Corner
-<block:betterwithmods:corner_rock>, %s Corner
-<block:betterwithmods:corner_wood>, %s Corner
 <block:betterwithmods:creative_generator>, Creative Mechanical Generator
 <block:betterwithmods:detector>, Detector Block
-<block:betterwithmods:detector_rail_steel>, Soulforged Steel Detector Rail
-<block:betterwithmods:detector_rail_stone>, Stone Detector Rail
 <block:betterwithmods:dirt_slab>, tile.bwm:dirt_slab.name
 <block:betterwithmods:fertile_farmland>, Fertile Farmland
 <block:betterwithmods:grate>, tile.bwm:grate.name
@@ -36,30 +122,17 @@
 <block:betterwithmods:kiln>, Kiln
 <block:betterwithmods:lens>, Lens Focus
 <block:betterwithmods:light>, Light Block
-<block:betterwithmods:long_friend>, Long Friend
 <block:betterwithmods:metal_chime>, tile.bwm:metal_chime.name
 <block:betterwithmods:mining_charge>, Mining Charge
-<block:betterwithmods:moulding_iron>, %s Moulding
-<block:betterwithmods:moulding_rock>, %s Moulding
-<block:betterwithmods:moulding_wood>, %s Moulding
 <block:betterwithmods:nether_clay>, Nether Sludge Block
 <block:betterwithmods:nether_growth>, Nether Growth Spore
 <block:betterwithmods:planter>, tile.bwm:planter.name
 <block:betterwithmods:platform>, Platform
 <block:betterwithmods:raw_pastry>, tile.bwm:raw_pastry.name
 <block:betterwithmods:rope>, Hemp Rope
-<block:betterwithmods:sapling_crop_acacia>, tile.bwm:sapling_crop_acacia.name
-<block:betterwithmods:sapling_crop_birch>, tile.bwm:sapling_crop_birch.name
-<block:betterwithmods:sapling_crop_dark_oak>, tile.bwm:sapling_crop_dark_oak.name
-<block:betterwithmods:sapling_crop_jungle>, tile.bwm:sapling_crop_jungle.name
-<block:betterwithmods:sapling_crop_oak>, tile.bwm:sapling_crop_oak.name
-<block:betterwithmods:sapling_crop_spruce>, tile.bwm:sapling_crop_spruce.name
 <block:betterwithmods:saw>, Saw
 <block:betterwithmods:screw_pump>, Screw Pump
 <block:betterwithmods:shaft>, Shaft
-<block:betterwithmods:siding_iron>, %s Siding
-<block:betterwithmods:siding_rock>, %s Siding
-<block:betterwithmods:siding_wood>, %s Siding
 <block:betterwithmods:single_machine>, tile.bwm:single_machine.name
 <block:betterwithmods:slats>, tile.bwm:slats.name
 <block:betterwithmods:stake>, Stake
@@ -115,6 +188,27 @@
 <block:customnpcs:npcscripted>, Scripted Block
 <block:customnpcs:npcscripteddoor>, item.npcscripteddoor.name
 <block:customnpcs:npcwaypoint>, Location Quest Block
+<block:debark:debarked_log_minecraft_log>, tile.null.name
+<block:debark:debarked_log_minecraft_log2>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_acacia>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_ash>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_aspen>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_birch>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_blackwood>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_chestnut>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_douglas_fir>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_hickory>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_kapok>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_maple>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_oak>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_palm>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_pine>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_rosewood>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_sequoia>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_spruce>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_sycamore>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_white_cedar>, tile.null.name
+<block:debark:debarked_log_tfc_wood_log_willow>, tile.null.name
 <block:horsepower:chopper>, Horse Chopping Block
 <block:horsepower:chopper_filler>, tile.null.name
 <block:horsepower:chopping_block>, Chopping Block
@@ -179,12 +273,32 @@
 <block:immersivetech:connectors>, tile.immersivetech.connectors.name
 <block:immersivetech:fluiddistwater>, Distilled Water
 <block:immersivetech:fluidsteam>, Steam
+<block:immersivetech:metal_barrel>, tile.immersivetech.metal_barrel.name
 <block:immersivetech:metal_device>, tile.immersivetech.metal_device.name
 <block:immersivetech:metal_multiblock>, tile.immersivetech.metal_multiblock.name
+<block:immersivetech:metal_trash>, tile.immersivetech.metal_trash.name
 <block:immersivetech:stone_decoration>, tile.immersivetech.stone_decoration.name
+<block:immersivetech:stone_decoration_slab>, tile.immersivetech.stone_decoration_slab.name
 <block:immersivetech:stone_multiblock>, tile.immersivetech.stone_multiblock.name
+<block:immersivetech:valve>, tile.immersivetech.valve.name
+<block:immersivetech:wooden_crate>, tile.immersivetech.wooden_crate.name
 <block:jaff:tank>, Fish Tank
-<block:landmanager:home>, Home Block
+<block:libvulpes:advancedmotor>, Advanced Motor
+<block:libvulpes:advstructuremachine>, Advanced Machine Structure
+<block:libvulpes:blockphantom>, tile.blockPhantom.name
+<block:libvulpes:coalgenerator>, Coal Generator
+<block:libvulpes:coil0>, tile.coil.name
+<block:libvulpes:creativepowerbattery>, Creative Power Input Plug
+<block:libvulpes:elitemotor>, Elite Motor
+<block:libvulpes:enhancedmotor>, Enhanced Motor
+<block:libvulpes:forgepowerinput>, Power Input Plug
+<block:libvulpes:forgepoweroutput>, Power Output Plug
+<block:libvulpes:hatch>, tile.hatch.name
+<block:libvulpes:metal0>, tile.metal.name
+<block:libvulpes:motor>, Motor
+<block:libvulpes:ore0>, tile.ore.name
+<block:libvulpes:placeholder>, Machine
+<block:libvulpes:structuremachine>, Machine Structure
 <block:mcjtylib_ng:multipart>, tile.mcjtylib_ng.multipart.name
 <block:minecraft:acacia_door>, Acacia Door
 <block:minecraft:acacia_fence>, Acacia Fence
@@ -192,7 +306,7 @@
 <block:minecraft:acacia_stairs>, Acacia Wood Stairs
 <block:minecraft:activator_rail>, Activator Rail
 <block:minecraft:air>, Air
-<block:minecraft:anvil>, Deadweight
+<block:minecraft:anvil>, Anvil
 <block:minecraft:barrier>, Barrier
 <block:minecraft:beacon>, Beacon
 <block:minecraft:bed>, tile.bed.name
@@ -231,7 +345,7 @@
 <block:minecraft:cobblestone_wall>, Cobblestone Wall
 <block:minecraft:cocoa>, Cocoa
 <block:minecraft:command_block>, Command Block
-<block:minecraft:concrete>, tile.concrete.name
+<block:minecraft:concrete>, Concrete
 <block:minecraft:concrete_powder>, tile.concretePowder.name
 <block:minecraft:crafting_table>, Crafting Table
 <block:minecraft:cyan_glazed_terracotta>, Cyan Glazed Terracotta
@@ -243,7 +357,7 @@
 <block:minecraft:daylight_detector>, Daylight Sensor
 <block:minecraft:daylight_detector_inverted>, Daylight Sensor
 <block:minecraft:deadbush>, Dead Bush
-<block:minecraft:detector_rail>, Wooden Detector Rail
+<block:minecraft:detector_rail>, Detector Rail
 <block:minecraft:diamond_block>, Block of Diamond
 <block:minecraft:diamond_ore>, Diamond Ore
 <block:minecraft:dirt>, Dirt
@@ -270,9 +384,9 @@
 <block:minecraft:fire>, Fire
 <block:minecraft:flower_pot>, Flower Pot
 <block:minecraft:flowing_lava>, Lava
-<block:minecraft:flowing_water>, Water
+<block:minecraft:flowing_water>, Rainwater
 <block:minecraft:frosted_ice>, Frosted Ice
-<block:minecraft:furnace>, Furnace
+<block:minecraft:furnace>, Steel Furnace
 <block:minecraft:glass>, Glass
 <block:minecraft:glass_pane>, Glass Pane
 <block:minecraft:glowstone>, Glowstone
@@ -313,7 +427,7 @@
 <block:minecraft:light_weighted_pressure_plate>, Weighted Pressure Plate (Light)
 <block:minecraft:lime_glazed_terracotta>, Lime Glazed Terracotta
 <block:minecraft:lime_shulker_box>, Lime Shulker Box
-<block:minecraft:lit_furnace>, Furnace
+<block:minecraft:lit_furnace>, Steel Furnace
 <block:minecraft:lit_pumpkin>, Jack o'Lantern
 <block:minecraft:lit_redstone_lamp>, Redstone Lamp
 <block:minecraft:lit_redstone_ore>, Redstone Ore
@@ -426,7 +540,7 @@
 <block:minecraft:vine>, Vines
 <block:minecraft:wall_banner>, White Banner
 <block:minecraft:wall_sign>, Sign
-<block:minecraft:water>, Water
+<block:minecraft:water>, Rainwater
 <block:minecraft:waterlily>, Lily Pad
 <block:minecraft:web>, Cobweb
 <block:minecraft:wheat>, Crops
@@ -440,33 +554,23 @@
 <block:minecraft:yellow_flower>, Flower
 <block:minecraft:yellow_glazed_terracotta>, Yellow Glazed Terracotta
 <block:minecraft:yellow_shulker_box>, Yellow Shulker Box
-<block:openblocks:auto_anvil>, Auto Anvil
-<block:openblocks:auto_enchantment_table>, Auto Enchantment Table
 <block:openblocks:beartrap>, Bear Trap
 <block:openblocks:big_button>, Stone Big Button
 <block:openblocks:big_button_wood>, Wooden Big Button
 <block:openblocks:block_breaker>, Block Breaker
 <block:openblocks:block_placer>, Block Placer
 <block:openblocks:builder_guide>, Enhanced Building Guide
-<block:openblocks:canvas_glass>, Canvas
 <block:openblocks:donation_station>, Donation Station
-<block:openblocks:drawing_table>, Drawing Table
 <block:openblocks:flag>, Flag
-<block:openblocks:golden_egg>, Golden Egg
+<block:openblocks:grave>, Grave
 <block:openblocks:item_dropper>, Item Dropper
 <block:openblocks:ladder>, Jaded Ladder
-<block:openblocks:paint_can>, Paint Can
-<block:openblocks:paint_mixer>, Paint Mixer
 <block:openblocks:path>, Path
 <block:openblocks:rope_ladder>, Rope Ladder
 <block:openblocks:scaffolding>, Scaffolding
 <block:openblocks:tank>, Tank
 <block:openblocks:target>, Target
 <block:openblocks:trophy>, Trophy
-<block:openblocks:vacuum_hopper>, Vacuum Hopper
-<block:openblocks:xp_bottler>, XP Bottler
-<block:openblocks:xp_drain>, XP Drain
-<block:openblocks:xp_shower>, XP Shower
 <block:pneumaticcraft:advanced_air_compressor>, Advanced Air Compressor
 <block:pneumaticcraft:advanced_liquid_compressor>, Advanced Liquid Compressor
 <block:pneumaticcraft:advanced_pressure_tube>, Advanced Pressure Tube
@@ -576,6 +680,7 @@
 <block:rockhounding_chemistry:fluid.nitrogen>, Nitrogen
 <block:rockhounding_chemistry:fluid.organic_slurry>, Organic Slurry
 <block:rockhounding_chemistry:fluid.oxygen>, Oxygen
+<block:rockhounding_chemistry:fluid.propylene>, Propylene
 <block:rockhounding_chemistry:fluid.raw_flue_gas>, Raw Flue Gas
 <block:rockhounding_chemistry:fluid.raw_syngas>, Raw Syngas
 <block:rockhounding_chemistry:fluid.refined_air>, Refined Air
@@ -585,6 +690,7 @@
 <block:rockhounding_chemistry:fluid.sodium_hydroxide>, Sodium Hydroxide
 <block:rockhounding_chemistry:fluid.sulfuric_acid>, Sulfuric Acid
 <block:rockhounding_chemistry:fluid.syngas>, Syngas
+<block:rockhounding_chemistry:fluid.thin_air>, Thin Air (Dummy Filter)
 <block:rockhounding_chemistry:fluid.toxic_sludge>, Toxic Sludge
 <block:rockhounding_chemistry:fluid.toxic_waste>, Toxic Waste
 <block:rockhounding_chemistry:fluid.virgin_water>, Virgin Water
@@ -598,6 +704,7 @@
 <block:rockhounding_chemistry:machines_c>, tile.rockhounding_chemistry:machines_c.name
 <block:rockhounding_chemistry:machines_d>, tile.rockhounding_chemistry:machines_d.name
 <block:rockhounding_chemistry:machines_e>, tile.rockhounding_chemistry:machines_e.name
+<block:rockhounding_chemistry:machines_f>, tile.rockhounding_chemistry:machines_f.name
 <block:rockhounding_chemistry:mineral_ores>, tile.rockhounding_chemistry:mineral_ores.name
 <block:rockhounding_chemistry:misc_blocks_a>, tile.rockhounding_chemistry:misc_blocks_a.name
 <block:rockhounding_chemistry:pipeline_duct>, Fluid Pipeline Duct
@@ -613,6 +720,9 @@
 <block:signpost:blockbasemodel2>, Waystone
 <block:signpost:blockbasemodel3>, Waystone
 <block:signpost:blockbasemodel4>, Waystone
+<block:signpost:blockbasemodel5>, Waystone
+<block:signpost:blockbasemodel6>, Waystone
+<block:signpost:blockbasemodel7>, Waystone
 <block:signpost:blockbigpostacacia>, Large acacia Signpost
 <block:signpost:blockbigpostbigoak>, Large dark oak Signpost
 <block:signpost:blockbigpostbirch>, Large birch Signpost
@@ -688,7 +798,7 @@
 <block:tfc:alabaster/raw/silver>, Light Gray Alabaster
 <block:tfc:alabaster/raw/white>, White Alabaster
 <block:tfc:alabaster/raw/yellow>, Yellow Alabaster
-<block:tfc:anvil/aluminium>, tile.tfc.anvil.aluminium.name
+<block:tfc:anvil/aluminum>, tile.tfc.anvil.aluminum.name
 <block:tfc:anvil/andesite>, tile.tfc.anvil.andesite.name
 <block:tfc:anvil/basalt>, tile.tfc.anvil.basalt.name
 <block:tfc:anvil/bismuth_bronze>, tile.tfc.anvil.bismuth_bronze.name
@@ -704,7 +814,6 @@
 <block:tfc:anvil/granite>, tile.tfc.anvil.granite.name
 <block:tfc:anvil/invar>, tile.tfc.anvil.invar.name
 <block:tfc:anvil/manyullyn>, tile.tfc.anvil.manyullyn.name
-<block:tfc:anvil/mithril>, tile.tfc.anvil.mithril.name
 <block:tfc:anvil/nickel_silver>, tile.tfc.anvil.nickel_silver.name
 <block:tfc:anvil/osmium>, tile.tfc.anvil.osmium.name
 <block:tfc:anvil/red_steel>, tile.tfc.anvil.red_steel.name
@@ -1007,8 +1116,8 @@
 <block:tfc:fire_bricks>, Fire Bricks
 <block:tfc:fire_clay_block>, Fire Clay
 <block:tfc:firepit>, Firepit
-<block:tfc:fluid/aluminium>, tile.tfc.fluid.aluminium.name
-<block:tfc:fluid/aluminium_brass>, tile.tfc.fluid.aluminium_brass.name
+<block:tfc:fluid/aluminum>, tile.tfc.fluid.aluminum.name
+<block:tfc:fluid/aluminum_brass>, tile.tfc.fluid.aluminum_brass.name
 <block:tfc:fluid/antimony>, tile.tfc.fluid.antimony.name
 <block:tfc:fluid/ardite>, tile.tfc.fluid.ardite.name
 <block:tfc:fluid/beer>, tile.tfc.fluid.beer.name
@@ -1050,7 +1159,6 @@
 <block:tfc:fluid/milk>, tile.tfc.fluid.milk.name
 <block:tfc:fluid/milk_curdled>, tile.tfc.fluid.milk_curdled.name
 <block:tfc:fluid/milk_vinegar>, tile.tfc.fluid.milk_vinegar.name
-<block:tfc:fluid/mithril>, tile.tfc.fluid.mithril.name
 <block:tfc:fluid/nickel>, tile.tfc.fluid.nickel.name
 <block:tfc:fluid/nickel_silver>, tile.tfc.fluid.nickel_silver.name
 <block:tfc:fluid/olive_oil>, tile.tfc.fluid.olive_oil.name
@@ -1167,8 +1275,8 @@
 <block:tfc:gravel/shale>, Shale Gravel
 <block:tfc:gravel/slate>, Slate Gravel
 <block:tfc:ingot_pile>, tile.tfc.ingot_pile.name
-<block:tfc:lamp/aluminium>, tile.tfc.lamp.aluminium.name
-<block:tfc:lamp/aluminium_brass>, tile.tfc.lamp.aluminium_brass.name
+<block:tfc:lamp/aluminum>, tile.tfc.lamp.aluminum.name
+<block:tfc:lamp/aluminum_brass>, tile.tfc.lamp.aluminum_brass.name
 <block:tfc:lamp/antimony>, tile.tfc.lamp.antimony.name
 <block:tfc:lamp/ardite>, tile.tfc.lamp.ardite.name
 <block:tfc:lamp/bismuth>, Bismuth Lamp
@@ -1186,7 +1294,6 @@
 <block:tfc:lamp/invar>, tile.tfc.lamp.invar.name
 <block:tfc:lamp/lead>, Lead Lamp
 <block:tfc:lamp/manyullyn>, tile.tfc.lamp.manyullyn.name
-<block:tfc:lamp/mithril>, tile.tfc.lamp.mithril.name
 <block:tfc:lamp/nickel>, Nickel Lamp
 <block:tfc:lamp/nickel_silver>, tile.tfc.lamp.nickel_silver.name
 <block:tfc:lamp/osmium>, tile.tfc.lamp.osmium.name
@@ -1879,6 +1986,27 @@
 <block:tfc:ore/olivine/schist>, Schist Olivine
 <block:tfc:ore/olivine/shale>, Shale Olivine
 <block:tfc:ore/olivine/slate>, Slate Olivine
+<block:tfc:ore/ore0/andesite>, tile.tfc.ore.ore0.andesite.name
+<block:tfc:ore/ore0/basalt>, tile.tfc.ore.ore0.basalt.name
+<block:tfc:ore/ore0/chalk>, tile.tfc.ore.ore0.chalk.name
+<block:tfc:ore/ore0/chert>, tile.tfc.ore.ore0.chert.name
+<block:tfc:ore/ore0/claystone>, tile.tfc.ore.ore0.claystone.name
+<block:tfc:ore/ore0/conglomerate>, tile.tfc.ore.ore0.conglomerate.name
+<block:tfc:ore/ore0/dacite>, tile.tfc.ore.ore0.dacite.name
+<block:tfc:ore/ore0/diorite>, tile.tfc.ore.ore0.diorite.name
+<block:tfc:ore/ore0/dolomite>, tile.tfc.ore.ore0.dolomite.name
+<block:tfc:ore/ore0/gabbro>, tile.tfc.ore.ore0.gabbro.name
+<block:tfc:ore/ore0/gneiss>, tile.tfc.ore.ore0.gneiss.name
+<block:tfc:ore/ore0/granite>, tile.tfc.ore.ore0.granite.name
+<block:tfc:ore/ore0/limestone>, tile.tfc.ore.ore0.limestone.name
+<block:tfc:ore/ore0/marble>, tile.tfc.ore.ore0.marble.name
+<block:tfc:ore/ore0/phyllite>, tile.tfc.ore.ore0.phyllite.name
+<block:tfc:ore/ore0/quartzite>, tile.tfc.ore.ore0.quartzite.name
+<block:tfc:ore/ore0/rhyolite>, tile.tfc.ore.ore0.rhyolite.name
+<block:tfc:ore/ore0/rocksalt>, tile.tfc.ore.ore0.rocksalt.name
+<block:tfc:ore/ore0/schist>, tile.tfc.ore.ore0.schist.name
+<block:tfc:ore/ore0/shale>, tile.tfc.ore.ore0.shale.name
+<block:tfc:ore/ore0/slate>, tile.tfc.ore.ore0.slate.name
 <block:tfc:ore/petrified_wood/andesite>, Andesite Petrified Wood
 <block:tfc:ore/petrified_wood/basalt>, Basalt Petrified Wood
 <block:tfc:ore/petrified_wood/chalk>, Chalk Petrified Wood
@@ -2309,6 +2437,7 @@
 <block:tfc:plants/water_canna>, Water Canna
 <block:tfc:plants/water_lily>, Water Lily
 <block:tfc:plants/yucca>, Yucca
+<block:tfc:powderkeg>, Powderkeg
 <block:tfc:quern>, Quern
 <block:tfc:raw/andesite>, Raw Andesite
 <block:tfc:raw/basalt>, Raw Basalt
@@ -2353,8 +2482,8 @@
 <block:tfc:sand/shale>, Shale Sand
 <block:tfc:sand/slate>, Slate Sand
 <block:tfc:sea_ice>, Sea Ice
-<block:tfc:sheet/aluminium>, tile.tfc.sheet.aluminium.name
-<block:tfc:sheet/aluminium_brass>, tile.tfc.sheet.aluminium_brass.name
+<block:tfc:sheet/aluminum>, tile.tfc.sheet.aluminum.name
+<block:tfc:sheet/aluminum_brass>, tile.tfc.sheet.aluminum_brass.name
 <block:tfc:sheet/antimony>, tile.tfc.sheet.antimony.name
 <block:tfc:sheet/ardite>, tile.tfc.sheet.ardite.name
 <block:tfc:sheet/bismuth>, tile.tfc.sheet.bismuth.name
@@ -2372,7 +2501,6 @@
 <block:tfc:sheet/invar>, tile.tfc.sheet.invar.name
 <block:tfc:sheet/lead>, tile.tfc.sheet.lead.name
 <block:tfc:sheet/manyullyn>, tile.tfc.sheet.manyullyn.name
-<block:tfc:sheet/mithril>, tile.tfc.sheet.mithril.name
 <block:tfc:sheet/nickel>, tile.tfc.sheet.nickel.name
 <block:tfc:sheet/nickel_silver>, tile.tfc.sheet.nickel_silver.name
 <block:tfc:sheet/osmium>, tile.tfc.sheet.osmium.name
@@ -3054,7 +3182,6 @@
 <block:tfctech:smeltery_cauldron>, Smeltery Cauldron
 <block:tfctech:smeltery_firebox>, Smeltery Firebox
 <block:tfctech:wire_draw_bench>, Wire Drawing Bench
-<block:tombmanygraves:grave_block>, Player Grave (Sneak Over Me)
 <block:wearablebackpacks:backpack>, Backpack
 <block:xnet:advanced_connector>, Advanced Connector
 <block:xnet:antenna>, Antenna
@@ -3068,3 +3195,7 @@
 <block:xnet:redstone_proxy_upd>, Redstone Proxy (update)
 <block:xnet:router>, Router
 <block:xnet:wireless_router>, Wireless Router
+<block:yabba:antibarrel>, AntiBarrel
+<block:yabba:decorative_block>, Decorative Block
+<block:yabba:item_barrel>, Item Barrel
+<block:yabba:item_barrel_connector>, Item Barrel Connector

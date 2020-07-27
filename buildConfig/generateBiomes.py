@@ -9,7 +9,6 @@ import os
 import random
 
 BIOMES = [
-    'advancedrocketry:alien',
     'advancedrocketry:crystalchasms',
     'advancedrocketry:deepswamp',
     'advancedrocketry:hotdryrock',
@@ -138,6 +137,39 @@ FLUIDS = {
 }
 
 
+def makehellbiomes():
+    biomefile = "minecraft_hell"
+    p = os.path.join("biome", biomefile) + '.cfg'
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+
+    strHellBiome = """
+    
+
+        # VALID setStage: PRE_INIT, BIOME_REGISTRY, INIT, POST_INIT, FINISHED_LOAD, SERVER_STARTING, SERVER_STARTED
+        # Biome setPlacementStage: ***BIOME_BLOCKS -> PRE_POPULATE -> PRE_DECORATE -> PRE_ORES -> POST_ORES -> POST_DECORATE -> POST_POPULATE
+        
+        # Decorations:"BIG_SHROOM", "CACTUS", "CLAY", "DEAD_BUSH", "DESERT_WELL", "LILYPAD", "FLOWERS", "FOSSIL", "GRASS", "ICE", "LAKE_WATER", "LAKE_LAVA", "PUMPKIN", "REED", "ROCK", "SAND", "SAND_PASS2", "SHROOM", "TREE", "CUSTOM"
+        # Features: "DUNGEON", "FIRE", "GLOWSTONE", "ICE", "LAKE", "LAVA", "NETHER_LAVA", "NETHER_LAVA2", "NETHER_MAGMA", "ANIMALS", and "CUSTOM".
+        
+        #Specify ids
+        biome = forBiomes("minecraft:hell") 
+        Tweaker.setWorld(-1)                                 
+        Tweaker.setPlacementStage("PRE_DECORATE")       
+        blockRepG = newBlockReplacement()
+        blockG = forBlock("tfc:gravel/marble")
+        blockRepG.set("block", blockG)
+        blockRepG.set("minY", 1)
+        blockRepG.set("maxY", 254)
+        biome.registerGenBlockRep("minecraft:gravel", blockRepG)
+         
+        
+    
+    """
+    f = open(p, "w")
+    f.write(strHellBiome)
+    f.close()
+
+
 def makeallbiomes():
     biomefile = "allbiomes"
     p = os.path.join("biome", biomefile) + '.cfg'
@@ -224,9 +256,6 @@ def writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         biome.set("oceanTopBlock", blockOF)
         biome.set("oceanFillerBlock", blockOT)
         
-        Tweaker.setPlacementStage("PRE_DECORATE") 
-        replacement = newBlockReplacement()
-
         Tweaker.setPlacementStage("PRE_DECORATE")              
         replacement = newBlockReplacement()
         replacement.set("block", "{WATER}")
@@ -298,7 +327,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockRepT = newBlockReplacement()
         blockT = forBlock("{BLOCKTOP}")
         blockRepT.set("block", blockT)
-        blockRepT.set("minY", 35)
+        blockRepT.set("minY", 34)
         blockRepT.set("maxY", 254)
         biome.registerGenBlockRep("minecraft:stone", blockRepT)
         
@@ -306,8 +335,8 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockRepM = newBlockReplacement()
         blockM = forBlock("{BLOCKMIDDLE}")
         blockRepM.set("block", blockM)
-        blockRepM.set("minY", 13)
-        blockRepM.set("maxY", 34)
+        blockRepM.set("minY", 12)
+        blockRepM.set("maxY", 36)
         biome.registerGenBlockRep("minecraft:stone", blockRepM)
         
         
@@ -315,7 +344,7 @@ def writebiomecfg(biome, blockT, blockM, blockB, blockF, blockWT):
         blockB = forBlock("{BLOCKBOTTOM}")
         blockRepB.set("block", blockB)
         blockRepB.set("minY", 0)
-        blockRepB.set("maxY", 12)
+        blockRepB.set("maxY", 14)
         biome.registerGenBlockRep("minecraft:stone", blockRepB)
         
         
@@ -392,4 +421,5 @@ for biome in BIOMES:
         writevanillabiomecfg(biome, blockT, blockM, blockB, blockF, blockWT)
 
 makeallbiomes()
+makehellbiomes()
 

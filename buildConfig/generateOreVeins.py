@@ -186,7 +186,7 @@ FLUIDS = {
     'hot_water': 'hot_water',
 }
 
-def writeraworevein(rock, ore, meta, density, rarity, width, height):
+def writeraworevein(rock, ore, meta, indicator, density, rarity, width, height):
     orefile=ore.replace(":", "_")
 
     p = os.path.join("oregen", rock, orefile + "_" + str(meta)) + '.json'
@@ -206,14 +206,14 @@ def writeraworevein(rock, ore, meta, density, rarity, width, height):
             "rarity": (rarity),
             "count": 1,
             "min_y": 5,
-            "max_y": 38,
+            "max_y": 58,
             "density": (density),
             "vertical_size": (height),
             "horizontal_size": (width),
             "dimensions": [0, 1, -1],
             "dimensions_is_whitelist": False,
             "indicator": {
-                "blocks": "minecraft:deadbush",
+                "blocks": (indicator),
                 "max_depth": 30
             }
         }
@@ -336,5 +336,5 @@ with open('tnfc_metallum_ores.json') as json_file:
 
 
 for rock in ROCK_TYPES:
-    writeraworevein(rock, "libvulpes:ore0", 0, 20, 120, 14, 14)
-    writeraworevein(rock, "libvulpes:ore0", 10, 20, 100, 14, 14)
+    writeraworevein(rock, "libvulpes:ore0", 0, "advancedrocketry:enrichedlavafluid", 20, 120, 14, 14)
+    writeraworevein(rock, "libvulpes:ore0", 10, "tfc:fluid/hot_water", 20, 100, 14, 14)

@@ -1,0 +1,22 @@
+{
+  "pyrolusite_chert": {
+    "type": "cluster",
+    "ore": "tfc:ore/pyrolusite/chert",
+    "stone": [
+      "tfc:raw/chert"
+    ],
+    "rarity": 150,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 80,
+    "vertical_size": 10,
+    "horizontal_size": 5,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

@@ -17,7 +17,7 @@
 	recipes.addShapeless("tnfc_gem_cutting3", <tfc:gem/diamond:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessDiamond>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting4", <tfc:gem/diamond:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteDiamond>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting5", <tfc:gem/amethyst> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedAmethyst>, <ore:hammer>.reuse()]);
-	recipes.addShapeless("tnfc_gem_cutting6", <tfc:gem/amethyst> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemAmethyst>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting6", <tfc:gem/amethyst:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemAmethyst>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting7", <tfc:gem/amethyst:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessAmethyst>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting8", <tfc:gem/amethyst:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteAmethyst>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting9", <tfc:gem/ruby> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedRuby>, <ore:hammer>.reuse()]);
@@ -36,10 +36,10 @@
 	recipes.addShapeless("tnfc_gem_cutting22", <tfc:gem/sapphire:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemSapphire>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting23", <tfc:gem/sapphire:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessSapphire>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting24", <tfc:gem/sapphire:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteSapphire>, <ore:hammer>.reuse()]);
-	recipes.addShapeless("tnfc_gem_cutting25", <tfc:gem/tourmaline> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedTopaz>, <ore:hammer>.reuse()]);
-	recipes.addShapeless("tnfc_gem_cutting26", <tfc:gem/tourmaline:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemTopaz>, <ore:hammer>.reuse()]);
-	recipes.addShapeless("tnfc_gem_cutting27", <tfc:gem/tourmaline:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessTopaz>, <ore:hammer>.reuse()]);
-	recipes.addShapeless("tnfc_gem_cutting28", <tfc:gem/tourmaline:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteTopaz>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting25", <tfc:gem/tourmaline> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedTourmaline>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting26", <tfc:gem/tourmaline:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemTourmaline>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting27", <tfc:gem/tourmaline:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessTourmaline>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting28", <tfc:gem/tourmaline:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteTourmaline>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting29", <tfc:gem/jade> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedJade>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting30", <tfc:gem/jade:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemJade>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting31", <tfc:gem/jade:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessJade>, <ore:hammer>.reuse()]);
@@ -60,3 +60,7 @@
 	recipes.addShapeless("tnfc_gem_cutting46", <tfc:gem/jasper:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemJasper>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting47", <tfc:gem/jasper:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessJasper>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting48", <tfc:gem/jasper:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteJasper>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting49", <tfc:gem/topaz> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedTopaz>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting50", <tfc:gem/topaz:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemTopaz>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting51", <tfc:gem/topaz:2> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawlessTopaz>, <ore:hammer>.reuse()]);
+	recipes.addShapeless("tnfc_gem_cutting52", <tfc:gem/topaz:3> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemExquisiteTopaz>, <ore:hammer>.reuse()]);

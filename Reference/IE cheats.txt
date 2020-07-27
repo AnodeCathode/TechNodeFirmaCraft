@@ -1,0 +1,3 @@
+<immersiveengineering:drill>.withTag({upgrades: {damage: 3, oiled: 1 as byte, speed: 6.0 as float, capacity: 2000}})
+
+<immersiveengineering:drill>.withTag({Fluid: {FluidName: "biodiesel", Amount: 4000}, upgrades: {damage: 3, oiled: 1 as byte, speed: 6.0 as float, capacity: 2000}})

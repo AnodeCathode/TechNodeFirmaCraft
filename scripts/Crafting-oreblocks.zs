@@ -57,18 +57,18 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
 
 // mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
 // Metal Press Recipes
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:8>, <ore:ingotSteel>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:7>, <ore:ingotElectrum>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:6>, <ore:ingotConstantan>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:4>, <ore:ingotNickel>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:3>, <ore:ingotSilver>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:2>, <ore:ingotLead>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:1>, <ore:ingotAluminum>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:0>, <ore:ingotCopper>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<minecraft:iron_block>, <ore:ingotIron>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<minecraft:gold_block>, <ore:ingotGold>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:metal0:5>, <ore:ingotTin>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:metal0:7>, <ore:ingotTitanium>, <tnfcmod:mold_block>, 2000, 9);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:8>, <ore:ingotSteel>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:7>, <ore:ingotElectrum>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:6>, <ore:ingotConstantan>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:4>, <ore:ingotNickel>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:3>, <ore:ingotSilver>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:2>, <ore:ingotLead>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:1>, <ore:ingotAluminum>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:0>, <ore:ingotCopper>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<minecraft:iron_block>, <ore:ingotIron>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<minecraft:gold_block>, <ore:ingotGold>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:metal0:5>, <ore:ingotTin>, <tnfcmod:mold_block>, 2000, 8);
+  mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:metal0:7>, <ore:ingotTitanium>, <tnfcmod:mold_block>, 2000, 8);
 
  //No liquids
   mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:5>, <ore:ingotUranium>, <tnfcmod:mold_block>, 2000, 9);
@@ -91,18 +91,18 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
   
  // mods.immersiveengineering.Crusher.addRecipe(IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance);
 
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/copper> * 9, <immersiveengineering:storage:0>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/aluminum> * 9, <immersiveengineering:storage:1>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/lead> * 9, <immersiveengineering:storage:2>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/silver> * 9, <immersiveengineering:storage:3>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/nickel> * 9, <immersiveengineering:storage:4>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/constantan> * 9, <immersiveengineering:storage:6>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/electrum> * 9, <immersiveengineering:storage:7>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/steel> * 9, <immersiveengineering:storage:8>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/tin> * 9, <libvulpes:metal0:5>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/titanium> * 9, <libvulpes:metal0:7>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/gold> * 9, <minecraft:gold_block>, 512);
-  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/wrought_iron> * 9, <minecraft:iron_block>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/copper> * 8, <immersiveengineering:storage:0>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/aluminum> * 8, <immersiveengineering:storage:1>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/lead> * 8, <immersiveengineering:storage:2>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/silver> * 8, <immersiveengineering:storage:3>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/nickel> * 8, <immersiveengineering:storage:4>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/constantan> * 8, <immersiveengineering:storage:6>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/electrum> * 8, <immersiveengineering:storage:7>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/steel> * 8, <immersiveengineering:storage:8>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/tin> * 8, <libvulpes:metal0:5>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/titanium> * 8, <libvulpes:metal0:7>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/gold> * 8, <minecraft:gold_block>, 512);
+  mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/wrought_iron> * 8, <minecraft:iron_block>, 512);
   
 
 // ================================================================================
@@ -130,18 +130,18 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:iron_block>, 0.35f, 1535,false);
   
 
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:0>, "copper", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:1>, "aluminum", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:2>, "lead", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:3>, "silver", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:4>, "nickel", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:6>, "constantan", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:7>, "electrum", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:8>, "steel", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<libvulpes:metal0:5>, "tin", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<libvulpes:metal0:7>, "titanium", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<minecraft:gold_block>, "gold", 900, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<minecraft:iron_block>, "wrought_iron", 900, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:0>, "copper", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:1>, "aluminum", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:2>, "lead", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:3>, "silver", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:4>, "nickel", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:6>, "constantan", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:7>, "electrum", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:storage:8>, "steel", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<libvulpes:metal0:5>, "tin", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<libvulpes:metal0:7>, "titanium", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<minecraft:gold_block>, "gold", 800, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemMetal(<minecraft:iron_block>, "wrought_iron", 800, true);
 
 
 //#REGISTER TFC Size/Heat/Other
@@ -181,18 +181,18 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
   
   //Add some anvil recipes to turn two dbl ingots into a block
   
-  //mods.terrafirmacraft.Welding.addRecipe(String registryName, IIngredient input1, IIngredient input2, IItemStack output, int minTier);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_AluminumBlocks", <tfc:metal/double_ingot/aluminum>, <tfc:metal/double_ingot/aluminum>,<immersiveengineering:storage:1>,2);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_TinBlocks", <tfc:metal/double_ingot/tin>, <tfc:metal/double_ingot/tin>,<libvulpes:metal0:5>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_TitaniumBlocks", <tfc:metal/double_ingot/titanium>, <tfc:metal/double_ingot/titanium>,<libvulpes:metal0:7>,5);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_IronBlocks", <tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>,<minecraft:iron_block>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_SilverBlocks", <tfc:metal/double_ingot/silver>, <tfc:metal/double_ingot/silver>,<immersiveengineering:storage:3>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_SteelBlocks", <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>,<immersiveengineering:storage:8>,4);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_NickelBlocks", <tfc:metal/double_ingot/nickel>, <tfc:metal/double_ingot/nickel>,<immersiveengineering:storage:4>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_LeadBlocks", <tfc:metal/double_ingot/lead>, <tfc:metal/double_ingot/lead>,<immersiveengineering:storage:2>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_GoldBlocks", <tfc:metal/double_ingot/gold>, <tfc:metal/double_ingot/gold>,<minecraft:gold_block>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_ConstantanBlocks", <tfc:metal/double_ingot/constantan>, <tfc:metal/double_ingot/constantan>,<immersiveengineering:storage:6>,3);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_CopperBlocks", <tfc:metal/double_ingot/copper>, <tfc:metal/double_ingot/copper>,<immersiveengineering:storage:0>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_ElectrumBlocks", <tfc:metal/double_ingot/electrum>, <tfc:metal/double_ingot/electrum>,<immersiveengineering:storage:7>,3);
+  //mods.terrafirmacraft.Welding.addRecipe(String registryName, IIngredient input1, IIngredient input2, IItemStack output, int minTier, null or skill type. );
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_AluminumBlocks", <tfc:metal/double_sheet/aluminum>, <tfc:metal/double_sheet/aluminum>,<immersiveengineering:storage:1>,2, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_TinBlocks", <tfc:metal/double_sheet/tin>, <tfc:metal/double_sheet/tin>,<libvulpes:metal0:5>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_TitaniumBlocks", <tfc:metal/double_sheet/titanium>, <tfc:metal/double_sheet/titanium>,<libvulpes:metal0:7>,5, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_IronBlocks", <tfc:metal/double_sheet/wrought_iron>, <tfc:metal/double_sheet/wrought_iron>,<minecraft:iron_block>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_SilverBlocks", <tfc:metal/double_sheet/silver>, <tfc:metal/double_sheet/silver>,<immersiveengineering:storage:3>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_SteelBlocks", <tfc:metal/double_sheet/steel>, <tfc:metal/double_sheet/steel>,<immersiveengineering:storage:8>,4, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_NickelBlocks", <tfc:metal/double_sheet/nickel>, <tfc:metal/double_sheet/nickel>,<immersiveengineering:storage:4>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_LeadBlocks", <tfc:metal/double_sheet/lead>, <tfc:metal/double_sheet/lead>,<immersiveengineering:storage:2>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_GoldBlocks", <tfc:metal/double_sheet/gold>, <tfc:metal/double_sheet/gold>,<minecraft:gold_block>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_ConstantanBlocks", <tfc:metal/double_sheet/constantan>, <tfc:metal/double_sheet/constantan>,<immersiveengineering:storage:6>,3, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_CopperBlocks", <tfc:metal/double_sheet/copper>, <tfc:metal/double_sheet/copper>,<immersiveengineering:storage:0>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_ElectrumBlocks", <tfc:metal/double_sheet/electrum>, <tfc:metal/double_sheet/electrum>,<immersiveengineering:storage:7>,3, null);
 
   
