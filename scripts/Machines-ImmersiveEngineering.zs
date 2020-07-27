@@ -61,24 +61,7 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/titanium>, <tfc:metal/dust/titanium>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/tungsten>, <tfc:metal/dust/tungsten>, 1198, <immersiveengineering:material:7>);
 
-    //vanilla concrete powder to concrete recipes
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:0>, <minecraft:concrete_powder:0>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:1>, <minecraft:concrete_powder:1>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:2>, <minecraft:concrete_powder:2>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:3>, <minecraft:concrete_powder:3>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:4>, <minecraft:concrete_powder:4>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:5>, <minecraft:concrete_powder:5>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:6>, <minecraft:concrete_powder:6>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:7>, <minecraft:concrete_powder:7>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:8>, <minecraft:concrete_powder:8>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:9>, <minecraft:concrete_powder:9>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:10>, <minecraft:concrete_powder:10>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:11>, <minecraft:concrete_powder:11>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:12>, <minecraft:concrete_powder:12>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:13>, <minecraft:concrete_powder:13>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, 598);
- 
+    
  //Iron Block to Steel
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <minecraft:iron_block>, 4186, <immersiveengineering:material:7> * 8);

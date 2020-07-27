@@ -45,7 +45,7 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
       recipes.addShaped("pneumaticcraft_seismic_sensor", <pneumaticcraft:seismic_sensor>, [[null, <minecraft:redstone_torch>, null], [<ore:blockGlass>, <minecraft:repeater>, <ore:blockGlass>], [<ore:blockGlass>, <ore:gemCoal>, <ore:blockGlass>]]);
       recipes.addShaped("penumaticcraft_charging_station", <pneumaticcraft:charging_station>, [[null, null, <pneumaticcraft:pressure_tube>],[<ore:brick>, <ore:brick>, <ore:brick>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
       recipes.addShaped("pneumaticcraft_air_cannon", <pneumaticcraft:air_cannon>, [[null, <pneumaticcraft:cannon_barrel>, null], [null, <pneumaticcraft:stone_base>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
-      recipes.addShaped("pneumaticcraft:vacuum_pump", <pneumaticcraft:vacuum_pump>, [[<pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>], [<pneumaticcraft:pressure_tube>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
+      recipes.addShaped("pneumaticcraft_vacuum_pump", <pneumaticcraft:vacuum_pump>, [[<pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>], [<pneumaticcraft:pressure_tube>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
 
       // ================================================================================
 //#ADD SHAPELESS
