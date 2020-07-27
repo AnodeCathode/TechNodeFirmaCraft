@@ -182,17 +182,17 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
   //Add some anvil recipes to turn two dbl ingots into a block
   
   //mods.terrafirmacraft.Welding.addRecipe(String registryName, IIngredient input1, IIngredient input2, IItemStack output, int minTier, null or skill type. );
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_AluminumBlocks", <tfc:metal/double_sheet/aluminum>, <tfc:metal/double_sheet/aluminum>,<immersiveengineering:storage:1>,2);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_TinBlocks", <tfc:metal/double_sheet/tin>, <tfc:metal/double_sheet/tin>,<libvulpes:metal0:5>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_TitaniumBlocks", <tfc:metal/double_sheet/titanium>, <tfc:metal/double_sheet/titanium>,<libvulpes:metal0:7>,5);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_IronBlocks", <tfc:metal/double_sheet/wrought_iron>, <tfc:metal/double_sheet/wrought_iron>,<minecraft:iron_block>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_SilverBlocks", <tfc:metal/double_sheet/silver>, <tfc:metal/double_sheet/silver>,<immersiveengineering:storage:3>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_SteelBlocks", <tfc:metal/double_sheet/steel>, <tfc:metal/double_sheet/steel>,<immersiveengineering:storage:8>,4);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_NickelBlocks", <tfc:metal/double_sheet/nickel>, <tfc:metal/double_sheet/nickel>,<immersiveengineering:storage:4>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_LeadBlocks", <tfc:metal/double_sheet/lead>, <tfc:metal/double_sheet/lead>,<immersiveengineering:storage:2>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_GoldBlocks", <tfc:metal/double_sheet/gold>, <tfc:metal/double_sheet/gold>,<minecraft:gold_block>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_ConstantanBlocks", <tfc:metal/double_sheet/constantan>, <tfc:metal/double_sheet/constantan>,<immersiveengineering:storage:6>,3);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_CopperBlocks", <tfc:metal/double_sheet/copper>, <tfc:metal/double_sheet/copper>,<immersiveengineering:storage:0>,1);
-  mods.terrafirmacraft.Welding.addRecipe("tnfc_ElectrumBlocks", <tfc:metal/double_sheet/electrum>, <tfc:metal/double_sheet/electrum>,<immersiveengineering:storage:7>,3);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_AluminumBlocks", <tfc:metal/double_sheet/aluminum>, <tfc:metal/double_sheet/aluminum>,<immersiveengineering:storage:1>,2, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_TinBlocks", <tfc:metal/double_sheet/tin>, <tfc:metal/double_sheet/tin>,<libvulpes:metal0:5>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_TitaniumBlocks", <tfc:metal/double_sheet/titanium>, <tfc:metal/double_sheet/titanium>,<libvulpes:metal0:7>,5, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_IronBlocks", <tfc:metal/double_sheet/wrought_iron>, <tfc:metal/double_sheet/wrought_iron>,<minecraft:iron_block>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_SilverBlocks", <tfc:metal/double_sheet/silver>, <tfc:metal/double_sheet/silver>,<immersiveengineering:storage:3>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_SteelBlocks", <tfc:metal/double_sheet/steel>, <tfc:metal/double_sheet/steel>,<immersiveengineering:storage:8>,4, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_NickelBlocks", <tfc:metal/double_sheet/nickel>, <tfc:metal/double_sheet/nickel>,<immersiveengineering:storage:4>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_LeadBlocks", <tfc:metal/double_sheet/lead>, <tfc:metal/double_sheet/lead>,<immersiveengineering:storage:2>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_GoldBlocks", <tfc:metal/double_sheet/gold>, <tfc:metal/double_sheet/gold>,<minecraft:gold_block>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_ConstantanBlocks", <tfc:metal/double_sheet/constantan>, <tfc:metal/double_sheet/constantan>,<immersiveengineering:storage:6>,3, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_CopperBlocks", <tfc:metal/double_sheet/copper>, <tfc:metal/double_sheet/copper>,<immersiveengineering:storage:0>,1, null);
+  mods.terrafirmacraft.Welding.addRecipe("tnfc_ElectrumBlocks", <tfc:metal/double_sheet/electrum>, <tfc:metal/double_sheet/electrum>,<immersiveengineering:storage:7>,3, null);
 
   
