@@ -13,7 +13,7 @@
     "rarity": 120,
     "count": 1,
     "min_y": 5,
-    "max_y": 38,
+    "max_y": 58,
     "density": 20,
     "vertical_size": 14,
     "horizontal_size": 14,
@@ -24,7 +24,7 @@
     ],
     "dimensions_is_whitelist": false,
     "indicator": {
-      "blocks": "minecraft:deadbush",
+      "blocks": "advancedrocketry:enrichedlavafluid",
       "max_depth": 30
     }
   }

@@ -6,13 +6,13 @@
   "Class": "net.minecraft.world.biome.BiomeForest",
   "Root Height": 0.1,
   "Height Variation": 0.2,
-  "Top Block": "tfc:sand/dacite",
-  "Filler Block": "tfc:gravel/dacite",
+  "Top Block": "tfc:sand/chert",
+  "Filler Block": "tfc:gravel/chert",
   "Ocean Top Block": "tfc:gravel/basalt",
   "Ocean Filler Block": "tfc:sand/basalt",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]",
-    "tfc:raw/dacite[can_fall\u003dtrue]"
+    "tfc:raw/chert[can_fall\u003dtrue]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",

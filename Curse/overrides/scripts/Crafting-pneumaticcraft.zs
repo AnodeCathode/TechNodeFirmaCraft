@@ -24,6 +24,9 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
   recipes.remove(<pneumaticcraft:uv_light_box>);
   recipes.remove(<pneumaticcraft:vortex_tube>);
   recipes.remove(<pneumaticcraft:seismic_sensor>);
+  recipes.remove(<pneumaticcraft:charging_station>);
+  recipes.remove(<pneumaticcraft:air_cannon>);
+  recipes.remove(<pneumaticcraft:vacuum_pump>);
   
   // ================================================================================
 //#ADD SHAPED
@@ -40,7 +43,11 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
       recipes.addShaped("pneumaticcraft_uv_light_box", <pneumaticcraft:uv_light_box>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_vortex_tube", <pneumaticcraft:vortex_tube>, [[<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>], [<tfc:metal/ingot/gold>, <pneumaticcraft:pressure_tube>, <tfc:metal/ingot/gold>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_seismic_sensor", <pneumaticcraft:seismic_sensor>, [[null, <minecraft:redstone_torch>, null], [<ore:blockGlass>, <minecraft:repeater>, <ore:blockGlass>], [<ore:blockGlass>, <ore:gemCoal>, <ore:blockGlass>]]);
-// ================================================================================
+      recipes.addShaped("penumaticcraft_charging_station", <pneumaticcraft:charging_station>, [[null, null, <pneumaticcraft:pressure_tube>],[<ore:brick>, <ore:brick>, <ore:brick>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
+      recipes.addShaped("pneumaticcraft_air_cannon", <pneumaticcraft:air_cannon>, [[null, <pneumaticcraft:cannon_barrel>, null], [null, <pneumaticcraft:stone_base>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
+      recipes.addShaped("pneumaticcraft_vacuum_pump", <pneumaticcraft:vacuum_pump>, [[<pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>], [<pneumaticcraft:pressure_tube>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
+
+      // ================================================================================
 //#ADD SHAPELESS
       recipes.addShapeless("pneumaticcraft_gun_ammo", <pneumaticcraft:gun_ammo>, [<minecraft:gunpowder>, <ore:ingotIronCompressed>, <tfc:metal/ingot/gold>]);
       recipes.addShapeless("pneumaticcraft_pressure_chamber_valve_shapeless_x4", <pneumaticcraft:pressure_chamber_valve> * 4, [<ore:craftingToolHardHammer>.transformDamage(),<pneumaticcraft:pressure_tube>, <pneumaticcraft:pressure_chamber_wall>, <pneumaticcraft:pressure_chamber_wall>, <pneumaticcraft:pressure_chamber_wall>, <pneumaticcraft:pressure_chamber_wall>]);

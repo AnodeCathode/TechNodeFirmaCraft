@@ -6,13 +6,13 @@
   "Class": "net.minecraft.world.biome.BiomeRiver",
   "Root Height": -0.5,
   "Height Variation": 0.0,
-  "Top Block": "tfc:sand/rhyolite",
-  "Filler Block": "tfc:gravel/rhyolite",
+  "Top Block": "tfc:sand/marble",
+  "Filler Block": "tfc:gravel/marble",
   "Ocean Top Block": "tfc:gravel/basalt",
   "Ocean Filler Block": "tfc:sand/basalt",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]",
-    "tfc:raw/rhyolite[can_fall\u003dtrue]"
+    "tfc:raw/marble[can_fall\u003dtrue]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
@@ -23,8 +23,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "RIVER"
+    "RIVER",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

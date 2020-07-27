@@ -6,13 +6,13 @@
   "Class": "net.minecraft.world.biome.BiomeTaiga",
   "Root Height": 0.2,
   "Height Variation": 0.2,
-  "Top Block": "tfc:sand/conglomerate",
-  "Filler Block": "tfc:gravel/conglomerate",
+  "Top Block": "tfc:sand/rhyolite",
+  "Filler Block": "tfc:gravel/rhyolite",
   "Ocean Top Block": "tfc:gravel/basalt",
   "Ocean Filler Block": "tfc:sand/basalt",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]",
-    "tfc:raw/conglomerate[can_fall\u003dtrue]"
+    "tfc:raw/rhyolite[can_fall\u003dtrue]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
@@ -23,9 +23,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "COLD",
-    "CONIFEROUS"
+    "CONIFEROUS",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

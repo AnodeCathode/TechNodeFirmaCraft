@@ -8,13 +8,16 @@ import mods.immersiveengineering.MineralMix;
 
 // Metal Press - most in TNFCMod
 //mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
-    //Need to find/make an ingot mold for the press and then convert these. Likely to the TNFC_Mod
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:item.Pig Iron Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    //Copied from 1.7.10 - Uses Steel block as mold because meh....it worked then too
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/ingot/high_carbon_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/black_steel>, <tfc:metal/ingot/high_carbon_black_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/red_steel>, <tfc:metal/ingot/high_carbon_red_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/ingot/high_carbon_blue_steel>, <immersiveengineering:storage:8>, 2400, 1);
 
+    //Vanilla Anvil - Shhhh
+    mods.immersiveengineering.MetalPress.addRecipe(<minecraft:anvil>, <tfc:metal/double_ingot/tungsten_steel>, <immersiveengineering:storage:8>, 2400, 7);
+    
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
 	
@@ -22,6 +25,7 @@ import mods.immersiveengineering.MineralMix;
   mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 250, <tfc:ore/lignite>, 800);
   mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 100, <ore:logWoodTannin>, 1200);
 // BlastFurnace
+    //mods.immersiveengineering.BlastFurnace.addRecipe(IItemStack output, IIngredient input, int time, @Optional IItemStack slag);
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
     
     //Make HOP Ingots from HOP Dust
@@ -34,6 +38,7 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/pig_iron>, <tfc:metal/ingot/wrought_iron>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/pig_iron>, <immersiveengineering:metal:18>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, 598, <immersiveengineering:material:7>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/dust/pig_iron>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/ingot/high_carbon_steel>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/dust/steel>, 598);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/red_steel>, <tfc:metal/dust/red_steel>, 1198);
@@ -55,7 +60,11 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/dust/blue_steel>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/titanium>, <tfc:metal/dust/titanium>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/tungsten>, <tfc:metal/dust/tungsten>, 1198, <immersiveengineering:material:7>);
-  
+
+    
+ //Iron Block to Steel
+    mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <minecraft:iron_block>, 4186, <immersiveengineering:material:7> * 8);
 // ArcFurnace
     //mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
     
@@ -94,9 +103,41 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 9, <tfc:metal/ingot/tin>, null, 200, 512, [<tfc:metal/ingot/copper> * 8], "Alloying");
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 9, <tfc:metal/ingot/gold> * 7, null, 200, 512, [<tfc:metal/ingot/copper> * 2], "Alloying");
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 9, <tfc:metal/ingot/silver> * 6, null, 200, 512, [<tfc:metal/ingot/copper> * 3], "Alloying");
-    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:ingotGold>, null, 200, 512, [<ore:ingotSilver>], "Alloying");   
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:ingotGold>, null, 200, 512, [<ore:ingotSilver>], "Alloying");  
     
+    //vanilla concrete powder to concrete recipes
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:0>, <minecraft:concrete_powder:0>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:1>, <minecraft:concrete_powder:1>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:2>, <minecraft:concrete_powder:2>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:3>, <minecraft:concrete_powder:3>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:4>, <minecraft:concrete_powder:4>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:5>, <minecraft:concrete_powder:5>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:6>, <minecraft:concrete_powder:6>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:7>, <minecraft:concrete_powder:7>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:8>, <minecraft:concrete_powder:8>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:9>, <minecraft:concrete_powder:9>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:10>, <minecraft:concrete_powder:10>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:11>, <minecraft:concrete_powder:11>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:12>, <minecraft:concrete_powder:12>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:13>, <minecraft:concrete_powder:13>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, null, 200, 512);
+    
+    // Alloys from Dust
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 9, <tfc:metal/dust/bismuth>, null, 200, 512, [<tfc:metal/dust/copper> * 6, <tfc:metal/dust/zinc> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze> * 9, <tfc:metal/dust/copper> * 5, null, 200, 512, [<tfc:metal/dust/silver> * 2, <tfc:metal/dust/gold> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/brass> * 9, <tfc:metal/dust/zinc>, null, 200, 512, [<tfc:metal/dust/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 9, <tfc:metal/dust/tin>, null, 200, 512, [<tfc:metal/dust/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 9, <tfc:metal/dust/gold> * 7, null, 200, 512, [<tfc:metal/dust/copper> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 9, <tfc:metal/dust/silver> * 6, null, 200, 512, [<tfc:metal/dust/copper> * 3], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:dustGold>, null, 200, 512, [<ore:dustSilver>], "Alloying");   
    
+   // Specials
+   
+   //RH Fly Ash Ball to Fly Ash Brick
+   mods.immersiveengineering.ArcFurnace.addRecipe(<rockhounding_chemistry:misc_items:37>, <rockhounding_chemistry:misc_items:36>, null, 200, 512);
+   //IE Electrum Grit to Ingot
+   mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum>, <immersiveengineering:metal:16>, null, 200, 512);
 // Kiln
 
 // Crusher  
@@ -302,6 +343,7 @@ import mods.immersiveengineering.MineralMix;
 	//OutputStack
     //mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:19>);
 	//OutputFluid
+    //mods.immersiveengineering.Squeezer.addRecipe(IItemStack output, ILiquidStack fluid, IIngredient input, int energy);
     mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);  
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <immersiveengineering:seed>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/barley>, 80);
@@ -324,7 +366,8 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/tomato>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/wheat>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/yellow_bell_pepper>, 80);
-    
+    //Make some leather straps
+    mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
 
    

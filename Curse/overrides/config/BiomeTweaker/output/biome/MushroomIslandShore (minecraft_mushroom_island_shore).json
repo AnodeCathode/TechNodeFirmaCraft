@@ -6,13 +6,13 @@
   "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
   "Root Height": 0.0,
   "Height Variation": 0.025,
-  "Top Block": "tfc:sand/phyllite",
-  "Filler Block": "tfc:gravel/phyllite",
+  "Top Block": "tfc:sand/diorite",
+  "Filler Block": "tfc:gravel/diorite",
   "Ocean Top Block": "tfc:gravel/basalt",
   "Ocean Filler Block": "tfc:sand/basalt",
   "Actual Filler Blocks": [
     "minecraft:stone[variant\u003dstone]",
-    "tfc:raw/phyllite[can_fall\u003dtrue]"
+    "tfc:raw/diorite[can_fall\u003dtrue]"
   ],
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
@@ -24,8 +24,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "BEACH",
-    "MUSHROOM"
+    "MUSHROOM",
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
