@@ -2,18 +2,22 @@
 #modloaded immersiveengineering
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
+import mods.immersiveengineering.Excavator;
+import mods.immersiveengineering.MineralMix;
 // Machine Additions
 
 // Metal Press - most in TNFCMod
 //mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
-    //Need to find/make an ingot mold for the press and then convert these. Likely to the TNFC_Mod
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:item.Pig Iron Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    // mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    //Copied from 1.7.10 - Uses Steel block as mold because meh....it worked then too
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/ingot/high_carbon_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/black_steel>, <tfc:metal/ingot/high_carbon_black_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/red_steel>, <tfc:metal/ingot/high_carbon_red_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/ingot/high_carbon_blue_steel>, <immersiveengineering:storage:8>, 2400, 1);
 
+    //Vanilla Anvil - Shhhh
+    mods.immersiveengineering.MetalPress.addRecipe(<minecraft:anvil>, <tfc:metal/double_ingot/tungsten_steel>, <immersiveengineering:storage:8>, 2400, 7);
+    
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
 	
@@ -21,6 +25,7 @@ import crafttweaker.item.IItemStack;
   mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 250, <tfc:ore/lignite>, 800);
   mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 100, <ore:logWoodTannin>, 1200);
 // BlastFurnace
+    //mods.immersiveengineering.BlastFurnace.addRecipe(IItemStack output, IIngredient input, int time, @Optional IItemStack slag);
     mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
     
     //Make HOP Ingots from HOP Dust
@@ -33,6 +38,7 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/pig_iron>, <tfc:metal/ingot/wrought_iron>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/pig_iron>, <immersiveengineering:metal:18>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, 598, <immersiveengineering:material:7>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/dust/pig_iron>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/ingot/high_carbon_steel>, 598, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/dust/steel>, 598);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/red_steel>, <tfc:metal/dust/red_steel>, 1198);
@@ -54,6 +60,7 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/dust/blue_steel>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/titanium>, <tfc:metal/dust/titanium>, 1198, <immersiveengineering:material:7>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/tungsten>, <tfc:metal/dust/tungsten>, 1198, <immersiveengineering:material:7>);
+<
     //vanilla concrete powder to concrete recipes
     mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:0>, <minecraft:concrete_powder:0>, 598);
     mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:1>, <minecraft:concrete_powder:1>, 598);
@@ -71,7 +78,10 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:13>, <minecraft:concrete_powder:13>, 598);
     mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, 598);
     mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, 598);
-  
+ 
+ //Iron Block to Steel
+    mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, <minecraft:iron_block>, 4186, <immersiveengineering:material:7>);
 // ArcFurnace
     //mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
     
@@ -130,7 +140,21 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, null, 200, 512);
     mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, null, 200, 512);
     
+    // Alloys from Dust
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 9, <tfc:metal/dust/bismuth>, null, 200, 512, [<tfc:metal/dust/copper> * 6, <tfc:metal/dust/zinc> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze> * 9, <tfc:metal/dust/copper> * 5, null, 200, 512, [<tfc:metal/dust/silver> * 2, <tfc:metal/dust/gold> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/brass> * 9, <tfc:metal/dust/zinc>, null, 200, 512, [<tfc:metal/dust/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bronze> * 9, <tfc:metal/dust/tin>, null, 200, 512, [<tfc:metal/dust/copper> * 8], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold> * 9, <tfc:metal/dust/gold> * 7, null, 200, 512, [<tfc:metal/dust/copper> * 2], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver> * 9, <tfc:metal/dust/silver> * 6, null, 200, 512, [<tfc:metal/dust/copper> * 3], "Alloying");
+    mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum> * 2, <ore:dustGold>, null, 200, 512, [<ore:dustSilver>], "Alloying");   
    
+   // Specials
+   
+   //RH Fly Ash Ball to Fly Ash Brick
+   mods.immersiveengineering.ArcFurnace.addRecipe(<rockhounding_chemistry:misc_items:37>, <rockhounding_chemistry:misc_items:36>, null, 200, 512);
+   //IE Electrum Grit to Ingot
+   mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/electrum>, <immersiveengineering:metal:16>, null, 200, 512);
 // Kiln
 
 // Crusher  
@@ -156,7 +180,7 @@ import crafttweaker.item.IItemStack;
   
 // Excavator
   //mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);
-    
+  //var Iron = Excavator.getMineral("Iron_Ore");  
     mods.immersiveengineering.Excavator.removeMineral("Pyrite");
     
     //Quartz
@@ -254,10 +278,7 @@ import crafttweaker.item.IItemStack;
 
     //Silt
     mods.immersiveengineering.Excavator.removeMineral("Silt");
-    mods.immersiveengineering.Excavator.addMineral("Silt Igneous Extrusive", 40, 0.005, ["clay", "sandIgneousExtrusive", "gravelIgneousExtrusive","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Igneous Intrusive", 40, 0.005, ["clay", "sandIgneousIntrusive", "gravelIgneousIntrusive","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Sedimentary", 40, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-    mods.immersiveengineering.Excavator.addMineral("Silt Metamorphic", 40, 0.005, ["clay", "sandMetamorphic", "gravelMetamorphic","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
+    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
 
     //Microcline
     mods.immersiveengineering.Excavator.addMineral("Microcline", 5, 0.005, ["gemMicrocline", "gemNormal"], [0.9, 0.001]);
@@ -277,24 +298,24 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.Excavator.addMineral("Ardite", 2, 0.005, ["oreArditeNormal", "oreBismuthPoor", "oreLeadPoor"], [0.5, 0.02, 0.01]);
 
     //Native Osmium
-    mods.immersiveengineering.Excavator.addMineral("Native Osmium", 1, 0.005, ["oreOsmiumNormal", "gemChipped", "gemNormal"], [0.9, 0.001, 0.00001]);
+    mods.immersiveengineering.Excavator.addMineral("Native Osmium", 5, 0.005, ["oreOsmiumNormal", "gemChipped", "gemNormal"], [0.9, 0.001, 0.00001]);
 
 
-    //Wolframite
-    mods.immersiveengineering.Excavator.addMineral("Tungsten", 1, 0.005, ["oreTungstenNormal", "oreWroughtIronPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
+    //Wolframite - Tungsten
+    mods.immersiveengineering.Excavator.addMineral("Tungsten", 5, 0.005, ["oreTungstenNormal", "oreTungstenPoor", "oreWroughtIronPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.55, 0.10, 0.05, 0.00001, 0.005, 0.0002]);
 
     //Rutile - Titanium
-    mods.immersiveengineering.Excavator.addMineral("Rutile", 1, 0.005, ["oreTitaniumRich", "oreTitaniumPoor", "gemChipped"], [0.55, 0.05, 0.00001]);
+    mods.immersiveengineering.Excavator.addMineral("Rutile", 5, 0.005, ["oreTitaniumRich", "oreTitaniumNormal", "oreTitaniumPoor", "gemChipped", "gemNormal", "gemFlawless"], [0.1, 0.45, 0.15, 0.00001, 0.005, 0.0002]);
    
     //Chromite
-    mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite"], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Chromite", 5, 0.005, ["gemChromite", "gemChipped", "gemNormal", "gemFlawless"], [0.3, 0.00001, 0.00005, 0.0002]);
 
    
     //Magnesite
-    mods.immersiveengineering.Excavator.addMineral("Magnesite", 5, 0.005, ["gemMagnesite" ], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Magnesite", 5, 0.005, ["gemMagnesite" , "gemChipped", "gemNormal", "gemFlawless"], [0.2, 0.00001, 0.00005, 0.0002]);
 
     //Boron
-    mods.immersiveengineering.Excavator.addMineral("Boron", 5, 0.005, ["gemBoron"], [0.1]);
+    mods.immersiveengineering.Excavator.addMineral("Boron", 5, 0.005, ["gemBoron", "gemChipped", "gemNormal", "gemFlawless"], [0.2, 0.00001, 0.00005, 0.0002]);
 
     
   // FERMENTER
@@ -339,6 +360,7 @@ import crafttweaker.item.IItemStack;
 	//OutputStack
     //mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:19>);
 	//OutputFluid
+    //mods.immersiveengineering.Squeezer.addRecipe(IItemStack output, ILiquidStack fluid, IIngredient input, int energy);
     mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);  
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <immersiveengineering:seed>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/barley>, 80);
@@ -361,7 +383,8 @@ import crafttweaker.item.IItemStack;
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/tomato>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/wheat>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/yellow_bell_pepper>, 80);
-    
+    //Make some leather straps
+    mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
 
    

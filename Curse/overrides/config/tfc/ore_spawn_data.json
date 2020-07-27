@@ -187,6 +187,7 @@
   },
   "bithminous_coal": {
     "ore": "tfc:bituminous_coal",
+    "loose": "tfc:rock/basalt",
     "width": 38,
     "height": 44,
     "shape": "cluster",
@@ -200,6 +201,7 @@
   },
   "lignite": {
     "ore": "tfc:lignite",
+    "loose": "tfc:rock/basalt",
     "width": 28,
     "height": 36,
     "shape": "cluster",
@@ -213,6 +215,7 @@
   },
   "kaolinite": {
     "ore": "tfc:kaolinite",
+    "loose": "tfc:rock/marble",
     "width": 24,
     "height": 32,
     "shape": "cluster",
@@ -226,6 +229,7 @@
   },
   "graphite": {
     "ore": "tfc:graphite",
+    "loose": "tfc:rock/claystone",
     "width": 24,
     "height": 32,
     "shape": "cluster",
@@ -242,6 +246,7 @@
   },
   "kimberlite": {
     "ore": "tfc:kimberlite",
+    "loose": "tfc:rock/chalk",
     "width": 20,
     "height": 24,
     "shape": "cluster",
@@ -255,6 +260,7 @@
   },
   "cinnabar": {
     "ore": "tfc:cinnabar",
+    "loose": "tfc:rock/gneiss",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -270,6 +276,7 @@
   },
   "cryolite": {
     "ore": "tfc:cryolite",
+    "loose": "tfc:rock/slate",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -283,6 +290,7 @@
   },
   "saltpeter": {
     "ore": "tfc:saltpeter",
+    "loose": "tfc:rock/diorite",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -296,6 +304,7 @@
   },
   "sylvite": {
     "ore": "tfc:sylvite",
+    "loose": "tfc:rock/conglomerate",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -309,6 +318,7 @@
   },
   "borax": {
     "ore": "tfc:borax",
+    "loose": "tfc:rock/chert",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -322,6 +332,7 @@
   },
   "gypsum": {
     "ore": "tfc:gypsum",
+    "loose": "tfc:rock/quartzite",
     "width": 16,
     "height": 16,
     "shape": "sphere",
@@ -335,6 +346,7 @@
   },
   "lapis_lazuli": {
     "ore": "tfc:lapis_lazuli",
+    "loose": "tfc:rock/chalk",
     "width": 26,
     "height": 38,
     "shape": "cluster",
@@ -419,6 +431,7 @@
   },
   "pitchblende": {
     "ore": "tfc:pitchblende",
+    "loose": "tfc:rock/gabbro",
     "width": 16,
     "height": 28,
     "shape": "cluster",
@@ -432,6 +445,7 @@
   },
   "galena": {
     "ore": "tfc:galena",
+    "loose": "tfc:rock/diorite",
     "width": 16,
     "height": 28,
     "shape": "cluster",
@@ -448,6 +462,7 @@
   },
   "jet": {
     "ore": "tfc:jet",
+    "loose": "tfc:rock/andesite",
     "width": 16,
     "height": 28,
     "shape": "cluster",
@@ -461,6 +476,7 @@
   },  
   "petrified_wood": {
     "ore": "tfc:petrified_wood",
+    "loose": "tfc:rock/marble",
     "width": 16,
     "height": 28,
     "shape": "cluster",
@@ -478,6 +494,7 @@
   },
   "sulfur": {
     "ore": "tfc:sulfur",
+    "loose": "tfc:rock/shale",
     "width": 22,
     "height": 42,
     "shape": "cluster",
@@ -491,6 +508,7 @@
   },
   "selenite": {
     "ore": "tfc:selenite",
+    "loose": "tfc:rock/phyllite",
     "width": 22,
     "height": 42,
     "shape": "cluster",
@@ -500,6 +518,21 @@
     "density": 70,
     "base_rocks": [
       "tfc:igneous_extrusive"
+    ]
+  },
+  "olivine": {
+    "ore": "tfc:olivine",
+    "loose": "tfc:rock/claystone",
+    "width": 12,
+    "height": 24,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 70,
+    "base_rocks": [
+      "tfc:basalt",
+      "tfc:gabbro"
     ]
   }
   

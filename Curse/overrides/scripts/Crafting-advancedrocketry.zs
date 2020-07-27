@@ -88,12 +88,12 @@ recipes.addShaped("tnfc_advancedrocketry_blastbrick", <advancedrocketry:blastbri
 
 //Cutting Machine
 recipes.remove(<advancedrocketry:cuttingmachine>);
-recipes.addShaped("advancedrocketry:cuttingmachine", <advancedrocketry:cuttingmachine>, [[<ore:gearSteel>, <advancedrocketry:misc>, <ore:gearSteel>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<minecraft:obsidian>, <ore:craftingToolSaw>.noReturn(), <minecraft:obsidian>]]);
+recipes.addShaped("advancedrocketry_cuttingmachine", <advancedrocketry:cuttingmachine>, [[<ore:gearSteel>, <advancedrocketry:misc>, <ore:gearSteel>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<minecraft:obsidian>, <ore:craftingToolSaw>.noReturn(), <minecraft:obsidian>]]);
 
 //Black hole generator
 recipes.remove(<advancedrocketry:blackholegenerator>);
-recipes.addShaped("advancedrocketry:blackholegenerator_adv", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:advancedmotor>, <advancedrocketry:misc>, <libvulpes:advancedmotor>]]);
-recipes.addShaped("advancedrocketry:blackholegenerator_elite", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:elitemotor>, <advancedrocketry:misc>, <libvulpes:elitemotor>]]);
+recipes.addShaped("advancedrocketry_blackholegenerator_adv", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:advancedmotor>, <advancedrocketry:misc>, <libvulpes:advancedmotor>]]);
+recipes.addShaped("advancedrocketry_blackholegenerator_elite", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:elitemotor>, <advancedrocketry:misc>, <libvulpes:elitemotor>]]);
 
 //Shapeless Recipes
 

@@ -1,14 +1,29 @@
 Notes:
-UPDATE TIME4TFC OR YOU WILL HAVE A BAD TIME WITH .155
+
+- Gasoline in wooden buckets
+
+- Electrum grit arc furnace
+
+
+- Process world.log and throw into MySQL instance
+
+butchering increase the chance of drops from hostile mobs
+
+- Hunger/thirst from sleeping?
+
+- Mob drops?
+
+- New paper process -  sawdust, bark, glue
 
 
 
-- End Loot needs fixing!
+
+
+- Check all the vanilla furnace recipes and remove where needed
 
 - BwM breakage - Wind chimnes. Sawdust
 
 
-- REDO Loot Tables once AR is added.
 - AMADRON trades for AR stuff??
 
 - Why does bonemeal work in the Cloche?

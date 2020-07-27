@@ -192,30 +192,6 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/water_lily>], [<minecraft:dye:2>]);
 
 
-
-//Saw Recipes
-
-
-	mods.betterwithmods.Saw.add(<tfc:wood/log/acacia:4>,[<tfc:wood/lumber/acacia> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/ash:4>,[<tfc:wood/lumber/ash> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/aspen:4>,[<tfc:wood/lumber/aspen> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/birch:4>,[<tfc:wood/lumber/birch> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/blackwood:4>,[<tfc:wood/lumber/blackwood> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/chestnut:4>,[<tfc:wood/lumber/chestnut> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/douglas_fir:4>,[<tfc:wood/lumber/douglas_fir> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/hickory:4>,[<tfc:wood/lumber/hickory> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/maple:4>,[<tfc:wood/lumber/maple> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/oak:4>,[<tfc:wood/lumber/oak> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/palm:4>,[<tfc:wood/lumber/palm> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/pine:4>,[<tfc:wood/lumber/pine> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/rosewood:4>,[<tfc:wood/lumber/rosewood> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/sequoia:4>,[<tfc:wood/lumber/sequoia> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/spruce:4>,[<tfc:wood/lumber/spruce> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/sycamore:4>,[<tfc:wood/lumber/sycamore> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/white_cedar:4>,[<tfc:wood/lumber/white_cedar> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/willow:4>,[<tfc:wood/lumber/willow> * 16]);
-	mods.betterwithmods.Saw.add(<tfc:wood/log/kapok:4>,[<tfc:wood/lumber/kapok> * 16]);
-  
 //Kiln Recipes
 
   //mods.betterwithmods.Kiln.add(IIngredient input, IItemStack[] output);
