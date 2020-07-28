@@ -9,7 +9,7 @@
 //	mods.betterwithmods.Crucible.removeAll();
 //	mods.betterwithmods.Kiln.removeAll();
 	mods.betterwithmods.Mill.removeAll();
-	mods.betterwithmods.Saw.removeAll();
+	//mods.betterwithmods.Saw.removeAll();
 
   //Might fix the CnB movement speed. Need to know their blocks first.  
   mods.betterwithmods.Movement.set(<chiselsandbits:block_bit>, 1);
