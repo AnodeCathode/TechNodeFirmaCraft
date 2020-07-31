@@ -34,7 +34,7 @@
 
         
         <!--TFC Addons Mods -->
-        <mod name="TFCTech Unofficial" version="1.2.13" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCTech-Unofficial-MC1.12.2-1.2.13.jar" file="TFCTech-Unofficial-MC1.12.2-1.2.13.jar" md5="216925765674e2d60c6941de8228b28a" download="server" type="mods" client="yes" colour="green" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+        <mod name="TFCTech Unofficial" version="1.2.14" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCTech-Unofficial-MC1.12.2-1.2.14.jar" file="TFCTech-Unofficial-MC1.12.2-1.2.14.jar" md5="af448abd0012fff9b755c7a348c9e1ac" download="server" type="mods" client="yes" colour="green" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
