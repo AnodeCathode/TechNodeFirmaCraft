@@ -44,6 +44,8 @@ butchering increase the chance of drops from hostile mobs
 - Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
 
 - Random diamond drops from crushing kimberlite ffs
+- RENAME LUNA to Prospit
+
 - Rope block back to ropes - Done
 
 - If I leave the vanilla top blocks in ocean spawning biomes, will we get the underwater crap?
@@ -57,10 +59,6 @@ butchering increase the chance of drops from hostile mobs
 - IE excavator crashes on fake player on chunk load?. Need fix.
 
 
-- Gold block disassembly? other blocks? melt them instead? arc furnace?
-
-- Remove steel block to IE ingots
-- Go through all ore blocks and rationalize the setup
 
 
 - Advanced Rocketry
