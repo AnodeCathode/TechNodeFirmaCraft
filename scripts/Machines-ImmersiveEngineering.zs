@@ -159,6 +159,13 @@ import mods.immersiveengineering.MineralMix;
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 1, <tfc:ore/selenite>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <minecraft:glowstone>, 512);
 
+       //Fix for AutoIE added OreDict Crusher recipes that screw up bronze ingot crushing
+     mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:metal/ingot/bismuth_bronze>);
+     mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:metal/ingot/black_bronze>);
+     mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:metal/ingot/bronze>);
+     mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bismuth_bronze> , <tfc:metal/ingot/bismuth_bronze>, 512);
+     mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/black_bronze> , <tfc:metal/ingot/black_bronze>, 512);
+     mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bronze> , <tfc:metal/ingot/bronze>, 512);
 
   
 // Excavator
