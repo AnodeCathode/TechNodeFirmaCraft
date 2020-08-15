@@ -32,20 +32,22 @@
  //Mill
   //mods.betterwithmods.Mill.add(output, secondary_output, input[])
   //Grain
-  mods.betterwithmods.Mill.add(<tfc:food/barley_grain>,<tfc:straw>,[<tfc:food/barley>]);
-	mods.betterwithmods.Mill.add(<tfc:food/oat_grain>,<tfc:straw>,[<tfc:food/oat>]);
-	mods.betterwithmods.Mill.add(<tfc:food/rice_grain>,<tfc:straw>,[<tfc:food/rice>]);
-	mods.betterwithmods.Mill.add(<tfc:food/rye_grain>,<tfc:straw>,[<tfc:food/rye>]);
-	mods.betterwithmods.Mill.add(<tfc:food/wheat_grain>,<tfc:straw>,[<tfc:food/wheat>]);
-  mods.betterwithmods.Mill.add(<tfc:food/maize_grain>,<tfc:straw>,[<tfc:food/maize>]);
+  
+  //Disabling all food grinding until we find a way to deal with food expiry
+  // mods.betterwithmods.Mill.add(<tfc:food/barley_grain>,<tfc:straw>,[<tfc:food/barley>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/oat_grain>,<tfc:straw>,[<tfc:food/oat>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/rice_grain>,<tfc:straw>,[<tfc:food/rice>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/rye_grain>,<tfc:straw>,[<tfc:food/rye>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/wheat_grain>,<tfc:straw>,[<tfc:food/wheat>]);
+  // mods.betterwithmods.Mill.add(<tfc:food/maize_grain>,<tfc:straw>,[<tfc:food/maize>]);
 
-	//Flour
-	mods.betterwithmods.Mill.add(<tfc:food/barley_flour> * 2, [<tfc:food/barley_grain>]);
-  mods.betterwithmods.Mill.add(<tfc:food/oat_flour> * 2, [<tfc:food/oat_grain>]);
-	mods.betterwithmods.Mill.add(<tfc:food/rice_flour> * 2,[<tfc:food/rice_grain>]);
-	mods.betterwithmods.Mill.add(<tfc:food/rye_flour> * 2,[<tfc:food/rye_grain>]);
-	mods.betterwithmods.Mill.add(<tfc:food/wheat_flour> * 2,[<tfc:food/wheat_grain>]);
-	mods.betterwithmods.Mill.add(<tfc:food/cornmeal_flour> * 2, [<tfc:food/maize_grain>]);
+	Flour
+	// mods.betterwithmods.Mill.add(<tfc:food/barley_flour> * 2, [<tfc:food/barley_grain>]);
+  // mods.betterwithmods.Mill.add(<tfc:food/oat_flour> * 2, [<tfc:food/oat_grain>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/rice_flour> * 2,[<tfc:food/rice_grain>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/rye_flour> * 2,[<tfc:food/rye_grain>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/wheat_flour> * 2,[<tfc:food/wheat_grain>]);
+	// mods.betterwithmods.Mill.add(<tfc:food/cornmeal_flour> * 2, [<tfc:food/maize_grain>]);
   
   //Olive
   mods.betterwithmods.Mill.add(<tfc:food/olive_paste> * 2, [<tfc:food/olive>]);
