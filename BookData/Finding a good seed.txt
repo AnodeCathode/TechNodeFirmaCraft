@@ -1,0 +1,72 @@
+Probably one of the most requested and source of most complaints in early TFC/TNFC (my Modpack that extends TFC) is finding the resources one needs to progress. As this is a much more involved, complicated and possibly time-consuming process, I thought I'd go over my own process for finding what I consider a good seed for our server and share it.
+
+For simplicity sake I'll refer to TFC, the advice I provide will also apply to Technodefirmacraft, wherever there are specific differences applicable only to the modpack, I will try and indicate. Otherwise, the advice is pretty universal to TFC Minecraft. Also note that all my advice is somewhat more specifically tied to the 1.12.2 TFC-NG versions. Although the general advice will of course be applicable to older TFC versions.
+
+
+- Step 1 - Know the Problem -
+
+First, the background.  TFC as a complete Minecraft makeover mod, changes the way the worldgen works to such a large extend that it's helpful to just forget everything you know about choosing a good Minecraft map. The key to progression in TFC is understanding rock types. 
+
+Rather than Minecraft's 'Stone', in TFC you have 22 different types of rock. These are divided into 4 types of rock (Sedimentary, Metamorphic, Igneous Extrusive and Igneous Intrusive). The rocks are world generated in 3 layers. All 22 rock types can appear at the top layer, but in the 2 deeper layers, only some of them will be used. The ores (copper, bismuth, tin, kaolinite, etc) will only spawn in certain rock types (eg. Cassiterite/Tin is only found Igneous Intrusive rock) or even in one particular rock (eg. Garnierite/Nickel ONLY spawns in Gabbro rock). 
+
+
+In addition, certain rocks perform additional functions. The first anvil you need comes from raw stone, and only from the Igneous Intrusive or Igneous Extrusive rock types, which contain 7 kinds of rock in them in total. The second and probably the most common source of early game frustration, is the flux rocks. Flux is used in the anvil to weld metals together. This is a key progression requirement. Only 4 rocks can be crushed to create flux (Chalk, Dolomite, Limestone and Marble). There is also a mineral that TFC generates (Borax) which can be used as flux, but it ONLY generates in rocksalt. Rocksalt itself is a special rock case, as it is the only source for salt, which can be used to preserve meat. 
+
+
+The other issue that frequently catches players new to TFC out is the size of these rock biomes (I will refer to areas that a rock spawns at the top layer as a biome for convenience. These are not regular Minecraft or TFC 'biomes', do not appear differently in the F3 Debug overlay but when the world is generated, different rock types are selected for the top, middle and bottom layers. For convenience I will refer to the various rocks generated on the top layer as Rock Biomes). Rock biomes in TFC can be rather massive, it is not uncommon to walk 6000 blocks and see the same top layer rocks and soil for the entire journey. Travel and exploration is a key element to TFC so expect to do extensive walking or boating, but it can be frustrating walking 50-60 thousand blocks to find flux rock needed to progress out of the stone age. Hence this long screed.
+
+
+So you need certain rocks, and particularly in the early game you need them at the top layer, as exploiting resources in the deeper layer is far more difficult and a discussion for another tutorial. For this one, we need to decide, what are the rocks we need reasonably adjacent to our spawn in order to have a reasonable chance of progression. This is a matter of opinion and also changes dependent on whether you are playing just TFC itself or within a modpack such as Technodefirmacraft (TNFC) as modpacks will have additional ores and further will utilize more of  the ores in TFC that are sometimes of limited import.
+
+
+- Step 2 - Define the requirements -
+
+In my opinion, the rocks you need within a reasonable starting area (see note on walking above, for me a reasonable starting area is roughly 5000 chunks of spawn... do the math, it's a big area) are: a flux stone, a stone for the first anvil, a source of the key basic ores (copper, zinc, bismuth, tin, gold, silver, etc). And the key rocks for one off resources, gabbro (garnierite/nickel), marble  lapis lazuli (probably more applicable to modpacks), rock salt for food preservation. 
+
+
+So my basic must-have list is: gabbro for garnierite and kimberlite, marble for flux stone, graphite malachite and lapis, rocksalt for salt, kaolinite and coal ores, granite for tin, gold, silver and cryolite, a Igneous Extrusive rock (Andesite, Basalt, Dacite, Rhyolite) for bismuth, hematite, copper and gold. So that's at least 5 rocks you want within a reasonable area to progress. Again this a matter of opinion and depends on the other mods you're playing. But if you have these 5 rocks then you can get through the tech tree.
+
+
+
+- Step 3 - A better solution -
+
+How to then ensure you have these 5 rock types within a particular minecraft seed? One method of course is to start map after map and either creative mode fly around or some other manual method to check what spawn rock biome and adjacent rock biomes you have available. This is slow and uncertain. A better method is to use Dries007 TFCSeedMaker to generate world candidates to choose from.
+
+
+There are two updated version of Dries007 TFCSeedmaker to choose from. I updated the original 1.7.10 version of Seedmaker to the 1.12.2 TFC-NG version myself (https://github.com/AnodeCathode/TFCSeedMaker/releases/tag/1.0). Dries himself updated TFCSeedmaker to 1.12.2 and is available here (https://github.com/dries007/TFCSeedMaker/releases/tag/v0.2.0). I recommend my hacky update because of one key feature. Dries removed the summary file output from his updated Seedmaker. To me, the summary file is the most useful and valuable part of TFCSeedmaker. Also note that he changed the colours used to indicated different rock biomes, so the different graphic files created are not comparable. For this I will be assuming use of my version.
+
+
+TFCSeedmaker works stand-alone. It is not a Minecraft mod. It is a java utility that incorporates enough of the TFC world generation logic to create a simulation of the TFC world and then output graphics and a files detailing the world. Download TFCSeedMaker, put it into a new folder alone. Then you need to create a batch/cmd file to actually run the seedmaker and provide it with parameters. While your details may differ, the basic command I use to generate candidates is this:
+
+
+java -jar TFCSeedMaker-0.1.0.jar -m all -r 5000 -n 10 
+
+
+This will create 10 map seed candidates, 5000 chunks out (not exactly Minecraft chunks, but I've decided 5000 is within my definition of 'reasonable').
+
+
+So with a command/batch file and the jar, you launch TFCSeedmaker and it will create 10 sub folders, each named for the seed being tested. Depending on the size of the map (the -r 5000 parameter) and the power of your machine, it will take some time for TFCSeedmaker to generate all the candidates. Go have a coffee and watch something on TV. Seedmaker needs all the cores on your computer so leave it alone.
+
+
+- Step 4 - Process the Results -
+
+
+Once it completes, you will have 10 folders of candidates. Now you have to decide. My process is as follows, I go into each folder and open the summary file ({seednumber}.json). I look for the 5 key rock types listed above in the "rocksTop" section. I try not to look too closely and precisely where each rock type is, particularly if this is a map seed I'm going to play on myself. More looking at the general layout, and availability of the rock biomes. If I'm setting up a server I might be even more particular and count the total number of rocks in that section. TFC has 22 rocks in total and for a server I might keep looking until I find a seed with all 22 within the scan area. 
+
+My second criteria is world layout. As is clear, travel around to get to the different rock biomes is a key component of TFC. Also, having the 5 critical biomes is rather less useful if all of them are under the ocean. So if a candidate meets the first test, I then check the biomes.png file. This is a layout of the actual biomes in TFC. Actual biomes in TFC are rather useless except that it differentiates between land biomes and ocean biomes. I look for largish landmasses with a good ocean connecting them together. Ocean travel is a much faster and safer way to quickly get to all the various rock biomes. 
+
+For a server, I might go so far as to examine the rock_top.png file and ensure that no critical rock biome is under the ocean. I've even gone so far as to overlay that rock_top.png on the biomes.png in photoshop to get a clear idea of where the land is and where the rocks are. 
+
+How much effort you want to expend on that is up to you. For SSP, having a single Pangea landmass can be convenient if you like. Again I cull out the folders that TFCSeedmaker produces and leave the possible candidates. Then a second pass examining the actual layout of the land. If I'm not entirely satisfied I may run TFCSeedmaker again, generating another 10 candidates for examination. This process continues until I have 3 or 4 candidates that I believe are suitable. 
+
+Only now do we fire up our TFC client and actually look at the seeds. This is even more a matter of personal preference. If I know that a seed has the rocks I need, then depending on how particular I'm feeling, I may go further. I may look for nice plains to build on. Good sources of hot water, lava, salt water and fresh water. Pretty mountains. Tree types. I may start all the various seeds with cheats on, enable creative mode and fly about, checking the seed from an esthetic angle. This part is up to you. If I'm selecting for a server I may spend some time on this. If it's for my own SSP play, then I won't do this at all and let the actual layout of terrain be a surprise.
+
+- Summary -
+
+
+In the end, selecting a decent seed in TFC is much more important than in vanilla Minecraft. It can be extremely frustrating to be unable to find a critical resource needed to progress. Keep in mind however, that in theory every rock type will eventually spawn, given a large enough world. So if you're really hardcore you can just pick whatever spawn comes up and overcome whatever obstables the RNGejus generates for you and persevere. But if you are just starting out, starting a server for you and others to play on, or just want to know that everything you need will be 'somewhere' nearby. Then I recommend spending some time on finding a decent seed. TFC is hard enough without being able to find flux within 18000 blocks of your spawn.
+
+Hope this helps and look forward to your feedback.
+
+
+
