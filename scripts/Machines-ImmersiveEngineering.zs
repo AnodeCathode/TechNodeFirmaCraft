@@ -123,23 +123,23 @@ import mods.immersiveengineering.MineralMix;
     mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:14>, <minecraft:concrete_powder:14>, null, 200, 512);
     mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:concrete:15>, <minecraft:concrete_powder:15>, null, 200, 512);
     
-    //sand to glass recipes (avoiding the sands with oredict sandSilica)
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/diorite>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/gabbro>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/shale>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/claystone>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/rocksalt>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/limestone>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/conglomerate>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/dolomite>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/chalk>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/basalt>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/andesite>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/dacite>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/slate>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/schist>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/gneiss>, null, 200, 512);
-      mods.immersiveengineering.Crusher.addRecipe(<minecraft:glass>, <tfc:sand/marble>, null, 200, 512);
+  //sand to glass recipes (avoiding the sands with oredict sandSilica)
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/diorite>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/gabbro>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/shale>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/claystone>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/rocksalt>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/limestone>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/conglomerate>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/dolomite>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/chalk>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/basalt>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/andesite>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/dacite>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/slate>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/schist>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/gneiss>, null, 200, 512);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <tfc:sand/marble>, null, 200, 512);
     
     // Alloys from Dust
     mods.immersiveengineering.ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze> * 9, <tfc:metal/dust/bismuth>, null, 200, 512, [<tfc:metal/dust/copper> * 6, <tfc:metal/dust/zinc> * 2], "Alloying");
