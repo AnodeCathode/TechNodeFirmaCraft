@@ -28,6 +28,21 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
   recipes.remove(<pneumaticcraft:air_cannon>);
   recipes.remove(<pneumaticcraft:vacuum_pump>);
   recipes.remove(<pneumaticcraft:dispenser_upgrade>);
+  recipes.remove(<pneumaticcraft:jet_boots_upgrade>);
+  recipes.remove(<pneumaticcraft:item_life_upgrade>);
+  recipes.remove(<pneumaticcraft:magnet_upgrade>);
+  recipes.remove(<pneumaticcraft:night_vision_upgrade>);
+  recipes.remove(<pneumaticcraft:range_upgrade>);
+  recipes.remove(<pneumaticcraft:scuba_upgrade>);
+  recipes.remove(<pneumaticcraft:search_upgrade>);
+  recipes.remove(<pneumaticcraft:security_upgrade>);
+  recipes.remove(<pneumaticcraft:volume_upgrade>);
+  recipes.remove(<pneumaticcraft:armor_upgrade>);
+  recipes.remove(<pneumaticcraft:block_tracker_upgrade>);
+  recipes.remove(<pneumaticcraft:charging_upgrade>);
+  recipes.remove(<pneumaticcraft:coordinate_tracker_upgrade>);
+  recipes.remove(<pneumaticcraft:entity_tracker_upgrade>);
+  
   
   // ================================================================================
 //#ADD SHAPED
@@ -41,7 +56,7 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
       recipes.addShaped("pneumaticcraft_pressure_chamber_wall", <pneumaticcraft:pressure_chamber_wall> * 16, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_pressure_gauge", <pneumaticcraft:pressure_gauge>, [[null, <tfc:metal/ingot/gold>, null], [<tfc:metal/ingot/gold>, <ore:ingotIronCompressed>, <tfc:metal/ingot/gold>], [null, <tfc:metal/ingot/gold>, null]]);
       recipes.addShaped("pneumaticcraft_speed_upgrade", <pneumaticcraft:speed_upgrade>, [[<ore:gemLapis>, vodkaBottle, <ore:gemLapis>], [vodkaBottle, lubeBucket, vodkaBottle], [<ore:gemLapis>, vodkaBottle, <ore:gemLapis>]]);
-      recipes.addShaped("pneumaticcraft_dispenser_upgrade", <pneumaticcraft:dispenser_upgrade>, [[<ore:dyeBlue>, <minecraft:quartz>, <ore:dyeBlue>], [<minecraft:quartz>, <minecraft:dispenser>, <minecraft:quartz>], [<ore:dyeBlue>, <minecraft:quartz>, <ore:dyeBlue>]]);
+      recipes.addShaped("pneumaticcraft_dispenser_upgrade", <pneumaticcraft:dispenser_upgrade>, [[<tfc:ore/lapis_lazuli>, <minecraft:quartz>, <tfc:ore/lapis_lazuli>], [<minecraft:quartz>, <minecraft:dispenser>, <minecraft:quartz>], [<tfc:ore/lapis_lazuli>, <minecraft:quartz>, <tfc:ore/lapis_lazuli>]]);
       recipes.addShaped("pneumaticcraft_uv_light_box", <pneumaticcraft:uv_light_box>, [[<betterwithmods:material:34>, <betterwithmods:material:34>, <betterwithmods:material:34>], [<ore:ingotIronCompressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_vortex_tube", <pneumaticcraft:vortex_tube>, [[<ore:ingotIronCompressed>, <pneumaticcraft:pressure_tube>, <ore:ingotIronCompressed>], [<tfc:metal/ingot/gold>, <pneumaticcraft:pressure_tube>, <tfc:metal/ingot/gold>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
       recipes.addShaped("pneumaticcraft_seismic_sensor", <pneumaticcraft:seismic_sensor>, [[null, <minecraft:redstone_torch>, null], [<ore:blockGlass>, <minecraft:repeater>, <ore:blockGlass>], [<ore:blockGlass>, <ore:gemCoal>, <ore:blockGlass>]]);
@@ -49,6 +64,21 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
       recipes.addShaped("pneumaticcraft_air_cannon", <pneumaticcraft:air_cannon>, [[null, <pneumaticcraft:cannon_barrel>, null], [null, <pneumaticcraft:stone_base>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
       recipes.addShaped("pneumaticcraft_vacuum_pump", <pneumaticcraft:vacuum_pump>, [[<pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>], [<pneumaticcraft:pressure_tube>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_tube>], [<ore:slab>, <ore:slab>, <ore:slab>]]);
 
+      recipes.addShaped("pneumaticcraft_jet_boots_upgrade", <pneumaticcraft:jet_boots_upgrade>, [[<tfc:ore/lapis_lazuli>, <pneumaticcraft:advanced_pressure_tube>, <tfc:ore/lapis_lazuli>], [<pneumaticcraft:vortex_cannon>, <pneumaticcraft:advanced_air_compressor>, <pneumaticcraft:vortex_cannon>], [<tfc:ore/lapis_lazuli>, <pneumaticcraft:advanced_pressure_tube>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_item_life_upgrade", <pneumaticcraft:item_life_upgrade>, [[<tfc:ore/lapis_lazuli>, <tfc:metal/lamp/platinum>, <tfc:ore/lapis_lazuli>], [<tfc:metal/lamp/platinum>, <minecraft:clock>, <tfc:metal/lamp/platinum>], [<tfc:ore/lapis_lazuli>, <tfc:metal/lamp/platinum>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_magnet_upgrade", <pneumaticcraft:magnet_upgrade>, [[<tfc:ore/lapis_lazuli>, <ore:ingotIronCompressed>, <tfc:ore/lapis_lazuli>], [<ore:ingotIronCompressed>, <ore:plasticRed>, <ore:ingotIronCompressed>], [<tfc:ore/lapis_lazuli>, <ore:ingotIronCompressed>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_night_vision_upgrade", <pneumaticcraft:night_vision_upgrade>, [[<tfc:ore/lapis_lazuli>, <tfc:metal/lamp/cobalt>, <tfc:ore/lapis_lazuli>], [<pneumaticcraft:pressure_chamber_glass>, <tfc:metal/lamp/cobalt>, <pneumaticcraft:pressure_chamber_glass>], [<tfc:ore/lapis_lazuli>, <minecraft:potion>.withTag({Potion: "minecraft_long_night_vision"}), <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_range_upgrade", <pneumaticcraft:range_upgrade>, [[<tfc:ore/lapis_lazuli>, <minecraft:arrow>, <tfc:ore/lapis_lazuli>], [<minecraft:arrow>, <minecraft:bow>, <minecraft:arrow>], [<tfc:ore/lapis_lazuli>, <minecraft:arrow>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_scuba_upgrade", <pneumaticcraft:scuba_upgrade>, [[<tfc:ore/lapis_lazuli>, <pneumaticcraft:pressure_tube>, <tfc:ore/lapis_lazuli>], [<pneumaticcraft:plastic:11>, <pneumaticcraft:regulator_tube_module>, <pneumaticcraft:plastic:11>], [<tfc:ore/lapis_lazuli>, <pneumaticcraft:plastic>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_search_upgrade", <pneumaticcraft:search_upgrade>, [[<tfc:ore/lapis_lazuli>, <advancedrocketry:satelliteprimaryfunction>, <tfc:ore/lapis_lazuli>], [<advancedrocketry:satelliteprimaryfunction>, <libvulpes:productgem>, <advancedrocketry:satelliteprimaryfunction>], [<tfc:ore/lapis_lazuli>, <advancedrocketry:satelliteprimaryfunction>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_security_upgrade", <pneumaticcraft:security_upgrade>, [[<tfc:ore/lapis_lazuli>, <minecraft:obsidian>, <tfc:ore/lapis_lazuli>], [<minecraft:obsidian>, <pneumaticcraft:safety_tube_module>, <minecraft:obsidian>], [<tfc:ore/lapis_lazuli>, <minecraft:obsidian>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_volume_upgrade", <pneumaticcraft:volume_upgrade>, [[<tfc:ore/lapis_lazuli>, <ore:ingotIronCompressed>, <tfc:ore/lapis_lazuli>], [<ore:ingotIronCompressed>, <pneumaticcraft:air_canister:*>, <ore:ingotIronCompressed>], [<tfc:ore/lapis_lazuli>, <ore:ingotIronCompressed>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_armor_upgrade", <pneumaticcraft:armor_upgrade>, [[<tfc:ore/lapis_lazuli>, <ore:gemDiamond>, <tfc:ore/lapis_lazuli>], [<ore:gemDiamond>, <ore:ingotIronCompressed>, <ore:gemDiamond>], [<tfc:ore/lapis_lazuli>, <ore:gemDiamond>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_block_tracker_upgrade", <pneumaticcraft:block_tracker_upgrade>, [[<tfc:ore/lapis_lazuli>, <pneumaticcraft:pressure_chamber_wall>, <tfc:ore/lapis_lazuli>], [<pneumaticcraft:pressure_chamber_wall>, <minecraft:fermented_spider_eye>, <pneumaticcraft:pressure_chamber_wall>], [<tfc:ore/lapis_lazuli>, <pneumaticcraft:pressure_chamber_wall>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_charging_upgrade", <pneumaticcraft:charging_upgrade>, [[<tfc:ore/lapis_lazuli>, <pneumaticcraft:pressure_tube>, <tfc:ore/lapis_lazuli>], [<pneumaticcraft:pressure_tube>, <pneumaticcraft:charging_module>, <pneumaticcraft:pressure_tube>], [<tfc:ore/lapis_lazuli>, <pneumaticcraft:pressure_tube>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_coordinate_tracker_upgrade", <pneumaticcraft:coordinate_tracker_upgrade>, [[<tfc:ore/lapis_lazuli>, <minecraft:redstone>, <tfc:ore/lapis_lazuli>], [<minecraft:redstone>, <pneumaticcraft:gps_tool>, <minecraft:redstone>], [<tfc:ore/lapis_lazuli>, <minecraft:redstone>, <tfc:ore/lapis_lazuli>]]);
+      recipes.addShaped("pneumaticcraft_entity_tracker_upgrade", <pneumaticcraft:entity_tracker_upgrade>, [[<tfc:ore/lapis_lazuli>, <minecraft:bone>, <tfc:ore/lapis_lazuli>], [<minecraft:bone>, <advancedrocketry:productgear>, <minecraft:bone>], [<tfc:ore/lapis_lazuli>, <minecraft:bone>, <tfc:ore/lapis_lazuli>]]);
+      
       // ================================================================================
 //#ADD SHAPELESS
       recipes.addShapeless("pneumaticcraft_gun_ammo", <pneumaticcraft:gun_ammo>, [<minecraft:gunpowder>, <ore:ingotIronCompressed>, <tfc:metal/ingot/gold>]);
