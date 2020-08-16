@@ -152,13 +152,27 @@
   },
   "thorianite": {
     "ore": "tfc:thorianite",
-    "loose": "tfc:rock/claystone",
+    "loose": "tfc:thorianite",
     "width": 12,
     "height": 12,
     "shape": "cluster",
     "rarity": 65,
     "minimum_height": 5,
     "maximum_height": 128,
+    "density": 85,
+    "base_rocks": [
+      "tfc:igneous_extrusive"
+    ]
+  },
+  "surface_thorianite": {
+    "ore": "tfc:thorianite",
+    "loose": "tfc:thorianite",
+    "width": 12,
+    "height": 12,
+    "shape": "cluster",
+    "rarity": 65,
+    "minimum_height": 128,
+    "maximum_height": 140,
     "density": 85,
     "base_rocks": [
       "tfc:igneous_extrusive"
