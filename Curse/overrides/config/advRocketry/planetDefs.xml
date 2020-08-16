@@ -2,7 +2,7 @@
     <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
         <planet name="TerraFirmaEarth" DIMID="0" dimMapping="" customIcon="earthlike">
             <isKnown>True</isKnown>
-             <planet name="Luna" DIMID="100">
+             <planet name="Prospit" DIMID="100">
                 <isKnown>true</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>

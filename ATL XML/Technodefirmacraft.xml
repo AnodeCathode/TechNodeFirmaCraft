@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.22</version>
+        <version>12.2.23</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -38,7 +38,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes"  selected="yes" />
    
-        <mod name="Technodefirmacraft" version="12.2.22" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.22.jar" file="Technodefirmacraft-MC1.12.2-12.2.22.jar" md5="a631e853c08e22f05f82b193575402ec" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
+        <mod name="Technodefirmacraft" version="12.2.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/Technodefirmacraft-MC1.12.2-12.2.23.jar" file="Technodefirmacraft-MC1.12.2-12.2.23.jar" md5="b1843f484eacfaebf62dee1b1aeedd6d" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -46,8 +46,9 @@
         
         <mod name="Debark" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Debark-0.1.2.jar" file="Debark-0.1.2.jar" md5="3ae43134317b3f1d71f3def390489f90" download="server" type="mods" colour="green"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
-        <mod name="TFC Ambiental" version="1.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAmbiental-1.0.10-1.12.2.jar" file="TFCAmbiental-1.0.10-1.12.2.jar" md5="7a86da377890e9a57634f5abc6cfd964" download="server" type="mods" colour="green"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+        <mod name="TFC Ambiental" version="1.0.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAmbiental-1.0.23-1.12.2.jar" file="TFCAmbiental-1.0.23-1.12.2.jar" md5="49d3da51391aa9e6b0ffd5892b9577b2" download="server" type="mods" colour="green"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
+        <mod name="TFC Seasonal" version="1.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCSeasonal-1.0.2-1.12.2.jar" file="TFCSeasonal-1.0.2-1.12.2.jar" md5="911a4eb5763db27a6a4b6db68d0b94ea" download="server" type="mods" colour="green"  optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
 
 <!-- Marquee Mods -->
 
@@ -66,7 +67,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.7.71" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.7.71.jar" file="MCTImmersiveTechnology-1.12.2-1.7.71.jar" md5="abb4816ecd6394f616c6100fe3fd1283"  download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.8.75" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.75.jar" file="MCTImmersiveTechnology-1.12.2-1.8.75.jar" md5="f907e524dcdcbf8fc2c449045e0511dc" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" library="yes" selected="yes" />
         
 
@@ -116,7 +117,7 @@
 
         <mod name="BiomeTweakerCore" version="BiomeTweakerCore-1.12.2-1.0.39.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweakerCore-1.12.2-1.0.39.jar" file="BiomeTweakerCore-1.12.2-1.0.39.jar" md5="b79eb875292bb76eec12b19fd2a692b1" download="server" type="mods" />
 
-        <mod name="BiomeTweaker" version="3.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweaker-1.12.2-3.2.363.jar" file="BiomeTweaker-1.12.2-3.2.363.jar" md5="1b5119dee72555ca5462b0b5707e10cb" download="server" type="mods" />
+        <mod name="BiomeTweaker" version="3.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweaker-1.12.2-3.2.368.jar" file="BiomeTweaker-1.12.2-3.2.368.jar" md5="6479ac51a30ab71c420e861b8b3438bc" download="server" type="mods" />
         
         <mod name="libVulpes" version="1.12.2-0.4.2-75" url="packs/TechNodefirmacraft/files/1.12.2Mods/LibVulpes-1.12.2-0.4.2-75-universal.jar" file="LibVulpes-1.12.2-0.4.2-75-universal.jar" md5="d0bc44a9f1401a6da2419e48f287da55" download="server" type="mods" />
         
@@ -129,7 +130,7 @@
 
         <!-- Jetpacks -->
         
-    <mod name="Simply Jetpacks 2" version="2.2.14.67" url="packs/TechNodefirmacraft/files/1.12.2Mods/SimplyJetpacks2-1.12.2-2.2.14.67.jar" file="SimplyJetpacks2-1.12.2-2.2.14.67.jar" md5="90d79e964142ea700f4fa81945510918" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+    <mod name="Simply Jetpacks 2" version="2.2.15.69" url="packs/TechNodefirmacraft/files/1.12.2Mods/SimplyJetpacks2-1.12.2-2.2.15.69.jar" file="SimplyJetpacks2-1.12.2-2.2.15.69.jar" md5="296c212fc3d5ad99c7423222e0d80264" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
 
         
 <!-- Miscellaneous -->  
@@ -173,7 +174,7 @@
         
         <mod name="Just Enough Items" version="4.15.0.297" url="packs/TechNodefirmacraft/files/1.12.2Mods/jei_1.12.2-4.15.0.297.jar" file="jei_1.12.2-4.15.0.297.jar" md5="a278ec508d11c2eda27370e8c2343c0f"  download="server" type="mods" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Controlling" version="3.0.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/Controlling-3.0.9.jar" file="Controlling-3.0.9.jar" md5="1ad468d60a3e7501e25ca7cb666c62bc" download="server" type="mods" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
+        <mod name="Controlling" version="3.0.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/Controlling-3.0.10.jar" file="Controlling-3.0.10.jar" md5="7696135b09e93265ff190e1ee97a8257" download="server" type="mods" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
         
         <mod name="Crafting Tweaks" version="8.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/CraftingTweaks_1.12.2-8.1.9.jar" file="CraftingTweaks_1.12.2-8.1.9.jar" md5="ffd1e2b5c4f244f4a7c6d4ee2e4c2090" download="server" type="mods" client="yes" optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
 
@@ -237,7 +238,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.22"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.22.zip" file="scripts.12.2.22.zip" md5="bd633ec4d42abfd893dfe611a9d6aa41"  download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.23"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.23.zip" file="scripts.12.2.23.zip" md5="74266e9751262a07481ba62574c31689" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
