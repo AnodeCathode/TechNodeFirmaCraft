@@ -8,6 +8,11 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+val materialRubber = <ore:materialRubber>;
+    materialRubber.addItems([
+    <tfctech:latex/rubber>
+    ]);
+    
 var titaniumStick = <ore:stickTitanium>;
     titaniumStick.remove(<tfctech:metal/titanium_rod>);
     
