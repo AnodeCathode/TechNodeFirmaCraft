@@ -15,9 +15,9 @@ butchering increase the chance of drops from hostile mobs
 
 - New paper process -  sawdust, bark, glue
 
+- remove Borax dust from crusher
 
-
-
+/kill @e[type=tfc:ChickenTFC]
 
 - Check all the vanilla furnace recipes and remove where needed
 
