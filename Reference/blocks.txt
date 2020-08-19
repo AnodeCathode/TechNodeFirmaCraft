@@ -89,6 +89,7 @@
 <block:advancedrocketry:warpcore>, Warp Core
 <block:advancedrocketry:warpmonitor>, Warp Controller
 <block:advancedrocketry:wirelesstransciever>, Wireless Transceiver
+<block:att:metal_multiblock_att>, tile.att.metal_multiblock_att.name
 <block:betterwithengineering:ie_corner>, tile.bwmneering:ie_corner.name
 <block:betterwithengineering:ie_moulding>, tile.bwmneering:ie_moulding.name
 <block:betterwithengineering:ie_siding>, tile.bwmneering:ie_siding.name
@@ -209,6 +210,7 @@
 <block:debark:debarked_log_tfc_wood_log_sycamore>, tile.null.name
 <block:debark:debarked_log_tfc_wood_log_white_cedar>, tile.null.name
 <block:debark:debarked_log_tfc_wood_log_willow>, tile.null.name
+<block:engineersworkshop:blocktable>, Workshop Table
 <block:horsepower:chopper>, Horse Chopping Block
 <block:horsepower:chopper_filler>, tile.null.name
 <block:horsepower:chopping_block>, Chopping Block
@@ -271,6 +273,7 @@
 <block:immersivepetroleum:metal_multiblock>, tile.immersivepetroleum.metal_multiblock.name
 <block:immersivepetroleum:stone_decoration>, tile.immersivepetroleum.stone_decoration.name
 <block:immersivetech:connectors>, tile.immersivetech.connectors.name
+<block:immersivetech:exhauststeam>, tile.immersivetech.exhaustSteam.name
 <block:immersivetech:fluiddistwater>, Distilled Water
 <block:immersivetech:fluidsteam>, Steam
 <block:immersivetech:metal_barrel>, tile.immersivetech.metal_barrel.name
@@ -554,6 +557,211 @@
 <block:minecraft:yellow_flower>, Flower
 <block:minecraft:yellow_glazed_terracotta>, Yellow Glazed Terracotta
 <block:minecraft:yellow_shulker_box>, Yellow Shulker Box
+<block:nuclearcraft:alloy_furnace>, Alloy Furnace
+<block:nuclearcraft:assembler>, Assembler
+<block:nuclearcraft:bin>, Universal Bin
+<block:nuclearcraft:centrifuge>, Centrifuge
+<block:nuclearcraft:chemical_reactor>, Chemical Reactor
+<block:nuclearcraft:cobblestone_generator>, Cobblestone Generator
+<block:nuclearcraft:cobblestone_generator_compact>, Compact Cobblestone Generator
+<block:nuclearcraft:cobblestone_generator_dense>, Dense Cobblestone Generator
+<block:nuclearcraft:condenser_controller>, Condenser Controller (MULTIBLOCK BROKEN!)
+<block:nuclearcraft:condenser_tube_copper>, Copper Condensation Tube
+<block:nuclearcraft:condenser_tube_hard_carbon>, Hard Carbon Condensation Tube
+<block:nuclearcraft:condenser_tube_thermoconducting>, Thermoconducting Alloy Condensation Tube
+<block:nuclearcraft:crystallizer>, Crystallizer
+<block:nuclearcraft:decay_generator>, Decay Generator
+<block:nuclearcraft:decay_hastener>, Decay Hastener
+<block:nuclearcraft:electrolyzer>, Electrolyzer
+<block:nuclearcraft:enricher>, Fluid Enricher
+<block:nuclearcraft:extractor>, Fluid Extractor
+<block:nuclearcraft:fertile_isotope>, tile.nuclearcraft.fertile_isotope.name
+<block:nuclearcraft:fission_casing>, Fission Reactor Casing
+<block:nuclearcraft:fission_cell_port>, Fission Fuel Cell Port
+<block:nuclearcraft:fission_computer_port>, Fission Computer Port (WIP)
+<block:nuclearcraft:fission_conductor>, Fission Reactor Conductor
+<block:nuclearcraft:fission_glass>, Fission Reactor Glass
+<block:nuclearcraft:fission_heater_port>, Fission Coolant Heater Port
+<block:nuclearcraft:fission_heater_port2>, Fission Coolant Heater Port
+<block:nuclearcraft:fission_irradiator>, Fission Neutron Irradiator
+<block:nuclearcraft:fission_irradiator_port>, Fission Neutron Irradiator Port
+<block:nuclearcraft:fission_monitor>, Fission Reactor Monitor (WIP)
+<block:nuclearcraft:fission_power_port>, Fission Reactor Power Port
+<block:nuclearcraft:fission_reflector>, tile.nuclearcraft.fission_reflector.name
+<block:nuclearcraft:fission_shield>, tile.nuclearcraft.fission_shield.name
+<block:nuclearcraft:fission_shield_manager>, Fission Neutron Shield Manager (WIP)
+<block:nuclearcraft:fission_source>, tile.nuclearcraft.fission_source.name
+<block:nuclearcraft:fission_vent>, Fission Reactor Vent
+<block:nuclearcraft:fission_vessel_port>, Fission Fuel Vessel Port
+<block:nuclearcraft:fluid_alugentum>, Molten Alugentum
+<block:nuclearcraft:fluid_alumina>, Molten Alumina
+<block:nuclearcraft:fluid_ammonia>, Ammonia
+<block:nuclearcraft:fluid_arsenic>, Sublimated Arsenic
+<block:nuclearcraft:fluid_bas>, Molten Boron Arsenide
+<block:nuclearcraft:fluid_bef2>, Molten Beryllium Fluoride
+<block:nuclearcraft:fluid_beryllium>, Molten Beryllium
+<block:nuclearcraft:fluid_borax_solution>, Borax Solution
+<block:nuclearcraft:fluid_boric_acid>, Boric Acid
+<block:nuclearcraft:fluid_boron10>, Molten Boron-10
+<block:nuclearcraft:fluid_boron11>, Molten Boron-11
+<block:nuclearcraft:fluid_boron_nitride_solution>, Boron Nitride Solution
+<block:nuclearcraft:fluid_calcium_sulfate_solution>, Calcium Sulfate Solution
+<block:nuclearcraft:fluid_carbon_dioxide>, Carbon Dioxide
+<block:nuclearcraft:fluid_carbon_monoxide>, Carbon Monoxide
+<block:nuclearcraft:fluid_chocolate_liquor>, Chocolate Liquor
+<block:nuclearcraft:fluid_coal>, Liquefacted Coal
+<block:nuclearcraft:fluid_cocoa_butter>, Cocoa Butter
+<block:nuclearcraft:fluid_condensate_water>, Condensate Water
+<block:nuclearcraft:fluid_corium>, Corium
+<block:nuclearcraft:fluid_cryotheum>, Molten Cryotheum
+<block:nuclearcraft:fluid_dark_chocolate>, Molten Dark Chocolate
+<block:nuclearcraft:fluid_deuterium>, Deuterium
+<block:nuclearcraft:fluid_diborane>, Diborane
+<block:nuclearcraft:fluid_emergency_coolant>, Emergency Coolant
+<block:nuclearcraft:fluid_emergency_coolant_heated>, Heated Emergency Coolant
+<block:nuclearcraft:fluid_ender>, Molten Ender
+<block:nuclearcraft:fluid_enderium>, Molten Enderium
+<block:nuclearcraft:fluid_ethanol>, Ethanol
+<block:nuclearcraft:fluid_ethene>, Ethylene
+<block:nuclearcraft:fluid_exhaust_steam>, Exhaust Steam
+<block:nuclearcraft:fluid_ferroboron>, Molten Ferroboron
+<block:nuclearcraft:fluid_flibe>, Molten FLiBe Salt Mixture
+<block:nuclearcraft:fluid_fluorine>, Fluorine
+<block:nuclearcraft:fluid_fluorite_water>, Fluorite Water
+<block:nuclearcraft:fluid_fluoromethane>, Fluoromethane
+<block:nuclearcraft:fluid_gelatin>, Molten Gelatin
+<block:nuclearcraft:fluid_hard_carbon>, Molten Hard Carbon
+<block:nuclearcraft:fluid_heavy_water>, Heavy Water
+<block:nuclearcraft:fluid_helium>, Helium
+<block:nuclearcraft:fluid_helium3>, Helium-3
+<block:nuclearcraft:fluid_high_pressure_steam>, High Pressure Steam
+<block:nuclearcraft:fluid_hydrated_gelatin>, Hydrated Gelatin
+<block:nuclearcraft:fluid_hydrofluoric_acid>, Hydrofluoric Acid
+<block:nuclearcraft:fluid_hydrogen>, Hydrogen
+<block:nuclearcraft:fluid_ice>, Crushed Ice
+<block:nuclearcraft:fluid_irradiated_borax_solution>, Irradiated Borax Solution
+<block:nuclearcraft:fluid_koh>, Molten Potassium Hydroxide
+<block:nuclearcraft:fluid_lead_platinum>, Molten Lead Platinum
+<block:nuclearcraft:fluid_lif>, Molten Lithium Fluoride
+<block:nuclearcraft:fluid_liquid_helium>, Liquid Helium
+<block:nuclearcraft:fluid_liquid_nitrogen>, Liquid Nitrogen
+<block:nuclearcraft:fluid_lithium6>, Molten Lithium-6
+<block:nuclearcraft:fluid_lithium7>, Molten Lithium-7
+<block:nuclearcraft:fluid_low_pressure_steam>, Low Pressure Steam
+<block:nuclearcraft:fluid_low_quality_steam>, Low Quality Steam
+<block:nuclearcraft:fluid_manganese_dioxide>, Molten Manganese Dioxide
+<block:nuclearcraft:fluid_marshmallow>, Liquid Marshmallow
+<block:nuclearcraft:fluid_methanol>, Methanol
+<block:nuclearcraft:fluid_milk>, Milk
+<block:nuclearcraft:fluid_milk_chocolate>, Molten Milk Chocolate
+<block:nuclearcraft:fluid_nak>, Eutectic NaK Alloy
+<block:nuclearcraft:fluid_nak_hot>, Hot Eutectic NaK Alloy
+<block:nuclearcraft:fluid_naoh>, Molten Sodium Hydroxide
+<block:nuclearcraft:fluid_nitrogen>, Nitrogen
+<block:nuclearcraft:fluid_oxygen>, Oxygen
+<block:nuclearcraft:fluid_oxygen_difluoride>, Oxygen Difluoride
+<block:nuclearcraft:fluid_plasma>, Plasma
+<block:nuclearcraft:fluid_potassium>, Molten Potassium
+<block:nuclearcraft:fluid_potassium_fluoride_solution>, Potassium Fluoride Solution
+<block:nuclearcraft:fluid_potassium_hydroxide_solution>, Potassium Hydroxide Solution
+<block:nuclearcraft:fluid_preheated_water>, Preheated Water
+<block:nuclearcraft:fluid_radaway>, RadAway Fluid
+<block:nuclearcraft:fluid_radaway_slow>, Slow-Acting RadAway Fluid
+<block:nuclearcraft:fluid_redstone_ethanol>, Redstone-Infused Ethanol
+<block:nuclearcraft:fluid_sic_vapor>, Silicon Carbide Vapor
+<block:nuclearcraft:fluid_slurry_ice>, Slurry Ice
+<block:nuclearcraft:fluid_sodium>, Molten Sodium
+<block:nuclearcraft:fluid_sodium_fluoride_solution>, Sodium Fluoride Solution
+<block:nuclearcraft:fluid_sodium_hydroxide_solution>, Sodium Hydroxide Solution
+<block:nuclearcraft:fluid_steam>, Steam
+<block:nuclearcraft:fluid_sugar>, Molten Sugar
+<block:nuclearcraft:fluid_sulfur>, Molten Sulfur
+<block:nuclearcraft:fluid_sulfur_dioxide>, Sulfur Dioxide
+<block:nuclearcraft:fluid_sulfur_trioxide>, Sulfur Trioxide
+<block:nuclearcraft:fluid_sulfuric_acid>, Sulfuric Acid
+<block:nuclearcraft:fluid_tough>, Molten Tough Alloy
+<block:nuclearcraft:fluid_tritium>, Tritium
+<block:nuclearcraft:fluid_unsweetened_chocolate>, Molten Unsweetened Chocolate
+<block:nuclearcraft:fluid_zirconium>, Molten Zirconium
+<block:nuclearcraft:fuel_reprocessor>, Fuel Reprocessor
+<block:nuclearcraft:geiger_block>, Geiger Counter Block
+<block:nuclearcraft:glowing_mushroom>, Glowing Mushroom
+<block:nuclearcraft:heat_exchanger_casing>, Heat Exchanger Shell
+<block:nuclearcraft:heat_exchanger_computer_port>, Heat Exchanger Computer Port
+<block:nuclearcraft:heat_exchanger_controller>, Heat Exchanger Controller (MULTIBLOCK BROKEN!)
+<block:nuclearcraft:heat_exchanger_glass>, Heat Exchanger Glass
+<block:nuclearcraft:heat_exchanger_tube_copper>, Copper Heat Exchanger Tube
+<block:nuclearcraft:heat_exchanger_tube_hard_carbon>, Hard Carbon Heat Exchanger Tube
+<block:nuclearcraft:heat_exchanger_tube_thermoconducting>, Thermoconducting Alloy Heat Exchanger Tube
+<block:nuclearcraft:heat_exchanger_vent>, Heat Exchanger Vent
+<block:nuclearcraft:heavy_water_moderator>, Heavy Water Moderator
+<block:nuclearcraft:infuser>, Fluid Infuser
+<block:nuclearcraft:ingot_block>, tile.nuclearcraft.ingot_block.name
+<block:nuclearcraft:ingot_former>, Ingot Former
+<block:nuclearcraft:lithium_ion_battery_advanced>, Advanced Lithium Ion Battery
+<block:nuclearcraft:lithium_ion_battery_basic>, Basic Lithium Ion Battery
+<block:nuclearcraft:lithium_ion_battery_du>, DU Lithium Ion Battery
+<block:nuclearcraft:lithium_ion_battery_elite>, Elite Lithium Ion Battery
+<block:nuclearcraft:machine_interface>, Machine Interface
+<block:nuclearcraft:manufactory>, Manufactory
+<block:nuclearcraft:melter>, Melter
+<block:nuclearcraft:nitrogen_collector>, Nitrogen Collector
+<block:nuclearcraft:nitrogen_collector_compact>, Compact Nitrogen Collector
+<block:nuclearcraft:nitrogen_collector_dense>, Dense Nitrogen Collector
+<block:nuclearcraft:nuclear_furnace>, Nuclear Furnace
+<block:nuclearcraft:ore>, tile.nuclearcraft.ore.name
+<block:nuclearcraft:pressurizer>, Pressurizer
+<block:nuclearcraft:quantum_computer_connector>, Quantum Computer Connector
+<block:nuclearcraft:quantum_computer_controller>, Quantum Computer Controller
+<block:nuclearcraft:quantum_computer_gate_control>, tile.nuclearcraft.quantum_computer_gate_control.name
+<block:nuclearcraft:quantum_computer_gate_single>, tile.nuclearcraft.quantum_computer_gate_single.name
+<block:nuclearcraft:quantum_computer_gate_swap>, tile.nuclearcraft.quantum_computer_gate_swap.name
+<block:nuclearcraft:quantum_computer_qubit>, Quantum Computer Qubit
+<block:nuclearcraft:radiation_scrubber>, Radiation Scrubber
+<block:nuclearcraft:rock_crusher>, Rock Crusher
+<block:nuclearcraft:rtg_americium>, Americium RTG
+<block:nuclearcraft:rtg_californium>, Californium RTG
+<block:nuclearcraft:rtg_plutonium>, Plutonium RTG
+<block:nuclearcraft:rtg_uranium>, Uranium RTG
+<block:nuclearcraft:salt_fission_controller>, Molten Salt Fission Controller
+<block:nuclearcraft:salt_fission_heater>, tile.nuclearcraft.salt_fission_heater.name
+<block:nuclearcraft:salt_fission_heater2>, tile.nuclearcraft.salt_fission_heater2.name
+<block:nuclearcraft:salt_fission_vessel>, Molten Salt Fission Fuel Vessel
+<block:nuclearcraft:salt_mixer>, Fluid Mixer
+<block:nuclearcraft:separator>, Separator
+<block:nuclearcraft:solar_panel_advanced>, Advanced Solar Panel
+<block:nuclearcraft:solar_panel_basic>, Basic Solar Panel
+<block:nuclearcraft:solar_panel_du>, DU Solar Panel
+<block:nuclearcraft:solar_panel_elite>, Elite Solar Panel
+<block:nuclearcraft:solid_fission_cell>, Solid Fuel Fission Fuel Cell
+<block:nuclearcraft:solid_fission_controller>, Solid Fuel Fission Controller
+<block:nuclearcraft:solid_fission_sink>, tile.nuclearcraft.solid_fission_sink.name
+<block:nuclearcraft:solid_fission_sink2>, tile.nuclearcraft.solid_fission_sink2.name
+<block:nuclearcraft:supercold_ice>, Supercold Ice
+<block:nuclearcraft:supercooler>, Supercooler
+<block:nuclearcraft:tritium_lamp>, Tritium Lamp
+<block:nuclearcraft:turbine_casing>, Turbine Casing
+<block:nuclearcraft:turbine_coil_connector>, Turbine Dynamo Coil Connector
+<block:nuclearcraft:turbine_computer_port>, Turbine Computer Port (WIP)
+<block:nuclearcraft:turbine_controller>, Turbine Controller
+<block:nuclearcraft:turbine_dynamo_coil>, tile.nuclearcraft.turbine_dynamo_coil.name
+<block:nuclearcraft:turbine_glass>, Turbine Glass
+<block:nuclearcraft:turbine_inlet>, Turbine Fluid Inlet
+<block:nuclearcraft:turbine_outlet>, Turbine Fluid Outlet
+<block:nuclearcraft:turbine_rotor_bearing>, Turbine Rotor Bearing
+<block:nuclearcraft:turbine_rotor_blade_extreme>, Extreme Alloy Turbine Rotor Blade
+<block:nuclearcraft:turbine_rotor_blade_sic_sic_cmc>, SiC-SiC CMC Turbine Rotor Blade
+<block:nuclearcraft:turbine_rotor_blade_steel>, Steel Turbine Rotor Blade
+<block:nuclearcraft:turbine_rotor_shaft>, Turbine Rotor Shaft
+<block:nuclearcraft:turbine_rotor_stator>, Turbine Rotor Stator
+<block:nuclearcraft:voltaic_pile_advanced>, Advanced Voltaic Pile
+<block:nuclearcraft:voltaic_pile_basic>, Basic Voltaic Pile
+<block:nuclearcraft:voltaic_pile_du>, DU Voltaic Pile
+<block:nuclearcraft:voltaic_pile_elite>, Elite Voltaic Pile
+<block:nuclearcraft:wasteland_earth>, Wasteland Earth
+<block:nuclearcraft:water_source>, Infinite Water Source
+<block:nuclearcraft:water_source_compact>, Compact Infinite Water Source
+<block:nuclearcraft:water_source_dense>, Dense Infinite Water Source
 <block:openblocks:beartrap>, Bear Trap
 <block:openblocks:big_button>, Stone Big Button
 <block:openblocks:big_button_wood>, Wooden Big Button
@@ -635,9 +843,9 @@
 <block:rockhounding_chemistry:alloy_bricks_tech_b>, tile.rockhounding_chemistry:alloy_bricks_tech_b.name
 <block:rockhounding_chemistry:didymium_glass>, tile.rockhounding_chemistry:didymium_glass.name
 <block:rockhounding_chemistry:fluid.acrylic_acid>, Acrylic Acid
-<block:rockhounding_chemistry:fluid.ammonia>, Ammonia
+<block:rockhounding_chemistry:fluid.ammonia>, Air
 <block:rockhounding_chemistry:fluid.argon>, Argon
-<block:rockhounding_chemistry:fluid.carbon_dioxide>, Carbon Dioxide
+<block:rockhounding_chemistry:fluid.carbon_dioxide>, Air
 <block:rockhounding_chemistry:fluid.chloromethane>, Chloromethane
 <block:rockhounding_chemistry:fluid.coal_slurry>, Coal Slurry
 <block:rockhounding_chemistry:fluid.coal_tar>, Coal Tar
@@ -645,16 +853,16 @@
 <block:rockhounding_chemistry:fluid.cooled_air>, Cooled Air
 <block:rockhounding_chemistry:fluid.dense_brine>, Dense Brine
 <block:rockhounding_chemistry:fluid.flue_gas>, Flue Gas
-<block:rockhounding_chemistry:fluid.helium>, Helium
+<block:rockhounding_chemistry:fluid.helium>, Air
 <block:rockhounding_chemistry:fluid.hydrochloric_acid>, Hydrochloric Acid
-<block:rockhounding_chemistry:fluid.hydrofluoric_acid>, Hydrofluoric Acid
-<block:rockhounding_chemistry:fluid.hydrogen>, Hydrogen
+<block:rockhounding_chemistry:fluid.hydrofluoric_acid>, Air
+<block:rockhounding_chemistry:fluid.hydrogen>, Air
 <block:rockhounding_chemistry:fluid.krypton>, Krypton
 <block:rockhounding_chemistry:fluid.leachate>, Leachate
 <block:rockhounding_chemistry:fluid.liquid_ammonia>, Liquid Ammonia
-<block:rockhounding_chemistry:fluid.liquid_nitrogen>, Liquid Nitrogen
+<block:rockhounding_chemistry:fluid.liquid_nitrogen>, Air
 <block:rockhounding_chemistry:fluid.liquid_oxygen>, Liquid Oxygen
-<block:rockhounding_chemistry:fluid.methanol>, Methanol
+<block:rockhounding_chemistry:fluid.methanol>, Air
 <block:rockhounding_chemistry:fluid.molten_bam>, Molten BAM
 <block:rockhounding_chemistry:fluid.molten_corten>, Molten Corten Steel
 <block:rockhounding_chemistry:fluid.molten_cube>, Molten CuBe
@@ -677,9 +885,9 @@
 <block:rockhounding_chemistry:fluid.mother_liquor>, Mother Liquor
 <block:rockhounding_chemistry:fluid.neon>, Neon
 <block:rockhounding_chemistry:fluid.nitric_acid>, Nitric Acid
-<block:rockhounding_chemistry:fluid.nitrogen>, Nitrogen
+<block:rockhounding_chemistry:fluid.nitrogen>, Air
 <block:rockhounding_chemistry:fluid.organic_slurry>, Organic Slurry
-<block:rockhounding_chemistry:fluid.oxygen>, Oxygen
+<block:rockhounding_chemistry:fluid.oxygen>, Air
 <block:rockhounding_chemistry:fluid.propylene>, Propylene
 <block:rockhounding_chemistry:fluid.raw_flue_gas>, Raw Flue Gas
 <block:rockhounding_chemistry:fluid.raw_syngas>, Raw Syngas
@@ -688,7 +896,7 @@
 <block:rockhounding_chemistry:fluid.silicone>, Silicone
 <block:rockhounding_chemistry:fluid.sodium_cyanide>, Sodium Cyanide
 <block:rockhounding_chemistry:fluid.sodium_hydroxide>, Sodium Hydroxide
-<block:rockhounding_chemistry:fluid.sulfuric_acid>, Sulfuric Acid
+<block:rockhounding_chemistry:fluid.sulfuric_acid>, Air
 <block:rockhounding_chemistry:fluid.syngas>, Syngas
 <block:rockhounding_chemistry:fluid.thin_air>, Thin Air (Dummy Filter)
 <block:rockhounding_chemistry:fluid.toxic_sludge>, Toxic Sludge
@@ -746,6 +954,124 @@
 <block:simplyloaders:loader>, Loader
 <block:simplyloaders:raintank>, Raintank
 <block:simplyloaders:unloader>, Unloader
+<block:techreborn:adjustable_su>, Air
+<block:techreborn:alarm>, Air
+<block:techreborn:alloy_smelter>, Air
+<block:techreborn:assembling_machine>, Air
+<block:techreborn:auto_crafting_table>, Air
+<block:techreborn:cable>, Air
+<block:techreborn:charge_o_mat>, Air
+<block:techreborn:chemical_reactor>, Air
+<block:techreborn:chunk_loader>, Air
+<block:techreborn:compressor>, Air
+<block:techreborn:computer_cube>, Air
+<block:techreborn:creative_quantum_chest>, Air
+<block:techreborn:creative_quantum_tank>, Air
+<block:techreborn:creative_solar_panel>, Air
+<block:techreborn:diesel_generator>, Air
+<block:techreborn:digital_chest>, Air
+<block:techreborn:distillation_tower>, Air
+<block:techreborn:dragon_egg_syphon>, Air
+<block:techreborn:electric_furnace>, Air
+<block:techreborn:ev_transformer>, Air
+<block:techreborn:extractor>, Air
+<block:techreborn:fluid_replicator>, Air
+<block:techreborn:fusion_coil>, Air
+<block:techreborn:fusion_control_computer>, Air
+<block:techreborn:gas_turbine>, Air
+<block:techreborn:grinder>, Air
+<block:techreborn:high_voltage_su>, Air
+<block:techreborn:hv_transformer>, Air
+<block:techreborn:implosion_compressor>, Air
+<block:techreborn:industrial_blast_furnace>, Air
+<block:techreborn:industrial_centrifuge>, Air
+<block:techreborn:industrial_electrolyzer>, Air
+<block:techreborn:industrial_grinder>, Air
+<block:techreborn:industrial_sawmill>, Air
+<block:techreborn:interdimensional_su>, Air
+<block:techreborn:iron_alloy_furnace>, Air
+<block:techreborn:iron_furnace>, Air
+<block:techreborn:lamp_incandescent>, Air
+<block:techreborn:lamp_led>, Air
+<block:techreborn:lapotronic_su>, Air
+<block:techreborn:lightning_rod>, Air
+<block:techreborn:low_voltage_su>, Air
+<block:techreborn:lsu_storage>, Air
+<block:techreborn:lv_transformer>, Air
+<block:techreborn:machine_casing>, Air
+<block:techreborn:machine_frame>, Air
+<block:techreborn:magic_energy_absorber>, Air
+<block:techreborn:magic_energy_converter>, Air
+<block:techreborn:matter_fabricator>, Air
+<block:techreborn:medium_voltage_su>, Air
+<block:techreborn:mv_transformer>, Air
+<block:techreborn:nuke>, Air
+<block:techreborn:ore>, Air
+<block:techreborn:ore2>, Air
+<block:techreborn:plasma_generator>, Air
+<block:techreborn:plate_bending_machine>, Air
+<block:techreborn:player_detector>, Air
+<block:techreborn:pump>, Air
+<block:techreborn:quantum_chest>, Air
+<block:techreborn:quantum_tank>, Air
+<block:techreborn:recycler>, Air
+<block:techreborn:refined_iron_fence>, Air
+<block:techreborn:reinforced_glass>, Air
+<block:techreborn:rolling_machine>, Air
+<block:techreborn:rubber_leaves>, Air
+<block:techreborn:rubber_log>, Air
+<block:techreborn:rubber_plank_double_slab>, Air
+<block:techreborn:rubber_plank_slab>, Air
+<block:techreborn:rubber_plank_stair>, Air
+<block:techreborn:rubber_planks>, Air
+<block:techreborn:rubber_sapling>, Air
+<block:techreborn:scrapboxinator>, Air
+<block:techreborn:semi_fluid_generator>, Air
+<block:techreborn:solar_panel>, Air
+<block:techreborn:solid_canning_machine>, Air
+<block:techreborn:solid_fuel_generator>, Air
+<block:techreborn:storage>, Air
+<block:techreborn:storage2>, Air
+<block:techreborn:techreborn_techreborn.berylium>, Air
+<block:techreborn:techreborn_techreborn.biofuel>, Air
+<block:techreborn:techreborn_techreborn.calcium>, Air
+<block:techreborn:techreborn_techreborn.calciumcarbonate>, Air
+<block:techreborn:techreborn_techreborn.carbon>, Air
+<block:techreborn:techreborn_techreborn.carbonfiber>, Air
+<block:techreborn:techreborn_techreborn.chlorite>, Air
+<block:techreborn:techreborn_techreborn.compressedair>, Air
+<block:techreborn:techreborn_techreborn.deuterium>, Air
+<block:techreborn:techreborn_techreborn.diesel>, Air
+<block:techreborn:techreborn_techreborn.electrolyzedwater>, Air
+<block:techreborn:techreborn_techreborn.glyceryl>, Air
+<block:techreborn:techreborn_techreborn.helium>, Air
+<block:techreborn:techreborn_techreborn.helium3>, Air
+<block:techreborn:techreborn_techreborn.heliumplasma>, Air
+<block:techreborn:techreborn_techreborn.hydrogen>, Air
+<block:techreborn:techreborn_techreborn.lithium>, Air
+<block:techreborn:techreborn_techreborn.mercury>, Air
+<block:techreborn:techreborn_techreborn.methane>, Air
+<block:techreborn:techreborn_techreborn.nitrocarbon>, Air
+<block:techreborn:techreborn_techreborn.nitrocoalfuel>, Air
+<block:techreborn:techreborn_techreborn.nitrodiesel>, Air
+<block:techreborn:techreborn_techreborn.nitrofuel>, Air
+<block:techreborn:techreborn_techreborn.nitrogen>, Air
+<block:techreborn:techreborn_techreborn.nitrogendioxide>, Air
+<block:techreborn:techreborn_techreborn.oil>, Air
+<block:techreborn:techreborn_techreborn.potassium>, Air
+<block:techreborn:techreborn_techreborn.silicon>, Air
+<block:techreborn:techreborn_techreborn.sodium>, Air
+<block:techreborn:techreborn_techreborn.sodiumpersulfate>, Air
+<block:techreborn:techreborn_techreborn.sodiumsulfide>, Air
+<block:techreborn:techreborn_techreborn.sulfur>, Air
+<block:techreborn:techreborn_techreborn.sulfuricacid>, Air
+<block:techreborn:techreborn_techreborn.tritium>, Air
+<block:techreborn:techreborn_techreborn.wolframium>, Air
+<block:techreborn:thermal_generator>, Air
+<block:techreborn:vacuum_freezer>, Air
+<block:techreborn:water_mill>, Air
+<block:techreborn:wind_mill>, Air
+<block:techreborn:wire_mill>, Air
 <block:tfc:aggregate>, Aggregate
 <block:tfc:alabaster/bricks/black>, Black Alabaster Bricks
 <block:tfc:alabaster/bricks/blue>, Blue Alabaster Bricks
@@ -801,10 +1127,12 @@
 <block:tfc:anvil/aluminum>, tile.tfc.anvil.aluminum.name
 <block:tfc:anvil/andesite>, tile.tfc.anvil.andesite.name
 <block:tfc:anvil/basalt>, tile.tfc.anvil.basalt.name
+<block:tfc:anvil/beryllium_copper>, tile.tfc.anvil.beryllium_copper.name
 <block:tfc:anvil/bismuth_bronze>, tile.tfc.anvil.bismuth_bronze.name
 <block:tfc:anvil/black_bronze>, tile.tfc.anvil.black_bronze.name
 <block:tfc:anvil/black_steel>, tile.tfc.anvil.black_steel.name
 <block:tfc:anvil/blue_steel>, tile.tfc.anvil.blue_steel.name
+<block:tfc:anvil/boron>, tile.tfc.anvil.boron.name
 <block:tfc:anvil/bronze>, tile.tfc.anvil.bronze.name
 <block:tfc:anvil/cobalt>, tile.tfc.anvil.cobalt.name
 <block:tfc:anvil/copper>, tile.tfc.anvil.copper.name
@@ -823,6 +1151,7 @@
 <block:tfc:anvil/tungsten>, tile.tfc.anvil.tungsten.name
 <block:tfc:anvil/tungsten_steel>, tile.tfc.anvil.tungsten_steel.name
 <block:tfc:anvil/wrought_iron>, tile.tfc.anvil.wrought_iron.name
+<block:tfc:anvil/zircaloy>, tile.tfc.anvil.zircaloy.name
 <block:tfc:bellows>, Bellows
 <block:tfc:berry_bush/blackberry>, Blackberry Bush
 <block:tfc:berry_bush/blueberry>, Blueberry Bush
@@ -1121,6 +1450,8 @@
 <block:tfc:fluid/antimony>, tile.tfc.fluid.antimony.name
 <block:tfc:fluid/ardite>, tile.tfc.fluid.ardite.name
 <block:tfc:fluid/beer>, tile.tfc.fluid.beer.name
+<block:tfc:fluid/beryllium>, tile.tfc.fluid.beryllium.name
+<block:tfc:fluid/beryllium_copper>, tile.tfc.fluid.beryllium_copper.name
 <block:tfc:fluid/bismuth>, tile.tfc.fluid.bismuth.name
 <block:tfc:fluid/bismuth_bronze>, tile.tfc.fluid.bismuth_bronze.name
 <block:tfc:fluid/black_bronze>, tile.tfc.fluid.black_bronze.name
@@ -1128,6 +1459,7 @@
 <block:tfc:fluid/black_steel>, tile.tfc.fluid.black_steel.name
 <block:tfc:fluid/blue_dye>, tile.tfc.fluid.blue_dye.name
 <block:tfc:fluid/blue_steel>, tile.tfc.fluid.blue_steel.name
+<block:tfc:fluid/boron>, tile.tfc.fluid.boron.name
 <block:tfc:fluid/brass>, tile.tfc.fluid.brass.name
 <block:tfc:fluid/brine>, tile.tfc.fluid.brine.name
 <block:tfc:fluid/bronze>, tile.tfc.fluid.bronze.name
@@ -1139,6 +1471,7 @@
 <block:tfc:fluid/corn_whiskey>, tile.tfc.fluid.corn_whiskey.name
 <block:tfc:fluid/cyan_dye>, tile.tfc.fluid.cyan_dye.name
 <block:tfc:fluid/electrum>, tile.tfc.fluid.electrum.name
+<block:tfc:fluid/ferroboron>, tile.tfc.fluid.ferroboron.name
 <block:tfc:fluid/fresh_water>, tile.tfc.fluid.fresh_water.name
 <block:tfc:fluid/gold>, tile.tfc.fluid.gold.name
 <block:tfc:fluid/gray_dye>, tile.tfc.fluid.gray_dye.name
@@ -1148,13 +1481,18 @@
 <block:tfc:fluid/high_carbon_red_steel>, tile.tfc.fluid.high_carbon_red_steel.name
 <block:tfc:fluid/high_carbon_steel>, tile.tfc.fluid.high_carbon_steel.name
 <block:tfc:fluid/hot_water>, tile.tfc.fluid.hot_water.name
+<block:tfc:fluid/hsla_steel>, tile.tfc.fluid.hsla_steel.name
 <block:tfc:fluid/invar>, tile.tfc.fluid.invar.name
 <block:tfc:fluid/lead>, tile.tfc.fluid.lead.name
 <block:tfc:fluid/light_blue_dye>, tile.tfc.fluid.light_blue_dye.name
 <block:tfc:fluid/light_gray_dye>, tile.tfc.fluid.light_gray_dye.name
 <block:tfc:fluid/lime_dye>, tile.tfc.fluid.lime_dye.name
 <block:tfc:fluid/limewater>, tile.tfc.fluid.limewater.name
+<block:tfc:fluid/lithium>, tile.tfc.fluid.lithium.name
 <block:tfc:fluid/magenta_dye>, tile.tfc.fluid.magenta_dye.name
+<block:tfc:fluid/magnesium>, tile.tfc.fluid.magnesium.name
+<block:tfc:fluid/magnesium_diboride>, tile.tfc.fluid.magnesium_diboride.name
+<block:tfc:fluid/manganese>, tile.tfc.fluid.manganese.name
 <block:tfc:fluid/manyullyn>, tile.tfc.fluid.manyullyn.name
 <block:tfc:fluid/milk>, tile.tfc.fluid.milk.name
 <block:tfc:fluid/milk_curdled>, tile.tfc.fluid.milk_curdled.name
@@ -1181,11 +1519,14 @@
 <block:tfc:fluid/steel>, tile.tfc.fluid.steel.name
 <block:tfc:fluid/sterling_silver>, tile.tfc.fluid.sterling_silver.name
 <block:tfc:fluid/tannin>, tile.tfc.fluid.tannin.name
+<block:tfc:fluid/thorium>, tile.tfc.fluid.thorium.name
 <block:tfc:fluid/tin>, tile.tfc.fluid.tin.name
 <block:tfc:fluid/titanium>, tile.tfc.fluid.titanium.name
+<block:tfc:fluid/tough>, tile.tfc.fluid.tough.name
 <block:tfc:fluid/tungsten>, tile.tfc.fluid.tungsten.name
 <block:tfc:fluid/tungsten_steel>, tile.tfc.fluid.tungsten_steel.name
 <block:tfc:fluid/unknown>, tile.tfc.fluid.unknown.name
+<block:tfc:fluid/uranium>, tile.tfc.fluid.uranium.name
 <block:tfc:fluid/vinegar>, tile.tfc.fluid.vinegar.name
 <block:tfc:fluid/vodka>, tile.tfc.fluid.vodka.name
 <block:tfc:fluid/weak_blue_steel>, tile.tfc.fluid.weak_blue_steel.name
@@ -1196,6 +1537,8 @@
 <block:tfc:fluid/wrought_iron>, tile.tfc.fluid.wrought_iron.name
 <block:tfc:fluid/yellow_dye>, tile.tfc.fluid.yellow_dye.name
 <block:tfc:fluid/zinc>, tile.tfc.fluid.zinc.name
+<block:tfc:fluid/zircaloy>, tile.tfc.fluid.zircaloy.name
+<block:tfc:fluid/zirconium>, tile.tfc.fluid.zirconium.name
 <block:tfc:fruit_trees/branch/banana>, tile.tfc.fruit_trees.branch.banana.name
 <block:tfc:fruit_trees/branch/cherry>, tile.tfc.fruit_trees.branch.cherry.name
 <block:tfc:fruit_trees/branch/green_apple>, tile.tfc.fruit_trees.branch.green_apple.name
@@ -1275,66 +1618,101 @@
 <block:tfc:gravel/shale>, Shale Gravel
 <block:tfc:gravel/slate>, Slate Gravel
 <block:tfc:ingot_pile>, tile.tfc.ingot_pile.name
-<block:tfc:lamp/aluminum>, tile.tfc.lamp.aluminum.name
-<block:tfc:lamp/aluminum_brass>, tile.tfc.lamp.aluminum_brass.name
-<block:tfc:lamp/antimony>, tile.tfc.lamp.antimony.name
-<block:tfc:lamp/ardite>, tile.tfc.lamp.ardite.name
+<block:tfc:lamp/aluminum>, Aluminum Lamp
+<block:tfc:lamp/aluminum_brass>, Aluminum Brass Lamp
+<block:tfc:lamp/antimony>, Antimony Lamp
+<block:tfc:lamp/ardite>, Ardite Lamp
+<block:tfc:lamp/beryllium>, Beryllium Lamp
+<block:tfc:lamp/beryllium_copper>, Beryllium Copper Lamp
 <block:tfc:lamp/bismuth>, Bismuth Lamp
 <block:tfc:lamp/bismuth_bronze>, Bismuth Bronze Lamp
 <block:tfc:lamp/black_bronze>, Black Bronze Lamp
 <block:tfc:lamp/black_steel>, Black Steel Lamp
 <block:tfc:lamp/blue_steel>, Blue Steel Lamp
+<block:tfc:lamp/boron>, Boron Lamp
 <block:tfc:lamp/brass>, Brass Lamp
 <block:tfc:lamp/bronze>, Bronze Lamp
-<block:tfc:lamp/cobalt>, tile.tfc.lamp.cobalt.name
-<block:tfc:lamp/constantan>, tile.tfc.lamp.constantan.name
+<block:tfc:lamp/cobalt>, Cobalt Lamp
+<block:tfc:lamp/constantan>, Constantan Lamp
 <block:tfc:lamp/copper>, Copper Lamp
-<block:tfc:lamp/electrum>, tile.tfc.lamp.electrum.name
+<block:tfc:lamp/electrum>, Electrum Lamp
+<block:tfc:lamp/ferroboron>, Ferroboron Lamp
 <block:tfc:lamp/gold>, Gold Lamp
-<block:tfc:lamp/invar>, tile.tfc.lamp.invar.name
+<block:tfc:lamp/hsla_steel>, Hsla Steel Lamp
+<block:tfc:lamp/invar>, Invar Lamp
 <block:tfc:lamp/lead>, Lead Lamp
-<block:tfc:lamp/manyullyn>, tile.tfc.lamp.manyullyn.name
+<block:tfc:lamp/lithium>, Lithium Lamp
+<block:tfc:lamp/magnesium>, Magnesium Lamp
+<block:tfc:lamp/magnesium_diboride>, Magnesium Diboride Lamp
+<block:tfc:lamp/manganese>, Manganese Lamp
+<block:tfc:lamp/manyullyn>, Manyullyn Lamp
 <block:tfc:lamp/nickel>, Nickel Lamp
-<block:tfc:lamp/nickel_silver>, tile.tfc.lamp.nickel_silver.name
-<block:tfc:lamp/osmium>, tile.tfc.lamp.osmium.name
+<block:tfc:lamp/nickel_silver>, Nickel Silver Lamp
+<block:tfc:lamp/osmium>, Osmium Lamp
 <block:tfc:lamp/pig_iron>, Pig Iron Lamp
 <block:tfc:lamp/platinum>, Platinum Lamp
-<block:tfc:lamp/red_alloy>, tile.tfc.lamp.red_alloy.name
+<block:tfc:lamp/red_alloy>, Red Alloy Lamp
 <block:tfc:lamp/red_steel>, Red Steel Lamp
 <block:tfc:lamp/rose_gold>, Rose Gold Lamp
 <block:tfc:lamp/silver>, Silver Lamp
 <block:tfc:lamp/steel>, Steel Lamp
 <block:tfc:lamp/sterling_silver>, Sterling Silver Lamp
+<block:tfc:lamp/thorium>, Thorium Lamp
 <block:tfc:lamp/tin>, Tin Lamp
-<block:tfc:lamp/titanium>, tile.tfc.lamp.titanium.name
-<block:tfc:lamp/tungsten>, tile.tfc.lamp.tungsten.name
-<block:tfc:lamp/tungsten_steel>, tile.tfc.lamp.tungsten_steel.name
+<block:tfc:lamp/titanium>, Titanium Lamp
+<block:tfc:lamp/tough>, Tough Lamp
+<block:tfc:lamp/tungsten>, Tungsten Lamp
+<block:tfc:lamp/tungsten_steel>, Tungsten Steel Lamp
+<block:tfc:lamp/uranium>, Uranium Lamp
 <block:tfc:lamp/wrought_iron>, Wrought Iron Lamp
 <block:tfc:lamp/zinc>, Zinc Lamp
+<block:tfc:lamp/zircaloy>, Zircaloy Lamp
+<block:tfc:lamp/zirconium>, Zirconium Lamp
 <block:tfc:log_pile>, tile.tfc.log_pile.name
 <block:tfc:molten>, tile.tfc.molten.name
 <block:tfc:nest_box>, Nest Box
-<block:tfc:ore/bauxite/andesite>, Andesite Bauxite
-<block:tfc:ore/bauxite/basalt>, Basalt Bauxite
-<block:tfc:ore/bauxite/chalk>, Chalk Bauxite
-<block:tfc:ore/bauxite/chert>, Chert Bauxite
-<block:tfc:ore/bauxite/claystone>, Claystone Bauxite
-<block:tfc:ore/bauxite/conglomerate>, Conglomerate Bauxite
-<block:tfc:ore/bauxite/dacite>, Dacite Bauxite
-<block:tfc:ore/bauxite/diorite>, Diorite Bauxite
-<block:tfc:ore/bauxite/dolomite>, Dolomite Bauxite
-<block:tfc:ore/bauxite/gabbro>, Gabbro Bauxite
-<block:tfc:ore/bauxite/gneiss>, Gneiss Bauxite
-<block:tfc:ore/bauxite/granite>, Granite Bauxite
-<block:tfc:ore/bauxite/limestone>, Limestone Bauxite
-<block:tfc:ore/bauxite/marble>, Marble Bauxite
-<block:tfc:ore/bauxite/phyllite>, Phyllite Bauxite
-<block:tfc:ore/bauxite/quartzite>, Quartzite Bauxite
-<block:tfc:ore/bauxite/rhyolite>, Rhyolite Bauxite
-<block:tfc:ore/bauxite/rocksalt>, Rocksalt Bauxite
-<block:tfc:ore/bauxite/schist>, Schist Bauxite
-<block:tfc:ore/bauxite/shale>, Shale Bauxite
-<block:tfc:ore/bauxite/slate>, Slate Bauxite
+<block:tfc:ore/arsenic/andesite>, Arsenic Andesite
+<block:tfc:ore/arsenic/basalt>, Arsenic Basalt
+<block:tfc:ore/arsenic/chalk>, Arsenic Chalk
+<block:tfc:ore/arsenic/chert>, Arsenic Chert
+<block:tfc:ore/arsenic/claystone>, Arsenic Claystone
+<block:tfc:ore/arsenic/conglomerate>, Arsenic Conglomerate
+<block:tfc:ore/arsenic/dacite>, Arsenic Dacite
+<block:tfc:ore/arsenic/diorite>, Arsenic Diorite
+<block:tfc:ore/arsenic/dolomite>, Arsenic Dolomite
+<block:tfc:ore/arsenic/gabbro>, Arsenic Gabbro
+<block:tfc:ore/arsenic/gneiss>, Arsenic Gneiss
+<block:tfc:ore/arsenic/granite>, Arsenic Granite
+<block:tfc:ore/arsenic/limestone>, Arsenic Limestone
+<block:tfc:ore/arsenic/marble>, Arsenic Marble
+<block:tfc:ore/arsenic/phyllite>, Arsenic Phyllite
+<block:tfc:ore/arsenic/quartzite>, Arsenic Quartzite
+<block:tfc:ore/arsenic/rhyolite>, Arsenic Rhyolite
+<block:tfc:ore/arsenic/rocksalt>, Arsenic Rocksalt
+<block:tfc:ore/arsenic/schist>, Arsenic Schist
+<block:tfc:ore/arsenic/shale>, Arsenic Shale
+<block:tfc:ore/arsenic/slate>, Arsenic Slate
+<block:tfc:ore/bauxite/andesite>, Bauxite Andesite
+<block:tfc:ore/bauxite/basalt>, Bauxite Basalt
+<block:tfc:ore/bauxite/chalk>, Bauxite Chalk
+<block:tfc:ore/bauxite/chert>, Bauxite Chert
+<block:tfc:ore/bauxite/claystone>, Bauxite Claystone
+<block:tfc:ore/bauxite/conglomerate>, Bauxite Conglomerate
+<block:tfc:ore/bauxite/dacite>, Bauxite Dacite
+<block:tfc:ore/bauxite/diorite>, Bauxite Diorite
+<block:tfc:ore/bauxite/dolomite>, Bauxite Dolomite
+<block:tfc:ore/bauxite/gabbro>, Bauxite Gabbro
+<block:tfc:ore/bauxite/gneiss>, Bauxite Gneiss
+<block:tfc:ore/bauxite/granite>, Bauxite Granite
+<block:tfc:ore/bauxite/limestone>, Bauxite Limestone
+<block:tfc:ore/bauxite/marble>, Bauxite Marble
+<block:tfc:ore/bauxite/phyllite>, Bauxite Phyllite
+<block:tfc:ore/bauxite/quartzite>, Bauxite Quartzite
+<block:tfc:ore/bauxite/rhyolite>, Bauxite Rhyolite
+<block:tfc:ore/bauxite/rocksalt>, Bauxite Rocksalt
+<block:tfc:ore/bauxite/schist>, Bauxite Schist
+<block:tfc:ore/bauxite/shale>, Bauxite Shale
+<block:tfc:ore/bauxite/slate>, Bauxite Slate
 <block:tfc:ore/bismuthinite/andesite>, Andesite Bismuthinite
 <block:tfc:ore/bismuthinite/basalt>, Basalt Bismuthinite
 <block:tfc:ore/bismuthinite/chalk>, Chalk Bismuthinite
@@ -1398,27 +1776,48 @@
 <block:tfc:ore/borax/schist>, Schist Borax
 <block:tfc:ore/borax/shale>, Shale Borax
 <block:tfc:ore/borax/slate>, Slate Borax
-<block:tfc:ore/boron/andesite>, Andesite Boron
-<block:tfc:ore/boron/basalt>, Basalt Boron
-<block:tfc:ore/boron/chalk>, Chalk Boron
-<block:tfc:ore/boron/chert>, Chert Boron
-<block:tfc:ore/boron/claystone>, Claystone Boron
-<block:tfc:ore/boron/conglomerate>, Conglomerate Boron
-<block:tfc:ore/boron/dacite>, Dacite Boron
-<block:tfc:ore/boron/diorite>, Diorite Boron
-<block:tfc:ore/boron/dolomite>, Dolomite Boron
-<block:tfc:ore/boron/gabbro>, Gabbro Boron
-<block:tfc:ore/boron/gneiss>, Gneiss Boron
-<block:tfc:ore/boron/granite>, Granite Boron
-<block:tfc:ore/boron/limestone>, Limestone Boron
-<block:tfc:ore/boron/marble>, Marble Boron
-<block:tfc:ore/boron/phyllite>, Phyllite Boron
-<block:tfc:ore/boron/quartzite>, Quartzite Boron
-<block:tfc:ore/boron/rhyolite>, Rhyolite Boron
-<block:tfc:ore/boron/rocksalt>, Rocksalt Boron
-<block:tfc:ore/boron/schist>, Schist Boron
-<block:tfc:ore/boron/shale>, Shale Boron
-<block:tfc:ore/boron/slate>, Slate Boron
+<block:tfc:ore/boron/andesite>, Air
+<block:tfc:ore/boron/basalt>, Air
+<block:tfc:ore/boron/chalk>, Air
+<block:tfc:ore/boron/chert>, Air
+<block:tfc:ore/boron/claystone>, Air
+<block:tfc:ore/boron/conglomerate>, Air
+<block:tfc:ore/boron/dacite>, Air
+<block:tfc:ore/boron/diorite>, Air
+<block:tfc:ore/boron/dolomite>, Air
+<block:tfc:ore/boron/gabbro>, Air
+<block:tfc:ore/boron/gneiss>, Air
+<block:tfc:ore/boron/granite>, Air
+<block:tfc:ore/boron/limestone>, Air
+<block:tfc:ore/boron/marble>, Air
+<block:tfc:ore/boron/phyllite>, Air
+<block:tfc:ore/boron/quartzite>, Air
+<block:tfc:ore/boron/rhyolite>, Air
+<block:tfc:ore/boron/rocksalt>, Air
+<block:tfc:ore/boron/schist>, Air
+<block:tfc:ore/boron/shale>, Air
+<block:tfc:ore/boron/slate>, Air
+<block:tfc:ore/carobbiite/andesite>, Carobbiite Andesite
+<block:tfc:ore/carobbiite/basalt>, Carobbiite Basalt
+<block:tfc:ore/carobbiite/chalk>, Carobbiite Chalk
+<block:tfc:ore/carobbiite/chert>, Carobbiite Chert
+<block:tfc:ore/carobbiite/claystone>, Carobbiite Claystone
+<block:tfc:ore/carobbiite/conglomerate>, Carobbiite Conglomerate
+<block:tfc:ore/carobbiite/dacite>, Carobbiite Dacite
+<block:tfc:ore/carobbiite/diorite>, Carobbiite Diorite
+<block:tfc:ore/carobbiite/dolomite>, Carobbiite Dolomite
+<block:tfc:ore/carobbiite/gabbro>, Carobbiite Gabbro
+<block:tfc:ore/carobbiite/gneiss>, Carobbiite Gneiss
+<block:tfc:ore/carobbiite/granite>, Carobbiite Granite
+<block:tfc:ore/carobbiite/limestone>, Carobbiite Limestone
+<block:tfc:ore/carobbiite/marble>, Carobbiite Marble
+<block:tfc:ore/carobbiite/phyllite>, Carobbiite Phyllite
+<block:tfc:ore/carobbiite/quartzite>, Carobbiite Quartzite
+<block:tfc:ore/carobbiite/rhyolite>, Carobbiite Rhyolite
+<block:tfc:ore/carobbiite/rocksalt>, Carobbiite Rocksalt
+<block:tfc:ore/carobbiite/schist>, Carobbiite Schist
+<block:tfc:ore/carobbiite/shale>, Carobbiite Shale
+<block:tfc:ore/carobbiite/slate>, Carobbiite Slate
 <block:tfc:ore/cassiterite/andesite>, Andesite Cassiterite
 <block:tfc:ore/cassiterite/basalt>, Basalt Cassiterite
 <block:tfc:ore/cassiterite/chalk>, Chalk Cassiterite
@@ -1440,27 +1839,27 @@
 <block:tfc:ore/cassiterite/schist>, Schist Cassiterite
 <block:tfc:ore/cassiterite/shale>, Shale Cassiterite
 <block:tfc:ore/cassiterite/slate>, Slate Cassiterite
-<block:tfc:ore/chromite/andesite>, Andesite Chromite
-<block:tfc:ore/chromite/basalt>, Basalt Chromite
-<block:tfc:ore/chromite/chalk>, Chalk Chromite
-<block:tfc:ore/chromite/chert>, Chert Chromite
-<block:tfc:ore/chromite/claystone>, Claystone Chromite
-<block:tfc:ore/chromite/conglomerate>, Conglomerate Chromite
-<block:tfc:ore/chromite/dacite>, Dacite Chromite
-<block:tfc:ore/chromite/diorite>, Diorite Chromite
-<block:tfc:ore/chromite/dolomite>, Dolomite Chromite
-<block:tfc:ore/chromite/gabbro>, Gabbro Chromite
-<block:tfc:ore/chromite/gneiss>, Gneiss Chromite
-<block:tfc:ore/chromite/granite>, Granite Chromite
-<block:tfc:ore/chromite/limestone>, Limestone Chromite
-<block:tfc:ore/chromite/marble>, Marble Chromite
-<block:tfc:ore/chromite/phyllite>, Phyllite Chromite
-<block:tfc:ore/chromite/quartzite>, Quartzite Chromite
-<block:tfc:ore/chromite/rhyolite>, Rhyolite Chromite
-<block:tfc:ore/chromite/rocksalt>, Rocksalt Chromite
-<block:tfc:ore/chromite/schist>, Schist Chromite
-<block:tfc:ore/chromite/shale>, Shale Chromite
-<block:tfc:ore/chromite/slate>, Slate Chromite
+<block:tfc:ore/chromite/andesite>, Chromite Andesite
+<block:tfc:ore/chromite/basalt>, Chromite Basalt
+<block:tfc:ore/chromite/chalk>, Chromite Chalk
+<block:tfc:ore/chromite/chert>, Chromite Chert
+<block:tfc:ore/chromite/claystone>, Chromite Claystone
+<block:tfc:ore/chromite/conglomerate>, Chromite Conglomerate
+<block:tfc:ore/chromite/dacite>, Chromite Dacite
+<block:tfc:ore/chromite/diorite>, Chromite Diorite
+<block:tfc:ore/chromite/dolomite>, Chromite Dolomite
+<block:tfc:ore/chromite/gabbro>, Chromite Gabbro
+<block:tfc:ore/chromite/gneiss>, Chromite Gneiss
+<block:tfc:ore/chromite/granite>, Chromite Granite
+<block:tfc:ore/chromite/limestone>, Chromite Limestone
+<block:tfc:ore/chromite/marble>, Chromite Marble
+<block:tfc:ore/chromite/phyllite>, Chromite Phyllite
+<block:tfc:ore/chromite/quartzite>, Chromite Quartzite
+<block:tfc:ore/chromite/rhyolite>, Chromite Rhyolite
+<block:tfc:ore/chromite/rocksalt>, Chromite Rocksalt
+<block:tfc:ore/chromite/schist>, Chromite Schist
+<block:tfc:ore/chromite/shale>, Chromite Shale
+<block:tfc:ore/chromite/slate>, Chromite Slate
 <block:tfc:ore/cinnabar/andesite>, Andesite Cinnabar
 <block:tfc:ore/cinnabar/basalt>, Basalt Cinnabar
 <block:tfc:ore/cinnabar/chalk>, Chalk Cinnabar
@@ -1482,27 +1881,27 @@
 <block:tfc:ore/cinnabar/schist>, Schist Cinnabar
 <block:tfc:ore/cinnabar/shale>, Shale Cinnabar
 <block:tfc:ore/cinnabar/slate>, Slate Cinnabar
-<block:tfc:ore/cobaltite/andesite>, Andesite Cobaltite
-<block:tfc:ore/cobaltite/basalt>, Basalt Cobaltite
-<block:tfc:ore/cobaltite/chalk>, Chalk Cobaltite
-<block:tfc:ore/cobaltite/chert>, Chert Cobaltite
-<block:tfc:ore/cobaltite/claystone>, Claystone Cobaltite
-<block:tfc:ore/cobaltite/conglomerate>, Conglomerate Cobaltite
-<block:tfc:ore/cobaltite/dacite>, Dacite Cobaltite
-<block:tfc:ore/cobaltite/diorite>, Diorite Cobaltite
-<block:tfc:ore/cobaltite/dolomite>, Dolomite Cobaltite
-<block:tfc:ore/cobaltite/gabbro>, Gabbro Cobaltite
-<block:tfc:ore/cobaltite/gneiss>, Gneiss Cobaltite
-<block:tfc:ore/cobaltite/granite>, Granite Cobaltite
-<block:tfc:ore/cobaltite/limestone>, Limestone Cobaltite
-<block:tfc:ore/cobaltite/marble>, Marble Cobaltite
-<block:tfc:ore/cobaltite/phyllite>, Phyllite Cobaltite
-<block:tfc:ore/cobaltite/quartzite>, Quartzite Cobaltite
-<block:tfc:ore/cobaltite/rhyolite>, Rhyolite Cobaltite
-<block:tfc:ore/cobaltite/rocksalt>, Rocksalt Cobaltite
-<block:tfc:ore/cobaltite/schist>, Schist Cobaltite
-<block:tfc:ore/cobaltite/shale>, Shale Cobaltite
-<block:tfc:ore/cobaltite/slate>, Slate Cobaltite
+<block:tfc:ore/cobaltite/andesite>, Cobaltite Andesite
+<block:tfc:ore/cobaltite/basalt>, Cobaltite Basalt
+<block:tfc:ore/cobaltite/chalk>, Cobaltite Chalk
+<block:tfc:ore/cobaltite/chert>, Cobaltite Chert
+<block:tfc:ore/cobaltite/claystone>, Cobaltite Claystone
+<block:tfc:ore/cobaltite/conglomerate>, Cobaltite Conglomerate
+<block:tfc:ore/cobaltite/dacite>, Cobaltite Dacite
+<block:tfc:ore/cobaltite/diorite>, Cobaltite Diorite
+<block:tfc:ore/cobaltite/dolomite>, Cobaltite Dolomite
+<block:tfc:ore/cobaltite/gabbro>, Cobaltite Gabbro
+<block:tfc:ore/cobaltite/gneiss>, Cobaltite Gneiss
+<block:tfc:ore/cobaltite/granite>, Cobaltite Granite
+<block:tfc:ore/cobaltite/limestone>, Cobaltite Limestone
+<block:tfc:ore/cobaltite/marble>, Cobaltite Marble
+<block:tfc:ore/cobaltite/phyllite>, Cobaltite Phyllite
+<block:tfc:ore/cobaltite/quartzite>, Cobaltite Quartzite
+<block:tfc:ore/cobaltite/rhyolite>, Cobaltite Rhyolite
+<block:tfc:ore/cobaltite/rocksalt>, Cobaltite Rocksalt
+<block:tfc:ore/cobaltite/schist>, Cobaltite Schist
+<block:tfc:ore/cobaltite/shale>, Cobaltite Shale
+<block:tfc:ore/cobaltite/slate>, Cobaltite Slate
 <block:tfc:ore/cryolite/andesite>, Andesite Cryolite
 <block:tfc:ore/cryolite/basalt>, Basalt Cryolite
 <block:tfc:ore/cryolite/chalk>, Chalk Cryolite
@@ -1524,6 +1923,27 @@
 <block:tfc:ore/cryolite/schist>, Schist Cryolite
 <block:tfc:ore/cryolite/shale>, Shale Cryolite
 <block:tfc:ore/cryolite/slate>, Slate Cryolite
+<block:tfc:ore/fluorite/andesite>, Fluorite Andesite
+<block:tfc:ore/fluorite/basalt>, Fluorite Basalt
+<block:tfc:ore/fluorite/chalk>, Fluorite Chalk
+<block:tfc:ore/fluorite/chert>, Fluorite Chert
+<block:tfc:ore/fluorite/claystone>, Fluorite Claystone
+<block:tfc:ore/fluorite/conglomerate>, Fluorite Conglomerate
+<block:tfc:ore/fluorite/dacite>, Fluorite Dacite
+<block:tfc:ore/fluorite/diorite>, Fluorite Diorite
+<block:tfc:ore/fluorite/dolomite>, Fluorite Dolomite
+<block:tfc:ore/fluorite/gabbro>, Fluorite Gabbro
+<block:tfc:ore/fluorite/gneiss>, Fluorite Gneiss
+<block:tfc:ore/fluorite/granite>, Fluorite Granite
+<block:tfc:ore/fluorite/limestone>, Fluorite Limestone
+<block:tfc:ore/fluorite/marble>, Fluorite Marble
+<block:tfc:ore/fluorite/phyllite>, Fluorite Phyllite
+<block:tfc:ore/fluorite/quartzite>, Fluorite Quartzite
+<block:tfc:ore/fluorite/rhyolite>, Fluorite Rhyolite
+<block:tfc:ore/fluorite/rocksalt>, Fluorite Rocksalt
+<block:tfc:ore/fluorite/schist>, Fluorite Schist
+<block:tfc:ore/fluorite/shale>, Fluorite Shale
+<block:tfc:ore/fluorite/slate>, Fluorite Slate
 <block:tfc:ore/galena/andesite>, Andesite Galena
 <block:tfc:ore/galena/basalt>, Basalt Galena
 <block:tfc:ore/galena/chalk>, Chalk Galena
@@ -1755,27 +2175,27 @@
 <block:tfc:ore/limonite/schist>, Schist Limonite
 <block:tfc:ore/limonite/shale>, Shale Limonite
 <block:tfc:ore/limonite/slate>, Slate Limonite
-<block:tfc:ore/magnesite/andesite>, Andesite Magnesite
-<block:tfc:ore/magnesite/basalt>, Basalt Magnesite
-<block:tfc:ore/magnesite/chalk>, Chalk Magnesite
-<block:tfc:ore/magnesite/chert>, Chert Magnesite
-<block:tfc:ore/magnesite/claystone>, Claystone Magnesite
-<block:tfc:ore/magnesite/conglomerate>, Conglomerate Magnesite
-<block:tfc:ore/magnesite/dacite>, Dacite Magnesite
-<block:tfc:ore/magnesite/diorite>, Diorite Magnesite
-<block:tfc:ore/magnesite/dolomite>, Dolomite Magnesite
-<block:tfc:ore/magnesite/gabbro>, Gabbro Magnesite
-<block:tfc:ore/magnesite/gneiss>, Gneiss Magnesite
-<block:tfc:ore/magnesite/granite>, Granite Magnesite
-<block:tfc:ore/magnesite/limestone>, Limestone Magnesite
-<block:tfc:ore/magnesite/marble>, Marble Magnesite
-<block:tfc:ore/magnesite/phyllite>, Phyllite Magnesite
-<block:tfc:ore/magnesite/quartzite>, Quartzite Magnesite
-<block:tfc:ore/magnesite/rhyolite>, Rhyolite Magnesite
-<block:tfc:ore/magnesite/rocksalt>, Rocksalt Magnesite
-<block:tfc:ore/magnesite/schist>, Schist Magnesite
-<block:tfc:ore/magnesite/shale>, Shale Magnesite
-<block:tfc:ore/magnesite/slate>, Slate Magnesite
+<block:tfc:ore/magnesite/andesite>, Magnesite Andesite
+<block:tfc:ore/magnesite/basalt>, Magnesite Basalt
+<block:tfc:ore/magnesite/chalk>, Magnesite Chalk
+<block:tfc:ore/magnesite/chert>, Magnesite Chert
+<block:tfc:ore/magnesite/claystone>, Magnesite Claystone
+<block:tfc:ore/magnesite/conglomerate>, Magnesite Conglomerate
+<block:tfc:ore/magnesite/dacite>, Magnesite Dacite
+<block:tfc:ore/magnesite/diorite>, Magnesite Diorite
+<block:tfc:ore/magnesite/dolomite>, Magnesite Dolomite
+<block:tfc:ore/magnesite/gabbro>, Magnesite Gabbro
+<block:tfc:ore/magnesite/gneiss>, Magnesite Gneiss
+<block:tfc:ore/magnesite/granite>, Magnesite Granite
+<block:tfc:ore/magnesite/limestone>, Magnesite Limestone
+<block:tfc:ore/magnesite/marble>, Magnesite Marble
+<block:tfc:ore/magnesite/phyllite>, Magnesite Phyllite
+<block:tfc:ore/magnesite/quartzite>, Magnesite Quartzite
+<block:tfc:ore/magnesite/rhyolite>, Magnesite Rhyolite
+<block:tfc:ore/magnesite/rocksalt>, Magnesite Rocksalt
+<block:tfc:ore/magnesite/schist>, Magnesite Schist
+<block:tfc:ore/magnesite/shale>, Magnesite Shale
+<block:tfc:ore/magnesite/slate>, Magnesite Slate
 <block:tfc:ore/magnetite/andesite>, Andesite Magnetite
 <block:tfc:ore/magnetite/basalt>, Basalt Magnetite
 <block:tfc:ore/magnetite/chalk>, Chalk Magnetite
@@ -1839,27 +2259,27 @@
 <block:tfc:ore/microcline/schist>, Schist Microcline
 <block:tfc:ore/microcline/shale>, Shale Microcline
 <block:tfc:ore/microcline/slate>, Slate Microcline
-<block:tfc:ore/native_ardite/andesite>, Andesite Native Ardite
-<block:tfc:ore/native_ardite/basalt>, Basalt Native Ardite
-<block:tfc:ore/native_ardite/chalk>, Chalk Native Ardite
-<block:tfc:ore/native_ardite/chert>, Chert Native Ardite
-<block:tfc:ore/native_ardite/claystone>, Claystone Native Ardite
-<block:tfc:ore/native_ardite/conglomerate>, Conglomerate Native Ardite
-<block:tfc:ore/native_ardite/dacite>, Dacite Native Ardite
-<block:tfc:ore/native_ardite/diorite>, Diorite Native Ardite
-<block:tfc:ore/native_ardite/dolomite>, Dolomite Native Ardite
-<block:tfc:ore/native_ardite/gabbro>, Gabbro Native Ardite
-<block:tfc:ore/native_ardite/gneiss>, Gneiss Native Ardite
-<block:tfc:ore/native_ardite/granite>, Granite Native Ardite
-<block:tfc:ore/native_ardite/limestone>, Limestone Native Ardite
-<block:tfc:ore/native_ardite/marble>, Marble Native Ardite
-<block:tfc:ore/native_ardite/phyllite>, Phyllite Native Ardite
-<block:tfc:ore/native_ardite/quartzite>, Quartzite Native Ardite
-<block:tfc:ore/native_ardite/rhyolite>, Rhyolite Native Ardite
-<block:tfc:ore/native_ardite/rocksalt>, Rocksalt Native Ardite
-<block:tfc:ore/native_ardite/schist>, Schist Native Ardite
-<block:tfc:ore/native_ardite/shale>, Shale Native Ardite
-<block:tfc:ore/native_ardite/slate>, Slate Native Ardite
+<block:tfc:ore/native_ardite/andesite>, Native Ardite Andesite
+<block:tfc:ore/native_ardite/basalt>, Native Ardite Basalt
+<block:tfc:ore/native_ardite/chalk>, Native Ardite Chalk
+<block:tfc:ore/native_ardite/chert>, Native Ardite Chert
+<block:tfc:ore/native_ardite/claystone>, Native Ardite Claystone
+<block:tfc:ore/native_ardite/conglomerate>, Native Ardite Conglomerate
+<block:tfc:ore/native_ardite/dacite>, Native Ardite Dacite
+<block:tfc:ore/native_ardite/diorite>, Native Ardite Diorite
+<block:tfc:ore/native_ardite/dolomite>, Native Ardite Dolomite
+<block:tfc:ore/native_ardite/gabbro>, Native Ardite Gabbro
+<block:tfc:ore/native_ardite/gneiss>, Native Ardite Gneiss
+<block:tfc:ore/native_ardite/granite>, Native Ardite Granite
+<block:tfc:ore/native_ardite/limestone>, Native Ardite Limestone
+<block:tfc:ore/native_ardite/marble>, Native Ardite Marble
+<block:tfc:ore/native_ardite/phyllite>, Native Ardite Phyllite
+<block:tfc:ore/native_ardite/quartzite>, Native Ardite Quartzite
+<block:tfc:ore/native_ardite/rhyolite>, Native Ardite Rhyolite
+<block:tfc:ore/native_ardite/rocksalt>, Native Ardite Rocksalt
+<block:tfc:ore/native_ardite/schist>, Native Ardite Schist
+<block:tfc:ore/native_ardite/shale>, Native Ardite Shale
+<block:tfc:ore/native_ardite/slate>, Native Ardite Slate
 <block:tfc:ore/native_copper/andesite>, Andesite Native Copper
 <block:tfc:ore/native_copper/basalt>, Basalt Native Copper
 <block:tfc:ore/native_copper/chalk>, Chalk Native Copper
@@ -1902,27 +2322,27 @@
 <block:tfc:ore/native_gold/schist>, Schist Native Gold
 <block:tfc:ore/native_gold/shale>, Shale Native Gold
 <block:tfc:ore/native_gold/slate>, Slate Native Gold
-<block:tfc:ore/native_osmium/andesite>, Andesite Native Osmium
-<block:tfc:ore/native_osmium/basalt>, Basalt Native Osmium
-<block:tfc:ore/native_osmium/chalk>, Chalk Native Osmium
-<block:tfc:ore/native_osmium/chert>, Chert Native Osmium
-<block:tfc:ore/native_osmium/claystone>, Claystone Native Osmium
-<block:tfc:ore/native_osmium/conglomerate>, Conglomerate Native Osmium
-<block:tfc:ore/native_osmium/dacite>, Dacite Native Osmium
-<block:tfc:ore/native_osmium/diorite>, Diorite Native Osmium
-<block:tfc:ore/native_osmium/dolomite>, Dolomite Native Osmium
-<block:tfc:ore/native_osmium/gabbro>, Gabbro Native Osmium
-<block:tfc:ore/native_osmium/gneiss>, Gneiss Native Osmium
-<block:tfc:ore/native_osmium/granite>, Granite Native Osmium
-<block:tfc:ore/native_osmium/limestone>, Limestone Native Osmium
-<block:tfc:ore/native_osmium/marble>, Marble Native Osmium
-<block:tfc:ore/native_osmium/phyllite>, Phyllite Native Osmium
-<block:tfc:ore/native_osmium/quartzite>, Quartzite Native Osmium
-<block:tfc:ore/native_osmium/rhyolite>, Rhyolite Native Osmium
-<block:tfc:ore/native_osmium/rocksalt>, Rocksalt Native Osmium
-<block:tfc:ore/native_osmium/schist>, Schist Native Osmium
-<block:tfc:ore/native_osmium/shale>, Shale Native Osmium
-<block:tfc:ore/native_osmium/slate>, Slate Native Osmium
+<block:tfc:ore/native_osmium/andesite>, Native Osmium Andesite
+<block:tfc:ore/native_osmium/basalt>, Native Osmium Basalt
+<block:tfc:ore/native_osmium/chalk>, Native Osmium Chalk
+<block:tfc:ore/native_osmium/chert>, Native Osmium Chert
+<block:tfc:ore/native_osmium/claystone>, Native Osmium Claystone
+<block:tfc:ore/native_osmium/conglomerate>, Native Osmium Conglomerate
+<block:tfc:ore/native_osmium/dacite>, Native Osmium Dacite
+<block:tfc:ore/native_osmium/diorite>, Native Osmium Diorite
+<block:tfc:ore/native_osmium/dolomite>, Native Osmium Dolomite
+<block:tfc:ore/native_osmium/gabbro>, Native Osmium Gabbro
+<block:tfc:ore/native_osmium/gneiss>, Native Osmium Gneiss
+<block:tfc:ore/native_osmium/granite>, Native Osmium Granite
+<block:tfc:ore/native_osmium/limestone>, Native Osmium Limestone
+<block:tfc:ore/native_osmium/marble>, Native Osmium Marble
+<block:tfc:ore/native_osmium/phyllite>, Native Osmium Phyllite
+<block:tfc:ore/native_osmium/quartzite>, Native Osmium Quartzite
+<block:tfc:ore/native_osmium/rhyolite>, Native Osmium Rhyolite
+<block:tfc:ore/native_osmium/rocksalt>, Native Osmium Rocksalt
+<block:tfc:ore/native_osmium/schist>, Native Osmium Schist
+<block:tfc:ore/native_osmium/shale>, Native Osmium Shale
+<block:tfc:ore/native_osmium/slate>, Native Osmium Slate
 <block:tfc:ore/native_platinum/andesite>, Andesite Native Platinum
 <block:tfc:ore/native_platinum/basalt>, Basalt Native Platinum
 <block:tfc:ore/native_platinum/chalk>, Chalk Native Platinum
@@ -1986,27 +2406,6 @@
 <block:tfc:ore/olivine/schist>, Schist Olivine
 <block:tfc:ore/olivine/shale>, Shale Olivine
 <block:tfc:ore/olivine/slate>, Slate Olivine
-<block:tfc:ore/ore0/andesite>, tile.tfc.ore.ore0.andesite.name
-<block:tfc:ore/ore0/basalt>, tile.tfc.ore.ore0.basalt.name
-<block:tfc:ore/ore0/chalk>, tile.tfc.ore.ore0.chalk.name
-<block:tfc:ore/ore0/chert>, tile.tfc.ore.ore0.chert.name
-<block:tfc:ore/ore0/claystone>, tile.tfc.ore.ore0.claystone.name
-<block:tfc:ore/ore0/conglomerate>, tile.tfc.ore.ore0.conglomerate.name
-<block:tfc:ore/ore0/dacite>, tile.tfc.ore.ore0.dacite.name
-<block:tfc:ore/ore0/diorite>, tile.tfc.ore.ore0.diorite.name
-<block:tfc:ore/ore0/dolomite>, tile.tfc.ore.ore0.dolomite.name
-<block:tfc:ore/ore0/gabbro>, tile.tfc.ore.ore0.gabbro.name
-<block:tfc:ore/ore0/gneiss>, tile.tfc.ore.ore0.gneiss.name
-<block:tfc:ore/ore0/granite>, tile.tfc.ore.ore0.granite.name
-<block:tfc:ore/ore0/limestone>, tile.tfc.ore.ore0.limestone.name
-<block:tfc:ore/ore0/marble>, tile.tfc.ore.ore0.marble.name
-<block:tfc:ore/ore0/phyllite>, tile.tfc.ore.ore0.phyllite.name
-<block:tfc:ore/ore0/quartzite>, tile.tfc.ore.ore0.quartzite.name
-<block:tfc:ore/ore0/rhyolite>, tile.tfc.ore.ore0.rhyolite.name
-<block:tfc:ore/ore0/rocksalt>, tile.tfc.ore.ore0.rocksalt.name
-<block:tfc:ore/ore0/schist>, tile.tfc.ore.ore0.schist.name
-<block:tfc:ore/ore0/shale>, tile.tfc.ore.ore0.shale.name
-<block:tfc:ore/ore0/slate>, tile.tfc.ore.ore0.slate.name
 <block:tfc:ore/petrified_wood/andesite>, Andesite Petrified Wood
 <block:tfc:ore/petrified_wood/basalt>, Basalt Petrified Wood
 <block:tfc:ore/petrified_wood/chalk>, Chalk Petrified Wood
@@ -2049,48 +2448,69 @@
 <block:tfc:ore/pitchblende/schist>, Schist Pitchblende
 <block:tfc:ore/pitchblende/shale>, Shale Pitchblende
 <block:tfc:ore/pitchblende/slate>, Slate Pitchblende
-<block:tfc:ore/pyrolusite/andesite>, Andesite Pyrolusite
-<block:tfc:ore/pyrolusite/basalt>, Basalt Pyrolusite
-<block:tfc:ore/pyrolusite/chalk>, Chalk Pyrolusite
-<block:tfc:ore/pyrolusite/chert>, Chert Pyrolusite
-<block:tfc:ore/pyrolusite/claystone>, Claystone Pyrolusite
-<block:tfc:ore/pyrolusite/conglomerate>, Conglomerate Pyrolusite
-<block:tfc:ore/pyrolusite/dacite>, Dacite Pyrolusite
-<block:tfc:ore/pyrolusite/diorite>, Diorite Pyrolusite
-<block:tfc:ore/pyrolusite/dolomite>, Dolomite Pyrolusite
-<block:tfc:ore/pyrolusite/gabbro>, Gabbro Pyrolusite
-<block:tfc:ore/pyrolusite/gneiss>, Gneiss Pyrolusite
-<block:tfc:ore/pyrolusite/granite>, Granite Pyrolusite
-<block:tfc:ore/pyrolusite/limestone>, Limestone Pyrolusite
-<block:tfc:ore/pyrolusite/marble>, Marble Pyrolusite
-<block:tfc:ore/pyrolusite/phyllite>, Phyllite Pyrolusite
-<block:tfc:ore/pyrolusite/quartzite>, Quartzite Pyrolusite
-<block:tfc:ore/pyrolusite/rhyolite>, Rhyolite Pyrolusite
-<block:tfc:ore/pyrolusite/rocksalt>, Rocksalt Pyrolusite
-<block:tfc:ore/pyrolusite/schist>, Schist Pyrolusite
-<block:tfc:ore/pyrolusite/shale>, Shale Pyrolusite
-<block:tfc:ore/pyrolusite/slate>, Slate Pyrolusite
-<block:tfc:ore/rutile/andesite>, Andesite Rutile
-<block:tfc:ore/rutile/basalt>, Basalt Rutile
-<block:tfc:ore/rutile/chalk>, Chalk Rutile
-<block:tfc:ore/rutile/chert>, Chert Rutile
-<block:tfc:ore/rutile/claystone>, Claystone Rutile
-<block:tfc:ore/rutile/conglomerate>, Conglomerate Rutile
-<block:tfc:ore/rutile/dacite>, Dacite Rutile
-<block:tfc:ore/rutile/diorite>, Diorite Rutile
-<block:tfc:ore/rutile/dolomite>, Dolomite Rutile
-<block:tfc:ore/rutile/gabbro>, Gabbro Rutile
-<block:tfc:ore/rutile/gneiss>, Gneiss Rutile
-<block:tfc:ore/rutile/granite>, Granite Rutile
-<block:tfc:ore/rutile/limestone>, Limestone Rutile
-<block:tfc:ore/rutile/marble>, Marble Rutile
-<block:tfc:ore/rutile/phyllite>, Phyllite Rutile
-<block:tfc:ore/rutile/quartzite>, Quartzite Rutile
-<block:tfc:ore/rutile/rhyolite>, Rhyolite Rutile
-<block:tfc:ore/rutile/rocksalt>, Rocksalt Rutile
-<block:tfc:ore/rutile/schist>, Schist Rutile
-<block:tfc:ore/rutile/shale>, Shale Rutile
-<block:tfc:ore/rutile/slate>, Slate Rutile
+<block:tfc:ore/pyrolusite/andesite>, Pyrolusite Andesite
+<block:tfc:ore/pyrolusite/basalt>, Pyrolusite Basalt
+<block:tfc:ore/pyrolusite/chalk>, Pyrolusite Chalk
+<block:tfc:ore/pyrolusite/chert>, Pyrolusite Chert
+<block:tfc:ore/pyrolusite/claystone>, Pyrolusite Claystone
+<block:tfc:ore/pyrolusite/conglomerate>, Pyrolusite Conglomerate
+<block:tfc:ore/pyrolusite/dacite>, Pyrolusite Dacite
+<block:tfc:ore/pyrolusite/diorite>, Pyrolusite Diorite
+<block:tfc:ore/pyrolusite/dolomite>, Pyrolusite Dolomite
+<block:tfc:ore/pyrolusite/gabbro>, Pyrolusite Gabbro
+<block:tfc:ore/pyrolusite/gneiss>, Pyrolusite Gneiss
+<block:tfc:ore/pyrolusite/granite>, Pyrolusite Granite
+<block:tfc:ore/pyrolusite/limestone>, Pyrolusite Limestone
+<block:tfc:ore/pyrolusite/marble>, Pyrolusite Marble
+<block:tfc:ore/pyrolusite/phyllite>, Pyrolusite Phyllite
+<block:tfc:ore/pyrolusite/quartzite>, Pyrolusite Quartzite
+<block:tfc:ore/pyrolusite/rhyolite>, Pyrolusite Rhyolite
+<block:tfc:ore/pyrolusite/rocksalt>, Pyrolusite Rocksalt
+<block:tfc:ore/pyrolusite/schist>, Pyrolusite Schist
+<block:tfc:ore/pyrolusite/shale>, Pyrolusite Shale
+<block:tfc:ore/pyrolusite/slate>, Pyrolusite Slate
+<block:tfc:ore/rhodochrosite/andesite>, Rhodochrosite Andesite
+<block:tfc:ore/rhodochrosite/basalt>, Rhodochrosite Basalt
+<block:tfc:ore/rhodochrosite/chalk>, Rhodochrosite Chalk
+<block:tfc:ore/rhodochrosite/chert>, Rhodochrosite Chert
+<block:tfc:ore/rhodochrosite/claystone>, Rhodochrosite Claystone
+<block:tfc:ore/rhodochrosite/conglomerate>, Rhodochrosite Conglomerate
+<block:tfc:ore/rhodochrosite/dacite>, Rhodochrosite Dacite
+<block:tfc:ore/rhodochrosite/diorite>, Rhodochrosite Diorite
+<block:tfc:ore/rhodochrosite/dolomite>, Rhodochrosite Dolomite
+<block:tfc:ore/rhodochrosite/gabbro>, Rhodochrosite Gabbro
+<block:tfc:ore/rhodochrosite/gneiss>, Rhodochrosite Gneiss
+<block:tfc:ore/rhodochrosite/granite>, Rhodochrosite Granite
+<block:tfc:ore/rhodochrosite/limestone>, Rhodochrosite Limestone
+<block:tfc:ore/rhodochrosite/marble>, Rhodochrosite Marble
+<block:tfc:ore/rhodochrosite/phyllite>, Rhodochrosite Phyllite
+<block:tfc:ore/rhodochrosite/quartzite>, Rhodochrosite Quartzite
+<block:tfc:ore/rhodochrosite/rhyolite>, Rhodochrosite Rhyolite
+<block:tfc:ore/rhodochrosite/rocksalt>, Rhodochrosite Rocksalt
+<block:tfc:ore/rhodochrosite/schist>, Rhodochrosite Schist
+<block:tfc:ore/rhodochrosite/shale>, Rhodochrosite Shale
+<block:tfc:ore/rhodochrosite/slate>, Rhodochrosite Slate
+<block:tfc:ore/rutile/andesite>, Rutile Andesite
+<block:tfc:ore/rutile/basalt>, Rutile Basalt
+<block:tfc:ore/rutile/chalk>, Rutile Chalk
+<block:tfc:ore/rutile/chert>, Rutile Chert
+<block:tfc:ore/rutile/claystone>, Rutile Claystone
+<block:tfc:ore/rutile/conglomerate>, Rutile Conglomerate
+<block:tfc:ore/rutile/dacite>, Rutile Dacite
+<block:tfc:ore/rutile/diorite>, Rutile Diorite
+<block:tfc:ore/rutile/dolomite>, Rutile Dolomite
+<block:tfc:ore/rutile/gabbro>, Rutile Gabbro
+<block:tfc:ore/rutile/gneiss>, Rutile Gneiss
+<block:tfc:ore/rutile/granite>, Rutile Granite
+<block:tfc:ore/rutile/limestone>, Rutile Limestone
+<block:tfc:ore/rutile/marble>, Rutile Marble
+<block:tfc:ore/rutile/phyllite>, Rutile Phyllite
+<block:tfc:ore/rutile/quartzite>, Rutile Quartzite
+<block:tfc:ore/rutile/rhyolite>, Rutile Rhyolite
+<block:tfc:ore/rutile/rocksalt>, Rutile Rocksalt
+<block:tfc:ore/rutile/schist>, Rutile Schist
+<block:tfc:ore/rutile/shale>, Rutile Shale
+<block:tfc:ore/rutile/slate>, Rutile Slate
 <block:tfc:ore/saltpeter/andesite>, Andesite Saltpeter
 <block:tfc:ore/saltpeter/basalt>, Basalt Saltpeter
 <block:tfc:ore/saltpeter/chalk>, Chalk Saltpeter
@@ -2196,48 +2616,48 @@
 <block:tfc:ore/sphalerite/schist>, Schist Sphalerite
 <block:tfc:ore/sphalerite/shale>, Shale Sphalerite
 <block:tfc:ore/sphalerite/slate>, Slate Sphalerite
-<block:tfc:ore/spodumene/andesite>, Andesite Spodumene
-<block:tfc:ore/spodumene/basalt>, Basalt Spodumene
-<block:tfc:ore/spodumene/chalk>, Chalk Spodumene
-<block:tfc:ore/spodumene/chert>, Chert Spodumene
-<block:tfc:ore/spodumene/claystone>, Claystone Spodumene
-<block:tfc:ore/spodumene/conglomerate>, Conglomerate Spodumene
-<block:tfc:ore/spodumene/dacite>, Dacite Spodumene
-<block:tfc:ore/spodumene/diorite>, Diorite Spodumene
-<block:tfc:ore/spodumene/dolomite>, Dolomite Spodumene
-<block:tfc:ore/spodumene/gabbro>, Gabbro Spodumene
-<block:tfc:ore/spodumene/gneiss>, Gneiss Spodumene
-<block:tfc:ore/spodumene/granite>, Granite Spodumene
-<block:tfc:ore/spodumene/limestone>, Limestone Spodumene
-<block:tfc:ore/spodumene/marble>, Marble Spodumene
-<block:tfc:ore/spodumene/phyllite>, Phyllite Spodumene
-<block:tfc:ore/spodumene/quartzite>, Quartzite Spodumene
-<block:tfc:ore/spodumene/rhyolite>, Rhyolite Spodumene
-<block:tfc:ore/spodumene/rocksalt>, Rocksalt Spodumene
-<block:tfc:ore/spodumene/schist>, Schist Spodumene
-<block:tfc:ore/spodumene/shale>, Shale Spodumene
-<block:tfc:ore/spodumene/slate>, Slate Spodumene
-<block:tfc:ore/stibnite/andesite>, Andesite Stibnite
-<block:tfc:ore/stibnite/basalt>, Basalt Stibnite
-<block:tfc:ore/stibnite/chalk>, Chalk Stibnite
-<block:tfc:ore/stibnite/chert>, Chert Stibnite
-<block:tfc:ore/stibnite/claystone>, Claystone Stibnite
-<block:tfc:ore/stibnite/conglomerate>, Conglomerate Stibnite
-<block:tfc:ore/stibnite/dacite>, Dacite Stibnite
-<block:tfc:ore/stibnite/diorite>, Diorite Stibnite
-<block:tfc:ore/stibnite/dolomite>, Dolomite Stibnite
-<block:tfc:ore/stibnite/gabbro>, Gabbro Stibnite
-<block:tfc:ore/stibnite/gneiss>, Gneiss Stibnite
-<block:tfc:ore/stibnite/granite>, Granite Stibnite
-<block:tfc:ore/stibnite/limestone>, Limestone Stibnite
-<block:tfc:ore/stibnite/marble>, Marble Stibnite
-<block:tfc:ore/stibnite/phyllite>, Phyllite Stibnite
-<block:tfc:ore/stibnite/quartzite>, Quartzite Stibnite
-<block:tfc:ore/stibnite/rhyolite>, Rhyolite Stibnite
-<block:tfc:ore/stibnite/rocksalt>, Rocksalt Stibnite
-<block:tfc:ore/stibnite/schist>, Schist Stibnite
-<block:tfc:ore/stibnite/shale>, Shale Stibnite
-<block:tfc:ore/stibnite/slate>, Slate Stibnite
+<block:tfc:ore/spodumene/andesite>, Spodumene Andesite
+<block:tfc:ore/spodumene/basalt>, Spodumene Basalt
+<block:tfc:ore/spodumene/chalk>, Spodumene Chalk
+<block:tfc:ore/spodumene/chert>, Spodumene Chert
+<block:tfc:ore/spodumene/claystone>, Spodumene Claystone
+<block:tfc:ore/spodumene/conglomerate>, Spodumene Conglomerate
+<block:tfc:ore/spodumene/dacite>, Spodumene Dacite
+<block:tfc:ore/spodumene/diorite>, Spodumene Diorite
+<block:tfc:ore/spodumene/dolomite>, Spodumene Dolomite
+<block:tfc:ore/spodumene/gabbro>, Spodumene Gabbro
+<block:tfc:ore/spodumene/gneiss>, Spodumene Gneiss
+<block:tfc:ore/spodumene/granite>, Spodumene Granite
+<block:tfc:ore/spodumene/limestone>, Spodumene Limestone
+<block:tfc:ore/spodumene/marble>, Spodumene Marble
+<block:tfc:ore/spodumene/phyllite>, Spodumene Phyllite
+<block:tfc:ore/spodumene/quartzite>, Spodumene Quartzite
+<block:tfc:ore/spodumene/rhyolite>, Spodumene Rhyolite
+<block:tfc:ore/spodumene/rocksalt>, Spodumene Rocksalt
+<block:tfc:ore/spodumene/schist>, Spodumene Schist
+<block:tfc:ore/spodumene/shale>, Spodumene Shale
+<block:tfc:ore/spodumene/slate>, Spodumene Slate
+<block:tfc:ore/stibnite/andesite>, Stibnite Andesite
+<block:tfc:ore/stibnite/basalt>, Stibnite Basalt
+<block:tfc:ore/stibnite/chalk>, Stibnite Chalk
+<block:tfc:ore/stibnite/chert>, Stibnite Chert
+<block:tfc:ore/stibnite/claystone>, Stibnite Claystone
+<block:tfc:ore/stibnite/conglomerate>, Stibnite Conglomerate
+<block:tfc:ore/stibnite/dacite>, Stibnite Dacite
+<block:tfc:ore/stibnite/diorite>, Stibnite Diorite
+<block:tfc:ore/stibnite/dolomite>, Stibnite Dolomite
+<block:tfc:ore/stibnite/gabbro>, Stibnite Gabbro
+<block:tfc:ore/stibnite/gneiss>, Stibnite Gneiss
+<block:tfc:ore/stibnite/granite>, Stibnite Granite
+<block:tfc:ore/stibnite/limestone>, Stibnite Limestone
+<block:tfc:ore/stibnite/marble>, Stibnite Marble
+<block:tfc:ore/stibnite/phyllite>, Stibnite Phyllite
+<block:tfc:ore/stibnite/quartzite>, Stibnite Quartzite
+<block:tfc:ore/stibnite/rhyolite>, Stibnite Rhyolite
+<block:tfc:ore/stibnite/rocksalt>, Stibnite Rocksalt
+<block:tfc:ore/stibnite/schist>, Stibnite Schist
+<block:tfc:ore/stibnite/shale>, Stibnite Shale
+<block:tfc:ore/stibnite/slate>, Stibnite Slate
 <block:tfc:ore/sulfur/andesite>, Andesite Sulfur
 <block:tfc:ore/sulfur/basalt>, Basalt Sulfur
 <block:tfc:ore/sulfur/chalk>, Chalk Sulfur
@@ -2301,48 +2721,90 @@
 <block:tfc:ore/tetrahedrite/schist>, Schist Tetrahedrite
 <block:tfc:ore/tetrahedrite/shale>, Shale Tetrahedrite
 <block:tfc:ore/tetrahedrite/slate>, Slate Tetrahedrite
-<block:tfc:ore/thorianite/andesite>, Andesite Thorianite
-<block:tfc:ore/thorianite/basalt>, Basalt Thorianite
-<block:tfc:ore/thorianite/chalk>, Chalk Thorianite
-<block:tfc:ore/thorianite/chert>, Chert Thorianite
-<block:tfc:ore/thorianite/claystone>, Claystone Thorianite
-<block:tfc:ore/thorianite/conglomerate>, Conglomerate Thorianite
-<block:tfc:ore/thorianite/dacite>, Dacite Thorianite
-<block:tfc:ore/thorianite/diorite>, Diorite Thorianite
-<block:tfc:ore/thorianite/dolomite>, Dolomite Thorianite
-<block:tfc:ore/thorianite/gabbro>, Gabbro Thorianite
-<block:tfc:ore/thorianite/gneiss>, Gneiss Thorianite
-<block:tfc:ore/thorianite/granite>, Granite Thorianite
-<block:tfc:ore/thorianite/limestone>, Limestone Thorianite
-<block:tfc:ore/thorianite/marble>, Marble Thorianite
-<block:tfc:ore/thorianite/phyllite>, Phyllite Thorianite
-<block:tfc:ore/thorianite/quartzite>, Quartzite Thorianite
-<block:tfc:ore/thorianite/rhyolite>, Rhyolite Thorianite
-<block:tfc:ore/thorianite/rocksalt>, Rocksalt Thorianite
-<block:tfc:ore/thorianite/schist>, Schist Thorianite
-<block:tfc:ore/thorianite/shale>, Shale Thorianite
-<block:tfc:ore/thorianite/slate>, Slate Thorianite
-<block:tfc:ore/wolframite/andesite>, Andesite Wolframite
-<block:tfc:ore/wolframite/basalt>, Basalt Wolframite
-<block:tfc:ore/wolframite/chalk>, Chalk Wolframite
-<block:tfc:ore/wolframite/chert>, Chert Wolframite
-<block:tfc:ore/wolframite/claystone>, Claystone Wolframite
-<block:tfc:ore/wolframite/conglomerate>, Conglomerate Wolframite
-<block:tfc:ore/wolframite/dacite>, Dacite Wolframite
-<block:tfc:ore/wolframite/diorite>, Diorite Wolframite
-<block:tfc:ore/wolframite/dolomite>, Dolomite Wolframite
-<block:tfc:ore/wolframite/gabbro>, Gabbro Wolframite
-<block:tfc:ore/wolframite/gneiss>, Gneiss Wolframite
-<block:tfc:ore/wolframite/granite>, Granite Wolframite
-<block:tfc:ore/wolframite/limestone>, Limestone Wolframite
-<block:tfc:ore/wolframite/marble>, Marble Wolframite
-<block:tfc:ore/wolframite/phyllite>, Phyllite Wolframite
-<block:tfc:ore/wolframite/quartzite>, Quartzite Wolframite
-<block:tfc:ore/wolframite/rhyolite>, Rhyolite Wolframite
-<block:tfc:ore/wolframite/rocksalt>, Rocksalt Wolframite
-<block:tfc:ore/wolframite/schist>, Schist Wolframite
-<block:tfc:ore/wolframite/shale>, Shale Wolframite
-<block:tfc:ore/wolframite/slate>, Slate Wolframite
+<block:tfc:ore/thorianite/andesite>, Thorianite Andesite
+<block:tfc:ore/thorianite/basalt>, Thorianite Basalt
+<block:tfc:ore/thorianite/chalk>, Thorianite Chalk
+<block:tfc:ore/thorianite/chert>, Thorianite Chert
+<block:tfc:ore/thorianite/claystone>, Thorianite Claystone
+<block:tfc:ore/thorianite/conglomerate>, Thorianite Conglomerate
+<block:tfc:ore/thorianite/dacite>, Thorianite Dacite
+<block:tfc:ore/thorianite/diorite>, Thorianite Diorite
+<block:tfc:ore/thorianite/dolomite>, Thorianite Dolomite
+<block:tfc:ore/thorianite/gabbro>, Thorianite Gabbro
+<block:tfc:ore/thorianite/gneiss>, Thorianite Gneiss
+<block:tfc:ore/thorianite/granite>, Thorianite Granite
+<block:tfc:ore/thorianite/limestone>, Thorianite Limestone
+<block:tfc:ore/thorianite/marble>, Thorianite Marble
+<block:tfc:ore/thorianite/phyllite>, Thorianite Phyllite
+<block:tfc:ore/thorianite/quartzite>, Thorianite Quartzite
+<block:tfc:ore/thorianite/rhyolite>, Thorianite Rhyolite
+<block:tfc:ore/thorianite/rocksalt>, Thorianite Rocksalt
+<block:tfc:ore/thorianite/schist>, Thorianite Schist
+<block:tfc:ore/thorianite/shale>, Thorianite Shale
+<block:tfc:ore/thorianite/slate>, Thorianite Slate
+<block:tfc:ore/villiaumite/andesite>, Villiaumite Andesite
+<block:tfc:ore/villiaumite/basalt>, Villiaumite Basalt
+<block:tfc:ore/villiaumite/chalk>, Villiaumite Chalk
+<block:tfc:ore/villiaumite/chert>, Villiaumite Chert
+<block:tfc:ore/villiaumite/claystone>, Villiaumite Claystone
+<block:tfc:ore/villiaumite/conglomerate>, Villiaumite Conglomerate
+<block:tfc:ore/villiaumite/dacite>, Villiaumite Dacite
+<block:tfc:ore/villiaumite/diorite>, Villiaumite Diorite
+<block:tfc:ore/villiaumite/dolomite>, Villiaumite Dolomite
+<block:tfc:ore/villiaumite/gabbro>, Villiaumite Gabbro
+<block:tfc:ore/villiaumite/gneiss>, Villiaumite Gneiss
+<block:tfc:ore/villiaumite/granite>, Villiaumite Granite
+<block:tfc:ore/villiaumite/limestone>, Villiaumite Limestone
+<block:tfc:ore/villiaumite/marble>, Villiaumite Marble
+<block:tfc:ore/villiaumite/phyllite>, Villiaumite Phyllite
+<block:tfc:ore/villiaumite/quartzite>, Villiaumite Quartzite
+<block:tfc:ore/villiaumite/rhyolite>, Villiaumite Rhyolite
+<block:tfc:ore/villiaumite/rocksalt>, Villiaumite Rocksalt
+<block:tfc:ore/villiaumite/schist>, Villiaumite Schist
+<block:tfc:ore/villiaumite/shale>, Villiaumite Shale
+<block:tfc:ore/villiaumite/slate>, Villiaumite Slate
+<block:tfc:ore/wolframite/andesite>, Wolframite Andesite
+<block:tfc:ore/wolframite/basalt>, Wolframite Basalt
+<block:tfc:ore/wolframite/chalk>, Wolframite Chalk
+<block:tfc:ore/wolframite/chert>, Wolframite Chert
+<block:tfc:ore/wolframite/claystone>, Wolframite Claystone
+<block:tfc:ore/wolframite/conglomerate>, Wolframite Conglomerate
+<block:tfc:ore/wolframite/dacite>, Wolframite Dacite
+<block:tfc:ore/wolframite/diorite>, Wolframite Diorite
+<block:tfc:ore/wolframite/dolomite>, Wolframite Dolomite
+<block:tfc:ore/wolframite/gabbro>, Wolframite Gabbro
+<block:tfc:ore/wolframite/gneiss>, Wolframite Gneiss
+<block:tfc:ore/wolframite/granite>, Wolframite Granite
+<block:tfc:ore/wolframite/limestone>, Wolframite Limestone
+<block:tfc:ore/wolframite/marble>, Wolframite Marble
+<block:tfc:ore/wolframite/phyllite>, Wolframite Phyllite
+<block:tfc:ore/wolframite/quartzite>, Wolframite Quartzite
+<block:tfc:ore/wolframite/rhyolite>, Wolframite Rhyolite
+<block:tfc:ore/wolframite/rocksalt>, Wolframite Rocksalt
+<block:tfc:ore/wolframite/schist>, Wolframite Schist
+<block:tfc:ore/wolframite/shale>, Wolframite Shale
+<block:tfc:ore/wolframite/slate>, Wolframite Slate
+<block:tfc:ore/zircon/andesite>, Zircon Andesite
+<block:tfc:ore/zircon/basalt>, Zircon Basalt
+<block:tfc:ore/zircon/chalk>, Zircon Chalk
+<block:tfc:ore/zircon/chert>, Zircon Chert
+<block:tfc:ore/zircon/claystone>, Zircon Claystone
+<block:tfc:ore/zircon/conglomerate>, Zircon Conglomerate
+<block:tfc:ore/zircon/dacite>, Zircon Dacite
+<block:tfc:ore/zircon/diorite>, Zircon Diorite
+<block:tfc:ore/zircon/dolomite>, Zircon Dolomite
+<block:tfc:ore/zircon/gabbro>, Zircon Gabbro
+<block:tfc:ore/zircon/gneiss>, Zircon Gneiss
+<block:tfc:ore/zircon/granite>, Zircon Granite
+<block:tfc:ore/zircon/limestone>, Zircon Limestone
+<block:tfc:ore/zircon/marble>, Zircon Marble
+<block:tfc:ore/zircon/phyllite>, Zircon Phyllite
+<block:tfc:ore/zircon/quartzite>, Zircon Quartzite
+<block:tfc:ore/zircon/rhyolite>, Zircon Rhyolite
+<block:tfc:ore/zircon/rocksalt>, Zircon Rocksalt
+<block:tfc:ore/zircon/schist>, Zircon Schist
+<block:tfc:ore/zircon/shale>, Zircon Shale
+<block:tfc:ore/zircon/slate>, Zircon Slate
 <block:tfc:path/andesite>, Andesite Path
 <block:tfc:path/basalt>, Basalt Path
 <block:tfc:path/chalk>, Chalk Path
@@ -2486,20 +2948,29 @@
 <block:tfc:sheet/aluminum_brass>, tile.tfc.sheet.aluminum_brass.name
 <block:tfc:sheet/antimony>, tile.tfc.sheet.antimony.name
 <block:tfc:sheet/ardite>, tile.tfc.sheet.ardite.name
+<block:tfc:sheet/beryllium>, tile.tfc.sheet.beryllium.name
+<block:tfc:sheet/beryllium_copper>, tile.tfc.sheet.beryllium_copper.name
 <block:tfc:sheet/bismuth>, tile.tfc.sheet.bismuth.name
 <block:tfc:sheet/bismuth_bronze>, tile.tfc.sheet.bismuth_bronze.name
 <block:tfc:sheet/black_bronze>, tile.tfc.sheet.black_bronze.name
 <block:tfc:sheet/black_steel>, tile.tfc.sheet.black_steel.name
 <block:tfc:sheet/blue_steel>, tile.tfc.sheet.blue_steel.name
+<block:tfc:sheet/boron>, tile.tfc.sheet.boron.name
 <block:tfc:sheet/brass>, tile.tfc.sheet.brass.name
 <block:tfc:sheet/bronze>, tile.tfc.sheet.bronze.name
 <block:tfc:sheet/cobalt>, tile.tfc.sheet.cobalt.name
 <block:tfc:sheet/constantan>, tile.tfc.sheet.constantan.name
 <block:tfc:sheet/copper>, tile.tfc.sheet.copper.name
 <block:tfc:sheet/electrum>, tile.tfc.sheet.electrum.name
+<block:tfc:sheet/ferroboron>, tile.tfc.sheet.ferroboron.name
 <block:tfc:sheet/gold>, tile.tfc.sheet.gold.name
+<block:tfc:sheet/hsla_steel>, tile.tfc.sheet.hsla_steel.name
 <block:tfc:sheet/invar>, tile.tfc.sheet.invar.name
 <block:tfc:sheet/lead>, tile.tfc.sheet.lead.name
+<block:tfc:sheet/lithium>, tile.tfc.sheet.lithium.name
+<block:tfc:sheet/magnesium>, tile.tfc.sheet.magnesium.name
+<block:tfc:sheet/magnesium_diboride>, tile.tfc.sheet.magnesium_diboride.name
+<block:tfc:sheet/manganese>, tile.tfc.sheet.manganese.name
 <block:tfc:sheet/manyullyn>, tile.tfc.sheet.manyullyn.name
 <block:tfc:sheet/nickel>, tile.tfc.sheet.nickel.name
 <block:tfc:sheet/nickel_silver>, tile.tfc.sheet.nickel_silver.name
@@ -2512,12 +2983,17 @@
 <block:tfc:sheet/silver>, tile.tfc.sheet.silver.name
 <block:tfc:sheet/steel>, tile.tfc.sheet.steel.name
 <block:tfc:sheet/sterling_silver>, tile.tfc.sheet.sterling_silver.name
+<block:tfc:sheet/thorium>, tile.tfc.sheet.thorium.name
 <block:tfc:sheet/tin>, tile.tfc.sheet.tin.name
 <block:tfc:sheet/titanium>, tile.tfc.sheet.titanium.name
+<block:tfc:sheet/tough>, tile.tfc.sheet.tough.name
 <block:tfc:sheet/tungsten>, tile.tfc.sheet.tungsten.name
 <block:tfc:sheet/tungsten_steel>, tile.tfc.sheet.tungsten_steel.name
+<block:tfc:sheet/uranium>, tile.tfc.sheet.uranium.name
 <block:tfc:sheet/wrought_iron>, tile.tfc.sheet.wrought_iron.name
 <block:tfc:sheet/zinc>, tile.tfc.sheet.zinc.name
+<block:tfc:sheet/zircaloy>, tile.tfc.sheet.zircaloy.name
+<block:tfc:sheet/zirconium>, tile.tfc.sheet.zirconium.name
 <block:tfc:slab/bricks/andesite>, Andesite Brick Slab
 <block:tfc:slab/bricks/basalt>, Basalt Brick Slab
 <block:tfc:slab/bricks/chalk>, Chalk Brick Slab
