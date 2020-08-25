@@ -27,13 +27,10 @@
   furnace.addRecipe(<tfc:food/cooked_beef>, <tfc:food/beef>);
   furnace.addRecipe(<tfc:food/cooked_calamari>, <tfc:food/calamari>);
   furnace.addRecipe(<tfc:food/cooked_camelidae>, <tfc:food/camelidae>);
-  furnace.addRecipe(<tfc:food/cooked_chevon>, <tfc:food/chevon>);
   furnace.addRecipe(<tfc:food/cooked_chicken>, <tfc:food/chicken>);
-  furnace.addRecipe(<tfc:food/cooked_duck>, <tfc:food/duck>);
   furnace.addRecipe(<tfc:food/cooked_egg>, <minecraft:egg>);
   furnace.addRecipe(<tfc:food/cooked_gran_feline>, <tfc:food/gran_feline>);
   furnace.addRecipe(<tfc:food/cooked_horse_meat>, <tfc:food/horse_meat>);
-  furnace.addRecipe(<tfc:food/cooked_hyena>, <tfc:food/hyena>);
   furnace.addRecipe(<tfc:food/cooked_mutton>, <tfc:food/mutton>);
   furnace.addRecipe(<tfc:food/cooked_pheasant>, <tfc:food/pheasant>);
   furnace.addRecipe(<tfc:food/cooked_pork>, <tfc:food/pork>);
