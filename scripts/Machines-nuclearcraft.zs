@@ -65,15 +65,15 @@ var methanol = <liquid:methanol>;
 
 // Fluid Enricher recipes
   //Enricher.addRecipe(IIngredient itemInput, ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});  
-  Enricher.removeRecipeWithOutput(<liquid:boron_nitride_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:fluorite_water>);
-  Enricher.removeRecipeWithOutput(<liquid:calcium_sulfate_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:sodium_fluoride_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:potassium_fluoride_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:sodium_hydroxide_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:potassium_hydroxide_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:borax_solution>);
-  Enricher.removeRecipeWithOutput(<liquid:irradiated_borax_solution>);
+  Enricher.removeRecipeWithOutput(<liquid:boron_nitride_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:fluorite_water> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:calcium_sulfate_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:sodium_fluoride_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:potassium_fluoride_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:sodium_hydroxide_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:potassium_hydroxide_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:borax_solution> * 666);
+  Enricher.removeRecipeWithOutput(<liquid:irradiated_borax_solution> * 666);
   Enricher.addRecipe(<ore:dustBoronNitride>, water * 1000, <liquid:boron_nitride_solution> * 666, 1.0, 1.0, 0.0);  
   Enricher.addRecipe(<ore:dustFluorite>, water * 1000, <liquid:fluorite_water> * 666, 1.0, 1.0, 0.0);  
   Enricher.addRecipe(<ore:dustCalciumSulfate>, water * 1000, <liquid:calcium_sulfate_solution> * 666, 1.0, 1.0, 0.0);  
