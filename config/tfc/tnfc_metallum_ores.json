@@ -173,7 +173,7 @@
     "shape": "cluster",
     "rarity": 150,
     "minimum_height": 128,
-    "maximum_height": 124,
+    "maximum_height": 140,
     "density": 85,
     "base_rocks": [
       "tfc:igneous_extrusive"
@@ -216,7 +216,7 @@
     "shape": "cluster",
     "rarity": 150,
     "minimum_height": 128,
-    "maximum_height": 124,
+    "maximum_height": 140,
     "density": 65,
     "base_rocks": [
       "tfc:sedimentary",
@@ -305,7 +305,6 @@
     "density": 55,
     "base_rocks": [
       "tfc:igneous_extrusive",
-      "tfc:igneous_intrusive",
       "tfc:sedimentary",
       "tfc:metamorphic"
     ]
@@ -322,7 +321,6 @@
     "density": 55,
     "base_rocks": [
       "tfc:igneous_extrusive",
-      "tfc:igneous_intrusive",
       "tfc:sedimentary",
       "tfc:metamorphic"
     ]
