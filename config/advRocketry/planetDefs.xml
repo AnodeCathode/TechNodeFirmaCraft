@@ -62,7 +62,6 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
 		<planet name="Jupiter" DIMID="104" customIcon="gasgiantred">
 			<isKnown>false</isKnown>
