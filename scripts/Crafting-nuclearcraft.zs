@@ -1,15 +1,45 @@
 #priority 3
 #modloaded nuclearcraft
-
-
+var solenoidCopper = <nuclearcraft:part:4>;
+var electricMotor = <nuclearcraft:part:8>;
+var machineChassis = <nuclearcraft:part:10>;
+var toughAlloy = <nuclearcraft:alloy:1>;
+var steel = <ore:ingotSteel>;
+var lead = <ore:ingotLead>;
+var wroughtIron = <ore:ingotWroughtIron>;
 //#REMOVE Recipes
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
+recipes.remove(machineChassis);
+recipes.remove(solenoidCopper);
+recipes.remove(electricMotor);
 
 // ================================================================================
 //#ADD SHAPED
 
   // recipes.addShaped("adhooks_web_launcher", <adhooks:web_launcher>, [[<minecraft:dye:15> | <tfc:dye/white>, <minecraft:dye:12>, <adhooks:web_hook>], [<minecraft:dye:12>, <adhooks:prototype_launcher>, <ore:string> | <tfc:animal/product/wool_yarn>], [null, <ore:string> | <tfc:animal/product/wool_yarn>, <minecraft:dye:15> | <tfc:dye/white>]]);
+
+// machine chassis
+recipes.addShaped("nuclearcraft_machine_chassis", machineChassis, [
+  [lead, toughAlloy, lead],
+  [steel, <tfc:metal/ingot/black_steel>, steel],
+  [lead, toughAlloy, lead]
+]);
+
+// solenoid copper
+recipes.addShaped("nuclearcraft_solenoid_copper", solenoidCopper*2, [
+  [<ore:ingotCopper>, <ore:ingotCopper>, null],
+  [wroughtIron, wroughtIron, null],
+  [<ore:ingotCopper>, <ore:ingotCopper>, null]
+]);
+
+// electric motor
+recipes.addShaped("nuclearcraft_electric_motor", electricMotor, [
+  [<ore:ingotSteel>, <ore:ingotSteel>, <tfc:metal/nugget/gold>],
+  [solenoidCopper, solenoidCopper, wroughtIron],
+  [<ore:ingotSteel>, <ore:ingotSteel>, <tfc:metal/nugget/gold>]
+]);
+
 
 // ================================================================================
 //#ADD SHAPELESS
