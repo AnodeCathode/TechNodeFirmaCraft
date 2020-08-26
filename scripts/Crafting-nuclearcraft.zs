@@ -13,11 +13,16 @@ var wroughtIron = <ore:ingotWroughtIron>;
 recipes.remove(machineChassis);
 recipes.remove(solenoidCopper);
 recipes.remove(electricMotor);
+recipes.remove(nuclearcraft:radiation_scrubber);
 
 // ================================================================================
 //#ADD SHAPED
 
   // recipes.addShaped("adhooks_web_launcher", <adhooks:web_launcher>, [[<minecraft:dye:15> | <tfc:dye/white>, <minecraft:dye:12>, <adhooks:web_hook>], [<minecraft:dye:12>, <adhooks:prototype_launcher>, <ore:string> | <tfc:animal/product/wool_yarn>], [null, <ore:string> | <tfc:animal/product/wool_yarn>, <minecraft:dye:15> | <tfc:dye/white>]]);
+
+  
+// radiation scrubber
+recipes.addShaped("nuclearcraft_rad_scrubber", <nuclearcraft:radiation_scrubber>, [[<ore:plateElite>, <ore:dustBoron>, <ore:plateElite>],[<ore:dustBoron>, <ore:ingotExtreme>, <ore:dustBoron>], [<ore:plateElite>, <ore:dustBoron>, <ore:plateElite>]]);  
 
 // machine chassis
 recipes.addShaped("nuclearcraft_machine_chassis", machineChassis, [
