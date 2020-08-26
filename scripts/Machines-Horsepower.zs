@@ -30,7 +30,13 @@
 
 	//Flux
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
-	
+  
+  // Boron Dust
+  mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:metal/dust/boron> * 6, 8);
+
+  // Uranium Dust
+  mods.horsepower.Grindstone.add(<tfc:ore/pitchblende>, <tfc:metal/dust/uranium> * 6, 8);
+  
   //Charcoal Powder
   mods.horsepower.Grindstone.add(<minecraft:coal:1>, <tfc:powder/charcoal> * 8, 8);
   
