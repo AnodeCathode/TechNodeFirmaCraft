@@ -53,7 +53,7 @@
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, 3, 0, 1, 1.5, 0, 0, 0, 2, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_wolf_chop>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, 2, 1, 1, 0, 1, 1, 2.5, 1, 1);
+  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, 2, 1, 1, 0, 0.5, 0.5, 1.5, 0.5, 0.5);
   
   // Adds a recipe with the given parameters
   //Heating.addRecipe(String registryName, IItemStack input, IItemStack output, float transformTemp, float maxTemp)
