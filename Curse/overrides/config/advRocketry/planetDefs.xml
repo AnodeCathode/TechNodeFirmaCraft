@@ -53,7 +53,7 @@
                 <seaLevel>64</seaLevel>
 			<biomeIds>minecraft:deep_ocean,minecraft:desert_hills,minecraft:desert,minecraft:plains</biomeIds>
 		</planet>
-		<planet name="Mars" DIMID="103" customIcon="marslike">
+		<planet name="Mars" DIMID="4598" dimMapping="" customIcon="marslike">
 			<isKnown>false</isKnown>
 			<fogColor>0.9,0.6,0.1</fogColor>
 			<skyColor>1.0,0.2,0.0</skyColor>
@@ -62,7 +62,6 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
 		<planet name="Jupiter" DIMID="104" customIcon="gasgiantred">
 			<isKnown>false</isKnown>
