@@ -35,6 +35,12 @@
   //Disabling all food grinding until we find a way to deal with food expiry
 
   
+  // Boron dust
+  mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>], [<tfc:metal/dust/boron> * 6]);
+  
+  // Uranium dust
+  mods.betterwithmods.Mill.addRecipe([<tfc:ore/pitchblende>], [<tfc:metal/dust/uranium> * 6]);
+  
   //Olive
   mods.betterwithmods.Mill.addRecipe([<tfc:food/olive>], [<tfc:food/olive_paste> * 2]);
     
