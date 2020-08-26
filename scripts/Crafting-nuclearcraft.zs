@@ -13,7 +13,7 @@ var wroughtIron = <ore:ingotWroughtIron>;
 recipes.remove(machineChassis);
 recipes.remove(solenoidCopper);
 recipes.remove(electricMotor);
-recipes.remove(nuclearcraft:radiation_scrubber);
+recipes.remove(<nuclearcraft:radiation_scrubber>);
 
 // ================================================================================
 //#ADD SHAPED
