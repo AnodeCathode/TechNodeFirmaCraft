@@ -28,3 +28,7 @@ mods.terrafirmacraft.Barrel.addRecipe("tnfc:treated_wood", <ore:plankWood> * 8, 
 
 
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:woodpulp", <betterwithmods:material:22> * 1, <liquid:vinegar> * 100, <tnfcmod:woodpulp> * 1, null, 8);
+
+// Quern Recipe
+
+mods.terrafirmacraft.Quern.addRecipe("tnfc_fluorite_dust", <ore:gemFluorite>, <nuclearcraft:gem_dust:5>);
