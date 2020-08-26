@@ -39,7 +39,6 @@
   mods.betterwithmods.Mill.addRecipe([<tfc:food/olive>], [<tfc:food/olive_paste> * 2]);
     
 	//Flux
-	mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>],[<tfc:powder/flux> * 8]);
 	mods.betterwithmods.Mill.addRecipe([<ore:rockFlux>],[<tfc:powder/flux> * 4]);
 
 	//Bone Meal
