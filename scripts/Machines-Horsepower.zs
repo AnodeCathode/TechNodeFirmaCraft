@@ -29,7 +29,6 @@
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4, <minecraft:sugar>, 8);
 
 	//Flux
-	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 8, 8);
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
 	
   //Charcoal Powder
