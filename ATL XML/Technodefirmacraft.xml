@@ -49,7 +49,7 @@
         
         <mod name="TFC Ambiental" version="1.0.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAmbiental-1.0.23-1.12.2.jar" file="TFCAmbiental-1.0.23-1.12.2.jar" md5="49d3da51391aa9e6b0ffd5892b9577b2" download="server" type="mods" colour="green"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
-        <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green"  optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
+        <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
 
 <!-- Marquee Mods -->
@@ -128,11 +128,11 @@
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
-        <mod name="NuclearCraft" version="2o.3.6-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.3.6-1.12.2.jar" file="NuclearCraft-2o.3.6-1.12.2.jar" md5="b7c7d656b2bd4d6d7dbdbb2a7e5014a7" download="server" type="mods" colour="violet"  optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
+        <mod name="NuclearCraft" version="2o.3.6-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.3.6-1.12.2.jar" file="NuclearCraft-2o.3.6-1.12.2.jar" md5="b7c7d656b2bd4d6d7dbdbb2a7e5014a7" download="server" type="mods" colour="violet"  optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
-        <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet"  optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
+        <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
-        <mod name="Engineer&apos;s Workshop Reborn" version="1.0.9.40" url="packs/TechNodefirmacraft/files/1.12.2Mods/EngineersWorkshopReborn-1.12.2-1.0.9.40.jar" file="EngineersWorkshopReborn-1.12.2-1.0.9.40.jar" md5="809c21338d84c33dce4f18c547cdca83" download="server" type="mods" colour="violet"  optional="yes" server="no" serveroptional="no" recommended="yes" selected="yes" />
+        <mod name="Engineer&apos;s Workshop Reborn" version="1.0.9.40" url="packs/TechNodefirmacraft/files/1.12.2Mods/EngineersWorkshopReborn-1.12.2-1.0.9.40.jar" file="EngineersWorkshopReborn-1.12.2-1.0.9.40.jar" md5="809c21338d84c33dce4f18c547cdca83" download="server" type="mods" colour="violet" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
         
         
