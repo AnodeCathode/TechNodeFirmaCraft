@@ -10,7 +10,10 @@
   recipes.addShapeless("tnfc_tfctech_tinsleeve", <tfctech:metal/tin_sleeve>, [<ore:sheetTin>, <ore:craftingToolChisel>.transformDamage(), <ore:craftingToolHammer>.transformDamage()]);
   recipes.addShapeless("tnfc_tfctech_steelsleeve", <tfctech:metal/steel_sleeve>, [<ore:plateSteel>, <ore:craftingToolChisel>.transformDamage(), <ore:craftingToolHammer>.transformDamage()]);
   recipes.addShapeless("tnfc_tfctech_brasssleeve", <tfctech:metal/brass_sleeve>, [<ore:sheetBrass>, <ore:craftingToolChisel>.transformDamage(), <ore:craftingToolHammer>.transformDamage()]);
-
+  
+  // Stoneage boat
+  recipes.addShapeless("thegoodship_ima_noob", <tfc:wood/boat/kapok>, [<ore:logWood> * 3, <ore:axeHead>]);
+  
 //# Cut Gems with Tools
 	recipes.addShapeless("tnfc_gem_cutting1", <tfc:gem/diamond> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemFlawedDiamond>, <ore:hammer>.reuse()]);
 	recipes.addShapeless("tnfc_gem_cutting2", <tfc:gem/diamond:1> * 2, [<ore:craftingToolMediumChisel>.transformDamage(), <ore:gemDiamond>, <ore:hammer>.reuse()]);
