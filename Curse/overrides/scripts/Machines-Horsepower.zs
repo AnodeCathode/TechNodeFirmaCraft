@@ -29,9 +29,14 @@
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*> * 4, <minecraft:sugar>, 8);
 
 	//Flux
-	mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:powder/flux> * 8, 8);
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
-	
+  
+  // Boron Dust
+  mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:metal/dust/boron> * 6, 8);
+
+  // Uranium Dust
+  mods.horsepower.Grindstone.add(<tfc:ore/pitchblende>, <tfc:metal/dust/uranium> * 6, 8);
+  
   //Charcoal Powder
   mods.horsepower.Grindstone.add(<minecraft:coal:1>, <tfc:powder/charcoal> * 8, 8);
   
