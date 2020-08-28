@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_box>,<minecraft:magenta_shulker_box>,<minecraft:light_blue_shulker_box>,<minecraft:yellow_shulker_box>,<minecraft:lime_shulker_box>,<minecraft:pink_shulker_box>,<minecraft:gray_shulker_box>,<minecraft:silver_shulker_box>,<minecraft:cyan_shulker_box>,<minecraft:purple_shulker_box>,<minecraft:blue_shulker_box>,<minecraft:brown_shulker_box>,<minecraft:green_shulker_box>,<minecraft:red_shulker_box>,<minecraft:black_shulker_box>] as IIngredient[];
+
 
 //# Furnace
 	recipes.addShaped("tnfc_vanilla_furnace", <minecraft:furnace>, [[<tfc:metal/sheet/steel>, <tfc:metal/sheet/steel>, <tfc:metal/sheet/steel>], [<ore:craftingToolMediumChisel>.transformDamage(), <tfc:crucible>, <ore:craftingToolMediumHammer>.transformDamage()], [<tfc:metal/sheet/steel>, <tfc:metal/sheet/steel>, <tfc:metal/sheet/steel>]]);
@@ -15,14 +15,27 @@ val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_
   //Alternate frame recipe with BwM leather strips made in Squeezer
   recipes.addShaped("tfc_vanilla_altitem_frame", <minecraft:item_frame>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <betterwithmods:material:8>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
 
-  //Shulker box recipe? Now we have the end, why not
-  recipes.addShaped("tnfc_shulkerbox", <minecraft:purple_shulker_box>, [[<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <ore:chest>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>]]);
-    //probably need all the dying recipes. Bleh.
+  //Shulker box recipes
+  val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_box>,<minecraft:magenta_shulker_box>,<minecraft:light_blue_shulker_box>,<minecraft:yellow_shulker_box>,<minecraft:lime_shulker_box>,<minecraft:pink_shulker_box>,<minecraft:gray_shulker_box>,<minecraft:silver_shulker_box>,<minecraft:cyan_shulker_box>,<minecraft:purple_shulker_box>,<minecraft:blue_shulker_box>,<minecraft:brown_shulker_box>,<minecraft:green_shulker_box>,<minecraft:red_shulker_box>,<minecraft:black_shulker_box>] as IIngredient[];
+  recipes.addShaped("tnfc_shulkerbox", <minecraft:white_shulker_box>, [[<minecraft:shulker_shell>, <ore:craftingToolHardHammer>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <ore:chest>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>]]);
   
-
   for i, item in IShulkerBoxArray {
-    recipes.addShapeless(<minecraft:white_shulker_box>, [<ore:dyeWhite>,item]);
-    recipes.addShapeless(<minecraft:orange_shulker_box>, [<ore:dyeOrange>,item]);
+    recipes.addShapeless(<minecraft:white_shulker_box>, [<ore:dyeWhite>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:orange_shulker_box>, [<ore:dyeOrange>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:black_shulker_box>, [<ore:dyeBlack>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:blue_shulker_box>, [<ore:dyeBlue>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:brown_shulker_box>, [<ore:dyeBrown>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:cyan_shulker_box>, [<ore:dyeCyan>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:gray_shulker_box>, [<ore:dyeGray>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:green_shulker_box>, [<ore:dyeGreen>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:light_blue_shulker_box>, [<ore:dyeLightBlue>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:lime_shulker_box>, [<ore:dyeLime>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:magenta_shulker_box>, [<ore:dyeMagenta>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:pink_shulker_box>, [<ore:dyePink>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:purple_shulker_box>, [<ore:dyePurple>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:red_shulker_box>, [<ore:dyeRed>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:silver_shulker_box>, [<ore:dyeLightGray>,item, <ore:craftingToolMediumHammer>]);
+    recipes.addShapeless(<minecraft:yellow_shulker_box>, [<ore:dyeYellow>,item, <ore:craftingToolMediumHammer>]);
     
   }
   
