@@ -14,6 +14,7 @@ val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 
     recipes.remove(<chiselsandbits:chisel_gold>);
     recipes.remove(<chiselsandbits:chisel_iron>);
     recipes.remove(<chiselsandbits:tape_measure>);
+    recipes.remove(<chiselsandbits:bitsaw_diamond>);
 
 // ================================================================================
 //#ADD SHAPED
@@ -22,6 +23,8 @@ recipes.addShaped("chiselsandbits_chisel_iron", <chiselsandbits:chisel_iron>, [[
 recipes.addShaped("chiselsandbits_tape_measure", <chiselsandbits:tape_measure>, [[null, null, <ore:string>], [<tfc:metal/ingot/wrought_iron>, <ore:string>, <ore:dyeYellow>], [<tfc:metal/ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>, null]]);
 
 
+// Bitsaw from any nice gems
+recipes.addShaped("chiselsandbits_bitsaw_gems", <chiselsandbits:bitsaw_diamond>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:gemFlawless> | <ore:gemExquisite>, <ore:gemFlawless> | <ore:gemExquisite>]]);
 // ================================================================================
 //#ADD SHAPELESS
 recipes.addShapeless("chiselsandbits_positiveprint", <chiselsandbits:positiveprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:gemLapis>]);
