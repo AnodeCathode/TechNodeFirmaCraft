@@ -162,7 +162,7 @@ import mods.immersiveengineering.MineralMix;
 // mods.immersiveengineering.Crusher.addRecipe(IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance);
 
     //Remove Crusher Recipes
-
+      mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:compound:7>);
       mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
       mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
       mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
