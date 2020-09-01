@@ -31,6 +31,10 @@
 	//Flux
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
   
+  // Manual Grinding
+  mods.horsepower.Grindstone.add(<patchouli:guide_book>, <minecraft:paper> * 3, 8);
+  mods.horsepower.Grindstone.add(<gbook:guidebook>, <minecraft:paper> * 3, 8);
+  
   // Boron Dust
   mods.horsepower.Grindstone.add(<tfc:ore/borax>, <tfc:metal/dust/boron> * 6, 8);
 

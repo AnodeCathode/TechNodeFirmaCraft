@@ -1,38 +1,18 @@
 Notes:
 
-- Gasoline in wooden buckets
-
-- Electrum grit arc furnace
-
+- Put NBTExplorer on the laptop!
 
 - Process world.log and throw into MySQL instance
 
-butchering increase the chance of drops from hostile mobs
 
 - Hunger/thirst from sleeping?
 
 - Mob drops?
-
-- New paper process -  sawdust, bark, glue
-
-- remove Borax dust from crusher
-
 /kill @e[type=tfc:ChickenTFC]
-
-- Check all the vanilla furnace recipes and remove where needed
-
-- BwM breakage - Wind chimnes. Sawdust
-
-
-- AMADRON trades for AR stuff??
-
-- Why does bonemeal work in the Cloche?
-- Anvil or name tag fixes. Vanilla Anvil recipe is quick fix
 
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 
 - Update the TNFC Book with the changelog and stuff.
-- Old crops need to eventually die no matter what. The tropical enterna farm is terrible
 - Power for RH machines? Too expensive recipe?
 - Resurrect the advanced PnC gas lift? Otherwise can't generally drill deep enough
 - Flint from gravel in grindstone/crusher/millstone/quern?
@@ -43,10 +23,7 @@ butchering increase the chance of drops from hostile mobs
 - unarmed dmg is way too high. Need to fix. Probably fix in TFC. Fix and PR
 - Fruit trees and/or berry bushes in the Cloche? Would it even work? Do we even want it?
 
-- Random diamond drops from crushing kimberlite ffs
-- RENAME LUNA to Prospit
-
-- Rope block back to ropes - Done
+- Random diamond drops from crushing kimberlite ffs. Use Nuclearcraft random drop CT Functions?
 
 - If I leave the vanilla top blocks in ocean spawning biomes, will we get the underwater crap?
 
@@ -57,35 +34,16 @@ butchering increase the chance of drops from hostile mobs
   
   
 - IE excavator crashes on fake player on chunk load?. Need fix.
+- IE drill crashes with trying to drill falling blocks?. Need fix.
 
-
-
-
-- Advanced Rocketry
-
-  Heat fuel properties for thermite
-- AR Jetpack recipe diff increase. Other recipe diff increase
-
-    
-    
-    
 
 
 
 - Add all items with weight and stuff
-
-
-- nametag needs recipes
-
 - Enderpearl to liquid ender and back? Some Rockhound process to create liquid ender?
 
 
 - Do we need craftingFlawlessPlus in oredic?
-
-- Metal block crafting solution
-
-- New Blueprints for components. Vacuum tube recipe to be more expensive than god
-
--BlockHeatProperties for Pneumaticcraft. 
+- 
 
 - IE Assembler

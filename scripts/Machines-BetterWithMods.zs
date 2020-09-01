@@ -34,6 +34,9 @@
   
   //Disabling all food grinding until we find a way to deal with food expiry
 
+  // Manual griding
+  mods.betterwithmods.Mill.addRecipe([<patchouli:guide_book>], [<minecraft:paper> * 3]);
+  mods.betterwithmods.Mill.addRecipe([<gbook:guidebook>], [<minecraft:paper> * 3]);
   
   // Boron dust
   mods.betterwithmods.Mill.addRecipe([<tfc:ore/borax>], [<tfc:metal/dust/boron> * 6]);
