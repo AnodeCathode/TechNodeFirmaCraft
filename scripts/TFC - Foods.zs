@@ -46,10 +46,10 @@
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_egg>, 3, 0, 1, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_scrambled_egg>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_omelet>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish>, 0, 1, 0, 2.25, 0, 0, 0, 0, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:1>, 0, 1, 0, 2.25, 0, 0, 0, 0, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:2>, 0, 1, 0, 2.25, 0, 0, 0, 0, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:3>, 0, 1, 0, 2.25, 0, 0, 0, 0, 0);
+  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish>, 0, 1, 0, 2.25, 0, 0, 0, 1, 0);
+  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:1>, 0, 1, 0, 2.25, 0, 0, 0, 1, 0);
+  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:2>, 0, 1, 0, 2.25, 0, 0, 0,1, 0);
+  mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:3>, 0, 1, 0, 2.25, 0, 0, 0, 2, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, 3, 0, 1, 1.5, 0, 0, 0, 2, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_wolf_chop>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
