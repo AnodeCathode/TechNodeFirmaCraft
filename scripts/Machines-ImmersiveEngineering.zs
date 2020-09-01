@@ -2,6 +2,7 @@
 #modloaded immersiveengineering
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.nuclearcraft.ChanceItemIngredient;
 import mods.immersiveengineering.Excavator;
 import mods.immersiveengineering.MineralMix;
 // Machine Additions
@@ -231,7 +232,10 @@ import mods.immersiveengineering.MineralMix;
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bismuth_bronze> , <tfc:metal/ingot/bismuth_bronze>, 512);
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/black_bronze> , <tfc:metal/ingot/black_bronze>, 512);
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bronze> , <tfc:metal/ingot/bronze>, 512);
-
+    
+    //Test using NC ChanceItemIngredient for Kimberlite drops
+     // mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/kimberlite>);
+     // mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bronze> , <tfc:metal/ingot/bronze>, 512);
   
 // Excavator
   //mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);

@@ -1,5 +1,11 @@
 #priority 8
 //Should we move ALL this stuff to the TNFC mod?
+
+import mods.nuclearcraft.ChanceItemIngredient;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+
 //Anvil 
   mods.terrafirmacraft.Anvil.addRecipe("betterwithmods:redstonelatch", <tfc:metal/ingot/gold>, <betterwithmods:material:34>, 3, "general", "BEND_LAST", "HIT_SECOND_LAST", "DRAW_NOT_LAST");
          
@@ -32,3 +38,6 @@ mods.terrafirmacraft.Barrel.addRecipe("tnfc:woodpulp", <betterwithmods:material:
 // Quern Recipe
 
 mods.terrafirmacraft.Quern.addRecipe("tnfc_fluorite_dust", <ore:gemFluorite>, <nuclearcraft:gem_dust:5>);
+mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind", <patchouli:guide_book>, <minecraft:paper> * 2);
+mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind2", <gbook:guidebook>, <minecraft:paper> * 2);
+
