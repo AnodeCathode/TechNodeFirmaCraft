@@ -39,6 +39,9 @@ import crafttweaker.item.IIngredient;
     
   }
   
+  //Turn all TFC workbenches into vanilla workbenches for Engineers Workshop
+    recipes.addShapeless(<minecraft:crafting_table>, [<ore:craftingTableWood>]);
+  
 // This is the final prize:
   recipes.addShaped("tnfc_youwinthegame_omg", <immersiveengineering:metal_device0:3>, [[<minecraft:end_rod>,<minecraft:skull:5>,<minecraft:end_rod>],[<minecraft:ender_chest>,<minecraft:dragon_egg>.noReturn(),<minecraft:ender_chest>],[<minecraft:end_rod>,<minecraft:skull:5>,<minecraft:end_rod>]]);
  
