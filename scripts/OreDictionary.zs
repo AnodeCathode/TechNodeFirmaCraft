@@ -30,7 +30,7 @@ var oreCookedMeat = <ore:categoryCookedMeat>;
     <minecraft:cooked_fish:1>,
     <betterwithmods:cooked_wolf_chop>
     ]);
-   
+
 var oreRawMeat = <ore:categoryMeat>;
     oreRawMeat.addItems([
     <betterwithmods:bat_wing>,
@@ -39,6 +39,38 @@ var oreRawMeat = <ore:categoryMeat>;
     <minecraft:fish:1>,
     <minecraft:fish:2>,
     <minecraft:fish:3>
+    ]);
+
+var oreMedicinalPlants = <ore:medicinalPlant>;
+    oreMedicinalPlants.addItems([
+    <tfc:plants/meads_milkweed>,
+    <tfc:plants/butterfly_milkweed>,
+    <tfc:plants/foxglove>,
+    <tfc:plants/duckweed>,
+    <tfc:plants/tropical_milkweed>,
+    <tfc:plants/allium>,
+    <tfc:plants/goldenrod>,
+    <tfc:plants/morning_glory>,
+    <tfc:plants/nasturtium>,
+    <tfc:plants/sacred_datura>,
+    <tfc:plants/sagebrush>,
+    <tfc:plants/field_horsetail>,
+    <tfc:plants/pulsatilla>,
+    <tfc:plants/perovskia>,
+    <tfc:plants/poppy>
+    ]);
+
+var oreMedicinalWraps = <ore:medicinalWrap>;
+    oreMedicinalWraps.addItems([
+    <tfc:plants/athyrium_fern>,
+    <tfc:plants/lady_fern>,
+    <tfc:plants/licorice_fern>,
+    <tfc:plants/ostrich_fern>,
+    <tfc:plants/sword_fern>,
+    <tfc:plants/tree_fern>,
+    <tfc:plants/moss>,
+    <tfc:plants/spanish_moss>,
+    <tfc:plants/reindeer_lichen>
     ]);
 
 var oreSand = <ore:sand>;
