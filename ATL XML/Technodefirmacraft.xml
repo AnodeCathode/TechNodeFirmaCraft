@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.25</version>
+        <version>12.2.26</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -31,7 +31,7 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.2.160" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.2.160.jar" file="TerraFirmaCraft-MC1.12.2-1.7.2.160.jar" md5="0612e4ce1d656e14ee823c36125b51ec" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.3.161" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.3.161.jar" file="TerraFirmaCraft-MC1.12.2-1.7.3.161.jar" md5="a5eca0bbe81d2cce2d7fe1ffac68b3c7" download="server" type="mods" colour="green"/>
 
         
         <!--TFC Addons Mods -->
@@ -71,7 +71,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.8.79" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.79.jar" file="MCTImmersiveTechnology-1.12.2-1.8.79.jar" md5="ccf9d526936cc7272858d1c95fd973cb" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.8.81" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.81.jar" file="MCTImmersiveTechnology-1.12.2-1.8.81.jar" md5="232134e064076b19054c708ea8360708" download="server" type="mods" colour="gold" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        
        <mod name="Engineer&apos;s Decor" version="1.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/engineersdecor-1.12.2-1.1.2.jar" file="engineersdecor-1.12.2-1.1.2.jar" md5="80453102664203d91a049c748474c35c" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
@@ -208,7 +208,7 @@
        
        <mod name="FoamFix" version="0.10.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/foamfix-0.10.10-1.12.2.jar" file="foamfix-0.10.10-1.12.2.jar" md5="bba94f1ee252fcfbd2d52779f5c2f2b1" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
-       <mod name="RandomPatches" version="1.12.2-1.22.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/randompatches-1.12.2-1.22.1.2.jar" file="randompatches-1.12.2-1.22.1.2.jar" md5="ef113ff6fee01f27f980b3bfe603053b" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+       <mod name="RandomPatches" version="1.12.2-1.22.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/randompatches-1.12.2-1.22.1.3.jar" file="randompatches-1.12.2-1.22.1.3.jar" md5="970aea3fee6375ca6b51ea52b07ee59b" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
        
        <mod name="VanillaFix" version="1.0.10-150" url="packs/TechNodefirmacraft/files/1.12.2Mods/VanillaFix-1.0.10-150.jar" file="VanillaFix-1.0.10-150.jar" md5="a74aaab68100e03f54e35d1007d50169" download="server" type="mods" client="yes" optional="yes" server="yes" serveroptional="yes" recommended="yes" selected="yes" />
        
@@ -268,7 +268,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.25"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.25.zip" file="scripts.12.2.25.zip" md5="cf8d95dca6c0731f5b825bba9cf1b411" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.26"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.26.zip" file="scripts.12.2.26.zip" md5="64399477b8d94ce49e6e4bc446ca315a" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
