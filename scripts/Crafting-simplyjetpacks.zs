@@ -6,9 +6,7 @@
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
   mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:0>);
-  mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:4>);
-  mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:5>);
-  mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:6>);
+
   mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:34>);
   mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:35>);
   mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:36>);
@@ -25,6 +23,9 @@
   recipes.remove(<simplyjetpacks:itemjetpack:1>);
   recipes.remove(<simplyjetpacks:itemjetpack:2>);
   recipes.remove(<simplyjetpacks:itemjetpack:3>);
+  recipes.remove(<simplyjetpacks:itemjetpack:4>);
+  recipes.remove(<simplyjetpacks:itemjetpack:5>);
+  recipes.remove(<simplyjetpacks:itemjetpack:6>);
   
 
   recipes.remove(<simplyjetpacks:metaitem:1>);
