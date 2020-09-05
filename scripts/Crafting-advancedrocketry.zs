@@ -48,7 +48,7 @@ recipes.remove(<advancedrocketry:suitworkstation>);
 recipes.addShaped("tnfc_advancedrocketry_suitworkstation", <advancedrocketry:suitworkstation>, [[<ore:craftingTableWood>], [<libvulpes:structuremachine>]]);
 
 recipes.remove(<advancedrocketry:jetpack>);
-recipes.addShaped("tnfc_advancedrocketry_jetpack", <advancedrocketry:jetpack>, [[<advancedrocketry:pressuretank:*>, <ore:plateSteel>, <advancedrocketry:pressuretank:*>], [<immersiveengineering:metal_device0>, <ore:hideStrap>,<immersiveengineering:metal_device0>], [<simplyjetpacks:metaitemmods>, <ore:stickLongSteel>, <simplyjetpacks:metaitemmods>]]);
+recipes.addShaped("tnfc_advancedrocketry_jetpack", <advancedrocketry:jetpack>, [[<advancedrocketry:pressuretank:*>, <ore:plateSteel>, <advancedrocketry:pressuretank:*>], [<immersiveengineering:metal_device0>, <ore:hideStrap>,<immersiveengineering:metal_device0>], [<simplyjetpacks:metaitemmods:1>, <ore:stickLongSteel>, <simplyjetpacks:metaitemmods:1>]]);
 
 recipes.remove(<advancedrocketry:ic:3>);
 recipes.addShaped("tnfc_advancedrocketry_controlcircuitboard", <advancedrocketry:ic:3>, [[<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>], [<ore:dustCopper>, <ore:slabWood>, <ore:dustCopper>], [<ore:dustCopper>, <ore:plateIron>, <ore:dustCopper>]]);
