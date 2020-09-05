@@ -1,0 +1,6 @@
+{
+  "inventory": {
+    "0:0": "gbook:guidebook,1,0,{Book:\"tnfcmod:xml/tnfcchanges.xml\"}",
+    "0:1": "patchouli:guide_book,1,0,{\"patchouli:book\":\"tfc:book\"}"
+  }
+}
