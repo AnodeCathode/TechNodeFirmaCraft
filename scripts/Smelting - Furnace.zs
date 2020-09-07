@@ -79,6 +79,7 @@
   furnace.addRecipe(<tfc:ceramics/fired/vessel_glazed:2>, <tfc:ceramics/unfired/vessel_glazed:2>);
   furnace.addRecipe(<tfc:ceramics/fired/vessel_glazed:1>, <tfc:ceramics/unfired/vessel_glazed:1>);
   furnace.addRecipe(<tfc:ceramics/fired/vessel_glazed>, <tfc:ceramics/unfired/vessel_glazed>);
+  furnace.addRecipe(<tfc:crucible>, <tfc:ceramics/unfired/crucible>);
   //add the tfctech molds
   furnace.addRecipe(<tfctech:ceramics/mold/glass_block>, <tfctech:ceramics/unfired/glass_block>);
   furnace.addRecipe(<tfctech:ceramics/mold/glass_pane>, <tfctech:ceramics/unfired/glass_pane>);
