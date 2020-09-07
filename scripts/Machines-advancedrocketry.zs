@@ -75,6 +75,20 @@
     // val titaniumPlate = <advancedrocketry:productplate>;
     // mods.advancedrocketry.RollingMachine.removeRecipe(titaniumPlate.withDamage(1));
     //mods.advancedrocketry.RollingMachine.addRecipe(<minecraft:log>*1, 80, 100, 100, <minecraft:planks>*4);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<advancedrocketry:productsheet:0>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<advancedrocketry:productsheet:1>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<libvulpes:productsheet:1>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<libvulpes:productsheet:4>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<libvulpes:productsheet:6>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<libvulpes:productsheet:7>);
+    mods.advancedrocketry.RollingMachine.removeRecipe(<libvulpes:productsheet:9>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateTitaniumAluminide>*2, 80, 100, 100, <advancedrocketry:productsheet:0>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateTitaniumIridium>*2, 80, 100, 100, <advancedrocketry:productsheet:1>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateIron>*2, 80, 100, 100, <libvulpes:productsheet:1>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateCopper>*2, 80, 100, 100, <libvulpes:productsheet:4>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateSteel>*2, 80, 100, 100, <libvulpes:productsheet:6>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateTitanium>*2, 80, 100, 100, <libvulpes:productsheet:7>);
+    mods.advancedrocketry.RollingMachine.addRecipe(<ore:plateAluminum>*2, 80, 100, 100, <libvulpes:productsheet:9>);
 
 // Electrolyser
     mods.advancedrocketry.Electrolyser.clear();
