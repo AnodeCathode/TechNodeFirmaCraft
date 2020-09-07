@@ -70,7 +70,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateIron</oreDict>
+			<oreDict>plateIron;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -79,7 +79,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateCopper</oreDict>
+			<oreDict>plateCopper;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -88,7 +88,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateSteel</oreDict>
+			<oreDict>plateSteel;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -97,7 +97,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitanium</oreDict>
+			<oreDict>plateTitanium;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -106,7 +106,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateAluminum</oreDict>
+			<oreDict>plateAluminum;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -115,7 +115,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitaniumAluminide</oreDict>
+			<oreDict>plateTitaniumAluminide;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -124,7 +124,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitaniumIridium</oreDict>
+			<oreDict>plateTitaniumIridium;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
