@@ -8,13 +8,7 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
-val oreSheetSteel = <ore:sheetSteel>;
-    oreSheetSteel.remove(<libvulpes:productsheet:6>);
 
-val orePlateSteel = <ore:plateSteel>;
-    orePlateSteel.remove(<libvulpes:productplate:6>);
-    
-    
 val materialRubber = <ore:materialRubber>;
     materialRubber.addItems([
     <tfctech:latex/rubber>
