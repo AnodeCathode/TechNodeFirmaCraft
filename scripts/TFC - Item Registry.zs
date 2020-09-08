@@ -1,4 +1,8 @@
 #priority 2
+
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
 // Imports ItemRegistry methods into your script
 //import mods.terrafirmacraft.ItemRegistry;
 // Register item size and weight. This changes how much a stack can hold.
@@ -46,4 +50,22 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:metal:6>, "CONSTANTAN", 100, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemMetal(<immersiveengineering:metal:7>, "ELECTRUM", 100, true);
 
-  
+  // Plates
+  // iron, gold,
+  //copper, tin, steel, 
+  //titanium, aluminum, 
+  //  lead, 
+  // silver, nickel,
+  // constantan, electrum, Zircaloy
+    
+    val IPlateArray = [<immersiveengineering:metal:39>, <immersiveengineering:metal:40>,
+                   <immersiveengineering:metal:30>, <immersiveengineering:metal:17>, <immersiveengineering:metal:38>, 
+                   <rockhounding_chemistry:alloy_parts:1>, <immersiveengineering:metal:31>,
+                   <immersiveengineering:metal:32>,
+                   <immersiveengineering:metal:33>, <immersiveengineering:metal:34>, 
+                   <immersiveengineering:metal:36>, <immersiveengineering:metal:37>, <rockhounding_chemistry:alloy_parts:91>
+                   ] as IItemStack[];
+    val PlateLiquids = ["WROUGHT_IRON", "GOLD", "COPPER", "TIN", "STEEL", "TITANIUM", "ALUMINUM", "LEAD", "SILVER", "NICKEL", "CONSTANTAN", "ELECTRUM", "ZIRCALOY"] as string[];
+    for i, item in IPlateArray {                    
+      mods.terrafirmacraft.ItemRegistry.registerItemMetal(item, PlateLiquids[i], 100, true);  
+    }
