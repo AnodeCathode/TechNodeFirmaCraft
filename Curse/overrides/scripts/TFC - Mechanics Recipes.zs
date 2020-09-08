@@ -7,9 +7,36 @@ import crafttweaker.item.IItemStack;
 
 
 //Anvil 
+
+// iron, gold, silicon, 
+//copper, tin, steel, 
+//titanium, aluminum, iridium, 
+// titaniumaluminide, titaniumiridium, lead, 
+// silver, nickel, uranium, 
+// constantan, electrum, Zircaloy
+val IPlateArray = [<immersiveengineering:metal:39>, <immersiveengineering:metal:40>, <libvulpes:productplate:3>, 
+                   <immersiveengineering:metal:30>, <immersiveengineering:metal:17>, <immersiveengineering:metal:38>, 
+                   <rockhounding_chemistry:alloy_parts:1>, <immersiveengineering:metal:31>, <libvulpes:productplate:10>, 
+                   <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <immersiveengineering:metal:32>,
+                   <immersiveengineering:metal:33>, <immersiveengineering:metal:34>, <immersiveengineering:metal:35>,
+                   <immersiveengineering:metal:36>, <immersiveengineering:metal:37>, <rockhounding_chemistry:alloy_parts:91>
+                   ] as IItemStack[];
+ 
+val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
+                    <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotSteel>, 
+                    <ore:ingotTitanium>, <ore:ingotAluminum>, <ore:ingotIridium>,  
+                    <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumIridium>,  <ore:ingotLead>,
+                     <ore:ingotSilver>, <ore:ingotNickel>, <ore:ingotUranium>,
+                      <ore:ingotConstantan>,  <ore:ingotElectrum>,  <ore:ingotZircaloy>
+                    ] as IIngredient[];
+
+for i, item in IIngotArray {  
+  mods.terrafirmacraft.Anvil.addRecipe("tnfc:plate" + i, item, IPlateArray[i], 3, "general", "BEND_LAST", "HIT_SECOND_LAST", "DRAW_ANY");  
+}
+
   mods.terrafirmacraft.Anvil.addRecipe("betterwithmods:redstonelatch", <tfc:metal/ingot/gold>, <betterwithmods:material:34>, 3, "general", "BEND_LAST", "HIT_SECOND_LAST", "DRAW_NOT_LAST");
          
-         
+  
          
 // Loom
 

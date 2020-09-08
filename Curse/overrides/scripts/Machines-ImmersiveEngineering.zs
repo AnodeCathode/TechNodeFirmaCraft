@@ -9,6 +9,42 @@ import mods.immersiveengineering.MineralMix;
 
 // Metal Press - most in TNFCMod
 //mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
+
+// iron, gold, silicon, 
+//copper, tin, steel, 
+//titanium, aluminum, iridium, 
+// titaniumaluminide, titaniumiridium, lead, 
+// silver, nickel, uranium, 
+// constantan, electrum, Zircaloy
+    val IPlateArray = [<immersiveengineering:metal:39>, <immersiveengineering:metal:40>, <libvulpes:productplate:3>, 
+                   <immersiveengineering:metal:30>, <immersiveengineering:metal:17>, <immersiveengineering:metal:38>, 
+                   <rockhounding_chemistry:alloy_parts:1>, <immersiveengineering:metal:31>, <libvulpes:productplate:10>, 
+                   <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <immersiveengineering:metal:32>,
+                   <immersiveengineering:metal:33>, <immersiveengineering:metal:34>, <immersiveengineering:metal:35>,
+                   <immersiveengineering:metal:36>, <immersiveengineering:metal:37>, <rockhounding_chemistry:alloy_parts:91>
+                   ] as IItemStack[];
+ 
+val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
+                    <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotSteel>, 
+                    <ore:ingotTitanium>, <ore:ingotAluminum>, <ore:ingotIridium>,  
+                    <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumIridium>,  <ore:ingotLead>,
+                     <ore:ingotSilver>, <ore:ingotNickel>, <ore:ingotUranium>,
+                      <ore:ingotConstantan>,  <ore:ingotElectrum>,  <ore:ingotZircaloy>
+                    ] as IIngredient[];
+                    
+  for i, item in IIngotArray { 
+  mods.immersiveengineering.MetalPress.removeRecipe(IPlateArray[i]);
+  mods.immersiveengineering.MetalPress.addRecipe(IPlateArray[i], item, <immersiveengineering:mold:0>, 2400, 1);  
+}
+    // Remove all the auto added ones from ARs Lib
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:1>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:2>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:4>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:5>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:6>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:7>);
+    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:9>);
+    
     //Copied from 1.7.10 - Uses Steel block as mold because meh....it worked then too
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, <immersiveengineering:storage:8>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/steel>, <tfc:metal/ingot/high_carbon_steel>, <immersiveengineering:storage:8>, 2400, 1);

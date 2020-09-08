@@ -31,10 +31,10 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
+<Recipes useDefault="false">
 	<Recipe timeRequired="400" power ="8">
 		<input>
-			<itemStack>libvulpes:productsheet;2;7</itemStack>
+			<oreDict>sheetTitanium;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -43,7 +43,7 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="2">
 		<input>
-			<itemStack>libvulpes:productsheet;2;6</itemStack>
+			<oreDict>sheetSteel;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -52,7 +52,7 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="1">
 		<input>
-			<itemStack>libvulpes:productsheet;2;1</itemStack>
+			<oreDict>sheetIron;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -61,7 +61,7 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="4">
 		<input>
-			<itemStack>libvulpes:productsheet;2;9</itemStack>
+			<oreDict>sheetAluminum;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -70,52 +70,52 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateIron</oreDict>
+			<oreDict>plateIron;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productsheet;1;1</itemStack>
+			<itemStack>tfc:metal/sheet/wrought_iron;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateCopper</oreDict>
+			<oreDict>plateCopper;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productsheet;1;4</itemStack>
+			<itemStack>tfc:metal/sheet/copper;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateSteel</oreDict>
+			<oreDict>plateSteel;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productsheet;1;6</itemStack>
+			<itemStack>tfc:metal/sheet/steel;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitanium</oreDict>
+			<oreDict>plateTitanium;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productsheet;1;7</itemStack>
+			<itemStack>tfc:metal/sheet/titanium;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateAluminum</oreDict>
+			<oreDict>plateAluminum;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productsheet;1;9</itemStack>
+			<itemStack>tfc:metal/sheet/aluminum;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitaniumAluminide</oreDict>
+			<oreDict>plateTitaniumAluminide;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -124,7 +124,7 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
 		<input>
-			<oreDict>plateTitaniumIridium</oreDict>
+			<oreDict>plateTitaniumIridium;2</oreDict>
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
@@ -137,7 +137,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;2</itemStack>
+			<itemStack>immersiveengineering:metal;1;40</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -155,7 +155,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;9</itemStack>
+			<itemStack>immersiveengineering:metal;1;31</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -164,7 +164,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;1</itemStack>
+			<itemStack>immersiveengineering:metal;1;39</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -173,7 +173,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;6</itemStack>
+			<itemStack>immersiveengineering:metal;1;38</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -227,7 +227,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;7</itemStack>
+			<itemStack>rockhounding_chemistry:alloy_parts;1;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -272,7 +272,7 @@
 			<fluidStack>fresh_water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate;1;4</itemStack>
+			<itemStack>immersiveengineering:metal;1;30</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
