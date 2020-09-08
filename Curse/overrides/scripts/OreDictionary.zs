@@ -8,13 +8,7 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
-val oreSheetSteel = <ore:sheetSteel>;
-    oreSheetSteel.remove(<libvulpes:productsheet:6>);
 
-val orePlateSteel = <ore:plateSteel>;
-    orePlateSteel.remove(<libvulpes:productplate:6>);
-    
-    
 val materialRubber = <ore:materialRubber>;
     materialRubber.addItems([
     <tfctech:latex/rubber>
@@ -224,25 +218,3 @@ var woodButton = <ore:woodButton>;
       oreUranium.addItems([
       <tfc:ore/pitchblende>
       ]);
- 
-  var plateAluminum = <ore:plateAluminum>;
-      plateAluminum.addItems([<tfc:metal/sheet/aluminum>]);
-  var plateConstantan = <ore:plateConstantan>;
-      plateConstantan.addItems([<tfc:metal/sheet/constantan>]);
-  var plateCopper = <ore:plateCopper>;
-      plateCopper.addItems([<tfc:metal/sheet/copper>]);
-  var plateElectrum = <ore:plateElectrum>;
-      plateElectrum.addItems([<tfc:metal/sheet/electrum>]);
-  var plateGold = <ore:plateGold>;
-      plateGold.addItems([<tfc:metal/sheet/gold>]);  
-  var plateLead = <ore:plateLead>;
-      plateLead.addItems([<tfc:metal/sheet/lead>]);
-  var plateNickel = <ore:plateNickel>;
-      plateNickel.addItems([<tfc:metal/sheet/nickel>]);
-  var plateSilver = <ore:plateSilver>;
-      plateSilver.addItems([<tfc:metal/sheet/silver>]);
-  var plateSteel = <ore:plateSteel>;
-      plateSteel.addItems([<tfc:metal/sheet/steel>]);
-
-      
-   

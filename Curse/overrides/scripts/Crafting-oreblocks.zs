@@ -57,6 +57,9 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
 
 // mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
 // Metal Press Recipes
+  //Don't know where this is coming from:
+  mods.immersiveengineering.MetalPress.removeRecipe(<minecraft:bone_block>);
+  
   mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:8>, <ore:ingotSteel>, <tnfcmod:mold_block>, 2000, 8);
   mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:7>, <ore:ingotElectrum>, <tnfcmod:mold_block>, 2000, 8);
   mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:storage:6>, <ore:ingotConstantan>, <tnfcmod:mold_block>, 2000, 8);
@@ -77,7 +80,6 @@ recipes.removeShapeless(<tfc:metal/ingot/copper> * 9,[<immersiveengineering:stor
   mods.immersiveengineering.MetalPress.addRecipe(<minecraft:quartz_block>, <ore:gemQuartz>, <tnfcmod:mold_block>, 2000, 4);
   mods.immersiveengineering.MetalPress.addRecipe(<minecraft:emerald_block>, <ore:gemEmerald>, <tnfcmod:mold_block>, 2000, 9);
   mods.immersiveengineering.MetalPress.addRecipe(<minecraft:redstone_block>, <minecraft:redstone>, <tnfcmod:mold_block>, 2000, 9);
-  mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:metal0:10>, <advancedrocketry:productingot:10>, <tnfcmod:mold_block>, 2000, 9);
   mods.immersiveengineering.MetalPress.addRecipe(<pneumaticcraft:compressed_iron_block>, <pneumaticcraft:ingot_iron_compressed>, <tnfcmod:mold_block>, 2000, 9);
   mods.immersiveengineering.MetalPress.addRecipe(<rockhounding_chemistry:misc_blocks_a:11>, <ore:charcoal>, <tnfcmod:mold_block>, 2000, 9);
   mods.immersiveengineering.MetalPress.addRecipe(<minecraft:emerald_block>, <ore:gemEmerald>, <tnfcmod:mold_block>, 2000, 9);

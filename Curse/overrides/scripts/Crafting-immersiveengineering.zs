@@ -115,8 +115,7 @@ for i, item in IBucketArray {
   
 // ================================================================================
 //#ADD SHAPELESS
-
-
+  
   recipes.addShapeless("tnfc_immersive_conveyor_dropper", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}), [<ore:craftingToolMediumHammer>.transformDamage(0), <minecraft:iron_trapdoor>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})]);
   recipes.addShapeless("tnfc_immersive_conveyor_uncontrolled", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), [<ore:craftingToolMediumHammer>.transformDamage(), <ore:dustRedstone>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})]);
 
