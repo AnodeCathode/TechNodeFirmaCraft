@@ -210,6 +210,8 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
 
       mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:material:7>);
       
+      
+      mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:35>, <minecraft:magma>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 1, <tfc:ore/selenite>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <minecraft:glowstone>, 512);
