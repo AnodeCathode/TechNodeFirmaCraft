@@ -1,0 +1,5 @@
+modname:jaff
+
+texture:id=txt0001,filename=assets/minecraft/textures/blocks/water_still.png,xcount=1,ycount=1
+texture:id=txt0002,filename=assets/minecraft/textures/blocks/glass.png,xcount=1,ycount=1
+block:id=%tank,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0002,patch3=0:txt0002,patch4=0:txt0002,patch5=0:txt0002,patch6=0:txt0002,transparency=SEMITRANSPARENT,stdrot=true
