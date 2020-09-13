@@ -1,0 +1,5 @@
+modname:betterwithengineering
+
+customblock:id=%ie_corner,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.500000:0.500000/0.500000:1.000000:1.000000/1:2:4:5:0:3
+customblock:id=%ie_moulding,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.500000:0.000000/0.500000:1.000000:1.000000/1:2:4:5:0:3
+customblock:id=%ie_siding,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.500000:1.000000/1:2:4:5:0:3

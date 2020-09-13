@@ -1,0 +1,15 @@
+modname:customnpcs
+
+texture:id=txt0001,filename=assets/customnpcs/textures/blocks/border.png,xcount=1,ycount=1
+texture:id=txt0003,filename=assets/customnpcs/textures/blocks/npcredstoneblock.png,xcount=1,ycount=1
+texture:id=txt0002,filename=assets/customnpcs/textures/blocks/npcredstoneactiveblock.png,xcount=1,ycount=1
+texture:id=txt0005,filename=assets/customnpcs/textures/blocks/builder_block.png,xcount=1,ycount=1
+texture:id=txt0004,filename=assets/customnpcs/textures/blocks/waypoint.png,xcount=1,ycount=1
+block:id=%npcborder,data=3,patch0=0:txt0001,patch1=6000:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=4000:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%npcborder,data=2,patch0=0:txt0001,patch1=5000:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=5000:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%npcborder,data=1,patch0=0:txt0001,patch1=4000:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=6000:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%npcborder,data=0,patch0=0:txt0001,patch1=0:txt0001,patch2=0:txt0001,patch3=0:txt0001,patch4=0:txt0001,patch5=0:txt0001,stdrot=true
+block:id=%npcredstoneblock,data=1,patch0=0:txt0002,patch1=0:txt0002,patch2=0:txt0002,patch3=0:txt0002,patch4=0:txt0002,patch5=0:txt0002,stdrot=true
+block:id=%npcredstoneblock,data=0,patch0=0:txt0003,patch1=0:txt0003,patch2=0:txt0003,patch3=0:txt0003,patch4=0:txt0003,patch5=0:txt0003,stdrot=true
+block:id=%npcwaypoint,data=0,patch0=0:txt0004,patch1=0:txt0004,patch2=0:txt0004,patch3=0:txt0004,patch4=0:txt0004,patch5=0:txt0004,stdrot=true
+block:id=%npcbuilderblock,data=0,data=1,data=2,data=3,patch0=0:txt0005,patch1=5000:txt0005,patch2=0:txt0005,patch3=0:txt0005,patch4=5000:txt0005,patch5=0:txt0005,stdrot=true
