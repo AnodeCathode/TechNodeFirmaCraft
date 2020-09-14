@@ -20,7 +20,8 @@ recipes.remove(<nuclearcraft:radiation_scrubber>);
 
   // recipes.addShaped("adhooks_web_launcher", <adhooks:web_launcher>, [[<minecraft:dye:15> | <tfc:dye/white>, <minecraft:dye:12>, <adhooks:web_hook>], [<minecraft:dye:12>, <adhooks:prototype_launcher>, <ore:string> | <tfc:animal/product/wool_yarn>], [null, <ore:string> | <tfc:animal/product/wool_yarn>, <minecraft:dye:15> | <tfc:dye/white>]]);
 
-  
+// rad shielding
+recipes.addShaped("nuclearcraft_item.nuclearcraft.rad_shielding.light", <nuclearcraft:rad_shielding>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);  
 // radiation scrubber
 recipes.addShaped("nuclearcraft_rad_scrubber", <nuclearcraft:radiation_scrubber>, [[<ore:plateElite>, <ore:dustBoron>, <ore:plateElite>],[<ore:dustBoron>, <ore:ingotExtreme>, <ore:dustBoron>], [<ore:plateElite>, <ore:dustBoron>, <ore:plateElite>]]);  
 
