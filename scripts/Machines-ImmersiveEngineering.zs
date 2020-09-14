@@ -17,7 +17,7 @@ import mods.immersiveengineering.MineralMix;
 // silver, nickel, uranium, 
 // constantan, electrum, Zircaloy
     val IPlateArray = [<immersiveengineering:metal:39>, <immersiveengineering:metal:40>, <libvulpes:productplate:3>, 
-                   <immersiveengineering:metal:30>, <immersiveengineering:metal:17>, <immersiveengineering:metal:38>, 
+                   <immersiveengineering:metal:30>, <libvulpes:productplate:10>, <immersiveengineering:metal:38>, 
                    <rockhounding_chemistry:alloy_parts:1>, <immersiveengineering:metal:31>, <libvulpes:productplate:10>, 
                    <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <immersiveengineering:metal:32>,
                    <immersiveengineering:metal:33>, <immersiveengineering:metal:34>, <immersiveengineering:metal:35>,
@@ -44,6 +44,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:6>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:7>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:9>);
+    
     
     //Copied from 1.7.10 - Uses Steel block as mold because meh....it worked then too
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, <immersiveengineering:storage:8>, 2400, 1);
