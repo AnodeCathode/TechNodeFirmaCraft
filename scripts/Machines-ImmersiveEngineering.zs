@@ -40,7 +40,6 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:1>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:2>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:4>);
-    mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:5>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:6>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:7>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:9>);
