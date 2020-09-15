@@ -59,7 +59,7 @@ import crafttweaker.item.IItemStack;
   // constantan, electrum, Zircaloy
     
     val IPlateArray = [<immersiveengineering:metal:39>, <immersiveengineering:metal:40>,
-                   <immersiveengineering:metal:30>, <immersiveengineering:metal:17>, <immersiveengineering:metal:38>, 
+                   <immersiveengineering:metal:30>, <libvulpes:productplate:5>, <immersiveengineering:metal:38>, 
                    <rockhounding_chemistry:alloy_parts:1>, <immersiveengineering:metal:31>,
                    <immersiveengineering:metal:32>,
                    <immersiveengineering:metal:33>, <immersiveengineering:metal:34>, 
