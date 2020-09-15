@@ -69,7 +69,7 @@
       "apple": {
         "type": "forge:ore_dict",
         "ore": "apple"
-      }
+      },
       "grain": {
         "type": "forge:ore_dict",
         "ore": "grain"
