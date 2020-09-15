@@ -26,8 +26,16 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     recipes.addShaped("tnfc_bwm_saw",<betterwithmods:saw>, [[<tfc:metal/ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>], [<ore:gearBronze>, <ore:hideStrap>, <ore:gearBronze>], [<ore:plankWood>, <ore:gearBronze>, <ore:plankWood>]]);
     //recipes.addShaped("tnfc_bwm_cauldron",<betterwithmods:cooking_pot:1>, [[<ore:ingotDoubleCopper>, <minecraft:bone>, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, waterbucket, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, <tfc:metal/double_ingot/copper>, <ore:ingotDoubleCopper>]]);
     recipes.addShaped("tnfc_bwm_mill",<betterwithmods:single_machine:0>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-    
-    
+
+
+//Add the elevator bits:
+
+ recipes.removeShaped(<betterwithmods:wicker> * 4, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+ recipes.addShaped("tnfc_bwm_wicker", <betterwithmods:wicker> * 4, [[<ore:reed>, <ore:reed>, <ore:reed>], [<ore:reed>, <ore:reed>, <ore:reed>]]);   
+ recipes.removeShapeless(<minecraft:reeds> * 3, [<betterwithmods:wicker>, <betterwithmods:wicker>]); 
+ recipes.addShapeless("tnfc_bwm_decompress/wicker_decompress", <tfc:plants/rough_horsetail> * 3, [<betterwithmods:wicker>, <betterwithmods:wicker>]);   
+ 
+ 
     //turntable, no filtered hopper, steel gearbox, wooden grates and slats and bench and table  and chimes (hide?), bellows?, screw pump 
     // cakes and pies? Nope
 // ================================================================================
