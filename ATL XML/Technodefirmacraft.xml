@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.28</version>
+        <version>12.2.28.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -51,7 +51,7 @@
         
         <mod name="TerraFirmaThings" version="0.11.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-0.11.1.jar" file="terrafirmathings-0.11.1.jar" md5="fc5d72567beaedbbab221f33405be137" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TFC Storage" version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.3.jar" file="TFCStorage-1.0.3.jar" md5="9a4b501bd16d05c940441c71a5bfef16" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        <mod name="TFC Storage" version="1.0.4" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.4.jar" file="TFCStorage-1.0.4.jar" md5="303cbf145083df95183f135734ba19e8" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
 
 <!-- Marquee Mods -->
