@@ -2,6 +2,16 @@ Notes:
 160529104681437176
 
 
+Remove the glass shards to glass blocks recipe
+
+add to tfc-models?:
+ignore-updates:id=salt_water,data=*
+ignore-updates:id=fresh_water,data=*
+ignore-updates:id=hot_water,data=*
+
+
+<tfc:metal/chestplate/red_steel>.withTag({ncRadiationResistance: 1.0})
+
 
 - Process world.log and throw into MySQL instance
 
