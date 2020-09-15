@@ -14,7 +14,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     recipes.remove(<betterwithmods:rope>);
     recipes.remove(<betterwithmods:material:34>); //crafted via Anvil recipe
     recipes.remove(<betterwithmods:material:3>);
-    
+    recipes.remove(<betterwithmods:material:31>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:4>); //replaced by burlap cloth
     
 
