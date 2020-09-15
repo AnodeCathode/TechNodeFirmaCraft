@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.27</version>
+        <version>12.2.28</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -39,7 +39,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
-        <mod name="TNFCMod" version="12.2.27" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.27.jar" file="TNFCMod-MC1.12.2-12.2.27.jar" md5="41238247c6cc65d8dc326bc8ef7b34a0" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
+        <mod name="TNFCMod" version="12.2.28" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.28.jar" file="TNFCMod-MC1.12.2-12.2.28.jar" md5="7e64b33529e0d3433a9583e948b8a23a" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -47,11 +47,11 @@
         
         <mod name="Debark" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Debark-0.1.2.jar" file="Debark-0.1.2.jar" md5="3ae43134317b3f1d71f3def390489f90" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TFC Ambiental" version="1.0.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAmbiental-1.0.23-1.12.2.jar" file="TFCAmbiental-1.0.23-1.12.2.jar" md5="49d3da51391aa9e6b0ffd5892b9577b2" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
-        
         <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TerraFirmaThings" version="0.11.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-0.11.1.jar" file="terrafirmathings-0.11.1.jar" md5="fc5d72567beaedbbab221f33405be137" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        
+        <mod name="TFC Storage" version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.3.jar" file="TFCStorage-1.0.3.jar" md5="9a4b501bd16d05c940441c71a5bfef16" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
 
 <!-- Marquee Mods -->
@@ -168,6 +168,8 @@
         
         <mod name="Animal Net" version="v1.12.2 b3" url="packs/TechNodefirmacraft/files/1.12.2Mods/animalnet-v1.12.2b3.jar" file="animalnet-v1.12.2b3.jar" md5="cde78d44b320048dbbf2ce4a94545a3a"  download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
         
+        <mod name="Baubles" version="1.5.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Baubles-1.12-1.5.2.jar" file="Baubles-1.12-1.5.2.jar" md5="944dec4ef3fbfd4d498d94a7047af201" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
+        
         
 
 <!-- Utilities and QoL Mods -->  
@@ -182,9 +184,7 @@
         
         <mod name="SwingThroughGrass" version="1.12.2-1.2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/stg-1.12.2-1.2.3.jar" file="stg-1.12.2-1.2.3.jar" md5="b836648006f1451c65d33f7132eec770" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
 
-        <mod name="Waila" version="1.8.26" url="packs/TechNodefirmacraft/files/1.12.2Mods/Hwyla-1.8.26-B41_1.12.2.jar" file="Hwyla-1.8.26-B41_1.12.2.jar" md5="bca1c069d9171d331d211d24e8a3b770" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
-        
-        <mod name="What Are We Looking At" version="2.6.275" url="packs/TechNodefirmacraft/files/1.12.2Mods/Wawla-1.12.2-2.6.275.jar" file="Wawla-1.12.2-2.6.275.jar" md5="3762f87395a87af86e9552c6d7ca7e06" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="The One Probe" version="1.12-1.4.28" url="packs/TechNodefirmacraft/files/1.12.2Mods/theoneprobe-1.12-1.4.28.jar" file="theoneprobe-1.12-1.4.28.jar" md5="63849a13a822b3b56308245eb8074a7e" download="server" type="mods" />
         
         <mod name="Chunk-Pregenerator" version="V1.12-2.4E.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/Chunk Pregenerator V1.12-2.4E.jar" file="Chunk Pregenerator V1.12-2.4E.jar" md5="13754308a5072489e72551378c31f8f3" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
         
@@ -227,11 +227,11 @@
         
 <!--Server Bits -->
 
-<mod name="Dynmap" version="3.0-RC3-331" url="packs/TechNodefirmacraft/files/1.12.2Mods/Dynmap-3.0-RC3-forge-1.12.2.jar" file="Dynmap-3.0-RC3-forge-1.12.2.jar" md5="38208953898b6b6811050cd4feb4960b" download="server" type="mods" client="no" optional="no" colour="red" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
+<mod name="Dynmap" version="3.1-beta3a-409" url="packs/TechNodefirmacraft/files/1.12.2Mods/Dynmap-3.1-beta3a-forge-1.12.2.jar" file="Dynmap-3.1-beta3a-forge-1.12.2.jar" md5="cb6aec92409ec7fe98126a554bec5ebf" download="server" type="mods" client="no" optional="no" colour="red" server="yes" serveroptional="yes" recommended="yes" selected="yes"/>
 
-<mod name="Dynmap Block Renderdata" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/dynmap.12.2.1.zip" file="dynmap.12.2.1.zip" md5="3302abee679f5e7dee4d19d4244b252e" download="server" description="Renderdata for dynmap" website="http://git.com/anodecathode/technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes"  serveroptional="yes" selected="yes" />
+<mod name="Dynmap Block Renderdata" version="12.2.28" url="packs/TechNodefirmacraft/files/1.12.2Extract/dynmap.12.2.28.zip" file="dynmap.12.2.28.zip" md5="8b3c4ed12aa80814d1c90af847368737" download="server" description="Renderdata for dynmap" website="http://git.com/anodecathode/technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes"  serveroptional="yes" selected="yes" />
 
-<mod name="Server Bits" version="12.2.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/Serverbits.12.2.1.zip" file="Serverbits.12.2.1.zip" md5="677ee04d7a7853e27cc522370e45818a" download="server" description="Start script and server icon for server" website="http://github.com/anodecathode/Technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" selected="yes" />
+<mod name="Server Bits" version="12.2.28"  url="packs/TechNodefirmacraft/files/1.12.2Extract/Serverbits.12.2.28.zip" file="Serverbits.12.2.28.zip" md5="40f1b8fdeac0ed7618ec1b7fd775a828" download="server" description="Start script and server icon for server" website="http://github.com/anodecathode/Technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" selected="yes" />
         
 <!--Mapping Mods -->        
         
@@ -268,7 +268,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.27"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.27.zip" file="scripts.12.2.27.zip" md5="779dc4a580a985553447d47660037979" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.28" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.28.zip" file="scripts.12.2.28.zip" md5="ab48007563fe854ce49fdc62ed984b3e" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
