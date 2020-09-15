@@ -27,7 +27,7 @@
   mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_sand>, 1);
   mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_snow>, 1);
   mods.betterwithmods.Movement.set(<chiselsandbits:chiseled_wood>, 1);
-  
+  mods.betterwithmods.Movement.set(<minecraft:snow_layer>, 1);
   
  //Mill
   //mods.betterwithmods.Mill.add(output, secondary_output, input[])
