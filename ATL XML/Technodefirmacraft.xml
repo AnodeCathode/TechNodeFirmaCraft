@@ -132,7 +132,7 @@
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
-        <mod name="NuclearCraft" version="2o.4.0-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.4.0-1.12.2.jar" file="NuclearCraft-2o.4.0-1.12.2.jar" md5="c628b0eaf86daec05483b88909d00c15"  download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
+        <mod name="NuclearCraft" version="2o.4.1-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.4.1-1.12.2.jar" file="NuclearCraft-2o.4.1-1.12.2.jar" md5="e8036c3f53ca32c71bd7d7493db92e53" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
