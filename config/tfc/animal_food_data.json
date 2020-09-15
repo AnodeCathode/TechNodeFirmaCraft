@@ -66,6 +66,10 @@
   "tfc:horsetfc": {
     "eat_rotten": false,
     "foods": {
+      "apple": {
+        "type": "forge:ore_dict",
+        "ore": "apple"
+      }
       "grain": {
         "type": "forge:ore_dict",
         "ore": "grain"
