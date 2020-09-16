@@ -33,6 +33,8 @@ val lavabucketvanilla = <forge:bucketfilled>.withTag({FluidName: "lava", Amount:
   recipes.addShaped("engineersdecor_steel_mesh_fence_recipe", <engineersdecor:steel_mesh_fence> * 6, [[<engineersdecor:thin_steel_pole>, <ore:nuggetSteel>, <engineersdecor:thin_steel_pole>], [<engineersdecor:thin_steel_pole>, <ore:nuggetSteel>, <engineersdecor:thin_steel_pole>]]);
   recipes.addShaped("engineersdecor_engineersdecor_manual_recipe", <patchouli:guide_book>.withTag({"patchouli:book": "engineersdecor:engineersdecor_manual"}), [[<minecraft:book>,  <ore:nuggetSteel>], [ <ore:nuggetSteel>, null]]);
 
+  
+  recipes.addShapeless("engineersdecor_independent/clinker_brick_stained_block_recipe", <engineersdecor:clinker_brick_stained_block>, [<engineersdecor:clinker_brick_block>, <ore:dirt>]);
 // ================================================================================
 //#ADD SHAPELESS
       // recipes.addShapeless("tnfc_bwm_hemp_rope",<betterwithmods:rope>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);
