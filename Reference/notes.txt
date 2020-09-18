@@ -21,6 +21,8 @@ ignore-updates:id=hot_water,data=*
 - Mob drops?
 /kill @e[type=tfc:ChickenTFC]
 
+
+- Load TEMP enum from JSON. 1.12.2?
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
 
 - Update the TNFC Book with the changelog and stuff.
