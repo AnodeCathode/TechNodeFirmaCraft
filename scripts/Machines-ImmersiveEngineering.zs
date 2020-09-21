@@ -290,7 +290,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Iron
     mods.immersiveengineering.Excavator.removeMineral("Iron");    
     mods.immersiveengineering.Excavator.removeMineral("Magnetite");
-    mods.immersiveengineering.Excavator.addMineral("Iron", 10, 0.005, ["oreIronPoor", "oreIronNormal", "oreIronRich", "gemChipped"], [0.2, 0.3, 0.1, 0.001]);
+    mods.immersiveengineering.Excavator.addMineral("Iron", 20, 0.005, ["oreIronPoor", "oreIronNormal", "oreIronRich", "gemChipped"], [0.2, 0.3, 0.1, 0.001]);
     //Coal
     mods.immersiveengineering.Excavator.removeMineral("Coal");    
     mods.immersiveengineering.Excavator.addMineral("Bituminous Coal", 20, 0.005, ["gemCoal", "gemDiamondChipped", "gemDiamondFlawed", "gemRubyChipped", "gemRubyFlawed", "craftingBlueGem", "gemNormal"], [0.51, 0.001, 0.00066, 0.001, 0.00067, 0.001, 0.000067]);
