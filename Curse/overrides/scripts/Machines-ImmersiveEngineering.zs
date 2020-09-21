@@ -53,10 +53,10 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/ingot/high_carbon_blue_steel>, <immersiveengineering:storage:8>, 2400, 1);
 
      //Add wood to wooden gears because why not
-    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:0>, <tfc:metal/ingot/high_carbon_blue_steel>, <immersiveengineering:storage:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:0>, <ore:wood>, <immersiveengineering:mold:1>, 2400, 2);
     
     //Vanilla Anvil - Shhhh
-    mods.immersiveengineering.MetalPress.addRecipe(<minecraft:anvil>, <ore:logWood>, <immersiveengineering:mold:1>, 2400, 7);
+    mods.immersiveengineering.MetalPress.addRecipe(<minecraft:anvil>, <tfc:metal/double_ingot/tungsten_steel>, <immersiveengineering:storage:8>, 2400, 7);
     
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
@@ -290,7 +290,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Iron
     mods.immersiveengineering.Excavator.removeMineral("Iron");    
     mods.immersiveengineering.Excavator.removeMineral("Magnetite");
-    mods.immersiveengineering.Excavator.addMineral("Iron", 10, 0.005, ["oreIronPoor", "oreIronNormal", "oreIronRich", "gemChipped"], [0.2, 0.3, 0.1, 0.001]);
+    mods.immersiveengineering.Excavator.addMineral("Iron", 20, 0.005, ["oreIronPoor", "oreIronNormal", "oreIronRich", "gemChipped"], [0.2, 0.3, 0.1, 0.001]);
     //Coal
     mods.immersiveengineering.Excavator.removeMineral("Coal");    
     mods.immersiveengineering.Excavator.addMineral("Bituminous Coal", 20, 0.005, ["gemCoal", "gemDiamondChipped", "gemDiamondFlawed", "gemRubyChipped", "gemRubyFlawed", "craftingBlueGem", "gemNormal"], [0.51, 0.001, 0.00066, 0.001, 0.00067, 0.001, 0.000067]);
