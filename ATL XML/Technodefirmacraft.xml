@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.29</version>
+        <version>12.2.30</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -39,7 +39,7 @@
         
         <mod name="Waterflasks" version="1.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.7.jar" file="waterflasks-1.7.jar" md5="831777b91bef261f9eb09b2eab42419f" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
-        <mod name="TNFCMod" version="12.2.29" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.29.jar" file="TNFCMod-MC1.12.2-12.2.29.jar" md5="af62bc21424e038d6358421f41299026" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
+        <mod name="TNFCMod" version="12.2.30" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.30.jar" file="TNFCMod-MC1.12.2-12.2.30.jar" md5="c203df69ab564ec68a1b47960f100853" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -49,7 +49,7 @@
         
         <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TerraFirmaThings" version="0.11.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-0.11.1.jar" file="terrafirmathings-0.11.1.jar" md5="fc5d72567beaedbbab221f33405be137" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        <mod name="TerraFirmaThings" version="0.11.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-0.11.2.jar" file="terrafirmathings-0.11.2.jar" md5="3d80a85451fa6960bc3c94c8a698dded" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TFC Storage" version="1.0.4" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.4.jar" file="TFCStorage-1.0.4.jar" md5="303cbf145083df95183f135734ba19e8" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
@@ -132,7 +132,7 @@
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
-        <mod name="NuclearCraft" version="2o.4.1-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.4.1-1.12.2.jar" file="NuclearCraft-2o.4.1-1.12.2.jar" md5="e8036c3f53ca32c71bd7d7493db92e53" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
+        <mod name="NuclearCraft" version="2o.4.4-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.4.4-1.12.2.jar" file="NuclearCraft-2o.4.4-1.12.2.jar" md5="2ae3c23a49347c281ef8bcd573ea6c4d" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
@@ -245,7 +245,7 @@
         
     <mod name="Custom Main Menu" version="2.0.9.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar" file="CustomMainMenu-MC1.12.2-2.0.9.1.jar" md5="c12200ad89f9399d5bdcbe9da7900bb9" download="server" type="mods"/>
     
-    <mod name="CraftTweaker2" version="1.12-4.1.20.586" url="packs/TechNodefirmacraft/files/1.12.2Mods/CraftTweaker2-1.12-4.1.20.586.jar" file="CraftTweaker2-1.12-4.1.20.586.jar" md5="52f1edbedf131a7afb0d7801ffcb53cc" download="server" type="mods"/>
+    <mod name="CraftTweaker2" version="1.12-4.1.20.589" url="packs/TechNodefirmacraft/files/1.12.2Mods/CraftTweaker2-1.12-4.1.20.589.jar" file="CraftTweaker2-1.12-4.1.20.589.jar" md5="158a838405fc36ac5f77687271409070" download="server" type="mods"/>
         
     <mod name="Mod Tweaker" version="4.0.18" url="packs/TechNodefirmacraft/files/1.12.2Mods/modtweaker-4.0.18.jar" file="modtweaker-4.0.18.jar" md5="d117e26e6b578b18d25848f578e86c3b" download="server" type="mods"/>
     <mod name="MTLib" version="3.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods"/>
@@ -268,7 +268,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.29.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.29.1.zip" file="scripts.12.2.29.1.zip" md5="2893ac065a01c604e58ddf0f76113855" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.30"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.30.zip" file="scripts.12.2.30.zip" md5="ca444a8fdf161394755a1826a9bf41db" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
