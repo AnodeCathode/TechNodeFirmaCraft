@@ -324,5 +324,20 @@
       "tfc:sedimentary",
       "tfc:metamorphic"
     ]
+  },
+  "beryl": {
+    "ore": "tfc:beryl",
+    "loose": "tfc:beryl",
+    "width": 12,
+    "height": 20,
+    "shape": "cluster",
+    "rarity": 150,
+    "minimum_height": 5,
+    "maximum_height": 124,
+    "density": 65,
+    "base_rocks": [
+      "tfc:sedimentary",
+      "tfc:metamorphic"
+    ]
   }
 }
