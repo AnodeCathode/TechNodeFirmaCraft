@@ -19,7 +19,10 @@ include file("default.recipes")
 # want to define your recipes after all includes, to avoid those overwriting
 # your recipes.
 
-
+acid {
+  type: shapeless
+  input: [bucketWater, sugar, slimeball, "rockhounding_chemistry:sodium_polyacrylate", "pneumaticcraft:plastic"]
+}
 hoverboots {
   input: [[ingotElectrum, "oc:hoverUpgrade2", ingotElectrum]
           [leather, "oc:droneCase1", leather]
@@ -31,14 +34,14 @@ nanomachines {
           [craftingToolHardHammer, "oc:capacitor", craftingToolHardChisel]]
 }
 dronecase1 {
-  input: [["oc:stoneEndstone", compass, "oc:stoneEndstone"]
+  input: [[{block="rockhounding_chemistry:alloy_blocks_gems", subID=2}, compass, {block="rockhounding_chemistry:alloy_blocks_gems", subID=2}]
           ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
-          ["oc:stoneEndstone", "oc:componentBus2", "oc:stoneEndstone"]]
+          [endstone, "oc:componentBus2", endstone]]
 }
 dronecase2 {
-  input: [["oc:stoneEndstone", compass, "oc:stoneEndstone"]
+  input: [[{item="rockhounding_chemistry:alloy_parts", subID=12}, compass, {item="rockhounding_chemistry:alloy_parts", subID=12}]
           ["oc:circuitChip2", "oc:microcontrollerCase2", "oc:circuitChip2"]
-          ["oc:stoneEndstone", "oc:componentBus3", "oc:stoneEndstone"]]
+          [endstone, "oc:componentBus3", endstone]]
 }
 microcontrollercase1 {
   input: [[nuggetIron, "oc:circuitChip1", nuggetIron]
@@ -95,8 +98,8 @@ batteryupgrade3 {
           [gemDiamond, "oc:capacitor", gemDiamond]]
 }
 chunkloaderupgrade {
-  input: [[plateGold, blockGlass, plateGold]
-          ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
+  input: [[plateGold, {item="pneumaticcraft:plastic", subID=1}, plateGold]
+          ["oc:circuitChip3", {item="rockhounding_chemistry:alloy_parts", subID=61}, "oc:circuitChip3"]
           [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
 }
 craftingupgrade {
@@ -135,9 +138,9 @@ hoverupgrade1 {
           [feather, "oc:materialCircuitBoardPrinted", feather]]
 }
 hoverupgrade2 {
-  input: [["oc:stoneEndstone", "oc:circuitChip2", "oc:stoneEndstone"]
+  input: [[endstone, "oc:circuitChip2", endstone]
           [nuggetGold, plateIron, nuggetGold]
-          ["oc:stoneEndstone", "oc:materialCircuitBoardPrinted", "oc:stoneEndstone"]]
+          [endstone, "oc:materialCircuitBoardPrinted", endstone]]
 }
 inventoryupgrade {
   input: [[plateIron, hopper, plateIron]
@@ -217,11 +220,6 @@ upgradecontainer3 {
 cuttingwire {
   input: [[stickWood, nuggetIron, stickWood]]
 }
-acid {
-  type: shapeless
-  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
-  output: 8
-}
 chamelium {
   input: [[gravel, redstone, gravel],
           [redstone, gemCoal, redstone],
@@ -289,7 +287,7 @@ adapter {
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
 assembler {
-  input: [[plateIron, "", plateIron]
+  input: [[{item="rockhounding_chemistry:alloy_parts", subID=22}, "", {item="rockhounding_chemistry:alloy_parts", subID=22}]
           ["minecraft:piston", "oc:circuitChip2", "minecraft:piston"]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
@@ -326,7 +324,7 @@ diskDrive {
 }
 geolyzer {
   input: [[plateGold, "oc:analyzer", plateGold]
-          [eyeOfEnder, "oc:circuitChip2", eyeOfEnder]
+          [{item="rockhounding_chemistry:alloy_parts", subID=61}, "oc:circuitChip2", {item="rockhounding_chemistry:alloy_parts", subID=61}]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
 hologram1 {
@@ -399,4 +397,175 @@ waypoint {
   input: [[plateIron, "oc:circuitChip1", plateIron]
           ["oc:materialTransistor", "oc:materialInterweb", "oc:materialTransistor"],
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
+}
+chip1 {
+  input: [[nuggetIron, nuggetIron, nuggetIron]
+          [redstone, "oc:materialTransistor", redstone]
+          [nuggetIron, nuggetIron, nuggetIron]]
+  output: 8
+}
+chip2 {
+  input: [[nuggetHslaSteel, nuggetHslaSteel, nuggetHslaSteel]
+          [redstone, "oc:materialTransistor", redstone]
+          [nuggetHslaSteel, nuggetHslaSteel, nuggetHslaSteel]]
+  output: 4
+}
+chip3 {
+  input: [[chipDiamond, chipDiamond, chipDiamond]
+          [redstone, "oc:materialTransistor", redstone]
+          [chipDiamond, chipDiamond, chipDiamond]]
+  output: 2
+}
+alu {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:materialTransistor", "oc:circuitChip1", "oc:materialTransistor"]
+          [nuggetIron, "oc:materialTransistor", nuggetIron]]
+}
+componentbus1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", ""]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+cpu1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", "oc:circuitChip1"]
+          [nuggetIron, "oc:materialALU", nuggetIron]]
+}
+cpu2 {
+  input: [[nuggetHslaSteel, redstone, nuggetHslaSteel]
+          ["oc:circuitChip2", "oc:materialCU", "oc:circuitChip2"]
+          [nuggetHslaSteel, "oc:materialALU", nuggetHslaSteel]]
+}
+cpu3 {
+  input: [[chipDiamond, redstone, chipDiamond]
+          ["oc:circuitChip3", "oc:materialCU", "oc:circuitChip3"]
+          [chipDiamond, "oc:materialALU", chipDiamond]]
+}
+card {
+  input: [[nuggetIron, "", ""]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", ""]
+          [nuggetIron, nuggetGold, ""]]
+}
+
+terminal {
+  input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
+          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
+          [nuggetIron, "oc:keyboard", nuggetIron]]
+}
+ram1 {
+  input: [["oc:circuitChip1", nuggetIron, "oc:circuitChip1"]
+          ["", "oc:materialCircuitBoardPrinted", ""]]
+}
+ram2 {
+  input: [["oc:circuitChip1", "oc:circuitChip2", "oc:circuitChip1"]
+          ["", "oc:materialCircuitBoardPrinted", ""]]
+}
+ram3 {
+  input: [["oc:circuitChip2", nuggetIron, "oc:circuitChip2"]
+          ["", "oc:materialCircuitBoardPrinted", ""]]
+}
+ram4 {
+  input: [["oc:circuitChip2", "oc:circuitChip3", "oc:circuitChip2"]
+          ["", "oc:materialCircuitBoardPrinted", ""]]
+}
+ram5 {
+  input: [["oc:circuitChip3", nuggetIron, "oc:circuitChip3"]
+          ["", "oc:materialCircuitBoardPrinted", ""]]
+}
+ram6 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
+}
+floppy {
+  input: [[nuggetIron, lever, nuggetIron]
+          [paper, "oc:materialDisk", paper]
+          [nuggetIron, paper, nuggetIron]]
+}
+datacard1 {
+  input: [[nuggetIron, "oc:materialALU", "oc:circuitChip2"]
+          ["", "oc:materialCard", ""]]
+}
+datacard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:materialCard", ""]]
+}
+datacard3 {
+  input: [[chipDiamond, "oc:cpu2", "oc:ram5"]
+          ["", "oc:materialCard", ""]]
+}
+batteryupgrade1 {
+  input: [[nuggetIron, nuggetGold, nuggetIron]
+          [fenceIron, "oc:capacitor", fenceIron]
+          [nuggetIron, nuggetGold, nuggetIron]]
+}
+batteryupgrade2 {
+  input: [[nuggetIron, "oc:capacitor", nuggetIron]
+          [fenceIron, nuggetGold, fenceIron]
+          [nuggetIron, "oc:capacitor", nuggetIron]]
+}
+batteryupgrade3 {
+  input: [[nuggetIron, "oc:capacitor", nuggetIron]
+          ["oc:capacitor", chipDiamond, "oc:capacitor"]
+          [nuggetIron, "oc:capacitor", nuggetIron]]
+}
+ingotiron {
+  type: shapeless
+  input: [nuggetIron, nuggetIron, nuggetIron,
+          nuggetIron, nuggetIron, nuggetIron,
+          nuggetIron, nuggetIron, nuggetIron]
+}
+disk {
+  input: [["", nuggetIron, ""]
+          [nuggetIron, "", nuggetIron]
+          ["", nuggetIron, ""]]
+}
+inkcartridgeempty {
+  input: [[nuggetIron, dispenser, nuggetIron],
+          ["oc:materialTransistor", bucket, "oc:materialTransistor"],
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+componentbus1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", ""]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+componentbus2 {
+  input: [[nuggetGold, redstone, nuggetGold]
+          ["oc:circuitChip2", "oc:materialCU", ""]
+          [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
+}
+componentbus3 {
+  input: [[chipDiamond, redstone, chipDiamond]
+          ["oc:circuitChip3", "oc:materialCU", ""]
+          [chipDiamond, "oc:materialCircuitBoardPrinted", chipDiamond]]
+}
+cpu1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", "oc:circuitChip1"]
+          [nuggetIron, "oc:materialALU", nuggetIron]]
+}
+cpu2 {
+  input: [[nuggetGold, redstone, nuggetGold]
+          ["oc:circuitChip2", "oc:materialCU", "oc:circuitChip2"]
+          [nuggetGold, "oc:materialALU", nuggetGold]]
+}
+cpu3 {
+  input: [[chipDiamond, redstone, chipDiamond]
+          ["oc:circuitChip3", "oc:materialCU", "oc:circuitChip3"]
+          [chipDiamond, "oc:materialALU", chipDiamond]]
+}
+raid {
+  input: [[nuggetIron, "oc:cpu3", nuggetIron]
+          ["oc:ram1", "oc:diskDrive", "oc:ram1"]
+          [nuggetIron, "oc:circuitChip2", nuggetIron]]
+}
+tradingupgrade {
+  input: [[ingotGold, chest, ingotGold]
+          [craftingGreenGem, "oc:circuitChip2", craftingGreenGem]
+          [dropper, "oc:materialCircuitBoardPrinted", craftingPiston]]
+}
+experienceupgrade {
+  input: [[ingotGold, "", ingotGold]
+          ["oc:circuitChip2", craftingGreenGem, "oc:circuitChip2"]
+          [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
