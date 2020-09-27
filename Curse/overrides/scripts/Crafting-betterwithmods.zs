@@ -27,6 +27,14 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     //recipes.addShaped("tnfc_bwm_cauldron",<betterwithmods:cooking_pot:1>, [[<ore:ingotDoubleCopper>, <minecraft:bone>, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, waterbucket, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, <tfc:metal/double_ingot/copper>, <ore:ingotDoubleCopper>]]);
     recipes.addShaped("tnfc_bwm_mill",<betterwithmods:single_machine:0>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
+    //Bamboo chimes
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_0", <betterwithmods:bamboo_chime>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_1", <betterwithmods:bamboo_chime:1>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_2", <betterwithmods:bamboo_chime:2>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_3", <betterwithmods:bamboo_chime:3>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_4", <betterwithmods:bamboo_chime:4>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+    recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_5", <betterwithmods:bamboo_chime:5>, [[null, <ore:string>, null], [<ore:string>, <minecraft:wooden_pressure_plate>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
+
 
 //Add the elevator bits:
 
