@@ -14,6 +14,8 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
 mods.jei.JEI.removeAndHide(<advancedrocketry:arcfurnace>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:platepress>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:basiclasergun>);
+mods.jei.JEI.removeAndHide(<libvulpes:coalgenerator>);
+
 
 recipes.remove(<libvulpes:productingot:9>);
 recipes.remove(<libvulpes:productingot:4>);
