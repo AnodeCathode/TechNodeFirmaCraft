@@ -16,6 +16,9 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   mods.jei.JEI.removeAndHide(<immersiveengineering:axe_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:sword_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:material:5>);  // Replaced by burlap cloth
+  mods.jei.JEI.removeAndHide(<immersiveengineering:material:1>);  
+  mods.jei.JEI.removeAndHide(<immersiveengineering:material:2>);  
+  mods.jei.JEI.removeAndHide(<immersiveengineering:material:3>);  
   
   recipes.remove(<immersiveengineering:conveyor>);
   recipes.remove(<immersiveengineering:tool>);
@@ -57,7 +60,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal:39>);
   recipes.remove(<immersiveengineering:metal:40>);
   recipes.remove(<immersiveengineering:wooden_device0:2>);
-  
+
   //blueprint
   recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
   
