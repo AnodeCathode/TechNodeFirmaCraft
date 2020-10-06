@@ -52,8 +52,9 @@
 -tfc:high_plains	TerraFirmaCraft High Plains
 -tfc:deep_ocean	TerraFirmaCraft Deep Ocean
 -tfc:lake	TerraFirmaCraft Lake
+-nuclearcraft:nuclear_wasteland	Nuclear Wasteland
 -advancedrocketry:moon	Moon
--advancedrocketry:alien forest	Alien Forest
+-advancedrocketry:alien_forest	Alien_Forest
 -advancedrocketry:hotdryrock	HotDryRock
 -advancedrocketry:space	Space
 -advancedrocketry:stormland	Stormland
