@@ -109,6 +109,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
     
     mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
     
     //Remove all IE ingots, except for uranium (5), constantan 6 and electrum 7
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);

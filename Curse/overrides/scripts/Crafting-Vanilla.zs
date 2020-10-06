@@ -69,5 +69,5 @@ import crafttweaker.item.IIngredient;
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:purple_shulker_box>, "HUGE", "VERY_HEAVY");
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:white_shulker_box>, "HUGE", "VERY_HEAVY");
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:orange_shulker_box>, "HUGE", "VERY_HEAVY");
-   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:dragon_egg>, "HUGE", "VERY_HEAVY");
+  mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:dragon_egg>, "HUGE", "VERY_HEAVY");
  
