@@ -12,14 +12,17 @@
     recipes.remove(<openblocks:path>);
     recipes.remove(<openblocks:flag>);
     recipes.remove(<openblocks:target>);
+    recipes.remove(<openblocks:ladder>);
 
 // ================================================================================
 //#ADD SHAPELESS
 
     recipes.addShapeless(<openblocks:path> * 8, [<ore:cobblestone>, <ore:gravel>]);
+    recipes.addShapeless("tnfc_openblocks_ladder_0", <openblocks:ladder>, [<minecraft:ladder>, <ore:trapdoorWood>]);
     
 // ================================================================================
 //#ADD SHAPED
+    
     recipes.addShaped("tnfc_openblocks_scaffolding", <openblocks:scaffolding> * 2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]); 
     recipes.addShaped("tnfc_openblocks_item_dropper", <openblocks:item_dropper>, [[<tfc:metal/ingot/wrought_iron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<tfc:metal/ingot/wrought_iron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
     recipes.addShaped("tnfc_openblocks_beartrap", <openblocks:beartrap>, [[<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>]]);
