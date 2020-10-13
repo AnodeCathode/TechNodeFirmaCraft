@@ -5,6 +5,7 @@
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
 
+  recipes.remove(<rockhounding_chemistry:ingot_pattern>);
   recipes.remove(<rockhounding_chemistry:machines_a:11>);
   recipes.remove(<rockhounding_chemistry:machines_a:13>);
   recipes.remove(<rockhounding_chemistry:silicone_cartridge>);
@@ -14,8 +15,10 @@
   recipes.remove(<rockhounding_chemistry:machines_a:2>);
   recipes.remove(<rockhounding_chemistry:machines_a:12>);
   
+  
 // ================================================================================
 //#ADD SHAPED
+  recipes.addShaped("rockhounding_chemistry:ingot_pattern", <rockhounding_chemistry:ingot_pattern>, [[null, <ore:trapdoormetal>, null], [<rockhounding_chemistry:misc_items:3>, null, <rockhounding_chemistry:misc_items:3>], [<rockhounding_chemistry:misc_items:3>, <minecraft:heavy_weighted_pressure_plate>, <rockhounding_chemistry:misc_items:3>]]);
   recipes.addShaped("rockhounding_chemistry_profiling_bench", <rockhounding_chemistry:machines_a:11>.withTag({Energy: 0, Fuel: 0}), [[<tfc:metal/ingot/wrought_iron>, <minecraft:piston>, <tfc:metal/ingot/wrought_iron>], [<tfc:metal/ingot/wrought_iron>, null, <tfc:metal/ingot/wrought_iron>], [<ore:slabStonePolished>, <ore:slabStonePolished>, <ore:slabStonePolished>]]);
   recipes.addShaped("rockhounding_chemistry_seasoning_rack", <rockhounding_chemistry:machines_a:13>.withTag({Energy: 0, Fuel: 0}), [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:plankWood>, <tfc:metal/ingot/wrought_iron>, <ore:plankWood>]]);
   recipes.addShaped("rockhounding_chemistry_silicone_cartridge", <rockhounding_chemistry:silicone_cartridge>, [[null, <forge:bucketfilled>.withTag({FluidName: "silicone", Amount: 1000}), null], [<tfc:metal/ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>, <ore:stickWood>], [null, <ore:nuggetIron>, <tfc:metal/ingot/wrought_iron>]]);
