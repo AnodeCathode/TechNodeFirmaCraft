@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.34</version>
+        <version>12.2.34.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -177,6 +177,8 @@
 
 <!-- Utilities and QoL Mods -->  
 
+        <mod name="Toast Control" version="1.12.2-1.8.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/ToastControl-1.12.2-1.8.1.jar" file="ToastControl-1.12.2-1.8.1.jar" md5="e431fec0248132e5c4d03ad70bd4dc6b" download="server" type="mods" client="yes" server="no" recommended="yes" selected="yes" />
+
         <mod name="FTB Library" version="5.4.7.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBLib-5.4.7.2.jar" file="FTBLib-5.4.7.2.jar" md5="ea749a3a3391d490ffcdf025e5de48d9"  download="server" type="mods" colour="purple"  client="yes" server="yes" recommended="yes" selected="yes"/>
         
         
@@ -287,9 +289,8 @@
 <!-- Pack Extraction -->
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
-        
-        <mod name="CT Scripts" version="12.2.34"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.34.zip" file="scripts.12.2.34.zip" md5="9cde0e00dc2b125f3c1c41fd08eab65c" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
-
+               
+        <mod name="CT Scripts" version="12.2.34.1"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.34.1.zip" file="scripts.12.2.34.1.zip" md5="336cd29a9bef71cea4d56f2a5fbe9b18" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     <!-- Pack Development Mods - REMOVE BEFORE ANY DEPLOYMENT -->
 
