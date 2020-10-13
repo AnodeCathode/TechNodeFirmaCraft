@@ -235,6 +235,23 @@
 <mod name="Dynmap Block Renderdata" version="12.2.28" url="packs/TechNodefirmacraft/files/1.12.2Extract/dynmap.12.2.28.zip" file="dynmap.12.2.28.zip" md5="8b3c4ed12aa80814d1c90af847368737" download="server" description="Renderdata for dynmap" website="http://git.com/anodecathode/technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes"  serveroptional="yes" selected="yes" />
 
 <mod name="Server Bits" version="12.2.28"  url="packs/TechNodefirmacraft/files/1.12.2Extract/Serverbits.12.2.28.zip" file="Serverbits.12.2.28.zip" md5="40f1b8fdeac0ed7618ec1b7fd775a828" download="server" description="Start script and server icon for server" website="http://github.com/anodecathode/Technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" selected="yes" />
+
+<!--Server Extra Bits -->
+
+<mod name="LagGoggles" version="1.12.2-5.8-132" url="packs/TechNodefirmacraft/files/1.12.2Mods/LagGoggles-1.12.2-5.8-132.jar" file="LagGoggles-1.12.2-5.8-132.jar" md5="02d6e4135058e41d65af8a3b4710a581" download="server" type="mods" client="yes" optional="yes" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+<mod name="TickCentral" version="TickCentral-2.6.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/TickCentral-2.6.jar" file="TickCentral-2.6.jar" md5="881bed7b98031dee9157e8113e9ac0e9" download="server" type="mods" client="yes" optional="yes" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+
+<mod name="spark" version="1.3.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/spark-forge.jar" file="spark-forge.jar" md5="e00fdf884314da13c02205033e60105a" download="server" type="mods" description="spark is a performance profiling plugin based on sk89q&apos;s WarmRoast profiler" website="https://github.com/lucko/spark" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+
+<mod name="TickProfiler" version="1.12-0.0.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/TickProfiler-1.12-0.0.10.jar" file="TickProfiler-1.12-0.0.10.jar" md5="6a275afe89b5a5c900caf88b277425cc" download="server" type="mods" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+
+<mod name="DynmapBlockScan" version="3.0-SNAPSHOT-25" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" file="DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" md5="d2efbc9e2f80f9ec17dc8fd52024b1b0" download="server" type="mods" description="Dynamically generate block definitions for Dynmap" website="http://www.minecraftforum.net/topic/1543523-dynmap-dynmap-web-maps-for-minecraft" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+
+
+
+<mod name="Morpheus" version="1.12.2-3.5.106" url="packs/TechNodefirmacraft/files/1.12.2Mods/Morpheus-1.12.2-3.5.106.jar" file="Morpheus-1.12.2-3.5.106.jar" md5="357dc3701a8c7d4109147c666f6a4300" download="server" type="mods" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
+
+
         
 <!--Mapping Mods -->        
         
