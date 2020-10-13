@@ -164,7 +164,7 @@
         
         <mod name="AstikorCarts" version="0.1.2.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/astikorcarts-1.12.2-0.1.2.7.jar" file="astikorcarts-1.12.2-0.1.2.7.jar" md5="af7be118e58fb1e205c33a7587a77eef" download="server" type="mods" website="https://github.com/AnodeCathode/astikor-carts" client="yes" server="yes" recommended="yes" selected="yes" />
         
-        <mod name="YABBA" version="1.1.2.54" url="packs/TechNodefirmacraft/files/1.12.2Mods/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"  />
+        <mod name="YABBA" version="1.1.2.54" url="packs/TechNodefirmacraft/files/1.12.2Mods/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
         
         <mod name="First Aid" version="1.6.14" url="packs/TechNodefirmacraft/files/1.12.2Mods/firstaid-1.6.14.jar" file="firstaid-1.6.14.jar" md5="66dc8e9c75b63c86f18d248bf101178b" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"   />
         
@@ -177,11 +177,8 @@
 
 <!-- Utilities and QoL Mods -->  
 
-        <mod name="FTB Library" version="5.4.7.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBLib-5.4.7.2.jar" file="FTBLib-5.4.7.2.jar" md5="ea749a3a3391d490ffcdf025e5de48d9"  download="server" type="mods" colour="purple" library="yes" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="FTB Library" version="5.4.7.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBLib-5.4.7.2.jar" file="FTBLib-5.4.7.2.jar" md5="ea749a3a3391d490ffcdf025e5de48d9"  download="server" type="mods" colour="purple"  client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="FTB Utilities" version="5.4.1.130" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBUtilities-5.4.1.130.jar" file="FTBUtilities-5.4.1.130.jar" md5="542a6feecd445ebaa54d46d45f78f06e"  download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes" depends="FTB Library"/>
-        
-        <mod name="FTB Backups" version="1.1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBBackups-1.1.0.1.jar" file="FTBBackups-1.1.0.1.jar" md5="932a6981ff08c35bbdf83bb9f7af8d17" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" optional="yes" serveroptional="yes"  selected="yes" depends="FTB Library"/>
         
         <mod name="BetterFps" version="1.4.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/BetterFps-1.4.8.jar" file="BetterFps-1.4.8.jar" md5="d36f4d3c0f96e99a9a1ad2e8eeda1fc4" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
         
@@ -247,6 +244,9 @@
 
 <mod name="DynmapBlockScan" version="3.0-SNAPSHOT-25" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" file="DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" md5="d2efbc9e2f80f9ec17dc8fd52024b1b0" download="server" type="mods" description="Dynamically generate block definitions for Dynmap" website="http://www.minecraftforum.net/topic/1543523-dynmap-dynmap-web-maps-for-minecraft" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
 
+<mod name="FTB Utilities" version="5.4.1.130" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBUtilities-5.4.1.130.jar" file="FTBUtilities-5.4.1.130.jar" md5="542a6feecd445ebaa54d46d45f78f06e"  download="server" type="mods" colour="purple" client="yes" server="yes" optional="yes" serveroptional="yes" recommended="yes" selected="yes" />
+        
+<mod name="FTB Backups" version="1.1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBBackups-1.1.0.1.jar" file="FTBBackups-1.1.0.1.jar" md5="932a6981ff08c35bbdf83bb9f7af8d17" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" optional="yes" serveroptional="yes"  selected="yes"/>
 
 
 <mod name="Morpheus" version="1.12.2-3.5.106" url="packs/TechNodefirmacraft/files/1.12.2Mods/Morpheus-1.12.2-3.5.106.jar" file="Morpheus-1.12.2-3.5.106.jar" md5="357dc3701a8c7d4109147c666f6a4300" download="server" type="mods" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
