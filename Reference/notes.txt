@@ -2,7 +2,6 @@ Notes:
 160529104681437176
 
 
-Remove the glass shards to glass blocks recipe
 
 add to tfc-models?:
 ignore-updates:id=salt_water,data=*
