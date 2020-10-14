@@ -23,7 +23,6 @@ var oregemCoal = <ore:gemCoal>;
 var oreCookedMeat = <ore:categoryCookedMeat>;
     oreCookedMeat.addItems([
     <betterwithmods:cooked_mystery_meat>,
-    <betterwithmods:cooked_bat_wing>,
     <betterwithmods:cooked_egg>,
     <betterwithmods:cooked_scrambled_egg>,
     <betterwithmods:cooked_omelet>,
@@ -34,7 +33,6 @@ var oreCookedMeat = <ore:categoryCookedMeat>;
 
 var oreRawMeat = <ore:categoryMeat>;
     oreRawMeat.addItems([
-    <betterwithmods:bat_wing>,
     <betterwithmods:wolf_chop>,
     <minecraft:fish>,
     <minecraft:fish:1>,
