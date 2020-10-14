@@ -13,24 +13,14 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:fish:1>, 0.55, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:fish:2>, 0.55, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:fish:3>, 0.55, 480, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:mystery_meat>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:bat_wing>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_egg>, 0.55, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_scrambled_egg>, 0.55, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_omelet>, 0.55, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:wolf_chop>, 0.55, 480, true);
+
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.55, 480, true);  
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit>, 0.45, 480, true);
   //Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish:1>, 0.35, 480, true);
   
-  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_mystery_meat>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_bat_wing>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_egg>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_scrambled_egg>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_omelet>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_wolf_chop>, 0.35, 480, true);
+
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit_popped>, 0.35, 480, true);
 
  
@@ -41,18 +31,13 @@
   // Food(@Nonnull Category category, int hunger,  saturation,  water,  grain,  veg,  fruit,  meat,  dairy,  decayModifier, String... oreNames)/
     //Food
   //ItemRegistry.registerFood(IIngredient input, int hunger, float water, float saturation, float decay, float grain, float veg, float fruit, float meat, float dairy);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, 2, 0, 0, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_bat_wing>, 2, 0, 1, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_egg>, 3, 0, 1, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_scrambled_egg>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_omelet>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
+
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish>, 0, 1, 0, 2.25, 0, 0, 0, 1, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:1>, 0, 1, 0, 2.25, 0, 0, 0, 1, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:2>, 0, 1, 0, 2.25, 0, 0, 0,1, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:3>, 0, 1, 0, 2.25, 0, 0, 0, 2, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, 3, 0, 1, 1.5, 0, 0, 0, 2, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
-  mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_wolf_chop>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, 2, 1, 1, 0, 0.5, 0.5, 1.5, 0.5, 0.5);
   mods.terrafirmacraft.ItemRegistry.registerFood(<tfc:plants/porcini>, 1, 1, 0, 1, 0, 1, 0, 0, 0);
   // Adds a recipe with the given parameters
@@ -65,9 +50,5 @@
 	mods.terrafirmacraft.Heating.addRecipe("fish_3", <minecraft:fish:3>, <minecraft:cooked_fish>, 190, 480);
   
   mods.terrafirmacraft.Heating.addRecipe("chorus_fruit", <minecraft:chorus_fruit>, <minecraft:chorus_fruit_popped>, 190, 480);
-  mods.terrafirmacraft.Heating.addRecipe("mystery_meat", <betterwithmods:mystery_meat>, <betterwithmods:cooked_mystery_meat>, 190, 480);
-	mods.terrafirmacraft.Heating.addRecipe("bat_wing", <betterwithmods:bat_wing>, <betterwithmods:cooked_bat_wing>, 190, 480);
-	mods.terrafirmacraft.Heating.addRecipe("raw_egg", <betterwithmods:raw_egg>, <betterwithmods:cooked_egg>, 190, 480);
-	mods.terrafirmacraft.Heating.addRecipe("raw_scrambled_egg", <betterwithmods:raw_scrambled_egg>, <betterwithmods:cooked_scrambled_egg>, 190, 480);
-  mods.terrafirmacraft.Heating.addRecipe("cooked_wolf_chop", <betterwithmods:wolf_chop>, <betterwithmods:cooked_wolf_chop>, 190, 480);
+
   
