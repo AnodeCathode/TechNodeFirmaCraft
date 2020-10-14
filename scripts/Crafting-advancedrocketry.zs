@@ -15,6 +15,8 @@ mods.jei.JEI.removeAndHide(<advancedrocketry:arcfurnace>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:platepress>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:basiclasergun>);
 
+
+
 recipes.remove(<libvulpes:productingot:9>);
 recipes.remove(<libvulpes:productingot:4>);
 recipes.remove(<libvulpes:productingot:6>);
@@ -65,6 +67,9 @@ recipes.addShaped("tnfc_advancedrocketry_jackhammer_alt", <advancedrocketry:jack
 
 recipes.remove(<advancedrocketry:satellitebuilder>);
 recipes.addShaped("tnfc_advancedrocketry_satellitebuilder", <advancedrocketry:satellitebuilder>, [[<advancedrocketry:dataunit>, <minecraft:hopper>, <ore:plateTitanium>], [<advancedrocketry:ic>, <libvulpes:structuremachine>, <advancedrocketry:ic>], [<ore:blockMotor>, <tfc:metal/anvil/red_steel>, <advancedrocketry:sawblade>]]);
+
+recipes.remove(<advancedrocketry:satellitepowersource:0>);
+recipes.addShaped("tnfc_advancedrocketry_satellitepowersource", <advancedrocketry:satellitepowersource>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>], [<ore:plateGold>, <ore:gearRedSteel>, <ore:plateGold>]]);
 
 //User Interface
 recipes.remove(<advancedrocketry:misc>);
