@@ -57,7 +57,19 @@
 	mods.terrafirmacraft.Heating.addRecipe("raw_scrambled_egg", <betterwithmods:raw_scrambled_egg>, <betterwithmods:cooked_scrambled_egg>, 190, 480);
   mods.terrafirmacraft.Heating.addRecipe("cooked_wolf_chop", <betterwithmods:wolf_chop>, <betterwithmods:cooked_wolf_chop>, 190, 480);
   
-  
+    //Foods to fix.
+    // mods.jei.JEI.removeAndHide(<betterwithmods:beef_dinner:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:beef_potatoes:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:chocolate:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:chowder:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:donut:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:apple_pie:*>);    
+    // mods.jei.JEI.removeAndHide(<betterwithmods:pork_dinner:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:raw_pastry:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:tasty_sandwich:*>);
+    // mods.jei.JEI.removeAndHide(<betterwithmods:hearty_stew:*>);
+    
 //Kebab
 mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:raw_kebab>, "SMALL", "MEDIUM");
 mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:cooked_kebab>, "SMALL", "MEDIUM");
