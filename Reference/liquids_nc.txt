@@ -1,0 +1,4200 @@
+<liquid:acrylic_acid>
+- Name: acrylic_acid
+- Display Name: Acrylic Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:alugentum>
+- Name: alugentum
+- Display Name: Molten Alugentum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:alumina>
+- Name: alumina
+- Display Name: Molten Alumina
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:aluminum>
+- Name: aluminum
+- Display Name: Molten Aluminum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:aluminum_brass>
+- Name: aluminum_brass
+- Display Name: Molten Aluminum Brass
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aluminum_nak>
+- Name: aluminum_nak
+- Display Name: Eutectic NaK-Aluminum Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:aluminum_nak_hot>
+- Name: aluminum_nak_hot
+- Display Name: Hot Eutectic NaK-Aluminum Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:americium_241>
+- Name: americium_241
+- Display Name: Molten Americium-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_242>
+- Name: americium_242
+- Display Name: Molten Americium-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_243>
+- Name: americium_243
+- Display Name: Molten Americium-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:ammonia>
+- Name: ammonia
+- Display Name: Ammonia
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:antimony>
+- Name: antimony
+- Display Name: Molten Antimony
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ardite>
+- Name: ardite
+- Display Name: Molten Ardite
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:argon>
+- Name: argon
+- Display Name: Argon
+- Luminosity:0
+- Density: 10
+- Temperature: 60
+- Viscosity: 10
+- Gaseous: true
+<liquid:arsenic>
+- Name: arsenic
+- Display Name: Sublimated Arsenic
+- Luminosity:0
+- Density: -10
+- Temperature: 1000
+- Viscosity: 40
+- Gaseous: true
+<liquid:arsenic_nak>
+- Name: arsenic_nak
+- Display Name: Eutectic NaK-Arsenic Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:arsenic_nak_hot>
+- Name: arsenic_nak_hot
+- Display Name: Hot Eutectic NaK-Arsenic Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:bas>
+- Name: bas
+- Display Name: Molten Boron Arsenide
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:beer>
+- Name: beer
+- Display Name: Beer
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bef2>
+- Name: bef2
+- Display Name: Molten Beryllium Fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_247>
+- Name: berkelium_247
+- Display Name: Molten Berkelium-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_248>
+- Name: berkelium_248
+- Display Name: Molten Berkelium-248
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:beryllium>
+- Name: beryllium
+- Display Name: Molten Beryllium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:beryllium_copper>
+- Name: beryllium_copper
+- Display Name: Molten Beryllium Copper
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:biodiesel>
+- Name: biodiesel
+- Display Name: Biodiesel
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bismuth>
+- Name: bismuth
+- Display Name: Molten Bismuth
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bismuth_bronze>
+- Name: bismuth_bronze
+- Display Name: Molten Bismuth Bronze
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:black_bronze>
+- Name: black_bronze
+- Display Name: Molten Black Bronze
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:black_dye>
+- Name: black_dye
+- Display Name: Black Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:black_steel>
+- Name: black_steel
+- Display Name: Molten Black Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:blue_dye>
+- Name: blue_dye
+- Display Name: Blue Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:blue_steel>
+- Name: blue_steel
+- Display Name: Molten Blue Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:borax_solution>
+- Name: borax_solution
+- Display Name: Borax Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:boric_acid>
+- Name: boric_acid
+- Display Name: Boric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:boron>
+- Name: boron
+- Display Name: Molten Boron
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron_10>
+- Name: boron_10
+- Display Name: Molten Boron-10
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron_11>
+- Name: boron_11
+- Display Name: Molten Boron-11
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron_nak>
+- Name: boron_nak
+- Display Name: Eutectic NaK-Boron Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:boron_nak_hot>
+- Name: boron_nak_hot
+- Display Name: Hot Eutectic NaK-Boron Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:boron_nitride_solution>
+- Name: boron_nitride_solution
+- Display Name: Boron Nitride Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:brass>
+- Name: brass
+- Display Name: Molten Brass
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:brine>
+- Name: brine
+- Display Name: Brine
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bronze>
+- Name: bronze
+- Display Name: Molten Bronze
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:brown_dye>
+- Name: brown_dye
+- Display Name: Brown Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:caesium_137>
+- Name: caesium_137
+- Display Name: Molten Caesium-137
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:calcium_sulfate_solution>
+- Name: calcium_sulfate_solution
+- Display Name: Calcium Sulfate Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:californium_249>
+- Name: californium_249
+- Display Name: Molten Californium-249
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_250>
+- Name: californium_250
+- Display Name: Molten Californium-250
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_251>
+- Name: californium_251
+- Display Name: Molten Californium-251
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_252>
+- Name: californium_252
+- Display Name: Molten Californium-252
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:carbon_dioxide>
+- Name: carbon_dioxide
+- Display Name: Carbon Dioxide
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:carbon_monoxide>
+- Name: carbon_monoxide
+- Display Name: Carbon Monoxide
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:carobbiite>
+- Name: carobbiite
+- Display Name: Molten Carobbiite
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:carobbiite_nak>
+- Name: carobbiite_nak
+- Display Name: Eutectic NaK-Carobbiite Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:carobbiite_nak_hot>
+- Name: carobbiite_nak_hot
+- Display Name: Hot Eutectic NaK-Carobbiite Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:chloromethane>
+- Name: chloromethane
+- Display Name: Chloromethane
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:chocolate_liquor>
+- Name: chocolate_liquor
+- Display Name: Chocolate Liquor
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:cider>
+- Name: cider
+- Display Name: Cider
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:coal>
+- Name: coal
+- Display Name: Liquefacted Coal
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:coal_slurry>
+- Name: coal_slurry
+- Display Name: Coal Slurry
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:coal_tar>
+- Name: coal_tar
+- Display Name: Coal Tar
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 7000
+- Gaseous: false
+<liquid:cobalt>
+- Name: cobalt
+- Display Name: Molten Cobalt
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:cocoa_butter>
+- Name: cocoa_butter
+- Display Name: Cocoa Butter
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:compressed_air>
+- Name: compressed_air
+- Display Name: Compressed Air
+- Luminosity:0
+- Density: 10
+- Temperature: 280
+- Viscosity: 10
+- Gaseous: true
+<liquid:concrete>
+- Name: concrete
+- Display Name: Liquid Concrete
+- Luminosity:0
+- Density: 2400
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:condensate_water>
+- Name: condensate_water
+- Display Name: Condensate Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 850
+- Gaseous: false
+<liquid:constantan>
+- Name: constantan
+- Display Name: Molten Constantan
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:cooled_air>
+- Name: cooled_air
+- Display Name: Cooled Air
+- Luminosity:0
+- Density: 10
+- Temperature: 140
+- Viscosity: 10
+- Gaseous: true
+<liquid:copper>
+- Name: copper
+- Display Name: Molten Copper
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:copper_nak>
+- Name: copper_nak
+- Display Name: Eutectic NaK-Copper Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:copper_nak_hot>
+- Name: copper_nak_hot
+- Display Name: Hot Eutectic NaK-Copper Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:corium>
+- Name: corium
+- Display Name: Corium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:corn_whiskey>
+- Name: corn_whiskey
+- Display Name: Corn Whiskey
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:creosote>
+- Name: creosote
+- Display Name: Creosote Oil
+- Luminosity:0
+- Density: 1100
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:cryotheum>
+- Name: cryotheum
+- Display Name: Molten Cryotheum
+- Luminosity:7
+- Density: 5000
+- Temperature: 50
+- Viscosity: 8000
+- Gaseous: false
+<liquid:cryotheum_nak>
+- Name: cryotheum_nak
+- Display Name: Eutectic NaK-Cryotheum Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:cryotheum_nak_hot>
+- Name: cryotheum_nak_hot
+- Display Name: Hot Eutectic NaK-Cryotheum Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:curium_243>
+- Name: curium_243
+- Display Name: Molten Curium-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_245>
+- Name: curium_245
+- Display Name: Molten Curium-245
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_246>
+- Name: curium_246
+- Display Name: Molten Curium-246
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_247>
+- Name: curium_247
+- Display Name: Molten Curium-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:cyan_dye>
+- Name: cyan_dye
+- Display Name: Cyan Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:dark_chocolate>
+- Name: dark_chocolate
+- Display Name: Molten Dark Chocolate
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:dense_brine>
+- Name: dense_brine
+- Display Name: Dense Brine
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:depleted_hea_242>
+- Name: depleted_hea_242
+- Display Name: Molten Depleted HEA-242 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hea_242_fluoride>
+- Name: depleted_hea_242_fluoride
+- Display Name: Molten Depleted HEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hea_242_fluoride_flibe>
+- Name: depleted_hea_242_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heb_248>
+- Name: depleted_heb_248
+- Display Name: Molten Depleted HEB-248 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heb_248_fluoride>
+- Name: depleted_heb_248_fluoride
+- Display Name: Molten Depleted HEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heb_248_fluoride_flibe>
+- Name: depleted_heb_248_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_249>
+- Name: depleted_hecf_249
+- Display Name: Molten Depleted HECf-249 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_249_fluoride>
+- Name: depleted_hecf_249_fluoride
+- Display Name: Molten Depleted HECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_249_fluoride_flibe>
+- Name: depleted_hecf_249_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_251>
+- Name: depleted_hecf_251
+- Display Name: Molten Depleted HECf-251 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_251_fluoride>
+- Name: depleted_hecf_251_fluoride
+- Display Name: Molten Depleted HECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecf_251_fluoride_flibe>
+- Name: depleted_hecf_251_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_243>
+- Name: depleted_hecm_243
+- Display Name: Molten Depleted HECm-243 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_243_fluoride>
+- Name: depleted_hecm_243_fluoride
+- Display Name: Molten Depleted HECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_243_fluoride_flibe>
+- Name: depleted_hecm_243_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_245>
+- Name: depleted_hecm_245
+- Display Name: Molten Depleted HECm-245 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_245_fluoride>
+- Name: depleted_hecm_245_fluoride
+- Display Name: Molten Depleted HECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_245_fluoride_flibe>
+- Name: depleted_hecm_245_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_247>
+- Name: depleted_hecm_247
+- Display Name: Molten Depleted HECm-247 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_247_fluoride>
+- Name: depleted_hecm_247_fluoride
+- Display Name: Molten Depleted HECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hecm_247_fluoride_flibe>
+- Name: depleted_hecm_247_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hen_236>
+- Name: depleted_hen_236
+- Display Name: Molten Depleted HEN-236 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hen_236_fluoride>
+- Name: depleted_hen_236_fluoride
+- Display Name: Molten Depleted HEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hen_236_fluoride_flibe>
+- Name: depleted_hen_236_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_239>
+- Name: depleted_hep_239
+- Display Name: Molten Depleted HEP-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_239_fluoride>
+- Name: depleted_hep_239_fluoride
+- Display Name: Molten Depleted HEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_239_fluoride_flibe>
+- Name: depleted_hep_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_241>
+- Name: depleted_hep_241
+- Display Name: Molten Depleted HEP-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_241_fluoride>
+- Name: depleted_hep_241_fluoride
+- Display Name: Molten Depleted HEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_hep_241_fluoride_flibe>
+- Name: depleted_hep_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_233>
+- Name: depleted_heu_233
+- Display Name: Molten Depleted HEU-233 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_233_fluoride>
+- Name: depleted_heu_233_fluoride
+- Display Name: Molten Depleted HEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_233_fluoride_flibe>
+- Name: depleted_heu_233_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_235>
+- Name: depleted_heu_235
+- Display Name: Molten Depleted HEU-235 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_235_fluoride>
+- Name: depleted_heu_235_fluoride
+- Display Name: Molten Depleted HEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_heu_235_fluoride_flibe>
+- Name: depleted_heu_235_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lea_242>
+- Name: depleted_lea_242
+- Display Name: Molten Depleted LEA-242 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lea_242_fluoride>
+- Name: depleted_lea_242_fluoride
+- Display Name: Molten Depleted LEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lea_242_fluoride_flibe>
+- Name: depleted_lea_242_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leb_248>
+- Name: depleted_leb_248
+- Display Name: Molten Depleted LEB-248 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leb_248_fluoride>
+- Name: depleted_leb_248_fluoride
+- Display Name: Molten Depleted LEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leb_248_fluoride_flibe>
+- Name: depleted_leb_248_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_249>
+- Name: depleted_lecf_249
+- Display Name: Molten Depleted LECf-249 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_249_fluoride>
+- Name: depleted_lecf_249_fluoride
+- Display Name: Molten Depleted LECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_249_fluoride_flibe>
+- Name: depleted_lecf_249_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_251>
+- Name: depleted_lecf_251
+- Display Name: Molten Depleted LECf-251 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_251_fluoride>
+- Name: depleted_lecf_251_fluoride
+- Display Name: Molten Depleted LECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecf_251_fluoride_flibe>
+- Name: depleted_lecf_251_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_243>
+- Name: depleted_lecm_243
+- Display Name: Molten Depleted LECm-243 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_243_fluoride>
+- Name: depleted_lecm_243_fluoride
+- Display Name: Molten Depleted LECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_243_fluoride_flibe>
+- Name: depleted_lecm_243_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_245>
+- Name: depleted_lecm_245
+- Display Name: Molten Depleted LECm-245 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_245_fluoride>
+- Name: depleted_lecm_245_fluoride
+- Display Name: Molten Depleted LECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_245_fluoride_flibe>
+- Name: depleted_lecm_245_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_247>
+- Name: depleted_lecm_247
+- Display Name: Molten Depleted LECm-247 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_247_fluoride>
+- Name: depleted_lecm_247_fluoride
+- Display Name: Molten Depleted LECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lecm_247_fluoride_flibe>
+- Name: depleted_lecm_247_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_len_236>
+- Name: depleted_len_236
+- Display Name: Molten Depleted LEN-236 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_len_236_fluoride>
+- Name: depleted_len_236_fluoride
+- Display Name: Molten Depleted LEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_len_236_fluoride_flibe>
+- Name: depleted_len_236_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_239>
+- Name: depleted_lep_239
+- Display Name: Molten Depleted LEP-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_239_fluoride>
+- Name: depleted_lep_239_fluoride
+- Display Name: Molten Depleted LEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_239_fluoride_flibe>
+- Name: depleted_lep_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_241>
+- Name: depleted_lep_241
+- Display Name: Molten Depleted LEP-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_241_fluoride>
+- Name: depleted_lep_241_fluoride
+- Display Name: Molten Depleted LEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_lep_241_fluoride_flibe>
+- Name: depleted_lep_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_233>
+- Name: depleted_leu_233
+- Display Name: Molten Depleted LEU-233 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_233_fluoride>
+- Name: depleted_leu_233_fluoride
+- Display Name: Molten Depleted LEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_233_fluoride_flibe>
+- Name: depleted_leu_233_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_235>
+- Name: depleted_leu_235
+- Display Name: Molten Depleted LEU-235 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_235_fluoride>
+- Name: depleted_leu_235_fluoride
+- Display Name: Molten Depleted LEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_leu_235_fluoride_flibe>
+- Name: depleted_leu_235_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_239>
+- Name: depleted_mix_239
+- Display Name: Molten Depleted MIX-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_239_fluoride>
+- Name: depleted_mix_239_fluoride
+- Display Name: Molten Depleted MF4-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_239_fluoride_flibe>
+- Name: depleted_mix_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted MF4-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_241>
+- Name: depleted_mix_241
+- Display Name: Molten Depleted MIX-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_241_fluoride>
+- Name: depleted_mix_241_fluoride
+- Display Name: Molten Depleted MF4-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_mix_241_fluoride_flibe>
+- Name: depleted_mix_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted MF4-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_tbu>
+- Name: depleted_tbu
+- Display Name: Molten Depleted TBU Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_tbu_fluoride>
+- Name: depleted_tbu_fluoride
+- Display Name: Molten Depleted TBU Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_tbu_fluoride_flibe>
+- Name: depleted_tbu_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:deuterium>
+- Name: deuterium
+- Display Name: Deuterium
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:diamond>
+- Name: diamond
+- Display Name: Molten Diamond
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:diamond_nak>
+- Name: diamond_nak
+- Display Name: Eutectic NaK-Diamond Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:diamond_nak_hot>
+- Name: diamond_nak_hot
+- Display Name: Hot Eutectic NaK-Diamond Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:diborane>
+- Name: diborane
+- Display Name: Diborane
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:diesel>
+- Name: diesel
+- Display Name: Diesel
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1750
+- Gaseous: false
+<liquid:distwater>
+- Name: distwater
+- Display Name: Distilled Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:electrum>
+- Name: electrum
+- Display Name: Molten Electrum
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:emerald>
+- Name: emerald
+- Display Name: Molten Emerald
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:emerald_nak>
+- Name: emerald_nak
+- Display Name: Eutectic NaK-Emerald Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:emerald_nak_hot>
+- Name: emerald_nak_hot
+- Display Name: Hot Eutectic NaK-Emerald Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:emergency_coolant>
+- Name: emergency_coolant
+- Display Name: Emergency Coolant
+- Luminosity:3
+- Density: 2000
+- Temperature: 100
+- Viscosity: 2000
+- Gaseous: false
+<liquid:emergency_coolant_heated>
+- Name: emergency_coolant_heated
+- Display Name: Heated Emergency Coolant
+- Luminosity:9
+- Density: 2000
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:end_stone>
+- Name: end_stone
+- Display Name: Molten End Stone
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:end_stone_nak>
+- Name: end_stone_nak
+- Display Name: Eutectic NaK-End Stone Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:end_stone_nak_hot>
+- Name: end_stone_nak_hot
+- Display Name: Hot Eutectic NaK-End Stone Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:ender>
+- Name: ender
+- Display Name: Molten Ender
+- Luminosity:3
+- Density: 4000
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:enderium>
+- Name: enderium
+- Display Name: Molten Enderium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:enderium_nak>
+- Name: enderium_nak
+- Display Name: Eutectic NaK-Enderium Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:enderium_nak_hot>
+- Name: enderium_nak_hot
+- Display Name: Hot Eutectic NaK-Enderium Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:enrichedlava>
+- Name: enrichedlava
+- Display Name: Enriched Lava
+- Luminosity:15
+- Density: 3000
+- Temperature: 1300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:etchacid>
+- Name: etchacid
+- Display Name: Etching Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ethanol>
+- Name: ethanol
+- Display Name: Ethanol
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ethene>
+- Name: ethene
+- Display Name: Ethylene
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:europium_155>
+- Name: europium_155
+- Display Name: Molten Europium-155
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:exhaust_steam>
+- Name: exhaust_steam
+- Display Name: Exhaust Steam
+- Luminosity:0
+- Density: -10
+- Temperature: 500
+- Viscosity: 40
+- Gaseous: true
+<liquid:exhauststeam>
+- Name: exhauststeam
+- Display Name: Exhaust Steam
+- Luminosity:0
+- Density: -100
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:ferroboron>
+- Name: ferroboron
+- Display Name: Molten Ferroboron
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:flibe>
+- Name: flibe
+- Display Name: Molten FLiBe Salt Mixture
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:flue_gas>
+- Name: flue_gas
+- Display Name: Flue Gas
+- Luminosity:0
+- Density: 10
+- Temperature: 310
+- Viscosity: 10
+- Gaseous: true
+<liquid:fluegas>
+- Name: fluegas
+- Display Name: Flue Gas
+- Luminosity:0
+- Density: -100
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:fluorine>
+- Name: fluorine
+- Display Name: Fluorine
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:fluorite>
+- Name: fluorite
+- Display Name: Molten Fluorite
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fluorite_nak>
+- Name: fluorite_nak
+- Display Name: Eutectic NaK-Fluorite Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:fluorite_nak_hot>
+- Name: fluorite_nak_hot
+- Display Name: Hot Eutectic NaK-Fluorite Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:fluorite_water>
+- Name: fluorite_water
+- Display Name: Fluorite Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:fluoromethane>
+- Name: fluoromethane
+- Display Name: Fluoromethane
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:fresh_water>
+- Name: fresh_water
+- Display Name: Fresh Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:fuel>
+- Name: fuel
+- Display Name: Gasoline
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:gasoline>
+- Name: gasoline
+- Display Name: Gasoline
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:gelatin>
+- Name: gelatin
+- Display Name: Molten Gelatin
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:glass>
+- Name: glass
+- Display Name: Glass
+- Luminosity:0
+- Density: 1000
+- Temperature: 1073
+- Viscosity: 1000
+- Gaseous: false
+<liquid:glowstone>
+- Name: glowstone
+- Display Name: Molten Glowstone
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:glowstone_nak>
+- Name: glowstone_nak
+- Display Name: Eutectic NaK-Glowstone Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:glowstone_nak_hot>
+- Name: glowstone_nak_hot
+- Display Name: Hot Eutectic NaK-Glowstone Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:gold>
+- Name: gold
+- Display Name: Molten Gold
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:gold_nak>
+- Name: gold_nak
+- Display Name: Eutectic NaK-Gold Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:gold_nak_hot>
+- Name: gold_nak_hot
+- Display Name: Hot Eutectic NaK-Gold Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:gray_dye>
+- Name: gray_dye
+- Display Name: Gray Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:green_dye>
+- Name: green_dye
+- Display Name: Green Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hard_carbon>
+- Name: hard_carbon
+- Display Name: Molten Hard Carbon
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hea_242>
+- Name: hea_242
+- Display Name: Molten HEA-242 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hea_242_fluoride>
+- Name: hea_242_fluoride
+- Display Name: Molten HEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hea_242_fluoride_flibe>
+- Name: hea_242_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heavy_water>
+- Name: heavy_water
+- Display Name: Heavy Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:heb_248>
+- Name: heb_248
+- Display Name: Molten HEB-248 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heb_248_fluoride>
+- Name: heb_248_fluoride
+- Display Name: Molten HEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heb_248_fluoride_flibe>
+- Name: heb_248_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_249>
+- Name: hecf_249
+- Display Name: Molten HECf-249 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_249_fluoride>
+- Name: hecf_249_fluoride
+- Display Name: Molten HECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_249_fluoride_flibe>
+- Name: hecf_249_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_251>
+- Name: hecf_251
+- Display Name: Molten HECf-251 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_251_fluoride>
+- Name: hecf_251_fluoride
+- Display Name: Molten HECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecf_251_fluoride_flibe>
+- Name: hecf_251_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_243>
+- Name: hecm_243
+- Display Name: Molten HECm-243 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_243_fluoride>
+- Name: hecm_243_fluoride
+- Display Name: Molten HECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_243_fluoride_flibe>
+- Name: hecm_243_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_245>
+- Name: hecm_245
+- Display Name: Molten HECm-245 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_245_fluoride>
+- Name: hecm_245_fluoride
+- Display Name: Molten HECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_245_fluoride_flibe>
+- Name: hecm_245_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_247>
+- Name: hecm_247
+- Display Name: Molten HECm-247 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_247_fluoride>
+- Name: hecm_247_fluoride
+- Display Name: Molten HECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hecm_247_fluoride_flibe>
+- Name: hecm_247_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:helium>
+- Name: helium
+- Display Name: Helium
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:helium_3>
+- Name: helium_3
+- Display Name: Helium-3
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:hen_236>
+- Name: hen_236
+- Display Name: Molten HEN-236 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hen_236_fluoride>
+- Name: hen_236_fluoride
+- Display Name: Molten HEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hen_236_fluoride_flibe>
+- Name: hen_236_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_239>
+- Name: hep_239
+- Display Name: Molten HEP-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_239_fluoride>
+- Name: hep_239_fluoride
+- Display Name: Molten HEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_239_fluoride_flibe>
+- Name: hep_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_241>
+- Name: hep_241
+- Display Name: Molten HEP-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_241_fluoride>
+- Name: hep_241_fluoride
+- Display Name: Molten HEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hep_241_fluoride_flibe>
+- Name: hep_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_233>
+- Name: heu_233
+- Display Name: Molten HEU-233 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_233_fluoride>
+- Name: heu_233_fluoride
+- Display Name: Molten HEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_233_fluoride_flibe>
+- Name: heu_233_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_235>
+- Name: heu_235
+- Display Name: Molten HEU-235 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_235_fluoride>
+- Name: heu_235_fluoride
+- Display Name: Molten HEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heu_235_fluoride_flibe>
+- Name: heu_235_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:high_carbon_black_steel>
+- Name: high_carbon_black_steel
+- Display Name: Molten High Carbon Black Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:high_carbon_blue_steel>
+- Name: high_carbon_blue_steel
+- Display Name: Molten High Carbon Blue Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:high_carbon_red_steel>
+- Name: high_carbon_red_steel
+- Display Name: Molten High Carbon Red Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:high_carbon_steel>
+- Name: high_carbon_steel
+- Display Name: Molten High Carbon Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:high_pressure_steam>
+- Name: high_pressure_steam
+- Display Name: High Pressure Steam
+- Luminosity:0
+- Density: -10
+- Temperature: 1200
+- Viscosity: 40
+- Gaseous: true
+<liquid:hot_water>
+- Name: hot_water
+- Display Name: Hot Spring Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 350
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hsla_steel>
+- Name: hsla_steel
+- Display Name: Molten Hsla Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hydrated_gelatin>
+- Name: hydrated_gelatin
+- Display Name: Hydrated Gelatin
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hydrochloric_acid>
+- Name: hydrochloric_acid
+- Display Name: Hydrochloric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hydrofluoric_acid>
+- Name: hydrofluoric_acid
+- Display Name: Hydrofluoric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hydrogen>
+- Name: hydrogen
+- Display Name: Hydrogen
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:ice>
+- Name: ice
+- Display Name: Crushed Ice
+- Luminosity:0
+- Density: 1000
+- Temperature: 250
+- Viscosity: 2000
+- Gaseous: false
+<liquid:invar>
+- Name: invar
+- Display Name: Molten Invar
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:iron>
+- Name: iron
+- Display Name: Molten Iron
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:iron_nak>
+- Name: iron_nak
+- Display Name: Eutectic NaK-Iron Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:iron_nak_hot>
+- Name: iron_nak_hot
+- Display Name: Hot Eutectic NaK-Iron Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:irradiated_borax_solution>
+- Name: irradiated_borax_solution
+- Display Name: Irradiated Borax Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:kerosene>
+- Name: kerosene
+- Display Name: Kerosene
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:koh>
+- Name: koh
+- Display Name: Molten Potassium Hydroxide
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:krypton>
+- Name: krypton
+- Display Name: Krypton
+- Luminosity:0
+- Density: 10
+- Temperature: 60
+- Viscosity: 10
+- Gaseous: true
+<liquid:lapis>
+- Name: lapis
+- Display Name: Molten Lapis
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lapis_nak>
+- Name: lapis_nak
+- Display Name: Eutectic NaK-Lapis Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:lapis_nak_hot>
+- Name: lapis_nak_hot
+- Display Name: Hot Eutectic NaK-Lapis Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:latex>
+- Name: latex
+- Display Name: Latex
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lava>
+- Name: lava
+- Display Name: Lava
+- Luminosity:15
+- Density: 3000
+- Temperature: 1300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:lea_242>
+- Name: lea_242
+- Display Name: Molten LEA-242 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lea_242_fluoride>
+- Name: lea_242_fluoride
+- Display Name: Molten LEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lea_242_fluoride_flibe>
+- Name: lea_242_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leachate>
+- Name: leachate
+- Display Name: Leachate
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:lead>
+- Name: lead
+- Display Name: Molten Lead
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lead_nak>
+- Name: lead_nak
+- Display Name: Eutectic NaK-Lead Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:lead_nak_hot>
+- Name: lead_nak_hot
+- Display Name: Hot Eutectic NaK-Lead Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:lead_platinum>
+- Name: lead_platinum
+- Display Name: Molten Lead Platinum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leb_248>
+- Name: leb_248
+- Display Name: Molten LEB-248 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leb_248_fluoride>
+- Name: leb_248_fluoride
+- Display Name: Molten LEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leb_248_fluoride_flibe>
+- Name: leb_248_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_249>
+- Name: lecf_249
+- Display Name: Molten LECf-249 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_249_fluoride>
+- Name: lecf_249_fluoride
+- Display Name: Molten LECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_249_fluoride_flibe>
+- Name: lecf_249_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_251>
+- Name: lecf_251
+- Display Name: Molten LECf-251 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_251_fluoride>
+- Name: lecf_251_fluoride
+- Display Name: Molten LECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecf_251_fluoride_flibe>
+- Name: lecf_251_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_243>
+- Name: lecm_243
+- Display Name: Molten LECm-243 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_243_fluoride>
+- Name: lecm_243_fluoride
+- Display Name: Molten LECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_243_fluoride_flibe>
+- Name: lecm_243_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_245>
+- Name: lecm_245
+- Display Name: Molten LECm-245 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_245_fluoride>
+- Name: lecm_245_fluoride
+- Display Name: Molten LECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_245_fluoride_flibe>
+- Name: lecm_245_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_247>
+- Name: lecm_247
+- Display Name: Molten LECm-247 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_247_fluoride>
+- Name: lecm_247_fluoride
+- Display Name: Molten LECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lecm_247_fluoride_flibe>
+- Name: lecm_247_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:len_236>
+- Name: len_236
+- Display Name: Molten LEN-236 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:len_236_fluoride>
+- Name: len_236_fluoride
+- Display Name: Molten LEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:len_236_fluoride_flibe>
+- Name: len_236_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_239>
+- Name: lep_239
+- Display Name: Molten LEP-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_239_fluoride>
+- Name: lep_239_fluoride
+- Display Name: Molten LEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_239_fluoride_flibe>
+- Name: lep_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_241>
+- Name: lep_241
+- Display Name: Molten LEP-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_241_fluoride>
+- Name: lep_241_fluoride
+- Display Name: Molten LEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lep_241_fluoride_flibe>
+- Name: lep_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_233>
+- Name: leu_233
+- Display Name: Molten LEU-233 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_233_fluoride>
+- Name: leu_233_fluoride
+- Display Name: Molten LEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_233_fluoride_flibe>
+- Name: leu_233_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_235>
+- Name: leu_235
+- Display Name: Molten LEU-235 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_235_fluoride>
+- Name: leu_235_fluoride
+- Display Name: Molten LEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:leu_235_fluoride_flibe>
+- Name: leu_235_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lif>
+- Name: lif
+- Display Name: Molten Lithium Fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:light_blue_dye>
+- Name: light_blue_dye
+- Display Name: Light Blue Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:light_gray_dye>
+- Name: light_gray_dye
+- Display Name: Light Gray Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lime_dye>
+- Name: lime_dye
+- Display Name: Lime Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:limewater>
+- Name: limewater
+- Display Name: Limewater
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquid_ammonia>
+- Name: liquid_ammonia
+- Display Name: Liquid Ammonia
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquid_helium>
+- Name: liquid_helium
+- Display Name: Liquid Helium
+- Luminosity:0
+- Density: 150
+- Temperature: 4
+- Viscosity: 1
+- Gaseous: false
+<liquid:liquid_helium_nak>
+- Name: liquid_helium_nak
+- Display Name: Eutectic NaK-Helium Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:liquid_helium_nak_hot>
+- Name: liquid_helium_nak_hot
+- Display Name: Hot Eutectic NaK-Helium Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:liquid_nitrogen>
+- Name: liquid_nitrogen
+- Display Name: Liquid Nitrogen
+- Luminosity:0
+- Density: 810
+- Temperature: 70
+- Viscosity: 170
+- Gaseous: false
+<liquid:liquid_nitrogen_nak>
+- Name: liquid_nitrogen_nak
+- Display Name: Eutectic NaK-Nitrogen Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:liquid_nitrogen_nak_hot>
+- Name: liquid_nitrogen_nak_hot
+- Display Name: Hot Eutectic NaK-Nitrogen Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:liquid_oxygen>
+- Name: liquid_oxygen
+- Display Name: Liquid Oxygen
+- Luminosity:0
+- Density: 10
+- Temperature: 60
+- Viscosity: 10
+- Gaseous: false
+<liquid:lithium>
+- Name: lithium
+- Display Name: Molten Lithium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lithium_6>
+- Name: lithium_6
+- Display Name: Molten Lithium-6
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lithium_7>
+- Name: lithium_7
+- Display Name: Molten Lithium-7
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lithium_nak>
+- Name: lithium_nak
+- Display Name: Eutectic NaK-Lithium Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:lithium_nak_hot>
+- Name: lithium_nak_hot
+- Display Name: Hot Eutectic NaK-Lithium Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:low_pressure_steam>
+- Name: low_pressure_steam
+- Display Name: Low Pressure Steam
+- Luminosity:0
+- Density: -10
+- Temperature: 800
+- Viscosity: 40
+- Gaseous: true
+<liquid:low_quality_steam>
+- Name: low_quality_steam
+- Display Name: Low Quality Steam
+- Luminosity:0
+- Density: -10
+- Temperature: 350
+- Viscosity: 40
+- Gaseous: true
+<liquid:lpg>
+- Name: lpg
+- Display Name: LPG
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lubricant>
+- Name: lubricant
+- Display Name: Lubricant
+- Luminosity:0
+- Density: 925
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lye>
+- Name: lye
+- Display Name: Lye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:magenta_dye>
+- Name: magenta_dye
+- Display Name: Magenta Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:magnesium>
+- Name: magnesium
+- Display Name: Molten Magnesium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:magnesium_diboride>
+- Name: magnesium_diboride
+- Display Name: Molten Magnesium Diboride
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:magnesium_nak>
+- Name: magnesium_nak
+- Display Name: Eutectic NaK-Magnesium Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:magnesium_nak_hot>
+- Name: magnesium_nak_hot
+- Display Name: Hot Eutectic NaK-Magnesium Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:manganese>
+- Name: manganese
+- Display Name: Molten Manganese
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:manganese_dioxide>
+- Name: manganese_dioxide
+- Display Name: Molten Manganese Dioxide
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:manganese_nak>
+- Name: manganese_nak
+- Display Name: Eutectic NaK-Manganese Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:manganese_nak_hot>
+- Name: manganese_nak_hot
+- Display Name: Hot Eutectic NaK-Manganese Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:manyullyn>
+- Name: manyullyn
+- Display Name: Molten Manyullyn
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:marshmallow>
+- Name: marshmallow
+- Display Name: Liquid Marshmallow
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:methanol>
+- Name: methanol
+- Display Name: Methanol
+- Luminosity:0
+- Density: 800
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:milk>
+- Name: milk
+- Display Name: Milk
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:milk_chocolate>
+- Name: milk_chocolate
+- Display Name: Molten Milk Chocolate
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:milk_curdled>
+- Name: milk_curdled
+- Display Name: Curdled Milk
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:milk_vinegar>
+- Name: milk_vinegar
+- Display Name: Vinegar Milk
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:mix_239>
+- Name: mix_239
+- Display Name: Molten MIX-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mix_239_fluoride>
+- Name: mix_239_fluoride
+- Display Name: Molten MF4-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mix_239_fluoride_flibe>
+- Name: mix_239_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of MF4-239 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mix_241>
+- Name: mix_241
+- Display Name: Molten MIX-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mix_241_fluoride>
+- Name: mix_241_fluoride
+- Display Name: Molten MF4-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mix_241_fluoride_flibe>
+- Name: mix_241_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of MF4-241 Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:molten_bam>
+- Name: molten_bam
+- Display Name: Molten BAM
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_corten>
+- Name: molten_corten
+- Display Name: Molten Corten Steel
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_cube>
+- Name: molten_cube
+- Display Name: Molten CuBe
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_cunife>
+- Name: molten_cunife
+- Display Name: Molten CuNiFe
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_cupronickel>
+- Name: molten_cupronickel
+- Display Name: Molten Cupronickel
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_hastelloy>
+- Name: molten_hastelloy
+- Display Name: Molten Hastelloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_hydronalium>
+- Name: molten_hydronalium
+- Display Name: Molten Hydronalium
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_inconel>
+- Name: molten_inconel
+- Display Name: Molten Inconel
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_nial>
+- Name: molten_nial
+- Display Name: Molten NiAl
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_nichrome>
+- Name: molten_nichrome
+- Display Name: Molten Nichrome
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_nimonic>
+- Name: molten_nimonic
+- Display Name: Molten Nimonic
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_pewter>
+- Name: molten_pewter
+- Display Name: Molten Pewter
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_scal>
+- Name: molten_scal
+- Display Name: Molten ScAl
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_stellite>
+- Name: molten_stellite
+- Display Name: Molten Stellite
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_tantaloy>
+- Name: molten_tantaloy
+- Display Name: Molten Tantaloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_titanium>
+- Name: molten_titanium
+- Display Name: Molten Titanium
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_vanadium>
+- Name: molten_vanadium
+- Display Name: Molten Vanadium
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_vanasteel>
+- Name: molten_vanasteel
+- Display Name: Molten Vanasteel
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molten_zircaloy>
+- Name: molten_zircaloy
+- Display Name: Molten Zircaloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:molybdenum>
+- Name: molybdenum
+- Display Name: Molten Molybdenum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:mother_liquor>
+- Name: mother_liquor
+- Display Name: Mother Liquor
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:nak>
+- Name: nak
+- Display Name: Eutectic NaK Alloy
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:nak_hot>
+- Name: nak_hot
+- Display Name: Hot Eutectic NaK Alloy
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:naoh>
+- Name: naoh
+- Display Name: Molten Sodium Hydroxide
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:napalm>
+- Name: napalm
+- Display Name: Napalm
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:neon>
+- Name: neon
+- Display Name: Neon
+- Luminosity:0
+- Density: 10
+- Temperature: 70
+- Viscosity: 10
+- Gaseous: true
+<liquid:neptunium_236>
+- Name: neptunium_236
+- Display Name: Molten Neptunium-236
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_237>
+- Name: neptunium_237
+- Display Name: Molten Neptunium-237
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:nether_brick>
+- Name: nether_brick
+- Display Name: Molten Nether Brick
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:nether_brick_nak>
+- Name: nether_brick_nak
+- Display Name: Eutectic NaK-Nether Brick Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:nether_brick_nak_hot>
+- Name: nether_brick_nak_hot
+- Display Name: Hot Eutectic NaK-Nether Brick Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:nickel>
+- Name: nickel
+- Display Name: Molten Nickel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:nickel_silver>
+- Name: nickel_silver
+- Display Name: Molten Nickel Silver
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:nitric_acid>
+- Name: nitric_acid
+- Display Name: Nitric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 350
+- Viscosity: 1000
+- Gaseous: false
+<liquid:nitrogen>
+- Name: nitrogen
+- Display Name: Nitrogen
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:obsidian>
+- Name: obsidian
+- Display Name: Molten Obsidian
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:obsidian_nak>
+- Name: obsidian_nak
+- Display Name: Eutectic NaK-Obsidian Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:obsidian_nak_hot>
+- Name: obsidian_nak_hot
+- Display Name: Hot Eutectic NaK-Obsidian Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:oil>
+- Name: oil
+- Display Name: Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 2250
+- Gaseous: false
+<liquid:olive_oil>
+- Name: olive_oil
+- Display Name: Olive Oil
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:olive_oil_water>
+- Name: olive_oil_water
+- Display Name: Olive Oil Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:orange_dye>
+- Name: orange_dye
+- Display Name: Orange Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:organic_slurry>
+- Name: organic_slurry
+- Display Name: Organic Slurry
+- Luminosity:0
+- Density: 2000
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:osmium>
+- Name: osmium
+- Display Name: Molten Osmium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:oxygen>
+- Name: oxygen
+- Display Name: Oxygen
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:oxygen_difluoride>
+- Name: oxygen_difluoride
+- Display Name: Oxygen Difluoride
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:pig_iron>
+- Name: pig_iron
+- Display Name: Molten Pig Iron
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:pink_dye>
+- Name: pink_dye
+- Display Name: Pink Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:plantoil>
+- Name: plantoil
+- Display Name: Plant Oil
+- Luminosity:0
+- Density: 925
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:plasma>
+- Name: plasma
+- Display Name: Plasma
+- Luminosity:15
+- Density: 50
+- Temperature: 1000000
+- Viscosity: 100
+- Gaseous: false
+<liquid:plastic>
+- Name: plastic
+- Display Name: Liquid Plastic
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:platinum>
+- Name: platinum
+- Display Name: Molten Platinum
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:plutonium_238>
+- Name: plutonium_238
+- Display Name: Molten Plutonium-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_239>
+- Name: plutonium_239
+- Display Name: Molten Plutonium-239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_241>
+- Name: plutonium_241
+- Display Name: Molten Plutonium-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_242>
+- Name: plutonium_242
+- Display Name: Molten Plutonium-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:potassium>
+- Name: potassium
+- Display Name: Molten Potassium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:potassium_fluoride_solution>
+- Name: potassium_fluoride_solution
+- Display Name: Potassium Fluoride Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:potassium_hydroxide_solution>
+- Name: potassium_hydroxide_solution
+- Display Name: Potassium Hydroxide Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:potion>
+- Name: potion
+- Display Name: Potion
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:preheated_water>
+- Name: preheated_water
+- Display Name: Preheated Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 400
+- Viscosity: 250
+- Gaseous: false
+<liquid:prismarine>
+- Name: prismarine
+- Display Name: Molten Prismarine
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:prismarine_nak>
+- Name: prismarine_nak
+- Display Name: Eutectic NaK-Prismarine Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:prismarine_nak_hot>
+- Name: prismarine_nak_hot
+- Display Name: Hot Eutectic NaK-Prismarine Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:promethium_147>
+- Name: promethium_147
+- Display Name: Molten Promethium-147
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:propylene>
+- Name: propylene
+- Display Name: Propylene
+- Luminosity:0
+- Density: 10
+- Temperature: 305
+- Viscosity: 10
+- Gaseous: true
+<liquid:purple_dye>
+- Name: purple_dye
+- Display Name: Purple Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:purpur>
+- Name: purpur
+- Display Name: Molten Purpur
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:purpur_nak>
+- Name: purpur_nak
+- Display Name: Eutectic NaK-Purpur Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:purpur_nak_hot>
+- Name: purpur_nak_hot
+- Display Name: Hot Eutectic NaK-Purpur Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:quartz>
+- Name: quartz
+- Display Name: Molten Quartz
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:quartz_nak>
+- Name: quartz_nak
+- Display Name: Eutectic NaK-Quartz Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:quartz_nak_hot>
+- Name: quartz_nak_hot
+- Display Name: Hot Eutectic NaK-Quartz Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:radaway>
+- Name: radaway
+- Display Name: RadAway Fluid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:radaway_slow>
+- Name: radaway_slow
+- Display Name: Slow-Acting RadAway Fluid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:raw_flue_gas>
+- Name: raw_flue_gas
+- Display Name: Raw Flue Gas
+- Luminosity:0
+- Density: 10
+- Temperature: 450
+- Viscosity: 10
+- Gaseous: true
+<liquid:raw_syngas>
+- Name: raw_syngas
+- Display Name: Raw Syngas
+- Luminosity:0
+- Density: 10
+- Temperature: 400
+- Viscosity: 10
+- Gaseous: true
+<liquid:red_alloy>
+- Name: red_alloy
+- Display Name: Molten Red Alloy
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:red_dye>
+- Name: red_dye
+- Display Name: Red Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:red_steel>
+- Name: red_steel
+- Display Name: Molten Red Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:redstone>
+- Name: redstone
+- Display Name: Molten Redstone
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:redstone_ethanol>
+- Name: redstone_ethanol
+- Display Name: Redstone-Infused Ethanol
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:redstone_nak>
+- Name: redstone_nak
+- Display Name: Eutectic NaK-Redstone Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:redstone_nak_hot>
+- Name: redstone_nak_hot
+- Display Name: Hot Eutectic NaK-Redstone Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:refined_air>
+- Name: refined_air
+- Display Name: Refined Air
+- Luminosity:0
+- Density: 10
+- Temperature: 250
+- Viscosity: 10
+- Gaseous: true
+<liquid:rocketfuel>
+- Name: rocketfuel
+- Display Name: Rocket Fuel
+- Luminosity:10
+- Density: 800
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:rose_gold>
+- Name: rose_gold
+- Display Name: Molten Rose Gold
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:rum>
+- Name: rum
+- Display Name: Rum
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ruthenium_106>
+- Name: ruthenium_106
+- Display Name: Molten Ruthenium-106
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:rye_whiskey>
+- Name: rye_whiskey
+- Display Name: Rye Whiskey
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sake>
+- Name: sake
+- Display Name: Sake
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:salt_brine>
+- Name: salt_brine
+- Display Name: Saturated Brine
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:salt_water>
+- Name: salt_water
+- Display Name: Salt Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sic_vapor>
+- Name: sic_vapor
+- Display Name: Silicon Carbide Vapor
+- Luminosity:0
+- Density: -10
+- Temperature: 1000
+- Viscosity: 40
+- Gaseous: true
+<liquid:silicone>
+- Name: silicone
+- Display Name: Silicone
+- Luminosity:0
+- Density: 9000
+- Temperature: 300
+- Viscosity: 9000
+- Gaseous: false
+<liquid:silver>
+- Name: silver
+- Display Name: Molten Silver
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:silver_nak>
+- Name: silver_nak
+- Display Name: Eutectic NaK-Silver Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:silver_nak_hot>
+- Name: silver_nak_hot
+- Display Name: Hot Eutectic NaK-Silver Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:slime>
+- Name: slime
+- Display Name: Molten Slime
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:slime_nak>
+- Name: slime_nak
+- Display Name: Eutectic NaK-Slime Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:slime_nak_hot>
+- Name: slime_nak_hot
+- Display Name: Hot Eutectic NaK-Slime Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:slurry_ice>
+- Name: slurry_ice
+- Display Name: Slurry Ice
+- Luminosity:0
+- Density: 950
+- Temperature: 270
+- Viscosity: 4000
+- Gaseous: false
+<liquid:sodium>
+- Name: sodium
+- Display Name: Molten Sodium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sodium_cyanide>
+- Name: sodium_cyanide
+- Display Name: Sodium Cyanide
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sodium_fluoride_solution>
+- Name: sodium_fluoride_solution
+- Display Name: Sodium Fluoride Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sodium_hydroxide>
+- Name: sodium_hydroxide
+- Display Name: Sodium Hydroxide
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sodium_hydroxide_solution>
+- Name: sodium_hydroxide_solution
+- Display Name: Sodium Hydroxide Solution
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:steam>
+- Name: steam
+- Display Name: Steam
+- Luminosity:0
+- Density: -100
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+<liquid:steel>
+- Name: steel
+- Display Name: Molten Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sterling_silver>
+- Name: sterling_silver
+- Display Name: Molten Sterling Silver
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:strontium_90>
+- Name: strontium_90
+- Display Name: Molten Strontium-90
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sugar>
+- Name: sugar
+- Display Name: Molten Sugar
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sulfur>
+- Name: sulfur
+- Display Name: Molten Sulfur
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sulfur_dioxide>
+- Name: sulfur_dioxide
+- Display Name: Sulfur Dioxide
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:sulfur_trioxide>
+- Name: sulfur_trioxide
+- Display Name: Sulfur Trioxide
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:sulfuric_acid>
+- Name: sulfuric_acid
+- Display Name: Sulfuric Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:syngas>
+- Name: syngas
+- Display Name: Syngas
+- Luminosity:0
+- Density: 10
+- Temperature: 305
+- Viscosity: 10
+- Gaseous: true
+<liquid:tannin>
+- Name: tannin
+- Display Name: Tannin
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:tbu>
+- Name: tbu
+- Display Name: Molten TBU Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tbu_fluoride>
+- Name: tbu_fluoride
+- Display Name: Molten TBU Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tbu_fluoride_flibe>
+- Name: tbu_fluoride_flibe
+- Display Name: Molten FLiBe Salt Solution of TBU Fluoride Fuel
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thin_air>
+- Name: thin_air
+- Display Name: Thin Air
+- Luminosity:0
+- Density: 10
+- Temperature: 120
+- Viscosity: 10
+- Gaseous: true
+<liquid:thorium>
+- Name: thorium
+- Display Name: Molten Thorium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tin>
+- Name: tin
+- Display Name: Molten Tin
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tin_nak>
+- Name: tin_nak
+- Display Name: Eutectic NaK-Tin Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:tin_nak_hot>
+- Name: tin_nak_hot
+- Display Name: Hot Eutectic NaK-Tin Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:titanium>
+- Name: titanium
+- Display Name: Molten Titanium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:tough>
+- Name: tough
+- Display Name: Molten Tough
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:toxic_sludge>
+- Name: toxic_sludge
+- Display Name: Toxic Sludge
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:toxic_waste>
+- Name: toxic_waste
+- Display Name: Toxic Waste
+- Luminosity:0
+- Density: 1500
+- Temperature: 350
+- Viscosity: 2025
+- Gaseous: false
+<liquid:tritium>
+- Name: tritium
+- Display Name: Tritium
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:tungsten>
+- Name: tungsten
+- Display Name: Molten Tungsten
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:tungsten_steel>
+- Name: tungsten_steel
+- Display Name: Molten Tungsten Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:unknown>
+- Name: unknown
+- Display Name: Unknown Molten Metal
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:unsweetened_chocolate>
+- Name: unsweetened_chocolate
+- Display Name: Molten Unsweetened Chocolate
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:uranium>
+- Name: uranium
+- Display Name: Molten Uranium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_233>
+- Name: uranium_233
+- Display Name: Molten Uranium-233
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_235>
+- Name: uranium_235
+- Display Name: Molten Uranium-235
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_238>
+- Name: uranium_238
+- Display Name: Molten Uranium-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:villiaumite>
+- Name: villiaumite
+- Display Name: Molten Villiaumite
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:villiaumite_nak>
+- Name: villiaumite_nak
+- Display Name: Eutectic NaK-Villiaumite Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:villiaumite_nak_hot>
+- Name: villiaumite_nak_hot
+- Display Name: Hot Eutectic NaK-Villiaumite Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:vinegar>
+- Name: vinegar
+- Display Name: Vinegar
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:virgin_water>
+- Name: virgin_water
+- Display Name: Virgin Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:vodka>
+- Name: vodka
+- Display Name: Vodka
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:water>
+- Name: water
+- Display Name: Rainwater
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:water_vapour>
+- Name: water_vapour
+- Display Name: Water Vapour
+- Luminosity:0
+- Density: 10
+- Temperature: 340
+- Viscosity: 10
+- Gaseous: true
+<liquid:weak_blue_steel>
+- Name: weak_blue_steel
+- Display Name: Molten Weak Blue Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:weak_red_steel>
+- Name: weak_red_steel
+- Display Name: Molten Weak Red Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:weak_steel>
+- Name: weak_steel
+- Display Name: Molten Weak Steel
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:whiskey>
+- Name: whiskey
+- Display Name: Whiskey
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:white_dye>
+- Name: white_dye
+- Display Name: White Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:wrought_iron>
+- Name: wrought_iron
+- Display Name: Molten Wrought Iron
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:xenon>
+- Name: xenon
+- Display Name: Xenon
+- Luminosity:0
+- Density: 10
+- Temperature: 70
+- Viscosity: 10
+- Gaseous: true
+<liquid:xpjuice>
+- Name: xpjuice
+- Display Name: Liquid XP
+- Luminosity:10
+- Density: 800
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:yellow_dye>
+- Name: yellow_dye
+- Display Name: Yellow Dye
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:zinc>
+- Name: zinc
+- Display Name: Molten Zinc
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:zircaloy>
+- Name: zircaloy
+- Display Name: Molten Zircaloy
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:zirconium>
+- Name: zirconium
+- Display Name: Molten Zirconium
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
