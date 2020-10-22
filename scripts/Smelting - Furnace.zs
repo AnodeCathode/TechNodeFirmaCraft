@@ -169,5 +169,5 @@
   furnace.setFuel(<tfc:ore/bituminous_coal>, 1600);
   furnace.setFuel(<tfc:ore/lignite>, 1400);
   furnace.setFuel(<advancedrocketry:thermite>, 3200);
-
+  furnace.setFuel(<betterwithmods:shaft>, 0);
     
