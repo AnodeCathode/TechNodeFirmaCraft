@@ -1,7 +1,7 @@
 modname:libvulpes
 
-texture:id=txt0001,filename=assets/minecraft/textures/blocks/furnace_front_on.png,xcount=1,ycount=1
-texture:id=txt0003,filename=assets/minecraft/textures/blocks/furnace_side.png,xcount=1,ycount=1
+texture:id=txt0001,filename=assets/minecraft/textures/blocks/furnace_side.png,xcount=1,ycount=1
+texture:id=txt0003,filename=assets/minecraft/textures/blocks/furnace_front_on.png,xcount=1,ycount=1
 texture:id=txt0002,filename=assets/minecraft/textures/blocks/furnace_top.png,xcount=1,ycount=1
 texture:id=txt0004,filename=assets/minecraft/textures/blocks/furnace_front_off.png,xcount=1,ycount=1
 block:id=%creativepowerbattery,data=4,transparency=TRANSPARENT,stdrot=true
@@ -38,14 +38,14 @@ block:id=%forgepowerinput,data=11,transparency=TRANSPARENT,stdrot=true
 block:id=%forgepowerinput,data=12,transparency=TRANSPARENT,stdrot=true
 block:id=%forgepowerinput,data=13,transparency=TRANSPARENT,stdrot=true
 block:id=%forgepowerinput,data=14,transparency=TRANSPARENT,stdrot=true
-block:id=%coalgenerator,data=10,patch0=0:txt0003,patch1=0:txt0002,patch2=0:txt0001,patch3=0:txt0003,patch4=0:txt0002,patch5=0:txt0003,stdrot=true
-block:id=%coalgenerator,data=11,patch0=0:txt0003,patch1=5000:txt0002,patch2=0:txt0003,patch3=0:txt0003,patch4=5000:txt0002,patch5=0:txt0001,stdrot=true
-block:id=%coalgenerator,data=4,patch0=0:txt0004,patch1=6000:txt0002,patch2=0:txt0003,patch3=0:txt0003,patch4=4000:txt0002,patch5=0:txt0003,stdrot=true
-block:id=%coalgenerator,data=2,patch0=0:txt0003,patch1=0:txt0002,patch2=0:txt0004,patch3=0:txt0003,patch4=0:txt0002,patch5=0:txt0003,stdrot=true
-block:id=%coalgenerator,data=3,patch0=0:txt0003,patch1=5000:txt0002,patch2=0:txt0003,patch3=0:txt0003,patch4=5000:txt0002,patch5=0:txt0004,stdrot=true
-block:id=%coalgenerator,data=12,patch0=0:txt0001,patch1=6000:txt0002,patch2=0:txt0003,patch3=0:txt0003,patch4=4000:txt0002,patch5=0:txt0003,stdrot=true
-block:id=%coalgenerator,data=5,patch0=0:txt0003,patch1=4000:txt0002,patch2=0:txt0003,patch3=0:txt0004,patch4=6000:txt0002,patch5=0:txt0003,stdrot=true
-block:id=%coalgenerator,data=13,patch0=0:txt0003,patch1=4000:txt0002,patch2=0:txt0003,patch3=0:txt0001,patch4=6000:txt0002,patch5=0:txt0003,stdrot=true
+block:id=%coalgenerator,data=10,patch0=0:txt0001,patch1=0:txt0002,patch2=0:txt0003,patch3=0:txt0001,patch4=0:txt0002,patch5=0:txt0001,stdrot=true
+block:id=%coalgenerator,data=11,patch0=0:txt0001,patch1=5000:txt0002,patch2=0:txt0001,patch3=0:txt0001,patch4=5000:txt0002,patch5=0:txt0003,stdrot=true
+block:id=%coalgenerator,data=4,patch0=0:txt0004,patch1=6000:txt0002,patch2=0:txt0001,patch3=0:txt0001,patch4=4000:txt0002,patch5=0:txt0001,stdrot=true
+block:id=%coalgenerator,data=2,patch0=0:txt0001,patch1=0:txt0002,patch2=0:txt0004,patch3=0:txt0001,patch4=0:txt0002,patch5=0:txt0001,stdrot=true
+block:id=%coalgenerator,data=3,patch0=0:txt0001,patch1=5000:txt0002,patch2=0:txt0001,patch3=0:txt0001,patch4=5000:txt0002,patch5=0:txt0004,stdrot=true
+block:id=%coalgenerator,data=12,patch0=0:txt0003,patch1=6000:txt0002,patch2=0:txt0001,patch3=0:txt0001,patch4=4000:txt0002,patch5=0:txt0001,stdrot=true
+block:id=%coalgenerator,data=5,patch0=0:txt0001,patch1=4000:txt0002,patch2=0:txt0001,patch3=0:txt0004,patch4=6000:txt0002,patch5=0:txt0001,stdrot=true
+block:id=%coalgenerator,data=13,patch0=0:txt0001,patch1=4000:txt0002,patch2=0:txt0001,patch3=0:txt0003,patch4=6000:txt0002,patch5=0:txt0001,stdrot=true
 block:id=%coil0,data=4,transparency=TRANSPARENT,stdrot=true
 block:id=%coil0,data=5,transparency=TRANSPARENT,stdrot=true
 block:id=%coil0,data=6,transparency=TRANSPARENT,stdrot=true
