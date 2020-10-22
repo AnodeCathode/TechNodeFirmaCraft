@@ -27,7 +27,9 @@ var quartziteClay = <tfc:clay/quartzite>;
 var quartziteDirt = <tfc:dirt/quartzite>;
 var quartziteSand = <tfc:sand/quartzite>;
 var oxygen = <liquid:oxygen>;
+var liquidoxygen = <liquid:liquid_oxygen>;
 var hydrogen = <liquid:hydrogen>;
+
 var hydrofluoric_acid = <liquid:hydrofluoric_acid>;
 var carbon_dioxide = <liquid:carbon_dioxide>;
 var boric_acid = <liquid:boric_acid>;
@@ -113,7 +115,7 @@ var methanol = <liquid:methanol>;
   ChemicalReactor.removeRecipeWithInput(<liquid:potassium_fluoride_solution>*666, <liquid:water>*1000);
   ChemicalReactor.addRecipe(<liquid:potassium_fluoride_solution>*666, water*1000, <liquid:potassium_hydroxide_solution>*666, hydrofluoric_acid*1000);
   ChemicalReactor.removeRecipeWithInput(<liquid:oxygen_difluoride>*1000, <liquid:water>*1000);
-  ChemicalReactor.addRecipe(<liquid:oxygen_difluoride>*1000, water*1000, oxygen*666, hydrofluoric_acid*1000);
+  ChemicalReactor.addRecipe(<liquid:oxygen_difluoride>*1000, water*1000, liquidoxygen*666, hydrofluoric_acid*1000);
   ChemicalReactor.removeRecipeWithInput(<liquid:sulfur_trioxide>*1000, <liquid:water>*1000);
   ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*1000, water*1000, <liquid:sulfuric_acid>*666, null);
   ChemicalReactor.removeRecipeWithInput(carbon_dioxide*1000, hydrogen*1000);
@@ -121,16 +123,18 @@ var methanol = <liquid:methanol>;
   ChemicalReactor.removeRecipeWithInput(methanol*1000, hydrofluoric_acid*1000);
   ChemicalReactor.addRecipe(methanol*1000, hydrofluoric_acid*1000, <liquid:fluoromethane>*666, water*1000);
   ChemicalReactor.removeRecipeWithInput(boric_acid*1000, <liquid:ammonia>*1000);
-  ChemicalReactor.addRecipe(boric_acid*1000, <liquid:ammonia>*1000, <liquid:boron_nitride_solution>*666, water*2000);
+  ChemicalReactor.addRecipe(boric_acid*1000, <liquid:liquid_ammonia>*1000, <liquid:boron_nitride_solution>*666, water*2000);
+  ChemicalReactor.removeRecipeWithOutput(<liquid:ammonia> * 500, null);
+  ChemicalReactor.addRecipe(<liquid:hydrogen> * 750, <liquid:nitrogen> * 250,  <liquid:liquid_ammonia> * 500, null);
 
 // Electrolyzer
-  Electrolyzer.addRecipe(water*1000, hydrogen*950, <liquid:deuterium>*50, oxygen*500, null);
+  Electrolyzer.addRecipe(water*1000, hydrogen*950, <liquid:deuterium>*50, liquidoxygen*500, null);
   Electrolyzer.removeRecipeWithInput(<liquid:water>*1000);
   Electrolyzer.removeRecipeWithInput(<liquid:naoh>*666);
-  Electrolyzer.addRecipe(<liquid:naoh>*666, <liquid:sodium>*144, water*1000, oxygen*500, null);
+  Electrolyzer.addRecipe(<liquid:naoh>*666, <liquid:sodium>*144, water*1000, liquidoxygen*500, null);
 
   Electrolyzer.removeRecipeWithInput(<liquid:koh>*666);
-  Electrolyzer.addRecipe(<liquid:koh>*666, <liquid:potassium>*144, water*1000, oxygen*500, null);
+  Electrolyzer.addRecipe(<liquid:koh>*666, <liquid:potassium>*144, water*1000, liquidoxygen*500, null);
 
 
 // Alloy Furnace

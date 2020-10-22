@@ -99,7 +99,7 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 
 // PRECIPITATION CHAMBER
   mods.rockhounding_chemistry.Precipitator.removeByOutput(<liquid:toxic_waste>*700);
-  mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:fresh_water>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
+  mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:fluegas>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
 
 
 // LEACHING VAT
@@ -108,3 +108,8 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 
 // ELECTROCHEMICAL CSTR
   mods.rockhounding_chemistry.StirredTank.add(<liquid:salt_brine>*80, <liquid:fresh_water>*100, <liquid:sodium_hydroxide>*200, null, 4);
+  
+// PURIFIER
+
+mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:flue_gas>*1000);
+mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:fluegas>*1000, <rockhounding_chemistry:chemical_dusts:24>, null);

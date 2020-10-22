@@ -38,6 +38,8 @@ recipes.remove(<libvulpes:productgear:7>);
 recipes.remove(<libvulpes:productgear>);
 recipes.remove(<libvulpes:productgear:1>);
 
+//remove the carbon brick from charcoal recipe. Must use carbon dust
+recipes.remove(<advancedrocketry:misc:1>);
 
 //Shaped
 //recipes.remove(<advancedrocketry:arcfurnace>);
