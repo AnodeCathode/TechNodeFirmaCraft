@@ -1,16 +1,16 @@
 modname:immersivetech
 
-customblock:id=%wooden_crate,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:2:4:5:0:3
-customblock:id=%valve,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:2:4:5:0:3
-customblock:id=%valve,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:2:4:5:0:3
-customblock:id=%valve,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:2:4:5:0:3
+customblock:id=%wooden_crate,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/2:4:3:1:5:0
+customblock:id=%valve,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:4:3:2:5:0
+customblock:id=%valve,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:4:3:2:5:0
+customblock:id=%valve,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:4:3:2:5:0
 customblock:id=%connectors,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer
-customblock:id=%metal_barrel,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.062500:1.000000/0:1:-1:-1:-1:-1,cuboid1=0.000000:0.000000:0.000000/1.000000:1.000000:0.000000/-1:-1:-1:-1:2:-1,cuboid2=0.000000:0.000000:1.000000/1.000000:1.000000:1.000000/-1:-1:-1:-1:-1:3,cuboid3=1.000000:0.000000:0.000000/1.000000:1.000000:1.000000/-1:-1:-1:4:-1:-1,cuboid4=0.000000:0.000000:0.000000/0.000000:1.000000:1.000000/-1:-1:5:-1:-1:-1,cuboid5=0.000000:1.000000:0.000000/0.062500:1.000000:0.062500/-1:6:-1:-1:-1:-1,cuboid6=0.937500:1.000000:0.000000/1.000000:1.000000:0.062500/-1:7:-1:-1:-1:-1,cuboid7=0.000000:1.000000:0.937500/0.062500:1.000000:1.000000/-1:8:-1:-1:-1:-1,cuboid8=0.937500:1.000000:0.937500/1.000000:1.000000:1.000000/-1:9:-1:-1:-1:-1,cuboid9=0.062500:0.062500:0.000000/0.937500:1.000000:0.062500/-1:10:-1:-1:-1:11,cuboid10=0.062500:0.062500:0.937500/0.937500:1.000000:1.000000/-1:13:-1:-1:12:-1,cuboid11=0.937500:0.062500:0.062500/1.000000:1.000000:0.937500/-1:14:15:-1:-1:-1,cuboid12=0.000000:0.062500:0.062500/0.062500:1.000000:0.937500/-1:16:-1:17:-1:-1
+customblock:id=%metal_barrel,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.062500:1.000000/0:1:-1:-1:-1:-1,cuboid1=0.000000:0.000000:0.000000/1.000000:1.000000:0.000000/-1:-1:-1:-1:2:-1,cuboid2=0.000000:0.000000:1.000000/1.000000:1.000000:1.000000/-1:-1:-1:-1:-1:3,cuboid3=1.000000:0.000000:0.000000/1.000000:1.000000:1.000000/-1:-1:-1:4:-1:-1,cuboid4=0.000000:0.000000:0.000000/0.000000:1.000000:1.000000/-1:-1:5:-1:-1:-1,cuboid5=0.000000:1.000000:0.000000/0.062500:1.000000:0.062500/-1:6:-1:-1:-1:-1,cuboid6=0.937500:1.000000:0.000000/1.000000:1.000000:0.062500/-1:7:-1:-1:-1:-1,cuboid7=0.000000:1.000000:0.937500/0.062500:1.000000:1.000000/-1:8:-1:-1:-1:-1,cuboid8=0.937500:1.000000:0.937500/1.000000:1.000000:1.000000/-1:9:-1:-1:-1:-1,cuboid9=0.062500:0.062500:0.000000/0.937500:1.000000:0.062500/-1:11:-1:-1:-1:10,cuboid10=0.062500:0.062500:0.937500/0.937500:1.000000:1.000000/-1:12:-1:-1:13:-1,cuboid11=0.937500:0.062500:0.062500/1.000000:1.000000:0.937500/-1:15:14:-1:-1:-1,cuboid12=0.000000:0.062500:0.062500/0.062500:1.000000:0.937500/-1:17:-1:16:-1:-1
 customblock:id=%metal_barrel,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer
-customblock:id=%metal_barrel,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/1:2:4:5:0:3
-customblock:id=%metal_trash,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/1:2:4:5:0:3,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/7:8:10:11:6:9
-customblock:id=%metal_trash,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/1:2:4:5:0:3,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/7:8:10:11:6:9
-customblock:id=%metal_trash,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/1:2:4:5:0:3,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/7:8:10:11:6:9
+customblock:id=%metal_barrel,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:1.000000:1.000000/2:4:3:1:5:0
+customblock:id=%metal_trash,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/2:4:3:1:5:0,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/8:10:9:7:11:6
+customblock:id=%metal_trash,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/2:4:3:1:5:0,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/8:10:9:7:11:6
+customblock:id=%metal_trash,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.125000:0.000000:0.125000/0.875000:0.812500:0.875000/2:4:3:1:5:0,cuboid1=0.031250:0.812500:0.031250/0.968750:1.000000:0.968750/8:10:9:7:11:6
 customblock:id=%metal_multiblock,data=5,class=org.dynmap.hdmap.renderer.CuboidRenderer
 customblock:id=%metal_multiblock,data=2,class=org.dynmap.hdmap.renderer.CuboidRenderer
 customblock:id=%metal_multiblock,data=13,class=org.dynmap.hdmap.renderer.CuboidRenderer
@@ -27,6 +27,6 @@ customblock:id=%metal_multiblock,data=8,class=org.dynmap.hdmap.renderer.CuboidRe
 customblock:id=%metal_multiblock,data=14,class=org.dynmap.hdmap.renderer.CuboidRenderer
 customblock:id=%metal_multiblock,data=9,class=org.dynmap.hdmap.renderer.CuboidRenderer
 customblock:id=%metal_multiblock,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer
-customblock:id=%stone_decoration_slab,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.500000:1.000000/1:2:4:5:0:3
+customblock:id=%stone_decoration_slab,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer,cuboid0=0.000000:0.000000:0.000000/1.000000:0.500000:1.000000/1:4:3:2:5:0
 customblock:id=%stone_multiblock,data=0,class=org.dynmap.hdmap.renderer.CuboidRenderer
 customblock:id=%stone_multiblock,data=1,class=org.dynmap.hdmap.renderer.CuboidRenderer
