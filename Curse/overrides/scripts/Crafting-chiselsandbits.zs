@@ -1,7 +1,9 @@
 #modloaded chiselsandbits
 #priority 3
 
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 
 val bucket = <tfc:wooden_bucket>;
 val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 1000}});
@@ -9,8 +11,8 @@ val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 
 //#REMOVE Recipes
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
-
-    mods.jei.JEI.removeAndHide(<chiselsandbits:chisel_diamond>);
+  
+    recipes.remove(<chiselsandbits:chisel_diamond>);
     recipes.remove(<chiselsandbits:chisel_gold>);
     recipes.remove(<chiselsandbits:chisel_iron>);
     recipes.remove(<chiselsandbits:tape_measure>);
@@ -18,8 +20,9 @@ val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 
 
 // ================================================================================
 //#ADD SHAPED
-recipes.addShaped("chiselsandbits_chisel_gold", <chiselsandbits:chisel_gold>, [[<tfc:metal/ingot/gold>, <ore:stickWood>]]);
-recipes.addShaped("chiselsandbits_chisel_iron", <chiselsandbits:chisel_iron>, [[<tfc:metal/ingot/wrought_iron>, <ore:stickWood>]]);
+recipes.addShaped("chiselsandbits_chisel_gold", <chiselsandbits:chisel_gold>, [[<tfc:metal/ingot/gold>, <ore:rodGold>]]);
+recipes.addShaped("chiselsandbits_chisel_iron", <chiselsandbits:chisel_iron>, [[<tfc:metal/ingot/wrought_iron>, <ore:rodWroughtIron>]]);
+recipes.addShaped("chiselsandbits_chisel_diamond", <chiselsandbits:chisel_diamond>, [[<ore:gemDiamond>, <ore:stickLongBlueSteel>]]);
 recipes.addShaped("chiselsandbits_tape_measure", <chiselsandbits:tape_measure>, [[null, null, <ore:string>], [<tfc:metal/ingot/wrought_iron>, <ore:string>, <ore:dyeYellow>], [<tfc:metal/ingot/wrought_iron>, <tfc:metal/ingot/wrought_iron>, null]]);
 
 
@@ -33,3 +36,17 @@ recipes.addShapeless("chiselsandbits_mirrorprint", <chiselsandbits:mirrorprint>,
 
 //#REGISTER TFC Size/Heat/Other
   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
+
+  
+val cbrock = <chiselsandbits:chiseled_rock>.asBlock();
+val def = cbrock.definition;
+//sets chiseled rock Hardness
+def.hardness = 40.0;
+
+val cbground = <chiselsandbits:chiseled_ground>.asBlock().definition;
+//sets chiseled ground Hardness
+cbground.hardness = 40.0;
+
+val cbsand = <chiselsandbits:chiseled_sand>.asBlock().definition;
+//sets chiseled sand Hardness
+cbsand.hardness = 40.0;
