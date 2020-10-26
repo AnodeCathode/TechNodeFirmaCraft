@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.37</version>
+        <version>12.2.38</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -31,7 +31,7 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.5.163" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.5.163.jar" file="TerraFirmaCraft-MC1.12.2-1.7.5.163.jar" md5="d3c6e368043eab7988733f3476b38d02" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.6.164" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.6.164.jar" file="TerraFirmaCraft-MC1.12.2-1.7.6.164.jar" md5="38420b079d5800c41a28a43d89214bb3" download="server" type="mods" colour="green"/>
 
         
         <!--TFC Addons Mods -->
