@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.36</version>
+        <version>12.2.37</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -49,7 +49,7 @@
         
         <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TerraFirmaThings" version="1.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-1.0.0.jar" file="terrafirmathings-1.0.0.jar" md5="de74cb9b679014eb71a2682360625597" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        <mod name="TerraFirmaThings" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-1.0.1.jar" file="terrafirmathings-1.0.1.jar" md5="ef971d28c93f6e2e4ca285d701fc9efa" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TFC Storage" version="1.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.6.jar" file="TFCStorage-1.0.6.jar" md5="a6df882bc67f779dc05e6d59b96ff513" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
@@ -188,7 +188,7 @@
         
         <mod name="SwingThroughGrass" version="1.12.2-1.2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/stg-1.12.2-1.2.3.jar" file="stg-1.12.2-1.2.3.jar" md5="b836648006f1451c65d33f7132eec770" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
 
-        <mod name="The One Probe" version="1.12-1.4.28" url="packs/TechNodefirmacraft/files/1.12.2Mods/theoneprobe-1.12-1.4.28.jar" file="theoneprobe-1.12-1.4.28.jar" md5="63849a13a822b3b56308245eb8074a7e" download="server" type="mods" />
+        <mod name="Waila" version="1.8.26" url="packs/TechNodefirmacraft/files/1.12.2Mods/Hwyla-1.8.26-B41_1.12.2.jar" file="Hwyla-1.8.26-B41_1.12.2.jar" md5="bca1c069d9171d331d211d24e8a3b770" download="server" type="mods"  colour="purple" client="yes" server="yes" recommended="yes" selected="yes" />
         
         <mod name="Chunk-Pregenerator" version="V1.12-2.4E.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/Chunk Pregenerator V1.12-2.4E.jar" file="Chunk Pregenerator V1.12-2.4E.jar" md5="13754308a5072489e72551378c31f8f3" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" selected="yes"/>
         
@@ -297,13 +297,13 @@
 
 <!-- Resource Packs -->
 
-<mod name="TNFC ResourcePacks" version="12.2.20" type="extract" extractto="root" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.12.2.20.zip" file="resourcepacks.12.2.20.zip" md5="ddb8e1f2e9d333898506315fc0b01858" download="server" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" client="yes" colour="green" server="no" recommended="yes" optional="yes" selected="yes"/>
+<mod name="TNFC ResourcePacks" version="12.2.37" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.12.2.37.zip" file="resourcepacks.12.2.37.zip" md5="cd79d046a429e4581ce565cb0aeabff8" download="server" type="extract" extractto="root" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" client="yes" colour="green" server="no" recommended="yes" optional="yes" selected="yes"/>
           
 <!-- Pack Extraction -->
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
                
-        <mod name="CT Scripts" version="12.2.36"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.36.zip" file="scripts.12.2.36.zip" md5="fc689e04122e631938318b2cafe0c1ce" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.37" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.37.zip" file="scripts.12.2.37.zip" md5="cfa60df961701a289a12e057b573d0a8" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     
 
