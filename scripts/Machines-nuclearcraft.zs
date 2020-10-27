@@ -1,7 +1,10 @@
 #priority 2
 #modloaded nuclearcraft
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.ChemicalReactor;
@@ -12,6 +15,9 @@ import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.RockCrusher;
 import mods.nuclearcraft.ChanceItemIngredient;
 import mods.nuclearcraft.Supercooler;
+import mods.nuclearcraft.Pressurizer;
+import mods.nuclearcraft.Melter;
+import mods.nuclearcraft.IngotFormer;
 
 var water = <liquid:fresh_water>;
 var limewater = <liquid:limewater>;
@@ -144,3 +150,36 @@ var methanol = <liquid:methanol>;
 // SuperCooler
 //Supercooler.addRecipe(ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
   Supercooler.addRecipe(water * 250 , <liquid:ice> * 250, 0.25, 0.5, 0.0);
+  
+//Pressurizer
+//Pressurizer.addRecipe(IIngredient itemInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+  Pressurizer.removeRecipeWithInput(<minecraft:iron_ingot>);
+  
+  Pressurizer.removeRecipeWithOutput(<minecraft:coal>);
+  Pressurizer.addRecipe(<tfc:powder/graphite> * 2, <tfc:ore/bituminous_coal>);
+
+//Melter
+//mods.nuclearcraft.Melter.removeRecipeWithInput(IIngredient itemInput);
+//Melter.addRecipe(IIngredient itemInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+Melter.removeRecipeWithInput(<rockhounding_chemistry:alloy_blocks_tech_b:2>);
+Melter.removeRecipeWithInput(<libvulpes:metal0:7>);
+Melter.removeRecipeWithInput(<immersiveengineering:storage:6>);
+Melter.removeRecipeWithInput(<immersiveengineering:storage:7>);
+Melter.removeRecipeWithInput(<immersiveengineering:storage:8>);
+Melter.removeRecipeWithInput(<immersiveengineering:storage:4>);
+Melter.removeRecipeWithInput(<ore:blockSilver>);
+Melter.removeRecipeWithInput(<ore:blockAluminum>);
+Melter.removeRecipeWithInput(<ore:blockLead>);
+Melter.removeRecipeWithInput(<ore:blockCopper>);
+Melter.removeRecipeWithInput(<ore:blockTin>);
+Melter.removeRecipeWithInput(<ore:blockGold>);
+Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:11>);
+Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:7>);
+Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:6>);
+Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:5>);
+
+//Ingot Former
+  //mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(IIngredient itemOutput);
+
+
+
