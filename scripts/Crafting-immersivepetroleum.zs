@@ -2,6 +2,8 @@
 #modloaded immersivepetroleum
 
 //#REMOVE Recipes
+  //ice breaker bow doesn't work
+  mods.jei.JEI.removeAndHide(<immersivepetroleum:upgrades:1>);
   recipes.remove(<immersivepetroleum:metal_device:1>);
   recipes.remove(<immersivepetroleum:metal_device>);
   recipes.remove(<immersivepetroleum:oil_can>);
@@ -9,7 +11,7 @@
   recipes.remove(<immersivepetroleum:speedboat>);
   recipes.remove(<immersivepetroleum:stone_decoration>);
   recipes.remove(<immersivepetroleum:stone_decoration>);
-  recipes.remove(<immersivepetroleum:upgrades:1>);
+  
   recipes.remove(<immersivepetroleum:upgrades:2>);
   recipes.remove(<immersivepetroleum:upgrades:3>);
   recipes.remove(<immersivepetroleum:upgrades:4>);
@@ -25,7 +27,7 @@
   recipes.addShaped("immersivepetroleum_speedboat/speedboat", <immersivepetroleum:speedboat>, [[<ore:plankTreatedWood>, <immersiveengineering:material:8>, <immersiveengineering:metal_decoration0:4>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
   recipes.addShaped("immersivepetroleum_speedboat/rudders", <immersivepetroleum:upgrades:3>, [[null, <ore:rodWroughtIron>, <ore:rodWroughtIron>], [<ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>], [<ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>, <ore:drawPlateWroughtIron>]]);
   recipes.addShaped("immersivepetroleum_speedboat/reinforced_hull", <immersivepetroleum:upgrades>, [[<ore:sheetSteel>, null, <ore:sheetSteel>], [<ore:sheetSteel>, <ore:blockSteel>, <ore:sheetSteel>]]);
-  recipes.addShaped("immersivepetroleum_speedboat/icebreaker_bow", <immersivepetroleum:upgrades:1>, [[<ore:ingotSteel>, null, <ore:sheetSteel>], [null, <ore:sheetSteel>, <ore:sheetSteel>], [<ore:sheetSteel>, <ore:sheetSteel>, <ore:blockSteel>]]);
+  //recipes.addShaped("immersivepetroleum_speedboat/icebreaker_bow", <immersivepetroleum:upgrades:1>, [[<ore:ingotSteel>, null, <ore:sheetSteel>], [null, <ore:sheetSteel>, <ore:sheetSteel>], [<ore:sheetSteel>, <ore:sheetSteel>, <ore:blockSteel>]]);
   recipes.addShaped("immersivepetroleum_speedboat/expanded_tank", <immersivepetroleum:upgrades:2>, [[null, <ore:drawPlateWroughtIron>, null], [<ore:sheetIron>, <immersiveengineering:metal_device0:4>, <ore:sheetIron>], [null, <ore:sheetIron>, null]]);
   recipes.addShaped("immersivepetroleum_speedboat/emergency_paddles", <immersivepetroleum:upgrades:4>, [[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], [<ore:plankTreatedWood>, null, <ore:plankTreatedWood>]]);
   recipes.addShaped("immersivepetroleum_misc/drill_lube_alt", <immersiveengineering:toolupgrade:1>, [[<ore:craftingToolMediumHammer>, <tfc:metal/ingot/wrought_iron>, null], [<tfc:metal/ingot/wrought_iron>, null, <tfc:metal/ingot/wrought_iron>], [null, <tfc:metal/ingot/wrought_iron>, <immersiveengineering:material:8>]]);
