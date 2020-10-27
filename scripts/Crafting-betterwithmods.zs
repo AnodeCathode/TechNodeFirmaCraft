@@ -85,6 +85,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:material:19>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:20>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:21>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:material:22>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:23>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:24>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:25>);
