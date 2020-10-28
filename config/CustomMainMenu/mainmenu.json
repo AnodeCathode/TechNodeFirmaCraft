@@ -2,10 +2,10 @@
 	"images": {
 		"title": {
 			"image": "tnfcmod:textures/mainmenu/technodefirmacraft.png",
-			"posX": -250,
+			"posX": -200,
 			"posY": 50,
-			"width": 500,
-			"height": 50,
+			"width": 400,
+			"height": 48,
 			"alignment": "top_center"
 		},
     "poweredby": {
@@ -119,7 +119,7 @@
 			"height": 45,
 			"action": {
 				"type": "openLink",
-				"link": "https://discord.com/invite/xWH4tcY"
+				"link": "https://discord.gg/RWhWcRj"
 			}
 		},
 		"Subreddit": {
@@ -135,8 +135,22 @@
 				"type": "openLink",
 				"link": "http://www.reddit.com/r/Technode"
 			}
-		}
-	},
+		},
+		"Bisect": {
+			"text": "",
+			"texture": "tnfcmod:textures/mainmenu/bisect.png",
+			"hoverText": "Get great MC Hosting",
+			"alignment": "bottom_center",
+			"posX": -22,
+			"posY": -60,
+			"width": 45,
+			"height": 49,
+			"action": {
+				"type": "openLink",
+				"link": "https://bisecthosting.com/TNFC"
+			}
+	}
+},
 	"labels": {
 		"mojang": {
 			"text": "Forge #forgeversion# for MC #mcversion#",
@@ -146,7 +160,7 @@
 			"alignment": "bottom_left"
 		},
 		"modpack": {
-			"text": "TechNodefirmacraft 12.2.38 Beta",
+			"text": "TechNodefirmacraft 12.2.39 Beta",
 			"posX": 2,
 			"posY": -30,
 			"color": -1,
@@ -157,7 +171,12 @@
 		"background": {
 			"image": "",
 			"slideshow": {
-				"images": ["tnfcmod:textures/mainmenu/background.png"],
+				"images": ["tnfcmod:textures/mainmenu/background.png",
+        "tnfcmod:textures/mainmenu/slideshow/flobilbo.png",
+        "tnfcmod:textures/mainmenu/slideshow/benanov.png",
+        "tnfcmod:textures/mainmenu/slideshow/flobilbo2.png",
+        "tnfcmod:textures/mainmenu/slideshow/rocket.png"
+        ],
 				"displayDuration": 150,
 				"fadeDuration": 40,
 				"shuffle": false
