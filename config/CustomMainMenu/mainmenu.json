@@ -10,7 +10,7 @@
 		},
     "poweredby": {
 			"image": "tnfcmod:textures/mainmenu/tfcpower.png",
-			"posX": -150,
+			"posX": -170,
 			"posY": -60,
 			"width": 150,
 			"height": 37,
