@@ -4,7 +4,6 @@
 //#REMOVE Recipes
     recipes.remove(<openblocks:hang_glider>);
     recipes.remove(<openblocks:generic>);
-    recipes.remove(<openblocks:beartrap>);
     recipes.remove(<openblocks:item_dropper>);
     recipes.remove(<openblocks:scaffolding>);
     recipes.remove(<openblocks:rope_ladder>);
@@ -25,7 +24,6 @@
     
     recipes.addShaped("tnfc_openblocks_scaffolding", <openblocks:scaffolding> * 2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]); 
     recipes.addShaped("tnfc_openblocks_item_dropper", <openblocks:item_dropper>, [[<tfc:metal/ingot/wrought_iron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<tfc:metal/ingot/wrought_iron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
-    recipes.addShaped("tnfc_openblocks_beartrap", <openblocks:beartrap>, [[<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <tfc:metal/ingot/wrought_iron>, <minecraft:iron_bars>]]);
     recipes.addShaped("tnfc_openblocks_hang_glider", <openblocks:hang_glider>, [[null, <ore:sheetTitanium>, null],[<openblocks:generic>, <ore:plasticBrown>, <openblocks:generic>],[null, <ore:sheetTitanium>, null]]);
     recipes.addShaped("tnfc_openblocks_generic", <openblocks:generic>, [[null, <ore:plasticBrown>, <rockhounding_chemistry:sodium_polyacrylate>], [<ore:plasticBrown>, <tfc:animal/product/silk_cloth>, <rockhounding_chemistry:sodium_polyacrylate>], [<ore:leather>, <rockhounding_chemistry:sodium_polyacrylate>, <ore:leather>]]);
     recipes.addShaped("tnfc_openblocks_rope_ladder1", <openblocks:rope_ladder> * 16, [[<ore:string>, <ore:stickWood>, <ore:string>], [<ore:string>, <ore:stickWood>, <ore:string>], [<ore:string>, <ore:stickWood>, <ore:string>]]);
