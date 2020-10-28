@@ -21,7 +21,7 @@ val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 
 
 // ================================================================================
 //#ADD SHAPED
-recipes.addShaped("chiselsandbits:chisel_stone", <chiselsandbits:chisel_stone>, [[<ore:cobblestone>, <ore:stickWood>]]);
+recipes.addShaped("chiselsandbits_chisel_stone", <chiselsandbits:chisel_stone>, [[<ore:cobblestone>, <ore:stickWood>]]);
 recipes.addShaped("chiselsandbits_chisel_gold", <chiselsandbits:chisel_gold>, [[<tfc:metal/ingot/gold>, <ore:rodGold>]]);
 recipes.addShaped("chiselsandbits_chisel_iron", <chiselsandbits:chisel_iron>, [[<tfc:metal/ingot/wrought_iron>, <ore:rodWroughtIron>]]);
 recipes.addShaped("chiselsandbits_chisel_diamond", <chiselsandbits:chisel_diamond>, [[<ore:gemDiamond>, <ore:stickLongBlueSteel>]]);

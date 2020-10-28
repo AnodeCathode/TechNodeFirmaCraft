@@ -36,7 +36,6 @@
 //#REGISTER TFC Size/Heat/Other
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:scaffolding>, "VERY_SMALL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:item_dropper>, "VERY_SMALL", "LIGHT");
-    mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:beartrap>, "VERY_SMALL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:hang_glider>, "LARGE", "HEAVY");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:tank>, "LARGE", "HEAVY");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:rope_ladder>, "VERY_SMALL", "LIGHT");

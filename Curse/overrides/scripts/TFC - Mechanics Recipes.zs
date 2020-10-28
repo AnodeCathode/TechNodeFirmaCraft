@@ -60,7 +60,7 @@ mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jut
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:treated_wood", <ore:plankWood> * 8, <liquid:creosote> * 1000, <immersiveengineering:treated_wood> * 8, null, 1);
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:tallow", <ore:categoryMeat> * 4, <liquid:hot_water> * 250, <betterwithmods:material:13> * 4, null, 8);
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:sugar", <tfc:food/beet> * 8, <liquid:hot_water> * 250, <minecraft:sugar> * 1, null, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:woodpulp", <betterwithmods:material:22> * 1, <liquid:vinegar> * 100, <tnfcmod:woodpulp> * 1, null, 8);
+mods.terrafirmacraft.Barrel.addRecipe("tnfc:woodpulp", <tfctech:powder/wood> * 1, <liquid:vinegar> * 100, <tnfcmod:woodpulp> * 1, null, 8);
 
 // Quern Recipe
 

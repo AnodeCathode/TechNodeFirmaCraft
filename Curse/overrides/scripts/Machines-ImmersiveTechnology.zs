@@ -15,8 +15,9 @@
     
 // Solar Tower  
     mods.immersivetechnology.SolarTower.removeRecipe(<liquid:water>);  
-    mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 500, <liquid:fresh_water> * 250, 20);
-    
+    mods.immersivetechnology.SolarTower.removeRecipe(<liquid:distwater>);  
+    mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 450, <liquid:fresh_water> * 250, 20);
+    mods.immersivetechnology.SolarTower.addRecipe(<liquid:steam> * 500, <liquid:distwater> * 250, 20);
     
 // Steam Turbine
     mods.immersivetechnology.SteamTurbine.removeFuel(<liquid:steam>);
