@@ -12,7 +12,7 @@ val waterbucket = bucket.onlyWithTag({Fluid: {FluidName: "fresh_water", Amount: 
   // mods.jei.JEI.removeAndHide(<adhooks:spear_launcher>);
   // recipes.remove(<adhooks:prototype_launcher>);
   
-    recipes.remove(<chiselsandbits:chisel_stone>);)
+    recipes.remove(<chiselsandbits:chisel_stone>);
     recipes.remove(<chiselsandbits:chisel_diamond>);
     recipes.remove(<chiselsandbits:chisel_gold>);
     recipes.remove(<chiselsandbits:chisel_iron>);
