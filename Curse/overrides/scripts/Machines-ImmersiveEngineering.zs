@@ -58,6 +58,18 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Vanilla Anvil - Shhhh
     mods.immersiveengineering.MetalPress.addRecipe(<minecraft:anvil>, <tfc:metal/double_ingot/tungsten_steel>, <immersiveengineering:storage:8>, 2400, 7);
     
+  //Soul forged steel stuff
+    // Plate
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:51>, <betterwithmods:material:14>, <immersiveengineering:mold>, 2400, 1);
+    // Gear
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:48>, <betterwithmods:material:51>, <immersiveengineering:mold:1>, 2400, 5);
+    //Ingot
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:14>, <betterwithmods:material:30>, <rockhounding_chemistry:alloy_blocks_tech:12>, 2400, 9);
+    //Anvil
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:steel_anvil>, <betterwithmods:steel_block>, <rockhounding_chemistry:alloy_blocks_tech:2>, 2400, 7);
+    //Block
+    mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:steel_block>, <betterwithmods:material:14>, <rockhounding_chemistry:alloy_blocks_tech:9>, 2400, 16);
+    
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
 	
@@ -487,6 +499,14 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Make some leather straps
     mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
+//Mixer
+// Removal
+	//OutputStack
+	//mods.immersiveengineering.Mixer.removeRecipe(<liquid:lava>);
+// Addition
+	//OutputFluid, InputFluid, InputFluid1
+	//mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
+	mods.immersiveengineering.Mixer.addRecipe(<liquid:napalm> * 500, <liquid:fuel> * 500, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>], 3000);
 
    
     

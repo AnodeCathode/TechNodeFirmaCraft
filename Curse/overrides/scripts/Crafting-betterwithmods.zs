@@ -17,6 +17,23 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     recipes.remove(<betterwithmods:candle_holder:*>);
 
 
+    //Soul forged stuff
+    //recipes.remove(<betterwithmods:material:30>);
+    //ingot
+    recipes.remove(<betterwithmods:material:14>);
+    //anvil
+    recipes.remove(<betterwithmods:steel_anvil>);
+    //gear
+    //recipes.remove(<betterwithmods:material:48>);
+    //plate
+    recipes.remove(<betterwithmods:material:51>);
+    //block
+    //recipes.remove(<betterwithmods:steel_block>);
+    
+    //recipes.remove(<betterwithmods:steel_gearbox>);    
+    recipes.remove(<betterwithmods:infernal_enchanter>);
+    //recipes.remove(<betterwithmods:arcane_scroll>);
+    recipes.remove(<betterwithmods:steel_axle>);
     
     //Armour and weapons I'd like to fix or find a use for
     mods.jei.JEI.removeAndHide(<betterwithmods:composite_bow:*>);
@@ -28,12 +45,28 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
     mods.jei.JEI.removeAndHide(<betterwithmods:wool_helmet>);
     mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
-
+    //Chestplate
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_chest>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_axe:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_boots:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_broken_gearbox:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_broken_gearbox:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_hacksaw:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_helmet:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_hoe:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_mattock:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pants:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pickaxe:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pressure_plate:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_shovel:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword:*>);
+    
     
     //Currently uncraftables    
     mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:anchor:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:arcane_scroll:*>);
+    mods.jei.JEI.removeAndHide(<betterwithmods:steel_saw>);
     mods.jei.JEI.removeAndHide(<betterwithmods:axle_generator:1>);
     mods.jei.JEI.removeAndHide(<betterwithmods:bark:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:bat_wing:*>);
@@ -62,7 +95,6 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:hemp:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:hibachi:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:infernal_enchanter:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:iron_wall:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:kibble:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:lens:*>);
@@ -93,7 +125,6 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:material:27>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:28>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:29>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:material:30>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:31>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:32>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:33>);
@@ -109,10 +140,8 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:material:45>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:47>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:material:48>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:49>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:50>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:material:51>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:52>);
     mods.jei.JEI.removeAndHide(<betterwithmods:material:53>);
     mods.jei.JEI.removeAndHide(<betterwithmods:metal_chime:*>);
@@ -126,26 +155,6 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:single_machine:3>);
     mods.jei.JEI.removeAndHide(<betterwithmods:slats:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:stake:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_anvil:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_axe:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_axle:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_block:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_boots:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_broken_gearbox:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_broken_gearbox:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_chest:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_gearbox>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_hacksaw:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_helmet:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_hoe:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_mattock:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pants:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pickaxe:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_pressure_plate:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_saw:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_shovel:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:stone_corner:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:stone_moulding:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:*>);
@@ -160,7 +169,6 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:wood_table:*>);
     
-    
 // ================================================================================
 //#ADD SHAPED
     recipes.addShaped("tnfc_bwm_wood_gear",<betterwithmods:material:0>, [[<ore:stickWood>, <ore:lumber>, <ore:stickWood>], [<ore:lumber>, <ore:plankWood>, <ore:lumber>], [<ore:stickWood>, <ore:lumber>, <ore:stickWood>]]);
@@ -169,6 +177,9 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     //recipes.addShaped("tnfc_bwm_cauldron",<betterwithmods:cooking_pot:1>, [[<ore:ingotDoubleCopper>, <minecraft:bone>, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, waterbucket, <ore:ingotDoubleCopper>], [<ore:ingotDoubleCopper>, <tfc:metal/double_ingot/copper>, <ore:ingotDoubleCopper>]]);
     recipes.addShaped("tnfc_bwm_mill",<betterwithmods:single_machine:0>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
+    //Infernal Enchanter
+    recipes.addShaped("tnfc_bwm_blocks/infernal_enchanter", <betterwithmods:infernal_enchanter>, [[<advancedrocketry:productrod:1>, <libvulpes:productgem>, <advancedrocketry:productrod:1>], [<ore:blockSoulforgedSteel>, <rockhounding_chemistry:didymium_glass:2>, <ore:blockSoulforgedSteel>], [<rockhounding_chemistry:alloy_bricks_tech:3>, <rockhounding_chemistry:alloy_bricks_gems:0>, <rockhounding_chemistry:alloy_bricks_gems:1>]]);
+    
     //Bamboo chimes
     recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_0", <betterwithmods:bamboo_chime>, [[null, <ore:string>, null], [<ore:string>, <tfc:wood/pressure_plate/oak>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);
     recipes.addShaped("tnfc_bwm_blocks/redstone/chime/bamboo_chime_1", <betterwithmods:bamboo_chime:1>, [[null, <ore:string>, null], [<ore:string>, <tfc:wood/pressure_plate/spruce>, <ore:string>], [<ore:tuyere>, null, <ore:tuyere>]]);

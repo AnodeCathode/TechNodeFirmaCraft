@@ -8,6 +8,11 @@ val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);
 
+val gearBronze = <ore:gearBronze>;
+    gearBronze.addItems([
+  <tfctech:metal/black_bronze_gear>,
+  <tfctech:metal/bismuth_bronze_gear>
+  ]);
 
 val materialRubber = <ore:materialRubber>;
     materialRubber.addItems([
