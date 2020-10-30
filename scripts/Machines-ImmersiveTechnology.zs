@@ -29,5 +29,7 @@
     mods.immersivetechnology.PressurizedFluid.add(<fluid:salt_water>);
 	
 // Gas Turbine
-	mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:fuel> * 300, 1);
 	mods.immersivetechnology.GasTurbine.removeFuel(<liquid:gasoline>);
+	mods.immersivetechnology.GasTurbine.removeFuel(<liquid:diesel>);
+	mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:fuel> * 300, 1);
+	mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:diesel> * 150, 1);
