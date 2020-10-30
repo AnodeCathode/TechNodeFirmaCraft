@@ -293,4 +293,13 @@
 			<itemStack>immersiveengineering:metal;1;36</itemStack>
 		</output>
 	</Recipe>
+  	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSoulforgedSteel</oreDict>
+			<fluidStack>fresh_water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>betterwithmods:material;1;51</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

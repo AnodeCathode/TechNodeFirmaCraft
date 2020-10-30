@@ -360,4 +360,12 @@
 			<itemStack>tfc:brass_mechanisms;4</itemStack>
 		</output>
 	</Recipe>
+  <Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>blockSoulforgedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>betterwithmods:steel_axle;2</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
