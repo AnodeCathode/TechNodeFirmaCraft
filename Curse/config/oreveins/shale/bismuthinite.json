@@ -1,0 +1,22 @@
+{
+  "bismuthinite_shale": {
+    "type": "cluster",
+    "ore": "tfc:ore/bismuthinite/shale",
+    "stone": [
+      "tfc:raw/shale"
+    ],
+    "rarity": 110,
+    "count": 1,
+    "min_y": 5,
+    "max_y": 58,
+    "density": 70,
+    "vertical_size": 36,
+    "horizontal_size": 28,
+    "dimensions": [
+      0,
+      1,
+      -1
+    ],
+    "dimensions_is_whitelist": false
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "npchumanfemale",
+  "Registry ID": "customnpcs:npchumanfemale",
+  "Class": "noppes.npcs.entity.old.EntityNPCHumanFemale"
+}

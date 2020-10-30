@@ -1,0 +1,66 @@
+
+{
+  "ID": 12,
+  "Name": "Ice Plains",
+  "Resource Location": "minecraft:ice_flats",
+  "Class": "net.minecraft.world.biome.BiomeSnow",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "tfc:sand/dolomite",
+  "Filler Block": "tfc:gravel/dolomite",
+  "Ocean Top Block": "tfc:gravel/basalt",
+  "Ocean Filler Block": "tfc:sand/basalt",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "tfc:raw/dolomite[can_fall\u003dtrue]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "SNOWY",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {
+    "ICY Weights": [
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

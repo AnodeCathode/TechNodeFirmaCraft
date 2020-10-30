@@ -1,0 +1,534 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="TerraFirmaEarth" DIMID="0" dimMapping="" customIcon="earthlike">
+            <isKnown>True</isKnown>
+             <planet name="Prospit" DIMID="100">
+                <isKnown>true</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <orbitalPhi>0</orbitalPhi>
+                <orbitalTheta>45</orbitalTheta>
+                <atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
+              </planet>
+        </planet>
+      <planet name="Planet ZeroZero" DIMID="5" customIcon="earthlike">
+          <fogColor>1.0,1.0,1.0</fogColor>
+          <skyColor>1.0,1.0,1.0</skyColor>
+          <isKnown>False</isKnown>
+          <atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+          <gravitationalMultiplier>100</gravitationalMultiplier>
+          <orbitalDistance>1000</orbitalDistance>
+          <orbitalTheta>180</orbitalTheta>
+          <biomeIds>minecraft:desert_hills,minecraft:plains,minecraft:desert,minecraft:extreme_hills,minecraft:forest,minecraft:forest_hills,minecraft:jungle</biomeIds>
+            <planet name="LaunchFromZeroZeroToEnd" DIMID="1" dimMapping="" customIcon="moon">
+              <isKnown>True</isKnown>
+              <orbitalTheta>180</orbitalTheta>
+              <orbitalDistance>200</orbitalDistance>
+           </planet>
+      </planet>
+      <planet name="Mercury" DIMID="101" customIcon="lava">
+        <isKnown>false</isKnown>
+        <fogColor>1.0,1.0,1.0</fogColor>
+        <skyColor>0.0,0.0,0.0</skyColor>
+        <gravitationalMultiplier>38</gravitationalMultiplier>
+        <orbitalDistance>40</orbitalDistance>
+        <orbitalPhi>0</orbitalPhi>
+        <atmosphereDensity>120</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+        <biomeIds>advancedrocketry:hotdryrock</biomeIds>
+		</planet>
+		<planet name="Venus" DIMID="102" customIcon="lava">
+			<isKnown>false</isKnown>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<skyColor>0.0,0.0,0.0</skyColor>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>72</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>120</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>minecraft:deep_ocean,minecraft:desert_hills,minecraft:desert,minecraft:plains</biomeIds>
+		</planet>
+		<planet name="Mars" DIMID="4598" dimMapping="" customIcon="marslike">
+			<isKnown>false</isKnown>
+			<fogColor>0.9,0.6,0.1</fogColor>
+			<skyColor>1.0,0.2,0.0</skyColor>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>105</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+		</planet>
+		<planet name="Jupiter" DIMID="104" customIcon="gasgiantred">
+			<isKnown>false</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>120</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<planet name="Io" DIMID="105" customIcon="moon">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>70</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
+			</planet>
+			<planet name="Europa" DIMID="106" customIcon="waterworld">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>90</orbitalDistance>
+				<orbitalPhi>88</orbitalPhi>
+				<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>minecraft:frozen_ocean</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Saturn" DIMID="107" customIcon="gasgiantblue">
+			<isKnown>false</isKnown>
+			<hasRings>true</hasRings>
+			<ringColor>0.4,0.4,0.7</ringColor>
+			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<planet name="Titan" DIMID="108" customIcon="moon">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>30</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<orbitalPhi>120</orbitalPhi>
+				<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Uranus" DIMID="109" customIcon="iceworld">
+			<isKnown>false</isKnown>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<skyColor>0.0,0.9,1.0</skyColor>
+			<gravitationalMultiplier>89</gravitationalMultiplier>
+			<orbitalDistance>150</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
+		</planet>
+		<planet name="Neptune" DIMID="110" customIcon="iceworld">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.0,0.5,1.0</skyColor>
+			<gravitationalMultiplier>110</gravitationalMultiplier>
+			<orbitalDistance>180</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+		</planet>
+    </star>
+  <star name="Proxima Centauri" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="Terra Nova" DIMID="112" customIcon="earthlike">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>70</gravitationalMultiplier>
+			<orbitalDistance>70</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>minecraft:jungle,minecraft:redwood_taiga,minecraft:deep_ocean,minecraft:stone_beach,advancedrocketry:oceanspires</biomeIds>
+		</planet>
+		<planet name="Novus" DIMID="113" customIcon="lava">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>75</gravitationalMultiplier>
+			<orbitalDistance>80</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+		</planet>
+		<planet name="Stella" DIMID="114" customIcon="earthlike">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>75</gravitationalMultiplier>
+			<orbitalDistance>90</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>minecraft:desert_hills,minecraft:jungle,minecraft:extreme_hills,minecraft:birch_forest_hills,minecraft:desert</biomeIds>
+		</planet>
+		<planet name="Philucka" DIMID="115" customIcon="marslike">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>75</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:stormland</biomeIds>
+		</planet>
+		<planet name="Hubble" DIMID="116" customIcon="gasgiantred">
+			<isKnown>false</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>oxygen</gas>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+		</planet>
+		<planet name="Proxima B" DIMID="111" customIcon="earthlike">
+			<isKnown>false</isKnown>
+			<fogColor>0.0,0.0,1.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>80</gravitationalMultiplier>
+			<orbitalDistance>50</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:crystalchasms</biomeIds>
+		</planet>
+	</star>
+  <star name="HD 42176" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
+		<planet name="KELT-1b" DIMID="117" customIcon="gasgiantblue">
+			<isKnown>false</isKnown>
+			<hasRings>true</hasRings>
+			<ringColor>0.4,0.4,0.7</ringColor>
+			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<fogColor>0.0,0.0,1.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>35</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>100</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+		</planet>
+		<planet name="KELT-2ab" DIMID="118" customIcon="waterworld">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>120</gravitationalMultiplier>
+			<orbitalDistance>40</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>minecraft:frozen_ocean</biomeIds>
+		</planet>
+		<planet name="KELT-3" DIMID="119" customIcon="marslike">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>120</gravitationalMultiplier>
+			<orbitalDistance>80</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+		</planet>
+	</star>
+	<star name="HD 63776" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
+		<planet name="KELT-4ab" DIMID="120" customIcon="iceworld">
+			<isKnown>false</isKnown>
+			<hasRings>true</hasRings>
+			<ringColor>0.4,0.4,0.7</ringColor>
+			<fogColor>0.0,0.0,1.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>60</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+		</planet>
+		<planet name="KELT-6a" DIMID="121" customIcon="earthlike">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,0.0,0.5</fogColor>
+			<skyColor>1.0,0.0,1.0</skyColor>
+			<gravitationalMultiplier>70</gravitationalMultiplier>
+			<orbitalDistance>110</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:alien_forest</biomeIds>
+		</planet>
+		<planet name="Kepler 0118" DIMID="122" customIcon="lava">
+			<isKnown>false</isKnown>
+			<hasRings>true</hasRings>
+			<ringColor>0.4,0.4,0.7</ringColor>
+			<fogColor>0.0,0.0,1.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>60</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+		</planet>
+		<planet name="Kepler 0119" DIMID="123" customIcon="marslike">
+			<isKnown>false</isKnown>
+			<fogColor>0.0,0.0,1.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>60</gravitationalMultiplier>
+			<orbitalDistance>140</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>0</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+		</planet>
+	</star>
+	<star name="Rigil Kentaurus" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
+		<planet name="Sol-132" DIMID="132">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.71757305,0.062281966</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>95</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
+			<atmosphereDensity>164</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-133" DIMID="133">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.60471344,0.8646034</skyColor>
+			<gravitationalMultiplier>94</gravitationalMultiplier>
+			<orbitalDistance>99</orbitalDistance>
+			<orbitalPhi>2</orbitalPhi>
+			<atmosphereDensity>79</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>minecraft:swampland,minecraft:plains,minecraft:plains,minecraft:mesa_rock,minecraft:ocean</biomeIds>
+		</planet>
+		<planet name="Sol-126" DIMID="126">
+			<isKnown>false</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>oxygen</gas>
+			<gas>hydrogen</gas>
+			<gas>nitrogen</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>109</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<planet name="Sol-126: 1" DIMID="128">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.7288108,1.0</skyColor>
+				<gravitationalMultiplier>64</gravitationalMultiplier>
+				<orbitalDistance>193</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<atmosphereDensity>13</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-126: 2" DIMID="129">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.2173267,0.7204447,1.0</skyColor>
+				<gravitationalMultiplier>64</gravitationalMultiplier>
+				<orbitalDistance>136</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>18</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-126: 3" DIMID="130">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.72150207,1.0</skyColor>
+				<gravitationalMultiplier>43</gravitationalMultiplier>
+				<orbitalDistance>188</orbitalDistance>
+				<orbitalPhi>-5</orbitalPhi>
+				<atmosphereDensity>15</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-126: 4" DIMID="131">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.4899966,0.89074844,1.0</skyColor>
+				<gravitationalMultiplier>70</gravitationalMultiplier>
+				<orbitalDistance>111</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<atmosphereDensity>26</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>minecraft:jungle,minecraft:birch_forest,minecraft:roofed_forest,minecraft:plains,minecraft:forest_hills</biomeIds>
+			</planet>
+			<planet name="Sol-126: 0" DIMID="127">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.56910014,1.0</skyColor>
+				<gravitationalMultiplier>67</gravitationalMultiplier>
+				<orbitalDistance>195</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<atmosphereDensity>17</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+	</star>
+	<star name="Alpha Centauri B" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
+		<planet name="Sol-134" DIMID="134">
+			<isKnown>false</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>oxygen</gas>
+			<gas>hydrogen</gas>
+			<gas>nitrogen</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>171</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<planet name="Sol-134: 0" DIMID="135">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.31810266,0.9354781,1.0</skyColor>
+				<gravitationalMultiplier>65</gravitationalMultiplier>
+				<orbitalDistance>137</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>37</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>minecraft:savanna,minecraft:forest,advancedrocketry:deepswamp,minecraft:birch_forest</biomeIds>
+			</planet>
+			<planet name="Sol-134: 1" DIMID="136">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.13328207,0.553339,1.0</skyColor>
+				<gravitationalMultiplier>44</gravitationalMultiplier>
+				<orbitalDistance>158</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<atmosphereDensity>31</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<seaLevel>57</seaLevel>
+				<biomeIds>minecraft:jungle_hills,minecraft:forest,minecraft:desert,minecraft:savanna_rock,minecraft:mesa</biomeIds>
+			</planet>
+			<planet name="Sol-134: 2" DIMID="137">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.35516334,0.5584337,1.0</skyColor>
+				<gravitationalMultiplier>85</gravitationalMultiplier>
+				<orbitalDistance>128</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>30</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>minecraft:birch_forest,minecraft:jungle,minecraft:stone_beach,minecraft:desert,minecraft:savanna_rock</biomeIds>
+			</planet>
+			<planet name="Sol-134: 3" DIMID="138">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.9697926,1.0</skyColor>
+				<gravitationalMultiplier>67</gravitationalMultiplier>
+				<orbitalDistance>189</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<atmosphereDensity>35</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<seaLevel>44</seaLevel>
+				<biomeIds>minecraft:mushroom_island,minecraft:beaches,minecraft:desert,minecraft:mushroom_island_shore,minecraft:birch_forest</biomeIds>
+			</planet>
+			<planet name="Sol-134: 4" DIMID="139">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.28050607,0.53382045,1.0</skyColor>
+				<gravitationalMultiplier>70</gravitationalMultiplier>
+				<orbitalDistance>121</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>16</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Sol-140" DIMID="140">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.64776844,0.0</skyColor>
+			<gravitationalMultiplier>112</gravitationalMultiplier>
+			<orbitalDistance>54</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<atmosphereDensity>179</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+			<planet name="Sol-140: 0" DIMID="141">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.39446038,0.505926,1.0</skyColor>
+				<gravitationalMultiplier>63</gravitationalMultiplier>
+				<orbitalDistance>130</orbitalDistance>
+				<orbitalPhi>6</orbitalPhi>
+				<atmosphereDensity>36</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>minecraft:forest,minecraft:jungle,minecraft:savanna,minecraft:extreme_hills_with_trees,minecraft:jungle_edge</biomeIds>
+			</planet>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+		<planet name="Sol-142" DIMID="142">
+			<isKnown>false</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.8,0.81667656,0.58947015</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>130</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
+			<atmosphereDensity>141</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+			<biomeIds>advancedrocketry:marsh,minecraft:plains,minecraft:extreme_hills,minecraft:redwood_taiga,minecraft:jungle</biomeIds>
+			<planet name="Sol-142: 1" DIMID="144">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.13583434,0.7435074,1.0</skyColor>
+				<gravitationalMultiplier>86</gravitationalMultiplier>
+				<orbitalDistance>142</orbitalDistance>
+				<orbitalPhi>-2</orbitalPhi>
+				<atmosphereDensity>18</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<planet name="Sol-142: 0" DIMID="143">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.0,0.897639,1.0</skyColor>
+				<gravitationalMultiplier>42</gravitationalMultiplier>
+				<orbitalDistance>170</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<atmosphereDensity>23</atmosphereDensity>
+                <seaLevel>64</seaLevel>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+			</planet>
+			<oceanBlock>minecraft:lava</oceanBlock>
+		</planet>
+	</star>
+</galaxy>
