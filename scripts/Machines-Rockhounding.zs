@@ -34,7 +34,7 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "du
 //blue steel
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBismuthBronze", "dustSterlingSilver"], [50, 20, 15, 15], <tfc:metal/ingot/blue_steel>);
 //bronze
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper", "dustSilver"], [25, 50, 25], <tfc:metal/ingot/bronze>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustTin", "dustCopper"], [10, 90], <tfc:metal/ingot/bronze>);
 //bismuth bronze
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustZinc", "dustCopper", "dustBismuth"], [30, 50, 20], <tfc:metal/ingot/bismuth_bronze>);
 //black bronze
