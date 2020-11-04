@@ -44,6 +44,25 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
 //sterling silver
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustSilver"], [80, 20], <tfc:metal/ingot/sterling_silver>);
 
+//HSLA Steel
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustManganese", "dustBlackSteel"], [5, 95], <tfc:metal/ingot/hsla_steel>);
+
+// FERROBORON
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustBoron"], [80, 20], <tfc:metal/ingot/ferroboron>);
+  
+// Magnesium Diboride
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBoron", "dustMagnesium"], [70, 30], <tfc:metal/ingot/magnesium_diboride>);
+  
+// Beryllium Copper
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBeryllium", "dustCopper", "dustAluminum"], [2, 90, 2], <tfc:metal/ingot/beryllium_copper>);
+  
+// TOUGH 
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustFerroboron", "dustLithium"], [50, 50], <tfc:metal/ingot/tough>);
+  
+  // Tungsten Steel
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustRedSteel", "dustTungsten"], [90, 10], <tfc:metal/ingot/tungsten_steel>);
+
+  
 // MATERIAL CABINET
   mods.rockhounding_chemistry.MaterialCabinet.add("Fx", "dustFlux", "Flux");
   mods.rockhounding_chemistry.MaterialCabinet.add("Wk", "dustWeakSteel", "Weak Steel");
@@ -51,11 +70,16 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MaterialCabinet.add("Bs", "dustBlackSteel", "Black Steel");
   mods.rockhounding_chemistry.MaterialCabinet.add("Ro", "dustRosegold", "Rose Gold");
   mods.rockhounding_chemistry.MaterialCabinet.add("Sl", "dustSteel", "Steel");
-  mods.rockhounding_chemistry.MaterialCabinet.add("Ss", "dustSterlingSilver", "Steel");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Ss", "dustSterlingSilver", "Sterling Silver");
   mods.rockhounding_chemistry.MaterialCabinet.add("Bb", "dustBismuthBronze", "Bismuth Bronze");
-  mods.rockhounding_chemistry.MaterialCabinet.add("Bi", "dustBismuth", "Bismuth");
-  
-  
+  mods.rockhounding_chemistry.MaterialCabinet.add("Bz", "dustBrass", "Brass");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Fb", "dustFerroboron", "Ferroboron");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Rs", "dustRedSteel", "Red Steel");
+
+// LAB BLENDER
+//mods.rockhounding_chemistry.LabBlender.add([<minecraft:redstone>*9, <minecraft:gunpowder>*4, <minecraft:glowstone_dust>*2], <minecraft:magma_cream>*9);
+mods.rockhounding_chemistry.LabBlender.add([<ore:sand> * 4], <rockhounding_chemistry:chemical_items:18> * 3);
+
 
 // SLURRY POND
   mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:coal_slurry>*1000);
