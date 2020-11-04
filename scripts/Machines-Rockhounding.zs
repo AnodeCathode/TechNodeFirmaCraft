@@ -84,7 +84,7 @@ mods.rockhounding_chemistry.LabBlender.add([<tfc:sand/claystone> * 4], <rockhoun
 //CHEMICAL EXTRACTOR
 //mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <minecraft:hardened_clay>, ["dustCalcium", "dustSulfur", "dustCarbon", "dustIron", "dustTin"], [20, 13, 5, 4, 3]);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/pitchblende>, ["dustYellowcake", "dustLead", "dustUranium", "dustThorium"], [80, 13, 4, 3]);
-
+mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/thorianite>, ["dustThorium", "dustYellowcake", "dustLead", "dustUranium"], [80, 13, 4, 3]);
 
 // SLURRY POND
   mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:coal_slurry>*1000);

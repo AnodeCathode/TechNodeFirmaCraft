@@ -19,6 +19,7 @@ import mods.nuclearcraft.Pressurizer;
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
 
+
 var water = <liquid:fresh_water>;
 var limewater = <liquid:limewater>;
 var leather = <minecraft:leather>;
@@ -69,7 +70,7 @@ var methanol = <liquid:methanol>;
 // Manufactory recipes
   //Manufactory.addRecipe(IIngredient itemInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
   //mods.nuclearcraft.Manufactory.removeRecipeWithOutput(IIngredient itemOutput);
-  Manufactory.removeRecipeWithOutput(<rockhounding_chemistry:chemical_items:18>);
+  Manufactory.removeRecipeWithOutput(<minecraft:sand>);
   Manufactory.addRecipe(<tfc:ore/bituminous_coal>, <nuclearcraft:gem_dust:7>, 1.0, 0.5, 0.0);
   Manufactory.addRecipe(<immersiveengineering:material:4> * 16, <nuclearcraft:part:6>, 1.0, 0.5, 0.0);
 
@@ -183,5 +184,9 @@ Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:5>);
 //Ingot Former
   //mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(IIngredient itemOutput);
 
-
+//Fluid Mixer
+//mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(ILiquidStack fluidOutput);
+//mods.nuclearcraft.SaltMixer.addRecipe(ILiquidStack fluidInput1, ILiquidStack fluidInput2, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+SaltMixer.removeRecipeWithOutput(<liquid:ferroboron> * 144);
+SaltMixer.addRecipe(<liquid:black_steel> * 72 , <liquid:boron> * 72, <liquid:ferroboron> * 144);
 
