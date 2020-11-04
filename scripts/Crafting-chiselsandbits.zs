@@ -32,9 +32,9 @@ recipes.addShaped("chiselsandbits_tape_measure", <chiselsandbits:tape_measure>, 
 recipes.addShaped("chiselsandbits_bitsaw_gems", <chiselsandbits:bitsaw_diamond>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:gemFlawless> | <ore:gemExquisite>, <ore:gemFlawless> | <ore:gemExquisite>]]);
 // ================================================================================
 //#ADD SHAPELESS
-recipes.addShapeless("chiselsandbits_positiveprint", <chiselsandbits:positiveprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:gemLapis>]);
-recipes.addShapeless("chiselsandbits_negativeprint", <chiselsandbits:negativeprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:dustRedstone>]);
-recipes.addShapeless("chiselsandbits_mirrorprint", <chiselsandbits:mirrorprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:dustGlowstone>]);
+recipes.addShapeless("chiselsandbits_positiveprint", <chiselsandbits:positiveprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:dyeBlue>]);
+recipes.addShapeless("chiselsandbits_negativeprint", <chiselsandbits:negativeprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:dyeRed>]);
+recipes.addShapeless("chiselsandbits_mirrorprint", <chiselsandbits:mirrorprint>, [waterbucket.transformReplace(<tfc:wooden_bucket>), <minecraft:paper>, <ore:dyeYellow>]);
 
 //#REGISTER TFC Size/Heat/Other
   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
