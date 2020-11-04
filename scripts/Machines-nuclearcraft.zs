@@ -68,6 +68,8 @@ var methanol = <liquid:methanol>;
   
 // Manufactory recipes
   //Manufactory.addRecipe(IIngredient itemInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+  //mods.nuclearcraft.Manufactory.removeRecipeWithOutput(IIngredient itemOutput);
+  Manufactory.removeRecipeWithOutput(<rockhounding_chemistry:chemical_items:18>);
   Manufactory.addRecipe(<tfc:ore/bituminous_coal>, <nuclearcraft:gem_dust:7>, 1.0, 0.5, 0.0);
   Manufactory.addRecipe(<immersiveengineering:material:4> * 16, <nuclearcraft:part:6>, 1.0, 0.5, 0.0);
 

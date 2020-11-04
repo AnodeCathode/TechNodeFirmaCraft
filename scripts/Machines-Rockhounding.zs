@@ -77,8 +77,13 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MaterialCabinet.add("Rs", "dustRedSteel", "Red Steel");
 
 // LAB BLENDER
-//mods.rockhounding_chemistry.LabBlender.add([<minecraft:redstone>*9, <minecraft:gunpowder>*4, <minecraft:glowstone_dust>*2], <minecraft:magma_cream>*9);
-mods.rockhounding_chemistry.LabBlender.add([<ore:sand> * 4], <rockhounding_chemistry:chemical_items:18> * 3);
+//Stupid thing doesn't appear to like oreDicts for once. But it puts in the oreDict for you ffs.
+mods.rockhounding_chemistry.LabBlender.add([<tfc:sand/claystone> * 4], <rockhounding_chemistry:chemical_items:18> * 3);
+
+
+//CHEMICAL EXTRACTOR
+//mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <minecraft:hardened_clay>, ["dustCalcium", "dustSulfur", "dustCarbon", "dustIron", "dustTin"], [20, 13, 5, 4, 3]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/pitchblende>, ["dustYellowcake", "dustLead", "dustUranium", "dustThorium"], [80, 13, 4, 3]);
 
 
 // SLURRY POND
