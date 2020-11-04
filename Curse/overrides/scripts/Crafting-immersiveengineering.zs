@@ -102,6 +102,19 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.addShaped("tnfc_immersive_radiatorblock", <immersiveengineering:metal_decoration0:7> * 2, [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, waterbucket, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
   recipes.addShaped("tnfc_immersive_garden_cloche",<immersiveengineering:metal_device1:13>, [[<rockhounding_chemistry:misc_blocks_a:13>, <ore:electronTube>, <rockhounding_chemistry:misc_blocks_a:13>], [<rockhounding_chemistry:misc_blocks_a:13>, <ore:craftingToolHardHammer>.transformDamage(), <rockhounding_chemistry:misc_blocks_a:13>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
 
+  //TOOL FIXES: Fix the bayonet and shield. Increase difficulty of drill recipe
+  recipes.remove(<immersiveengineering:toolupgrade:4>);
+  recipes.addShaped("tnfc_immersiveengineering_bayonet", <immersiveengineering:toolupgrade:4>, [[<tfc:metal/sword/black_steel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:plankTreatedWood>]]);
+  recipes.remove(<immersiveengineering:drill>);
+  recipes.addShaped("tnfc_ie_tool/drill_diesel", <immersiveengineering:drill>, [[<ore:craftingToolHardHammer>.transformDamage(), <tfc:metal/double_sheet/black_steel>, <immersiveengineering:material:13>], [null, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:13>], [<immersiveengineering:material:9>, <tfc:metal/double_sheet/black_steel>, <ore:craftingToolHardChisel>.transformDamage()]]);
+  recipes.remove(<immersiveengineering:drillhead:1>);
+  recipes.addShaped("tnfc_ie_tool/drillhead_iron", <immersiveengineering:drillhead:1>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:craftingToolHardHammer>.transformDamage()], [<ore:blockIron>, <ore:blockIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:craftingToolHardChisel>.transformDamage()]]);
+  recipes.remove(<immersiveengineering:drillhead>);
+  recipes.addShaped("tnfc_ie_tool/drillhead_steel", <immersiveengineering:drillhead>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:craftingToolHardHammer>.transformDamage()], [<ore:blockSteel>, <ore:blockSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:craftingToolHardChisel>.transformDamage()]]);
+  recipes.remove(<immersiveengineering:shield>);
+  recipes.addShaped("tnfc_ie_tool/shield", <immersiveengineering:shield>, [[<ore:plateSteel>, <ore:plankTreatedWood>, <ore:plateSteel>], [<ore:plateSteel>, <tfc:metal/shield/steel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plankTreatedWood>, <ore:plateSteel>]]);
+
+  
 for i, item in IBucketArray {  
   recipes.addShaped(<immersiveengineering:stone_decoration:5> * 8, [[<ore:sand>, <ore:clay>, <ore:sand>], [<ore:gravel>, item, <ore:gravel>], [<ore:sand>, <ore:clay>, <ore:sand>]]);
   recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
@@ -123,8 +136,7 @@ for i, item in IBucketArray {
   recipes.addShapeless("tnfc_immersive_conveyor_uncontrolled", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}), [<ore:craftingToolMediumHammer>.transformDamage(), <ore:dustRedstone>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})]);
 
   recipes.addShapeless("tnfc_immersive_reinforced_upgrade", <immersiveengineering:stone_decoration:2>, [<immersiveengineering:stone_decoration:1>,<tfc:metal/double_sheet/steel>,<ore:craftingToolMediumHammer>.transformDamage()]);
-  
-  
+
 //#REGISTER TFC Size/Heat/Other
 // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     

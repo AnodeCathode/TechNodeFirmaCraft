@@ -73,8 +73,9 @@
 //Kebab
 mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:raw_kebab>, "SMALL", "MEDIUM");
 mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:cooked_kebab>, "SMALL", "MEDIUM");
-recipes.remove(<betterwithmods:raw_kebab>);    
-recipes.addShapeless("betterwithmods_food_raw_kebab", <betterwithmods:raw_kebab> * 3, [<tfc:plants/porcini>, <ore:categoryVegetable>, <ore:categoryMeat>, <ore:stickWood>]);
+// moving these recipes to TNFCMod to use ShapelessDamageFoodRecipe 
+// recipes.remove(<betterwithmods:raw_kebab>);    
+// recipes.addShapeless("betterwithmods_food_raw_kebab", <betterwithmods:raw_kebab> * 3, [<tfc:plants/porcini>, <ore:categoryVegetable>, <ore:categoryMeat>, <ore:stickWood>]);
 mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_kebab>, 0.55, 480, true);
 mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_kebab>, 0.35, 480, true);
 mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:raw_kebab>, 1, 0, 0, 2.25, 0, 1, 0, 1, 0);

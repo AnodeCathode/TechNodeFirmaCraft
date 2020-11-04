@@ -30,20 +30,61 @@ mods.rockhounding_chemistry.MetalAlloyer.remove(<rockhounding_chemistry:alloy_it
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20], <tfc:metal/ingot/rose_gold>);
 
 //red steel
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBrass", "dustRosegold"], [50, 20, 15, 15], <tfc:metal/ingot/red_steel>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBrass", "dustRosegold"], [50, 20, 15, 15], <tfc:metal/ingot/red_steel>);
 //blue steel
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBismuthBronze", "dustSterlingSilver"], [50, 20, 15, 15], <tfc:metal/ingot/blue_steel>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBismuthBronze", "dustSterlingSilver"], [50, 20, 15, 15], <tfc:metal/ingot/blue_steel>);
 //bronze
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustTin", "dustCopper"], [10, 90], <tfc:metal/ingot/bronze>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustTin", "dustCopper"], [10, 90], <tfc:metal/ingot/bronze>);
 //bismuth bronze
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustZinc", "dustCopper", "dustBismuth"], [30, 50, 20], <tfc:metal/ingot/bismuth_bronze>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustZinc", "dustCopper", "dustBismuth"], [30, 50, 20], <tfc:metal/ingot/bismuth_bronze>);
 //black bronze
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper", "dustSilver"], [25, 50, 25], <tfc:metal/ingot/black_bronze>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper", "dustSilver"], [25, 50, 25], <tfc:metal/ingot/black_bronze>);
 //brass
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustZinc"], [88, 12], <tfc:metal/ingot/brass>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustZinc"], [88, 12], <tfc:metal/ingot/brass>);
 //sterling silver
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustSilver"], [80, 20], <tfc:metal/ingot/sterling_silver>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustSilver"], [80, 20], <tfc:metal/ingot/sterling_silver>);
 
+//HSLA Steel
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustManganese", "dustBlackSteel"], [5, 95], <tfc:metal/ingot/hsla_steel>);
+
+// FERROBORON
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustBoron"], [80, 20], <tfc:metal/ingot/ferroboron>);
+  
+// Magnesium Diboride
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBoron", "dustMagnesium"], [70, 30], <tfc:metal/ingot/magnesium_diboride>);
+  
+// Beryllium Copper
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBeryllium", "dustCopper", "dustAluminum"], [2, 90, 2], <tfc:metal/ingot/beryllium_copper>);
+  
+// TOUGH 
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustFerroboron", "dustLithium"], [50, 50], <tfc:metal/ingot/tough>);
+  
+  // Tungsten Steel
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustRedSteel", "dustTungsten"], [90, 10], <tfc:metal/ingot/tungsten_steel>);
+
+  
+// MATERIAL CABINET
+  mods.rockhounding_chemistry.MaterialCabinet.add("Fx", "dustFlux", "Flux");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Wk", "dustWeakSteel", "Weak Steel");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Pf", "dustPigIron", "Pig Iron");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Bs", "dustBlackSteel", "Black Steel");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Ro", "dustRosegold", "Rose Gold");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Sl", "dustSteel", "Steel");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Ss", "dustSterlingSilver", "Sterling Silver");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Bb", "dustBismuthBronze", "Bismuth Bronze");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Bz", "dustBrass", "Brass");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Fb", "dustFerroboron", "Ferroboron");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Rs", "dustRedSteel", "Red Steel");
+
+// LAB BLENDER
+//Stupid thing doesn't appear to like oreDicts for once. But it puts in the oreDict for you ffs.
+mods.rockhounding_chemistry.LabBlender.add([<tfc:sand/claystone> * 4], <rockhounding_chemistry:chemical_items:18> * 3);
+
+
+//CHEMICAL EXTRACTOR
+//mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <minecraft:hardened_clay>, ["dustCalcium", "dustSulfur", "dustCarbon", "dustIron", "dustTin"], [20, 13, 5, 4, 3]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/pitchblende>, ["dustYellowcake", "dustLead", "dustUranium", "dustThorium"], [80, 13, 4, 3]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/thorianite>, ["dustThorium", "dustYellowcake", "dustLead", "dustUranium"], [80, 13, 4, 3]);
 
 // SLURRY POND
   mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:coal_slurry>*1000);

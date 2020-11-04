@@ -51,7 +51,66 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/black_steel>, <tfc:metal/ingot/high_carbon_black_steel>, <immersiveengineering:storage:8>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/red_steel>, <tfc:metal/ingot/high_carbon_red_steel>, <immersiveengineering:storage:8>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/blue_steel>, <tfc:metal/ingot/high_carbon_blue_steel>, <immersiveengineering:storage:8>, 2400, 1);
-
+	
+    //poor ore to scraps. All this scrap stuff needs to move to TNFC Mod
+    //mods.immersiveengineering.MetalPress.addRecipe(<output>, <input>, <mold>, energy, input quanty);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/bismuth>, <tfc:ore/bismuthinite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/native_copper:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/malachite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/tetrahedrite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/gold>, <tfc:ore/native_gold:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/lead>, <tfc:ore/galena:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/nickel>, <tfc:ore/garnierite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/silver>, <tfc:ore/native_silver:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/tin>, <tfc:ore/cassiterite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/zinc>, <tfc:ore/sphalerite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/hematite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/magnetite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/limonite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/platinum>, <tfc:ore/native_platinum:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/antimony>, <tfc:ore/stibnite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/lithium>, <tfc:ore/spodumene:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/magnesium>, <tfc:ore/magnesite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/manganese>, <tfc:ore/pyrolusite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/aluminum>, <tfc:ore/bauxite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/ardite>, <tfc:ore/native_ardite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/cobalt>, <tfc:ore/cobaltite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/thorium>, <tfc:ore/thorianite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/beryllium>, <tfc:ore/beryl:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/osmium>, <tfc:ore/native_osmium:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/titanium>, <tfc:ore/rutile:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/tungsten>, <tfc:ore/wolframite:1>, <immersiveengineering:storage:1>, 3400, 4);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/zirconium>, <tfc:ore/zircon:1>, <immersiveengineering:storage:1>, 3400, 4);
+	
+	//medium ore to scraps
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/bismuth>, <tfc:ore/bismuthinite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/native_copper:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/malachite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/copper>, <tfc:ore/tetrahedrite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/gold>, <tfc:ore/native_gold:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/lead>, <tfc:ore/galena:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/nickel>, <tfc:ore/garnierite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/silver>, <tfc:ore/native_silver:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/tin>, <tfc:ore/cassiterite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/zinc>, <tfc:ore/sphalerite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/hematite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/magnetite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/wrought_iron>, <tfc:ore/limonite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/platinum>, <tfc:ore/native_platinum:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/antimony>, <tfc:ore/stibnite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/lithium>, <tfc:ore/spodumene:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/magnesium>, <tfc:ore/magnesite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/manganese>, <tfc:ore/pyrolusite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/aluminum>, <tfc:ore/bauxite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/ardite>, <tfc:ore/native_ardite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/cobalt>, <tfc:ore/cobaltite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/thorium>, <tfc:ore/thorianite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/beryllium>, <tfc:ore/beryl:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/osmium>, <tfc:ore/native_osmium:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/titanium>, <tfc:ore/rutile:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/tungsten>, <tfc:ore/wolframite:0>, <immersiveengineering:storage:1>, 2400, 2);
+	mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/scrap/zirconium>, <tfc:ore/zircon:0>, <immersiveengineering:storage:1>, 2400, 2);
+	
      //Add wood to wooden gears because why not
     mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:material:0>, <ore:wood>, <immersiveengineering:mold:1>, 2400, 2);
     
@@ -286,6 +345,66 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bismuth_bronze> , <tfc:metal/ingot/bismuth_bronze>, 512);
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/black_bronze> , <tfc:metal/ingot/black_bronze>, 512);
      mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bronze> , <tfc:metal/ingot/bronze>, 512);
+	 
+	//Crushing ores into small pieces. These all needs to move to TNFC Mod
+	//Large ore to small ore
+	//mods.immersiveengineering.Crusher.addRecipe(<output>, <input>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/bismuthinite:1> * 3, <tfc:ore/bismuthinite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_copper:1> * 3, <tfc:ore/native_copper:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/malachite:1> * 3, <tfc:ore/malachite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/tetrahedrite:1> * 3, <tfc:ore/tetrahedrite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_gold:1> * 3, <tfc:ore/native_gold:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/galena:1> * 3, <tfc:ore/galena:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/garnierite:1> * 3, <tfc:ore/garnierite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_silver:1> * 3, <tfc:ore/native_silver:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/cassiterite:1> * 3, <tfc:ore/cassiterite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/sphalerite:1> * 3, <tfc:ore/sphalerite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/hematite:1> * 3, <tfc:ore/hematite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/magnetite:1> * 3, <tfc:ore/magnetite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/limonite:1> * 3, <tfc:ore/limonite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_platinum:1> * 3, <tfc:ore/native_platinum:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/stibnite:1> * 3, <tfc:ore/stibnite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/spodumene:1> * 3, <tfc:ore/spodumene:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/magnesite:1> * 3, <tfc:ore/magnesite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/pyrolusite:1> * 3, <tfc:ore/pyrolusite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/bauxite:1> * 3, <tfc:ore/bauxite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_ardite:1> * 3, <tfc:ore/native_ardite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/cobaltite:1> * 3, <tfc:ore/cobaltite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/thorianite:1> * 3, <tfc:ore/thorianite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/beryl:1> * 3, <tfc:ore/beryl:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_osmium:1> * 3, <tfc:ore/native_osmium:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/rutile:1> * 3, <tfc:ore/rutile:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/wolframite:1> * 3, <tfc:ore/wolframite:2>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/zircon:1> * 3, <tfc:ore/zircon:2>, 512);
+      
+      //Medium ore to small ore
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/bismuthinite:1> * 2, <tfc:ore/bismuthinite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_copper:1> * 2, <tfc:ore/native_copper:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/malachite:1> * 2, <tfc:ore/malachite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/tetrahedrite:1> * 2, <tfc:ore/tetrahedrite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_gold:1> * 2, <tfc:ore/native_gold:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/galena:1> * 2, <tfc:ore/galena:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/garnierite:1> * 2, <tfc:ore/garnierite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_silver:1> * 2, <tfc:ore/native_silver:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/cassiterite:1> * 2, <tfc:ore/cassiterite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/sphalerite:1> * 2, <tfc:ore/sphalerite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/hematite:1> * 2, <tfc:ore/hematite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/magnetite:1> * 2, <tfc:ore/magnetite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/limonite:1> * 2, <tfc:ore/limonite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_platinum:1> * 2, <tfc:ore/native_platinum:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/stibnite:1> * 2, <tfc:ore/stibnite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/spodumene:1> * 2, <tfc:ore/spodumene:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/magnesite:1> * 2, <tfc:ore/magnesite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/pyrolusite:1> * 2, <tfc:ore/pyrolusite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/bauxite:1> * 2, <tfc:ore/bauxite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_ardite:1> * 2, <tfc:ore/native_ardite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/cobaltite:1> * 2, <tfc:ore/cobaltite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/thorianite:1> * 2, <tfc:ore/thorianite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/beryl:1> * 2, <tfc:ore/beryl:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/native_osmium:1> * 2, <tfc:ore/native_osmium:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/rutile:1> * 2, <tfc:ore/rutile:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/wolframite:1> * 2, <tfc:ore/wolframite:0>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:ore/zircon:1> * 2, <tfc:ore/zircon:0>, 512);
     
     //Test using NC ChanceItemIngredient for Kimberlite drops
      // mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/kimberlite>);
