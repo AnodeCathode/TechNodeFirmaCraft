@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.40</version>
+        <version>12.2.41</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -39,7 +39,7 @@
         
         <mod name="Waterflasks" version="1.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.8.jar" file="waterflasks-1.8.jar" md5="ae971aa3588a83cf9cc7c45d86c6112a" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
-        <mod name="TNFCMod" version="12.2.40" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.40.jar" file="TNFCMod-MC1.12.2-12.2.40.jar" md5="53c389ebed46cceb5f5d82a1a4489d98" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
+        <mod name="TNFCMod" version="12.2.41" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.41.jar" file="TNFCMod-MC1.12.2-12.2.41.jar" md5="2c11f6a179ed09471aa4eab5cea4c66f" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -49,7 +49,7 @@
         
         <mod name="Advanced TFC Tech" version="0.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedTFCTech-0.1.3.jar" file="AdvancedTFCTech-0.1.3.jar" md5="e255181249677af3ef89181fe5ab1f39" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TerraFirmaThings" version="1.1.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-1.1.0.jar" file="terrafirmathings-1.1.0.jar" md5="448fafd8891fd0c301b2aa33f377460b" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        <mod name="TerraFirmaThings" version="1.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/terrafirmathings-1.2.1.jar" file="terrafirmathings-1.2.1.jar" md5="1409967eed70cd317a4faf4984c3444c" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TFC Storage" version="1.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.6.jar" file="TFCStorage-1.0.6.jar" md5="a6df882bc67f779dc05e6d59b96ff513" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
@@ -72,7 +72,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.8.84" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.84.jar" file="MCTImmersiveTechnology-1.12.2-1.8.84.jar" md5="4108e3c95209f69d49fb460b5794c717" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.8.85" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.85.jar" file="MCTImmersiveTechnology-1.12.2-1.8.85.jar" md5="6bd5049dc79d3f8aaa848a8843e011e3" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
        
        <mod name="Engineer&apos;s Decor" version="1.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/engineersdecor-1.12.2-1.1.2.jar" file="engineersdecor-1.12.2-1.1.2.jar" md5="80453102664203d91a049c748474c35c" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
@@ -229,7 +229,7 @@
 
         <mod name="Dynamic Lights" version="1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynamicLights-1.12.2.jar" file="DynamicLights-1.12.2.jar" md5="bbf46497e737f88bbfeb8cce74fb3099" download="server" type="mods" client="yes"  optional="yes" colour="cyan" server="no" recommended="yes" selected="yes"/>
 
-        <mod name="Dynamic Surroundings" version="1.12.2-3.6.2.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynamicSurroundings-1.12.2-3.6.2.0.jar" file="DynamicSurroundings-1.12.2-3.6.2.0.jar" md5="583ae6dc70fc6a8100d71b4a91545d5f" download="server" colour="cyan" type="mods" client="yes" optional="yes" server="no" recommended="yes" selected="yes"/>      
+        <mod name="Dynamic Surroundings" version="1.12.2-3.6.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynamicSurroundings-1.12.2-3.6.2.1.jar" file="DynamicSurroundings-1.12.2-3.6.2.1.jar" md5="73cd6e10ae80337b8e1680806a34cb93" download="server" colour="cyan" type="mods" client="yes" optional="yes" server="no" recommended="yes" selected="yes"/>      
         
         <mod name="Dynamic Surroundings: HUDs" version="1.12.2-3.6.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar" file="DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar" md5="7fe98787cd2a520da6cfe384ba040b7d" download="server" colour="cyan" type="mods" client="yes" optional="yes" server="no" recommended="yes" selected="yes"/>
     
@@ -311,7 +311,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
                
-        <mod name="CT Scripts" version="12.2.40" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.40.zip" file="scripts.12.2.40.zip" md5="bbc0920ca9f06e588690c39c8d0a5122" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.41" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.41.zip" file="scripts.12.2.41.zip" md5="1df55312f124b01e3c72cc8b94c47e30" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     
 
