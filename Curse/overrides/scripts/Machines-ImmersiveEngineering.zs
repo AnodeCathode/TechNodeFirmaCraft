@@ -280,11 +280,19 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
       mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
       mods.immersiveengineering.Crusher.removeRecipe(<minecraft:glowstone_dust>);
       mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_items:8>);
+       
+      
       mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:diamond_ore>);
       mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:gold_ingot>);
-
       mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:material:7>);
-      
+
+      //Remove ore crushing recipes for dye, replaced by crush to smaller pieces
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/malachite:2>);
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/limonite:2>);
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/hematite:2>);
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/malachite:0>);
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/limonite:0>);
+      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/hematite:0>);
       
       mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:35>, <minecraft:magma>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);

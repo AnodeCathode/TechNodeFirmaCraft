@@ -14,6 +14,12 @@ val gearBronze = <ore:gearBronze>;
   <tfctech:metal/bismuth_bronze_gear>
   ]);
 
+  
+val dustRoseGold = <ore:dustRoseGold>;
+    dustRoseGold.addItems([
+  <rockhounding_chemistry:alloy_items_deco:3>
+  ]);
+  
 val materialRubber = <ore:materialRubber>;
     materialRubber.addItems([
     <tfctech:latex/rubber>

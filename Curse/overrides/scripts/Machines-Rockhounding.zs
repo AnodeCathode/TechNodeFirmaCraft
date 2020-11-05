@@ -30,7 +30,7 @@ mods.rockhounding_chemistry.MetalAlloyer.remove(<rockhounding_chemistry:alloy_it
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20], <tfc:metal/ingot/rose_gold>);
 
 //red steel
-  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBrass", "dustRosegold"], [50, 20, 15, 15], <tfc:metal/ingot/red_steel>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBrass", "dustRoseGold"], [50, 20, 15, 15], <tfc:metal/ingot/red_steel>);
 //blue steel
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustBlackSteel", "dustSteel", "dustBismuthBronze", "dustSterlingSilver"], [50, 20, 15, 15], <tfc:metal/ingot/blue_steel>);
 //bronze
@@ -68,7 +68,7 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MaterialCabinet.add("Wk", "dustWeakSteel", "Weak Steel");
   mods.rockhounding_chemistry.MaterialCabinet.add("Pf", "dustPigIron", "Pig Iron");
   mods.rockhounding_chemistry.MaterialCabinet.add("Bs", "dustBlackSteel", "Black Steel");
-  mods.rockhounding_chemistry.MaterialCabinet.add("Ro", "dustRosegold", "Rose Gold");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Ro", "dustRoseGold", "Rose Gold");
   mods.rockhounding_chemistry.MaterialCabinet.add("Sl", "dustSteel", "Steel");
   mods.rockhounding_chemistry.MaterialCabinet.add("Ss", "dustSterlingSilver", "Sterling Silver");
   mods.rockhounding_chemistry.MaterialCabinet.add("Bb", "dustBismuthBronze", "Bismuth Bronze");
@@ -150,6 +150,10 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 // ELECTROCHEMICAL CSTR
   mods.rockhounding_chemistry.StirredTank.add(<liquid:salt_brine>*80, <liquid:fresh_water>*100, <liquid:sodium_hydroxide>*200, null, 4);
   
+ //vinegar
+ //mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*150, <liquid:methanol>*100, <liquid:chloromethane>*200, <liquid:hydrogen>*50, 5);
+ //mods.rockhounding_chemistry.BedReactor.add("Vinegar", <liquid:water_vapour>*100, <liquid:flue_gas>*150, null, null, <liquid:syngas>*510, <rockhounding_chemistry:mo_catalyst>);
+ 
 // PURIFIER
 
 mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:flue_gas>*1000);
