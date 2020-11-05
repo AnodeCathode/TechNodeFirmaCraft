@@ -1,6 +1,13 @@
 import mods.dropt.Dropt;
 
-
+//Fix the vanilla mushrooms
+Dropt.list("NetherShrooms")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:red_mushroom", "minecraft:brown_mushroom"])
+        .addDrop(Dropt.drop()
+          .items([<tfc:plants/porcini> * 1])
+      )
+  );
 
 //If you want to get Hemp you gotta get high
 Dropt.list("ImmersiveSeeds")
