@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.41</version>
+        <version>12.2.42</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -39,7 +39,7 @@
         
         <mod name="Waterflasks" version="1.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.8.jar" file="waterflasks-1.8.jar" md5="ae971aa3588a83cf9cc7c45d86c6112a" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
-        <mod name="TNFCMod" version="12.2.41" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.41.jar" file="TNFCMod-MC1.12.2-12.2.41.jar" md5="2c11f6a179ed09471aa4eab5cea4c66f" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
+        <mod name="TNFCMod" version="12.2.42" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.42.jar" file="TNFCMod-MC1.12.2-12.2.42.jar" md5="0062841442ea9dd87c78b20f89b256ed" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -311,7 +311,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
                
-        <mod name="CT Scripts" version="12.2.41" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.41.zip" file="scripts.12.2.41.zip" md5="1df55312f124b01e3c72cc8b94c47e30" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.42" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.42.zip" file="scripts.12.2.42.zip" md5="379324dc5b33ff378c5e2a74dc6112a1" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     
 
