@@ -14,6 +14,11 @@ val gearBronze = <ore:gearBronze>;
   <tfctech:metal/bismuth_bronze_gear>
   ]);
 
+  val ingotHSLASteel = <ore:ingotHSLASteel>;
+    ingotHSLASteel.addItems([
+   <tfc:metal/ingot/hsla_steel>
+    ]);
+
   
 val dustRoseGold = <ore:dustRoseGold>;
     dustRoseGold.addItems([
