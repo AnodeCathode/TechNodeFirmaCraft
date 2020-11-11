@@ -39,6 +39,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal_decoration0:3>);
   recipes.remove(<immersiveengineering:metal_decoration0:7>);
   recipes.remove(<immersiveengineering:metal_decoration2:4>);
+  recipes.remove(<immersiveengineering:metal_decoration0:5>);
   recipes.remove(<immersiveengineering:storage:0>);
   recipes.remove(<immersiveengineering:storage:1>);
   recipes.remove(<immersiveengineering:storage:2>);
@@ -98,7 +99,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   
   recipes.addShaped("tnfc_immersive_treatedwood", <immersiveengineering:treated_wood> * 8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, creosotebucket, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
   recipes.addShaped("tnfc_immersive_engineeringblock", <immersiveengineering:metal_decoration0:3> * 2, [[<ore:ingotSteel>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotSteel>], [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]); 
-  recipes.addShaped("tnfc_immersive_heavy_engineering_block",<immersiveengineering:metal_decoration0:5>, [[<ore:ingotSteel>, <tfc:metal/hammer/black_steel>, <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
+  recipes.addShaped("tnfc_immersive_heavy_engineering_block",<immersiveengineering:metal_decoration0:5> * 2, [[<ore:ingotSteel>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
   recipes.addShaped("tnfc_immersive_radiatorblock", <immersiveengineering:metal_decoration0:7> * 2, [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, waterbucket, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
   recipes.addShaped("tnfc_immersive_garden_cloche",<immersiveengineering:metal_device1:13>, [[<rockhounding_chemistry:misc_blocks_a:13>, <ore:electronTube>, <rockhounding_chemistry:misc_blocks_a:13>], [<rockhounding_chemistry:misc_blocks_a:13>, <ore:craftingToolHardHammer>.transformDamage(), <rockhounding_chemistry:misc_blocks_a:13>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
 
