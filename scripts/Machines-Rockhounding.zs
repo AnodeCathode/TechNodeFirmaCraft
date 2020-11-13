@@ -150,6 +150,10 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 // ELECTROCHEMICAL CSTR
   mods.rockhounding_chemistry.StirredTank.add(<liquid:salt_brine>*80, <liquid:fresh_water>*100, <liquid:sodium_hydroxide>*200, null, 4);
   
+ //vinegar
+ //mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*150, <liquid:methanol>*100, <liquid:chloromethane>*200, <liquid:hydrogen>*50, 5);
+ //mods.rockhounding_chemistry.BedReactor.add("Vinegar", <liquid:water_vapour>*100, <liquid:flue_gas>*150, null, null, <liquid:syngas>*510, <rockhounding_chemistry:mo_catalyst>);
+ 
 // PURIFIER
 
 mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:flue_gas>*1000);
