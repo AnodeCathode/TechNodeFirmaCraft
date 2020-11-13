@@ -39,7 +39,7 @@
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic",
-      "tfc:igneous_extrusive",
+      "tfc:igneous_extrusive"
     ]
   },
   "wolframite": {
@@ -83,7 +83,7 @@
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic",
-      "tfc:igneous_intrusive",
+      "tfc:igneous_intrusive"
     ]
   },
   "native_ardite": {

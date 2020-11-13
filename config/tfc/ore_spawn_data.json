@@ -225,7 +225,7 @@
     "maximum_height": 132,
     "density": 80,
     "base_rocks": [
-      "tfc:sedimentary"
+      "tfc:sedimentary",
       "tfc:igneous_intrusive"
     ]
   },
