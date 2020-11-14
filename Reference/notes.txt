@@ -9,6 +9,10 @@ ignore-updates:id=fresh_water,data=*
 ignore-updates:id=hot_water,data=*
 
 
+
+Added the bones of 'Chunk Freezing'. This is a mechanism from 1.7.10 TFC. If a chunk has not been loaded in some time (4 days by default) upon loading it will 'unfreeze' things. Currently it applies to the age of animals. It will adjust their birthday to account for the time the chunk spent unloaded. This should be a boon for multi-player as animals will not age out if a player is away for a period of time. Crops will be next. Foods may follow but are very difficult as they are hiding in inventories and/or on the player itself. The only solution may be a PR to TFC itself. 
+
+
 <tfc:metal/chestplate/red_steel>.withTag({ncRadiationResistance: 1.0})
 
 
