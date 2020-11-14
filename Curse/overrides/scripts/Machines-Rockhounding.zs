@@ -61,10 +61,14 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   
   // Tungsten Steel
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustRedSteel", "dustTungsten"], [90, 10], <tfc:metal/ingot/tungsten_steel>);
+  
+  // Wrought Iron
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron", "dustCharcoal"], [90, 10], <tfc:metal/ingot/wrought_iron>);
 
   
 // MATERIAL CABINET
   mods.rockhounding_chemistry.MaterialCabinet.add("Fx", "dustFlux", "Flux");
+  mods.rockhounding_chemistry.MaterialCabinet.add("Ch", "dustCharcoal", "Charcoal Dust");
   mods.rockhounding_chemistry.MaterialCabinet.add("Wk", "dustWeakSteel", "Weak Steel");
   mods.rockhounding_chemistry.MaterialCabinet.add("Pf", "dustPigIron", "Pig Iron");
   mods.rockhounding_chemistry.MaterialCabinet.add("Bs", "dustBlackSteel", "Black Steel");
@@ -124,8 +128,6 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <tfc:ore/thorianite
 //LAB BLENDER
 
 mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_items:7>, <minecraft:gunpowder>*4], <minecraft:glowstone_dust>*2);
-//Cracked lime compound (or just add recipe for sandstone stuff
-// mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_items:7>, <minecraft:gunpowder>*4], <rockhounding_chemistry:chemical_items:20>);
 
 
 // GASIFICATION PLANT
@@ -152,7 +154,9 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
   
  //vinegar
  //mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*150, <liquid:methanol>*100, <liquid:chloromethane>*200, <liquid:hydrogen>*50, 5);
- //mods.rockhounding_chemistry.BedReactor.add("Vinegar", <liquid:water_vapour>*100, <liquid:flue_gas>*150, null, null, <liquid:syngas>*510, <rockhounding_chemistry:mo_catalyst>);
+ //Iridium Catalyst
+ mods.rockhounding_chemistry.ProfilingBench.add("ingotIridium", <tnfcmod:iridium_catalyst>, 8);
+ mods.rockhounding_chemistry.LabOven.add("Industrial Vinegar", "compoundTar", <tnfcmod:iridium_catalyst>, <liquid:fresh_water>*500, <liquid:methanol>*500, <liquid:vinegar>*250, <liquid:coal_slurry>*50);
  
 // PURIFIER
 

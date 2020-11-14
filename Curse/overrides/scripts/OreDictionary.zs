@@ -146,14 +146,20 @@ var toolsMisc = <ore:tool>;
     <pneumaticcraft:pneumatic_wrench>,
     <pneumaticcraft:logistics_configurator>,
     <pneumaticcraft:gps_tool>,
-    <jaff:wooden_fishing_rod>,
-    <jaff:iron_fishing_rod>,
-    <jaff:golden_fishing_rod>,
-    <jaff:diamond_fishing_rod>,
+    <jaff:wooden_fishing_rod:*>,
+    <jaff:iron_fishing_rod:*>,
+    <jaff:golden_fishing_rod:*>,
+    <jaff:diamond_fishing_rod:*>,
     <immersiveengineering:railgun>,
     <immersiveengineering:skyhook>,
     <immersiveengineering:revolver>,
-    <immersiveengineering:drill>
+    <immersiveengineering:drill>,
+    <chiselsandbits:bitsaw_diamond:*>,
+    <chiselsandbits:chisel_gold:*>,
+    <chiselsandbits:chisel_iron:*>,
+    <chiselsandbits:chisel_stone:*>,
+    <chiselsandbits:tape_measure:*>,
+    <chiselsandbits:wrench_wood:*>
     ]);
   
 
