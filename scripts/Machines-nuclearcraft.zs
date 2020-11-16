@@ -150,8 +150,7 @@ var methanol = <liquid:methanol>;
   AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/steel>);
   AlloyFurnace.removeRecipeWithOutput(<immersiveengineering:storage:8>);
   // Just for you Benanov :)
-  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/ferroboron>);
-  AlloyFurnace.removeRecipeWithOutput(<nuclearcraft:alloy:6>);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/ferroboron> * 2);
   AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 4, <ore:dustBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
 
 // SuperCooler
