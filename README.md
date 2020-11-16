@@ -17,6 +17,8 @@ Reddit-https://www.reddit.com/r/technode
 Twitter-@TechNodeMC
 
 
+We use YourKit to profile/monitor and fix the exotic issues we encounter with TNFC. Highly recommended!
+
 ![YourKit](https://www.yourkit.com/images/yklogo.png)
 
 YourKit supports open source projects with innovative and intelligent tools
