@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.44</version>
+        <version>12.2.45</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -39,7 +39,7 @@
         
         <mod name="Waterflasks" version="1.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.8.jar" file="waterflasks-1.8.jar" md5="ae971aa3588a83cf9cc7c45d86c6112a" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
-        <mod name="TNFCMod" version="12.2.44" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.44.jar" file="TNFCMod-MC1.12.2-12.2.44.jar" md5="ce5624ed4c864638e3e26ecbe2ca3b11" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
+        <mod name="TNFCMod" version="12.2.45" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.45.jar" file="TNFCMod-MC1.12.2-12.2.45.jar" md5="ab198240c0685916325ea944d17283be" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/> 
         
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
@@ -268,8 +268,6 @@
 
 <mod name="TickProfiler" version="1.12-0.0.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/TickProfiler-1.12-0.0.10.jar" file="TickProfiler-1.12-0.0.10.jar" md5="6a275afe89b5a5c900caf88b277425cc" download="server" type="mods" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
 
-<mod name="DynmapBlockScan" version="3.0-SNAPSHOT-25" url="packs/TechNodefirmacraft/files/1.12.2Mods/DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" file="DynmapBlockScan-3.0-SNAPSHOT-forge-1.12.2.jar" md5="d2efbc9e2f80f9ec17dc8fd52024b1b0" download="server" type="mods" description="Dynamically generate block definitions for Dynmap" website="http://www.minecraftforum.net/topic/1543523-dynmap-dynmap-web-maps-for-minecraft" client="no" colour="red" server="yes" serveroptional="yes" recommended="no" selected="no" />
-
 <mod name="FTB Utilities" version="5.4.1.130" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBUtilities-5.4.1.130.jar" file="FTBUtilities-5.4.1.130.jar" md5="542a6feecd445ebaa54d46d45f78f06e"  download="server" type="mods" colour="purple" client="yes" server="yes" optional="yes" serveroptional="yes" recommended="yes" selected="yes" />
         
 <mod name="FTB Backups" version="1.1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/FTBBackups-1.1.0.1.jar" file="FTBBackups-1.1.0.1.jar" md5="932a6981ff08c35bbdf83bb9f7af8d17" download="server" type="mods" colour="purple" client="yes" server="yes" recommended="yes" optional="yes" serveroptional="yes"  selected="yes"/>
@@ -314,8 +312,8 @@
 <!-- Pack Extraction -->
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
-               
-        <mod name="CT Scripts" version="12.2.44.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.44.1.zip" file="scripts.12.2.44.1.zip" md5="276b5710bf34467b3d7a5c9ae6608afe" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+        
+      <mod name="CT Scripts" version="12.2.45" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.45.zip" file="scripts.12.2.45.zip" md5="fd0d217c250ce5448941e49ae8fa1c9f" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     
 
