@@ -313,7 +313,7 @@
         
         <mod name="Resource Loaders Folder" version="12.2.3" url="packs/TechNodefirmacraft/files/1.12.2Extract/resources.12.2.6.zip" file="resources.12.2.6.zip" md5="97e071a93c6f691a2455613145c3e9bb" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-      <mod name="CT Scripts" version="12.2.45" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.45.zip" file="scripts.12.2.45.zip" md5="fd0d217c250ce5448941e49ae8fa1c9f" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
+      <mod name="CT Scripts" version="12.2.45" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.45.zip" file="scripts.12.2.45.zip" md5="b0fd087190f423b561b9f80ef488c6ec" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="Resources" client="yes" server="yes" recommended="yes" selected="yes"/>
 
     
 
