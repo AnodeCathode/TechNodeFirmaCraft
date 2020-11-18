@@ -24,6 +24,7 @@ Added the bones of 'Chunk Freezing'. This is a mechanism from 1.7.10 TFC. If a c
 - Mob drops?
 /kill @e[type=tfc:ChickenTFC]
 
+/kill @e[type=!player,r=50]
 
 - Load TEMP enum from JSON. 1.12.2?
 - Domestic animal renewal (TFC is never going to do it in 1.12.2, so just invent.... something)
