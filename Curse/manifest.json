@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TechnodeFirmaCraft",
-  "version": "12.2.45",
+  "version": "12.2.46",
   "author": "AnodeCathode",
   "projectID": 387655,
   "files": [
@@ -41,6 +41,11 @@
       "required": true
     },
     {
+      "projectID": 254297,
+      "fileID": 2482888,
+      "required": true
+    },
+    {
       "projectID": 405263,
       "fileID": 3110036,
       "required": true
@@ -57,7 +62,7 @@
     },
     {
       "projectID": 388927,
-      "fileID": 3113458,
+      "fileID": 3115901,
       "required": true
     },
     {
@@ -177,7 +182,7 @@
     },
     {
       "projectID": 228895,
-      "fileID": 3029575,
+      "fileID": 3112142,
       "required": true
     },
     {
@@ -287,7 +292,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3107848,
+      "fileID": 3114855,
       "required": true
     },
     {
@@ -346,11 +351,6 @@
       "required": true
     },
     {
-      "projectID": 267193,
-      "fileID": 3050664,
-      "required": true
-    },
-    {
       "projectID": 315391,
       "fileID": 2678285,
       "required": true
@@ -402,7 +402,7 @@
     },
     {
       "projectID": 302973,
-      "fileID": 3110813,
+      "fileID": 3113760,
       "required": true
     },
     {
