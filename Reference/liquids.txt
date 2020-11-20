@@ -1,6 +1,71 @@
+Liquids:
 <liquid:acrylic_acid>
 - Name: acrylic_acid
 - Display Name: Acrylic Acid
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_beer>
+- Name: aged_beer
+- Display Name: Aged Beer (Speed)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_cider>
+- Name: aged_cider
+- Display Name: Aged Cider (Speed)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_corn_whiskey>
+- Name: aged_corn_whiskey
+- Display Name: Aged Corn Whiskey (Haste)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_rum>
+- Name: aged_rum
+- Display Name: Aged Rum (Jump Boost)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_rye_whiskey>
+- Name: aged_rye_whiskey
+- Display Name: Aged Rye Whiskey (Haste)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_sake>
+- Name: aged_sake
+- Display Name: Aged Sake (Strength)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_vodka>
+- Name: aged_vodka
+- Display Name: Aged Vodka (Resistance)
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:aged_whiskey>
+- Name: aged_whiskey
+- Display Name: Aged Whiskey (Haste)
 - Luminosity:0
 - Density: 1000
 - Temperature: 300
@@ -25,10 +90,10 @@
 <liquid:aluminum>
 - Name: aluminum
 - Display Name: Molten Aluminum
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:aluminum_brass>
 - Name: aluminum_brass
@@ -82,9 +147,9 @@
 - Name: ammonia
 - Display Name: Ammonia
 - Luminosity:0
-- Density: 10
+- Density: -10
 - Temperature: 300
-- Viscosity: 10
+- Viscosity: 40
 - Gaseous: true
 <liquid:antimony>
 - Name: antimony
@@ -278,16 +343,16 @@
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:boron10>
-- Name: boron10
+<liquid:boron_10>
+- Name: boron_10
 - Display Name: Molten Boron-10
 - Luminosity:10
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:boron11>
-- Name: boron11
+<liquid:boron_11>
+- Name: boron_11
 - Display Name: Molten Boron-11
 - Luminosity:10
 - Density: 5000
@@ -350,6 +415,14 @@
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:caesium_137>
+- Name: caesium_137
+- Display Name: Molten Caesium-137
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:calcium_sulfate_solution>
 - Name: calcium_sulfate_solution
 - Display Name: Calcium Sulfate Solution
@@ -394,9 +467,9 @@
 - Name: carbon_dioxide
 - Display Name: Carbon Dioxide
 - Luminosity:0
-- Density: 10
-- Temperature: 200
-- Viscosity: 10
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
 - Gaseous: true
 <liquid:carbon_monoxide>
 - Name: carbon_monoxide
@@ -445,6 +518,14 @@
 - Density: 1325
 - Temperature: 330
 - Viscosity: 5000
+- Gaseous: false
+<liquid:chromium>
+- Name: chromium
+- Display Name: fluid.chromium
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
 - Gaseous: false
 <liquid:cider>
 - Name: cider
@@ -537,10 +618,10 @@
 <liquid:copper>
 - Name: copper
 - Display Name: Molten Copper
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:copper_nak>
 - Name: copper_nak
@@ -1502,6 +1583,14 @@
 - Temperature: 300
 - Viscosity: 40
 - Gaseous: true
+<liquid:europium_155>
+- Name: europium_155
+- Display Name: Molten Europium-155
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:exhaust_steam>
 - Name: exhaust_steam
 - Display Name: Exhaust Steam
@@ -1541,6 +1630,14 @@
 - Density: 10
 - Temperature: 310
 - Viscosity: 10
+- Gaseous: true
+<liquid:fluegas>
+- Name: fluegas
+- Display Name: Flue Gas
+- Luminosity:0
+- Density: -100
+- Temperature: 300
+- Viscosity: 500
 - Gaseous: true
 <liquid:fluorine>
 - Name: fluorine
@@ -1657,10 +1754,10 @@
 <liquid:gold>
 - Name: gold
 - Display Name: Molten Gold
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:gold_nak>
 - Name: gold_nak
@@ -1882,12 +1979,12 @@
 - Name: helium
 - Display Name: Helium
 - Luminosity:0
-- Density: 10
-- Temperature: 50
-- Viscosity: 10
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
 - Gaseous: true
-<liquid:helium3>
-- Name: helium3
+<liquid:helium_3>
+- Name: helium_3
 - Display Name: Helium-3
 - Luminosity:0
 - Density: -10
@@ -2098,9 +2195,9 @@
 - Name: hydrogen
 - Display Name: Hydrogen
 - Luminosity:0
-- Density: 10
-- Temperature: 110
-- Viscosity: 10
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
 - Gaseous: true
 <liquid:ice>
 - Name: ice
@@ -2249,10 +2346,10 @@
 <liquid:lead>
 - Name: lead
 - Display Name: Molten Lead
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:lead_nak>
 - Name: lead_nak
@@ -2618,9 +2715,9 @@
 - Name: liquid_nitrogen
 - Display Name: Liquid Nitrogen
 - Luminosity:0
-- Density: 10
+- Density: 810
 - Temperature: 70
-- Viscosity: 10
+- Viscosity: 170
 - Gaseous: false
 <liquid:liquid_nitrogen_nak>
 - Name: liquid_nitrogen_nak
@@ -2654,16 +2751,16 @@
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:lithium6>
-- Name: lithium6
+<liquid:lithium_6>
+- Name: lithium_6
 - Display Name: Molten Lithium-6
 - Luminosity:10
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:lithium7>
-- Name: lithium7
+<liquid:lithium_7>
+- Name: lithium_7
 - Display Name: Molten Lithium-7
 - Luminosity:10
 - Density: 5000
@@ -2715,6 +2812,14 @@
 - Display Name: Lubricant
 - Luminosity:0
 - Density: 925
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lye>
+- Name: lye
+- Display Name: Lye
+- Luminosity:0
+- Density: 1000
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
@@ -2810,9 +2915,9 @@
 - Name: methanol
 - Display Name: Methanol
 - Luminosity:0
-- Density: 1000
+- Density: 800
 - Temperature: 300
-- Viscosity: 1000
+- Viscosity: 800
 - Gaseous: false
 <liquid:milk>
 - Name: milk
@@ -3046,6 +3151,14 @@
 - Temperature: 1000
 - Viscosity: 10000
 - Gaseous: false
+<liquid:molybdenum>
+- Name: molybdenum
+- Display Name: Molten Molybdenum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:mother_liquor>
 - Name: mother_liquor
 - Display Name: Mother Liquor
@@ -3162,9 +3275,9 @@
 - Name: nitrogen
 - Display Name: Nitrogen
 - Luminosity:0
-- Density: 10
-- Temperature: 120
-- Viscosity: 10
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
 - Gaseous: true
 <liquid:obsidian>
 - Name: obsidian
@@ -3242,9 +3355,9 @@
 - Name: oxygen
 - Display Name: Oxygen
 - Luminosity:0
-- Density: 10
-- Temperature: 110
-- Viscosity: 10
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
 - Gaseous: true
 <liquid:oxygen_difluoride>
 - Name: oxygen_difluoride
@@ -3397,6 +3510,14 @@
 - Density: 4000
 - Temperature: 700
 - Viscosity: 10000
+- Gaseous: false
+<liquid:promethium_147>
+- Name: promethium_147
+- Display Name: Molten Promethium-147
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:propylene>
 - Name: propylene
@@ -3582,6 +3703,14 @@
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:ruthenium_106>
+- Name: ruthenium_106
+- Display Name: Molten Ruthenium-106
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:rye_whiskey>
 - Name: rye_whiskey
 - Display Name: Rye Whiskey
@@ -3633,10 +3762,10 @@
 <liquid:silver>
 - Name: silver
 - Display Name: Molten Silver
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:silver_nak>
 - Name: silver_nak
@@ -3750,6 +3879,14 @@
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:strontium_90>
+- Name: strontium_90
+- Display Name: Molten Strontium-90
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:sugar>
 - Name: sugar
 - Display Name: Molten Sugar
@@ -3841,18 +3978,18 @@
 <liquid:thorium>
 - Name: thorium
 - Display Name: Molten Thorium
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:tin>
 - Name: tin
 - Display Name: Molten Tin
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
 - Gaseous: false
 <liquid:tin_nak>
 - Name: tin_nak

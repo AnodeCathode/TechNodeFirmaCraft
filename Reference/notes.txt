@@ -14,7 +14,7 @@ Added the bones of 'Chunk Freezing'. This is a mechanism from 1.7.10 TFC. If a c
 
 
 <tfc:metal/chestplate/red_steel>.withTag({ncRadiationResistance: 1.0})
-
+<animalnet:caught_entity>ȡ.withTag({date: "19/11/2020 06:58:37", fileName: "4dcea255-9568-44ae-ac58-cae3dc0c8568", display: {Name: "Caught ChickenȲȲ"}, modName: "tfc", location: "x:-6398 y:144 z:-1125", animalName: "tfc:chickentfc", age: "Adult"})
 
 - Process world.log and throw into MySQL instance
 
