@@ -20,7 +20,7 @@
 
   // 
     recipes.addShaped("animalnet_animal_net_big", <animalnet:animal_net_big>, [[<ore:padding>, <minecraft:iron_bars>, <ore:padding>],[<minecraft:iron_bars>, <animalnet:animal_net_medium>, <minecraft:iron_bars>], [<ore:padding>, <minecraft:iron_bars>, <ore:padding>]]);
-    recipes.addShaped("animalnet_animal_net_medium", <animalnet:animal_net_medium>, [[<ore:stickIron>, <betterwithmods:material:41>, <ore:stickIron>],[<betterwithmods:material:41>, <animalnet:animal_net_small>, <betterwithmods:material:41>], [<ore:stickIron>, <betterwithmods:material:41>, <ore:stickIron>]]);
+    recipes.addShaped("animalnet_animal_net_medium", <animalnet:animal_net_medium>, [[<ore:rodIron>, <betterwithmods:material:41>, <ore:rodIron>],[<betterwithmods:material:41>, <animalnet:animal_net_small>, <betterwithmods:material:41>], [<ore:rodIron>, <betterwithmods:material:41>, <ore:rodIron>]]);
     recipes.addShaped("animalnet_animal_net_small", <animalnet:animal_net_small>, [[<ore:fabricHemp>, <tfc:animal/product/wool_yarn>, <ore:fabricHemp>],[<tfc:animal/product/wool_yarn>, <ore:fabricHemp>, <tfc:animal/product/wool_yarn>], [<ore:fabricHemp>, <tfc:animal/product/wool_yarn>, <ore:fabricHemp>]]);
 
 // ================================================================================
