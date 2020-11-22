@@ -75,7 +75,7 @@ var methanol = <liquid:methanol>;
   Manufactory.addRecipe(<immersiveengineering:material:4> * 16, <nuclearcraft:part:6>, 1.0, 0.5, 0.0);
   // Fix bronze output
   Manufactory.removeRecipeWithOutput(<tfc:metal/dust/black_bronze>);
-  Manufactory.addRecipe<tfc:metal/ingot/black_bronze>, <tfc:metal/dust/black_bronze>, 1.0, 0.5, 0.0);
+  Manufactory.addRecipe(<tfc:metal/ingot/black_bronze>, <tfc:metal/dust/black_bronze>, 1.0, 0.5, 0.0);
   
   
 // Fluid Enricher recipes
