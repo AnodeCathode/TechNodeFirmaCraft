@@ -51,6 +51,10 @@ recipes.addShaped("nuclearcraft_electric_motor", electricMotor, [
 ]);
 
 
+//Manufactory
+recipes.remove(<nuclearcraft:manufactory>);
+recipes.addShaped("tnfc_nc_manufactory", <nuclearcraft:manufactory>, [[<ore:ingotLead>, <ore:dustRedstone>, <ore:ingotLead>], [<ore:craftingToolHardChisel>.transformDamage(), <minecraft:piston:*>, <ore:craftingToolHardHammer>.transformDamage()], [<ore:ingotLead>, <ore:solenoidCopper>, <ore:ingotLead>]]);
+
 // ================================================================================
 //#ADD SHAPELESS
       // recipes.addShapeless("tnfc_bwm_hemp_rope",<betterwithmods:rope>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);
