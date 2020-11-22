@@ -73,7 +73,11 @@ var methanol = <liquid:methanol>;
   Manufactory.removeRecipeWithOutput(<minecraft:sand>);
   Manufactory.addRecipe(<tfc:ore/bituminous_coal>, <nuclearcraft:gem_dust:7>, 1.0, 0.5, 0.0);
   Manufactory.addRecipe(<immersiveengineering:material:4> * 16, <nuclearcraft:part:6>, 1.0, 0.5, 0.0);
-
+  // Fix bronze output
+  Manufactory.removeRecipeWithOutput(<tfc:metal/dust/black_bronze>);
+  Manufactory.addRecipe<tfc:metal/ingot/black_bronze>, <tfc:metal/dust/black_bronze>, 1.0, 0.5, 0.0);
+  
+  
 // Fluid Enricher recipes
   //Enricher.addRecipe(IIngredient itemInput, ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});  
   Enricher.removeRecipeWithOutput(<liquid:boron_nitride_solution> * 666);
