@@ -156,6 +156,8 @@ var methanol = <liquid:methanol>;
   // Just for you Benanov :)
   AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/ferroboron> * 2);
   AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 4, <ore:dustBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/hsla_steel>* 2);
+  AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 8, <ore:dustMaganese> * 1, <tfc:metal/ingot/hsla_steel> * 9);
 
 // SuperCooler
 //Supercooler.addRecipe(ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
