@@ -635,5 +635,18 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
 	//mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
 	mods.immersiveengineering.Mixer.addRecipe(<liquid:napalm> * 500, <liquid:fuel> * 500, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>], 3000);
 
-   
+  
+//Alloy Furnace
+//bronze
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tfc:metal/ingot/bronze> * 4);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:ingotCopper> * 8, <ore:ingotTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:dustCopper> * 8, <ore:dustTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:dustCopper> * 8, <ore:ingotTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:ingotCopper> * 8, <ore:dustTin>, 2000);
     
+//brass
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tfc:metal/ingot/brass> * 4);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:ingotZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:dustZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:ingotZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:dustZinc>, 2000);
