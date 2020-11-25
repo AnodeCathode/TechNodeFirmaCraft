@@ -182,14 +182,15 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
     
-    //Remove all IE ingots, except for uranium (5), constantan 6 and electrum 7
+    //Remove all IE ingots, except for uranium (5)
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:0>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
     
-    
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:6>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:7>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
     
     
