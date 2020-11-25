@@ -134,6 +134,51 @@ var richNativeCopper = <ore:oreNativeCopperRich>;
       richNativeCopper.addItems([
       <tfc:ore/native_copper:2>
       ]);
+
+var poorLimonite = <ore:oreLimonitePoor>;
+      poorLimonite.addItems([
+      <tfc:ore/limonite:1>
+      ]);
+      
+var normalLimonite = <ore:oreLimoniteNormal>;
+      normalLimonite.addItems([
+      <tfc:ore/limonite:0>
+      ]);
+      
+var richLimonite = <ore:oreLimoniteRich>;
+      richLimonite.addItems([
+      <tfc:ore/limonite:2>
+      ]);
+
+var poorHematite = <ore:oreHematitePoor>;
+      poorHematite.addItems([
+      <tfc:ore/hematite:1>
+      ]);
+      
+var normalHematite = <ore:oreHematiteNormal>;
+      normalHematite.addItems([
+      <tfc:ore/hematite:0>
+      ]);
+      
+var richHematite = <ore:oreHematiteRich>;
+      richHematite.addItems([
+      <tfc:ore/hematite:2>
+      ]);
+
+var poorMagnesite = <ore:oreMagnesitePoor>;
+      poorMagnesite.addItems([
+      <tfc:ore/magnesite:1>
+      ]);
+      
+var normalMagnesite = <ore:oreMagnesiteNormal>;
+      normalMagnesite.addItems([
+      <tfc:ore/magnesite:0>
+      ]);
+      
+var richMagnesite = <ore:oreMagnesiteRich>;
+      richMagnesite.addItems([
+      <tfc:ore/magnesite:2>
+      ]);
        
 var toolsMisc = <ore:tool>;
     toolsMisc.addItems([
