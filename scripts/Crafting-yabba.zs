@@ -49,6 +49,11 @@
     recipes.addShapeless("yabba_upgrade/redstone_out", <yabba:upgrade_redstone_out>, [<yabba:upgrade_blank>, <minecraft:redstone_torch>, <ore:craftingToolMediumHammer>.transformDamage()]);
     recipes.addShapeless("yabba_upgrade/void", <yabba:upgrade_void>, [<yabba:upgrade_blank>, <ore:cobblestone>, <ore:craftingToolMediumHammer>.transformDamage()]);
 
+    
+// Transition recipes for Yabba to Storage Drawers:
+    recipes.addShapeless("yabba_sd_swaparoo", <storagedrawerstfc:extra_drawers>.withTag({material: "tfc:oak"}),[<yabba:item_barrel>]);
+
+
 //#REGISTER TFC Size/Heat/Other
   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     //#SIZE
