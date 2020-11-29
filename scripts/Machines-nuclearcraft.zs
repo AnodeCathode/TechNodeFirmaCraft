@@ -242,6 +242,10 @@ Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:11>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:7>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:6>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:5>);
+Melter.removeRecipeWithInput(<tfc:powder/lapis_lazuli>);
+Melter.removeRecipeWithInput(<tfc:powder/sulfur>);
+
+
 
 //Ingot Former
   //mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(IIngredient itemOutput);
