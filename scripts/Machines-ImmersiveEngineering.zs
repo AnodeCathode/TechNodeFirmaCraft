@@ -302,7 +302,9 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <minecraft:glowstone>, 512);
      
 
-      //add rock to flux recipes, cause I don't know why they aren't there
+      //add rock to flux recipes, cause oreDict oddity causes issues
+      mods.immersiveengineering.Crusher.removeRecipe(<tfc:powder/flux>); 
+      
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/limestone>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/dolomite>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/chalk>, 512);
