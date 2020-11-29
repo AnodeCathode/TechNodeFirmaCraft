@@ -569,3 +569,26 @@ experienceupgrade {
           ["oc:circuitChip2", craftingGreenGem, "oc:circuitChip2"]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
+tabletcase1 {
+  input: [[ingotGold, woodButton, ingotGold]
+          ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
+          [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+tabletcase2 {
+  input: [["oc:circuitChip2", woodButton, ingotGold]
+          ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+woodButtongroup {
+  input: [[woodButton, woodButton, woodButton]
+          [woodButton, woodButton, woodButton]]
+}
+arrowkeys {
+  input: [["", woodButton, ""]
+          [woodButton, woodButton, woodButton]]
+}
+numpad {
+  input: [[woodButton, woodButton, woodButton]
+          [woodButton, woodButton, woodButton]
+          [woodButton, woodButton, woodButton]]
+}
