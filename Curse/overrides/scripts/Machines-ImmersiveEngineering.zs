@@ -182,13 +182,15 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
     
-    //Remove all IE ingots, except for uranium (5), constantan 6 and electrum 7
+    //Remove all IE ingots, except for uranium (5)
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:0>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
     
-    
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:6>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:7>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
     
     
@@ -298,6 +300,15 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
       mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/lapis_lazuli> * 10, <tfc:ore/lapis_lazuli>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 1, <tfc:ore/selenite>, 512);
       mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 10, <minecraft:glowstone>, 512);
+     
+
+      //add rock to flux recipes, cause oreDict oddity causes issues
+      mods.immersiveengineering.Crusher.removeRecipe(<tfc:powder/flux>); 
+      
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/limestone>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/dolomite>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/chalk>, 512);
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:powder/flux> * 8, <tfc:rock/marble>, 512);
       
       //cobble to gravel recipes
       mods.immersiveengineering.Crusher.addRecipe(<tfc:gravel/granite>, <tfc:cobble/granite>, 512);
@@ -460,10 +471,6 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.Excavator.removeMineral("Silver Ore");
     mods.immersiveengineering.Excavator.addMineral("Silver", 20, 0.005, ["oreSilverPoor", "oreSilverNormal", "oreSilverRich", "oreLeadPoor", "oreLeadNormal", "oreLeadRich"], [0.30, 0.15, 0.05, 0.30, 0.15, 0.05]);
 
-    //Platinum
-    mods.immersiveengineering.Excavator.removeMineral("Platinum");
-    mods.immersiveengineering.Excavator.addMineral("Platinum", 7, 0.005, ["orePlatinumPoor", "orePlatinumNormal", "orePlatinumRich", "oreCopperPoor", "oreNickelPoor"], [0.35, 0.175, 0.075, 0.20, 0.20]);
-
     //Lapis Lazuli
     mods.immersiveengineering.Excavator.removeMineral("Lapis");
     mods.immersiveengineering.Excavator.addMineral("Lapis Lazuli", 10, 0.005, ["gemLapis", "oreWroughtIronPoor", "gemSulfur", "gemChipped", "gemNormal", "gemFlawless"], [0.7, 0.1, 0.02, 0.08, 0.06, 0.03, 0.01]);
@@ -512,19 +519,9 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Borax
     mods.immersiveengineering.Excavator.addMineral("Borax", 10, 0.005, ["gemBorax", "gemChipped", "gemNormal", "gemFlawless"], [0.9, 0.07, 0.02, 0.0001]);
 
-    //Petrified Wood
-    mods.immersiveengineering.Excavator.removeMineral("Petrified Wood");
-    mods.immersiveengineering.Excavator.addMineral("Petrified Wood", 20, 0.005, ["gemPetrifiedWood", "gemChipped", "gemNormal", "gemFlawless"], [0.9, 0.007, 0.002, 0.0001]);
-
     //Silt
     mods.immersiveengineering.Excavator.removeMineral("Silt");
-    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-
-    //Microcline
-    mods.immersiveengineering.Excavator.addMineral("Microcline", 5, 0.005, ["gemMicrocline", "gemNormal"], [0.9, 0.001]);
-
-    //Serpentine
-    mods.immersiveengineering.Excavator.addMineral("Selenite", 5, 0.005, ["gemSelenite", "oreBismuthPoor", "oreLeadPoor", "gemNormal"], [0.5, 0.10, 0.015, 0.00050]);
+    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "nuggetSoulforgedSteel"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
 
     //Bauxite
     mods.immersiveengineering.Excavator.removeMineral("Bauxite");
@@ -561,28 +558,72 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
   // FERMENTER
 // mods.immersiveengineering.Fermenter.addRecipe(IItemStack output, ILiquidStack fluid, IIngredient input, int energy);
 	mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
-  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/sugarcane>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/banana>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/barley>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/barley_bread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/barley_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/barley_flour>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/barley_grain>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/beet>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/blackberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/blueberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/bunch_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cabbage>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/carrot>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cheese>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cherry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cloud_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cornbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cornmeal_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cornmeal_flour>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/cranberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/elderberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/garlic>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/gooseberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/green_apple>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/green_bean>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/green_bell_pepper>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/horse_meat>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/lemon>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/maize>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/maize_grain>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/oat>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/oat_flour>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/oat_grain>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/olive>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/olive_paste>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/onion>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/orange>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/peach>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/plum>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/potato>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rabbit>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/raspberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/red_apple>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/red_bell_pepper>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rice_bread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rice_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rice_flour>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rice_grain>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rye>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rye_bread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rye_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rye_flour>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/rye_grain>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/snow_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/soybean>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/squash>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/strawberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/sugarcane>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/tomato>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wheat>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wheat_bread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wheat_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wheat_flour>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wheat_grain>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wintergreen_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/yellow_bell_pepper>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <immersiveengineering:material:4>, 80);
   
 
@@ -635,5 +676,18 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
 	//mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
 	mods.immersiveengineering.Mixer.addRecipe(<liquid:napalm> * 500, <liquid:fuel> * 500, [<ore:dustAluminum>, <ore:dustAluminum>, <ore:dustAluminum>], 3000);
 
-   
+  
+//Alloy Furnace
+//bronze
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tfc:metal/ingot/bronze> * 4);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:ingotCopper> * 8, <ore:ingotTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:dustCopper> * 8, <ore:dustTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:dustCopper> * 8, <ore:ingotTin>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/bronze> * 9, <ore:ingotCopper> * 8, <ore:dustTin>, 2000);
     
+//brass
+mods.immersiveengineering.AlloySmelter.removeRecipe(<tfc:metal/ingot/brass> * 4);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:ingotZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:dustZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:ingotZinc>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:dustZinc>, 2000);

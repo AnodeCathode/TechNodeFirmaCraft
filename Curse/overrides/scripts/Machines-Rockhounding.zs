@@ -63,7 +63,7 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustRedSteel", "dustTungsten"], [90, 10], <tfc:metal/ingot/tungsten_steel>);
   
   // Wrought Iron
-  mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron", "dustCharcoal"], [90, 10], <tfc:metal/ingot/wrought_iron>);
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron", "dustCharcoal"], [100, 10], <tfc:metal/ingot/wrought_iron>);
 
   
 // MATERIAL CABINET

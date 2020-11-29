@@ -73,7 +73,11 @@ var methanol = <liquid:methanol>;
   Manufactory.removeRecipeWithOutput(<minecraft:sand>);
   Manufactory.addRecipe(<tfc:ore/bituminous_coal>, <nuclearcraft:gem_dust:7>, 1.0, 0.5, 0.0);
   Manufactory.addRecipe(<immersiveengineering:material:4> * 16, <nuclearcraft:part:6>, 1.0, 0.5, 0.0);
-
+  // Fix bronze output
+  Manufactory.removeRecipeWithOutput(<tfc:metal/dust/black_bronze>);
+  Manufactory.addRecipe(<tfc:metal/ingot/black_bronze>, <tfc:metal/dust/black_bronze>, 1.0, 0.5, 0.0);
+  
+  
 // Fluid Enricher recipes
   //Enricher.addRecipe(IIngredient itemInput, ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});  
   Enricher.removeRecipeWithOutput(<liquid:boron_nitride_solution> * 666);
@@ -152,7 +156,62 @@ var methanol = <liquid:methanol>;
   // Just for you Benanov :)
   AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/ferroboron> * 2);
   AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 4, <ore:dustBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
+  AlloyFurnace.addRecipe(<ore:ingotBlackSteel>  * 4, <ore:ingotBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
+  AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 4, <ore:ingotBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
+  AlloyFurnace.addRecipe(<ore:ingotBlackSteel>  * 4, <ore:dustBoron> * 1, <tfc:metal/ingot/ferroboron> * 4);
+  //Was it never there?
+  //AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/hsla_steel>* 2);
+  AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 8, <ore:dustManganese> * 1, <tfc:metal/ingot/hsla_steel> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotBlackSteel>  * 8, <ore:ingotManganese> * 1, <tfc:metal/ingot/hsla_steel> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotBlackSteel>  * 8, <ore:dustManganese> * 1, <tfc:metal/ingot/hsla_steel> * 9);
+  AlloyFurnace.addRecipe(<ore:dustBlackSteel>  * 8, <ore:ingotManganese> * 1, <tfc:metal/ingot/hsla_steel> * 9);
 
+  //bronze
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/bronze>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/bronze> * 4);
+  AlloyFurnace.addRecipe(<ore:dustCopper>  * 8, <ore:dustTin> * 1, <tfc:metal/ingot/bronze> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotCopper>  * 8, <ore:dustTin> * 1, <tfc:metal/ingot/bronze> * 9);
+  AlloyFurnace.addRecipe(<ore:dustCopper>  * 8, <ore:ingotTin> * 1, <tfc:metal/ingot/bronze> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotCopper>  * 8, <ore:ingotTin> * 1, <tfc:metal/ingot/bronze> * 9);
+  //brass
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/brass>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/brass> * 4);
+  AlloyFurnace.addRecipe(<ore:dustCopper>  * 8, <ore:dustZinc> * 1, <tfc:metal/ingot/brass> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotCopper>  * 8, <ore:dustZinc> * 1, <tfc:metal/ingot/brass> * 9);
+  AlloyFurnace.addRecipe(<ore:dustCopper>  * 8, <ore:ingotZinc> * 1, <tfc:metal/ingot/brass> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotCopper>  * 8, <ore:ingotZinc> * 1, <tfc:metal/ingot/brass> * 9);
+  //aluminum brass
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/aluminum_brass> * 4);
+  AlloyFurnace.addRecipe(<ore:dustAluminum>  * 7, <ore:dustCopper> * 2, <tfc:metal/ingot/aluminum_brass> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotAluminum>  * 7, <ore:dustCopper> * 2, <tfc:metal/ingot/aluminum_brass> * 9);
+  AlloyFurnace.addRecipe(<ore:dustAluminum>  * 7, <ore:ingotCopper> * 2, <tfc:metal/ingot/aluminum_brass> * 9);
+  AlloyFurnace.addRecipe(<ore:ingotAluminum>  * 7, <ore:ingotCopper> * 2, <tfc:metal/ingot/aluminum_brass> * 9);
+  
+  //OMG Remove all the broken shit and stuff you should do elsewhere, or else
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/tough> * 2);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/ferroboron> * 2);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/magnesium_diboride> * 3);
+  AlloyFurnace.removeRecipeWithOutput(<rockhounding_chemistry:alloy_items_deco:14>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<rockhounding_chemistry:alloy_items_deco:13>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<rockhounding_chemistry:alloy_blocks_deco:4>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/ingot/zircaloy>* 8);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/zircaloy>* 8);
+  AlloyFurnace.removeRecipeWithOutput(<rockhounding_chemistry:alloy_blocks_tech_b:2>* 8);
+  AlloyFurnace.removeRecipeWithOutput(<nuclearcraft:alloy:15>* 16);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/aluminum_brass>* 4);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/manyullyn>* 1);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/electrum>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/invar>* 3);
+  AlloyFurnace.removeRecipeWithOutput(<tfc:metal/nugget/constantan>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<immersiveengineering:storage:6>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<immersiveengineering:storage:7>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:productingot>* 3);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:productnugget>* 3);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:metal0>* 3);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:productingot:1>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:productnugget:1>* 2);
+  AlloyFurnace.removeRecipeWithOutput(<advancedrocketry:metal0:1>* 2);
+  
 // SuperCooler
 //Supercooler.addRecipe(ILiquidStack fluidInput, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
   Supercooler.addRecipe(water * 250 , <liquid:ice> * 250, 0.25, 0.5, 0.0);
@@ -183,6 +242,10 @@ Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:11>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:7>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:6>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:5>);
+Melter.removeRecipeWithInput(<tfc:powder/lapis_lazuli>);
+Melter.removeRecipeWithInput(<tfc:powder/sulfur>);
+
+
 
 //Ingot Former
   //mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(IIngredient itemOutput);

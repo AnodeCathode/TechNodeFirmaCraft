@@ -2,6 +2,11 @@ Notes:
 160529104681437176
 
 
+Park changelog stuff for TFC update:
+One of the oldest bugs in TNFC has been squashed. The IE Mining Drill had a nasty habit of crashing servers when drilling unsupported rock. We believe this has been solved. I look forward to you telling me otherwise.
+
+Also added a new feature. If your smithing skill is at least Expert, you will now see the melting temperature of ores and metals as well as a numeric display of forge/crucible/blast furnace and other temperatures. This is to overcome the limitations of the TFC Temp display when dealing with high temp metals and alloys like Tungsten Steel. This can be turned off in the TNFCMod config if you find it too immersion breaking.  Also can be perma-enabled in TFC config as well.
+
 add to tfc-models?:
 ignore-updates:id=salt_water,data=*
 ignore-updates:id=fresh_water,data=*
