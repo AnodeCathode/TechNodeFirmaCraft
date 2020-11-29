@@ -469,10 +469,6 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.Excavator.removeMineral("Silver Ore");
     mods.immersiveengineering.Excavator.addMineral("Silver", 20, 0.005, ["oreSilverPoor", "oreSilverNormal", "oreSilverRich", "oreLeadPoor", "oreLeadNormal", "oreLeadRich"], [0.30, 0.15, 0.05, 0.30, 0.15, 0.05]);
 
-    //Platinum
-    mods.immersiveengineering.Excavator.removeMineral("Platinum");
-    mods.immersiveengineering.Excavator.addMineral("Platinum", 7, 0.005, ["orePlatinumPoor", "orePlatinumNormal", "orePlatinumRich", "oreCopperPoor", "oreNickelPoor"], [0.35, 0.175, 0.075, 0.20, 0.20]);
-
     //Lapis Lazuli
     mods.immersiveengineering.Excavator.removeMineral("Lapis");
     mods.immersiveengineering.Excavator.addMineral("Lapis Lazuli", 10, 0.005, ["gemLapis", "oreWroughtIronPoor", "gemSulfur", "gemChipped", "gemNormal", "gemFlawless"], [0.7, 0.1, 0.02, 0.08, 0.06, 0.03, 0.01]);
@@ -521,19 +517,9 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Borax
     mods.immersiveengineering.Excavator.addMineral("Borax", 10, 0.005, ["gemBorax", "gemChipped", "gemNormal", "gemFlawless"], [0.9, 0.07, 0.02, 0.0001]);
 
-    //Petrified Wood
-    mods.immersiveengineering.Excavator.removeMineral("Petrified Wood");
-    mods.immersiveengineering.Excavator.addMineral("Petrified Wood", 20, 0.005, ["gemPetrifiedWood", "gemChipped", "gemNormal", "gemFlawless"], [0.9, 0.007, 0.002, 0.0001]);
-
     //Silt
     mods.immersiveengineering.Excavator.removeMineral("Silt");
-    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "gemFlawless"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
-
-    //Microcline
-    mods.immersiveengineering.Excavator.addMineral("Microcline", 5, 0.005, ["gemMicrocline", "gemNormal"], [0.9, 0.001]);
-
-    //Serpentine
-    mods.immersiveengineering.Excavator.addMineral("Selenite", 5, 0.005, ["gemSelenite", "oreBismuthPoor", "oreLeadPoor", "gemNormal"], [0.5, 0.10, 0.015, 0.00050]);
+    mods.immersiveengineering.Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary","gemChipped", "gemNormal", "nuggetSoulforgedSteel"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.0002]);
 
     //Bauxite
     mods.immersiveengineering.Excavator.removeMineral("Bauxite");
