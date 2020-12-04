@@ -1,6 +1,6 @@
 
 {
-  "ID": 50,
+  "ID": 51,
   "Name": "TerraFirmaCraft Mountains Edge",
   "Resource Location": "tfc:mountains_edge",
   "Class": "net.dries007.tfc.world.classic.biomes.BiomeTFC",
@@ -8,13 +8,11 @@
   "Height Variation": -1.9000001,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
-  "Actual Filler Blocks": [
-    "minecraft:stone[variant\u003dstone]"
-  ],
-  "Grass Color": "Not set. Check in-game.",
-  "Foliage Color": "Not set. Check in-game.",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.5,
   "Humidity": 0.5,
@@ -27,34 +25,64 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityBearTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityBlackBearTFC",
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityPolarBearTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityBoarTFC",
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityPantherTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityCougarTFC",
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntitySaberToothTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityCoyoteTFC",
+      "Weight": 30,
+      "Min Group Count": 3,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityDeerTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityDireWolfTFC",
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityLionTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityGazelleTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityGrizzlyBearTFC",
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityGrouseTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityHareTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityHyenaTFC",
@@ -63,13 +91,79 @@
       "Max Group Count": 6
     },
     {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityJackalTFC",
+      "Weight": 30,
+      "Min Group Count": 3,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityLionTFC",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityMongooseTFC",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityMuskOxTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityOcelotTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityPantherTFC",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityPheasantTFC",
       "Weight": 70,
       "Min Group Count": 2,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityDeerTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityPolarBearTFC",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityQuailTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityRabbitTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntitySaberToothTFC",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityTurkeyTFC",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityWildebeestTFC",
       "Weight": 70,
       "Min Group Count": 2,
       "Max Group Count": 4
@@ -81,13 +175,13 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityParrotTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityYakTFC",
       "Weight": 70,
       "Min Group Count": 2,
-      "Max Group Count": 3
+      "Max Group Count": 4
     },
     {
-      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityOcelotTFC",
+      "Entity Class": "net.dries007.tfc.objects.entity.animal.EntityZebuTFC",
       "Weight": 70,
       "Min Group Count": 2,
       "Max Group Count": 4
@@ -135,12 +229,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [
@@ -160,5 +248,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true
+  "Tweaked": false
 }

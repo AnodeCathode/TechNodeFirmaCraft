@@ -8,13 +8,11 @@
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
-  "Actual Filler Blocks": [
-    "minecraft:stone[variant\u003dstone]"
-  ],
-  "Grass Color": "Not set. Check in-game.",
-  "Foliage Color": "Not set. Check in-game.",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.6,
   "Humidity": 0.6,
@@ -22,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "DENSE",
+    "HILLS",
     "FOREST",
-    "HILLS"
+    "DENSE",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -96,12 +94,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [
@@ -121,5 +113,5 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true
+  "Tweaked": false
 }
