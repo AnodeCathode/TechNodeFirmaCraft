@@ -128,6 +128,9 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:steel_anvil>, <betterwithmods:steel_block>, <rockhounding_chemistry:alloy_blocks_tech:2>, 2400, 7);
     //Block
     mods.immersiveengineering.MetalPress.addRecipe(<betterwithmods:steel_block>, <betterwithmods:material:14>, <rockhounding_chemistry:alloy_blocks_tech:9>, 2400, 16);
+
+  //Bloom to ingot
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/wrought_iron>, <tfc:bloom/refined>, <rockhounding_chemistry:ingot_pattern>, 2400, 1);
     
 // CokeOven
 //mods.immersiveengineering.CokeOven.addRecipe(IItemStack output, int fuelOutput, IIngredient input, int time);
@@ -691,3 +694,4 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <o
 mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:dustZinc>, 2000);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:ingotZinc>, 2000);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:dustZinc>, 2000);
+
