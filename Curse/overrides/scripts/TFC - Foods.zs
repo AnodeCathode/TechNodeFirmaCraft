@@ -17,11 +17,11 @@
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.55, 480, true);  
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit>, 0.45, 480, true);
   //Cooked
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish:1>, 0.35, 480, true);
+//  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
+//  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish:1>, 0.35, 480, true);
   
 
-  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit_popped>, 0.35, 480, true);
+  //mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit_popped>, 0.35, 480, true);
 
  
     

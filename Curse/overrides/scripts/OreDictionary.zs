@@ -44,7 +44,9 @@ var oreCookedMeat = <ore:categoryCookedMeat>;
     <betterwithmods:cooked_omelet>,
     <minecraft:cooked_fish>,
     <minecraft:cooked_fish:1>,
-    <betterwithmods:cooked_wolf_chop>
+    <betterwithmods:cooked_wolf_chop>,
+    <tnfcmod:cooked_crab_leg>,
+    <tnfcmod:cooked_frog_leg>
     ]);
 
 var oreRawMeat = <ore:categoryMeat>;
@@ -53,7 +55,9 @@ var oreRawMeat = <ore:categoryMeat>;
     <minecraft:fish>,
     <minecraft:fish:1>,
     <minecraft:fish:2>,
-    <minecraft:fish:3>
+    <minecraft:fish:3>,
+    <tnfcmod:crab_leg>,
+    <tnfcmod:frog_leg>
     ]);
 
 var oreMedicinalPlants = <ore:medicinalPlant>;

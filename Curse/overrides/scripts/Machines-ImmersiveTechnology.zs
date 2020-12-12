@@ -25,8 +25,8 @@
     mods.immersivetechnology.SteamTurbine.addFuel(<liquid:fresh_water> * 10, <liquid:steam> * 100, 1);
       
 // Pipes
-    mods.immersivetechnology.PressurizedFluid.add(<fluid:fresh_water>);
-    mods.immersivetechnology.PressurizedFluid.add(<fluid:salt_water>);
+//    mods.immersivetechnology.PressurizedFluid.add(<fluid:fresh_water>);
+//    mods.immersivetechnology.PressurizedFluid.add(<fluid:salt_water>);
 	
 // Gas Turbine
 	mods.immersivetechnology.GasTurbine.removeFuel(<liquid:gasoline>);

@@ -40,11 +40,11 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_scrambled_egg>, 0.55, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_omelet>, 0.55, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:wolf_chop>, 0.55, 480, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_mystery_meat>, 0.35, 480, true);
-  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_egg>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_scrambled_egg>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_omelet>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_wolf_chop>, 0.35, 480, true);
+  // mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_mystery_meat>, 0.35, 480, true);
+  // mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_egg>, 0.35, 480, true);
+	// mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_scrambled_egg>, 0.35, 480, true);
+	// mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_omelet>, 0.35, 480, true);
+	// mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_wolf_chop>, 0.35, 480, true);
   
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_wolf_chop>, 4, 0, 2, 1.5, 0, 0, 0, 2.5, 0);
   mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, 2, 0, 0, 1.5, 0, 0, 0, 2.5, 0);
@@ -77,7 +77,7 @@ mods.terrafirmacraft.ItemRegistry.registerItemSize(<betterwithmods:cooked_kebab>
 // recipes.remove(<betterwithmods:raw_kebab>);    
 // recipes.addShapeless("betterwithmods_food_raw_kebab", <betterwithmods:raw_kebab> * 3, [<tfc:plants/porcini>, <ore:categoryVegetable>, <ore:categoryMeat>, <ore:stickWood>]);
 mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_kebab>, 0.55, 480, true);
-mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_kebab>, 0.35, 480, true);
+//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_kebab>, 0.35, 480, true);
 mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:raw_kebab>, 1, 0, 0, 2.25, 0, 1, 0, 1, 0);
 mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_kebab>, 4, 0, 3, 4.25, 0, 4, 0, 4, 0);
 
