@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.50</version>
+        <version>12.2.50.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -13,6 +13,7 @@
     </delete>
     <messages>
         <update><![CDATA[ ATTENTION: This version BREAKS WORLDS!!!! This version is NOT compatible with old 1.7.10 worlds or pre 12.2.24 worlds. <br />
+        Yabba Barrels will be transparent if you install ConnectedTextures. Yabba is going away! Trade your barrels for Storage Drawers! <br />
         This is a major MC/TFC/Everything version update which makes major changes to the entire modpack. You've been warned.]]></update>
     </messages>
     
@@ -116,7 +117,7 @@
         
         <mod name="Bookshelf" version="2.3.590" url="packs/TechNodefirmacraft/files/1.12.2Mods/Bookshelf-1.12.2-2.3.590.jar" file="Bookshelf-1.12.2-2.3.590.jar" md5="85a44d3299449545e435f5ec55fc914b" download="server" type="mods" library="yes" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Rockhounding Mod: Core" version="1.12.2-3.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_core-1.12.2-3.23.jar" file="rockhounding_core-1.12.2-3.23.jar" md5="cc38382fab95ae88606e77905b786dd6" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="Rockhounding Mod: Core" version="1.12.2-3.24" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_core-1.12.2-3.24.jar" file="rockhounding_core-1.12.2-3.24.jar" md5="aa98864f4e4f90e58cf0e96df2bebf45" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
          <mod name="Rockhounding Mod: Chemistry" version="1.12.2-3.53" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_chemistry-1.12.2-3.53.jar" file="rockhounding_chemistry-1.12.2-3.53.jar" md5="f5fc8aedac45298aa36a5e3556fc9de6" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
