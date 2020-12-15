@@ -223,3 +223,7 @@ recipes.addShaped("storagedrawerstfc_extra_trim_1_tfc_willow", <storagedrawerstf
     // HEAVY("heavy", 4),// Store only in chests stacksize = 4
     // VERY_HEAVY("very_heavy", 1); // Store only in chests stacksize = 1
     
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:basicdrawers>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers>, "HUGE", "VERY_HEAVY");
+
