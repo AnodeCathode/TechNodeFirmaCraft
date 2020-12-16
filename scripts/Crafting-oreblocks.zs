@@ -40,6 +40,7 @@ recipes.remove(<immersiveengineering:storage:8>);
 recipes.remove(<immersiveengineering:storage>);
 recipes.remove(<minecraft:gold_block>);
 recipes.remove(<minecraft:iron_block>);
+recipes.remove(<pneumaticcraft:compressed_iron_block>);
 
 // Remove block to ingot
 recipes.removeShapeless(<immersiveengineering:material:6> * 9,[<immersiveengineering:stone_decoration:3>]);
