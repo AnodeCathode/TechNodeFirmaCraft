@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.50.2</version>
+        <version>12.2.51</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -33,9 +33,9 @@
         <!-- TFC -->
         <mod name="TerraFirmaCraft" version="1.7.10.168" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.10.168.jar" file="TerraFirmaCraft-MC1.12.2-1.7.10.168.jar" md5="ef1ac8bdcb3140906653af88ab4fc05d" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.50" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.50.jar" file="TNFCMod-MC1.12.2-12.2.50.jar" md5="cad059f98f8a53f71361ca919e9c0c06" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.51" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.51.jar" file="TNFCMod-MC1.12.2-12.2.51.jar" md5="38b2117f7a48e502c5e278c835f66804" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.50" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.50.zip" file="scripts.12.2.50.zip" md5="9ad67445163ea9bd59a36ed6e7265e62" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.51" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.51.zip" file="scripts.12.2.51.zip" md5="a22b72e8a5b8cfd7d2c3e65d2e557b22" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -98,7 +98,7 @@
          <!-- Advanced Hook Launchers -->
         <mod name="Advanced Hook Launchers" version="1.12.2-3.3.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdHooks-1.12.2-3.3.0.0-build.0528.jar" file="AdHooks-1.12.2-3.3.0.0-build.0528.jar" md5="8f7ce159db8baa84f7430c0f061113d6" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" depends="Forge Endertech"/>
         
-        <mod name="Forge Endertech" version="1.12.2-4.5.4.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/ForgeEndertech-1.12.2-4.5.4.0-build.0534.jar" file="ForgeEndertech-1.12.2-4.5.4.0-build.0534.jar" md5="7cc4f92df4d2d565512848d2c0f775a5"  download="server" type="mods" library="yes" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="Forge Endertech" version="1.12.2-4.5.5.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar" file="ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar" md5="741c6695d14ad6614d9ebfe80fcb5565" download="server" type="mods" library="yes" client="yes" server="yes" recommended="yes" selected="yes"/>
         
         <!--XNet - Conduits -->
 
@@ -224,9 +224,9 @@
        
        <mod name="Surge" version="2.0.79" url="packs/TechNodefirmacraft/files/1.12.2Mods/Surge-1.12.2-2.0.79.jar" file="Surge-1.12.2-2.0.79.jar" md5="9f495709f961117c7823827ca10df0c8" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
        
-       <mod name="FoamFix" version="0.10.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/foamfix-0.10.10-1.12.2.jar" file="foamfix-0.10.10-1.12.2.jar" md5="bba94f1ee252fcfbd2d52779f5c2f2b1" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+       <mod name="FoamFix" version="0.10.11" url="packs/TechNodefirmacraft/files/1.12.2Mods/foamfix-0.10.11-1.12.2.jar" file="foamfix-0.10.11-1.12.2.jar" md5="005b3d124df67e4c2ca7c1aeb1b2cb7c" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
        
-       <mod name="RandomPatches" version="1.12.2-1.22.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/randompatches-1.12.2-1.22.1.9.jar" file="randompatches-1.12.2-1.22.1.9.jar" md5="c26fcb7f69e2217f71bb148e5e219700" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+       <mod name="RandomPatches" version="1.12.2-1.22.1.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/randompatches-1.12.2-1.22.1.10.jar" file="randompatches-1.12.2-1.22.1.10.jar" md5="dfbb30ff396e6426ba9a284b04c7bcf3" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
        
        <mod name="VanillaFix" version="1.0.10-150" url="packs/TechNodefirmacraft/files/1.12.2Mods/VanillaFix-1.0.10-150.jar" file="VanillaFix-1.0.10-150.jar" md5="a74aaab68100e03f54e35d1007d50169" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
        
@@ -303,7 +303,7 @@
         
     <mod name="Custom Main Menu" version="2.0.9.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar" file="CustomMainMenu-MC1.12.2-2.0.9.1.jar" md5="c12200ad89f9399d5bdcbe9da7900bb9" download="server" type="mods"/>
     
-    <mod name="CraftTweaker2" version="1.12-4.1.20.602" url="packs/TechNodefirmacraft/files/1.12.2Mods/CraftTweaker2-1.12-4.1.20.602.jar" file="CraftTweaker2-1.12-4.1.20.602.jar" md5="f97a20d847e1b37bd51ad4a195732b82" download="server" type="mods"/>
+    <mod name="CraftTweaker2" version="1.12-4.1.20.607" url="packs/TechNodefirmacraft/files/1.12.2Mods/CraftTweaker2-1.12-4.1.20.607.jar" file="CraftTweaker2-1.12-4.1.20.607.jar" md5="6101bed282a53a8d696593f6955a63b0" download="server" type="mods"/>
         
     <mod name="Mod Tweaker" version="4.0.18" url="packs/TechNodefirmacraft/files/1.12.2Mods/modtweaker-4.0.18.jar" file="modtweaker-4.0.18.jar" md5="d117e26e6b578b18d25848f578e86c3b" download="server" type="mods"/>
     <mod name="MTLib" version="3.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods"/>

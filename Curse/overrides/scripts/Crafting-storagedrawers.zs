@@ -222,4 +222,5 @@ recipes.addShaped("storagedrawerstfc_extra_trim_1_tfc_willow", <storagedrawerstf
     // MEDIUM("medium", 16),
     // HEAVY("heavy", 4),// Store only in chests stacksize = 4
     // VERY_HEAVY("very_heavy", 1); // Store only in chests stacksize = 1
-    
+
+
