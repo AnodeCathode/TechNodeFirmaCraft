@@ -18,6 +18,11 @@ recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<storagedrawers:controllerslave>);
 recipes.remove(<storagedrawers:customdrawers>);
+recipes.remove(<storagedrawers:customdrawers:1>);
+recipes.remove(<storagedrawers:customdrawers:2>);
+recipes.remove(<storagedrawers:customdrawers:3>);
+recipes.remove(<storagedrawers:customdrawers:4>);
+
 recipes.remove(<storagedrawers:framingtable>);
 recipes.remove(<storagedrawers:drawer_key>);
 
