@@ -64,3 +64,4 @@ val lavabucketvanilla = <forge:bucketfilled>.withTag({FluidName: "lava", Amount:
  mods.terrafirmacraft.ItemRegistry.registerItemSize(<engineersdecor:small_tree_cutter>, "LARGE", "MEDIUM");
  mods.terrafirmacraft.ItemRegistry.registerItemSize(<engineersdecor:small_block_breaker>, "LARGE", "MEDIUM");
  mods.terrafirmacraft.ItemRegistry.registerItemSize(<engineersdecor:small_waste_incinerator>, "LARGE", "MEDIUM");
+ mods.terrafirmacraft.ItemRegistry.registerItemSize(<engineersdecor:labeled_crate>, "HUGE", "VERY_HEAVY");

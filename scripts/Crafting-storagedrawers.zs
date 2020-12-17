@@ -227,5 +227,15 @@ recipes.addShaped("storagedrawerstfc_extra_trim_1_tfc_willow", <storagedrawerstf
     // MEDIUM("medium", 16),
     // HEAVY("heavy", 4),// Store only in chests stacksize = 4
     // VERY_HEAVY("very_heavy", 1); // Store only in chests stacksize = 1
-
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers:1>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers:2>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers:3>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawerstfc:extra_drawers:4>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers:1>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers:2>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers:3>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:customdrawers:4>, "HUGE", "VERY_HEAVY");
+mods.terrafirmacraft.ItemRegistry.registerItemSize(<storagedrawers:compdrawers>, "HUGE", "VERY_HEAVY");
 
