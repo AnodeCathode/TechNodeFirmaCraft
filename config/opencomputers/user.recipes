@@ -579,7 +579,7 @@ tabletcase2 {
           ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
           ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", ingotGold]]
 }
-woodButtongroup {
+buttongroup {
   input: [[woodButton, woodButton, woodButton]
           [woodButton, woodButton, woodButton]]
 }
