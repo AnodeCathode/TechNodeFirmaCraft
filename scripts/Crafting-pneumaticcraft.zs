@@ -42,6 +42,7 @@ val vodkaBottle = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", 
   recipes.remove(<pneumaticcraft:charging_upgrade>);
   recipes.remove(<pneumaticcraft:coordinate_tracker_upgrade>);
   recipes.remove(<pneumaticcraft:entity_tracker_upgrade>);
+  recipes.remove(<pneumaticcraft:compressed_iron_gear>);
   
   
   // ================================================================================
