@@ -12,7 +12,8 @@
     recipes.remove(<openblocks:flag>);
     recipes.remove(<openblocks:target>);
     recipes.remove(<openblocks:ladder>);
-
+    recipes.remove(<openblocks:big_button>);
+    recipes.remove(<openblocks:big_button_wood>);
 // ================================================================================
 //#ADD SHAPELESS
 
@@ -33,7 +34,10 @@
     recipes.addShaped("tnfc_openblocks_target", <openblocks:target>, [[<ore:stickWood>, <ore:fabricHemp>, <ore:stickWood>], [<ore:stickWood>, <ore:buttonWood>, <ore:stickWood>]]);
     recipes.addShaped("tnfc_openblocks_sleeping_bag", <openblocks:sleeping_bag>, [[<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>]]);
 
-//#REGISTER TFC Size/Heat/Other
+    
+    recipes.addShaped("openblocks_big_button_0", <openblocks:big_button>, [[<ore:ingotBrick>, <ore:ingotBrick>], [<ore:ingotBrick>, <ore:ingotBrick>]]);
+    recipes.addShaped("openblocks_big_button_wood_0", <openblocks:big_button_wood>, [[<ore:woodButton>, <ore:woodButton>], [<ore:woodButton>, <ore:woodButton>]]);//#REGISTER TFC Size/Heat/Other
+
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:scaffolding>, "VERY_SMALL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:item_dropper>, "VERY_SMALL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:hang_glider>, "LARGE", "HEAVY");
@@ -44,3 +48,5 @@
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<openblocks:sleeping_bag>, "LARGE", "MEDIUM");
 
 
+
+    

@@ -166,3 +166,8 @@ for i, item in IBucketArray {
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:2>, "VERY_LARGE", "HEAVY");
    // mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_device1:6>, "NORMAL", "LIGHT");
     mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:metal_decoration0>, "NORMAL", "MEDIUM");
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:0>, "VERY_LARGE", "HEAVY");
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:1>, "VERY_LARGE", "HEAVY");
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:4>, "VERY_LARGE", "HEAVY");
+    mods.terrafirmacraft.ItemRegistry.registerItemSize(<immersiveengineering:wooden_device0:5>, "VERY_LARGE", "HEAVY");
+    
