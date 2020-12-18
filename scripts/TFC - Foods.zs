@@ -16,6 +16,8 @@
 
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.55, 480, true);  
   mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:chorus_fruit>, 0.45, 480, true);
+  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tnfcmod:frog_leg>, 0.45, 600, false);
+  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tnfcmod:crab_leg>, 0.45, 600, false);
   //Cooked
 //  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
 //  mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish:1>, 0.35, 480, true);
