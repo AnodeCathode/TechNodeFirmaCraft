@@ -102,6 +102,10 @@ recipes.remove(<advancedrocketry:blackholegenerator>);
 recipes.addShaped("advancedrocketry_blackholegenerator_adv", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:advancedmotor>, <advancedrocketry:misc>, <libvulpes:advancedmotor>]]);
 recipes.addShaped("advancedrocketry_blackholegenerator_elite", <advancedrocketry:blackholegenerator>, [[<libvulpes:battery:1>, <advancedrocketry:structuretower>, <libvulpes:battery:1>], [<ore:plateTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:plateTitaniumAluminide>], [<libvulpes:elitemotor>, <advancedrocketry:misc>, <libvulpes:elitemotor>]]);
 
+//Planet Holo Selector
+recipes.remove(<advancedrocketry:planetholoselector>);
+recipes.addShaped("advancedrocketry_planetholoselector", <advancedrocketry:planetholoselector>, [[<advancedrocketry:ic:1>, <ore:woodButton>, <advancedrocketry:ic:1>], [<minecraft:lever>, <advancedrocketry:guidancecomputer>, <minecraft:lever>], [<advancedrocketry:ic:1>, <advancedrocketry:satelliteprimaryfunction:1>, <advancedrocketry:ic:1>]]);
+
 //Shapeless Recipes
 
 //Drill unit
