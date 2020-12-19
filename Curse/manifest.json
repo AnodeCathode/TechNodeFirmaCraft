@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TechnodeFirmaCraft",
-  "version": "12.2.52",
+  "version": "12.2.53",
   "author": "AnodeCathode",
   "projectID": 387655,
   "files": [
@@ -67,7 +67,7 @@
     },
     {
       "projectID": 388927,
-      "fileID": 3142135,
+      "fileID": 3143310,
       "required": true
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "projectID": 359033,
-      "fileID": 3049356,
+      "fileID": 3093195,
       "required": true
     },
     {
@@ -146,8 +146,18 @@
       "required": true
     },
     {
+      "projectID": 358780,
+      "fileID": 2861789,
+      "required": true
+    },
+    {
       "projectID": 283992,
       "fileID": 2595013,
+      "required": true
+    },
+    {
+      "projectID": 376510,
+      "fileID": 2936234,
       "required": true
     },
     {
@@ -198,6 +208,11 @@
     {
       "projectID": 264353,
       "fileID": 2508268,
+      "required": true
+    },
+    {
+      "projectID": 262137,
+      "fileID": 2810142,
       "required": true
     },
     {
@@ -321,6 +336,11 @@
       "required": true
     },
     {
+      "projectID": 363569,
+      "fileID": 2884962,
+      "required": true
+    },
+    {
       "projectID": 239197,
       "fileID": 3139556,
       "required": true
@@ -411,6 +431,11 @@
       "required": true
     },
     {
+      "projectID": 351725,
+      "fileID": 2894304,
+      "required": true
+    },
+    {
       "projectID": 305748,
       "fileID": 2753985,
       "required": true
@@ -486,6 +511,11 @@
       "required": true
     },
     {
+      "projectID": 352039,
+      "fileID": 2879573,
+      "required": true
+    },
+    {
       "projectID": 314645,
       "fileID": 2951672,
       "required": true
@@ -531,6 +561,11 @@
       "required": true
     },
     {
+      "projectID": 378646,
+      "fileID": 2940138,
+      "required": true
+    },
+    {
       "projectID": 250398,
       "fileID": 3025548,
       "required": true
@@ -538,6 +573,11 @@
     {
       "projectID": 237102,
       "fileID": 3010492,
+      "required": true
+    },
+    {
+      "projectID": 359540,
+      "fileID": 2909603,
       "required": true
     },
     {
