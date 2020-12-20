@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.53</version>
+        <version>12.2.53.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -35,7 +35,7 @@
 
         <mod name="TNFCMod" version="12.2.53" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.53.jar" file="TNFCMod-MC1.12.2-12.2.53.jar" md5="838fab4fb64bcd06064bdcce758e76b8" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.53" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.53.1.zip" file="scripts.12.2.53.1.zip" md5="a94da28136bd90d1ea68c36509875991" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.53.2" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.53.2.zip" file="scripts.12.2.53.2.zip" md5="b56d1053fabd9e4c22f4fcc6b0310277" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -128,7 +128,7 @@
         
         <mod name="Macaw&apos;s Roofs" version="1.0.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/mcw-roofs-1.0.2-mc1.12.2.jar" file="mcw-roofs-1.0.2-mc1.12.2.jar" md5="23e81cce1bb289cf9a9811e42b03a245" download="server" type="mods" />
         
-        <mod name="Macaw&apos;s Furniture" version="1.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/mcw-furnitures-1.0.0-mc1.12.2.jar" file="mcw-furnitures-1.0.0-mc1.12.2.jar" md5="11dc3879f09c44628d1f7edeb71b8fd1" download="server" type="mods" />
+        <mod name="Macaw&apos;s Furniture" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/mcw-furniture-1.0.1-mc1.12.2beta.jar" file="mcw-furniture-1.0.1-mc1.12.2beta.jar" md5="acd3fcf4549e81d7b179b4c213927e5d" download="server" type="mods" />
         
         <mod name="Macaw&apos;s Doors" version="1.0.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/mcw-doors-1.0.0-mc1.12.2.jar" file="mcw-doors-1.0.0-mc1.12.2.jar" md5="166e7601ccca39356bda6d6892070ddb" download="server" type="mods" />
         
