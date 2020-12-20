@@ -69,10 +69,3 @@ import crafttweaker.item.IItemStack;
     for i, item in IPlateArray {                    
       mods.terrafirmacraft.ItemRegistry.registerItemMetal(item, PlateLiquids[i], 100, true);  
     }
-    
-    // ITEM REGISTRY
-mods.terrafirmacraft.ItemRegistry.registerItemHeat(<mcwroofs:tile_clay>, 0.14, 930, true);
-mods.terrafirmacraft.ItemRegistry.registerItemHeat(<mcwroofs:rec_tile>, 0.14, 930, true);
-
-// HEATING
-mods.terrafirmacraft.Heating.addRecipe("claytiles", <mcwroofs:tile_clay>, <mcwroofs:rec_tile>, 480, 1200);

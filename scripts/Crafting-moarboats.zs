@@ -98,7 +98,7 @@ recipes.addShapeless("moarboats_dyedboat61", <moarboats:modular_boat:6> ,[<moarb
 recipes.addShapeless("moarboats_dyedboat71", <moarboats:modular_boat:7> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "gray_dye", Amount: 1000}})]);
 recipes.addShapeless("moarboats_dyedboat81", <moarboats:modular_boat:8> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "light_gray_dye", Amount: 1000}})]);
 recipes.addShapeless("moarboats_dyedboat91", <moarboats:modular_boat:9> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "light_blue_dye", Amount: 1000}})]);
-recipes.addShapeless("moarboats_dyedboat110", <moarboats:modular_boat:10> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "purple_dye", Amount: 1000}})]);
+recipes.addShapeless("moarboats_dyedboat101", <moarboats:modular_boat:10> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "purple_dye", Amount: 1000}})]);
 recipes.addShapeless("moarboats_dyedboat111", <moarboats:modular_boat:11> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "blue_dye", Amount: 1000}})]);
 recipes.addShapeless("moarboats_dyedboat121", <moarboats:modular_boat:12> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "brown_dye", Amount: 1000}})]);
 recipes.addShapeless("moarboats_dyedboat131", <moarboats:modular_boat:13> ,[<moarboats:modular_boat>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "green_dye", Amount: 1000}})]);
