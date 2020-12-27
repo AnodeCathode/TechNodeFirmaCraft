@@ -1,7 +1,7 @@
 Notes:
 160529104681437176
 
-
+forge gen -900 190 -900 50000 0
 add to tfc-models?:
 ignore-updates:id=salt_water,data=*
 ignore-updates:id=fresh_water,data=*
