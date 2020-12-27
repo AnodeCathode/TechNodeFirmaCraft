@@ -99,7 +99,7 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
 
   
   recipes.addShaped("tnfc_immersive_treatedwood", <immersiveengineering:treated_wood> * 8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, creosotebucket, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
-  recipes.addShaped("tnfc_immersiveengineering_treated_wood/treated_wood_stairs0", <immersiveengineering:treated_wood_stairs0> * 6, [[<immersiveengineering:treated_wood>, null, null], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, null], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]]);
+  recipes.addShaped("tnfc_immersiveengineering_treated_wood/treated_wood_stairs0", <immersiveengineering:treated_wood_stairs0> * 8, [[<immersiveengineering:treated_wood>, null, null], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, null], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]]);
   
   recipes.addShaped("tnfc_immersive_engineeringblock", <immersiveengineering:metal_decoration0:3> * 2, [[<ore:ingotSteel>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotSteel>], [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]); 
   recipes.addShaped("tnfc_immersive_heavy_engineering_block",<immersiveengineering:metal_decoration0:5> * 2, [[<ore:ingotSteel>, <ore:craftingToolHardHammer>.transformDamage(), <ore:ingotSteel>], [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>]]);
