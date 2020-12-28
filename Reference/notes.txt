@@ -1,20 +1,13 @@
 Notes:
 160529104681437176
 
-forge gen -900 190 -900 50000 0
+225000000
+
+forge gen -900 190 -900 225000000 0
 add to tfc-models?:
 ignore-updates:id=salt_water,data=*
 ignore-updates:id=fresh_water,data=*
 ignore-updates:id=hot_water,data=*
-
-tar --exclude-ignore-recursive=world/alternate-worlds -czf /home/mcuser/test.tar.gz world
-tar  -czf /home/mcuser/test.tar.gz --exclude-ignore-recursive=world/alternate-worlds world
-$data/,region/,session.lock,stats/}
-Added the bones of 'Chunk Freezing'. This is a mechanism from 1.7.10 TFC. If a chunk has not been loaded in some time (4 days by default) upon loading it will 'unfreeze' things. Currently it applies to the age of animals. It will adjust their birthday to account for the time the chunk spent unloaded. This should be a boon for multi-player as animals will not age out if a player is away for a period of time. Crops will be next. Foods may follow but are very difficult as they are hiding in inventories and/or on the player itself. The only solution may be a PR to TFC itself. 
-
-
-<tfc:metal/chestplate/red_steel>.withTag({ncRadiationResistance: 1.0})
-<animalnet:caught_entity>ȡ.withTag({date: "19/11/2020 06:58:37", fileName: "4dcea255-9568-44ae-ac58-cae3dc0c8568", display: {Name: "Caught ChickenȲȲ"}, modName: "tfc", location: "x:-6398 y:144 z:-1125", animalName: "tfc:chickentfc", age: "Adult"})
 
 - Process world.log and throw into MySQL instance
 
