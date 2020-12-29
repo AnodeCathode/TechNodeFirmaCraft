@@ -106,6 +106,10 @@ recipes.addShaped("advancedrocketry_blackholegenerator_elite", <advancedrocketry
 recipes.remove(<advancedrocketry:planetholoselector>);
 recipes.addShaped("advancedrocketry_planetholoselector", <advancedrocketry:planetholoselector>, [[<advancedrocketry:ic:1>, <ore:woodButton>, <advancedrocketry:ic:1>], [<minecraft:lever>, <advancedrocketry:guidancecomputer>, <minecraft:lever>], [<advancedrocketry:ic:1>, <advancedrocketry:satelliteprimaryfunction:1>, <advancedrocketry:ic:1>]]);
 
+//Rolling Machine
+recipes.remove(<advancedrocketry:rollingmachine>);
+recipes.addShaped("advancedrocketry_rollingmachine", <advancedrocketry:rollingmachine>, [[<ore:gearSteel>, <advancedrocketry:misc>, <ore:gearSteel>], [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<minecraft:iron_block>, <advancedrocketry:ic:5>, <minecraft:iron_block>]]);
+
 //Shapeless Recipes
 
 //Drill unit
