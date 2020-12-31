@@ -116,8 +116,24 @@ recipes.addShaped("advancedrocketry_rollingmachine", <advancedrocketry:rollingma
 recipes.remove(<advancedrocketry:drill>);
 recipes.addShapeless("tnfc_advancedrocketry_drill", <advancedrocketry:drill>, [<libvulpes:structuremachine>, <immersiveengineering:drillhead>]);
 
+// Space boots
+recipes.remove(<advancedrocketry:spaceboots>);
+recipes.addShaped("tnfc_advrocketry_spaceboots", <advancedrocketry:spaceboots>, [[null, <ore:stickIron>, null], [<minecraft:wool:*>, null, <minecraft:wool:*>], [<ore:sheetOsmium>, null, <ore:sheetOsmium>]]);
+recipes.addShaped("tnfc_advrocketry_spaceboots_alt", <advancedrocketry:spaceboots>, [[null, <ore:rodIron>, null], [<minecraft:wool:*>, null, <minecraft:wool:*>], [<ore:sheetOsmium>, null, <ore:sheetOsmium>]]);
 
+recipes.remove(<advancedrocketry:spaceboots>);
+recipes.addShaped("tnfc_advrocketry_spacechestplate", <advancedrocketry:spacechestplate>, [[<minecraft:wool:*>, <ore:stickIron>, <minecraft:wool:*>], [<minecraft:wool:*>, <advancedrocketry:fueltank>, <minecraft:wool:*>], [<minecraft:wool:*>, <ore:fanSteel>, <minecraft:wool:*>]]);
+recipes.addShaped("tnfc_advrocketry_spacechestplate_alt", <advancedrocketry:spacechestplate>, [[<minecraft:wool:*>, <ore:rodIron>, <minecraft:wool:*>], [<minecraft:wool:*>, <advancedrocketry:fueltank>, <minecraft:wool:*>], [<minecraft:wool:*>, <ore:fanSteel>, <minecraft:wool:*>]]);
 
+// Space helmet
+recipes.remove(<advancedrocketry:spacehelmet>);
+recipes.addShaped("tnfc_advrocketry_spacehelmet", <advancedrocketry:spacehelmet>, [[<ore:sheetOsmium>, <ore:stickIron>, <ore:sheetOsmium>], [<ore:stickIron>, <ore:gemExquisiteRuby>, <ore:stickIron>], [<minecraft:wool:*>, <minecraft:wool:*>, <minecraft:wool:*>]]);
+recipes.addShaped("tnfc_advrocketry_spacehelmet_alt", <advancedrocketry:spacehelmet>, [[<ore:sheetOsmium>, <ore:rodIron>, <ore:sheetOsmium>], [<ore:rodIron>, <ore:gemExquisiteRuby>, <ore:rodIron>], [<minecraft:wool:*>, <minecraft:wool:*>, <minecraft:wool:*>]]);
+
+// Space leggings
+recipes.remove(<advancedrocketry:spaceleggings>);
+recipes.addShaped("tnfc_advrocketry_spaceleggings", <advancedrocketry:spaceleggings>, [[<minecraft:wool:*>, <ore:stickIron>, <minecraft:wool:*>], [<minecraft:wool:*>, <ore:sheetDoubleLead>, <minecraft:wool:*>], [<minecraft:wool:*>, null, <minecraft:wool:*>]]);
+recipes.addShaped("tnfc_advrocketry_spaceleggings_alt", <advancedrocketry:spaceleggings>, [[<minecraft:wool:*>, <ore:rodIron>, <minecraft:wool:*>], [<minecraft:wool:*>, <ore:sheetDoubleLead>, <minecraft:wool:*>], [<minecraft:wool:*>, null, <minecraft:wool:*>]]);
 
 
 
