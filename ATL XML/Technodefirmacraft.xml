@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.53.1</version>
+        <version>12.2.54</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -33,9 +33,9 @@
         <!-- TFC -->
         <mod name="TerraFirmaCraft" version="1.7.10.168" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.10.168.jar" file="TerraFirmaCraft-MC1.12.2-1.7.10.168.jar" md5="ef1ac8bdcb3140906653af88ab4fc05d" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.53" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.53.jar" file="TNFCMod-MC1.12.2-12.2.53.jar" md5="838fab4fb64bcd06064bdcce758e76b8" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.54" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.54.jar" file="TNFCMod-MC1.12.2-12.2.54.jar" md5="a63941746f668ecae73bee0e1ec6caf4" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.53.2" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.53.2.zip" file="scripts.12.2.53.2.zip" md5="b56d1053fabd9e4c22f4fcc6b0310277" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.54" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.54.zip" file="scripts.12.2.54.zip" md5="0a6344d7acc961d0d5bdecd6fd1e0b64" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -79,7 +79,7 @@
        
        <mod name="Immersive Petroleum" version="1.1.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes"/>
        
-       <mod name="Immersive Technology" version="1.8.90" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.90.jar" file="MCTImmersiveTechnology-1.12.2-1.8.90.jar" md5="5957a15402362e63daccfb5742615a4c" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes" />
+       <mod name="Immersive Technology" version="1.8.91" url="packs/TechNodefirmacraft/files/1.12.2Mods/MCTImmersiveTechnology-1.12.2-1.8.91.jar" file="MCTImmersiveTechnology-1.12.2-1.8.91.jar" md5="63403a7cfe382df63a82e35accda82c3" download="server" type="mods" colour="gold" client="yes" server="yes" recommended="yes" selected="yes" />
        <mod name="CoFH Core" version="4.6.6.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
        
        <mod name="Engineer&apos;s Decor" version="1.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/engineersdecor-1.12.2-1.1.2.jar" file="engineersdecor-1.12.2-1.1.2.jar" md5="80453102664203d91a049c748474c35c" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
