@@ -120,7 +120,7 @@ var methanol = <liquid:methanol>;
       
 // Chemical Reactor recipes
   ChemicalReactor.removeRecipeWithInput(<liquid:sugar>*144, <liquid:water>*1000);
-  ChemicalReactor.addRecipe(<liquid:sugar>*144, water*1000, <liquid:ethanol>*4000, carbon_dioxide*4000, 6.0, 6.0, 3.0);
+  ChemicalReactor.addRecipe(<liquid:sugar>*144, water*1000, <liquid:ethanol>*4000, carbon_dioxide*4000, 6.0, 6.0, 0.0);
   ChemicalReactor.removeRecipeWithInput(<liquid:diborane>*500, <liquid:water>*3000);
   ChemicalReactor.addRecipe(<liquid:diborane>*500, water*3000, boric_acid*1000, hydrogen*3000);
   ChemicalReactor.removeRecipeWithInput(<liquid:sodium_fluoride_solution>*666, <liquid:water>*1000);
@@ -238,6 +238,12 @@ Melter.removeRecipeWithInput(<ore:blockLead>);
 Melter.removeRecipeWithInput(<ore:blockCopper>);
 Melter.removeRecipeWithInput(<ore:blockTin>);
 Melter.removeRecipeWithInput(<ore:blockGold>);
+Melter.removeRecipeWithInput(<ore:blockSteel>);
+Melter.removeRecipeWithInput(<ore:blockTitanium>);
+Melter.removeRecipeWithInput(<ore:blockNickel>);
+Melter.removeRecipeWithInput(<ore:blockConstantan>);
+Melter.removeRecipeWithInput(<ore:blockElectrum>);
+Melter.removeRecipeWithInput(<ore:blockIron>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:11>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:7>);
 Melter.removeRecipeWithInput(<nuclearcraft:ingot_block:6>);

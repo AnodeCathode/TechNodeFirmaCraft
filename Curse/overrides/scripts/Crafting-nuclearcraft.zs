@@ -55,6 +55,9 @@ recipes.addShaped("nuclearcraft_electric_motor", electricMotor, [
 recipes.remove(<nuclearcraft:manufactory>);
 recipes.addShaped("tnfc_nc_manufactory", <nuclearcraft:manufactory>, [[<ore:ingotLead>, <ore:dustRedstone>, <ore:ingotLead>], [<ore:craftingToolHardChisel>.transformDamage(), <minecraft:piston:*>, <ore:craftingToolHardHammer>.transformDamage()], [<ore:ingotLead>, <ore:solenoidCopper>, <ore:ingotLead>]]);
 
+//Glowing mushrooms from porcini
+recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<tfc:plants/porcini>, <minecraft:glowstone_dust>]);
+
 // ================================================================================
 //#ADD SHAPELESS
       // recipes.addShapeless("tnfc_bwm_hemp_rope",<betterwithmods:rope>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);

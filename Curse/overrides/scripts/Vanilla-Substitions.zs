@@ -62,7 +62,6 @@ recipes.replaceAllOccurences(<minecraft:sapling:5>, <tfc:wood/sapling/hickory>);
 
 // OTHER
 recipes.replaceAllOccurences(<minecraft:apple>, <ore:apple>);
-recipes.replaceAllOccurences(<minecraft:blaze_powder>, <ore:dustSulfur>);
 recipes.replaceAllOccurences(<minecraft:bone>, <ore:bone>);
 recipes.replaceAllOccurences(<minecraft:bookshelf>, <ore:bookshelf>);
 recipes.replaceAllOccurences(<minecraft:bowl>, <tfc:ceramics/fired/bowl>);
