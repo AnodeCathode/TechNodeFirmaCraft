@@ -89,7 +89,7 @@
 	mods.horsepower.Grindstone.add(<tfc:plants/dandelion>, <minecraft:dye:11> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/field_horsetail>, <minecraft:dye:2>, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/goldenrod>, <minecraft:dye:11> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2, 8);
+	mods.horsepower.Grindstone.add(<tfc:plants/grape_hyacinth>, <minecraft:dye:4> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/houstonia>, <tfc:dye/white> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/labrador_tea>, <minecraft:dye:12> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/lady_fern>, <minecraft:dye:2>, 8);
