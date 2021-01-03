@@ -74,7 +74,7 @@ recipes.replaceAllOccurences(<minecraft:glass>, <ore:blockGlass>);
 recipes.replaceAllOccurences(<minecraft:gold_block>, <ore:blockGold>);
 recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>);
 recipes.replaceAllOccurences(<minecraft:gold_nugget>, <ore:nuggetGold>);
-recipes.replaceAllOccurences(<minecraft:iron_block>, <ore:blockWroughtIron>);
+recipes.replaceAllOccurences(<minecraft:iron_block>, <ore:blockIron>);
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>);
 recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>);
 recipes.replaceAllOccurences(<minecraft:leather>, <ore:leather>);
