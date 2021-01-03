@@ -14,6 +14,7 @@
   recipes.remove(<xnet:controller>);
   recipes.remove(<xnet:facade>);
   recipes.remove(<xnet:netcable>);
+  recipes.remove(<xnet:router>);
   
 
 // ================================================================================
@@ -30,7 +31,7 @@
   recipes.addShaped("xnet_antenna", <xnet:antenna>, [[<minecraft:iron_bars>, <tfc:metal/ingot/steel>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <tfc:metal/ingot/steel>, <minecraft:iron_bars>], [null, <tfc:metal/ingot/steel>, null]]);
   recipes.addShaped("xnet_advanced_connector_0", <xnet:advanced_connector>, [[<xnet:connector>, <minecraft:ender_pearl>], [<ore:gemDiamond>, <minecraft:redstone>]]);
   recipes.addShaped("xnet_netcable_routing", <xnet:netcable:4> * 32, [[<ore:string>, <minecraft:redstone_block>, <ore:string>], [<minecraft:redstone_block>, <ore:ingotGold>, <minecraft:redstone_block>], [<ore:string>, <minecraft:redstone_block>, <ore:string>]]);
-  recipes.addShaped("xnet_router", <xnet:router>, [[<minecraft:golden_rail>, <minecraft:comparator>, <minecraft:golden_rail>], [<minecraft:redstone>, <minecraft:iron_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:ender_pearl>, <ore:ingotIron>]]);
+  recipes.addShaped("xnet_router", <xnet:router>, [[<rockhounding_chemistry:alloy_parts:84>, <minecraft:comparator>, <rockhounding_chemistry:alloy_parts:84>], [<minecraft:redstone>, <minecraft:iron_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:ender_pearl>, <ore:ingotIron>]]);
 //#REGISTER TFC Size/Heat/Other
   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     
