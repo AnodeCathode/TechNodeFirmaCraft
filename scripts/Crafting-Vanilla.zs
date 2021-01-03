@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
 
   //Alternate frame recipe with BwM leather strips made in Squeezer
   recipes.addShaped("tfc_vanilla_altitem_frame", <minecraft:item_frame>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <betterwithmods:material:8>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
-
+  
   //Shulker box recipes
   val IShulkerBoxArray = [<minecraft:white_shulker_box>,<minecraft:orange_shulker_box>,<minecraft:magenta_shulker_box>,<minecraft:light_blue_shulker_box>,<minecraft:yellow_shulker_box>,<minecraft:lime_shulker_box>,<minecraft:pink_shulker_box>,<minecraft:gray_shulker_box>,<minecraft:silver_shulker_box>,<minecraft:cyan_shulker_box>,<minecraft:purple_shulker_box>,<minecraft:blue_shulker_box>,<minecraft:brown_shulker_box>,<minecraft:green_shulker_box>,<minecraft:red_shulker_box>,<minecraft:black_shulker_box>] as IIngredient[];
   recipes.addShaped("tnfc_shulkerbox", <minecraft:white_shulker_box>, [[<minecraft:shulker_shell>, <ore:craftingToolHardHammer>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <ore:chest>, <minecraft:shulker_shell>], [<minecraft:shulker_shell>, <minecraft:shulker_shell>, <minecraft:shulker_shell>]]);
@@ -161,7 +161,7 @@ mods.jei.JEI.removeAndHide(<minecraft:golden_helmet>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_hoe>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_leggings>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_pickaxe>);
-mods.jei.JEI.removeAndHide(<minecraft:golden_rail>);
+//mods.jei.JEI.removeAndHide(<minecraft:golden_rail>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_shovel>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_sword>);
 mods.jei.JEI.removeAndHide(<minecraft:grass>);
