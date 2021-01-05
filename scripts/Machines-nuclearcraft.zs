@@ -257,3 +257,7 @@ Melter.removeRecipeWithInput(<tfc:powder/sulfur>);
 SaltMixer.removeRecipeWithOutput(<liquid:ferroboron> * 144);
 SaltMixer.addRecipe(<liquid:black_steel> * 72 , <liquid:boron> * 72, <liquid:ferroboron> * 144);
 
+//Separator
+//mods.nuclearcraft.Separator.addRecipe(IIngredient itemInput, IIngredient itemOutput1, IIngredient itemOutput2, {double timeMultiplier, double powerMultiplier, double processRadiation});
+mods.nuclearcraft.Separator.addRecipe(<ore:dustYellowcake>, ChanceItemIngredient.create(<ore:dustUranium> * 2, 20, 1), ChanceItemIngredient.create(<ore:ingotUranium238> * 2, 5, 0));
+
