@@ -20,8 +20,6 @@ val lavabucketvanilla = <forge:bucketfilled>.withTag({FluidName: "lava", Amount:
   recipes.remove(<engineersdecor:panzerglass_block>);
   recipes.remove(<engineersdecor:steel_mesh_fence>);
   
-  //Removing it because it doesn't handle decay properly and has zero hooks to fix it. Plus I can't be arsed to fork and fix that POS
-  mods.jei.JEI.removeAndHide(<engineersdecor:small_electrical_furnace>);
 // ================================================================================
 //#ADD SHAPED
 
