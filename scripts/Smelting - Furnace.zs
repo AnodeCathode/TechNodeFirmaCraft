@@ -14,29 +14,6 @@
   furnace.addRecipe(<minecraft:quartz> * 1, <tfc:raw/quartzite>);
 
 
-  //Bake TFC Bread
-  furnace.addRecipe(<tfc:food/barley_bread>, <tfc:food/barley_dough>);
-  furnace.addRecipe(<tfc:food/cornbread>, <tfc:food/cornmeal_dough>);
-  furnace.addRecipe(<tfc:food/oat_bread>, <tfc:food/oat_dough>);
-  furnace.addRecipe(<tfc:food/rice_bread>, <tfc:food/rice_dough>);
-  furnace.addRecipe(<tfc:food/rye_bread>, <tfc:food/rye_dough>);
-  furnace.addRecipe(<tfc:food/wheat_bread>, <tfc:food/wheat_dough>);
-  
-  //Cook meat
-  furnace.addRecipe(<tfc:food/cooked_bear>, <tfc:food/bear>);
-  furnace.addRecipe(<tfc:food/cooked_beef>, <tfc:food/beef>);
-  furnace.addRecipe(<tfc:food/cooked_calamari>, <tfc:food/calamari>);
-  furnace.addRecipe(<tfc:food/cooked_camelidae>, <tfc:food/camelidae>);
-  furnace.addRecipe(<tfc:food/cooked_chicken>, <tfc:food/chicken>);
-  furnace.addRecipe(<tfc:food/cooked_egg>, <minecraft:egg>);
-  furnace.addRecipe(<tfc:food/cooked_gran_feline>, <tfc:food/gran_feline>);
-  furnace.addRecipe(<tfc:food/cooked_horse_meat>, <tfc:food/horse_meat>);
-  furnace.addRecipe(<tfc:food/cooked_mutton>, <tfc:food/mutton>);
-  furnace.addRecipe(<tfc:food/cooked_pheasant>, <tfc:food/pheasant>);
-  furnace.addRecipe(<tfc:food/cooked_pork>, <tfc:food/pork>);
-  furnace.addRecipe(<tfc:food/cooked_rabbit>, <tfc:food/rabbit>);
-  furnace.addRecipe(<tfc:food/cooked_venison>, <tfc:food/venison>);
-  furnace.addRecipe(<tfc:food/cooked_wolf>, <tfc:food/wolf>);
 
   
   // Add all the TFC pottery recipes
