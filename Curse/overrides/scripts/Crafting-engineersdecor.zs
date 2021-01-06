@@ -19,9 +19,8 @@ val lavabucketvanilla = <forge:bucketfilled>.withTag({FluidName: "lava", Amount:
   recipes.remove(<engineersdecor:small_waste_incinerator>);
   recipes.remove(<engineersdecor:panzerglass_block>);
   recipes.remove(<engineersdecor:steel_mesh_fence>);
+  recipes.remove(<engineersdecor:small_solar_panel>);
   
-  //Removing it because it doesn't handle decay properly and has zero hooks to fix it. Plus I can't be arsed to fork and fix that POS
-  mods.jei.JEI.removeAndHide(<engineersdecor:small_electrical_furnace>);
 // ================================================================================
 //#ADD SHAPED
 
@@ -36,6 +35,8 @@ val lavabucketvanilla = <forge:bucketfilled>.withTag({FluidName: "lava", Amount:
   recipes.addShaped("engineersdecor_steel_mesh_fence_recipe", <engineersdecor:steel_mesh_fence> * 6, [[<engineersdecor:thin_steel_pole>, <ore:nuggetSteel>, <engineersdecor:thin_steel_pole>], [<engineersdecor:thin_steel_pole>, <ore:nuggetSteel>, <engineersdecor:thin_steel_pole>]]);
   recipes.addShaped("engineersdecor_engineersdecor_manual_recipe", <patchouli:guide_book>.withTag({"patchouli:book": "engineersdecor:engineersdecor_manual"}), [[<minecraft:book>,  <ore:nuggetSteel>], [ <ore:nuggetSteel>, null]]);
 
+  
+  recipes.addShaped("engineersdecor_dependent/small_solar_panel_recipe", <engineersdecor:small_solar_panel>, [[<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>], [<rockhounding_chemistry:chemical_dusts:22>, <ore:ingotSteel>, <rockhounding_chemistry:chemical_dusts:47>], [<ore:blockLead>, <minecraft:redstone_block>, <ore:blockLead>]]);
   
   recipes.addShapeless("engineersdecor_independent/clinker_brick_stained_block_recipe", <engineersdecor:clinker_brick_stained_block>, [<engineersdecor:clinker_brick_block>, <ore:dirt>]);
 // ================================================================================
