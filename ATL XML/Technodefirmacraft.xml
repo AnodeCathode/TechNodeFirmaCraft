@@ -273,7 +273,7 @@
         
         <mod name="JourneyMap Topo Config" version="12.2.49" url="packs/TechNodefirmacraft/files/1.12.2Extract/journeymap.zip" file="journeymap.zip" md5="8dfc04bac36b67bd12c957542846a6f7" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="JourneyMap Topo Config" client="yes" server="no" recommended="yes" selected="yes" />
         
-        <mod name="CTM" version="MC1.12.2-1.0.2.31" url="packs/TechNodefirmacraft/files/1.12.2Mods/CTM-MC1.12.2-1.0.2.31.jar" file="CTM-MC1.12.2-1.0.2.31.jar" md5="77a8bb5486c97e3eaa6f45e5bd768864" download="server" type="mods" colour="cyan" client="yes" optional="yes" server="no" recommended="no" selected="no" />
+        <mod name="CTM" version="MC1.12.2-1.0.2.31" url="packs/TechNodefirmacraft/files/1.12.2Mods/CTM-MC1.12.2-1.0.2.31.jar" file="CTM-MC1.12.2-1.0.2.31.jar" md5="77a8bb5486c97e3eaa6f45e5bd768864" download="server" type="mods" colour="cyan" client="yes" optional="yes" server="no" recommended="yes" selected="yes" />
         
 <!--Server Bits -->
 
