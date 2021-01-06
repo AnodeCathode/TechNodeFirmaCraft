@@ -123,7 +123,7 @@
 	mods.horsepower.Grindstone.add(<tfc:plants/sacred_datura>, <minecraft:dye:9> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/sagebrush>, <minecraft:dye:11> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/sapphire_tower>, <minecraft:dye:12> * 2, 8);
-	mods.horsepower.Grindstone.add(<tfc:plants/sargassum>, <minecraft:dye:3>, 8);
+	mods.horsepower.Grindstone.add(<tfc:plants/sargassum>, <tfc:dye/brown>, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/scutch_grass>, <minecraft:dye:2>, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/snapdragon_pink>, <minecraft:dye:9> * 2, 8);
 	mods.horsepower.Grindstone.add(<tfc:plants/snapdragon_red>, <minecraft:dye:1> * 2, 8);
