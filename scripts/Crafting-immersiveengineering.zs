@@ -15,6 +15,11 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   mods.jei.JEI.removeAndHide(<immersiveengineering:shovel_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:axe_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:sword_steel>);
+  mods.jei.JEI.removeAndHide(<immersiveengineering:steel_armor_chest>);
+  mods.jei.JEI.removeAndHide(<immersiveengineering:steel_armor_feet>);
+  mods.jei.JEI.removeAndHide(<immersiveengineering:steel_armor_head>);
+  mods.jei.JEI.removeAndHide(<immersiveengineering:steel_armor_legs>);
+  mods.jei.JEI.removeAndHide(<immersiveengineering:hoe_steel>);
   mods.jei.JEI.removeAndHide(<immersiveengineering:material:5>);  // Replaced by burlap cloth
   mods.jei.JEI.removeAndHide(<immersiveengineering:material:1>);  
   mods.jei.JEI.removeAndHide(<immersiveengineering:material:2>);  
