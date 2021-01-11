@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.55</version>
+        <version>12.2.55.3</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -35,7 +35,7 @@
 
         <mod name="TNFCMod" version="12.2.55" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.55.jar" file="TNFCMod-MC1.12.2-12.2.55.jar" md5="5de5ca0f7e5f721cb97b0bce6084eb29" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.55" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.55.zip" file="scripts.12.2.55.zip" md5="a7096d6411ad1b6723ec46e35f377fdf" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.55.2" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.55.2.zip" file="scripts.12.2.55.2.zip" md5="556051326bf28fceadaed774e5fcfb42" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
