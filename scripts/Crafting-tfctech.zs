@@ -242,8 +242,6 @@
   mods.jei.JEI.removeAndHide(<tfctech:metal/osmium_strip>);
   mods.jei.JEI.removeAndHide(<tfctech:metal/osmium_wire>);
   mods.jei.JEI.removeAndHide(<tfctech:metal/osmium_wire:4>);
-  mods.jei.JEI.removeAndHide(<tfctech:metal/pig_iron_wire>);
-  mods.jei.JEI.removeAndHide(<tfctech:metal/pig_iron_wire:4>);
   mods.jei.JEI.removeAndHide(<tfctech:metal/platinum_bolt>);
   mods.jei.JEI.removeAndHide(<tfctech:metal/platinum_gear>);
   mods.jei.JEI.removeAndHide(<tfctech:metal/platinum_long_rod>);
