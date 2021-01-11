@@ -66,6 +66,8 @@ val IBucketArray = [waterbucket, waterbucketsteel, waterbucketvanilla] as IIngre
   recipes.remove(<immersiveengineering:metal:39>);
   recipes.remove(<immersiveengineering:metal:40>);
   recipes.remove(<immersiveengineering:wooden_device0:2>);
+  recipes.remove(<immersiveengineering:treated_wood_stairs0>);
+  
 
   //blueprint
   recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
