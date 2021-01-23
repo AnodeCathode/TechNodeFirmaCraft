@@ -15,7 +15,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     recipes.remove(<betterwithmods:material:31>);
     recipes.remove(<betterwithmods:material:13>); //tallow - replaced with barrel recipe
     recipes.remove(<betterwithmods:candle_holder:*>);
-
+    recipes.remove(<betterwithmods:anchor:*>);
 
     //Soul forged stuff
     //recipes.remove(<betterwithmods:material:30>);
@@ -65,7 +65,6 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
     
     //Currently uncraftables    
     mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:*>);
-    mods.jei.JEI.removeAndHide(<betterwithmods:anchor:*>);
     mods.jei.JEI.removeAndHide(<betterwithmods:steel_saw>);
     mods.jei.JEI.removeAndHide(<betterwithmods:axle_generator:1>);
     mods.jei.JEI.removeAndHide(<betterwithmods:bark:*>);
@@ -195,6 +194,7 @@ val waterbucket = <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water",
  recipes.addShaped("tnfc_bwm_wicker", <betterwithmods:wicker> * 4, [[<ore:reed>, <ore:reed>, <ore:reed>], [<ore:reed>, <ore:reed>, <ore:reed>]]);   
  recipes.removeShapeless(<minecraft:reeds> * 3, [<betterwithmods:wicker>, <betterwithmods:wicker>]); 
  recipes.addShapeless("tnfc_bwm_decompress/wicker_decompress", <tfc:plants/rough_horsetail> * 3, [<betterwithmods:wicker>, <betterwithmods:wicker>]);   
+ recipes.addShaped("tnfc_bwm_anchor", <betterwithmods:anchor>, [[null, <ore:ingotIron>, null], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>]]);
  
  
     //turntable, no filtered hopper, steel gearbox, wooden grates and slats and bench and table  and chimes (hide?), bellows?, screw pump 
