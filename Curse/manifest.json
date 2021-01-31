@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TechnodeFirmaCraft",
-  "version": "12.2.56",
+  "version": "12.2.57",
   "author": "AnodeCathode",
   "files": [
     {
@@ -422,6 +422,11 @@
     {
       "projectID": 240630,
       "fileID": 2728585,
+      "required": true
+    },
+    {
+      "projectID": 258914,
+      "fileID": 2708620,
       "required": true
     },
     {
