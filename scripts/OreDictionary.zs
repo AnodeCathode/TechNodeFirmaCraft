@@ -29,6 +29,23 @@ val materialRubber = <ore:materialRubber>;
     materialRubber.addItems([
     <tfctech:latex/rubber>
     ]);
+
+var gangueAll = <ore:gangueAll>;
+    gangueAll.addItems([
+    <rockhounding_chemistry:mineral_ores:0>,
+    <rockhounding_chemistry:mineral_ores:1>,
+    <rockhounding_chemistry:mineral_ores:2>,
+    <rockhounding_chemistry:mineral_ores:3>,
+    <rockhounding_chemistry:mineral_ores:4>,
+    <rockhounding_chemistry:mineral_ores:5>,
+    <rockhounding_chemistry:mineral_ores:6>,
+    <rockhounding_chemistry:mineral_ores:7>,
+    <rockhounding_chemistry:mineral_ores:8>,
+    <rockhounding_chemistry:mineral_ores:9>,
+    <rockhounding_chemistry:mineral_ores:10>,
+    <rockhounding_chemistry:mineral_ores:11>,
+    <rockhounding_chemistry:mineral_ores:12>
+    ]);
     
 var titaniumStick = <ore:stickTitanium>;
     titaniumStick.remove(<tfctech:metal/titanium_rod>);
