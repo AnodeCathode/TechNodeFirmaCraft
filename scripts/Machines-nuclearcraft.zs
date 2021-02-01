@@ -118,7 +118,7 @@ var methanol = <liquid:methanol>;
   RockCrusher.addRecipe(<tfc:smooth/andesite>, ChanceItemIngredient.create(<ore:dustBeryllium>, 25, 1), ChanceItemIngredient.create(<ore:dustAlugentum>, 25, 1), ChanceItemIngredient.create(<ore:dustArsenic>, 30, 1), 1.0, 1.0, 0.0);  
   RockCrusher.addRecipe(<tfc:raw/andesite>, ChanceItemIngredient.create(<ore:dustBeryllium>, 25, 3), ChanceItemIngredient.create(<ore:dustAlugentum>, 25, 3), ChanceItemIngredient.create(<ore:dustArsenic>, 30, 2), 1.0, 1.0, 0.0);  
      
-  RockCrusher.addRecipe(<tfc:ore/kimberlite>, ChanceItemIngredient.create(<tfc:gem/diamond:2>, 25, 2), ChanceItemIngredient.create(<tfc:gem/diamond:3>, 15, 1), ChanceItemIngredient.create(<tfc:gem/diamond:4>, 5, 1), 1.0, 1.0, 0.0);  
+  RockCrusher.addRecipe(<tfc:ore/kimberlite>, ChanceItemIngredient.create(<tfc:gem/diamond:2>, 25, 2), ChanceItemIngredient.create(<tfc:gem/diamond:3>, 15, 0), ChanceItemIngredient.create(<tfc:gem/diamond:4>, 5, 0), 1.0, 1.0, 0.0);  
      
 // Chemical Reactor recipes
   ChemicalReactor.removeRecipeWithInput(<liquid:sugar>*144, <liquid:water>*1000);
