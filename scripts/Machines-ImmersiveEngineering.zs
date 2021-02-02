@@ -304,7 +304,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
      
      //Let's give the crusher a chance at putting out an exquisite
      mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/kimberlite>);
-     mods.immersiveengineering.Crusher.addRecipe(<tfc:gem/diamond:2>, <tfc:ore/kimberlite>, 512, <tfc:gem/diamond:4>, 0.5);
+     mods.immersiveengineering.Crusher.addRecipe(<tfc:gem/diamond:2>, <tfc:ore/kimberlite>, 512, <tfc:gem/diamond:4>, 0.05);
      
 
       //add rock to flux recipes, cause oreDict oddity causes issues
