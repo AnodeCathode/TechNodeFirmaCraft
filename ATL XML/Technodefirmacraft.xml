@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.58</version>
+        <version>12.2.59</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -31,18 +31,18 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.12.170" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.12.170.jar" file="TerraFirmaCraft-MC1.12.2-1.7.12.170.jar" md5="99e647f46b7586c62bbb2868bcbe9e3b" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.13.171" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.13.171.jar" file="TerraFirmaCraft-MC1.12.2-1.7.13.171.jar" md5="e4fb6b6a288a6dbfb37b38ccddda3f0f" download="server" type="mods" colour="green"/>
 
         <mod name="TNFCMod" version="12.2.55" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.55.jar" file="TNFCMod-MC1.12.2-12.2.55.jar" md5="5de5ca0f7e5f721cb97b0bce6084eb29" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.57.2" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.57.2.zip" file="scripts.12.2.57.2.zip" md5="08a42bf4ce0f4f1f67acde01c25ace4c" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.59"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.59.zip" file="scripts.12.2.59.zip" md5="e6fdc4dbd086817241c1f8d889310907" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
         
         <mod name="AutoRegLib" version="1.3-32" url="packs/TechNodefirmacraft/files/1.12.2Mods/AutoRegLib-1.3-32.jar" file="AutoRegLib-1.3-32.jar" md5="4e5a4b881c27b1e4502a9a16c00882ad" download="server" type="mods" client="yes" colour="green" server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TFCTech Unofficial" version="1.2.15" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCTech-Unofficial-MC1.12.2-1.2.15.jar" file="TFCTech-Unofficial-MC1.12.2-1.2.15.jar" md5="00a48b69850d684ae9450949f4c6a75e" download="server" type="mods" client="yes" colour="green" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TFCTech Unofficial" version="1.2.16" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCTech-Unofficial-MC1.12.2-1.2.16.jar" file="TFCTech-Unofficial-MC1.12.2-1.2.16.jar" md5="34ec0e7b0d0da37927f407e98a49a882" download="server" type="mods" client="yes" colour="green" server="yes" recommended="yes" selected="yes"/>
         
         <mod name="Waterflasks" version="1.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.8.jar" file="waterflasks-1.8.jar" md5="ae971aa3588a83cf9cc7c45d86c6112a" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
@@ -58,7 +58,7 @@
         
         <mod name="TFC Storage" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCStorage-1.0.7.jar" file="TFCStorage-1.0.7.jar" md5="a723049fe8b67b0732f3d32f4635a564" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="TFC Decorations" version="1.0.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.6.jar" file="tfc_decoration-1.0.6.jar" md5="75376976174bc696dc342fb298fdc5bd" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TFC Aged Drinks" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAgedDrinks-1.0.7.jar" file="TFCAgedDrinks-1.0.7.jar" md5="0002d0dbbc8dfe0c15a66f7baaaa3f42" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
 
@@ -143,7 +143,7 @@
         <mod name="OpenModsLib" version="0.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
    
         <!-- AdvancedRocketry -->
-        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-237" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-237-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-237-universal.jar" md5="3d17609a1d689f278250d5ba27320d3e" download="server" type="mods" />
+        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-238" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-238-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-238-universal.jar" md5="63c85a2ec089a8307d0344611b52dccd" download="server" type="mods" />
         
         <mod name="Advanced Rocketry Tweaker (AR Tweaker)" version="ARTweaker-1.12.2-1.0.0.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/ARTweaker-1.12.2-1.0.0.jar" file="ARTweaker-1.12.2-1.0.0.jar" md5="56e2383a0014d39dccac6fd93b7d05c4" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />   
 
@@ -335,7 +335,7 @@
 
 <!-- Resource Packs -->
 
-<mod name="TNFC ResourcePacks" version="12.2.53" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.12.2.53.zip" file="resourcepacks.12.2.53.zip" md5="825e4480cefb31ae7e5acb5eeb38588b" download="server" type="extract" extractto="root" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" client="yes" colour="green" server="no" recommended="yes" optional="yes" selected="yes"/>
+<mod name="TNFC ResourcePacks" version="12.2.59" url="packs/TechNodefirmacraft/files/1.12.2Extract/resourcepacks.12.2.59.zip" file="resourcepacks.12.2.59.zip" md5="eec282201bbfea0db37212e7c848612c" download="server" type="extract" extractto="root" description="Faithful and TFC_Music resourcepacks for TFC" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" client="yes" colour="green" server="no" recommended="yes" optional="yes" selected="yes"/>
           
 <!-- Pack Extraction -->
         
