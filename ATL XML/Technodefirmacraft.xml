@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.59</version>
+        <version>12.2.60</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -31,11 +31,11 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.14.172" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.14.172.jar" file="TerraFirmaCraft-MC1.12.2-1.7.14.172.jar" md5="04b8daf749f423edbbff4ce4bf7d58a0" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.15.173" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.15.173.jar" file="TerraFirmaCraft-MC1.12.2-1.7.15.173.jar" md5="3afb3d56294646b2872abd7dc373941e" download="server" type="mods" colour="green"/>
 
         <mod name="TNFCMod" version="12.2.59" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.59.jar" file="TNFCMod-MC1.12.2-12.2.59.jar" md5="be3c0836b3ffda40866a743ae246b487" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.59.1"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.59.1.zip" file="scripts.12.2.59.1.zip" md5="4f727fb4c8b5ec0bdd05d8d64f6c5dd2" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.60" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.60.zip" file="scripts.12.2.60.zip" md5="cb024bc42f79632ade4ffbea1bff57cc" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
