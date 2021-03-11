@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.60.1</version>
+        <version>12.2.61</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -13,7 +13,7 @@
     </delete>
     <messages>
         <update><![CDATA[ ATTENTION: This version BREAKS WORLDS!!!! This version is NOT compatible with old 1.7.10 worlds or pre 12.2.24 worlds. <br />
-        Yabba Barrels will be transparent if you install ConnectedTextures. Yabba is going away! Trade your barrels for Storage Drawers! <br />
+        Yabba Barrels has been removed! If you have Yabba in use then DON'T UPGRADE!  Trade your barrels for Storage Drawers! <br />
         This is a major MC/TFC/Everything version update which makes major changes to the entire modpack. You've been warned.]]></update>
     </messages>
     
@@ -35,7 +35,7 @@
 
         <mod name="TNFCMod" version="12.2.59" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.59.jar" file="TNFCMod-MC1.12.2-12.2.59.jar" md5="be3c0836b3ffda40866a743ae246b487" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.60" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.60.zip" file="scripts.12.2.60.zip" md5="cb024bc42f79632ade4ffbea1bff57cc" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.61" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.61.zip" file="scripts.12.2.61.zip" md5="1e1f48746ded501d24f063d51abe2da0" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -61,6 +61,10 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="TFC Aged Drinks" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAgedDrinks-1.0.7.jar" file="TFCAgedDrinks-1.0.7.jar" md5="0002d0dbbc8dfe0c15a66f7baaaa3f42" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
+        
+        <mod name="FirmaLife" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.1.2.jar" file="firmalife-0.1.2.jar" md5="3a6f219aecebd6909b534a31c7a7a23c" download="server" type="mods" />
+        
+        
 
 <!-- Marquee Mods -->
 
@@ -193,7 +197,6 @@
         
         <mod name="AstikorCarts" version="0.1.2.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/astikorcarts-1.12.2-0.1.2.7.jar" file="astikorcarts-1.12.2-0.1.2.7.jar" md5="af7be118e58fb1e205c33a7587a77eef" download="server" type="mods" website="https://github.com/AnodeCathode/astikor-carts" client="yes" server="yes" recommended="yes" selected="yes" />
         
-        <mod name="YABBA" version="1.1.2.54" url="packs/TechNodefirmacraft/files/1.12.2Mods/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes" />
 
         <mod name="Moar Boats" version="1.12.2-4.1.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/moarboats-1.12.2-4.1.2.1.jar" file="moarboats-1.12.2-4.1.2.1.jar" md5="9aa5a8cacae90547daad94dfcb7e6382" download="server" type="mods" />
         <mod name="Shadowfacts&apos; Forgelin" version="1.8.4" url="packs/TechNodefirmacraft/files/1.12.2Mods/Forgelin-1.8.4.jar" file="Forgelin-1.8.4.jar" md5="2da79fce72265eab0541e565636d389d" download="server" type="mods" />
