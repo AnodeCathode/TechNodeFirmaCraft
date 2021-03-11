@@ -18,8 +18,6 @@ mods.jei.JEI.removeAndHide(<firmalife:invar_mallet>);
 mods.jei.JEI.removeAndHide(<firmalife:invar_mallet_head>);
 mods.jei.JEI.removeAndHide(<firmalife:manyullyn_mallet>);
 mods.jei.JEI.removeAndHide(<firmalife:manyullyn_mallet_head>);
-mods.jei.JEI.removeAndHide(<firmalife:mithril_mallet>);
-mods.jei.JEI.removeAndHide(<firmalife:mithril_mallet_head>);
 mods.jei.JEI.removeAndHide(<firmalife:nickel_silver_mallet>);
 mods.jei.JEI.removeAndHide(<firmalife:nickel_silver_mallet_head>);
 mods.jei.JEI.removeAndHide(<firmalife:osmium_mallet>);
