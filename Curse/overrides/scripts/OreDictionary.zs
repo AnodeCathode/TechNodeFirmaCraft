@@ -161,7 +161,6 @@ var toolsMisc = <ore:tool>;
     <immersiveengineering:tool>,
     <immersiveengineering:tool:1>,
     <rockhounding_chemistry:misc_items:7>,
-    <yabba:wrench>,
     <signpost:itemwrench>,
     <rockhounding_chemistry:sampling_ampoule>,
     <pneumaticcraft:pneumatic_wrench>,
