@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.61</version>
+        <version>12.2.61.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -35,7 +35,7 @@
 
         <mod name="TNFCMod" version="12.2.59" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.59.jar" file="TNFCMod-MC1.12.2-12.2.59.jar" md5="be3c0836b3ffda40866a743ae246b487" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.61" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.61.zip" file="scripts.12.2.61.zip" md5="1e1f48746ded501d24f063d51abe2da0" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.61.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.61.1.zip" file="scripts.12.2.61.1.zip" md5="4d99e451a3d516e3142d5050c248e888" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -62,7 +62,7 @@
         
         <mod name="TFC Aged Drinks" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAgedDrinks-1.0.7.jar" file="TFCAgedDrinks-1.0.7.jar" md5="0002d0dbbc8dfe0c15a66f7baaaa3f42" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="FirmaLife" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.1.2.jar" file="firmalife-0.1.2.jar" md5="3a6f219aecebd6909b534a31c7a7a23c" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.2.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.2.0.jar" file="firmalife-0.2.0.jar" md5="76c6a7d71187e4b0e77495a1bddd3bab" download="server" type="mods" />
         
         
 
