@@ -59,7 +59,9 @@
   
   //Charcoal Powder
   mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>], [<tfc:powder/charcoal> * 8]);
-
+	
+  //Halite
+	mods.betterwithmods.Mill.addRecipe([<tfc:ore/halite>],[<tfc:powder/salt> * 6]);
 
 	//Glowstone
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/selenite>],[<minecraft:glowstone_dust> * 8]);

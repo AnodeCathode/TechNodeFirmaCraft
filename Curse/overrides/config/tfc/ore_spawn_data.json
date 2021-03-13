@@ -305,7 +305,7 @@
   },
   "sylvite": {
     "ore": "tfc:sylvite",
-    "loose": "tfc:rock/conglomerate",
+    "loose": "tfc:ore/sylvite",
     "width": 20,
     "height": 24,
     "shape": "cluster",
