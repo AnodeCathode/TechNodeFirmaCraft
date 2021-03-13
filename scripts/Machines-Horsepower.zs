@@ -29,7 +29,7 @@
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*>, <minecraft:sugar>, 4);
 
     //Halite
-	mods.horsepower.Grindstone.add(<tfc:ore/halite>, <tfc:powder/salt>, 6);
+	mods.horsepower.Grindstone.add(<tfc:ore/halite>, <tfc:powder/salt> * 6, 8);
   
 	//Flux
 	mods.horsepower.Grindstone.add(<ore:rockFlux>, <tfc:powder/flux> * 4, 8);
