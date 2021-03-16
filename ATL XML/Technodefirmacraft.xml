@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.62</version>
+        <version>12.2.62.1</version>
         <minecraft>1.12.2</minecraft>
         <caseallfiles>lower</caseallfiles>
     </pack>
@@ -47,7 +47,7 @@
    
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
         
-        <mod name="OversizedItemInStorageArea" version="2.2.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.2.0.jar" file="OversizedItemInStorageArea-2.2.0.jar" md5="47db98378736e4337d4a1a5bca53c143" download="server" type="mods" colour="green" server="yes" recommended="yes" selected="yes" />
+        <mod name="OversizedItemInStorageArea" version="2.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.2.1.jar" file="OversizedItemInStorageArea-2.2.1.jar" md5="c35f76d08a7bb48b11d477ce105feebf" download="server" type="mods" colour="green" server="yes" recommended="yes" selected="yes" website="https://www.curseforge.com/minecraft/mc-mods/oversized-item-in-storage-area/files/3241202" />
         
         <mod name="Debark" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Debark-0.1.2.jar" file="Debark-0.1.2.jar" md5="3ae43134317b3f1d71f3def390489f90" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
