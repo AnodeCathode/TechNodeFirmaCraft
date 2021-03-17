@@ -1,17 +1,16 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.62.1</version>
+        <version>12.2.63</version>
         <minecraft>1.12.2</minecraft>
-        <caseallfiles>lower</caseallfiles>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
     <delete>
       <folder base="root" target="scripts%s%"/>
-      <folder base="root" target="resources%s%"/>
+      <folder base="root" target="mods%s%"/>
     </delete>
     <messages>
-        <update><![CDATA[ ATTENTION: This version BREAKS WORLDS!!!! This version is NOT compatible with old 1.7.10 worlds or pre 12.2.24 worlds. <br />
+        <update><![CDATA[ ATTENTION: This version nukes all existing mods. If you have special mods in the mods folder, back them up! <br />
         Yabba Barrels has been removed! If you have Yabba in use then DON'T UPGRADE!  Trade your barrels for Storage Drawers! <br />
         This is a major MC/TFC/Everything version update which makes major changes to the entire modpack. You've been warned.]]></update>
     </messages>
@@ -34,7 +33,7 @@
 
         <mod name="TNFCMod" version="12.2.59" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.59.jar" file="TNFCMod-MC1.12.2-12.2.59.jar" md5="be3c0836b3ffda40866a743ae246b487" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.62"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.62.zip" file="scripts.12.2.62.zip" md5="534958e50c0f26d18fb0d268220edd59" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.63"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.63.zip" file="scripts.12.2.63.zip" md5="e8318b66a6e15cdda08b5061996d3659" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -61,7 +60,7 @@
         
         <mod name="TFC Aged Drinks" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAgedDrinks-1.0.7.jar" file="TFCAgedDrinks-1.0.7.jar" md5="0002d0dbbc8dfe0c15a66f7baaaa3f42" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="FirmaLife" version="0.2.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.2.2.jar" file="firmalife-0.2.2.jar" md5="7138d5eaf6c4e72a50c58b9afa29f47c" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.2.3.jar" file="firmalife-0.2.3.jar" md5="5737df843693c78849a97310ada09b95" download="server" type="mods" />
         
         
 
@@ -206,6 +205,8 @@
         
         <mod name="FastWorkbench" version="1.12.2-1.7.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/FastWorkbench-1.12.2-1.7.3.jar" file="FastWorkbench-1.12.2-1.7.3.jar" md5="b55a31e4193204572acf05f78e0deedc" download="server" type="mods"  client="yes" server="yes" recommended="yes" selected="yes" />
         
+        <mod name="Modern Lights" version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/ModernLights-1.0.3_1.12.jar" file="ModernLights-1.0.3_1.12.jar" md5="2df4c67e989492a4ec410d07362049ad" download="server" type="mods" />
+        
 
 <!-- Utilities and QoL Mods -->  
 
@@ -251,6 +252,14 @@
        
        <mod name="The Weirding Gadget" version="2.1.16" url="packs/TechNodefirmacraft/files/1.12.2Mods/weirdinggadget-1.12.2-2.1.16-universal.jar" file="weirdinggadget-1.12.2-2.1.16-universal.jar" md5="5202fdedc964a267510ec24225704aa3" download="server" type="mods" />
        
+       <mod name="Sledgehammer" version="1.12.2-2.0.9" url="packs/TechNodefirmacraft/files/1.12.2Mods/Sledgehammer-1.12.2-2.0.9.jar" file="Sledgehammer-1.12.2-2.0.9.jar" md5="1886ae285e8d304ccb8dac4a002b97ba" download="server" type="mods" />
+       
+       
+       <mod name="Shield Parrying" version="1.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/parry-1.0-hotfix.jar" file="parry-1.0-hotfix.jar" md5="08b0493d973b3f5a8f4c1602be609c97" download="server" type="mods" />
+       
+       <mod name="Faster Ladder Climbing" version="1.12-0.1-127" url="packs/TechNodefirmacraft/files/1.12.2Mods/FasterLadderClimbing-1.12-0.1-146.jar" file="FasterLadderClimbing-1.12-0.1-146.jar" md5="9f7c289b438817d581a3825ef0015611" download="server" type="mods" />
+       
+       
        
 <!-- Client Side Only Mods -->
 
@@ -278,6 +287,8 @@
         <mod name="JourneyMap Topo Config" version="12.2.49" url="packs/TechNodefirmacraft/files/1.12.2Extract/journeymap.zip" file="journeymap.zip" md5="8dfc04bac36b67bd12c957542846a6f7" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="JourneyMap Topo Config" client="yes" server="no" recommended="yes" selected="yes" />
         
         <mod name="CTM" version="MC1.12.2-1.0.2.31" url="packs/TechNodefirmacraft/files/1.12.2Mods/CTM-MC1.12.2-1.0.2.31.jar" file="CTM-MC1.12.2-1.0.2.31.jar" md5="77a8bb5486c97e3eaa6f45e5bd768864" download="server" type="mods" colour="cyan" client="yes" optional="yes" server="no" recommended="yes" selected="yes" />
+        
+       <mod name="Custom Loading Screen" version="1.12.2-1.5.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/CustomLoadingScreen-1.12.2-1.5.1.jar" file="CustomLoadingScreen-1.12.2-1.5.1.jar" md5="19e874945a92def6e89c3f090b3805a5" download="server" type="mods" colour="cyan" client="yes" optional="yes" server="no" recommended="yes" selected="yes"  />
         
 <!--Server Bits -->
 
