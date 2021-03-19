@@ -1,0 +1,58 @@
+<liquid:exhaust_steam>
+- Name: exhaust_steam
+- Display Name: Exhaust Steam
+- From Nuclearcraft
+
+<liquid:exhauststeam>
+- Name: exhauststeam
+- Display Name: Exhaust Steam
+- From Immersive Technology
+
+<liquid:high_pressure_steam>
+- Name: high_pressure_steam
+- Display Name: High Pressure Steam
+- From: NuclearCraft
+<liquid:low_pressure_steam>
+- Name: low_pressure_steam
+- Display Name: Low Pressure Steam
+- From: NuclearCraft
+
+<liquid:low_quality_steam>
+- Name: low_quality_steam
+- Display Name: Low Quality Steam
+- From: NuclearCraft
+
+<liquid:steam>
+- Name: steam
+- Display Name: Steam
+
+
+
+Also flue gas:
+
+<liquid:fluegas>
+- Name: fluegas
+- Display Name: Flue Gas
+- Luminosity:0
+- Density: -100
+- Temperature: 300
+- Viscosity: 500
+- Gaseous: true
+
+<liquid:raw_flue_gas>
+- Name: raw_flue_gas
+- Display Name: Raw Flue Gas
+- Luminosity:0
+- Density: 10
+- Temperature: 450
+- Viscosity: 10
+- Gaseous: true
+
+<liquid:flue_gas>
+- Name: flue_gas
+- Display Name: Flue Gas
+- Luminosity:0
+- Density: 10
+- Temperature: 310
+- Viscosity: 10
+- Gaseous: true

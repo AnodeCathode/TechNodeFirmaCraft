@@ -66,3 +66,29 @@ recipes.addShaped(tier1hammer, [[null, <minecraft:stone:1>, <minecraft:string>],
 //mods.immersivetechnology.PressurizedFluid.remove(ILiquidStack fluid);
 mods.immersivetechnology.PressurizedFluid.add(<fluid:water>);
 mods.immersivetechnology.PressurizedFluid.remove(<fluid:steam>);
+
+
+// Example: Add Cooling Tower Recipe.
+// mods.immersivetechnology.CoolingTower.addRecipe(ILiquidStack outputFluid1, ILiquidStack outputFluid2, ILiquidStack inputFluid1, ILiquidStack inputFluid2, int time);
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:water> * 750, <liquid:water> * 750, <liquid:exhauststeam> * 900, <liquid:water> * 1000, 3);
+
+// Example: Remove Cooling Tower Recipe.
+// mods.immersivetechnology.CoolingTower.removeRecipe(ILiquidStack inputFluid1, ILiquidStack inputFluid2);
+mods.immersivetechnology.CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
+
+// Example: Add Gas Turbine Recipe.
+// mods.immersivetechnology.GasTurbineRecipe.addFuel(ILiquidStack outputFluid, ILiquidStack inputFluid, int time);
+mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:biodiesel> * 160, 10);
+
+// Example: Remove Gas Turbine Recipe.
+// mods.immersivetechnology.GasTurbineRecipe.removeFuel(ILiquidStack inputFluid);
+mods.immersivetechnology.GasTurbine.removeFuel(<liquid:biodiesel>);
+
+// Heat Exchanger
+   //HeatExchangerRecipe addRecipe(FluidStack fluidOutput0, FluidStack fluidOutput1, FluidStack fluidInput0, FluidStack fluidInput1, int energy, int time) {
+  //HeatExchangerRecipe.addRecipe(new FluidStack(FluidRegistry.getFluid("steam"), 450), null, new FluidStack(FluidRegistry.WATER, 250), new FluidStack(FluidRegistry.getFluid("fluegas"), 1000), 64, 10);
+  //HeatExchangerRecipe.addRecipe(new FluidStack(FluidRegistry.getFluid("steam"), 500), null, new FluidStack(FluidRegistry.getFluid("distwater"), 250), new FluidStack(FluidRegistry.getFluid("fluegas"), 1000), 64, 10);
+    //HeatExchangerRecipe.addRecipe(new FluidStack(FluidRegistry.getFluid("steam"), 500), null, new FluidStack(FluidRegistry.getFluid("distwater"), 250), new FluidStack(FluidRegistry.getFluid("fluegas"), 1000), 64, 10);
+  mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:steam> * 450, null, <liquid:fresh_water> * 750 , <liquid:fluegas> * 1000, 64, 10)
+  
+    mods.immersivetechnology.HeatExchanger.removeRecipe(ILiquidStack inputFluid0, ILiquidStack inputFluid1) {
