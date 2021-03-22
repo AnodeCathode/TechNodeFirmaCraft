@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.64</version>
+        <version>12.2.64.1</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -33,7 +33,7 @@
 
         <mod name="TNFCMod" version="12.2.64" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.64.jar" file="TNFCMod-MC1.12.2-12.2.64.jar" md5="e995c0e9621fd8ebd54a288e2bd9c6c9" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.64" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.64.zip" file="scripts.12.2.64.zip" md5="2e148546d2d02b8291a1395315bd2745" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.64.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.64.1.zip" file="scripts.12.2.64.1.zip" md5="d2c1d825a7363646dfe797c79460225e" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -45,8 +45,6 @@
         <mod name="Waterflasks" version="1.8" url="packs/TechNodefirmacraft/files/1.12.2Mods/waterflasks-1.8.jar" file="waterflasks-1.8.jar" md5="ae971aa3588a83cf9cc7c45d86c6112a" download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes"  selected="yes" />
    
         <mod name="Time4TFC"  version="1.0.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Time4TFC-MC1.12.2-1.0.3.jar" file="Time4TFC-MC1.12.2-1.0.3.jar" md5="f2095c64a1add5449359056c382249e7"  download="server" type="mods" colour="green" client="yes" server="yes" recommended="yes" selected="yes" website="https://github.com/AnodeCathode/Time4TFC"/>
-        
-        <mod name="OversizedItemInStorageArea" version="2.2.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.2.1.jar" file="OversizedItemInStorageArea-2.2.1.jar" md5="c35f76d08a7bb48b11d477ce105feebf" download="server" type="mods" colour="green" server="yes" recommended="yes" selected="yes" website="https://www.curseforge.com/minecraft/mc-mods/oversized-item-in-storage-area/files/3241202" />
         
         <mod name="Debark" version="0.1.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/Debark-0.1.2.jar" file="Debark-0.1.2.jar" md5="3ae43134317b3f1d71f3def390489f90" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
@@ -60,7 +58,7 @@
         
         <mod name="TFC Aged Drinks" version="1.0.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TFCAgedDrinks-1.0.7.jar" file="TFCAgedDrinks-1.0.7.jar" md5="0002d0dbbc8dfe0c15a66f7baaaa3f42" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
         
-        <mod name="FirmaLife" version="0.2.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.2.3.jar" file="firmalife-0.2.3.jar" md5="5737df843693c78849a97310ada09b95" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.0.jar" file="firmalife-0.3.0.jar" md5="540cb04ed2652b83a439647456b960dc" download="server" type="mods" />
         
         
 
