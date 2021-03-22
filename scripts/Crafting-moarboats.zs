@@ -122,4 +122,4 @@ recipes.addShapeless("moarboats_dyedboat14", <moarboats:modular_boat:14> ,[<moar
 recipes.addShapeless("moarboats_dyedboat15", <moarboats:modular_boat:15> ,[<moarboats:modular_boat:*>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "black_dye", Amount: 1000}})]);
 
 //Hacky fix because I'm not going to fix the mod. Bloody Kotlin.
-recipes.addShapeless("moarboats_getvanillachest", <minecraft:chest>, [<ore:chest>,<ore:chest>]);
+recipes.addShaped("moarboats_getvanillachest", <minecraft:chest>, [[<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],[<ore:chest>,<ore:chest>,<ore:chest>],[<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>]]);
