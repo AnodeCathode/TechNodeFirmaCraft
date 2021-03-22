@@ -16,5 +16,6 @@
 <simplyjetpacks:metaitemmods:1>.displayName = "Red Steel Thruster";
 <simplyjetpacks:metaitemmods:2>.displayName = "Tungsten Steel Thruster";
 <tfc:food/salad_dairy>.displayName = "Delightful Salad";
+<<minecraft:chest>.displayName = "MoarBoats Storage Container"
 game.setLocalization("tile.water.name","Rainwater");
 game.setLocalization("item.bucketWater.name","Ultimate Rainwater Bucket");
