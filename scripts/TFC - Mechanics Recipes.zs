@@ -62,17 +62,7 @@ mods.terrafirmacraft.Barrel.addRecipe("tnfc:treated_wood", <ore:plankWood> * 8, 
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:tallow", <ore:categoryMeat> * 4, <liquid:hot_water> * 250, <betterwithmods:material:13> * 4, null, 8);
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:woodpulp", <tfc:wood_ash> * 1, <liquid:vinegar> * 100, <tnfcmod:woodpulp> * 1, null, 8);
 
-// Aged Drinks to Vinegar
-//var IAgedFluids = []
-
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedrumtovinegar", <ore:categoryFruit> * 1, <liquid:aged_rum> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedbeertovinegar", <ore:categoryFruit> * 1, <liquid:aged_beer> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedvodkatovinegar", <ore:categoryFruit> * 1, <liquid:aged_vodka> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedsaketovinegar", <ore:categoryFruit> * 1, <liquid:aged_sake> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedcidertovinegar", <ore:categoryFruit> * 1, <liquid:aged_cider> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedwhiskeytovinegar", <ore:categoryFruit> * 1, <liquid:aged_whiskey> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedcornwhiskeytovinegar", <ore:categoryFruit> * 1, <liquid:aged_corn_whiskey> * 250 , null, <liquid:vinegar> * 250, 8);
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedryewhiskeytovinegar", <ore:categoryFruit> * 1, <liquid:aged_rye_whiskey> * 250 , null, <liquid:vinegar> * 250, 8);
+// Aged Drinks to Vinegar - Taking out because of changes to aged drink creation
 
 
 // Quern Recipe
