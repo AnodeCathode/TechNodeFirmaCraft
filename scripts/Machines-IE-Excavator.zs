@@ -97,7 +97,7 @@ import mods.immersiveengineering.MineralMix;
 
     //Silt
     Excavator.removeMineral("Silt");
-    Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary", "gemCarobbiite", "gemArsenic", "nuggetSoulforgedSteel"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.02]);
+    Excavator.addMineral("Silt", 30, 0.005, ["clay", "sandSedimentary", "gravelSedimentary", "gemCarobbiite", "gemArsenic", "nuggetSoulforgedSteel", "gemChipped", "gemNormal", "gemFlawless", "gemExquisite"], [0.5, 0.2, 0.15, 0.008, 0.005, 0.009, 0.1, 0.01, 0.001, 0.0001]);
 
     //Bauxite
     Excavator.removeMineral("Bauxite");
