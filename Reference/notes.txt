@@ -1,6 +1,8 @@
 Notes:
 160529104681437176
 
+Slime block creation
+Metal spindle with better durability
 
 [name:"Cinnamon Tree Test", x:-1551, y:152, z:9246]
 
