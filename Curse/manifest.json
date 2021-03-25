@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TechnodeFirmaCraft",
-  "version": "12.2.64.1",
+  "version": "12.2.65",
   "author": "AnodeCathode",
   "files": [
     {
@@ -32,6 +32,11 @@
     {
       "projectID": 271740,
       "fileID": 2707353,
+      "required": true
+    },
+    {
+      "projectID": 270078,
+      "fileID": 2457838,
       "required": true
     },
     {
@@ -66,7 +71,7 @@
     },
     {
       "projectID": 388927,
-      "fileID": 3246234,
+      "fileID": 3249857,
       "required": true
     },
     {
@@ -106,7 +111,7 @@
     },
     {
       "projectID": 359033,
-      "fileID": 3186436,
+      "fileID": 3220600,
       "required": true
     },
     {
@@ -450,8 +455,8 @@
       "required": true
     },
     {
-      "projectID": 302973,
-      "fileID": 3240253,
+      "projectID": 351988,
+      "fileID": 3249432,
       "required": true
     },
     {
@@ -460,8 +465,8 @@
       "required": true
     },
     {
-      "projectID": 305748,
-      "fileID": 2753985,
+      "projectID": 302973,
+      "fileID": 3240253,
       "required": true
     },
     {
@@ -470,18 +475,23 @@
       "required": true
     },
     {
+      "projectID": 305748,
+      "fileID": 2753985,
+      "required": true
+    },
+    {
       "projectID": 283589,
       "fileID": 2708030,
       "required": true
     },
     {
-      "projectID": 227083,
-      "fileID": 2518667,
+      "projectID": 296887,
+      "fileID": 2828147,
       "required": true
     },
     {
-      "projectID": 296887,
-      "fileID": 2828147,
+      "projectID": 227083,
+      "fileID": 2518667,
       "required": true
     },
     {
@@ -515,13 +525,13 @@
       "required": true
     },
     {
-      "projectID": 314904,
-      "fileID": 2819669,
+      "projectID": 250363,
+      "fileID": 2746011,
       "required": true
     },
     {
-      "projectID": 250363,
-      "fileID": 2746011,
+      "projectID": 314904,
+      "fileID": 2819669,
       "required": true
     },
     {
@@ -585,13 +595,13 @@
       "required": true
     },
     {
-      "projectID": 248453,
-      "fileID": 2785465,
+      "projectID": 236542,
+      "fileID": 3247375,
       "required": true
     },
     {
-      "projectID": 236542,
-      "fileID": 3207952,
+      "projectID": 248453,
+      "fileID": 2785465,
       "required": true
     },
     {
@@ -600,18 +610,13 @@
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 3025548,
-      "required": true
-    },
-    {
       "projectID": 237102,
       "fileID": 3157548,
       "required": true
     },
     {
-      "projectID": 359540,
-      "fileID": 2909603,
+      "projectID": 250398,
+      "fileID": 3025548,
       "required": true
     },
     {
@@ -620,13 +625,18 @@
       "required": true
     },
     {
-      "projectID": 283644,
-      "fileID": 2694382,
+      "projectID": 359540,
+      "fileID": 2909603,
       "required": true
     },
     {
       "projectID": 292785,
       "fileID": 2915154,
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 2694382,
       "required": true
     },
     {

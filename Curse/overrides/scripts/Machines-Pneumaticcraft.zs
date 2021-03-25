@@ -19,6 +19,11 @@ val acidbucket = <forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 10
 
   mods.pneumaticcraft.pressurechamber.addRecipe([waterbucketvanilla, <minecraft:rotten_flesh> * 2, <minecraft:gunpowder> * 2, <pneumaticcraft:plastic:2> * 2, <rockhounding_chemistry:chemical_items:14> * 2], 4.7, [acidbucket]);
 
+  mods.pneumaticcraft.pressurechamber.addRecipe([<tfc:glue> * 9], 4.7, [<minecraft:slime>]);
+  mods.pneumaticcraft.pressurechamber.addRecipe([<rockhounding_chemistry:mob_items> * 9], 4.7, [<minecraft:slime>]);
+  mods.pneumaticcraft.pressurechamber.addRecipe([<rockhounding_chemistry:silicone_cartridge:*> * 1], 4.7, [<minecraft:slime>]);
+  
+  
   
 //TPP
   mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:plastic>);

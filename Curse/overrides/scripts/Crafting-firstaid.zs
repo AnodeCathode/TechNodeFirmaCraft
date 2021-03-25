@@ -2,7 +2,7 @@
 #modloaded firstaid
 
 val vodkajug = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "vodka", Amount: 100}}).giveBack(<tfc:ceramics/fired/jug>);
-val agedvodkajug = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "aged_vodka", Amount: 100}}).giveBack(<tfc:ceramics/fired/jug>);
+
 
 val milkjug = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "milk", Amount: 100}}).giveBack(<tfc:ceramics/fired/jug>);
 
@@ -22,7 +22,7 @@ val milkjug = <tfc:ceramics/fired/jug>.withTag({Fluid: {FluidName: "milk", Amoun
 // ================================================================================
 //#ADD SHAPELESS
   recipes.addShapeless("tnfc_firstaid_morphine", <firstaid:morphine> * 3, [<tfc:ceramics/fired/jug>.noReturn(), <tfc:plants/poppy>, vodkajug, milkjug]);
-  recipes.addShapeless("tnfc_firstaid_morphine2", <firstaid:morphine> * 3, [<tfc:ceramics/fired/jug>.noReturn(), <tfc:plants/poppy>, agedvodkajug, milkjug]);
+
 
 //#REGISTER TFC Size/Heat/Other
   // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
