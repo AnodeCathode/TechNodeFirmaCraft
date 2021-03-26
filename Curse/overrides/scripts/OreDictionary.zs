@@ -4,6 +4,32 @@
 
 //Remove IE Tough Fabric
 import crafttweaker.oredict.IOreDictEntry;
+
+val oreSandSedimentary = <ore:sandSedimentary>;
+  oreSandSedimentary.addItems([
+    <tfc:sand/chalk>,
+    <tfc:sand/chert>,
+    <tfc:sand/claystone>,
+    <tfc:sand/conglomerate>,
+    <tfc:sand/dolomite>,
+    <tfc:sand/limestone>,
+    <tfc:sand/rocksalt>,
+    <tfc:sand/shale>
+  ]);
+
+  
+  val oreGravelSedimentary = <ore:gravelSedimentary>;
+  oreGravelSedimentary.addItems([
+    <tfc:gravel/chalk>,
+    <tfc:gravel/chert>,
+    <tfc:gravel/claystone>,
+    <tfc:gravel/conglomerate>,
+    <tfc:gravel/dolomite>,
+    <tfc:gravel/limestone>,
+    <tfc:gravel/rocksalt>,
+    <tfc:gravel/shale>
+  ]);
+
 val oreDictEnt = <ore:fabricHemp>;
     oreDictEnt.remove(<immersiveengineering:material:5>);
     oreDictEnt.remove(<betterwithmods:material:4>);

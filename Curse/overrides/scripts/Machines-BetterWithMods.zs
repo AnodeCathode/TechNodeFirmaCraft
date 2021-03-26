@@ -60,6 +60,8 @@
   //Charcoal Powder
   mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>], [<tfc:powder/charcoal> * 8]);
 	
+  //firmalife
+  mods.betterwithmods.Mill.addRecipe([<firmalife:cinnamon>],[<firmalife:ground_cinnamon> * 4]);
   //Halite
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/halite>],[<tfc:powder/salt> * 6]);
 

@@ -28,6 +28,12 @@
   //Sugar
 	mods.horsepower.Grindstone.add(<tfc:food/sugarcane:*>, <minecraft:sugar>, 4);
 
+    //firmalife
+    //Ground soybean
+  mods.horsepower.Grindstone.add(<tfc:food/soybean>, <firmalife:ground_soybeans> * 2, 8);
+  
+    //Ground cinammon
+  mods.horsepower.Grindstone.add(<firmalife:cinnamon>, <firmalife:ground_cinnamon> * 4, 8);
     //Halite
 	mods.horsepower.Grindstone.add(<tfc:ore/halite>, <tfc:powder/salt> * 6, 8);
   
