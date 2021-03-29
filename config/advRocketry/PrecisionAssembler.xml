@@ -177,4 +177,21 @@
 			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
 		</output>
 	</Recipe>
+  <Recipe timeRequired="900" power ="100">
+		<input>
+			<oreDict>sheetAluminum;1</oreDict>
+		</input>
+		<output>
+			<itemStack>firmalife:greenhouse_wall;8</itemStack>
+		</output>
+	</Recipe>
+  <Recipe timeRequired="900" power ="100">
+		<input>
+			<oreDict>stickAluminum;1</oreDict>
+      <oreDict>ingotAluminum;1</oreDict>
+		</input>
+		<output>
+			<itemStack>firmalife:greenhouse_roof;8</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
