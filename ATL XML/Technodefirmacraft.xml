@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.65.1</version>
+        <version>12.2.65.2</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.0" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.0.jar" file="firmalife-0.3.0.jar" md5="540cb04ed2652b83a439647456b960dc" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.1.jar" file="firmalife-0.3.1.jar" md5="27d1628bf778aea22f97e7844062fd03" download="server" type="mods" />
         
         <mod name="OversizedItemInStorageArea" version="2.2.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.2.2.jar" file="OversizedItemInStorageArea-2.2.2.jar" md5="51aa65b44e36dbdcab300d2418480be2" download="server" type="mods" />
         
