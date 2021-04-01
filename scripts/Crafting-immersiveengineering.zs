@@ -131,6 +131,8 @@ for i, item in IBucketArray {
   recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12, [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag>], [<ore:gravel>, item, <ore:gravel>], [<ore:itemSlag>, <ore:clay>, <ore:itemSlag>]]);
 }
   
+  
+  recipes.addShaped("tnfc_reinforced_electrode", <immersiveengineering:graphite_electrode>.withTag({Unbreakable:1, HideFlags:4, display: {Name: "Reinforced Graphite Electrode"}}), [[<immersiveengineering:graphite_electrode>, <rockhounding_chemistry:alloy_items_gems:7>, <immersiveengineering:graphite_electrode>], [<immersiveengineering:graphite_electrode>, <rockhounding_chemistry:alloy_blocks_tech:14>, <immersiveengineering:graphite_electrode>], [<immersiveengineering:graphite_electrode>, <rockhounding_chemistry:alloy_items_gems:1>, <immersiveengineering:graphite_electrode>]]);
   recipes.addShaped("tnfc_immersive_blueprint_electrode", <immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>, <tfc:powder/lapis_lazuli>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
   recipes.addShaped("tnfc_immersive_lantern",<immersiveengineering:metal_decoration2:4> * 3, [[<ore:craftingToolChisel>.transformDamage(), <ore:sheetWroughtIron>, <ore:craftingToolHammer>.transformDamage()], [<ore:paneGlass>, <ore:dustGlowstone>, <ore:paneGlass>], [null, <ore:sheetWroughtIron>, null]]);
@@ -149,6 +151,8 @@ for i, item in IBucketArray {
 
   recipes.addShapeless("tnfc_immersive_reinforced_upgrade", <immersiveengineering:stone_decoration:2>, [<immersiveengineering:stone_decoration:1>,<tfc:metal/double_sheet/steel>,<ore:craftingToolMediumHammer>.transformDamage()]);
 
+  
+  
 //#REGISTER TFC Size/Heat/Other
 // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     
