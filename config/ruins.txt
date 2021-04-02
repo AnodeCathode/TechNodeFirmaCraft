@@ -33,7 +33,7 @@ anySpawnMaxDistance=0
 enableStick=false
 #
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
-allowedDimensions=5,105,106,108,109,110,112,113,114,115,118,119,120,121,122,123
+allowedDimensions=5,4598,106,108,109,110,112,113,114,115,118,119,120,121,122,123
 #
 # make /parseruin rule IDs line up nicely in template files
 # note: overworld (i.e., dimension 0) setting applies to all dimensions
