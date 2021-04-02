@@ -797,7 +797,7 @@
       },
       {
         "char": "W",
-        "block": "liquid:fresh_water"
+        "block": "tfc:fluid/fresh_water"
       },
       {
         "char": "C",
