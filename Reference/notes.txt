@@ -1,6 +1,20 @@
 Notes:
 160529104681437176
 
+
+
+
+LostCities:
+ - Still generating MC grass and stone
+ 
+ - MC Vines
+ - Leaf blocks
+ - Saplings
+ - Flowers
+ - Stairs
+ 
+ 
+ 
 Slime block creation
 Metal spindle with better durability
 
