@@ -15,11 +15,11 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
               </planet>
         </planet>
-      <planet name="Planet ZeroZero" DIMID="5" customIcon="earthlike">
+      <planet name="Planet ZeroZero" DIMID="5" dimMapping="" customIcon="earthlike">
           <fogColor>1.0,1.0,1.0</fogColor>
           <skyColor>1.0,1.0,1.0</skyColor>
-          <isKnown>False</isKnown>
-          <atmosphereDensity>0</atmosphereDensity>
+          <isKnown>True</isKnown>
+          <atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
           <gravitationalMultiplier>100</gravitationalMultiplier>
           <orbitalDistance>1000</orbitalDistance>
@@ -31,7 +31,7 @@
               <orbitalDistance>200</orbitalDistance>
            </planet>
       </planet>
-      <planet name="Mercury" DIMID="101" customIcon="lava">
+      <planet name="Mercury" DIMID="101" dimMapping="" customIcon="lava">
         <isKnown>false</isKnown>
         <fogColor>1.0,1.0,1.0</fogColor>
         <skyColor>0.0,0.0,0.0</skyColor>
@@ -42,19 +42,18 @@
                 <seaLevel>64</seaLevel>
         <biomeIds>advancedrocketry:hotdryrock</biomeIds>
 		</planet>
-		<planet name="Venus" DIMID="102" customIcon="lava">
-			<isKnown>false</isKnown>
+		<planet name="Venus" DIMID="111" dimMapping="" customIcon="lava">
+			<isKnown>true</isKnown>
 			<fogColor>0.9,0.9,0.9</fogColor>
-			<skyColor>0.0,0.0,0.0</skyColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>90</gravitationalMultiplier>
 			<orbitalDistance>72</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>120</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>minecraft:deep_ocean,minecraft:desert_hills,minecraft:desert,minecraft:plains</biomeIds>
 		</planet>
 		<planet name="Mars" DIMID="4598" dimMapping="" customIcon="marslike">
-			<isKnown>false</isKnown>
+			<isKnown>true</isKnown>
 			<fogColor>0.9,0.6,0.1</fogColor>
 			<skyColor>1.0,0.2,0.0</skyColor>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
@@ -75,7 +74,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<planet name="Io" DIMID="105" customIcon="moon">
+			<planet name="Io" DIMID="105" dimMapping="" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -86,7 +85,7 @@
                 <seaLevel>64</seaLevel>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
 			</planet>
-			<planet name="Europa" DIMID="106" customIcon="waterworld">
+			<planet name="Europa" DIMID="106" dimMapping="" customIcon="waterworld">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -112,7 +111,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<planet name="Titan" DIMID="108" customIcon="moon">
+			<planet name="Titan" DIMID="108" dimMapping="" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -206,7 +205,7 @@
 			<atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
 		</planet>
-		<planet name="Proxima B" DIMID="111" customIcon="earthlike">
+		<planet name="Proxima B" DIMID="105" customIcon="earthlike">
 			<isKnown>false</isKnown>
 			<fogColor>0.0,0.0,1.0</fogColor>
 			<skyColor>0.0,1.0,0.0</skyColor>
@@ -214,8 +213,8 @@
 			<orbitalDistance>50</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>100</atmosphereDensity>
-                <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:crystalchasms</biomeIds>
+      <seaLevel>64</seaLevel>
+      <biomeIds>advancedrocketry:crystalchasms</biomeIds>
 		</planet>
 	</star>
   <star name="HD 42176" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="2" >
