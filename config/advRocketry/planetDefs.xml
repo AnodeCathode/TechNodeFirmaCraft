@@ -15,11 +15,11 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
               </planet>
         </planet>
-      <planet name="Planet ZeroZero" DIMID="5" customIcon="earthlike">
+      <planet name="Planet ZeroZero" DIMID="5" dimMapping="" customIcon="earthlike">
           <fogColor>1.0,1.0,1.0</fogColor>
           <skyColor>1.0,1.0,1.0</skyColor>
-          <isKnown>False</isKnown>
-          <atmosphereDensity>0</atmosphereDensity>
+          <isKnown>True</isKnown>
+          <atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
           <gravitationalMultiplier>100</gravitationalMultiplier>
           <orbitalDistance>1000</orbitalDistance>
@@ -31,7 +31,7 @@
               <orbitalDistance>200</orbitalDistance>
            </planet>
       </planet>
-      <planet name="Mercury" DIMID="101" customIcon="lava">
+      <planet name="Mercury" DIMID="101" dimMapping="" customIcon="lava">
         <isKnown>false</isKnown>
         <fogColor>1.0,1.0,1.0</fogColor>
         <skyColor>0.0,0.0,0.0</skyColor>
@@ -85,7 +85,7 @@
                 <seaLevel>64</seaLevel>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark,advancedrocketry:volcanicbarren</biomeIds>
 			</planet>
-			<planet name="Europa" DIMID="106" customIcon="waterworld">
+			<planet name="Europa" DIMID="106" dimMapping="" customIcon="waterworld">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -111,7 +111,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<planet name="Titan" DIMID="108" customIcon="moon">
+			<planet name="Titan" DIMID="108" dimMapping="" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
