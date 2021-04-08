@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.65.2</version>
+        <version>12.2.66</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -33,7 +33,7 @@
 
         <mod name="TNFCMod" version="12.2.65.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.65.1.jar" file="TNFCMod-MC1.12.2-12.2.65.1.jar" md5="ccf63ad84d5228107fc0712f569d2703" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.65.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.65.1.zip" file="scripts.12.2.65.1.zip" md5="8835592cb8317028668321cdb4d36f7b" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.66" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.66.zip" file="scripts.12.2.66.zip" md5="eb169eee1efcc786e964248537ea86ad" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -59,7 +59,7 @@
         
         <mod name="FirmaLife" version="0.3.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.1.jar" file="firmalife-0.3.1.jar" md5="27d1628bf778aea22f97e7844062fd03" download="server" type="mods" />
         
-        <mod name="OversizedItemInStorageArea" version="2.2.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OversizedItemInStorageArea-2.2.2.jar" file="OversizedItemInStorageArea-2.2.2.jar" md5="51aa65b44e36dbdcab300d2418480be2" download="server" type="mods" />
+
         
         
 
@@ -156,6 +156,7 @@
         
         <mod name="Ore Veins" version="2.0.15" url="packs/TechNodefirmacraft/files/1.12.2Mods/oreveins-2.0.15.jar" file="oreveins-2.0.15.jar" md5="7e3da67b1deb2bc5e321337e73d3ece5" download="server" type="mods" />
         
+        <mod name="The Lost Cities - TFC Edition" version="1.12-12.2.66.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/lostcities_tfc-1.12-12.2.66.1.jar" file="lostcities_tfc-1.12-12.2.66.1.jar" md5="f57c727c1faa2240ed3f92d671acad5b" download="server" type="mods" />
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
