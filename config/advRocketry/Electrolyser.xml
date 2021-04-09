@@ -34,7 +34,7 @@
 <Recipes useDefault="false">
 	<Recipe timeRequired="100" power ="20">
 		<input>
-			<fluidStack>water;10</fluidStack>
+			<fluidStack>fresh_water;10</fluidStack>
 		</input>
 		<output>
 			<fluidStack>hydrogen;100</fluidStack>
