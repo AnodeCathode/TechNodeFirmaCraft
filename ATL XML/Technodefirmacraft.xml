@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.66</version>
+        <version>12.2.67</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -29,7 +29,7 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.17.175" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.17.175.jar" file="TerraFirmaCraft-MC1.12.2-1.7.17.175.jar" md5="eed30fdec96bb04b1eccd961647e1810" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.18.176" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" file="TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" md5="352fe98667e3af7a620c4b09f82965bd" download="server" type="mods" colour="green"/>
 
         <mod name="TNFCMod" version="12.2.65.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.65.1.jar" file="TNFCMod-MC1.12.2-12.2.65.1.jar" md5="ccf63ad84d5228107fc0712f569d2703" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.1.jar" file="firmalife-0.3.1.jar" md5="27d1628bf778aea22f97e7844062fd03" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.2.jar" file="firmalife-0.3.2.jar" md5="69bb9b69c4014f0a1566a036b6640549" download="server" type="mods" />
         
 
         
