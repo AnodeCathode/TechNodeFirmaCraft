@@ -148,7 +148,7 @@ mods.jei.JEI.removeAndHide(<minecraft:fermented_spider_eye>);
 //mods.jei.JEI.removeAndHide(<minecraft:firework_charge>);
 //mods.jei.JEI.removeAndHide(<minecraft:fireworks>);
 mods.jei.JEI.removeAndHide(<minecraft:fishing_rod>);
-mods.jei.JEI.removeAndHide(<minecraft:flower_pot>);
+//mods.jei.JEI.removeAndHide(<minecraft:flower_pot>);
 mods.jei.JEI.removeAndHide(<minecraft:ghast_tear>);
 mods.jei.JEI.removeAndHide(<minecraft:gold_ingot>);
 mods.jei.JEI.removeAndHide(<minecraft:gold_ore>);
