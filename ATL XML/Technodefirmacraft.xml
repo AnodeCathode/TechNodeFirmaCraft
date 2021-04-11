@@ -33,7 +33,7 @@
 
         <mod name="TNFCMod" version="12.2.65.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.65.1.jar" file="TNFCMod-MC1.12.2-12.2.65.1.jar" md5="ccf63ad84d5228107fc0712f569d2703" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.66" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.66.zip" file="scripts.12.2.66.zip" md5="eb169eee1efcc786e964248537ea86ad" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.67" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.67.zip" file="scripts.12.2.67.zip" md5="02bb69a068dacbdcf9983ad405be2072" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
