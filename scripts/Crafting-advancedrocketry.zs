@@ -46,7 +46,7 @@ recipes.remove(<advancedrocketry:misc:1>);
 //recipes.addShaped("tnfc_advancedrocketry_arcfurnace", <advancedrocketry:arcfurnace>, [[<tfc:fire_bricks>, <advancedrocketry:misc>, <tfc:fire_bricks>], [<advancedrocketry:ic:4>, <advancedrocketry:blastbrick>, <advancedrocketry:ic:3>], [<tfc:fire_bricks>, <ore:ingotCopper>, <tfc:fire_bricks>]]);
 
 //Vacuum Laser
-(<advancedrocketry:vacuumlaser>);
+recipes.remove(<advancedrocketry:vacuumlaser>);
 recipes.addShaped("tnfc_advancedrocketry_vacuumlaser", <advancedrocketry:vacuumlaser>, [[null, <advancedrocketry:blocklens>, null], [<ore:plateAluminum>, <tfc:gem/ruby:4> | <tfc:gem/sapphire:4>, <ore:plateAluminum>], [<ore:plateAluminum>, <libvulpes:structuremachine>, <ore:plateAluminum>]]);
 
 
