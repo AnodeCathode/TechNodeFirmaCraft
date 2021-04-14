@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.68</version>
+        <version>12.2.69</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -31,9 +31,9 @@
         <!-- TFC -->
         <mod name="TerraFirmaCraft" version="1.7.18.176" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" file="TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" md5="352fe98667e3af7a620c4b09f82965bd" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.65.1" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.65.1.jar" file="TNFCMod-MC1.12.2-12.2.65.1.jar" md5="ccf63ad84d5228107fc0712f569d2703" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.69" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.69.jar" file="TNFCMod-MC1.12.2-12.2.69.jar" md5="023aa7e9681049ac4d1c4bf83f306b1e" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.68" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.68.zip" file="scripts.12.2.68.zip" md5="efe4c79d4ef264941cf17f628c3b5ec4" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.69" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.69.zip" file="scripts.12.2.69.zip" md5="2071ad68b28b8821366f09358910ae2f" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.2.jar" file="firmalife-0.3.2.jar" md5="69bb9b69c4014f0a1566a036b6640549" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.3.jar" file="firmalife-0.3.3.jar" md5="2e598488a9dd91af31a14fef184c0c02" download="server" type="mods" />
         
 
         
