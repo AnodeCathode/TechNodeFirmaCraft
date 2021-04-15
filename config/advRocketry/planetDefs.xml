@@ -1,7 +1,7 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
         <planet name="TerraFirmaEarth" DIMID="0" dimMapping="" customIcon="earthlike">
-            <isKnown>True</isKnown>
+            <isKnown>true</isKnown>
              <planet name="Prospit" DIMID="100">
                 <isKnown>true</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
@@ -18,15 +18,15 @@
       <planet name="Planet ZeroZero" DIMID="5" dimMapping="" customIcon="earthlike">
           <fogColor>1.0,1.0,1.0</fogColor>
           <skyColor>1.0,1.0,1.0</skyColor>
-          <isKnown>True</isKnown>
+          <isKnown>false</isKnown>
           <atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
           <gravitationalMultiplier>100</gravitationalMultiplier>
           <orbitalDistance>1000</orbitalDistance>
           <orbitalTheta>180</orbitalTheta>
-          <biomeIds>minecraft:desert_hills,minecraft:plains,minecraft:desert,minecraft:extreme_hills,minecraft:forest,minecraft:forest_hills,minecraft:jungle</biomeIds>
+          <biomeIds>minecraft:desert_hills,minecraft:plains,minecraft:desert,minecraft:forest,minecraft:forest_hills,minecraft:jungle</biomeIds>
             <planet name="LaunchFromZeroZeroToEnd" DIMID="1" dimMapping="" customIcon="moon">
-              <isKnown>True</isKnown>
+              <isKnown>false</isKnown>
               <orbitalTheta>180</orbitalTheta>
               <orbitalDistance>200</orbitalDistance>
            </planet>
@@ -59,7 +59,7 @@
 			<gravitationalMultiplier>38</gravitationalMultiplier>
 			<orbitalDistance>105</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
-			<atmosphereDensity>0</atmosphereDensity>
+      <atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
 		</planet>
 		<planet name="Jupiter" DIMID="104" customIcon="gasgiantred">
@@ -98,7 +98,7 @@
 			</planet>
 		</planet>
 		<planet name="Saturn" DIMID="107" customIcon="gasgiantblue">
-			<isKnown>false</isKnown>
+			<isKnown>true</isKnown>
 			<hasRings>true</hasRings>
 			<ringColor>0.4,0.4,0.7</ringColor>
 			<GasGiant>true</GasGiant>
@@ -148,7 +148,7 @@
     </star>
   <star name="Proxima Centauri" temp="200" x="100" y="0" size="1.0" numPlanets="0" numGasGiants="0" >
 		<planet name="Terra Nova" DIMID="112" customIcon="earthlike">
-			<isKnown>false</isKnown>
+			<isKnown>true</isKnown>
 			<fogColor>1.0,0.0,0.5</fogColor>
 			<skyColor>1.0,0.0,1.0</skyColor>
 			<gravitationalMultiplier>70</gravitationalMultiplier>
