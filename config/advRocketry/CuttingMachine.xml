@@ -118,7 +118,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/acacia;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -127,7 +127,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/ash;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -136,7 +136,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/aspen;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -145,7 +145,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/birch;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -154,7 +154,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/blackwood;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -163,7 +163,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/chestnut;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -172,7 +172,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/douglas_fir;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -181,7 +181,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/hevea;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>  
   <Recipe timeRequired="80" power ="10">
@@ -190,7 +190,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/hickory;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -199,7 +199,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/kapok;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -208,7 +208,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/maple;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -217,7 +217,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/oak;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -226,7 +226,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/palm;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -235,7 +235,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/pine;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -244,7 +244,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/rosewood;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -253,7 +253,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/sequoia;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -262,7 +262,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/spruce;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -271,7 +271,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/sycamore;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -280,7 +280,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/white_cedar;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
   <Recipe timeRequired="80" power ="10">
@@ -289,7 +289,7 @@
 		</input>
 		<output>
 			<itemStack>tfc:wood/lumber/willow;16;0</itemStack>
-      <itemStack>tfctech:powder/wood;8;0</itemStack>
+      <itemStack>tfc:wood_ash;8</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
