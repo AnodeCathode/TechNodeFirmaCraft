@@ -14,7 +14,7 @@ recipes.remove(machineChassis);
 recipes.remove(solenoidCopper);
 recipes.remove(electricMotor);
 recipes.remove(<nuclearcraft:radiation_scrubber>);
-recipes.remove(<nuclearcraft:lithium_ion_battery_basic>);
+//recipes.remove(<nuclearcraft:lithium_ion_battery_basic>);
 
 // ================================================================================
 //#ADD SHAPED
@@ -22,7 +22,7 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_basic>);
   // recipes.addShaped("adhooks_web_launcher", <adhooks:web_launcher>, [[<minecraft:dye:15> | <tfc:dye/white>, <minecraft:dye:12>, <adhooks:web_hook>], [<minecraft:dye:12>, <adhooks:prototype_launcher>, <ore:string> | <tfc:animal/product/wool_yarn>], [null, <ore:string> | <tfc:animal/product/wool_yarn>, <minecraft:dye:15> | <tfc:dye/white>]]);
 
 // basic lithium ion battery
-recipes.addShaped("nuclearcraft_lithium_ion_battery_basic", <nuclearcraft:lithium_ion_battery_basic>, [[<ore:plateBasic>, <nuclearcraft:lithium_ion_cell:*>, <ore:plateBasic>], [<nuclearcraft:lithium_ion_cell:*>, <ore:solenoidMagnesiumDiboride>, <nuclearcraft:lithium_ion_cell:*>], [<ore:plateBasic>, <nuclearcraft:lithium_ion_cell:*>, <ore:plateBasic>]]);
+// recipes.addShaped("nuclearcraft_lithium_ion_battery_basic", <nuclearcraft:lithium_ion_battery_basic>, [[<ore:plateBasic>, <nuclearcraft:lithium_ion_cell:*>, <ore:plateBasic>], [<nuclearcraft:lithium_ion_cell:*>, <ore:solenoidMagnesiumDiboride>, <nuclearcraft:lithium_ion_cell:*>], [<ore:plateBasic>, <nuclearcraft:lithium_ion_cell:*>, <ore:plateBasic>]]);
   
 // rad shielding
 recipes.addShaped("nuclearcraft_item.nuclearcraft.rad_shielding.light", <nuclearcraft:rad_shielding>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemCoal>, <ore:gemCoal>, <ore:gemCoal>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);  
