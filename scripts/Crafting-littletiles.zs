@@ -1,5 +1,5 @@
 #priority 3
-//#modloaded littletiles
+#modloaded littletiles
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlock;
