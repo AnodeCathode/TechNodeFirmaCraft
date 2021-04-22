@@ -434,6 +434,8 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
      // mods.immersiveengineering.Crusher.removeRecipesForInput(<tfc:ore/kimberlite>);
      // mods.immersiveengineering.Crusher.addRecipe(<tfc:metal/dust/bronze> , <tfc:metal/ingot/bronze>, 512);
   
+      //Olive crushing
+      mods.immersiveengineering.Crusher.addRecipe(<tfc:food/olive_paste> * 4, <tfc:food/olive>, 512);
 
   // FERMENTER
 // mods.immersiveengineering.Fermenter.addRecipe(IItemStack output, ILiquidStack fluid, IIngredient input, int energy);
@@ -547,6 +549,8 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     //Make some leather straps
     mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
+    mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:olive_oil> * 50, <tfc:food/olive_paste>, 80);
+    mods.immersiveengineering.Squeezer.addRecipe(<tfc:crop/product/jute_disc>,  <liquid:olive_oil> * 150, <tfc:crop/product/olive_jute_disc>, 80);
 //Mixer
 // Removal
 	//OutputStack
