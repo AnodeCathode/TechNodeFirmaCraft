@@ -6,42 +6,56 @@
   "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
   "Root Height": 0.2,
   "Height Variation": 0.3,
-  "Top Block": "minecraft:mycelium[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Top Block": "tfc:sand/dacite",
+  "Filler Block": "tfc:gravel/dacite",
+  "Ocean Top Block": "tfc:gravel/basalt",
+  "Ocean Filler Block": "tfc:sand/basalt",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "tfc:raw/dacite[can_fall\u003dtrue]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
   "Temperature": 0.9,
   "Humidity": 1.0,
   "Water Tint": 16777215,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
     "MUSHROOM",
     "RARE"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
     {
-      "Entity Class": "net.minecraft.entity.passive.EntityMooshroom",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 8
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
-  "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityBat",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    }
-  ],
+  "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false
+  "Tweaked": true
 }
