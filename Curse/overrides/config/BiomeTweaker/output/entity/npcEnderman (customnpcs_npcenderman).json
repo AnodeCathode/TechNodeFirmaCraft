@@ -1,6 +1,0 @@
-
-{
-  "Name": "npcEnderman",
-  "Registry ID": "customnpcs:npcenderman",
-  "Class": "noppes.npcs.entity.old.EntityNPCEnderman"
-}

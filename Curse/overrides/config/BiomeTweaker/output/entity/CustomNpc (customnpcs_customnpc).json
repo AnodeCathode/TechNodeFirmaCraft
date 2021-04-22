@@ -1,6 +1,0 @@
-
-{
-  "Name": "CustomNpc",
-  "Registry ID": "customnpcs:customnpc",
-  "Class": "noppes.npcs.entity.EntityCustomNpc"
-}
