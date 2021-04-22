@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.69</version>
+        <version>12.2.70</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -31,9 +31,9 @@
         <!-- TFC -->
         <mod name="TerraFirmaCraft" version="1.7.18.176" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" file="TerraFirmaCraft-MC1.12.2-1.7.18.176.jar" md5="352fe98667e3af7a620c4b09f82965bd" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.69" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.69.jar" file="TNFCMod-MC1.12.2-12.2.69.jar" md5="023aa7e9681049ac4d1c4bf83f306b1e" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.70" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.70.jar" file="TNFCMod-MC1.12.2-12.2.70.jar" md5="21f2637ed0952477c2c8890f02b31575" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.69" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.69.zip" file="scripts.12.2.69.zip" md5="2071ad68b28b8821366f09358910ae2f" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.70" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.70.zip" file="scripts.12.2.70.zip" md5="2ba80c15ab54a20ae61660418e3104e6" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.3.jar" file="firmalife-0.3.3.jar" md5="2e598488a9dd91af31a14fef184c0c02" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.5" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.5.jar" file="firmalife-0.3.5.jar" md5="db3a33ba4d66cd1df235126ba882f867" download="server" type="mods" />
         
 
         
@@ -92,6 +92,11 @@
 
          <!-- Chisels and Bits -->
         <mod name="Chisels &amp; Bits" version="14.33" url="packs/TechNodefirmacraft/files/1.12.2Mods/chiselsandbits-14.33.jar" file="chiselsandbits-14.33.jar" md5="e056e23559965f2ebabf47aad0fe51a3" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+      
+        <mod name="CreativeCore" version="1.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/CreativeCore_v1.10.55_mc1.12.2.jar" file="CreativeCore_v1.10.55_mc1.12.2.jar" md5="2ba0ada6c135d23603a60bb45bb83be6" download="server" type="mods" />
+        
+        <mod name="LittleTiles" version="LittleTiles_v1.5.3_mc1.12.2.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/LittleTiles_v1.5.3_mc1.12.2.jar" file="LittleTiles_v1.5.3_mc1.12.2.jar" md5="95e603a6474593fad6b7318b2d42a3b4" download="server" type="mods" />
+        
         
          <!-- PneumaticCraft -->
         <mod name="PneumaticCraft: Repressurized" version="1.12.2-0.11.15-398" url="packs/TechNodefirmacraft/files/1.12.2Mods/pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar" file="pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar" md5="5f4d912fddd62248a347b85fbcead602"  download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
@@ -159,7 +164,7 @@
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
-        <mod name="NuclearCraft" version="2o.5.0-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.5.0-1.12.2.jar" file="NuclearCraft-2o.5.0-1.12.2.jar" md5="40fc722f7eac0bc1e7959c481492f748" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
+        <mod name="NuclearCraft" version="2o.5.1-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.5.1-1.12.2.jar" file="NuclearCraft-2o.5.1-1.12.2.jar" md5="43e0d9e32e4038530479ddca26589ead" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
