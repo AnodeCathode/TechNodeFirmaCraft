@@ -45,6 +45,12 @@ recipes.remove(<advancedrocketry:misc:1>);
 //recipes.remove(<advancedrocketry:arcfurnace>);
 //recipes.addShaped("tnfc_advancedrocketry_arcfurnace", <advancedrocketry:arcfurnace>, [[<tfc:fire_bricks>, <advancedrocketry:misc>, <tfc:fire_bricks>], [<advancedrocketry:ic:4>, <advancedrocketry:blastbrick>, <advancedrocketry:ic:3>], [<tfc:fire_bricks>, <ore:ingotCopper>, <tfc:fire_bricks>]]);
 
+//Titanium aluminide dust
+recipes.addShapeless("tnfc_advancedrocketry_productdust", <advancedrocketry:productdust> * 9, [[<ore:dustAluminum>, <ore:dustTitanium>, <ore:dustAluminum>], [<ore:dustAluminum>, <ore:dustTitanium>, <ore:dustAluminum>], [<ore:dustAluminum>, <ore:dustTitanium>, <ore:dustAluminum>]]);
+
+//Iridium aluminide dust
+recipes.addShapeless("tnfc_advancedrocketry_productdust", <advancedrocketry:productdust:1> * 9, [[<ore:dustAluminum>, <ore:dustIridium>, <ore:dustAluminum>], [<ore:dustAluminum>, <ore:dustIridium>, <ore:dustAluminum>], [<ore:dustAluminum>, <ore:dustIridium>, <ore:dustAluminum>]]);
+
 //Vacuum Laser
 recipes.remove(<advancedrocketry:vacuumlaser>);
 recipes.addShaped("tnfc_advancedrocketry_vacuumlaser", <advancedrocketry:vacuumlaser>, [[null, <advancedrocketry:blocklens>, null], [<ore:plateAluminum>, <tfc:gem/ruby:4> | <tfc:gem/sapphire:4>, <ore:plateAluminum>], [<ore:plateAluminum>, <libvulpes:structuremachine>, <ore:plateAluminum>]]);
