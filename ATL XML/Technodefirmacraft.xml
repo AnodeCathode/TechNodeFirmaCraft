@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.70</version>
+        <version>12.2.71</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2847"/>        
@@ -33,7 +33,7 @@
 
         <mod name="TNFCMod" version="12.2.70" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.70.jar" file="TNFCMod-MC1.12.2-12.2.70.jar" md5="21f2637ed0952477c2c8890f02b31575" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.70" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.70.zip" file="scripts.12.2.70.zip" md5="2ba80c15ab54a20ae61660418e3104e6" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.71" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.71.zip" file="scripts.12.2.71.zip" md5="c918bd048667546e4cf3f5c3a2aaee87" download="server" type="extract" extractto="root" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.5" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.5.jar" file="firmalife-0.3.5.jar" md5="db3a33ba4d66cd1df235126ba882f867" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.6.jar" file="firmalife-0.3.6.jar" md5="5cd336de67a53ef08caadfc2d6ec6b04" download="server" type="mods" />
         
 
         
@@ -67,7 +67,7 @@
 
         <!-- BetterWithMods and addons -->
         
-        <mod name="Better With Mods" version="1.12-2.3.23" url="packs/TechNodefirmacraft/files/1.12.2Mods/BetterWithMods-1.12-2.3.23.jar" file="BetterWithMods-1.12-2.3.23.jar" md5="d6baf77165fbd1d628d42e98d8ecafa9" download="server" type="mods" colour="blue" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="Better With Mods" version="1.12-2.3.24"  url="packs/TechNodefirmacraft/files/1.12.2Mods/BetterWithMods-1.12-2.3.24.jar" file="BetterWithMods-1.12-2.3.24.jar" md5="4f49d4f3294d7153764a98cbdfc52b51" download="server" type="mods" colour="blue" client="yes" server="yes" recommended="yes" selected="yes"/>
         
         <mod name="Better With Lib" version="1.12-1.5" url="packs/TechNodefirmacraft/files/1.12.2Mods/BetterWithLib-1.12-1.5.jar" file="BetterWithLib-1.12-1.5.jar" md5="3dc1315aff7b78630f3f342f68dc8a44" download="server" type="mods" colour="blue" client="yes" server="yes" recommended="yes" selected="yes"/>
         
@@ -93,9 +93,9 @@
          <!-- Chisels and Bits -->
         <mod name="Chisels &amp; Bits" version="14.33" url="packs/TechNodefirmacraft/files/1.12.2Mods/chiselsandbits-14.33.jar" file="chiselsandbits-14.33.jar" md5="e056e23559965f2ebabf47aad0fe51a3" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
       
-        <mod name="CreativeCore" version="1.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/CreativeCore_v1.10.55_mc1.12.2.jar" file="CreativeCore_v1.10.55_mc1.12.2.jar" md5="2ba0ada6c135d23603a60bb45bb83be6" download="server" type="mods" />
+        <mod name="CreativeCore" version="1.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/CreativeCore_v1.10.57_mc1.12.2.jar" file="CreativeCore_v1.10.57_mc1.12.2.jar" md5="0b8cd69b0092e1a6995175bb8edc36ac" download="server" type="mods" />
         
-        <mod name="LittleTiles" version="LittleTiles_v1.5.3_mc1.12.2.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/LittleTiles_v1.5.3_mc1.12.2.jar" file="LittleTiles_v1.5.3_mc1.12.2.jar" md5="95e603a6474593fad6b7318b2d42a3b4" download="server" type="mods" />
+        <mod name="LittleTiles" version="LittleTiles_v1.5.6_mc1.12.2.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/LittleTiles_v1.5.6_mc1.12.2.jar" file="LittleTiles_v1.5.6_mc1.12.2.jar" md5="ba5737b4db2ab76a2dcf3a14d97b140c" download="server" type="mods" />
         
         
          <!-- PneumaticCraft -->
@@ -123,9 +123,9 @@
         
         <mod name="Bookshelf" version="2.3.590" url="packs/TechNodefirmacraft/files/1.12.2Mods/Bookshelf-1.12.2-2.3.590.jar" file="Bookshelf-1.12.2-2.3.590.jar" md5="85a44d3299449545e435f5ec55fc914b" download="server" type="mods" library="yes" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Rockhounding Mod: Core" version="1.12.2-3.25" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_core-1.12.2-3.25.jar" file="rockhounding_core-1.12.2-3.25.jar" md5="e3e04da62781ed53d16d605c3dda52f1" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="Rockhounding Mod: Core" version="1.12.2-3.27" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_core-1.12.2-3.27.jar" file="rockhounding_core-1.12.2-3.27.jar" md5="6f6710695966557871211453c6624410" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-         <mod name="Rockhounding Mod: Chemistry" version="1.12.2-3.56" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_chemistry-1.12.2-3.56.jar" file="rockhounding_chemistry-1.12.2-3.56.jar" md5="9bdfaf4385df782b513793f795d0048b" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
+         <mod name="Rockhounding Mod: Chemistry" version="1.12.2-3.57" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_chemistry-1.12.2-3.57.jar" file="rockhounding_chemistry-1.12.2-3.57.jar" md5="86657edc7201a24295275aa9da58890d" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
        
         <!-- Macaw's Stuff -->
@@ -164,7 +164,7 @@
         
         <!-- NuclearCraft and EngineersWorkbench -->
         
-        <mod name="NuclearCraft" version="2o.5.1-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.5.1-1.12.2.jar" file="NuclearCraft-2o.5.1-1.12.2.jar" md5="43e0d9e32e4038530479ddca26589ead" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
+        <mod name="NuclearCraft" version="2o.5.3-1.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/NuclearCraft-2o.5.3-1.12.2.jar" file="NuclearCraft-2o.5.3-1.12.2.jar" md5="b2cd6479928aded520abffa5910329f7" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
         <mod name="Reborn Core" version="3.19.4.529" url="packs/TechNodefirmacraft/files/1.12.2Mods/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods" colour="violet"  server="yes" recommended="yes" selected="yes" />
         
