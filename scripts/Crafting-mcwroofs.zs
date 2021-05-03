@@ -226,13 +226,13 @@ recipes.addShaped("mcwroofs-gutter-modified", <mcwroofs:rain_gutter>, [[<ore:nug
 recipes.addShaped("mcwroofs-tile_log_acacia-modified", <mcwroofs:tile_log_acacia> * 4, [[null, <tfc:wood/log/acacia>], [<tfc:wood/log/acacia>, null]]);
 recipes.addShaped("mcwroofs-tile_log_birch-modified", <mcwroofs:tile_log_birch> * 4, [[null, <tfc:wood/log/birch>], [<tfc:wood/log/birch>, null]]);
 recipes.addShaped("mcwroofs-tile_log_dark_oak-modified", <mcwroofs:tile_log_dark_oak> * 4, [[null, <tfc:wood/log/hickory>], [<tfc:wood/log/hickory>, null]]);
-recipes.addShaped("mcwroofs-tile_log_jungle-modified", <mcwroofs:tile_log_jungle> * 4, [[null, <tfc:wood/log/sequoia>], [<tfc:wood/log/sequoia>, null]]);
+recipes.addShaped("mcwroofs-tile_log_jungle-modified", <mcwroofs:tile_log_jungle> * 4, [[null, <tfc:wood/log/kapok>], [<tfc:wood/log/kapok>, null]]);
 recipes.addShaped("mcwroofs-tile_log_oak-modified", <mcwroofs:tile_log_oak> * 4, [[null, <tfc:wood/log/oak>], [<tfc:wood/log/oak>, null]]);
 recipes.addShaped("mcwroofs-tile_log_spruce-modified", <mcwroofs:tile_log_spruce> * 4, [[null, <tfc:wood/log/spruce>], [<tfc:wood/log/spruce>, null]]);
 recipes.addShaped("mcwroofs-tile_planks_acacia-remodified", <mcwroofs:tile_planks_acacia> * 4, [[null, <tfc:wood/planks/acacia>], [<tfc:wood/planks/acacia>, null]]);
 recipes.addShaped("mcwroofs-tile_planks_birch-remodified", <mcwroofs:tile_planks_birch> * 4, [[null, <tfc:wood/planks/birch>], [<tfc:wood/planks/birch>, null]]);
 recipes.addShaped("mcwroofs-tile_planks_dark_oak-remodified", <mcwroofs:tile_planks_dark_oak> * 4, [[null, <tfc:wood/planks/hickory>], [<tfc:wood/planks/hickory>, null]]);
-recipes.addShaped("mcwroofs-tile_planks_jungle-remodified", <mcwroofs:tile_planks_jungle> * 4, [[null, <tfc:wood/planks/sequoia>], [<tfc:wood/planks/sequoia>, null]]);
+recipes.addShaped("mcwroofs-tile_planks_jungle-remodified", <mcwroofs:tile_planks_jungle> * 4, [[null, <tfc:wood/planks/kapok>], [<tfc:wood/planks/kapok>, null]]);
 recipes.addShaped("mcwroofs-tile_planks_oak-remodified", <mcwroofs:tile_planks_oak> * 4, [[null, <tfc:wood/planks/oak>], [<tfc:wood/planks/oak>, null]]);
 recipes.addShaped("mcwroofs-tile_planks_spruce-remodified", <mcwroofs:tile_planks_spruce> * 4, [[null, <tfc:wood/planks/spruce>], [<tfc:wood/planks/spruce>, null]]);
 recipes.addShaped("mcwroofs_acacia_glass_roof", <mcwroofs:acacia_glass_roof>, [[<minecraft:glass_pane>, <mcwroofs:acacia_roof>, <minecraft:glass_pane>]]);
