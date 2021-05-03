@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2847",
+        "id": "forge-14.23.5.2855",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TechnodeFirmaCraft",
-  "version": "12.2.71",
+  "version": "12.2.71.2",
   "author": "AnodeCathode",
   "files": [
     {
@@ -491,7 +491,7 @@
     },
     {
       "projectID": 453394,
-      "fileID": 3297150,
+      "fileID": 3297416,
       "required": true
     },
     {
