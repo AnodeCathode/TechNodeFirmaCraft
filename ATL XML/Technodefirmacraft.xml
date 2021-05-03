@@ -1,10 +1,10 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.71</version>
+        <version>12.2.71.2</version>
         <minecraft>1.12.2</minecraft>
     </pack>
-    <loader type="forge" version="14.23.5.2847"/>        
+    <loader type="forge" version="14.23.5.2855"/>        
     <delete>
       <folder base="root" target="scripts%s%"/>
       <folder base="root" target="mods%s%"/>
@@ -57,7 +57,7 @@
         <mod name="TFC Decorations" version="1.0.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/tfc_decoration-1.0.7.jar" file="tfc_decoration-1.0.7.jar" md5="a9889d705ea23e5ae762cca5c363d87d" download="server" type="mods" colour="green"  server="yes" recommended="yes" selected="yes" />
     
         
-        <mod name="FirmaLife" version="0.3.6" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.6.jar" file="firmalife-0.3.6.jar" md5="5cd336de67a53ef08caadfc2d6ec6b04" download="server" type="mods" />
+        <mod name="FirmaLife" version="0.3.7" url="packs/TechNodefirmacraft/files/1.12.2Mods/firmalife-0.3.7.jar" file="firmalife-0.3.7.jar" md5="a0b46f2eadb1ed2f1c473ab830e304bb" download="server" type="mods" />
         
 
         
