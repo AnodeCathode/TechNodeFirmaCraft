@@ -75,6 +75,6 @@ mods.terrafirmacraft.Barrel.addRecipe("tnfc:agedryewhiskeytovinegar", <ore:categ
 // Quern Recipe
 
 mods.terrafirmacraft.Quern.addRecipe("tnfc_fluorite_dust", <ore:gemFluorite>, <nuclearcraft:gem_dust:5>);
-mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind", <patchouli:guide_book>, <minecraft:paper> * 2);
-mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind2", <gbook:guidebook>, <minecraft:paper> * 2);
+mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind", <patchouli:guide_book>, <minecraft:paper> * 1);
+mods.terrafirmacraft.Quern.addRecipe("tnfc_manual_grind2", <gbook:guidebook>, <minecraft:paper> * 1);
 

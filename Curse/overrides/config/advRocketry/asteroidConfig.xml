@@ -43,7 +43,7 @@
     <ore itemStack="tfc:ore/malachite/dacite" chance="5" />
     <ore itemStack="tfc:ore/native_gold/dacite" chance="5" />
 	</asteroid>
-  <asteroid name="Enriched Asteroid" distance="55" mass="5200" massVariability="0.5" minLevel="0" probability="5" richness="4.0" richnessVariability="0.3">
+  <asteroid name="Enriched Asteroid" distance="95" mass="5200" massVariability="0.5" minLevel="0" probability="5" richness="1.0" richnessVariability="0.3">
     <ore itemStack="rockhounding_chemistry:uninspected_mineral" chance="5" />
     <ore itemStack="tfc:ore/lapis_lazuli/dacite" chance="5" />
     <ore itemStack="tfc:ore/selenite/dacite" chance="5" />
