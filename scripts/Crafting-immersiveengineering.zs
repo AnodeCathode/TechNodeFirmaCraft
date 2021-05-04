@@ -154,9 +154,9 @@ for i, item in IBucketArray {
   
   //Insulated wires made from rubber not wool
     recipes.remove(<immersiveengineering:wirecoil:6>);
-    recipes.addShaped("tnfc_insulated_lv", <immersiveengineering:wirecoil:6> * 4, [[<tfctech:latex/rubber>, <immersiveengineering:wirecoil>, <tfctech:latex/rubber>], [<immersiveengineering:wirecoil>, <tfctech:latex/rubber>, <immersiveengineering:wirecoil>], [<tfctech:latex/rubber>, <immersiveengineering:wirecoil>, <tfctech:latex/rubber>]]);
+    recipes.addShaped("tnfc_insulated_lv", <immersiveengineering:wirecoil:6> * 4, [[<ore:rubber>, <immersiveengineering:wirecoil>, <ore:rubber>], [<immersiveengineering:wirecoil>, <ore:rubber>, <immersiveengineering:wirecoil>], [<ore:rubber>, <immersiveengineering:wirecoil>, <ore:rubber>]]);
     recipes.remove(<immersiveengineering:wirecoil:7>);
-    recipes.addShaped("tnfc_insulated_mv", <immersiveengineering:wirecoil:7> * 4, [[<tfctech:latex/rubber>, <immersiveengineering:wirecoil:1>, <tfctech:latex/rubber>], [<immersiveengineering:wirecoil:1>, null, <immersiveengineering:wirecoil:1>], [<tfctech:latex/rubber>, <immersiveengineering:wirecoil:1>, <tfctech:latex/rubber>]]);
+    recipes.addShaped("tnfc_insulated_mv", <immersiveengineering:wirecoil:7> * 4, [[<ore:rubber>, <immersiveengineering:wirecoil:1>, <ore:rubber>], [<immersiveengineering:wirecoil:1>, null, <immersiveengineering:wirecoil:1>], [<ore:rubber>, <immersiveengineering:wirecoil:1>, <ore:rubber>]]);
 //#REGISTER TFC Size/Heat/Other
 // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     
