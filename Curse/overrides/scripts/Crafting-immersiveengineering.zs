@@ -152,7 +152,11 @@ for i, item in IBucketArray {
   recipes.addShapeless("tnfc_immersive_reinforced_upgrade", <immersiveengineering:stone_decoration:2>, [<immersiveengineering:stone_decoration:1>,<tfc:metal/double_sheet/steel>,<ore:craftingToolMediumHammer>.transformDamage()]);
 
   
-  
+  //Insulated wires made from rubber not wool
+    recipes.remove(<immersiveengineering:wirecoil:6>);
+    recipes.addShaped("tnfc_insulated_lv", <immersiveengineering:wirecoil:6> * 4, [[<ore:rubber>, <immersiveengineering:wirecoil>, <ore:rubber>], [<immersiveengineering:wirecoil>, <ore:rubber>, <immersiveengineering:wirecoil>], [<ore:rubber>, <immersiveengineering:wirecoil>, <ore:rubber>]]);
+    recipes.remove(<immersiveengineering:wirecoil:7>);
+    recipes.addShaped("tnfc_insulated_mv", <immersiveengineering:wirecoil:7> * 4, [[<ore:rubber>, <immersiveengineering:wirecoil:1>, <ore:rubber>], [<immersiveengineering:wirecoil:1>, null, <immersiveengineering:wirecoil:1>], [<ore:rubber>, <immersiveengineering:wirecoil:1>, <ore:rubber>]]);
 //#REGISTER TFC Size/Heat/Other
 // mods.terrafirmacraft.ItemRegistry.registerItemSize(<adhooks:prototype_launcher>, "#SIZE", "#WEIGHT");
     
