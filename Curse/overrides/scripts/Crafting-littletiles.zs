@@ -1,4 +1,4 @@
-#priority 3
+#priority 2
 #modloaded littletiles
 
 import crafttweaker.item.IItemStack;
@@ -75,21 +75,21 @@ import crafttweaker.block.IBlockDefinition;
   
 //#dyeable blocks
 
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:5>, <minecraft:brick_block>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:3>, <ore:dirt>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:2>, <ore:cobblestone>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:0>, <minecraft:quartz_block>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:1>, <tfc:alabaster/raw/plain>, <minecraft:bone_block>, 2400);    
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:4>, <ore:stone>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:7>, <tfc:alabaster/bricks/plain>, <minecraft:bone_block>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:5>, <minecraft:brick_block>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:3>, <ore:dirt>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:2>, <ore:cobblestone>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:0>, <minecraft:quartz_block>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:1>, <tfc:alabaster/raw/plain>, <tfc:metal/double_ingot/platinum>, 2400);    
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:4>, <ore:stone>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:7>, <tfc:alabaster/bricks/plain>, <tfc:metal/double_ingot/platinum>, 2400);
     mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:9>, <littletiles:ltcoloredblock:7>, <immersiveengineering:storage:8>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:10>, <minecraft:hardened_clay>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:13>, <ore:plankWood>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2>, <ore:gravel>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:1>, <ore:sand>, <minecraft:bone_block>, 2400); 
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:2>, <ore:concrete>, <minecraft:bone_block>, 2400);
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:3>, <tnfcmod:woodpulp>, <minecraft:bone_block>, 2400, 4);  
-    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:4>, <littletiles:lttransparentcoloredblock:6>, <minecraft:bone_block>, 2400);  
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:10>, <minecraft:hardened_clay>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock:13>, <ore:plankWood>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2>, <ore:gravel>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:1>, <ore:sand>, <tfc:metal/double_ingot/platinum>, 2400); 
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:2>, <ore:concrete>, <tfc:metal/double_ingot/platinum>, 2400);
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:3>, <tnfcmod:woodpulp>, <tfc:metal/double_ingot/platinum>, 2400, 4);  
+    mods.immersiveengineering.MetalPress.addRecipe(<littletiles:ltcoloredblock2:4>, <littletiles:lttransparentcoloredblock:6>, <tfc:metal/double_ingot/platinum>, 2400);  
   
 
 //#removing useless
