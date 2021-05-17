@@ -125,8 +125,7 @@
         
         <mod name="Rockhounding Mod: Core" version="1.12.2-3.27" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_core-1.12.2-3.27.jar" file="rockhounding_core-1.12.2-3.27.jar" md5="6f6710695966557871211453c6624410" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="Rockhounding Mod: Chemistry" version="1.12.2-3.57" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_chemistry-1.12.2-3.57.jar" file="rockhounding_chemistry-1.12.2-3.57.jar" md5="86657edc7201a24295275aa9da58890d" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
-        
+        <mod name="Rockhounding Mod: Chemistry" version="1.12.2-3.58" url="packs/TechNodefirmacraft/files/1.12.2Mods/rockhounding_chemistry-1.12.2-3.58.jar" file="rockhounding_chemistry-1.12.2-3.58.jar" md5="a2d97941558ddaf182248cbf376285f4" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
        
         <!-- Macaw's Stuff -->
         
