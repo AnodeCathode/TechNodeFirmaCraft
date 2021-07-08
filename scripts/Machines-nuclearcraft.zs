@@ -18,7 +18,7 @@ import mods.nuclearcraft.Supercooler;
 import mods.nuclearcraft.Pressurizer;
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
-import mods.nuclearcraft.crystallizer;
+import mods.nuclearcraft.Crystallizer;
 
 
 var water = <liquid:fresh_water>;
@@ -265,6 +265,6 @@ SaltMixer.addRecipe(<liquid:black_steel> * 72 , <liquid:boron> * 72, <liquid:fer
 mods.nuclearcraft.Separator.addRecipe(<ore:dustYellowcake>, ChanceItemIngredient.create(<ore:dustUranium> * 2, 20, 1), ChanceItemIngredient.create(<ore:ingotUranium238> * 2, 5, 0));
 
 // Crystallizer
-//mods.nuclearcraft.crystallizer.addRecipe([fluidInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
-mods.nuclearcraft.crystallizer.removeRecipeWithInput([<liquid:sodium_hydroxide_solution>]);
-mods.nuclearcraft.crystallizer.addRecipe([fluidInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+//mods.nuclearcraft.Crystallizer.addRecipe(ILiquidStack fluidInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+mods.nuclearcraft.Crystallizer.removeRecipeWithInput(<liquid:sodium_hydroxide_solution>*666);
+mods.nuclearcraft.Crystallizer.addRecipe(<liquid:sodium_hydroxide>*666, <nuclearcraft:compound:5>);
