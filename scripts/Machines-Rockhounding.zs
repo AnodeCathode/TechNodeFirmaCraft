@@ -162,3 +162,8 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 
 mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:flue_gas>*1000);
 mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:flue_gas>*1000, <rockhounding_chemistry:chemical_dusts:24>, null);
+
+// TRANSPOSER
+
+  mods.rockhounding_chemistry.Transposer.add(<liquid:flue_gas>*1000, <liquid:flue_gas>*1000);
+  mods.rockhounding_chemistry.Transposer.add(<liquid:fluegas>*1000, <liquid:flue_gas>*1000);
