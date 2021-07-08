@@ -205,7 +205,29 @@ var toolsMisc = <ore:tool>;
     <chiselsandbits:chisel_iron:*>,
     <chiselsandbits:chisel_stone:*>,
     <chiselsandbits:tape_measure:*>,
-    <chiselsandbits:wrench_wood:*>
+    <chiselsandbits:wrench_wood:*>,
+    <littletiles:wrench>,
+    <opencomputers:wrench>,
+    <rockhounding_core:mod_wrench>,
+    <signpost:itemcalibratedwrench>,
+    <signpost:itembrush>,
+    <tfctech:metal/wrought_iron_blowpipe:*>,
+    <tfctech:metal/steel_blowpipe:*>,
+    <tfctech:metal/black_steel_blowpipe:*>,
+    <tfctech:metal/blue_steel_blowpipe:*>,
+    <tfctech:metal/red_steel_blowpipe:*>,
+    <tfctech:metal/nickel_silver_blowpipe:*>,
+    <tfctech:metal/aluminum_blowpipe:*>,
+    <tfctech:metal/boron_blowpipe:*>,
+    <tfctech:metal/cobalt_blowpipe:*>,
+    <tfctech:metal/invar_blowpipe:*>,
+    <tfctech:metal/manyullyn_blowpipe:*>,
+    <tfctech:metal/beryllium_copper_blowpipe:*>,
+    <tfctech:metal/osmium_blowpipe:*>,
+    <tfctech:metal/titanium_blowpipe:*>,
+    <tfctech:metal/tungsten_blowpipe:*>,
+    <tfctech:metal/tungsten_steel_blowpipe:*>,
+    <tfctech:metal/zircaloy_blowpipe:*>
     ]);
   
 
