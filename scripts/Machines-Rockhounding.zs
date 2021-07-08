@@ -142,8 +142,8 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 
 // PRECIPITATION CHAMBER
   mods.rockhounding_chemistry.Precipitator.removeByOutput(<liquid:toxic_waste>*700);
-  mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:fluegas>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
-
+  mods.rockhounding_chemistry.Precipitator.add(null, <rockhounding_chemistry:chemical_items:13>, null, <liquid:flue_gas>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
+  mods.rockhounding_chemistry.Precipitator.add("Potassium Carbonate (IE gas)", <rockhounding_chemistry:chemical_items:13>, null, <liquid:fluegas>*1000, <liquid:toxic_waste>*700, <rockhounding_chemistry:chemical_items:14>);
 
 // LEACHING VAT
 // mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:0>, [<liquid:water_vapour>, <minecraft:dye:14>, <minecraft:dye:13>, <minecraft:dye:12>, <minecraft:dye:11>], [3.18F, 4.88F, 7.51F, 3.30F, 12.05F], <liquid:leachate>*1000);
@@ -161,4 +161,4 @@ mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_ite
 // PURIFIER
 
 mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:flue_gas>*1000);
-mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:fluegas>*1000, <rockhounding_chemistry:chemical_dusts:24>, null);
+mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:flue_gas>*1000, <rockhounding_chemistry:chemical_dusts:24>, null);
