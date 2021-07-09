@@ -166,3 +166,4 @@ mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:
 // TRANSPOSER
 
 mods.rockhounding_chemistry.Transposer.add(<liquid:helium>*1000, <liquid:helium>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:sodium_hydroxide_solution>*1000, <liquid:sodium_hydroxide>*1000);
