@@ -165,6 +165,11 @@ mods.rockhounding_chemistry.GasPurifier.add(<liquid:raw_flue_gas>*1000, <liquid:
 
 // TRANSPOSER
 
+mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>*1000, <liquid:nitrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>*1000, <liquid:hydrogen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>*1000, <liquid:oxygen>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:carbon_dioxide>*1000, <liquid:carbon_dioxide>*1000);
+mods.rockhounding_chemistry.Transposer.add(<liquid:helium>*1000, <liquid:helium>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:sodium_hydroxide_solution>*1000, <liquid:sodium_hydroxide>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:flue_gas>*1000, <liquid:flue_gas>*1000);
 mods.rockhounding_chemistry.Transposer.add(<liquid:fluegas>*1000, <liquid:flue_gas>*1000);
