@@ -507,6 +507,50 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/wintergreen_berry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/yellow_bell_pepper>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <immersiveengineering:material:4>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:pumpkin_chunks>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:pinapple_chunks>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:melon>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dired_banana>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_blackberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_blueberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_bunch_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_cherry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_cloud_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_cranberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_elderberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_gooseberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_green_apple>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_lemon>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_olive>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_orange>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_peach>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_plum>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_raspberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_red_apple>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_snow_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_strawberry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_wintergreen_berry>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:tofu>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:barley_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:barley_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:corn_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:corn_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:oat_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:oat_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rice_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rice_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rye_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rye_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:wheat_flatbread>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:wheat_flatbread_dough>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:barley_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:corn_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:oat_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rice_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:rye_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:wheat_slice>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:tomato_sauce>, 80);
+ 
   
 
 
@@ -546,6 +590,8 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/tomato>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/wheat>, 80);
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <tfc:crop/seeds/yellow_bell_pepper>, 80);
+    mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <firmalife:crop/seeds/pumpkin>, 80);
+    mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <firmalife:crop/seeds/melon>, 80);
     //Make some leather straps
     mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
