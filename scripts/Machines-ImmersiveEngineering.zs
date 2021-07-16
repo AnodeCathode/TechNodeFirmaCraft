@@ -508,9 +508,9 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/yellow_bell_pepper>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <immersiveengineering:material:4>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:pumpkin_chunks>, 80);
-  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:pinapple_chunks>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:pineapple_chunks>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:melon>, 80);
-  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dired_banana>, 80);
+  mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_banana>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_blackberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_blueberry>, 80);
   mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <firmalife:dried_bunch_berry>, 80);
