@@ -18,6 +18,7 @@ import mods.nuclearcraft.Supercooler;
 import mods.nuclearcraft.Pressurizer;
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.IngotFormer;
+import mods.nuclearcraft.Crystallizer;
 
 
 var water = <liquid:fresh_water>;
@@ -94,7 +95,7 @@ var methanol = <liquid:methanol>;
   Enricher.addRecipe(<ore:dustCalciumSulfate>, water * 1000, <liquid:calcium_sulfate_solution> * 666, 1.0, 1.0, 0.0);  
   Enricher.addRecipe(<ore:dustSodiumFluoride>, water * 1000, <liquid:sodium_fluoride_solution> * 666, 1.0, 1.0, 0.0);  
   Enricher.addRecipe(<ore:dustPotassiumFluoride>, water * 1000, <liquid:potassium_fluoride_solution> * 666, 1.0, 1.0, 0.0);  
-  Enricher.addRecipe(<ore:dustSodiumHydroxide>, water * 1000, <liquid:sodium_hydroxide_solution> * 666, 0.5, 0.5, 0.0);  
+  Enricher.addRecipe(<ore:dustSodiumHydroxide>, water * 1000, <liquid:sodium_hydroxide> * 666, 0.5, 0.5, 0.0);  
   Enricher.addRecipe(<ore:dustPotassiumHydroxide>, water * 1000, <liquid:potassium_hydroxide_solution> * 666, 0.5, 0.5, 0.0);  
   Enricher.addRecipe(<ore:dustBorax>, water * 1000, <liquid:borax_solution> * 666, 0.5, 0.5, 0.0);  
   Enricher.addRecipe(<ore:dustIrradiatedBorax>, water * 1000, <liquid:irradiated_borax_solution> * 666, 0.5, 0.5, 0.0);  
@@ -126,7 +127,7 @@ var methanol = <liquid:methanol>;
   ChemicalReactor.removeRecipeWithInput(<liquid:diborane>*500, <liquid:water>*3000);
   ChemicalReactor.addRecipe(<liquid:diborane>*500, water*3000, boric_acid*1000, hydrogen*3000);
   ChemicalReactor.removeRecipeWithInput(<liquid:sodium_fluoride_solution>*666, <liquid:water>*1000);
-  ChemicalReactor.addRecipe(<liquid:sodium_fluoride_solution>*666, water*1000, <liquid:sodium_hydroxide_solution>*666, hydrofluoric_acid*1000);
+  ChemicalReactor.addRecipe(<liquid:sodium_fluoride_solution>*666, water*1000, <liquid:sodium_hydroxide>*666, hydrofluoric_acid*1000);
   ChemicalReactor.removeRecipeWithInput(<liquid:potassium_fluoride_solution>*666, <liquid:water>*1000);
   ChemicalReactor.addRecipe(<liquid:potassium_fluoride_solution>*666, water*1000, <liquid:potassium_hydroxide_solution>*666, hydrofluoric_acid*1000);
   ChemicalReactor.removeRecipeWithInput(<liquid:oxygen_difluoride>*1000, <liquid:water>*1000);
@@ -263,3 +264,7 @@ SaltMixer.addRecipe(<liquid:black_steel> * 72 , <liquid:boron> * 72, <liquid:fer
 //mods.nuclearcraft.Separator.addRecipe(IIngredient itemInput, IIngredient itemOutput1, IIngredient itemOutput2, {double timeMultiplier, double powerMultiplier, double processRadiation});
 mods.nuclearcraft.Separator.addRecipe(<ore:dustYellowcake>, ChanceItemIngredient.create(<ore:dustUranium> * 2, 20, 1), ChanceItemIngredient.create(<ore:ingotUranium238> * 2, 5, 0));
 
+// Crystallizer
+//mods.nuclearcraft.Crystallizer.addRecipe(ILiquidStack fluidInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+mods.nuclearcraft.Crystallizer.removeRecipeWithInput(<liquid:sodium_hydroxide_solution>*666);
+mods.nuclearcraft.Crystallizer.addRecipe(<liquid:sodium_hydroxide>*666, <nuclearcraft:compound:5>);

@@ -576,3 +576,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <o
 mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:dustCopper> * 8, <ore:ingotZinc>, 2000);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tfc:metal/ingot/brass> * 9, <ore:ingotCopper> * 8, <ore:dustZinc>, 2000);
 
+//Refinery
+//mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy);
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*16, <liquid:olive_oil>*8, <liquid:ethanol>*8, 80);

@@ -36,9 +36,11 @@
 	mods.immersivetechnology.GasTurbine.removeFuel(<liquid:gasoline>);
 	mods.immersivetechnology.GasTurbine.removeFuel(<liquid:diesel>);
   mods.immersivetechnology.GasTurbine.removeFuel(<liquid:kerosene>);
-	mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:fuel> * 300, 1);
-	mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:diesel> * 150, 1);
-  mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:kerosene> * 150, 1);
+  mods.immersivetechnology.GasTurbine.removeFuel(<liquid:biodiesel>);
+  mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:biodiesel> * 160, 10);
+	mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:fuel> * 300, 10);
+	mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:diesel> * 150, 10);
+  mods.immersivetechnology.GasTurbine.addFuel(<liquid:flue_gas> * 1000, <liquid:kerosene> * 150, 10);
   
   
 
