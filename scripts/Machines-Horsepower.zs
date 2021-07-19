@@ -32,6 +32,9 @@
     //Ground soybean
   mods.horsepower.Grindstone.add(<tfc:food/soybean>, <firmalife:ground_soybeans> * 2, 8);
   
+    //Pumpkin chunks
+  mods.horsepower.Grindstone.add(<firmalife:pumpkin_fruit>, <firmalife:pumpkin_chunks> * 4, 8);
+  
     //Ground cinammon
   mods.horsepower.Grindstone.add(<firmalife:cinnamon>, <firmalife:ground_cinnamon> * 4, 8);
     //Halite
