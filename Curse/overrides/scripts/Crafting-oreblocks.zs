@@ -34,6 +34,8 @@ recipes.remove(<immersiveengineering:storage:2>);
 recipes.remove(<immersiveengineering:storage:3>);
 recipes.remove(<immersiveengineering:storage:4>);
 recipes.remove(<immersiveengineering:storage:5>);
+recipes.removeByRecipeName("immersiveengineering:metal_storage/electrum_block_uncraft");
+recipes.removeByRecipeName("immersiveengineering:metal_storage/constantan_block_uncraft");
 recipes.remove(<immersiveengineering:storage:6>);
 recipes.remove(<immersiveengineering:storage:7>);
 recipes.remove(<immersiveengineering:storage:8>);

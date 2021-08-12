@@ -39,6 +39,10 @@ import crafttweaker.item.IIngredient;
     
   }
   
+  //Add a Heavy Weighted Pressure Plate recipe (that does not make 16 of them)
+  recipes.removeByRecipeName("tfc:vanilla/pressure_pate/heavy_weighted_pressure_plate");
+  recipes.addShaped("tnfc_fix_weighted_plate", <minecraft:heavy_weighted_pressure_plate>, [<ore:ingotWroughtIron>,<ore:ingotWroughtIron>]);
+  
   //Turn all TFC workbenches into vanilla workbenches for Engineers Workshop
     recipes.addShapeless(<minecraft:crafting_table>, [<ore:craftingTableWood>]);
   
