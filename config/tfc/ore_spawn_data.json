@@ -80,7 +80,7 @@
     "shape": "cluster",
     "rarity": 100,
     "minimum_height": 5,
-    "maximum_height": 124,
+    "maximum_height": 129,
     "density": 80,
     "base_rocks": [
       "tfc:igneous_intrusive"
