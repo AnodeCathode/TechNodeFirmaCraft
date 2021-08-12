@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.76</version>
+        <version>12.2.77</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2855"/>        
@@ -28,11 +28,11 @@
     
     <mods>
         <!-- TFC -->
-        <mod name="TerraFirmaCraft" version="1.7.19.177" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.19.177.jar" file="TerraFirmaCraft-MC1.12.2-1.7.19.177.jar" md5="045c0b8944929f4fc5418332ffd804a6" download="server" type="mods" colour="green"/>
+        <mod name="TerraFirmaCraft" version="1.7.21.179" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.21.179.jar" file="TerraFirmaCraft-MC1.12.2-1.7.21.179.jar" md5="38fd81f8631dc4d320e782eb6f287d11" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.76" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.76.jar" file="TNFCMod-MC1.12.2-12.2.76.jar" md5="855ba1306d6cf249b0760e91ef772249" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.77" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.77.jar" file="TNFCMod-MC1.12.2-12.2.77.jar" md5="d359cc827764a3e3f191d008d62c503e" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
         
-        <mod name="CT Scripts" version="12.2.76.1" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.76.1.zip" file="scripts.12.2.76.1.zip" md5="ce8b746fcd51dfc92d8008211f8e5176" download="server" extractto="root" type="extract" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="CT Scripts" version="12.2.77"  url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.77.zip" file="scripts.12.2.77.zip" md5="cff8064794cf938d1ad8b491203a18b4" download="server" extractto="root" type="extract" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
                 
         
         <!--TFC Addons Mods -->
@@ -94,7 +94,7 @@
       
         <mod name="CreativeCore" version="1.10" url="packs/TechNodefirmacraft/files/1.12.2Mods/CreativeCore_v1.10.61_mc1.12.2.jar" file="CreativeCore_v1.10.61_mc1.12.2.jar" md5="657a8d30255c2a1e3f1cb2b7947a4a1c" download="server" type="mods"/>
         
-        <mod name="LittleTiles" version="LittleTiles_v1.5.15_mc1.12.2.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/LittleTiles_v1.5.15_mc1.12.2.jar" file="LittleTiles_v1.5.15_mc1.12.2.jar" md5="fae72529c0661e22bb839150557f2444" download="server" type="mods"/>
+        <mod name="LittleTiles" version="LittleTiles_v1.5.19_mc1.12.2.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/LittleTiles_v1.5.19_mc1.12.2.jar" file="LittleTiles_v1.5.19_mc1.12.2.jar" md5="1674d9b841baa02335338e24f4c17f5b" download="server" type="mods"/>
         
         
          <!-- PneumaticCraft -->
@@ -147,7 +147,7 @@
         <mod name="OpenModsLib" version="0.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
    
         <!-- AdvancedRocketry -->
-        <mod name="Advanced Rocketry" version="1.12.2-2.0.0-250" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-2.0.0-250-universal.jar" file="AdvancedRocketry-1.12.2-2.0.0-250-universal.jar" md5="6910f7453e133c9658d2b04f0776e521" download="server" type="mods" />
+        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-232" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-232-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-232-universal.jar" md5="bf081d3f42c3a067896469c7f13a31b2" download="server" type="mods" />
         
         
         <mod name="BiomeTweakerCore" version="BiomeTweakerCore-1.12.2-1.0.39.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweakerCore-1.12.2-1.0.39.jar" file="BiomeTweakerCore-1.12.2-1.0.39.jar" md5="b79eb875292bb76eec12b19fd2a692b1" download="server" type="mods"/>
