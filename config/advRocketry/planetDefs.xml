@@ -279,7 +279,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:alien_forest</biomeIds>
+			<biomeIds>advancedrocketry:alien forest</biomeIds>
 		</planet>
 		<planet name="Kepler 0118" DIMID="122" customIcon="lava">
 			<isKnown>false</isKnown>
