@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.77</version>
+        <version>12.2.77.1</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2855"/>        
@@ -147,7 +147,7 @@
         <mod name="OpenModsLib" version="0.12.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
    
         <!-- AdvancedRocketry -->
-        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-232" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-232-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-232-universal.jar" md5="bf081d3f42c3a067896469c7f13a31b2" download="server" type="mods" />
+        <mod name="Advanced Rocketry" version="1.12.2-1.7.0-240" url="packs/TechNodefirmacraft/files/1.12.2Mods/AdvancedRocketry-1.12.2-1.7.0-240-universal.jar" file="AdvancedRocketry-1.12.2-1.7.0-240-universal.jar" md5="fc3695d0a5868c9f607e7071fdbd7b97" download="server" type="mods" />
         
         
         <mod name="BiomeTweakerCore" version="BiomeTweakerCore-1.12.2-1.0.39.jar" url="packs/TechNodefirmacraft/files/1.12.2Mods/BiomeTweakerCore-1.12.2-1.0.39.jar" file="BiomeTweakerCore-1.12.2-1.0.39.jar" md5="b79eb875292bb76eec12b19fd2a692b1" download="server" type="mods"/>
