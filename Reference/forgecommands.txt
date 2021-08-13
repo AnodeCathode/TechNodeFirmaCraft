@@ -1,0 +1,7 @@
+/forge tps gives tickrate information for all dimensions. Pass in a dimension ID (like /forge tps 0) to get the tickrate for only that dimension.
+
+/forge track allows you to track tick time information about tile entities, and it looks like entities are in the works too. I guess like Opis. Use it like /forge track te <some duration in seconds less than 60>.
+
+/forge generate allows you to pregenerate a world. Use it like /forge generate <the x y z coordinates of the center of the region you'd like to generate> <how many chunks> to generate chunks in the dimension you're in. Optionally, append a dimension ID and how many ticks to wait in between generating each chunk.
+
+/forge entity gives you information pertaining to entities. Currently the only implemented subcommand is /forge entity list, which apparently allows you to print information about loaded entities based on matching their names with regular expressions.
