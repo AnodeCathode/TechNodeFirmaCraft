@@ -596,7 +596,7 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.Squeezer.addRecipe(<betterwithmods:material:8> * 2, <liquid:toxic_waste> * 5, <minecraft:rotten_flesh>, 80);
 
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:olive_oil> * 50, <tfc:food/olive_paste>, 80);
-    mods.immersiveengineering.Squeezer.addRecipe(<tfc:crop/product/jute_disc>,  <liquid:olive_oil> * 150, <tfc:crop/product/olive_jute_disc>, 80);
+    mods.immersiveengineering.Squeezer.addRecipe(<tfc:crop/product/jute_disc>,  <liquid:olive_oil> * 144, <tfc:crop/product/olive_jute_disc>, 80);
 //Mixer
 // Removal
 	//OutputStack
