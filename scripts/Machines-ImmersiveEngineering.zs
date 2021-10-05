@@ -42,6 +42,26 @@ val  IIngotArray = [<ore:ingotIron>, <ore:ingotGold>, <ore:ingotSilicon>,
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:7>);
     mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productplate:9>);
     
+    // Clay mold recipes
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/jug>, <minecraft:clay_ball>, <tfc:ceramics/fired/jug>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/vessel>, <minecraft:clay_ball>, <tfc:ceramics/fired/vessel>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/clay_flower_pot> * 2, <minecraft:clay_ball>, <minecraft:flower_pot>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/pot>, <minecraft:clay_ball>, <tfc:ceramics/fired/pot>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/clay_brick> * 3, <minecraft:clay_ball>, <minecraft:brick>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<firmalife:unfired_mallet_mold>, <minecraft:clay_ball>, <firmalife:steel_mallet_head>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfctech:ceramics/unfired/sleeve>, <minecraft:clay_ball>, <tfctech:metal/steel_sleeve>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfctech:ceramics/unfired/rackwheel_piece>, <minecraft:clay_ball>, <tfctech:metal/steel_rackwheel_piece>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfctech:ceramics/unfired/glass_block>, <minecraft:clay_ball>, <minecraft:glass>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfctech:ceramics/unfired/glass_pane>, <minecraft:clay_ball>, <minecraft:glass_pane>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfcthings:mold/unfired/prospectors_hammer_head>, <minecraft:clay_ball>, <tfcthings:prospectors_hammer_head/steel>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/bowl>*3, <minecraft:clay_ball>, <tfc:ceramics/fired/bowl>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/large_vessel>, <minecraft:clay_ball>, <tfc:ceramics/fired/large_vessel>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/crucible>, <tfc:ceramics/fire_clay>, <tfc:crucible>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<tfc:ceramics/unfired/fire_brick>*3, <tfc:ceramics/fire_clay>, <tfc:ceramics/fired/fire_brick>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<firmalife:oven>, <minecraft:clay_ball>, <firmalife:oven>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<firmalife:oven_wall>, <minecraft:clay_ball>, <firmalife:oven_wall>, 2400, 5);
+    mods.immersiveengineering.MetalPress.addRecipe(<firmalife:oven_chimney>, <minecraft:clay_ball>, <firmalife:oven_chimney>, 2400, 5);
+    
     
     //Copied from 1.7.10 - Uses Steel block as mold because meh....it worked then too
     mods.immersiveengineering.MetalPress.addRecipe(<tfc:metal/ingot/high_carbon_steel>, <tfc:metal/ingot/pig_iron>, <immersiveengineering:storage:8>, 2400, 1);
