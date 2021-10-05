@@ -184,7 +184,7 @@
  
 // Press
   mods.horsepower.Press.add(<tfc:food/olive_paste>, <liquid:olive_oil_water> * 250);
-  mods.horsepower.Press.add(<tfc:crop/product/olive_jute_disc>, <tfc:crop/product/jute_disc>, <liquid:olive_oil> * 100);
+  mods.horsepower.Press.add(<tfc:crop/product/olive_jute_disc>, <tfc:crop/product/jute_disc>, <liquid:olive_oil> * 96);
   mods.horsepower.Press.add(<ore:logWoodTannin>, <liquid:creosote> * 125);
   
   //Cloth
