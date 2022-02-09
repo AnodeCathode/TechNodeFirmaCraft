@@ -2,7 +2,70 @@ Maybe RTFM!
 You can weld ingots! There's no weld button - shift-right-click on the anvil with hammer in hand
 Straw in your inventory to stay warm
 Make a pink boat with an alternative recipe not requiring a saw
-Tough TFC grass can break stuff when it grows. 
+Tough TFC grass can break stuff 2 blocks above it when growing.
+Pave under anything you want to keep, grass will eat your pipes.
+Tree nuts are harvestable with the right equipment in season, but it's exhausting...
+You should read the tips.
+Make sure to unclaim or allow explosions before you waste the gunpowder!
+While PNC loves to put out flames, there are several ways to relight them...
+Lassos are effective hunting and fishing accessories.
+Don't make a pit kiln near peat blocks...
+Dirt paths are NOT a solid block, and pit kilns will not work when bounded by them.
+Aggregate acts more like vanilla gravel...
+Default PNC Amadron deals can be very helpful...
+Just go for the regular drone, the harvest drone isn't worth the headache.
+Save that creosote, select PNC and RH systems can burn it.
+IE cloches are NOT a farm substitute until you have RF to burn.
+IE cloches need steady power to work.
+Bonemeal works as fertilizer in the IE cloche.
+BWM saw makes a very tasty pigman grinder.
+Mushrooms respawn but do not spread in the Overworld...
+Desperate to warm up when huddling in a winter corner? Put straw in your 2x2 grid!
+Iron scrap correctly melts in the crucibles...
+What can some redstone, three hoppers, a water barrel, chests, and a crucible make?
+Cheesemaking is very different than described in the TFC book. See the firmalife wiki.
+Breadmaking is very different than described in the TFC book. See the firmalife wiki.
+Only one connected bread oven requires fuel while cooking bread...
+Greenhouse parts are cheaper out of aluminum.
+Dig down in the northwest corner of the southeast chunk of a nugget cluster.
+IE fluid pipes sometimes magically develop a gap, usually just a visual glitch.
+Dilithium and Iridium are only available on *OTHER* celestial objects.
+Latex collection requires a special fluid bowl on the mount...
+The Observatory and Astrobody Data Processor only look for asteroids.
+The Warp Controller can search for other planets.
+Osmium and Tungsten Steel make the fastest tools, and tungsten steel
+To figure out a new anvil recipe, use the communitive property of smithing, A+B = B+A!
+TNFC's many ores only leave hints within 30 blocks of the surface instead of 35!
+Don't harvest animals for food until you need to, meat doesn't expire on the hoof!
+Aged and smoked cheeses last a long time.
+The ruins of ancient civilizations on other planets may reveal the Infernal Enchanter!
+Signpost arrows can be rotated using left and right click with a signpost wrench.
+Maximum HP is 1750. To get there, eat healthy! Drinking milk after meals can help.
+Use the tab key to repeat the last crafting recipe.
+Don't put a speed upgrade in the fluid filter slot of the Gasification Plant.
+You can live in the roof section of your greenhouse.
+A flock of birds is the ultimate early game multiplayer food source.
+A fish tank is the ultimate mid-game multiplayer meat source. Feed with hemp seeds.
+Fish can be turned into tallow for candles.
+A crucible heats ores at least 40% faster than the forge.
+Glowing mushrooms self-multiply and have the same light level as torches. Tacky.
+Move around in your nearest hot spring for fastest healing! Don't drown!
+Plant fruit trees at least 5 blocks apart to get the most fruit.
+Saplings of any kind will not grow if crowded.
+Many vanilla signs close together may severely impact your FPS.
+Any seed is a good seed, but a garlic seed is the best seed.
+Witches can drop sugar!
+Holding shift with the mining drill mines a single block.
+The RH metal alloyer can make some cheap ingots!
+Preheating iron ore before filling the blast furnace can save fuel.
+Cobble slabs are a miner's delight.
+Garlic bread is a good way to eat grains and vegetables.
+You CAN fire pottery in a crucible! It's faster than the forge!
+You CAN cook food in the crucible, but it won't taste all that great.
+You can use rotten meat to make tallow - reduce, reuse, recycle!
+Wooden firestarter works on charcoal pits... and on log piles, beware!
+Some player actions may take a long time on a busy server.
+Set rock layer size = 4 in world generation to decrease exploration needs.
 Crops and fruit trees are very particular about growing conditions
 Stay hydrated. Stay well fed.
 Get high; Y > 170; and find Hemp seeds
@@ -33,7 +96,7 @@ The AR Lathe makes crafting pistons much easier...
 The IE Metal Press makes your crafting life easier...
 Horses require a halter to ride. Check JEI...
 Use a stone shovel to remove items from RH Evaporation Tank...
-The refrigerator takes power in the back top. Then wait!
+The refrigerator takes power in from the back top. Then wait!
 Coal Coke is correctly usable for Steel...in the IE Blast Furnace...
 HV IE Wires will give you a boost!
 Bugs are free with every purchase...
@@ -55,12 +118,75 @@ You need at least a black steel pick to mine obsidian and go to the Nether...
 Spawner fragments from the nether can construct your own mob spawner...
 Make a leather forging bib and stop dying of heatstroke next to the forge...
 Don't use /kill if you aren't comfortable editing your player data after. It's broken...
-Shaders not working? Disable AR Skybox! In config/advRocketry...
+Shaders not working? Disable all THREE AR skyboxes! In config/advRocketry...
 Increase your prospecting skill by clicking on ore separated more than 13 blocks apart!
 Panning for gold and silver nuggets is a legitimate path to early bronze...
 Hiking Boots let you move through grass without slowdown...
 Few crops grow over 400 or under 100 rainfall...
 Toxic Slimes don't like Raspberry or Blackberry Bushes...
 Remove the attachment from a firepit with sneak right click, but not while it's hot...
-Toxic slimes will climb ladders to get to you...
+Toxic Slimes will climb ladders to get to you...
 Making a server? Set level-type=tfc_classic in server.properties
+Tree nuts are harvestable with the right equipment in season, but it's exhausting...
+You should read the tips.
+Make sure to unclaim or allow explosions before you waste the gunpowder!
+While PNC loves to put out flames, there are several ways to relight them...
+Lassos are effective hunting and fishing accessories.
+Don't make a pit kiln near peat blocks...
+Dirt paths are NOT a solid block, and pit kilns will not work when bounded by them.
+Aggregate acts more like vanilla gravel...
+Default PNC Amadron deals can be very helpful...
+Just go for the regular drone, the harvest drone isn't worth the headache.
+Save that creosote, select PNC and RH systems can burn it.
+IE cloches are NOT a farm substitute until you have RF to burn.
+IE cloches need steady power to work.
+Bonemeal works as fertilizer in the IE cloche.
+BWM saw makes a very tasty pigman grinder.
+Mushrooms respawn but do not spread in the Overworld...
+Desperate to warm up when huddling in a winter corner? Put straw in your 2x2 grid!
+Iron scrap correctly melts in the crucibles...
+What can some redstone, three hoppers, a water barrel, chests, and a crucible make?
+Cheesemaking is very different than described in the TFC book. See the firmalife wiki.
+Breadmaking is very different than described in the TFC book. See the firmalife wiki.
+Only one connected bread oven requires fuel while cooking bread...
+Greenhouse parts are cheaper out of aluminum.
+Dig down in the northwest corner of the southeast chunk of a nugget cluster.
+IE fluid pipes sometimes magically develop a gap, usually just a visual glitch.
+Dilithium and Iridium are only available on *OTHER* celestial objects.
+Latex collection requires a special fluid bowl on the mount...
+The Observatory and Astrobody Data Processor only look for asteroids.
+The Warp Controller can search for other planets.
+Osmium and Tungsten Steel make the fastest tools, and tungsten steel
+To figure out a new anvil recipe, use the communitive property of smithing, A+B = B+A!
+TNFC's many ores only leave hints within 30 blocks of the surface instead of 35!
+Don't harvest animals for food until you need to, meat doesn't expire on the hoof!
+Aged and smoked cheeses last a long time.
+The ruins of ancient civilizations on other planets may reveal the Infernal Enchanter!
+Signpost arrows can be rotated using left and right click with a signpost wrench.
+Maximum HP is 1750. To get there, eat healthy! Drinking milk after meals can help.
+Use the tab key to repeat the last crafting recipe.
+Don't put a speed upgrade in the fluid filter slot of the Gasification Plant.
+You can live in the roof section of your greenhouse.
+A flock of birds is the ultimate early game multiplayer food source.
+A fish tank is the ultimate mid-game multiplayer meat source. Feed with hemp seeds.
+Fish can be turned into tallow for candles.
+A crucible heats ores at least 40% faster than the forge.
+Glowing mushrooms self-multiply and have the same light level as torches. Tacky.
+Move around in your nearest hot spring for fastest healing! Don't drown!
+Plant fruit trees at least 5 blocks apart to get the most fruit.
+Saplings of any kind will not grow if crowded.
+Many vanilla signs close together may severely impact your FPS.
+Any seed is a good seed, but a garlic seed is the best seed.
+Witches can drop sugar!
+Holding shift with the mining drill mines a single block.
+The RH metal alloyer can make some cheap ingots!
+Preheating iron ore before filling the blast furnace can save fuel.
+Cobble slabs are a miner's delight.
+Garlic bread is a good way to eat grains and vegetables.
+You CAN fire pottery in a crucible! It's faster than the forge!
+You CAN cook food in the crucible, but it won't taste all that great.
+You can use rotten meat to make tallow - reduce, reuse, recycle!
+Wooden firestarter works on charcoal pits... and on log piles, beware!
+Some player actions may take a long time on a busy server.
+Set rock layer size = 4 in world generation to decrease exploration needs.
+Basil for pizza can be found in moderate climes with normal to wet rainfall.
