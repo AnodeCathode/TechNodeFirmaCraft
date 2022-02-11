@@ -56,7 +56,7 @@ for i, item in IIngotArray {
 //mods.terrafirmacraft.Barrel.removeRecipe(<tfc:crop/product/dirty_jute_net>, <liquid:olive_oil>);
 mods.terrafirmacraft.Barrel.removeRecipe("tfc:olive_oil");
 
-mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jute_net>, <liquid:olive_oil_water> * 250, <tfc:crop/product/dirty_jute_net>, <liquid:olive_oil> * 48, 0);
+mods.terrafirmacraft.Barrel.addRecipe("tnfc:50_olive_oil", <tfc:crop/product/jute_net>, <liquid:olive_oil_water> * 250, <tfc:crop/product/dirty_jute_net>, <liquid:olive_oil> * 50, 0);
 
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:treated_wood", <ore:plankWood> * 8, <liquid:creosote> * 1000, <immersiveengineering:treated_wood> * 8, null, 1);
 mods.terrafirmacraft.Barrel.addRecipe("tnfc:tallow", <ore:categoryMeat> * 4, <liquid:hot_water> * 250, <betterwithmods:material:13> * 4, null, 8);
