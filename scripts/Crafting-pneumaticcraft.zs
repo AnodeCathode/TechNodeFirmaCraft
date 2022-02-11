@@ -1,8 +1,8 @@
 #priority 3
 #modloaded pneumaticcraft
 
-val lubeBucket = <liquid:lubricant> * 1000;
-val vodkaBottle = <liquid:vodka> * 100;
+val lube = <liquid:lubricant> * 1000;
+val vodka = <liquid:vodka> * 100;
 
 //#REMOVE Recipes
   mods.jei.JEI.removeAndHide(<pneumaticcraft:crop_support>);
