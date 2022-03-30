@@ -185,9 +185,6 @@
 
         <mod name="Storage Drawers" version="5.4.2" url="packs/TechNodefirmacraft/files/1.12.2Mods/StorageDrawers-1.12.2-5.4.2.jar" file="StorageDrawers-1.12.2-5.4.2.jar" md5="0f658c7cba3e6793abbcb934b4810902" download="server" type="mods"/>
         <mod name="Chameleon" version="4.1.3" url="packs/TechNodefirmacraft/files/1.12.2Mods/Chameleon-1.12-4.1.3.jar" file="Chameleon-1.12-4.1.3.jar" md5="e42efa8f4fd42d2918128a826b740e98" download="server" type="mods"/>
-       
-
-        <mod name="Signpost" version="1.12.2-1.08.5" url="packs/TechNodefirmacraft/files/1.12.2Mods/signpost-1.12.2-1.08.5.jar" file="signpost-1.12.2-1.08.5.jar" md5="396fc3ff30a1976fd9435d903717a9ed" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
         <mod name="Just a Few Fish" version="1.7_for_1.12" url="packs/TechNodefirmacraft/files/1.12.2Mods/JustAFewFish-1.7_for_1.12.jar" file="JustAFewFish-1.7_for_1.12.jar" md5="7db981b35345514431b01025e4ab6cae" download="server" type="mods" client="yes" server="yes" recommended="yes" selected="yes"/>
         
