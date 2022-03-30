@@ -296,7 +296,7 @@
 
 <mod name="Dynmap Block Renderdata" version="12.2.36" url="packs/TechNodefirmacraft/files/1.12.2Extract/dynmap.12.2.36.zip" file="dynmap.12.2.36.zip" md5="b71d59c976b5a0926793363c10b29493" download="server" description="Renderdata for dynmap" website="http://git.com/anodecathode/technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" serveroptional="yes" selected="yes"/>
 
-<mod name="Server Bits" version="12.2.28" url="packs/TechNodefirmacraft/files/1.12.2Extract/Serverbits.12.2.28.zip" file="Serverbits.12.2.28.zip" md5="40f1b8fdeac0ed7618ec1b7fd775a828" download="server" description="Start script and server icon for server" website="http://github.com/anodecathode/Technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" selected="yes"/>
+<mod name="Server Bits" version="12.2.80"  url="packs/TechNodefirmacraft/files/1.12.2Extract/Serverbits.12.2.80.zip" file="Serverbits.12.2.80.zip" md5="4699e1644a806196bbd871b2e5104482" download="server" description="Start script and server icon for server" website="http://github.com/anodecathode/Technodefirmacraft" type="extract" extractto="root" client="no" optional="no" colour="red" server="yes" recommended="yes" selected="yes"/>
 
 <!--Server Extra Bits -->
 
