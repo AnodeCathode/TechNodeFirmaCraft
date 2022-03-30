@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["TFC Classic Music Pack.zip","tfc-tng-faithful32-1.2.3.zip","TFC-TNG+Soft+Paths.zip","TFC_115_v8.zip","TFC Connected 0.2.zip"]
+resourcePacks:["TFC Classic Music Pack.zip","TFC-TNG Soft Paths.zip","tfc-tng-faithful32-1.4.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:10.0.125.10:25565
 lang:en_us
