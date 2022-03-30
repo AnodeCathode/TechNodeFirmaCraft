@@ -446,7 +446,7 @@
   },
   "galena": {
     "ore": "tfc:galena",
-    "loose": "tfc:rock/diorite",
+    "loose": "tfc:galena",
     "width": 24,
     "height": 28,
     "shape": "cluster",

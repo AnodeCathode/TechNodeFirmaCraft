@@ -22,13 +22,13 @@
           <atmosphereDensity>100</atmosphereDensity>
                 <seaLevel>64</seaLevel>
           <gravitationalMultiplier>100</gravitationalMultiplier>
-          <orbitalDistance>1000</orbitalDistance>
+          <orbitalDistance>100</orbitalDistance>
           <orbitalTheta>180</orbitalTheta>
           <biomeIds>minecraft:desert_hills,minecraft:plains,minecraft:desert,minecraft:forest,minecraft:forest_hills,minecraft:jungle</biomeIds>
             <planet name="LaunchFromZeroZeroToEnd" DIMID="1" dimMapping="" customIcon="moon">
               <isKnown>false</isKnown>
               <orbitalTheta>180</orbitalTheta>
-              <orbitalDistance>200</orbitalDistance>
+              <orbitalDistance>72</orbitalDistance>
            </planet>
       </planet>
       <planet name="Mercury" DIMID="101" dimMapping="" customIcon="lava">

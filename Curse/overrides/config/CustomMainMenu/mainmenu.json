@@ -160,7 +160,7 @@
 			"alignment": "bottom_left"
 		},
 		"modpack": {
-			"text": "TechNodefirmacraft 12.2.77",
+			"text": "TechNodefirmacraft 12.2.80",
 			"posX": 2,
 			"posY": -30,
 			"color": -1,
@@ -175,7 +175,8 @@
         "tnfcmod:textures/mainmenu/slideshow/flobilbo.png",
         "tnfcmod:textures/mainmenu/slideshow/benanov.png",
         "tnfcmod:textures/mainmenu/slideshow/flobilbo2.png",
-        "tnfcmod:textures/mainmenu/slideshow/rocket.png"
+        "tnfcmod:textures/mainmenu/slideshow/rocket.png",
+        "tnfcmod:textures/mainmenu/slideshow/village.png"
         ],
 				"displayDuration": 150,
 				"fadeDuration": 40,
