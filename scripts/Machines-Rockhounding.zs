@@ -43,7 +43,8 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustZinc"], [88, 12], <tfc:metal/ingot/brass>);
 //sterling silver
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustCopper", "dustSilver"], [80, 20], <tfc:metal/ingot/sterling_silver>);
-
+//electrum
+  mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustSilver"], [50, 50], <tfc:metal/ingot/electrum>);
 //HSLA Steel
   mods.rockhounding_chemistry.MetalAlloyer.add(["dustManganese", "dustBlackSteel"], [5, 95], <tfc:metal/ingot/hsla_steel>);
 
