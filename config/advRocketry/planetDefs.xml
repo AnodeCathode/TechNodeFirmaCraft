@@ -434,7 +434,6 @@
 				<orbitalPhi>-1</orbitalPhi>
 				<atmosphereDensity>31</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-				<seaLevel>57</seaLevel>advancedrocketry:alien_forest
 				<biomeIds>minecraft:jungle_hills,minecraft:forest,minecraft:desert,minecraft:savanna_rock,minecraft:mesa</biomeIds>
 			</planet>
 			<planet name="Sol-134: 2" DIMID="137">
