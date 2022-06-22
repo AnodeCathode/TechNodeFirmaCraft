@@ -81,20 +81,19 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustGold", "dustCopper"], [80, 20
   mods.rockhounding_chemistry.MaterialCabinet.add("Rs", "dustRedSteel", "Red Steel");
 
 // LAB BLENDER
-//Stupid thing doesn't appear to like oreDicts for once. But it puts in the oreDict for you ffs.
-mods.rockhounding_chemistry.LabBlender.add([<tfc:sand/claystone> * 4], <rockhounding_chemistry:chemical_items:18> * 3);
-mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_items:7>, <minecraft:gunpowder>*4], <minecraft:glowstone_dust>*2);
+// Hurrah for fixed RH bugs!
+// Example:
+// mods.rockhounding_chemistry.LabBlender.add(["compoundSulfur", "compoundFlyash"], [20, 13], <minecraft:slime_ball>);
+mods.rockhounding_chemistry.LabBlender.add(["sand"], [4], <rockhounding_chemistry:chemical_items:18> * 3);
+mods.rockhounding_chemistry.LabBlender.add(["compoundTar", "gunpowder"], [1,4], <minecraft:glowstone_dust>*2);
 // Gunpowder precursor recipe, Potassium nitrate from RH is EXPENSIVE, so blend into lots of saltpeter powder
-mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_items:12>], <tfc:powder/saltpeter> * 18);
+mods.rockhounding_chemistry.LabBlender.add(["compoundNitrate"], [1], <tfc:powder/saltpeter> * 18);
 // Allow reverse blend of sulfur compound recipe
-mods.rockhounding_chemistry.LabBlender.add([<rockhounding_chemistry:chemical_items:2> * 8], <tfc:powder/sulfur> * 3);
-// TODO: figure out gunpowder oredict issues
+mods.rockhounding_chemistry.LabBlender.add(["compoundSulfur"], [8], <tfc:powder/sulfur> * 3);
 // Remove lame gunpowder recipe in RH blender
-//mods.rockhounding_chemistry.LabBlender.remove(<minecraft:gunpowder> * 8);
-// Adding from oredict this way got the dyeBlack/dyeGray oredict in some cases
-//mods.rockhounding_chemistry.LabBlender.add([<ore:dustGraphite>.firstItem, <ore:dustSulfur>.firstItem * 2, <ore:dustCharcoal>.firstItem * 2, <ore:dustSaltpeter>.firstItem * 4], <minecraft:gunpowder> * 18);
-// Adding from oredict this way ALSO got the dyeBlack/dyeGray oredict in some cases!
-//mods.rockhounding_chemistry.LabBlender.add([<tfc:powder/graphite>, <tfc:powder/sulfur> * 2, <tfc:powder/charcoal>, <tfc:powder/saltpeter> * 4], <minecraft:gunpowder> * 18);
+mods.rockhounding_chemistry.LabBlender.remove(<minecraft:gunpowder> * 8);
+// Adding better gunpowder recipe because RH infrastructure is expensive
+mods.rockhounding_chemistry.LabBlender.add(["dustGraphite", "dustSulfur", "dustCharcoal", "dustSaltpeter"], [1,2,2,4], <minecraft:gunpowder> * 18);
 
 //CHEMICAL EXTRACTOR
 //mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <minecraft:hardened_clay>, ["dustCalcium", "dustSulfur", "dustCarbon", "dustIron", "dustTin"], [20, 13, 5, 4, 3]);
