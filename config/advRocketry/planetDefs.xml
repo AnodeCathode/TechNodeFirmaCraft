@@ -279,7 +279,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<atmosphereDensity>0</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-			<biomeIds>advancedrocketry:alien forest</biomeIds>
+			<biomeIds>advancedrocketry:alien_forest</biomeIds>
 		</planet>
 		<planet name="Kepler 0118" DIMID="122" customIcon="lava">
 			<isKnown>false</isKnown>
@@ -434,7 +434,6 @@
 				<orbitalPhi>-1</orbitalPhi>
 				<atmosphereDensity>31</atmosphereDensity>
                 <seaLevel>64</seaLevel>
-				<seaLevel>57</seaLevel>
 				<biomeIds>minecraft:jungle_hills,minecraft:forest,minecraft:desert,minecraft:savanna_rock,minecraft:mesa</biomeIds>
 			</planet>
 			<planet name="Sol-134: 2" DIMID="137">
