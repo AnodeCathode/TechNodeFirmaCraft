@@ -28,11 +28,12 @@ hoverboots {
           [leather, "oc:droneCase1", leather]
           [ingotElectrum, "oc:capacitor", ingotElectrum]]
 }
-nanomachines {
-  input: [["oc:chamelium", "oc:wlanCard", "oc:chamelium"]
-          ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
-          [craftingToolHardHammer, "oc:capacitor", craftingToolHardChisel]]
-}
+#nanomachines = false
+#{
+#  input: [["oc:chamelium", "oc:wlanCard", "oc:chamelium"]
+#          ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
+#          [craftingToolHardHammer, "oc:capacitor", craftingToolHardChisel]]
+#}
 dronecase1 {
   input: [[{block="rockhounding_chemistry:alloy_blocks_gems", subID=2}, compass, {block="rockhounding_chemistry:alloy_blocks_gems", subID=2}]
           ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
