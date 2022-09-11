@@ -1,236 +1,234 @@
 #priority 3
 #modloaded opencomputers
 
-recipes.remove("opencomputers:tool61"); #can't remove by name
-recipes.addShaped("tnfc_oc_nano", <opencomputers:tool:5>, [[<ore:oc:chamelium>, <ore:oc:wlanCard2>, <ore:oc:chamelium>], [<ore:oc:cpu2>, <ore:oc:materialAcid>, <ore:oc:ram1>], [<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:capacitor>, <ore:craftingToolHardChisel>.transformDamage()]]);
+#recipes.remove("opencomputers:tool61"); #can't remove by recip name
+recipes.remove(<opencomputers:tool:5>); #need to use resource location of output
+recipes.addShaped("tnfc_oc_nano", <opencomputers:tool:5>,
+ [[<ore:oc:chamelium>, <ore:oc:wlanCard2>, <ore:oc:chamelium>], [<ore:oc:cpu2>, <ore:oc:materialAcid>, <ore:oc:ram1>],
+  [<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:capacitor>, <ore:craftingToolHardChisel>.transformDamage()]]);
 
 #nanomachines {
-#  input: [["oc:chamelium", "oc:wlanCard2", "oc:chamelium"]
-#          ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
-#          [craftingToolHardHammer, "ore:oc:capacitor", craftingToolHardChisel]]
+#  input: [[<ore:oc:chamelium>, <ore:oc:wlanCard2>, <ore:oc:chamelium>],
+#          [<ore:oc:cpu2>, <ore:oc:materialAcid>, <ore:oc:ram1>],
+#          [<ore:craftingToolHardHammer>.transformDamage(), "ore:oc:capacitor>, <ore:craftingToolHardChisel>.transformDamage()]]);
 #}
-/*
-server1 {
-  input: [[obsidian, "oc:ram4", obsidian]
-          ["oc:circuitChip1", "oc:circuitChip2", "oc:circuitChip1"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-server2 {
-  input: [[obsidian, "oc:ram5", obsidian]
-          ["oc:circuitChip2", "oc:circuitChip3", "oc:circuitChip2"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-server3 {
-  input: [[obsidian, "oc:ram6", obsidian]
-          ["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-
-angelupgrade {
-  input: [[sheetBlueSteel, materialEnderPearl, sheetRedSteel]
-          ["oc:circuitChip1", pistonStickyBase, "oc:circuitChip1"]
-          [craftingToolHardHammer, materialEnderPearl, craftingToolHardChisel]]
-}
-craftingupgrade {
-  input: [[plateIron, "minecraft:piston", plateIron]
-          ["oc:circuitChip1", craftingTableWood, "oc:circuitChip1"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-databaseupgrade1 {
-  input: [[plateIron, "oc:analyzer", plateIron]
-          ["oc:circuitChip1", "oc:hdd1", "oc:circuitChip1"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-databaseupgrade2 {
-  input: [[plateIron, "oc:analyzer", plateIron]
-          ["oc:circuitChip2", "oc:hdd2", "oc:circuitChip2"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-databaseupgrade3 {
-  input: [[plateIron, "oc:analyzer", plateIron]
-          ["oc:circuitChip3", "oc:hdd3", "oc:circuitChip3"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-experienceupgrade {
-  input: [[plateGold, "oc:analyzer", plateGold]
-          ["oc:circuitChip2", gemEmerald, "oc:circuitChip2"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-generatorupgrade {
-  input: [[plateIron, "", plateIron]
-          ["oc:circuitChip1", "minecraft:piston", "oc:circuitChip1"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-
-inventoryupgrade {
-  input: [[plateIron, hopper, plateIron]
-          [dropper, chestWood, "minecraft:piston"]
-          [craftingToolHardHammer, "oc:circuitChip1", craftingToolHardChisel]]
-}
-inventorycontrollerupgrade {
-  input: [[plateGold, "oc:analyzer", plateGold]
-          [dropper, "oc:circuitChip2", "minecraft:piston"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-leashupgrade {
-  input: [[plateIron, "minecraft:lead", plateIron]
-          ["minecraft:lead", "oc:materialCU", "minecraft:lead"]
-          [craftingToolHardHammer, "minecraft:lead", craftingToolHardChisel]]
-}
-navigationupgrade {
-  input: [[plateGold, compass, plateGold]
-          ["oc:circuitChip2", {item=map, subID=any}, "oc:circuitChip2"]
-          [craftingToolHardHammer, potion, craftingToolHardChisel]]
-}
-pistonupgrade {
-  input: [[plateIron, "minecraft:piston", plateIron]
-          [stickWood, "oc:circuitChip1", stickWood]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-signupgrade {
-  input: [[plateIron, dyeBlack, plateIron]
-          ["oc:circuitChip1", stickWood, "oc:circuitChip1"]
-          [craftingToolHardHammer, pistonStickyBase, craftingToolHardChisel]]
-}
-tankupgrade {
-  input: [[plateIron, fenceIron, plateIron]
-          [dispenser, cauldron, "minecraft:piston"]
-          [craftingToolHardHammer, "oc:circuitChip1", craftingToolHardChisel]]
-}
-tankcontrollerupgrade {
-  input: [[plateGold, glassBottle, plateGold]
-          [dispenser, "oc:circuitChip2", "minecraft:piston"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-cardcontainer1 {
-  input: [[plateIron, "oc:circuitChip1", plateIron]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCard", craftingToolHardChisel]]
-}
-cardcontainer2 {
-  input: [[plateGold, "oc:circuitChip2", plateGold]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCard", craftingToolHardChisel]]
-}
-cardcontainer3 {
-  input: [[gemDiamond, "oc:circuitChip2", gemDiamond]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCard", craftingToolHardChisel]]
-}
-upgradecontainer1 {
-  input: [[plateIron, "oc:circuitChip1", plateIron]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-upgradecontainer2 {
-  input: [[plateGold, "oc:circuitChip2", plateGold]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-upgradecontainer3 {
-  input: [[gemDiamond, "oc:circuitChip2", gemDiamond]
-          ["minecraft:piston", chestWood, ""]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-adapter {
-  input: [[plateIron, "oc:cable", plateIron]
-          ["oc:cable", "oc:circuitChip1", "oc:cable"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-assembler {
-  input: [[{item="rockhounding_chemistry:alloy_parts", subID=22}, "", {item="rockhounding_chemistry:alloy_parts", subID=22}]
-          ["minecraft:piston", "oc:circuitChip2", "minecraft:piston"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-capacitor {
-  input: [[plateIron, "oc:materialTransistor", plateIron]
-          [nuggetGold, paper, nuggetGold]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-charger {
-  input: [[plateIron, ingotGold, plateIron]
-          ["oc:capacitor", "oc:circuitChip2", "oc:capacitor"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-case1 {
-  input: [[plateIron, "oc:circuitChip1", plateIron]
-          [fenceIron, chestWood, fenceIron]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-case2 {
-  input: [[plateGold, "oc:circuitChip2", plateGold]
-          [fenceIron, chestWood, fenceIron]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-disassembler = false
-diskDrive {
-  input: [[plateIron, "oc:circuitChip1", plateIron]
-          ["minecraft:piston", stickWood, ""]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-geolyzer {
-  input: [[plateGold, "oc:analyzer", plateGold]
-          [{item="rockhounding_chemistry:alloy_parts", subID=61}, "oc:circuitChip2", {item="rockhounding_chemistry:alloy_parts", subID=61}]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-motionsensor {
-  input: [[plateGold, daylightDetector, plateGold]
-          [daylightDetector, "oc:cpu2", daylightDetector]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-netsplitter {
-  input: [[plateIron, "oc:cable", plateIron]
-          ["oc:cable", "minecraft:piston", "oc:cable"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-printer {
-  input: [[plateIron, hopper, plateIron]
-          ["minecraft:piston", "oc:circuitChip3", "minecraft:piston"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-powerconverter {
-  input: [[plateIron, "oc:cable", plateIron]
-          [ingotGold, "oc:circuitChip1", ingotGold]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-powerdistributor {
-  input: [[plateIron, ingotGold, plateIron]
-          ["oc:cable", "oc:circuitChip1", "oc:cable"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-redstone {
-  input: [[ingotIron, "oc:circuitChip3", ingotIron]
-          [blockRedstone, "oc:redstoneCard1", blockRedstone]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-relay {
-  input: [[plateIron, "oc:cable", plateIron]
-          ["oc:cable", "oc:lanCard", "oc:cable"]
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-screen1 {
-  input: [[craftingToolHardHammer, redstone, plateIron]
-          [redstone, "oc:circuitChip1", blockGlass]
-          [craftingToolHardChisel, redstone, plateIron]]
-}
-screen2 {
-  input: [[craftingToolHardHammer, dyeRed, plateGold]
-          [dyeGreen, "oc:circuitChip2", blockGlass]
-          [craftingToolHardChisel, dyeBlue, plateGold]]
-}
-screen3 {
-  input: [[craftingToolHardHammer, "oc:circuitChip2", obsidian]
-          [oreUranium, "oc:screen2", blockGlass]
-          [craftingToolHardChisel, "oc:circuitChip2", obsidian]]
-}
-transposer {
-  input: [[plateIron, "oc:inventoryControllerUpgrade", plateIron]
-          [hopper, bucket, hopper]
-          [craftingToolHardHammer, "oc:tankControllerUpgrade", craftingToolHardChisel]]
-  output: 4
-}
-waypoint {
-  input: [[plateIron, "oc:circuitChip1", plateIron]
-          ["oc:materialTransistor", "oc:materialInterweb", "oc:materialTransistor"],
-          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
-}
-*/
+recipes.remove(<opencomputers:component:13>);
+recipes.addShaped("tnfc_server1", <opencomputers:component:13>,
+[[<ore:obsidian>, <ore:oc:ram4>, <ore:obsidian>],
+[<ore:oc:circuitChip1>, <ore:oc:circuitChip2>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:component:14>);
+recipes.addShaped("tnfc_server2", <opencomputers:component:14>,
+[[<ore:obsidian>, <ore:oc:ram5>, <ore:obsidian>],
+[<ore:oc:circuitChip2>, <ore:oc:circuitChip3>, <ore:oc:circuitChip2>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:component:15>);
+recipes.addShaped("tnfc_server3", <opencomputers:component:15>,
+[[<ore:obsidian>, <ore:oc:ram6>, <ore:obsidian>],
+[<ore:oc:circuitChip3>, <ore:oc:circuitChip3>, <ore:oc:circuitChip3>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:0>);
+recipes.addShaped("tnfc_angelupgrade", <opencomputers:upgrade:0>,
+[[<ore:sheetBlueSteel>, <ore:materialEnderPearl>, <ore:sheetRedSteel>],
+[<ore:oc:circuitChip1>, <minecraft:sticky_piston>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:materialEnderPearl>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:11>);
+recipes.addShaped("tnfc_craftingupgrade", <opencomputers:upgrade:11>,
+[[<ore:plateIron>, <minecraft:piston>, <ore:plateIron>],
+[<ore:oc:circuitChip1>, <ore:craftingTableWood>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:12>);
+recipes.addShaped("tnfc_databaseupgrade1", <opencomputers:upgrade:12>,
+[[<ore:plateIron>, <ore:oc:analyzer>, <ore:plateIron>],
+[<ore:oc:circuitChip1>, <ore:oc:hdd1>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:13>);
+recipes.addShaped("tnfc_databaseupgrade2", <opencomputers:upgrade:13>,
+[[<ore:plateIron>, <ore:oc:analyzer>, <ore:plateIron>],
+[<ore:oc:circuitChip2>, <ore:oc:hdd2>, <ore:oc:circuitChip2>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:14>);
+recipes.addShaped("tnfc_databaseupgrade3", <opencomputers:upgrade:14>,
+[[<ore:plateIron>, <ore:oc:analyzer>, <ore:plateIron>],
+[<ore:oc:circuitChip3>, <ore:oc:hdd3>, <ore:oc:circuitChip3>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:15>);
+recipes.addShaped("tnfc_experienceupgrade", <opencomputers:upgrade:15>,
+[[<ore:plateGold>, <ore:oc:analyzer>, <ore:plateGold>],
+[<ore:oc:circuitChip2>, <ore:craftingGreenGem>, <ore:oc:circuitChip2>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:16>);
+recipes.addShaped("tnfc_generatorupgrade", <opencomputers:upgrade:16>,
+[[<ore:plateIron>, null, <ore:plateIron>],
+[<ore:oc:circuitChip1>, <minecraft:piston>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:17>);
+recipes.addShaped("tnfc_inventoryupgrade", <opencomputers:upgrade:17>,
+[[<ore:plateIron>, <ore:hopper>, <ore:plateIron>],
+[<minecraft:dropper>, <ore:chestWood>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:circuitChip1>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:18>);
+recipes.addShaped("tnfc_inventorycontrollerupgrade", <opencomputers:upgrade:18>,
+[[<ore:plateGold>, <ore:oc:analyzer>, <ore:plateGold>],
+[<minecraft:dropper>, <ore:oc:circuitChip2>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:26>);
+recipes.addShaped("tnfc_leashupgrade", <opencomputers:upgrade:26>,
+[[<ore:plateIron>, <minecraft:lead>, <ore:plateIron>],
+[<minecraft:lead>, <ore:oc:materialCU>, <minecraft:lead>],
+[<ore:craftingToolHardHammer>.transformDamage(), <minecraft:lead>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:19>);
+recipes.addShaped("tnfc_navigationupgrade", <opencomputers:upgrade:19>,
+[[<ore:plateGold>, <minecraft:compass>, <ore:plateGold>],
+[<ore:oc:circuitChip2>, <minecraft:map>, <ore:oc:circuitChip2>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:cofh:potion>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:20>);
+recipes.addShaped("tnfc_pistonupgrade", <opencomputers:upgrade:20>,
+[[<ore:plateIron>, <minecraft:piston>, <ore:plateIron>],
+[<ore:stickWood>, <ore:oc:circuitChip1>, <ore:stickWood>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:21>);
+recipes.addShaped("tnfc_signupgrade", <opencomputers:upgrade:21>,
+[[<ore:plateIron>, <ore:dyeBlack>, <ore:plateIron>],
+[<ore:oc:circuitChip1>, <ore:stickWood>, <ore:oc:circuitChip1>],
+[<ore:craftingToolHardHammer>.transformDamage(), <minecraft:sticky_piston>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:23>);
+recipes.addShaped("tnfc_tankupgrade", <opencomputers:upgrade:23>,
+[[<ore:plateIron>, <ore:fenceIron>, <ore:plateIron>],
+[<minecraft:dispenser>, <minecraft:cauldron>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:circuitChip1>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:24>);
+recipes.addShaped("tnfc_tankcontrollerupgrade", <opencomputers:upgrade:24>,
+[[<ore:plateGold>, <minecraft:glass_bottle>, <ore:plateGold>],
+[<minecraft:dispenser>, <ore:oc:circuitChip2>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:5>);
+recipes.addShaped("tnfc_cardcontainer1", <opencomputers:upgrade:5>,
+[[<ore:plateIron>, <ore:oc:circuitChip1>, <ore:plateIron>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCard>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:6>);
+recipes.addShaped("tnfc_cardcontainer2", <opencomputers:upgrade:6>,
+[[<ore:plateGold>, <ore:oc:circuitChip2>, <ore:plateGold>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCard>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:7>);
+recipes.addShaped("tnfc_cardcontainer3", <opencomputers:upgrade:7>,
+[[<ore:gemDiamond>, <ore:oc:circuitChip2>, <ore:gemDiamond>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCard>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:8>);
+recipes.addShaped("tnfc_upgradecontainer1", <opencomputers:upgrade:8>,
+[[<ore:plateIron>, <ore:oc:circuitChip1>, <ore:plateIron>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:9>);
+recipes.addShaped("tnfc_upgradecontainer2", <opencomputers:upgrade:9>,
+[[<ore:plateGold>, <ore:oc:circuitChip2>, <ore:plateGold>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:upgrade:10>);
+recipes.addShaped("tnfc_upgradecontainer3", <opencomputers:upgrade:10>,
+[[<ore:gemDiamond>, <ore:oc:circuitChip2>, <ore:gemDiamond>],
+[<minecraft:piston>, <ore:chestWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:adapter>);
+recipes.addShaped("tnfc_adapter", <opencomputers:adapter>,
+[[<ore:plateIron>, <ore:oc:cable>, <ore:plateIron>],
+[<ore:oc:cable>, <ore:oc:circuitChip1>, <ore:oc:cable>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:assembler>);
+recipes.addShaped("tnfc_assembler", <opencomputers:assembler>,
+[[<ore:plateNimonic>, null, <ore:plateNimonic>],
+[<minecraft:piston>, <ore:oc:circuitChip2>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:capacitor>);
+recipes.addShaped("tnfc_capacitor", <opencomputers:capacitor>,
+[[<ore:plateIron>, <ore:oc:materialTransistor>, <ore:plateIron>],
+[<ore:nuggetGold>, <ore:paper>, <ore:nuggetGold>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:charger>);
+recipes.addShaped("tnfc_charger", <opencomputers:charger>,
+[[<ore:plateIron>, <ore:ingotGold>, <ore:plateIron>],
+[<ore:oc:capacitor>, <ore:oc:circuitChip2>, <ore:oc:capacitor>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:case1>);
+recipes.addShaped("tnfc_case1", <opencomputers:case1>,
+[[<ore:plateIron>, <ore:oc:circuitChip1>, <ore:plateIron>],
+[<ore:fenceIron>, <ore:chestWood>, <ore:fenceIron>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:case2>);
+recipes.addShaped("tnfc_case2", <opencomputers:case2>,
+[[<ore:plateGold>, <ore:oc:circuitChip2>, <ore:plateGold>],
+[<ore:fenceIron>, <ore:chestWood>, <ore:fenceIron>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:diskdrive>);
+recipes.addShaped("tnfc_diskDrive", <opencomputers:diskdrive>,
+[[<ore:plateIron>, <ore:oc:circuitChip1>, <ore:plateIron>],
+[<minecraft:piston>, <ore:stickWood>, null],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:geolyzer>);
+recipes.addShaped("tnfc_geolyzer", <opencomputers:geolyzer>,
+[[<ore:plateGold>, <ore:oc:analyzer>, <ore:plateGold>],
+[<ore:plateShibuichi>, <ore:oc:circuitChip2>, <ore:plateShibuichi>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:motionsensor>);
+recipes.addShaped("tnfc_motionsensor", <opencomputers:motionsensor>,
+[[<ore:plateGold>, <minecraft:daylight_detector>, <ore:plateGold>],
+[<minecraft:daylight_detector>, <ore:oc:cpu2>, <minecraft:daylight_detector>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:netsplitter>);
+recipes.addShaped("tnfc_netsplitter", <opencomputers:netsplitter>,
+[[<ore:plateIron>, <ore:oc:cable>, <ore:plateIron>],
+[<ore:oc:cable>, <minecraft:piston>, <ore:oc:cable>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:printer>);
+recipes.addShaped("tnfc_printer", <opencomputers:printer>,
+[[<ore:plateIron>, <ore:hopper>, <ore:plateIron>],
+[<minecraft:piston>, <ore:oc:circuitChip3>, <minecraft:piston>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:powerconverter>);
+recipes.addShaped("tnfc_powerconverter", <opencomputers:powerconverter>,
+[[<ore:plateIron>, <ore:oc:cable>, <ore:plateIron>],
+[<ore:ingotGold>, <ore:oc:circuitChip1>, <ore:ingotGold>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:powerdistributor>);
+recipes.addShaped("tnfc_powerdistributor", <opencomputers:powerdistributor>,
+[[<ore:plateIron>, <ore:ingotGold>, <ore:plateIron>],
+[<ore:oc:cable>, <ore:oc:circuitChip1>, <ore:oc:cable>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:redstone>);
+recipes.addShaped("tnfc_redstone", <opencomputers:redstone>,
+[[<ore:ingotIron>, <ore:oc:circuitChip3>, <ore:ingotIron>],
+[<ore:blockRedstone>, <ore:oc:redstoneCard1>, <ore:blockRedstone>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:relay>);
+recipes.addShaped("tnfc_relay", <opencomputers:relay>,
+[[<ore:plateIron>, <ore:oc:cable>, <ore:plateIron>],
+[<ore:oc:cable>, <ore:oc:lanCard>, <ore:oc:cable>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:screen1>);
+recipes.addShaped("tnfc_screen1", <opencomputers:screen1>,
+[[<ore:craftingToolHardHammer>.transformDamage(), <ore:dustRedstone>, <ore:plateIron>],
+[<ore:dustRedstone>, <ore:oc:circuitChip1>, <ore:blockGlass>],
+[<ore:craftingToolHardChisel>.transformDamage(), <ore:dustRedstone>, <ore:plateIron>]]);
+recipes.remove(<opencomputers:screen2>);
+recipes.addShaped("tnfc_screen2", <opencomputers:screen2>,
+[[<ore:craftingToolHardHammer>.transformDamage(), <ore:dyeRed>, <ore:plateGold>],
+[<ore:dyeGreen>, <ore:oc:circuitChip2>, <ore:blockGlass>],
+[<ore:craftingToolHardChisel>.transformDamage(), <ore:dyeBlue>, <ore:plateGold>]]);
+recipes.remove(<opencomputers:screen3>);
+recipes.addShaped("tnfc_screen3", <opencomputers:screen3>,
+[[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:circuitChip2>, <ore:obsidian>],
+[<ore:oreUranium>, <ore:oc:screen2>, <ore:blockGlass>],
+[<ore:craftingToolHardChisel>.transformDamage(), <ore:oc:circuitChip2>, <ore:obsidian>]]);
+recipes.remove(<opencomputers:transposer>);
+recipes.addShaped("tnfc_transposer", <opencomputers:transposer> * 4,
+[[<ore:plateIron>, <ore:oc:inventoryControllerUpgrade>, <ore:plateIron>],
+[<ore:hopper>, <minecraft:bucket>, <ore:hopper>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:tankControllerUpgrade>, <ore:craftingToolHardChisel>.transformDamage()]]);
+recipes.remove(<opencomputers:waypoint>);
+recipes.addShaped("tnfc_waypoint", <opencomputers:waypoint>,
+[[<ore:plateIron>, <ore:oc:circuitChip1>, <ore:plateIron>],
+[<ore:oc:materialTransistor>, <ore:oc:materialInterweb>, <ore:oc:materialTransistor>],
+[<ore:craftingToolHardHammer>.transformDamage(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
