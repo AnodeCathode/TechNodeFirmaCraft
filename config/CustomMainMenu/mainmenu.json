@@ -177,7 +177,8 @@
         "tnfcmod:textures/mainmenu/slideshow/flobilbo2.png",
         "tnfcmod:textures/mainmenu/slideshow/rocket.png",
         "tnfcmod:textures/mainmenu/slideshow/village.png",
-		"tnfcmod:textures/mainmenu/slideshow/merf.png"
+		"tnfcmod:textures/mainmenu/slideshow/merf.png",
+		"tnfcmod:textures/mainmenu/slideshow/stinger360.png"
 		],
 				"displayDuration": 150,
 				"fadeDuration": 40,
