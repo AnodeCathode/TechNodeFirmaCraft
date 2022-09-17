@@ -175,7 +175,6 @@ serverrack {
           [fenceIron, chestWood, fenceIron]
           ["oc:relay", "oc:materialCircuitBoardPrinted", "oc:powerDistributor"]]
 }
-
 chip1 {
   input: [[nuggetIron, nuggetIron, nuggetIron]
           [redstone, "oc:materialTransistor", redstone]

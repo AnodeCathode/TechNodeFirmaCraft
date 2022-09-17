@@ -130,3 +130,8 @@ Some player actions may take a long time on a busy server.
 Set rock layer size = 4 in world generation to decrease exploration needs.
 Basil for pizza can be found in moderate climes with normal to wet rainfall.
 The autorun key (R by default) may save your fingers on those long boat trips.
+Split that refined bloom before melting it!
+Put some pep in your equines by beating a path around their machines.
+Hydration isn't required for hemp fields.
+Moisture level 3 is required for crops to grow in farmland.
+Squid make great first day food, but expire quickly. That ocean may be cold!
