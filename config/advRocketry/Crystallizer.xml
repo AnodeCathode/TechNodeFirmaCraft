@@ -49,4 +49,13 @@
 			<itemStack>libvulpes:productboule;1;3</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="300" power ="512">
+		<input>
+			<fluidStack>gold;144</fluidStack>
+			<itemStack>firmalife:melon</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:speckled_melon</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
