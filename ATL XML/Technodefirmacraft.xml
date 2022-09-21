@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>12.2.81</version>
+        <version>12.2.82</version>
         <minecraft>1.12.2</minecraft>
     </pack>
     <loader type="forge" version="14.23.5.2860"/>
@@ -30,9 +30,9 @@
         <!-- TFC -->
         <mod name="TerraFirmaCraft" version="1.7.23.181" url="packs/TechNodefirmacraft/files/1.12.2Mods/TerraFirmaCraft-MC1.12.2-1.7.23.181.jar" file="TerraFirmaCraft-MC1.12.2-1.7.23.181.jar" md5="c72d3a7b8b8ffd2bc2352861927db907" download="server" type="mods" colour="green"/>
 
-        <mod name="TNFCMod" version="12.2.81" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.81.jar" file="TNFCMod-MC1.12.2-12.2.81.jar" md5="46fe78a47d6be93b77f2f0a9657409f0" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
+        <mod name="TNFCMod" version="12.2.82" url="packs/TechNodefirmacraft/files/1.12.2Mods/TNFCMod-MC1.12.2-12.2.82.jar" file="TNFCMod-MC1.12.2-12.2.82.jar" md5="4539196d6b7560459bb09ff9e5ec0e5c" download="server" type="mods" colour="green" website="http://github.com/anodecathode/tnfc_mod" client="yes" server="yes" recommended="yes" selected="yes"/>
 
-        <mod name="CT Scripts" version="12.2.81" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.81.zip" file="scripts.12.2.81.zip" md5="1fc5a8112a60922e1f118d1617ae9b46" download="server" extractto="root" type="extract" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes" />
+        <mod name="CT Scripts" version="12.2.82" url="packs/TechNodefirmacraft/files/1.12.2Extract/scripts.12.2.82.zip" file="scripts.12.2.82.zip" md5="b1e03bc69a389db9380859c48e07ca4a" download="server" extractto="root" type="extract" website="https://github.com/AnodeCathode/TechNodeFirmaCraft" description="CT Scripts" client="yes" server="yes" recommended="yes" selected="yes"/>
 
         <!--TFC Addons Mods -->
 

@@ -74,7 +74,9 @@ import crafttweaker.item.IIngredient;
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:white_shulker_box>, "HUGE", "VERY_HEAVY");
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:orange_shulker_box>, "HUGE", "VERY_HEAVY");
   mods.terrafirmacraft.ItemRegistry.registerItemSize(<minecraft:dragon_egg>, "HUGE", "VERY_HEAVY");
- 
+
+//new recipe for this one
+ recipes.remove(<minecraft:speckled_melon>);
  
  //Need to remove and hide all the vanilla crap we don't want to see
 mods.jei.JEI.removeAndHide(<minecraft:slime_ball>);
@@ -235,7 +237,6 @@ mods.jei.JEI.removeAndHide(<minecraft:sapling:*>);
 mods.jei.JEI.removeAndHide(<minecraft:sea_lantern>);
 mods.jei.JEI.removeAndHide(<minecraft:shears>);
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
-mods.jei.JEI.removeAndHide(<minecraft:speckled_melon>);
 mods.jei.JEI.removeAndHide(<minecraft:spectral_arrow>);
 mods.jei.JEI.removeAndHide(<minecraft:spider_eye>);
 mods.jei.JEI.removeAndHide(<minecraft:sponge:1>);
