@@ -62,10 +62,10 @@ var methanol = <liquid:methanol>;
 
 
   // tfctech rubber mix
-  Infuser.addRecipe(agent, <liquid:latex>*300, <tfctech:latex/rubber_mix>*6, 4.0, 3.0, 4.4);
+  Infuser.addRecipe(agent, <liquid:latex>*300, <tfctech:latex/rubber_mix>*6, 4.0, 3.0, 0.0);
 
   // mortar
-  Infuser.addRecipe(<ore:sand>, limewater*100, <tfc:mortar>*16, 4.0, 1.0, 5.0);
+  Infuser.addRecipe(<ore:sand>, limewater*100, <tfc:mortar>*16, 4.0, 1.0, 0.0);
 
   
 // Manufactory recipes
